@@ -29,7 +29,6 @@
     background: var(--bg);
     color: var(--text);
     font-family: 'Source Sans 3', sans-serif;
-    min-height: 100vh;
     overflow-x: hidden;
   }
 
@@ -584,11 +583,7 @@
       <!-- populated dynamically -->
     </div>
 
-    <div class="upload-btn">
-      <span id="load-status" class="ctrl-label" style="color:var(--muted);font-style:italic;"></span>
-      <label class="file-label" for="csv-file-input">Load CSV</label>
-      <input type="file" id="csv-file-input" accept=".csv" style="display:none;">
-    </div>
+    <span id="load-status" class="ctrl-label" style="margin-left:auto;color:var(--muted);font-style:italic;"></span>
   </div>
 </div>
 
@@ -626,7 +621,7 @@ const SKILL_COLORS = {
 };
 
 // ── CSV LOADING ───────────────────────────────────────────────────────────────
-const CSV_URL = 'https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/plus4-viz/main/course_skill_lookup.csv';
+const CSV_URL = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/main/course_skill_lookup.csv';
 
 function loadCSV() {
   const status = document.getElementById('load-status');
@@ -649,26 +644,7 @@ function loadCSV() {
   });
 }
 
-// Auto-load on page start (will silently fail if URL not set up yet)
-// loadCSV();
-
-// Manual CSV load for local testing
-document.getElementById('csv-file-input').addEventListener('change', e => {
-  const file = e.target.files[0];
-  if (!file) return;
-  const status = document.getElementById('load-status');
-  status.textContent = 'Loading...';
-  Papa.parse(file, {
-    header: true,
-    skipEmptyLines: true,
-    dynamicTyping: true,
-    complete: result => {
-      allData = result.data;
-      processData();
-      status.textContent = `Loaded ${result.data.length.toLocaleString()} rows`;
-    }
-  });
-});
+loadCSV();
 
 function processData() {
   if (!allData.length) return;
@@ -686,7 +662,7 @@ function processData() {
     allData[0]?.anchor_course_name || 'Weekly Course';
 
   // Meta pills
-  const uniqueCourses = [...new Set(allData.map(r => r.related_course_num).filter(Boolean))];
+  const uniqueCourses = [...new Set(allData.map(r => r.course_num_b).filter(Boolean))];
   const uniquePlayers = [...new Set(allData.map(r => r.player_name).filter(Boolean))];
   const skills        = [...new Set(allData.map(r => r.skill).filter(Boolean))];
 
@@ -706,7 +682,7 @@ function processData() {
     if (!playerMap[row.player_name]) {
       playerMap[row.player_name] = {
         name  : row.player_name,
-        salary: row.dk_salary || row.draftkings_salary || row.salary || 0,
+        salary: row.dk_price || row.dk_salary || row.draftkings_salary || row.salary || 0,
         courses: {}
       };
     }
@@ -714,11 +690,14 @@ function processData() {
     if (!playerMap[row.player_name].courses[skill]) {
       playerMap[row.player_name].courses[skill] = [];
     }
+    const r = parseFloat(row.blended_r) || 0;
+    if (Math.abs(r) <= 0.05) return;
     playerMap[row.player_name].courses[skill].push({
-      course : row.related_course_name || row.related_course_num || 'Unknown',
-      value  : parseFloat(row.avg_value) || 0,
-      r      : parseFloat(row.correlation_r) || 0,
-      p      : parseFloat(row.p_value) || 0
+      course      : row.course_name_b || row.course_num_b || 'Unknown',
+      value       : parseFloat(row.avg_value) || 0,
+      r,
+      p           : parseFloat(row.p_value) || 0,
+      event_count : parseInt(row.event_count) || 0
     });
   });
 
@@ -839,8 +818,7 @@ function buildPlayerCard(player, idx) {
   if (isSingleSkill) {
     const skill = displaySkills[0];
     const pts   = player.courses[skill] || [];
-    const score = d => Math.abs(d.r) * (1 - (d.p || 0));
-    const sorted = [...pts].sort((a, b) => score(b) - score(a));
+    const sorted = [...pts].sort((a, b) => b.event_count - a.event_count);
     const rows = sorted.map(d => {
       const sign = d.value >= 0 ? '+' : '';
       const t2 = Math.max(-1, Math.min(1, d.value / 1.5));
@@ -941,8 +919,7 @@ function drawRadar(canvasId, player, skill) {
   noDataEl.style.display = 'none';
 
   // Sort by |r| × (1 - p_value) so high correlation AND significance come first
-  const score = d => Math.abs(d.r) * (1 - (d.p || 0));
-  const sorted = [...points].sort((a, b) => score(b) - score(a));
+  const sorted = [...points].sort((a, b) => b.event_count - a.event_count);
 
   // Cap axes for readability
   const MAX_AXES = 15;
@@ -1068,6 +1045,18 @@ document.getElementById('sort-dir').addEventListener('change', e => {
   sortDir = e.target.value;
   if (players.length) renderGrid();
 });
+
+// ── IFRAME HEIGHT REPORTING ───────────────────────────────────────────────────
+function reportHeight() {
+  const h = document.documentElement.scrollHeight;
+  window.parent.postMessage({ type: 'plus4-resize', height: h }, '*');
+}
+// Report after grid renders and charts animate
+const _origRenderGrid = renderGrid;
+renderGrid = function() {
+  _origRenderGrid();
+  setTimeout(reportHeight, 600);
+};
 </script>
 </body>
 </html>

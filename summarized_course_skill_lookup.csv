@@ -1,0 +1,106 @@
+﻿skill,course_name_b,total_effective_events,blended_r
+sg_app,TPC Sawgrass (THE PLAYERS Stadium Course),200.9864094,0.522565302
+sg_app,Kasumigaseki Country Club,3.288962175,0.118672294
+sg_app,Castle Pines Golf Club,21.52086663,0.114409874
+sg_app,Oak Hill Country Club,27.98124461,0.104822887
+sg_app,Tahoe Mountain Club (Old Greenwood),50.23361155,0.09276017
+sg_app,Le Golf National,22.93887765,0.085972322
+sg_app,ACCORDIA GOLF Narashino Country Club,31.69606749,0.081462876
+sg_app,Hamilton Golf & Country Club,55.88829051,0.076467865
+sg_app,Bethpage Black,2.637892666,0.068040147
+sg_app,The Country Club of Jackson,239.9680252,0.064344428
+sg_app,Oakdale Golf & Country Club,31.54222289,0.061394535
+sg_app,The Concession Golf Club,3.629341649,0.057678224
+sg_arg,TPC Sawgrass (THE PLAYERS Stadium Course),200.9864094,0.511082541
+sg_arg,Kasumigaseki Country Club,3.288962175,0.228726121
+sg_arg,Montreux Golf & Country Club,2.61030606,0.080479711
+sg_arg,Caves Valley Golf Club,41.80136768,0.073339604
+sg_arg,The Country Club,14.56321562,0.065096003
+sg_arg,Sherwood Country Club,3.794930583,0.053490844
+sg_arg,Pebble Beach Golf Links,210.7279823,0.051214039
+sg_arg,Royal Portrush Golf Club,86.01494367,0.048925151
+sg_ott,TPC Sawgrass (THE PLAYERS Stadium Course),200.9864094,0.553224995
+sg_ott,Castle Pines Golf Club,21.52086663,0.121585785
+sg_ott,Albany GC,33.24874597,0.109140774
+sg_ott,TPC River Highlands,155.2071068,0.068785893
+sg_ott,Pinehurst Resort & Country Club (Course No. 2),54.25213913,0.066656449
+sg_ott,Ocean Course at Kiawah Island,9.10006819,0.063148618
+sg_ott,Muirfield Village Golf Club,6.934109247,0.061789905
+sg_ott,Oakdale Golf & Country Club,31.54222289,0.060082272
+sg_ott,The Riviera Country Club,147.7810964,0.059533322
+sg_ott,Shadow Creek Golf Course,3.755292277,0.054641527
+sg_ott,TPC Twin Cities,251.4437189,0.045443119
+sg_putt,TPC Sawgrass (THE PLAYERS Stadium Course),200.9864094,0.499060644
+sg_putt,Hurstbourne Country Club,84.41883545,0.11301937
+sg_putt,Tahoe Mountain Club (Old Greenwood),50.23361155,0.078717062
+sg_putt,St. Andrews Links (Old Course),14.50986604,0.078607179
+sg_putt,Shadow Creek Golf Course,3.755292277,0.077152668
+sg_putt,TPC Toronto at Osprey Valley (North Course),89.36908155,0.071777061
+sg_putt,ACCORDIA GOLF Narashino Country Club,31.69606749,0.07161556
+sg_putt,Medinah Country Club (No. 3),1.896682874,0.05605402
+sg_putt,The Renaissance Club,187.4687752,0.054993101
+sg_putt,Club de Golf Chapultepec,2.632071374,0.048175061
+sg_putt,Riyadh Golf Club,897.0768449,0.048085953
+sg_putt,Castle Pines Golf Club,21.52086663,0.043081148
+sg_putt,TPC Summerlin,137.850913,0.042979812
+sg_putt,Vidanta Vallarta,145.5934532,0.042648177
+sg_putt,Torrey Pines Golf Course (South Course),39.7329126,0.042304343
+sg_total,carnoustie,5.53951566,0.110611328
+sg_total,doha gc,5.362722607,0.075284206
+sg_total,club de campo villa de madrid,5.166285881,0.06075661
+sg_total,emirates gc,5.028780174,0.093401531
+sg_total,Raleigh Country Club,4.891274466,0.113668039
+sg_total,El Cardonal at Diamante,4.891274466,0.069080864
+sg_total,Blue Hills Country Club,4.851987121,0.057947593
+sg_total,Carolina Country Club,4.812699776,0.068115098
+sg_total,Panther Creek Country Club,4.77341243,0.120645415
+sg_total,Prince of Wales Country Club,4.675194068,0.055841056
+sg_total,Jockey Club,4.655550395,0.0700678
+sg_total,Hillcrest Country Club,4.45911367,0.084598214
+sg_total,gary player cc,4.341251634,0.074956549
+sg_total,pga national cyprus course,4.125171236,0.102482646
+sg_total,Vanderbilt Legends Club,4.007309201,0.051331016
+sg_arg,Sherwood Country Club,3.794930583,0.053490844
+sg_putt,Shadow Creek Golf Course,3.755292277,0.077152668
+sg_ott,Shadow Creek Golf Course,3.755292277,0.054641527
+sg_app,The Concession Golf Club,3.629341649,0.057678224
+sg_app,Kasumigaseki Country Club,3.288962175,0.118672294
+sg_arg,Kasumigaseki Country Club,3.288962175,0.228726121
+sg_total,karen cc,3.280493316,0.253903108
+sg_total,furesø golf klub,3.064412918,0.216125388
+sg_total,australian golf club,3.064412918,0.076174868
+sg_total,Olivos Golf Club,3.064412918,0.095739157
+sg_total,crans-sur-sierre gc,3.064412918,0.081176889
+sg_total,mount juliet estate,3.064412918,0.141041527
+sg_total,infinitum,3.064412918,0.154078552
+sg_total,stellenbosch gc,3.044769246,0.182462193
+sg_total,golfclub münchen eichenried,3.044769246,0.141779239
+sg_total,leopard creek cc,3.044769246,0.078967958
+sg_total,trump international golf links,3.044769246,0.114284997
+sg_total,jack nicklaus golf club korea,3.044769246,0.170839993
+sg_total,lake karrinyup cc,3.044769246,0.059986535
+sg_total,green eagle golf courses,3.044769246,0.075438525
+sg_total,pecanwood g&cc,3.044769246,0.092101485
+sg_total,PGA Riviera Maya,3.025125573,0.109724745
+sg_total,muthaiga gc,2.809045175,0.078524057
+sg_total,dlf g&cc player course,2.809045175,0.041101807
+sg_total,diamond cc,2.789401503,0.044732545
+sg_total,royal golf club,2.710826812,0.079399114
+sg_total,al hamra gc,2.69118314,0.132009224
+sg_app,Bethpage Black,2.637892666,0.068040147
+sg_putt,Club de Golf Chapultepec,2.632071374,0.048175061
+sg_arg,Montreux Golf & Country Club,2.61030606,0.080479711
+sg_total,abu dhabi gc,2.592964777,0.047246368
+sg_total,laguna national g&cc classic course,2.592964777,0.042123922
+sg_total,royal greens,2.592964777,0.093704836
+sg_total,Ocean Club,2.573321104,0.058337534
+sg_total,albatross golf resort,2.534033759,0.109860035
+sg_total,renaissance club,2.475102742,0.057391686
+sg_total,woo jeong hills cc,2.455459069,0.048796547
+sg_total,fire course,2.239378671,0.173308324
+sg_total,torrance course at fairmont st andrews,2.101872963,0.045735939
+sg_putt,Medinah Country Club (No. 3),1.896682874,0.05605402
+sg_total,ullna g&cc,1.532206459,0.090914421
+sg_total,montgomerie maxx royal,1.473275441,0.058973667
+sg_total,dubai creek resort,1.158976681,0.13786478
+sg_total,jumeirah golf estates,0.982183628,0.043429584

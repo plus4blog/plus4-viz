@@ -13,6 +13,14 @@ const SKILL_LABELS = {
   sg_total: 'Other Tours'
 };
 
+const SKILL_BOUNDS = {
+  sg_ott  : 2.0,
+  sg_app  : 1.5,
+  sg_arg  : 1.5,
+  sg_putt : 2.0,
+  sg_total: 2.5
+};
+
 const SKILL_COLORS = {
   sg_ott  : 'rgba(204,31,31,0.85)',
   sg_app  : 'rgba(240,180,41,0.7)',
@@ -329,7 +337,7 @@ function drawRadar(canvasId, player, skill) {
   const labels = display.map(d => truncate(d.course, 18));
   const values = display.map(d => d.value);
 
-  const bound  = skill === 'sg_total' ? 1.5 : 1.0;
+  const bound  = SKILL_BOUNDS[skill] ?? 1.5;
   const allVals = values.filter(v => isFinite(v));
   const avgVal  = allVals.reduce((a, b) => a + b, 0) / allVals.length;
 

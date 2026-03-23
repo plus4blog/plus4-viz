@@ -588,5 +588,33 @@ body.no-header .controls {
     padding-left: 0;
   }
 
+  .course-table {
+    font-size: 11px;
+  }
+
+  .course-table th {
+    font-size: 9px;
+    padding: 5px 6px;
+  }
+
+  .course-table td {
+    padding: 5px 6px;
+    white-space: normal;
+  }
+
+  .ct-course {
+    font-size: 11px;
+  }
+
+  .ct-val {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .ct-r {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
   .radar-slot { flex: 0 0 180px; }
 }

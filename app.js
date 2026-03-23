@@ -13,6 +13,14 @@ const SKILL_LABELS = {
   sg_total: 'Other Tours'
 };
 
+const SKILL_BOUNDS = {
+  sg_ott  : 2.0,
+  sg_app  : 1.5,
+  sg_arg  : 1.5,
+  sg_putt : 2.0,
+  sg_total: 2.5
+};
+
 const SKILL_COLORS = {
   sg_ott  : 'rgba(204,31,31,0.85)',
   sg_app  : 'rgba(240,180,41,0.7)',
@@ -99,6 +107,7 @@ function processData() {
 
   players = Object.values(playerMap);
   renderGrid();
+  buildBreakdown();
 }
 
 function buildGlobalSkillTabs(skills) {
@@ -329,7 +338,7 @@ function drawRadar(canvasId, player, skill) {
   const labels = display.map(d => truncate(d.course, 18));
   const values = display.map(d => d.value);
 
-  const bound  = skill === 'sg_total' ? 1.5 : 1.0;
+  const bound  = SKILL_BOUNDS[skill] ?? 1.5;
   const allVals = values.filter(v => isFinite(v));
   const avgVal  = allVals.reduce((a, b) => a + b, 0) / allVals.length;
 
@@ -416,6 +425,139 @@ document.getElementById('sort-dir').addEventListener('change', e => {
   sortDir = e.target.value;
   if (players.length) renderGrid();
 });
+
+// ── COURSE BREAKDOWN ──────────────────────────────────────────────────────────
+let breakdownSkill = null;
+let breakdownSort  = 'r';
+
+function buildBreakdown() {
+  if (!allData.length) return;
+
+  // Aggregate by (course_name_b, skill)
+  const keyMap = {};
+  allData.forEach(row => {
+    const course = row.course_name_b || row.course_num_b;
+    const skill  = row.skill;
+    if (!course || !skill) return;
+    const key = `${course}||${skill}`;
+    if (!keyMap[key]) {
+      keyMap[key] = {
+        course,
+        skill,
+        r_vals      : [],
+        p_vals      : [],
+        vintage_vals: [],
+        event_sum   : 0
+      };
+    }
+    const r = parseFloat(row.blended_r);
+    const p = parseFloat(row.p_value);
+    const v = parseFloat(row.vintage_count);
+    const e = parseInt(row.event_count) || 0;
+    if (isFinite(r)) keyMap[key].r_vals.push(r);
+    if (isFinite(p)) keyMap[key].p_vals.push(p);
+    if (isFinite(v)) keyMap[key].vintage_vals.push(v);
+    keyMap[key].event_sum += e;
+  });
+
+  let rows = Object.values(keyMap).map(d => ({
+    ...d,
+    r_avg      : d.r_vals.length       ? d.r_vals.reduce((a,b)=>a+b,0)/d.r_vals.length             : 0,
+    p_avg      : d.p_vals.length       ? d.p_vals.reduce((a,b)=>a+b,0)/d.p_vals.length             : null,
+    vintage_avg: d.vintage_vals.length ? d.vintage_vals.reduce((a,b)=>a+b,0)/d.vintage_vals.length : null
+  }));
+
+  // Build skill tabs
+  const skills = [...new Set(rows.map(r => r.skill))];
+  const order  = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
+  const ordered = [...order.filter(s => skills.includes(s)), ...skills.filter(s => !order.includes(s))];
+  const tabsEl = document.getElementById('breakdown-skill-tabs');
+  if (!tabsEl.childElementCount) {
+    const allBtn = document.createElement('button');
+    allBtn.className = 'skill-tab active';
+    allBtn.textContent = 'All';
+    allBtn.onclick = () => {
+      breakdownSkill = null;
+      tabsEl.querySelectorAll('.skill-tab').forEach(b => b.classList.remove('active'));
+      allBtn.classList.add('active');
+      renderBreakdown(rows);
+    };
+    tabsEl.appendChild(allBtn);
+    ordered.forEach(skill => {
+      const btn = document.createElement('button');
+      btn.className = 'skill-tab';
+      btn.textContent = SKILL_LABELS[skill] || skill;
+      btn.onclick = () => {
+        breakdownSkill = skill;
+        tabsEl.querySelectorAll('.skill-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        renderBreakdown(rows);
+      };
+      tabsEl.appendChild(btn);
+    });
+  }
+
+  document.getElementById('breakdown-sort').addEventListener('change', e => {
+    breakdownSort = e.target.value;
+    renderBreakdown(rows);
+  });
+
+  renderBreakdown(rows);
+}
+
+function renderBreakdown(allRows) {
+  const filtered = breakdownSkill
+    ? allRows.filter(r => r.skill === breakdownSkill)
+    : allRows;
+
+  const sorted = [...filtered].sort((a, b) => {
+    if (breakdownSort === 'r')       return Math.abs(b.r_avg) - Math.abs(a.r_avg);
+    if (breakdownSort === 'p')       return (a.p_avg ?? 1) - (b.p_avg ?? 1);
+    if (breakdownSort === 'vintage') return (b.vintage_avg ?? 0) - (a.vintage_avg ?? 0);
+    return 0;
+  });
+
+  const tbody = document.getElementById('breakdown-tbody');
+  tbody.innerHTML = sorted.map(d => {
+    const r     = d.r_avg;
+    const rSign = r >= 0 ? '+' : '';
+    const rColor = valueColor(r, 0.5);
+
+    // R bar: centre at 50%, fill proportional to |r| capped at 1
+    const rPct    = Math.min(Math.abs(r), 1) * 50;
+    const barLeft = r >= 0 ? '50%' : `${50 - rPct}%`;
+
+    const pStr = d.p_avg !== null
+      ? d.p_avg.toFixed(3)
+      : '—';
+    const pClass = d.p_avg === null ? 'p-ns'
+      : d.p_avg < 0.05  ? 'p-sig'
+      : d.p_avg < 0.10  ? 'p-trend'
+      : 'p-ns';
+
+    const skillBadgeColor = SKILL_COLORS[d.skill] || 'rgba(100,100,100,0.2)';
+
+    return `<tr>
+      <td class="bd-course">${d.course}</td>
+      <td class="bd-skill">
+        <span class="skill-badge" style="border-color:${skillBadgeColor};color:${skillBadgeColor.replace(/,[^,)]+\)$/,',1)')}">
+          ${SKILL_LABELS[d.skill] || d.skill}
+        </span>
+      </td>
+      <td class="bd-r">
+        <div class="r-bar-cell">
+          <div class="r-bar-track">
+            <div class="r-bar-fill" style="width:${rPct}%;left:${barLeft};background:${rColor};"></div>
+          </div>
+          <span style="color:${rColor}">${rSign}${r.toFixed(3)}</span>
+        </div>
+      </td>
+      <td class="bd-p"><span class="${pClass}">${pStr}</span></td>
+      <td class="bd-vintage"><span class="bd-vintage-val">${d.vintage_avg !== null ? d.vintage_avg.toFixed(1) : '—'}</span></td>
+      <td class="bd-events">${d.event_sum || '—'}</td>
+    </tr>`;
+  }).join('');
+}
 
 // ── IFRAME HEIGHT REPORTING ───────────────────────────────────────────────────
 function reportHeight() {

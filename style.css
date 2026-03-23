@@ -541,6 +541,133 @@ select:hover, select:focus { border-color: var(--accent); }
   margin-right: auto;
 }
 
+/* ── COURSE BREAKDOWN SECTION ────────────────────────────────── */
+.breakdown-wrap {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 32px 48px;
+}
+
+.breakdown-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 24px 0 14px;
+  border-top: 2px solid var(--border);
+}
+
+.breakdown-title {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.06em;
+  color: var(--text);
+  white-space: nowrap;
+  margin-right: 8px;
+}
+
+.breakdown-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.breakdown-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.breakdown-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 13px;
+}
+
+.breakdown-table thead tr {
+  background: var(--surface);
+  border-bottom: 2px solid var(--border);
+}
+
+.breakdown-table th {
+  padding: 10px 14px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.breakdown-table tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.1s;
+}
+
+.breakdown-table tbody tr:last-child { border-bottom: none; }
+.breakdown-table tbody tr:hover { background: #fafafa; }
+
+.breakdown-table td {
+  padding: 9px 14px;
+  vertical-align: middle;
+}
+
+.bd-course { color: var(--text); font-weight: 500; min-width: 180px; }
+.bd-skill  { white-space: nowrap; }
+
+.skill-badge {
+  display: inline-block;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 3px 7px;
+  border-radius: 4px;
+  background: var(--surface);
+  color: var(--muted);
+  border: 1px solid var(--border);
+}
+
+.bd-r, .bd-p, .bd-vintage, .bd-events {
+  text-align: right;
+  white-space: nowrap;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 15px;
+}
+
+.r-bar-cell {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.r-bar-track {
+  width: 60px;
+  height: 5px;
+  background: #e8e8e8;
+  border-radius: 3px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.r-bar-fill {
+  position: absolute;
+  height: 100%;
+  border-radius: 3px;
+  top: 0;
+}
+
+.p-sig   { color: #22c55e; font-weight: 600; }
+.p-trend { color: #f59e0b; }
+.p-ns    { color: var(--muted); }
+
+.bd-vintage-val { color: var(--text); }
+
 /* ── EMBED MODE (no header) ──────────────────────────────────── */
 body.no-header .header { display: none; }
 body.no-header .controls {
@@ -588,5 +715,40 @@ body.no-header .controls {
     padding-left: 0;
   }
 
+  .course-table {
+    font-size: 11px;
+  }
+
+  .course-table th {
+    font-size: 9px;
+    padding: 5px 6px;
+  }
+
+  .course-table td {
+    padding: 5px 6px;
+    white-space: normal;
+  }
+
+  .ct-course {
+    font-size: 11px;
+  }
+
+  .ct-val {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .ct-r {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
   .radar-slot { flex: 0 0 180px; }
+
+  .breakdown-wrap { padding: 0 16px 32px; }
+  .breakdown-header { flex-direction: column; align-items: flex-start; gap: 10px; }
+  .breakdown-table th, .breakdown-table td { padding: 7px 8px; }
+  .breakdown-table { font-size: 11px; }
+  .bd-course { min-width: 120px; }
+  .r-bar-track { width: 40px; }
 }

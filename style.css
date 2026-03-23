@@ -1,17 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap');
 
 :root {
-  --bg:        #ffffff;
-  --surface:   #f4f4f4;
-  --card:      #ffffff;
-  --border:    #e0e0e0;
-  --accent:    #cc1f1f;
-  --gold:      #c8960a;
-  --positive:  #22c55e;
-  --negative:  #ef4444;
-  --text:      #111111;
-  --muted:     #777777;
-  --label:     #444444;
+  /* ── Surfaces ──────────────────────────────── */
+  --bg:             #ffffff;   /* page background         */
+  --surface:        #f4f4f4;   /* controls bar background */
+  --card:           #ffffff;   /* player card background  */
+  --border:         #e0e0e0;   /* dividers & outlines     */
+
+  /* ── Brand / Accents ───────────────────────── */
+  --accent:         #cc1f1f;   /* primary red (header, buttons, upload) */
+  --gold:           #c8960a;   /* salary & secondary highlight          */
+  --filter-active:  #c8960a;   /* active skill-filter tab               */
+
+  /* ── Data Colors ───────────────────────────── */
+  --positive:       #22c55e;   /* positive strokes-gained  */
+  --negative:       #ef4444;   /* negative strokes-gained  */
+
+  /* ── Typography ────────────────────────────── */
+  --text:           #111111;   /* body copy    */
+  --muted:          #777777;   /* labels, hints */
+  --label:          #444444;   /* section labels */
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -154,8 +162,8 @@ select:hover, select:focus { border-color: var(--accent); }
   transition: all 0.15s;
 }
 
-.skill-tab:hover { border-color: var(--accent); color: var(--accent); }
-.skill-tab.active { background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 600; }
+.skill-tab:hover { border-color: var(--filter-active); color: var(--filter-active); }
+.skill-tab.active { background: var(--filter-active); border-color: var(--filter-active); color: var(--bg); font-weight: 600; }
 
 .upload-btn {
   margin-left: auto;

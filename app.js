@@ -397,7 +397,7 @@ function drawRadar(canvasId, player, skill) {
           grid: { color: 'rgba(200,200,200,0.8)' },
           angleLines: { color: 'rgba(200,200,200,0.6)' },
           pointLabels: {
-            font: { family: 'Archivo Narrow', size: 9 },
+            font: { family: 'Archivo Narrow', size: 11 },
             color: '#999999',
             padding: 4
           }

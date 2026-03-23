@@ -116,7 +116,7 @@ function buildGlobalSkillTabs(skills) {
   };
   container.appendChild(allBtn);
 
-  const order = ['sg_total','sg_ott','sg_app','sg_arg','sg_putt'];
+  const order = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
   const ordered = [...order.filter(s => skills.includes(s)), ...skills.filter(s => !order.includes(s))];
 
   ordered.forEach(skill => {
@@ -186,7 +186,7 @@ function buildPlayerCard(player, idx) {
   card.style.animationDelay = `${Math.min(idx * 30, 400)}ms`;
 
   const skills = Object.keys(player.courses);
-  const order  = ['sg_total','sg_ott','sg_app','sg_arg','sg_putt'];
+  const order  = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
   const orderedSkills = [...order.filter(s => skills.includes(s)), ...skills.filter(s => !order.includes(s))];
 
   const displaySkills = activeSkill

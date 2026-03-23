@@ -531,3 +531,47 @@ select:hover, select:focus { border-color: var(--accent); }
   margin-left: auto;
   margin-right: auto;
 }
+
+/* ── MOBILE ──────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .header { padding: 18px 16px 14px; }
+  .controls { padding: 10px 16px; }
+  .grid-wrap { padding: 16px; }
+  .player-count { padding: 0 16px; }
+
+  .player-card {
+    grid-template-columns: 1fr;
+    max-height: none;
+    min-height: 0;
+  }
+
+  .card-header {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .split-body {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .split-radar {
+    width: 100%;
+    height: 220px;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 0 0 8px 0;
+  }
+
+  .split-radar .radar-single { height: 200px; }
+  .split-radar .radar-single canvas { height: 200px !important; }
+
+  .split-table {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    padding-left: 0;
+  }
+
+  .radar-slot { flex: 0 0 180px; }
+}

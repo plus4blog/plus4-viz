@@ -231,8 +231,7 @@ function buildPlayerCard(player, idx) {
       return `<tr>
         <td class="ct-course">${d.course}</td>
         <td class="ct-val" style="color:${color}">${sign}${d.value.toFixed(3)}</td>
-        <td class="ct-r">${d.r >= 0 ? '+' : ''}${d.r.toFixed(2)}</td>
-        <td class="ct-p">${d.p !== undefined ? d.p.toFixed(3) : '—'}</td>
+        <td class="ct-r">${d.event_count ?? '—'}</td>
       </tr>`;
     }).join('');
 
@@ -250,9 +249,8 @@ function buildPlayerCard(player, idx) {
             <table class="course-table">
               <thead><tr>
                 <th>Course</th>
-                <th>Avg</th>
-                <th>r</th>
-                <th>p</th>
+                <th>Avg Over Exp</th>
+                <th>Events</th>
               </tr></thead>
               <tbody>${rows}</tbody>
             </table>

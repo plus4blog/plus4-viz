@@ -48,6 +48,38 @@
   <div class="player-grid" id="player-grid"></div>
 </div>
 
+<!-- COURSE BREAKDOWN -->
+<div class="breakdown-wrap">
+  <div class="breakdown-header">
+    <div class="breakdown-title">Course Correlations</div>
+    <div class="breakdown-controls">
+      <span class="ctrl-label">Skill</span>
+      <div class="skill-tabs" id="breakdown-skill-tabs"></div>
+      <span class="ctrl-label" style="margin-left:12px;">Sort</span>
+      <select id="breakdown-sort">
+        <option value="r">R-value</option>
+        <option value="vintage">Vintage</option>
+        <option value="p">P-value</option>
+      </select>
+    </div>
+  </div>
+  <div class="breakdown-table-wrap">
+    <table class="breakdown-table" id="breakdown-table">
+      <thead>
+        <tr>
+          <th class="bd-course">Course</th>
+          <th class="bd-skill">Skill</th>
+          <th class="bd-r">R-value</th>
+          <th class="bd-p">P-value</th>
+          <th class="bd-vintage">Vintage</th>
+          <th class="bd-events">Events</th>
+        </tr>
+      </thead>
+      <tbody id="breakdown-tbody"></tbody>
+    </table>
+  </div>
+</div>
+
 <script src="app.js"></script>
 </body>
 </html>

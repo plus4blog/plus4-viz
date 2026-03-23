@@ -532,8 +532,8 @@ select:hover, select:focus { border-color: var(--accent); }
 
 .grid-section-header {
   display: flex;
-  align-items: baseline;
-  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
   padding: 0 32px;
   margin-bottom: 4px;
   max-width: 1400px;
@@ -545,11 +545,17 @@ select:hover, select:focus { border-color: var(--accent); }
   font-size: 15px;
   font-weight: 600;
   color: var(--text);
+  margin-right: 8px;
 }
 .grid-section-sub {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 11px;
   color: var(--muted);
+}
+.grid-section-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .player-count {

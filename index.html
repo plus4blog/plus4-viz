@@ -30,11 +30,6 @@
       <option value="asc">Low → High</option>
     </select>
 
-    <span class="ctrl-label" style="margin-left:12px;">Filter skill</span>
-    <div class="skill-tabs" id="global-skill-tabs">
-      <!-- populated dynamically -->
-    </div>
-
     <span id="load-status" class="ctrl-label" style="margin-left:auto;color:var(--muted);font-style:italic;"></span>
   </div>
 </div>
@@ -72,8 +67,14 @@
 <!-- GRID -->
 <div class="grid-wrap">
   <div class="grid-section-header">
-    <span class="grid-section-title">Player–Course Fit</span>
-    <span class="grid-section-sub">+/- vs. player's base skill</span>
+    <div>
+      <span class="grid-section-title">Player–Course Fit</span>
+      <span class="grid-section-sub">+/- vs. player's base skill</span>
+    </div>
+    <div class="grid-section-controls">
+      <span class="ctrl-label">Filter skill</span>
+      <div class="skill-tabs" id="global-skill-tabs"></div>
+    </div>
   </div>
   <div class="player-count" id="player-count"></div>
 

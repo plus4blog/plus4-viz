@@ -2,24 +2,25 @@
 
 :root {
   /* ── Surfaces ──────────────────────────────── */
-  --bg:             #ffffff;   /* page background         */
-  --surface:        #f4f4f4;   /* controls bar background */
-  --card:           #ffffff;   /* player card background  */
-  --border:         #e0e0e0;   /* dividers & outlines     */
+  --bg:             #FFFFFF;   /* Base – page background          */
+  --surface:        #F7F6F1;   /* Accent 3 – controls bar, sidebars */
+  --card:           #FFFFFF;   /* Base – player card background   */
+  --border:         #e0e0e0;   /* dividers & outlines             */
 
   /* ── Brand / Accents ───────────────────────── */
-  --accent:         #cc1f1f;   /* primary red (header, buttons, upload) */
-  --gold:           #c8960a;   /* salary & secondary highlight          */
-  --filter-active:  #c8960a;   /* active skill-filter tab               */
+  --accent:         #002B6A;   /* Accent 1 – navy (header, buttons) */
+  --accent-2:       #007FE6;   /* Accent 2 – sky blue (links, highlights) */
+  --gold:           #FFCD58;   /* Accent 4 – yellow gold (salary) */
+  --filter-active:  #007FE6;   /* Accent 2 – active skill-filter tab */
 
   /* ── Data Colors ───────────────────────────── */
   --positive:       #22c55e;   /* positive strokes-gained  */
   --negative:       #ef4444;   /* negative strokes-gained  */
 
   /* ── Typography ────────────────────────────── */
-  --text:           #111111;   /* body copy    */
-  --muted:          #777777;   /* labels, hints */
-  --label:          #444444;   /* section labels */
+  --text:           #11181F;   /* Contrast – body copy  */
+  --muted:          #6b7c93;   /* muted labels, hints   */
+  --label:          #3a4a5c;   /* section labels        */
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -33,7 +34,7 @@ body {
 
 /* ── HEADER ─────────────────────────────────────────────────── */
 .header {
-  background: linear-gradient(135deg, #1a0000 0%, #cc1f1f 50%, #8b0000 100%);
+  background: linear-gradient(135deg, #001540 0%, #002B6A 55%, #007FE6 100%);
   border-bottom: 1px solid var(--border);
   padding: 28px 32px 24px;
   position: relative;
@@ -217,7 +218,7 @@ select:hover, select:focus { border-color: var(--accent); }
 }
 
 .player-card:hover {
-  border-color: rgba(204,31,31,0.4);
+  border-color: rgba(0,127,230,0.4);
   box-shadow: 0 4px 20px rgba(0,0,0,0.10);
 }
 
@@ -232,7 +233,7 @@ select:hover, select:focus { border-color: var(--accent); }
   justify-content: flex-start;
   padding: 16px 14px;
   border-right: 1px solid var(--border);
-  background: #f9f9f9;
+  background: var(--surface);
   gap: 8px;
   overflow-y: auto;
 }

@@ -532,6 +532,12 @@ select:hover, select:focus { border-color: var(--accent); }
   margin-right: auto;
 }
 
+/* ── EMBED MODE (no header) ──────────────────────────────────── */
+body.no-header .header { display: none; }
+body.no-header .controls {
+  border-top: none;
+}
+
 /* ── MOBILE ──────────────────────────────────────────────────── */
 @media (max-width: 600px) {
   .header { padding: 18px 16px 14px; }

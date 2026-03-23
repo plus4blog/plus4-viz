@@ -10,7 +10,7 @@ const SKILL_LABELS = {
   sg_app  : 'Approach',
   sg_arg  : 'Around Green',
   sg_putt : 'Putting',
-  sg_total: 'Total'
+  sg_total: 'Other Tours'
 };
 
 const SKILL_COLORS = {
@@ -20,6 +20,11 @@ const SKILL_COLORS = {
   sg_putt : 'rgba(168,85,247,0.7)',
   sg_total: 'rgba(249,115,22,0.7)'
 };
+
+// ── EMBED MODE ────────────────────────────────────────────────────────────────
+if (new URLSearchParams(location.search).get('embed')) {
+  document.body.classList.add('no-header');
+}
 
 // ── CSV LOADING ───────────────────────────────────────────────────────────────
 const CSV_URL = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/main/data/course_skill_lookup.csv';

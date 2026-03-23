@@ -22,7 +22,7 @@ const SKILL_COLORS = {
 };
 
 // ── CSV LOADING ───────────────────────────────────────────────────────────────
-const CSV_URL = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/main/course_skill_lookup.csv';
+const CSV_URL = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/main/data/course_skill_lookup.csv';
 
 function loadCSV() {
   const status = document.getElementById('load-status');

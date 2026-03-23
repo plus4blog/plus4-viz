@@ -379,8 +379,8 @@ function drawRadar(canvasId, player, skill) {
           borderWidth: 1,
           titleColor: '#111111',
           bodyColor: '#555555',
-          titleFont: { family: 'DM Mono', size: 11 },
-          bodyFont:  { family: 'DM Mono', size: 11 },
+          titleFont: { family: 'IBM Plex Sans', size: 11 },
+          bodyFont:  { family: 'IBM Plex Sans', size: 11 },
           callbacks: {
             title: items => display[items[0].dataIndex]?.course || '',
             label: item  => {
@@ -399,7 +399,7 @@ function drawRadar(canvasId, player, skill) {
           grid: { color: 'rgba(200,200,200,0.8)' },
           angleLines: { color: 'rgba(200,200,200,0.6)' },
           pointLabels: {
-            font: { family: 'DM Sans', size: 9 },
+            font: { family: 'Archivo Narrow', size: 9 },
             color: '#999999',
             padding: 4
           }

@@ -446,23 +446,25 @@ function buildBreakdown() {
         skill,
         r_vals      : [],
         p_vals      : [],
-        vintage     : row.vintage_count || 0,
-        event_count : row.event_count   || 0
+        vintage_vals: [],
+        event_sum   : 0
       };
     }
     const r = parseFloat(row.blended_r);
     const p = parseFloat(row.p_value);
+    const v = parseFloat(row.vintage_count);
+    const e = parseInt(row.event_count) || 0;
     if (isFinite(r)) keyMap[key].r_vals.push(r);
     if (isFinite(p)) keyMap[key].p_vals.push(p);
-    // vintage_count is course-level — keep max
-    keyMap[key].vintage     = Math.max(keyMap[key].vintage, row.vintage_count || 0);
-    keyMap[key].event_count = Math.max(keyMap[key].event_count, row.event_count || 0);
+    if (isFinite(v)) keyMap[key].vintage_vals.push(v);
+    keyMap[key].event_sum += e;
   });
 
   let rows = Object.values(keyMap).map(d => ({
     ...d,
-    r_avg: d.r_vals.length ? d.r_vals.reduce((a,b)=>a+b,0)/d.r_vals.length : 0,
-    p_avg: d.p_vals.length ? d.p_vals.reduce((a,b)=>a+b,0)/d.p_vals.length : null
+    r_avg      : d.r_vals.length       ? d.r_vals.reduce((a,b)=>a+b,0)/d.r_vals.length             : 0,
+    p_avg      : d.p_vals.length       ? d.p_vals.reduce((a,b)=>a+b,0)/d.p_vals.length             : null,
+    vintage_avg: d.vintage_vals.length ? d.vintage_vals.reduce((a,b)=>a+b,0)/d.vintage_vals.length : null
   }));
 
   // Build skill tabs
@@ -511,7 +513,7 @@ function renderBreakdown(allRows) {
   const sorted = [...filtered].sort((a, b) => {
     if (breakdownSort === 'r')       return Math.abs(b.r_avg) - Math.abs(a.r_avg);
     if (breakdownSort === 'p')       return (a.p_avg ?? 1) - (b.p_avg ?? 1);
-    if (breakdownSort === 'vintage') return b.vintage - a.vintage;
+    if (breakdownSort === 'vintage') return (b.vintage_avg ?? 0) - (a.vintage_avg ?? 0);
     return 0;
   });
 
@@ -551,8 +553,8 @@ function renderBreakdown(allRows) {
         </div>
       </td>
       <td class="bd-p"><span class="${pClass}">${pStr}</span></td>
-      <td class="bd-vintage"><span class="bd-vintage-val">${d.vintage || '—'}</span></td>
-      <td class="bd-events">${d.event_count || '—'}</td>
+      <td class="bd-vintage"><span class="bd-vintage-val">${d.vintage_avg !== null ? d.vintage_avg.toFixed(1) : '—'}</span></td>
+      <td class="bd-events">${d.event_sum || '—'}</td>
     </tr>`;
   }).join('');
 }

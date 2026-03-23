@@ -116,7 +116,7 @@ function buildGlobalSkillTabs(skills) {
   };
   container.appendChild(allBtn);
 
-  const order = ['sg_total','sg_ott','sg_app','sg_arg','sg_putt'];
+  const order = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
   const ordered = [...order.filter(s => skills.includes(s)), ...skills.filter(s => !order.includes(s))];
 
   ordered.forEach(skill => {
@@ -186,7 +186,7 @@ function buildPlayerCard(player, idx) {
   card.style.animationDelay = `${Math.min(idx * 30, 400)}ms`;
 
   const skills = Object.keys(player.courses);
-  const order  = ['sg_total','sg_ott','sg_app','sg_arg','sg_putt'];
+  const order  = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
   const orderedSkills = [...order.filter(s => skills.includes(s)), ...skills.filter(s => !order.includes(s))];
 
   const displaySkills = activeSkill
@@ -231,8 +231,7 @@ function buildPlayerCard(player, idx) {
       return `<tr>
         <td class="ct-course">${d.course}</td>
         <td class="ct-val" style="color:${color}">${sign}${d.value.toFixed(3)}</td>
-        <td class="ct-r">${d.r >= 0 ? '+' : ''}${d.r.toFixed(2)}</td>
-        <td class="ct-p">${d.p !== undefined ? d.p.toFixed(3) : '—'}</td>
+        <td class="ct-r">${d.event_count ?? '—'}</td>
       </tr>`;
     }).join('');
 
@@ -250,9 +249,8 @@ function buildPlayerCard(player, idx) {
             <table class="course-table">
               <thead><tr>
                 <th>Course</th>
-                <th>Avg</th>
-                <th>r</th>
-                <th>p</th>
+                <th>Avg Over Exp</th>
+                <th>Events</th>
               </tr></thead>
               <tbody>${rows}</tbody>
             </table>
@@ -379,8 +377,8 @@ function drawRadar(canvasId, player, skill) {
           borderWidth: 1,
           titleColor: '#111111',
           bodyColor: '#555555',
-          titleFont: { family: 'DM Mono', size: 11 },
-          bodyFont:  { family: 'DM Mono', size: 11 },
+          titleFont: { family: 'IBM Plex Sans', size: 11 },
+          bodyFont:  { family: 'IBM Plex Sans', size: 11 },
           callbacks: {
             title: items => display[items[0].dataIndex]?.course || '',
             label: item  => {
@@ -399,7 +397,7 @@ function drawRadar(canvasId, player, skill) {
           grid: { color: 'rgba(200,200,200,0.8)' },
           angleLines: { color: 'rgba(200,200,200,0.6)' },
           pointLabels: {
-            font: { family: 'DM Sans', size: 9 },
+            font: { family: 'Archivo Narrow', size: 11 },
             color: '#999999',
             padding: 4
           }

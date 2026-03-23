@@ -1,17 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
 
 :root {
-  --bg:        #ffffff;
-  --surface:   #f4f4f4;
-  --card:      #ffffff;
-  --border:    #e0e0e0;
-  --accent:    #cc1f1f;
-  --gold:      #c8960a;
-  --positive:  #22c55e;
-  --negative:  #ef4444;
-  --text:      #111111;
-  --muted:     #777777;
-  --label:     #444444;
+  /* ── Surfaces ──────────────────────────────── */
+  --bg:             #FFFFFF;   /* Base – page background          */
+  --surface:        #F7F6F1;   /* Accent 3 – controls bar, sidebars */
+  --card:           #FFFFFF;   /* Base – player card background   */
+  --border:         #e0e0e0;   /* dividers & outlines             */
+
+  /* ── Brand / Accents ───────────────────────── */
+  --accent:         #002B6A;   /* Accent 1 – navy (header, buttons) */
+  --accent-2:       #007FE6;   /* Accent 2 – sky blue (links, highlights) */
+  --gold:           #FFCD58;   /* Accent 4 – yellow gold (salary) */
+  --filter-active:  #007FE6;   /* Accent 2 – active skill-filter tab */
+
+  /* ── Data Colors ───────────────────────────── */
+  --positive:       #22c55e;   /* positive strokes-gained  */
+  --negative:       #ef4444;   /* negative strokes-gained  */
+
+  /* ── Typography ────────────────────────────── */
+  --text:           #11181F;   /* Contrast – body copy  */
+  --muted:          #6b7c93;   /* muted labels, hints   */
+  --label:          #3a4a5c;   /* section labels        */
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -19,13 +28,13 @@
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   overflow-x: hidden;
 }
 
 /* ── HEADER ─────────────────────────────────────────────────── */
 .header {
-  background: linear-gradient(135deg, #1a0000 0%, #cc1f1f 50%, #8b0000 100%);
+  background: linear-gradient(135deg, #001540 0%, #002B6A 55%, #007FE6 100%);
   border-bottom: 1px solid var(--border);
   padding: 28px 32px 24px;
   position: relative;
@@ -52,7 +61,7 @@ body {
 
 .course-label {
   color: rgba(255,255,255,0.8) !important;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 10px;
   letter-spacing: 0.25em;
   text-transform: uppercase;
@@ -61,7 +70,7 @@ body {
 
 .course-name {
   color: #ffffff !important;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Archivo Narrow', sans-serif;
   font-size: clamp(36px, 5vw, 64px);
   letter-spacing: 0.03em;
   line-height: 1;
@@ -78,7 +87,7 @@ body {
   color: rgba(255,255,255,0.7) !important;
   background: rgba(255,255,255,0.1) !important;
   border-color: rgba(255,255,255,0.2) !important;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 11px;
   border: 1px solid var(--border);
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
@@ -123,7 +132,7 @@ select, input[type="file"] {
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   border-radius: 6px;
   color: var(--text);
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 13px;
   padding: 7px 12px;
   cursor: pointer;
@@ -140,7 +149,7 @@ select:hover, select:focus { border-color: var(--accent); }
 }
 
 .skill-tab {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 10px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -154,8 +163,8 @@ select:hover, select:focus { border-color: var(--accent); }
   transition: all 0.15s;
 }
 
-.skill-tab:hover { border-color: var(--accent); color: var(--accent); }
-.skill-tab.active { background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 600; }
+.skill-tab:hover { border-color: var(--filter-active); color: var(--filter-active); }
+.skill-tab.active { background: var(--filter-active); border-color: var(--filter-active); color: var(--bg); font-weight: 600; }
 
 .upload-btn {
   margin-left: auto;
@@ -168,7 +177,7 @@ select:hover, select:focus { border-color: var(--accent); }
   display: inline-block;
   background: var(--accent);
   color: #ffffff;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 11px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -209,7 +218,7 @@ select:hover, select:focus { border-color: var(--accent); }
 }
 
 .player-card:hover {
-  border-color: rgba(204,31,31,0.4);
+  border-color: rgba(0,127,230,0.4);
   box-shadow: 0 4px 20px rgba(0,0,0,0.10);
 }
 
@@ -224,13 +233,13 @@ select:hover, select:focus { border-color: var(--accent); }
   justify-content: flex-start;
   padding: 16px 14px;
   border-right: 1px solid var(--border);
-  background: #f9f9f9;
+  background: var(--surface);
   gap: 8px;
   overflow-y: auto;
 }
 
 .player-name {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Archivo Narrow', sans-serif;
   font-size: 26px;
   letter-spacing: 0.04em;
   line-height: 1;
@@ -252,14 +261,14 @@ select:hover, select:focus { border-color: var(--accent); }
 
 .skill-summary-name {
   color: var(--muted);
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
 
 .skill-summary-val {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Archivo Narrow', sans-serif;
   font-size: 15px;
   letter-spacing: 0.05em;
 }
@@ -287,7 +296,7 @@ select:hover, select:focus { border-color: var(--accent); }
   text-align: right;
   margin-top: -2px;
   margin-bottom: 4px;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   letter-spacing: 0.04em;
 }
 
@@ -346,7 +355,7 @@ select:hover, select:focus { border-color: var(--accent); }
 .course-table {
   width: 100%;
   border-collapse: collapse;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 13px;
 }
 
@@ -378,12 +387,12 @@ select:hover, select:focus { border-color: var(--accent); }
 }
 
 .ct-course { color: var(--text); font-weight: 500; width: 100%; white-space: normal; }
-.ct-val    { font-family: 'Bebas Neue', sans-serif; font-size: 15px; text-align: right; }
+.ct-val    { font-family: 'Archivo Narrow', sans-serif; font-size: 15px; text-align: right; }
 .ct-r      { color: var(--muted); text-align: right; font-size: 12px; }
 .ct-p      { color: var(--muted); text-align: right; font-size: 12px; }
 
 .dk-salary {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 13px;
   color: var(--gold);
   font-weight: 500;
@@ -404,7 +413,7 @@ select:hover, select:focus { border-color: var(--accent); }
 }
 
 .card-skill-btn {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 9px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -451,7 +460,7 @@ select:hover, select:focus { border-color: var(--accent); }
 }
 
 .radar-skill-label {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Archivo Narrow', sans-serif;
   font-size: 13px;
   letter-spacing: 0.08em;
   color: var(--muted);
@@ -467,7 +476,7 @@ select:hover, select:focus { border-color: var(--accent); }
   height: 220px;
   color: var(--muted);
   font-size: 12px;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   letter-spacing: 0.1em;
 }
 
@@ -479,7 +488,7 @@ select:hover, select:focus { border-color: var(--accent); }
 }
 
 .state-msg h2 {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Archivo Narrow', sans-serif;
   font-size: 32px;
   letter-spacing: 0.05em;
   color: var(--label);
@@ -513,7 +522,7 @@ select:hover, select:focus { border-color: var(--accent); }
 }
 
 .upload-cta {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 11px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -522,7 +531,7 @@ select:hover, select:focus { border-color: var(--accent); }
 }
 
 .player-count {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 11px;
   color: var(--muted);
   padding: 0 32px;

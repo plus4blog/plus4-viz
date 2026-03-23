@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg:        #ffffff;
+  --surface:   #f4f4f4;
+  --card:      #ffffff;
+  --border:    #e0e0e0;
+  --accent:    #cc1f1f;
+  --gold:      #c8960a;
+  --positive:  #22c55e;
+  --negative:  #ef4444;
+  --text:      #111111;
+  --muted:     #777777;
+  --label:     #444444;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Source Sans 3', sans-serif;
+  overflow-x: hidden;
+}
+
+/* ── HEADER ─────────────────────────────────────────────────── */
+.header {
+  background: linear-gradient(135deg, #1a0000 0%, #cc1f1f 50%, #8b0000 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 28px 32px 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 60% 80% at 80% 50%, rgba(255,255,255,0.07) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.header-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.course-label {
+  color: rgba(255,255,255,0.8) !important;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.course-name {
+  color: #ffffff !important;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(36px, 5vw, 64px);
+  letter-spacing: 0.03em;
+  line-height: 1;
+}
+
+.course-meta {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.meta-pill {
+  color: rgba(255,255,255,0.7) !important;
+  background: rgba(255,255,255,0.1) !important;
+  border-color: rgba(255,255,255,0.2) !important;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+
+.meta-pill span { color: var(--accent); font-weight: 500; }
+
+/* ── CONTROLS ────────────────────────────────────────────────── */
+.controls {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 14px 32px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.controls-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ctrl-label {
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+select, input[type="file"] {
+  background: var(--card);
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-radius: 6px;
+  color: var(--text);
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 13px;
+  padding: 7px 12px;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+select:hover, select:focus { border-color: var(--accent); }
+
+.skill-tabs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.skill-tab {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.skill-tab:hover { border-color: var(--accent); color: var(--accent); }
+.skill-tab.active { background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 600; }
+
+.upload-btn {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.file-label {
+  display: inline-block;
+  background: var(--accent);
+  color: #ffffff;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 7px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.file-label:hover { opacity: 0.85; }
+
+/* ── GRID ────────────────────────────────────────────────────── */
+.grid-wrap {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 28px 32px;
+}
+
+.player-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ── PLAYER CARD ─────────────────────────────────────────────── */
+.player-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  animation: fadeUp 0.4s ease both;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  min-height: 320px;
+  max-height: 320px;
+}
+
+.player-card:hover {
+  border-color: rgba(204,31,31,0.4);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 16px 14px;
+  border-right: 1px solid var(--border);
+  background: #f9f9f9;
+  gap: 8px;
+  overflow-y: auto;
+}
+
+.player-name {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 26px;
+  letter-spacing: 0.04em;
+  line-height: 1;
+}
+
+.skill-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.skill-summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.skill-summary-name {
+  color: var(--muted);
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.skill-summary-val {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+}
+
+.skill-bar-wrap {
+  flex: 1;
+  height: 4px;
+  background: #e8e8e8;
+  border-radius: 2px;
+  margin: 0 8px;
+  overflow: visible;
+  position: relative;
+}
+
+.skill-bar {
+  position: absolute;
+  height: 100%;
+  border-radius: 2px;
+  top: 0;
+}
+
+.skill-course-count {
+  font-size: 10px;
+  color: var(--muted);
+  text-align: right;
+  margin-top: -2px;
+  margin-bottom: 4px;
+  font-family: 'Source Sans 3', sans-serif;
+  letter-spacing: 0.04em;
+}
+
+/* ── SPLIT LAYOUT (single skill mode) ──────────────────────── */
+.split-body {
+  display: flex;
+  width: 100%;
+  height: 270px;
+}
+
+.split-radar {
+  width: 50%;
+  height: 270px;
+  border-right: 1px solid var(--border);
+  padding: 0 8px 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.split-radar .radar-skill-label {
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.split-radar .radar-single {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.split-radar .radar-single canvas {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100% !important;
+  height: 250px !important;
+}
+
+.split-table {
+  width: 50%;
+  height: 270px;
+  padding-left: 8px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ── COURSE TABLE (single skill mode) ───────────────────────── */
+.course-table-wrap {
+  width: 100%;
+  height: 250px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-top: 1px solid var(--border);
+}
+
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 13px;
+}
+
+.course-table thead tr {
+  border-bottom: 2px solid var(--border);
+}
+
+.course-table th {
+  text-align: left;
+  padding: 6px 10px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.course-table tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.1s;
+}
+
+.course-table tbody tr:hover { background: #fafafa; }
+
+.course-table td {
+  padding: 6px 10px;
+  white-space: nowrap;
+}
+
+.ct-course { color: var(--text); font-weight: 500; width: 100%; white-space: normal; }
+.ct-val    { font-family: 'Bebas Neue', sans-serif; font-size: 15px; text-align: right; }
+.ct-r      { color: var(--muted); text-align: right; font-size: 12px; }
+.ct-p      { color: var(--muted); text-align: right; font-size: 12px; }
+
+.dk-salary {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 13px;
+  color: var(--gold);
+  font-weight: 500;
+}
+
+.card-body {
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 0;
+  flex: 1;
+}
+
+/* ── SKILL TABS ON CARD — hidden, all 5 shown at once ──────── */
+.card-skill-tabs {
+  display: none;
+}
+
+.card-skill-btn {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.12s;
+}
+
+.card-skill-btn:hover { border-color: var(--accent); color: var(--accent); }
+.card-skill-btn.active { background: rgba(204,31,31,0.15); border-color: var(--accent); color: var(--accent); }
+
+.radar-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 8px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  flex: 1;
+}
+
+.radar-wrap::-webkit-scrollbar { height: 4px; }
+.radar-wrap::-webkit-scrollbar-track { background: #f0f0f0; border-radius: 2px; }
+.radar-wrap::-webkit-scrollbar-thumb { background: #d0d0d0; border-radius: 2px; }
+
+.radar-slot {
+  flex: 0 0 220px;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.radar-single {
+  position: relative;
+  height: 200px;
+  flex: 1;
+}
+
+.radar-skill-label {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  text-align: center;
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+
+.no-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  color: var(--muted);
+  font-size: 12px;
+  font-family: 'Source Sans 3', sans-serif;
+  letter-spacing: 0.1em;
+}
+
+/* ── EMPTY / LOADING STATES ──────────────────────────────────── */
+.state-msg {
+  text-align: center;
+  padding: 80px 32px;
+  color: var(--muted);
+}
+
+.state-msg h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.05em;
+  color: var(--label);
+  margin-bottom: 10px;
+}
+
+.state-msg p {
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.upload-area {
+  border: 2px dashed var(--border);
+  border-radius: 12px;
+  padding: 48px 32px;
+  text-align: center;
+  margin: 48px auto;
+  max-width: 480px;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.upload-area:hover { border-color: var(--accent); }
+
+.upload-icon {
+  font-size: 36px;
+  margin-bottom: 12px;
+  opacity: 0.5;
+}
+
+.upload-cta {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-top: 8px;
+}
+
+.player-count {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  color: var(--muted);
+  padding: 0 32px;
+  margin-bottom: -12px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}

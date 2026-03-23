@@ -611,6 +611,22 @@ select:hover, select:focus { border-color: var(--accent); }
 .breakdown-table tbody tr:last-child { border-bottom: none; }
 .breakdown-table tbody tr:hover { background: #fafafa; }
 
+.bd-show-more-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 0;
+  background: none;
+  border: none;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.bd-show-more-btn:hover { background: #fafafa; color: var(--text); }
+
 .breakdown-table td {
   padding: 9px 14px;
   vertical-align: middle;

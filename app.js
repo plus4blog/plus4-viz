@@ -502,39 +502,38 @@ function buildBreakdown() {
     renderBreakdown(rows);
   });
 
-  renderBreakdown(rows);
+  renderBreakdownRows(rows);
 }
 
+const BREAKDOWN_PAGE_SIZE = 15;
+let breakdownShowAll = false;
+
 function renderBreakdown(allRows) {
+  breakdownShowAll = false;
+  renderBreakdownRows(allRows);
+}
+
+function renderBreakdownRows(allRows) {
   const filtered = breakdownSkill
     ? allRows.filter(r => r.skill === breakdownSkill)
     : allRows;
 
   const sorted = [...filtered].sort((a, b) => {
     if (breakdownSort === 'r')       return Math.abs(b.r_avg) - Math.abs(a.r_avg);
-    if (breakdownSort === 'p')       return (a.p_avg ?? 1) - (b.p_avg ?? 1);
     if (breakdownSort === 'vintage') return (b.vintage_avg ?? 0) - (a.vintage_avg ?? 0);
     return 0;
   });
 
+  const visible = breakdownShowAll ? sorted : sorted.slice(0, BREAKDOWN_PAGE_SIZE);
+  const remaining = sorted.length - BREAKDOWN_PAGE_SIZE;
+
   const tbody = document.getElementById('breakdown-tbody');
-  tbody.innerHTML = sorted.map(d => {
-    const r     = d.r_avg;
-    const rSign = r >= 0 ? '+' : '';
+  tbody.innerHTML = visible.map(d => {
+    const r      = d.r_avg;
+    const rSign  = r >= 0 ? '+' : '';
     const rColor = valueColor(r, 0.5);
-
-    // R bar: centre at 50%, fill proportional to |r| capped at 1
-    const rPct    = Math.min(Math.abs(r), 1) * 50;
+    const rPct   = Math.min(Math.abs(r), 1) * 50;
     const barLeft = r >= 0 ? '50%' : `${50 - rPct}%`;
-
-    const pStr = d.p_avg !== null
-      ? d.p_avg.toFixed(3)
-      : '—';
-    const pClass = d.p_avg === null ? 'p-ns'
-      : d.p_avg < 0.05  ? 'p-sig'
-      : d.p_avg < 0.10  ? 'p-trend'
-      : 'p-ns';
-
     const skillBadgeColor = SKILL_COLORS[d.skill] || 'rgba(100,100,100,0.2)';
 
     return `<tr>
@@ -552,11 +551,25 @@ function renderBreakdown(allRows) {
           <span style="color:${rColor}">${rSign}${r.toFixed(3)}</span>
         </div>
       </td>
-      <td class="bd-p"><span class="${pClass}">${pStr}</span></td>
-      <td class="bd-vintage"><span class="bd-vintage-val">${d.vintage_avg !== null ? d.vintage_avg.toFixed(1) : '—'}</span></td>
+      <td class="bd-vintage"><span class="bd-vintage-val">${d.vintage_avg !== null ? Math.round(d.vintage_avg) : '—'}</span></td>
       <td class="bd-events">${d.event_sum || '—'}</td>
     </tr>`;
   }).join('');
+
+  const existingBtn = document.getElementById('bd-show-more');
+  if (existingBtn) existingBtn.remove();
+
+  if (!breakdownShowAll && remaining > 0) {
+    const btn = document.createElement('button');
+    btn.id = 'bd-show-more';
+    btn.className = 'bd-show-more-btn';
+    btn.textContent = `Show ${remaining} more`;
+    btn.onclick = () => {
+      breakdownShowAll = true;
+      renderBreakdownRows(allRows);
+    };
+    document.getElementById('breakdown-table').after(btn);
+  }
 }
 
 // ── IFRAME HEIGHT REPORTING ───────────────────────────────────────────────────

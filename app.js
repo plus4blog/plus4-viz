@@ -128,6 +128,24 @@ function buildGlobalSkillTabs(skills) {
   });
 }
 
+// ── INTERSECTION OBSERVER (lazy chart rendering) ──────────────────────────────
+let cardObserver = null;
+
+function setupCardObserver() {
+  if (cardObserver) cardObserver.disconnect();
+  cardObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      const card = entry.target;
+      const pending = card._pendingCharts;
+      if (!pending) return;
+      delete card._pendingCharts;
+      cardObserver.unobserve(card);
+      pending.forEach(({ id, player, skill }) => drawRadar(id, player, skill));
+    });
+  }, { rootMargin: '200px' });
+}
+
 // ── RENDER GRID ───────────────────────────────────────────────────────────────
 function renderGrid() {
   document.getElementById('empty-state').style.display = 'none';
@@ -142,12 +160,15 @@ function renderGrid() {
   Object.values(chartInstances).forEach(c => c.destroy());
   chartInstances = {};
 
+  setupCardObserver();
+
   const grid = document.getElementById('player-grid');
   grid.innerHTML = '';
 
   sorted.forEach((player, idx) => {
     const card = buildPlayerCard(player, idx);
     grid.appendChild(card);
+    cardObserver.observe(card);
   });
 
   setTimeout(reportHeight, 600);
@@ -259,15 +280,11 @@ function buildPlayerCard(player, idx) {
     </div>
   `;
 
-  setTimeout(() => {
-    if (isSingleSkill) {
-      drawRadar(`${idx}-0`, player, displaySkills[0]);
-    } else {
-      displaySkills.forEach((skill, si) => {
-        drawRadar(`${idx}-${si}`, player, skill);
-      });
-    }
-  }, 0);
+  const pendingCharts = isSingleSkill
+    ? [{ id: `${idx}-0`, player, skill: displaySkills[0] }]
+    : displaySkills.map((skill, si) => ({ id: `${idx}-${si}`, player, skill }));
+
+  card._pendingCharts = pendingCharts;
 
   return card;
 }

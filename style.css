@@ -231,11 +231,13 @@ select:hover, select:focus { border-color: var(--accent); }
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 16px 14px;
+  padding: 12px 12px;
   border-right: 1px solid var(--border);
   background: var(--surface);
-  gap: 8px;
+  gap: 6px;
   overflow-y: auto;
+  min-height: 0;
+  height: 100%;
 }
 
 .player-name {
@@ -243,6 +245,9 @@ select:hover, select:focus { border-color: var(--accent); }
   font-size: 26px;
   letter-spacing: 0.04em;
   line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card-header-top {
@@ -284,8 +289,8 @@ select:hover, select:focus { border-color: var(--accent); }
 .skill-summary {
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  margin-top: 4px;
+  gap: 3px;
+  margin-top: 2px;
 }
 
 .skill-summary-row {
@@ -330,8 +335,8 @@ select:hover, select:focus { border-color: var(--accent); }
   font-size: 10px;
   color: var(--muted);
   text-align: right;
-  margin-top: -2px;
-  margin-bottom: 4px;
+  margin-top: -1px;
+  margin-bottom: 2px;
   font-family: 'IBM Plex Sans', sans-serif;
   letter-spacing: 0.04em;
 }
@@ -427,7 +432,7 @@ select:hover, select:focus { border-color: var(--accent); }
   white-space: nowrap;
 }
 
-.ct-course { color: var(--text); font-weight: 500; width: 100%; white-space: normal; }
+.ct-course { color: var(--text); font-weight: 500; width: 100%; white-space: normal; text-transform: uppercase; }
 .ct-val    { font-family: 'Archivo Narrow', sans-serif; font-size: 15px; text-align: right; }
 .ct-r      { color: var(--muted); text-align: right; font-size: 12px; }
 .ct-p      { color: var(--muted); text-align: right; font-size: 12px; }
@@ -582,10 +587,11 @@ select:hover, select:focus { border-color: var(--accent); }
   margin-right: auto;
 }
 .grid-section-title {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.06em;
   color: var(--text);
+  white-space: nowrap;
   margin-right: 8px;
 }
 .grid-section-sub {
@@ -640,6 +646,7 @@ select:hover, select:focus { border-color: var(--accent); }
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
+  margin-left: auto;
 }
 
 .breakdown-table-wrap {
@@ -701,7 +708,7 @@ select:hover, select:focus { border-color: var(--accent); }
   vertical-align: middle;
 }
 
-.bd-course { color: var(--text); font-weight: 500; min-width: 180px; }
+.bd-course { color: var(--text); font-weight: 500; min-width: 180px; text-transform: uppercase; }
 .bd-skill  { white-space: nowrap; }
 
 .skill-badge {
@@ -753,11 +760,8 @@ select:hover, select:focus { border-color: var(--accent); }
 
 .bd-vintage-val { color: var(--text); }
 
-/* ── EMBED MODE (no header) ──────────────────────────────────── */
-body.no-header .header { display: none; }
-body.no-header .controls {
-  border-top: none;
-}
+/* ── EMBED MODE ──────────────────────────────────────────────── */
+/* header always visible */
 
 /* ── MOBILE ──────────────────────────────────────────────────── */
 @media (max-width: 600px) {

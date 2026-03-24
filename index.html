@@ -21,6 +21,26 @@
   </div>
 </div>
 
+<!-- INTRO CALLOUT -->
+<div class="intro-callout">
+  <div class="intro-callout-inner">
+    <button class="callout-toggle" id="intro-toggle" aria-expanded="true" onclick="toggleCallout('intro')">
+      <span>How this works</span>
+      <svg class="callout-chevron" id="intro-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <div class="callout-body" id="intro-body">
+      <p>Our model identifies corollary courses — venues that share playing characteristics with how this week's target course is expected to play — and uses a player's history at those analogues to infer likely performance here. Correlations are built at the individual skill level, so the model captures how each course independently rewards specific traits: Bermuda putting, left-to-right ball flight, scrambling from tight lies, grinding through deep rough.</p>
+      <p style="margin-top:10px;"><strong>Why this matters:</strong></p>
+      <ul style="margin-top:6px;padding-left:18px;line-height:1.7;">
+        <li><strong>No course history? No problem:</strong> Over a third of the field may never have played the target course. Corollary courses give us a signal where none previously existed.</li>
+        <li style="margin-top:6px;"><strong>Go beyond the eye test:</strong> "Who's won here before" biases toward winners and elite players. This surfaces value across the whole field.</li>
+        <li style="margin-top:6px;"><strong>A deeper analysis:</strong> Si Woo Kim's affinity for Pete Dye courses shows. Faders of the golf ball can rise and fall. Players who love Florida tend to love Hawaii — and the greats of Texas courses can handle wind-laden coastal tracks.</li>
+        <li style="margin-top:6px;"><strong>Not all years are equal:</strong> Dustin Johnson's 2020 Masters wasn't like any other Masters. Our model profiles this week's course against current meteorological forecasts and expected playing conditions — then differentially weights vintages of the target course accordingly.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 <!-- COURSE BREAKDOWN -->
 <div class="breakdown-wrap">
   <div class="breakdown-header">
@@ -83,11 +103,48 @@
   </div>
   <div class="player-count" id="player-count"></div>
 
+  <!-- PLAYER-FIT CALLOUT -->
+  <div class="intro-callout intro-callout--inline">
+    <div class="intro-callout-inner">
+      <button class="callout-toggle" id="fit-toggle" aria-expanded="false" onclick="toggleCallout('fit')">
+        <span>How to read the player cards</span>
+        <svg class="callout-chevron" id="fit-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="callout-body" id="fit-body" style="display:none;">
+        <p>Each card shows a player's strokes gained above or below their moment-in-time baseline at the courses that correlate with this week's venue. The spider chart plots per-course values across up to 15 analogues for each skill — points further from center mean stronger historical performance. Use the Skill filters above to isolate a single category: this displays a ranked-course table alongside the chart, so you can see exactly which venues are driving a player's fit score.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- COURSE FIT SCORE CALLOUT -->
+  <div class="intro-callout intro-callout--inline">
+    <div class="intro-callout-inner">
+      <button class="callout-toggle" id="score-toggle" aria-expanded="false" onclick="toggleCallout('score')">
+        <span>Plus4's proprietary Course Fit Score</span>
+        <svg class="callout-chevron" id="score-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="callout-body" id="score-body" style="display:none;">
+        <p>The score answers one question: does this player perform better or worse than their own baseline at courses like this one? Recent history counts more than old history, thin samples are penalized, and skills are weighted by their expected contribution to total performance. The result is a single number — strokes above or below baseline — that tells you who will outperform their baseline this week.</p>
+      </div>
+    </div>
+  </div>
+
   <div id="empty-state" style="display:none;"></div>
 
   <div class="player-grid" id="player-grid"></div>
 </div>
 
 <script src="app.js"></script>
+<script>
+function toggleCallout(id) {
+  const body    = document.getElementById(id + '-body');
+  const chevron = document.getElementById(id + '-chevron');
+  const btn     = document.getElementById(id + '-toggle');
+  const open    = body.style.display !== 'none';
+  body.style.display = open ? 'none' : 'block';
+  chevron.style.transform = open ? 'rotate(-90deg)' : 'rotate(0deg)';
+  btn.setAttribute('aria-expanded', String(!open));
+}
+</script>
 </body>
 </html>

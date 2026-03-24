@@ -338,13 +338,9 @@ function buildPlayerCard(player, idx) {
 
   card.innerHTML = `
     <div class="card-header">
-      <div class="card-header-top">
-        <div>
-          <div class="player-name">${player.name}</div>
-          <div class="dk-salary">${salaryStr}</div>
-        </div>
-        ${projStatsHTML}
-      </div>
+      <div class="player-name">${player.name}</div>
+      <div class="dk-salary">${salaryStr}</div>
+      ${projStatsHTML}
       <div class="skill-summary">${skillSummaryHTML}</div>
     </div>
     <div class="card-body">
@@ -394,9 +390,15 @@ function drawRadar(canvasId, player, skill) {
 
   const sorted  = [...points].sort((a, b) => b.event_count - a.event_count);
   const MAX_AXES = 15;
-  const display  = sorted.slice(0, MAX_AXES);
+  const MIN_AXES = 3;
+  const raw     = sorted.slice(0, MAX_AXES);
 
-  const labels = display.map(d => truncate(d.course, 18));
+  // Pad to at least MIN_AXES spokes with empty placeholders
+  const display = raw.length >= MIN_AXES
+    ? raw
+    : [...raw, ...Array(MIN_AXES - raw.length).fill({ course: '', value: 0, r: 0, event_count: 0 })];
+
+  const labels = display.map(d => d.course ? wrapLabel(d.course, 14) : ['']);
   const values = display.map(d => d.value);
 
   const bound  = SKILL_BOUNDS[skill] ?? 1.5;
@@ -453,9 +455,11 @@ function drawRadar(canvasId, player, skill) {
             title: items => display[items[0].dataIndex]?.course || '',
             label: item  => {
               const d = display[item.dataIndex];
+              if (!d.course) return '';
               const sign = d.value >= 0 ? '+' : '';
               return `${sign}${d.value.toFixed(3)}  (r=${d.r.toFixed(2)})`;
-            }
+            },
+            filter: item => !!display[item.dataIndex]?.course
           }
         }
       },
@@ -468,7 +472,7 @@ function drawRadar(canvasId, player, skill) {
           angleLines: { color: 'rgba(200,200,200,0.6)' },
           pointLabels: {
             font: { family: 'Archivo Narrow', size: 11 },
-            color: '#999999',
+            color: ctx => ctx.label?.[0] === '' ? 'transparent' : '#999999',
             padding: 4
           }
         }
@@ -479,6 +483,23 @@ function drawRadar(canvasId, player, skill) {
 
 function truncate(str, n) {
   return str && str.length > n ? str.slice(0, n - 1) + '…' : str;
+}
+
+function wrapLabel(str, maxChars) {
+  if (!str) return [''];
+  const words = str.split(' ');
+  const lines = [];
+  let line = '';
+  for (const word of words) {
+    if (line && (line + ' ' + word).length > maxChars) {
+      lines.push(line);
+      line = word;
+    } else {
+      line = line ? line + ' ' + word : word;
+    }
+  }
+  if (line) lines.push(line);
+  return lines;
 }
 
 // ── SORT CONTROL ──────────────────────────────────────────────────────────────

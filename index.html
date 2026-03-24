@@ -21,9 +21,21 @@
   </div>
 </div>
 
-<!-- INTRO CALLOUT -->
-<div class="intro-callout intro-callout--inline">
+<!-- COURSE CORRELATIONS BAR -->
+<div class="intro-callout">
   <div class="intro-callout-inner">
+    <div class="breakdown-header" style="border-top:none;padding-top:16px;">
+      <div class="breakdown-title">Course Correlations</div>
+      <div class="breakdown-controls">
+        <span class="ctrl-label">Skill filters</span>
+        <div class="skill-tabs" id="breakdown-skill-tabs"></div>
+        <span class="ctrl-label" style="margin-left:12px;">Sort</span>
+        <select id="breakdown-sort">
+          <option value="r">R-value</option>
+          <option value="vintage">Vintage</option>
+        </select>
+      </div>
+    </div>
     <button class="callout-toggle" id="intro-toggle" aria-expanded="true" onclick="toggleCallout('intro')">
       <span>How this works</span>
       <svg class="callout-chevron" id="intro-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -41,20 +53,8 @@
   </div>
 </div>
 
-<!-- COURSE BREAKDOWN -->
-<div class="breakdown-wrap">
-  <div class="breakdown-header">
-    <div class="breakdown-title">Course Correlations</div>
-    <div class="breakdown-controls">
-      <span class="ctrl-label">Skill filters</span>
-      <div class="skill-tabs" id="breakdown-skill-tabs"></div>
-      <span class="ctrl-label" style="margin-left:12px;">Sort</span>
-      <select id="breakdown-sort">
-        <option value="r">R-value</option>
-        <option value="vintage">Vintage</option>
-      </select>
-    </div>
-  </div>
+<!-- COURSE BREAKDOWN TABLE -->
+<div class="breakdown-wrap" style="padding-top:0;">
   <div class="breakdown-table-wrap">
     <table class="breakdown-table" id="breakdown-table">
       <thead>
@@ -89,48 +89,40 @@
   </div>
 </div>
 
+<!-- PLAYER-COURSE FIT BAR -->
+<div class="intro-callout">
+  <div class="intro-callout-inner">
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;padding-top:16px;padding-bottom:4px;">
+      <div>
+        <span class="grid-section-title">Player–Course Fit</span>
+        <span class="grid-section-sub">+/- vs. player's base skill</span>
+      </div>
+      <div class="grid-section-controls">
+        <span class="ctrl-label">Skill filters</span>
+        <div class="skill-tabs" id="global-skill-tabs"></div>
+      </div>
+    </div>
+    <div class="player-count" id="player-count" style="padding:0;max-width:none;margin-left:0;margin-right:0;"></div>
+    <button class="callout-toggle" id="fit-toggle" aria-expanded="false" onclick="toggleCallout('fit')">
+      <span>How to read the player cards</span>
+      <svg class="callout-chevron" id="fit-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <div class="callout-body" id="fit-body" style="display:none;">
+      <p>Each card shows a player's strokes gained above or below their moment-in-time baseline at the courses that correlate with this week's venue. The spider chart plots per-course values across up to 15 analogues for each skill — points further from center mean stronger historical performance. Use the Skill filters above to isolate a single category: this displays a ranked-course table alongside the chart, so you can see exactly which venues are driving a player's fit score.</p>
+    </div>
+    <button class="callout-toggle" id="score-toggle" aria-expanded="false" onclick="toggleCallout('score')">
+      <span>Plus4's proprietary Course Fit Score</span>
+      <svg class="callout-chevron" id="score-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <div class="callout-body" id="score-body" style="display:none;">
+      <p>The score answers one question: does this player perform better or worse than their own baseline at courses like this one? Recent history counts more than old history, thin samples are penalized, and skills are weighted by their expected contribution to total performance. The result is a single number — strokes above or below baseline — that tells you who will outperform their baseline this week.</p>
+    </div>
+  </div>
+</div>
+
 <!-- GRID -->
-<div class="grid-wrap">
-  <div class="grid-section-header">
-    <div>
-      <span class="grid-section-title">Player–Course Fit</span>
-      <span class="grid-section-sub">+/- vs. player's base skill</span>
-    </div>
-    <div class="grid-section-controls">
-      <span class="ctrl-label">Skill filters</span>
-      <div class="skill-tabs" id="global-skill-tabs"></div>
-    </div>
-  </div>
-  <div class="player-count" id="player-count"></div>
-
-  <!-- PLAYER-FIT CALLOUT -->
-  <div class="intro-callout intro-callout--inline">
-    <div class="intro-callout-inner">
-      <button class="callout-toggle" id="fit-toggle" aria-expanded="false" onclick="toggleCallout('fit')">
-        <span>How to read the player cards</span>
-        <svg class="callout-chevron" id="fit-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </button>
-      <div class="callout-body" id="fit-body" style="display:none;">
-        <p>Each card shows a player's strokes gained above or below their moment-in-time baseline at the courses that correlate with this week's venue. The spider chart plots per-course values across up to 15 analogues for each skill — points further from center mean stronger historical performance. Use the Skill filters above to isolate a single category: this displays a ranked-course table alongside the chart, so you can see exactly which venues are driving a player's fit score.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- COURSE FIT SCORE CALLOUT -->
-  <div class="intro-callout intro-callout--inline">
-    <div class="intro-callout-inner">
-      <button class="callout-toggle" id="score-toggle" aria-expanded="false" onclick="toggleCallout('score')">
-        <span>Plus4's proprietary Course Fit Score</span>
-        <svg class="callout-chevron" id="score-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </button>
-      <div class="callout-body" id="score-body" style="display:none;">
-        <p>The score answers one question: does this player perform better or worse than their own baseline at courses like this one? Recent history counts more than old history, thin samples are penalized, and skills are weighted by their expected contribution to total performance. The result is a single number — strokes above or below baseline — that tells you who will outperform their baseline this week.</p>
-      </div>
-    </div>
-  </div>
-
+<div class="grid-wrap" style="padding-top:16px;">
   <div id="empty-state" style="display:none;"></div>
-
   <div class="player-grid" id="player-grid"></div>
 </div>
 

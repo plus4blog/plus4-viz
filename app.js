@@ -265,7 +265,7 @@ function buildPlayerCard(player, idx) {
         </div>
         <span class="skill-summary-val" style="color:${color}">${sign}${avg.toFixed(2)}</span>
       </div>
-      <div class="skill-course-count">${courseCount} course${courseCount !== 1 ? 's' : ''}</div>`;
+      <div class="skill-course-count">${courseCount <= 2 ? '<span class="limited-data-warn" title="Limited data">⚠</span> ' : ''}${courseCount} course${courseCount !== 1 ? 's' : ''}</div>`;
   }).join('');
 
   const isSingleSkill = displaySkills.length === 1;

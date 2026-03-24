@@ -336,6 +336,11 @@ select:hover, select:focus { border-color: var(--accent); }
   letter-spacing: 0.04em;
 }
 
+.limited-data-warn {
+  color: #f0a500;
+  font-style: normal;
+}
+
 /* ── SPLIT LAYOUT (single skill mode) ──────────────────────── */
 .split-body {
   display: flex;

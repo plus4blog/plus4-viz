@@ -245,6 +245,43 @@ select:hover, select:focus { border-color: var(--accent); }
   line-height: 1;
 }
 
+.card-header-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.proj-stats {
+  display: flex;
+  gap: 14px;
+  flex-shrink: 0;
+  align-items: flex-start;
+  padding-top: 2px;
+}
+
+.proj-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 1.2;
+}
+
+.proj-label {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+.proj-val {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+}
+
 .skill-summary {
   display: flex;
   flex-direction: column;
@@ -736,6 +773,9 @@ body.no-header .controls {
     border-bottom: 1px solid var(--border);
   }
 
+  .proj-stats { gap: 10px; }
+  .proj-val { font-size: 12px; }
+
   .split-body {
     flex-direction: column;
     height: auto;
@@ -795,4 +835,7 @@ body.no-header .controls {
   .breakdown-table { font-size: 11px; }
   .bd-course { min-width: 120px; }
   .r-bar-track { width: 40px; }
+
+  .grid-section-header { flex-direction: column; align-items: flex-start; gap: 8px; padding: 0 16px; }
+  .grid-wrap { padding-top: 24px; }
 }

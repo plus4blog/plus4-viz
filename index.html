@@ -21,6 +21,19 @@
   </div>
 </div>
 
+<!-- INTRO CALLOUT -->
+<div class="intro-callout">
+  <div class="intro-callout-inner">
+    <button class="callout-toggle" id="intro-toggle" aria-expanded="true" onclick="toggleCallout('intro')">
+      <span>How this works</span>
+      <svg class="callout-chevron" id="intro-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <div class="callout-body" id="intro-body">
+      <p>Each week we identify which courses on tour most closely resemble this week's venue — based on shared player history and strokes-gained patterns. The <strong>Course Correlations</strong> table shows how strongly each comparable course predicts performance here, broken down by skill. Below, the <strong>Player–Course Fit</strong> grid shows how each DFS-eligible player has historically performed at those correlated courses, relative to their baseline skill level.</p>
+    </div>
+  </div>
+</div>
+
 <!-- COURSE BREAKDOWN -->
 <div class="breakdown-wrap">
   <div class="breakdown-header">
@@ -83,11 +96,35 @@
   </div>
   <div class="player-count" id="player-count"></div>
 
+  <!-- PLAYER-FIT CALLOUT -->
+  <div class="intro-callout intro-callout--inline">
+    <div class="intro-callout-inner">
+      <button class="callout-toggle" id="fit-toggle" aria-expanded="false" onclick="toggleCallout('fit')">
+        <span>How to read the player cards</span>
+        <svg class="callout-chevron" id="fit-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="callout-body" id="fit-body" style="display:none;">
+        <p>Each card shows a player's <strong>average strokes gained above or below their own baseline</strong> at courses that correlate with this week's venue. The spider charts plot per-course performance across up to 15 comparable courses — points further from center are more positive. Use the skill filters above to isolate a specific category and see the ranked course table alongside each chart.</p>
+      </div>
+    </div>
+  </div>
+
   <div id="empty-state" style="display:none;"></div>
 
   <div class="player-grid" id="player-grid"></div>
 </div>
 
 <script src="app.js"></script>
+<script>
+function toggleCallout(id) {
+  const body    = document.getElementById(id + '-body');
+  const chevron = document.getElementById(id + '-chevron');
+  const btn     = document.getElementById(id + '-toggle');
+  const open    = body.style.display !== 'none';
+  body.style.display = open ? 'none' : 'block';
+  chevron.style.transform = open ? 'rotate(-90deg)' : 'rotate(0deg)';
+  btn.setAttribute('aria-expanded', String(!open));
+}
+</script>
 </body>
 </html>

@@ -36,11 +36,11 @@
         </select>
       </div>
     </div>
-    <button class="callout-toggle" id="intro-toggle" aria-expanded="true" onclick="toggleCallout('intro')">
+    <button class="callout-toggle" id="intro-toggle" aria-expanded="false" onclick="toggleCallout('intro')">
       <span>How this works</span>
       <svg class="callout-chevron" id="intro-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </button>
-    <div class="callout-body" id="intro-body">
+    <div class="callout-body" id="intro-body" style="display:none;">
       <p>Our model identifies corollary courses — venues that share playing characteristics with how this week's target course is expected to play — and uses a player's history at those analogues to infer likely performance here. Correlations are built at the individual skill level, so the model captures how each course independently rewards specific traits: Bermuda putting, left-to-right ball flight, scrambling from tight lies, grinding through deep rough.</p>
       <p style="margin-top:10px;"><strong>Why this matters:</strong></p>
       <ul style="margin-top:6px;padding-left:18px;line-height:1.7;">
@@ -54,7 +54,7 @@
 </div>
 
 <!-- COURSE BREAKDOWN TABLE -->
-<div class="breakdown-wrap" style="padding-top:0;">
+<div class="breakdown-wrap" style="padding-top:16px;">
   <div class="breakdown-table-wrap">
     <table class="breakdown-table" id="breakdown-table">
       <thead>

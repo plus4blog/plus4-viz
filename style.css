@@ -95,7 +95,7 @@ body {
   padding: 4px 10px;
 }
 
-.meta-pill span { color: var(--accent); font-weight: 500; }
+.meta-pill span { color: #ffffff; font-weight: 600; }
 
 /* ── CONTROLS ────────────────────────────────────────────────── */
 .controls {

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Course Correlations</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<style>
+  body { background: var(--bg); margin: 0; padding: 0; }
+  .embed-wrap { padding: 0 0 16px; }
+  .embed-status {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 11px;
+    color: var(--muted);
+    font-style: italic;
+    padding: 8px 32px 0;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+</style>
+</head>
+<body>
+
+<div class="embed-wrap">
+  <div class="breakdown-wrap">
+    <div class="breakdown-header">
+      <div class="breakdown-title">Course Correlations</div>
+      <div class="breakdown-controls">
+        <span class="ctrl-label">Skill</span>
+        <div class="skill-tabs" id="breakdown-skill-tabs"></div>
+        <span class="ctrl-label" style="margin-left:12px;">Sort</span>
+        <select id="breakdown-sort">
+          <option value="r">R-value</option>
+          <option value="vintage">Vintage</option>
+        </select>
+      </div>
+    </div>
+    <div class="breakdown-table-wrap">
+      <table class="breakdown-table" id="breakdown-table">
+        <thead>
+          <tr>
+            <th class="bd-course">Course</th>
+            <th class="bd-skill">Skill</th>
+            <th class="bd-r">R-value</th>
+            <th class="bd-vintage">Vintage</th>
+            <th class="bd-events">Events</th>
+          </tr>
+        </thead>
+        <tbody id="breakdown-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+  <div class="embed-status" id="embed-status"></div>
+</div>
+
+<script src="correlations-embed.js"></script>
+</body>
+</html>

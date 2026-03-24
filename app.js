@@ -1,7 +1,9 @@
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let allData      = [];    // raw parsed rows
-let players      = [];    // [{name, salary, courses: {skill -> [{course, value, r}]}}]
+let projData     = {};    // player_name -> {course_fit_score, projected_sg_total}
+let players      = [];    // [{name, salary, courses, proj_rank, projected_sg_total, course_fit_score}]
 let activeSkill  = null;  // skill shown in global filter (null = all)
+let sortBy       = 'salary';
 let sortDir      = 'desc';
 let chartInstances = {};  // canvasId -> Chart instance
 
@@ -35,26 +37,41 @@ if (new URLSearchParams(location.search).get('embed')) {
 }
 
 // ── CSV LOADING ───────────────────────────────────────────────────────────────
-const CSV_URL = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/main/data/course_skill_lookup.csv';
+const CSV_URL  = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/main/data/course_skill_lookup.csv';
+const PROJ_URL = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/main/data/player_projections.csv';
 
 function loadCSV() {
   const status = document.getElementById('load-status');
   status.textContent = 'Loading data...';
 
+  let coursesDone = false, projDone = false;
+
+  function tryProcess() {
+    if (!coursesDone || !projDone) return;
+    processData();
+    status.textContent = `Updated ${new Date().toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'})}`;
+  }
+
   Papa.parse(CSV_URL, {
-    download: true,
-    header: true,
-    skipEmptyLines: true,
-    dynamicTyping: true,
+    download: true, header: true, skipEmptyLines: true, dynamicTyping: true,
+    complete: result => { allData = result.data; coursesDone = true; tryProcess(); },
+    error: err => { status.textContent = 'Failed to load data'; console.error(err); }
+  });
+
+  Papa.parse(PROJ_URL, {
+    download: true, header: true, skipEmptyLines: true, dynamicTyping: true,
     complete: result => {
-      allData = result.data;
-      processData();
-      status.textContent = `Updated ${new Date().toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'})}`;
+      projData = {};
+      result.data.forEach(row => {
+        if (row.player_name) projData[row.player_name] = {
+          course_fit_score  : row.course_fit_score != null ? parseFloat(row.course_fit_score) : null,
+          projected_sg_total: row.projected_sg_total != null ? parseFloat(row.projected_sg_total) : null
+        };
+      });
+      projDone = true;
+      tryProcess();
     },
-    error: err => {
-      status.textContent = 'Failed to load data';
-      console.error('CSV fetch error:', err);
-    }
+    error: err => { projDone = true; tryProcess(); console.error('Projections fetch error:', err); }
   });
 }
 
@@ -105,7 +122,25 @@ function processData() {
     });
   });
 
-  players = Object.values(playerMap);
+  // Merge projection data and compute ranks by projected_sg_total
+  const projRankMap = {};
+  Object.entries(projData)
+    .filter(([, v]) => v.projected_sg_total != null)
+    .sort(([, a], [, b]) => b.projected_sg_total - a.projected_sg_total)
+    .forEach(([name], i) => { projRankMap[name] = i + 1; });
+
+  players = Object.values(playerMap).map(p => {
+    const proj = projData[p.name] || null;
+    const hasFit = proj && proj.course_fit_score != null && proj.course_fit_score !== 0;
+    return {
+      ...p,
+      projected_sg_total: proj?.projected_sg_total ?? null,
+      course_fit_score  : proj?.course_fit_score ?? null,
+      proj_rank         : projRankMap[p.name] ?? null,
+      hasFit
+    };
+  });
+
   renderGrid();
   buildBreakdown();
 }
@@ -164,12 +199,18 @@ function setupCardObserver() {
 function renderGrid() {
   document.getElementById('empty-state').style.display = 'none';
 
+  const getValue = p => {
+    if (sortBy === 'sg_total')    return p.projected_sg_total ?? -Infinity;
+    if (sortBy === 'course_fit')  return p.course_fit_score   ?? -Infinity;
+    return p.salary ?? 0;
+  };
   const sorted = [...players].sort((a, b) =>
-    sortDir === 'desc' ? b.salary - a.salary : a.salary - b.salary
+    sortDir === 'desc' ? getValue(b) - getValue(a) : getValue(a) - getValue(b)
   );
 
+  const sortLabel = { salary: 'DraftKings salary', sg_total: 'projected SG Total', course_fit: 'Course Fit score' };
   document.getElementById('player-count').textContent =
-    `${sorted.length} players · sorted by DraftKings salary`;
+    `${sorted.length} players · sorted by ${sortLabel[sortBy]}`;
 
   Object.values(chartInstances).forEach(c => c.destroy());
   chartInstances = {};
@@ -278,11 +319,31 @@ function buildPlayerCard(player, idx) {
     bodyContent = `<div class="radar-wrap">${radarSlotsHTML}</div>`;
   }
 
+  // Projection stats row
+  const hasFit    = player.course_fit_score != null && player.course_fit_score !== 0;
+  const fitVal    = hasFit ? player.course_fit_score : null;
+  const sgVal     = (hasFit && player.projected_sg_total != null) ? player.projected_sg_total : null;
+  const rankStr   = player.proj_rank  != null ? `#${player.proj_rank}` : '—';
+  const sgStr     = sgVal  != null ? (sgVal  >= 0 ? '+' : '') + sgVal.toFixed(2)  : 'N/A';
+  const fitStr    = fitVal != null ? (fitVal >= 0 ? '+' : '') + fitVal.toFixed(3) : '—';
+  const sgColor   = sgVal  != null ? valueColor(sgVal,  2.0) : 'var(--muted)';
+  const fitColor  = fitVal != null ? valueColor(fitVal, 0.3) : 'var(--muted)';
+
+  const projStatsHTML = `
+    <div class="proj-stats">
+      <span class="proj-stat"><span class="proj-label">Rank</span><span class="proj-val">${rankStr}</span></span>
+      <span class="proj-stat"><span class="proj-label">SG Total</span><span class="proj-val" style="color:${sgColor}">${sgStr}</span></span>
+      <span class="proj-stat"><span class="proj-label">Course Fit</span><span class="proj-val" style="color:${fitColor}">${fitStr}</span></span>
+    </div>`;
+
   card.innerHTML = `
     <div class="card-header">
-      <div>
-        <div class="player-name">${player.name}</div>
-        <div class="dk-salary">${salaryStr}</div>
+      <div class="card-header-top">
+        <div>
+          <div class="player-name">${player.name}</div>
+          <div class="dk-salary">${salaryStr}</div>
+        </div>
+        ${projStatsHTML}
       </div>
       <div class="skill-summary">${skillSummaryHTML}</div>
     </div>
@@ -421,6 +482,11 @@ function truncate(str, n) {
 }
 
 // ── SORT CONTROL ──────────────────────────────────────────────────────────────
+document.getElementById('sort-by').addEventListener('change', e => {
+  sortBy = e.target.value;
+  if (players.length) renderGrid();
+});
+
 document.getElementById('sort-dir').addEventListener('change', e => {
   sortDir = e.target.value;
   if (players.length) renderGrid();

@@ -31,11 +31,6 @@ const SKILL_COLORS = {
   sg_total: 'rgba(249,115,22,0.7)'
 };
 
-// ── EMBED MODE ────────────────────────────────────────────────────────────────
-if (new URLSearchParams(location.search).get('embed')) {
-  document.body.classList.add('no-header');
-}
-
 // ── CSV LOADING ───────────────────────────────────────────────────────────────
 const CSV_URL  = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/main/data/course_skill_lookup.csv';
 const PROJ_URL = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/main/data/player_projections.csv';
@@ -471,7 +466,7 @@ function drawRadar(canvasId, player, skill) {
           grid: { color: 'rgba(200,200,200,0.8)' },
           angleLines: { color: 'rgba(200,200,200,0.6)' },
           pointLabels: {
-            font: { family: 'Archivo Narrow', size: 11 },
+            font: { family: 'Archivo Narrow', size: 11, lineHeight: 0.9 },
             color: ctx => ctx.label?.[0] === '' ? 'transparent' : '#999999',
             padding: 4
           }
@@ -487,6 +482,7 @@ function truncate(str, n) {
 
 function wrapLabel(str, maxChars) {
   if (!str) return [''];
+  str = str.toUpperCase();
   const words = str.split(' ');
   const lines = [];
   let line = '';

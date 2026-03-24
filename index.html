@@ -21,30 +21,12 @@
   </div>
 </div>
 
-<!-- CONTROLS -->
-<div class="controls">
-  <div class="controls-inner">
-    <span class="ctrl-label">Sort by</span>
-    <select id="sort-by">
-      <option value="salary">Salary</option>
-      <option value="sg_total">SG Total</option>
-      <option value="course_fit">Course Fit</option>
-    </select>
-    <select id="sort-dir">
-      <option value="desc">High → Low</option>
-      <option value="asc">Low → High</option>
-    </select>
-
-    <span id="load-status" class="ctrl-label" style="margin-left:auto;color:var(--muted);font-style:italic;"></span>
-  </div>
-</div>
-
 <!-- COURSE BREAKDOWN -->
 <div class="breakdown-wrap">
   <div class="breakdown-header">
     <div class="breakdown-title">Course Correlations</div>
     <div class="breakdown-controls">
-      <span class="ctrl-label">Skill</span>
+      <span class="ctrl-label">Skill filters</span>
       <div class="skill-tabs" id="breakdown-skill-tabs"></div>
       <span class="ctrl-label" style="margin-left:12px;">Sort</span>
       <select id="breakdown-sort">
@@ -69,6 +51,24 @@
   </div>
 </div>
 
+<!-- CONTROLS -->
+<div class="controls">
+  <div class="controls-inner">
+    <span class="ctrl-label">Sort by</span>
+    <select id="sort-by">
+      <option value="salary">Salary</option>
+      <option value="sg_total">SG Total</option>
+      <option value="course_fit">Course Fit</option>
+    </select>
+    <select id="sort-dir">
+      <option value="desc">High → Low</option>
+      <option value="asc">Low → High</option>
+    </select>
+
+    <span id="load-status" class="ctrl-label" style="margin-left:auto;color:var(--muted);font-style:italic;"></span>
+  </div>
+</div>
+
 <!-- GRID -->
 <div class="grid-wrap">
   <div class="grid-section-header">
@@ -77,7 +77,7 @@
       <span class="grid-section-sub">+/- vs. player's base skill</span>
     </div>
     <div class="grid-section-controls">
-      <span class="ctrl-label">Filter skill</span>
+      <span class="ctrl-label">Skill filters</span>
       <div class="skill-tabs" id="global-skill-tabs"></div>
     </div>
   </div>

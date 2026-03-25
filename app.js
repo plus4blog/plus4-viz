@@ -685,29 +685,31 @@ function renderBreakdown(allRows) {
   renderBreakdownRows(allRows);
 }
 
+const COURSE_FIT_SKILLS = new Set(['sg_ott','sg_app','sg_arg','sg_putt','sg_total']);
+
 function renderBreakdownRows(allRows) {
   const filtered = breakdownSkill
     ? allRows.filter(r => r.skill === breakdownSkill)
     : allRows;
 
-  const sorted = [...filtered].sort((a, b) => {
+  const sortFn = (a, b) => {
     if (breakdownSort === 'r')       return Math.abs(b.r_avg) - Math.abs(a.r_avg);
     if (breakdownSort === 'vintage') return (b.vintage_avg ?? 0) - (a.vintage_avg ?? 0);
     return 0;
-  });
+  };
 
-  const visible = breakdownShowAll ? sorted : sorted.slice(0, BREAKDOWN_PAGE_SIZE);
+  const useGroups = !breakdownSkill;
+  const sorted    = [...filtered].sort(sortFn);
   const remaining = sorted.length - BREAKDOWN_PAGE_SIZE;
+  const visible   = breakdownShowAll ? sorted : sorted.slice(0, BREAKDOWN_PAGE_SIZE);
 
-  const tbody = document.getElementById('breakdown-tbody');
-  tbody.innerHTML = visible.map(d => {
+  function dataRow(d) {
     const r      = d.r_avg;
     const rSign  = r >= 0 ? '+' : '';
     const rColor = valueColor(r, 0.5);
     const rPct   = Math.min(Math.abs(r), 1) * 50;
     const barLeft = r >= 0 ? '50%' : `${50 - rPct}%`;
     const skillBadgeColor = SKILL_COLORS[d.skill] || 'rgba(100,100,100,0.2)';
-
     return `<tr>
       <td class="bd-course">${d.course}</td>
       <td class="bd-skill">
@@ -726,7 +728,15 @@ function renderBreakdownRows(allRows) {
       <td class="bd-vintage"><span class="bd-vintage-val">${d.vintage_avg !== null ? Math.round(d.vintage_avg) : '—'}</span></td>
       <td class="bd-events">${d.shared_players ?? '—'}</td>
     </tr>`;
-  }).join('');
+  }
+
+  const tbody = document.getElementById('breakdown-tbody');
+  if (!useGroups) {
+    tbody.innerHTML = visible.map(dataRow).join('');
+  } else {
+    const header = `<tr class="bd-group-header"><td colspan="5">Course Fit Components</td></tr>`;
+    tbody.innerHTML = header + visible.map(dataRow).join('');
+  }
 
   const existingBtn = document.getElementById('bd-show-more');
   if (existingBtn) existingBtn.remove();

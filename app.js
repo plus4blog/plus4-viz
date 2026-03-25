@@ -615,20 +615,21 @@ function buildBreakdown() {
       keyMap[key] = {
         course,
         skill,
-        r_vals      : [],
-        p_vals      : [],
-        vintage_vals: [],
-        event_sum   : 0
+        r_vals        : [],
+        p_vals        : [],
+        vintage_vals  : [],
+        shared_players: null
       };
     }
     const r = parseFloat(row.blended_r);
     const p = parseFloat(row.p_value);
     const v = parseFloat(row.vintage_count);
-    const e = parseInt(row.event_count) || 0;
+    const s = parseInt(row.shared_players);
     if (isFinite(r)) keyMap[key].r_vals.push(r);
     if (isFinite(p)) keyMap[key].p_vals.push(p);
     if (isFinite(v)) keyMap[key].vintage_vals.push(v);
-    keyMap[key].event_sum += e;
+    if (!isNaN(s) && (keyMap[key].shared_players === null || s > keyMap[key].shared_players))
+      keyMap[key].shared_players = s;
   });
 
   let rows = Object.values(keyMap).map(d => ({
@@ -723,7 +724,7 @@ function renderBreakdownRows(allRows) {
         </div>
       </td>
       <td class="bd-vintage"><span class="bd-vintage-val">${d.vintage_avg !== null ? Math.round(d.vintage_avg) : '—'}</span></td>
-      <td class="bd-events">${d.event_sum || '—'}</td>
+      <td class="bd-events">${d.shared_players ?? '—'}</td>
     </tr>`;
   }).join('');
 

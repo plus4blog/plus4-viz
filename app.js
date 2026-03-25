@@ -249,8 +249,11 @@ function buildPlayerTable(sorted) {
     ? (allSkills.includes(activeSkill) ? [activeSkill] : [])
     : [...SKILL_ORDER.filter(s => allSkills.includes(s)), ...allSkills.filter(s => !SKILL_ORDER.includes(s))];
 
-  const skillHeaders = displaySkills.map(s =>
-    `<th class="pt-skill">${SKILL_SHORT[s] || s}</th>`).join('');
+  const skillSubHeaders = displaySkills.map(s =>
+    `<th class="pt-skill pt-skill-sub">${SKILL_SHORT[s] || s}</th>`).join('');
+  const skillGroupHeader = displaySkills.length
+    ? `<th class="pt-skill-group" colspan="${displaySkills.length}">Course Fit Components</th>`
+    : '';
 
   const rows = sorted.map(player => {
     const salaryStr = player.salary ? '$' + Number(player.salary).toLocaleString() : '—';
@@ -287,12 +290,15 @@ function buildPlayerTable(sorted) {
     <table class="player-table">
       <thead>
         <tr>
-          <th class="pt-name">Player</th>
-          <th class="pt-salary">Salary</th>
-          <th class="pt-rank">Rank</th>
-          <th class="pt-sg">SG Tot</th>
-          <th class="pt-fit">Fit Score</th>
-          ${skillHeaders}
+          <th class="pt-name" rowspan="2">Player</th>
+          <th class="pt-salary" rowspan="2">Salary</th>
+          <th class="pt-rank" rowspan="2">Rank</th>
+          <th class="pt-sg" rowspan="2">SG Tot</th>
+          <th class="pt-fit" rowspan="2">Fit Score</th>
+          ${skillGroupHeader}
+        </tr>
+        <tr>
+          ${skillSubHeaders}
         </tr>
       </thead>
       <tbody>${rows}</tbody>
@@ -599,7 +605,7 @@ function setViewMode(mode) {
 
 // ── COURSE BREAKDOWN ──────────────────────────────────────────────────────────
 let breakdownSkill = null;
-let breakdownSort  = 'r';
+let breakdownSort  = 'shared_players';
 
 function buildBreakdown() {
   if (!allData.length) return;
@@ -685,25 +691,23 @@ function renderBreakdown(allRows) {
   renderBreakdownRows(allRows);
 }
 
-const COURSE_FIT_SKILLS = new Set(['sg_ott','sg_app','sg_arg','sg_putt','sg_total']);
-
 function renderBreakdownRows(allRows) {
   const filtered = breakdownSkill
     ? allRows.filter(r => r.skill === breakdownSkill)
     : allRows;
 
-  const sortFn = (a, b) => {
-    if (breakdownSort === 'r')       return Math.abs(b.r_avg) - Math.abs(a.r_avg);
-    if (breakdownSort === 'vintage') return (b.vintage_avg ?? 0) - (a.vintage_avg ?? 0);
+  const sorted = [...filtered].sort((a, b) => {
+    if (breakdownSort === 'r')             return Math.abs(b.r_avg) - Math.abs(a.r_avg);
+    if (breakdownSort === 'vintage')       return (b.vintage_avg ?? 0) - (a.vintage_avg ?? 0);
+    if (breakdownSort === 'shared_players') return (b.shared_players ?? 0) - (a.shared_players ?? 0);
     return 0;
-  };
+  });
 
-  const useGroups = !breakdownSkill;
-  const sorted    = [...filtered].sort(sortFn);
   const remaining = sorted.length - BREAKDOWN_PAGE_SIZE;
   const visible   = breakdownShowAll ? sorted : sorted.slice(0, BREAKDOWN_PAGE_SIZE);
 
-  function dataRow(d) {
+  const tbody = document.getElementById('breakdown-tbody');
+  tbody.innerHTML = visible.map(d => {
     const r      = d.r_avg;
     const rSign  = r >= 0 ? '+' : '';
     const rColor = valueColor(r, 0.5);
@@ -728,15 +732,7 @@ function renderBreakdownRows(allRows) {
       <td class="bd-vintage"><span class="bd-vintage-val">${d.vintage_avg !== null ? Math.round(d.vintage_avg) : '—'}</span></td>
       <td class="bd-events">${d.shared_players ?? '—'}</td>
     </tr>`;
-  }
-
-  const tbody = document.getElementById('breakdown-tbody');
-  if (!useGroups) {
-    tbody.innerHTML = visible.map(dataRow).join('');
-  } else {
-    const header = `<tr class="bd-group-header"><td colspan="5">Course Fit Components</td></tr>`;
-    tbody.innerHTML = header + visible.map(dataRow).join('');
-  }
+  }).join('');
 
   const existingBtn = document.getElementById('bd-show-more');
   if (existingBtn) existingBtn.remove();

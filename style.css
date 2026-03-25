@@ -923,6 +923,22 @@ select:hover, select:focus { border-color: var(--accent); }
 .player-table thead th.pt-rank,
 .player-table thead th.pt-salary { text-align: right; }
 
+.player-table thead th.pt-skill-group {
+  text-align: center;
+  border-bottom: none;
+  border-left: 2px solid var(--border);
+  padding-bottom: 4px;
+}
+.player-table thead th.pt-skill-sub {
+  text-align: right;
+  border-top: 1px solid var(--border);
+  border-left: none;
+  padding-top: 4px;
+}
+.player-table thead th.pt-skill-sub:first-of-type {
+  border-left: 2px solid var(--border);
+}
+
 .pt-row { border-bottom: 1px solid var(--border); }
 .pt-row:last-child { border-bottom: none; }
 .pt-row:hover { background: var(--surface); }

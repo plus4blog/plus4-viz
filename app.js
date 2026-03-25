@@ -249,8 +249,11 @@ function buildPlayerTable(sorted) {
     ? (allSkills.includes(activeSkill) ? [activeSkill] : [])
     : [...SKILL_ORDER.filter(s => allSkills.includes(s)), ...allSkills.filter(s => !SKILL_ORDER.includes(s))];
 
-  const skillHeaders = displaySkills.map(s =>
-    `<th class="pt-skill">${SKILL_SHORT[s] || s}</th>`).join('');
+  const skillSubHeaders = displaySkills.map(s =>
+    `<th class="pt-skill pt-skill-sub">${SKILL_SHORT[s] || s}</th>`).join('');
+  const skillGroupHeader = displaySkills.length
+    ? `<th class="pt-skill-group" colspan="${displaySkills.length}">Course Fit Components</th>`
+    : '';
 
   const rows = sorted.map(player => {
     const salaryStr = player.salary ? '$' + Number(player.salary).toLocaleString() : '—';
@@ -287,12 +290,15 @@ function buildPlayerTable(sorted) {
     <table class="player-table">
       <thead>
         <tr>
-          <th class="pt-name">Player</th>
-          <th class="pt-salary">Salary</th>
-          <th class="pt-rank">Rank</th>
-          <th class="pt-sg">SG Tot</th>
-          <th class="pt-fit">Fit Score</th>
-          ${skillHeaders}
+          <th class="pt-name" rowspan="2">Player</th>
+          <th class="pt-salary" rowspan="2">Salary</th>
+          <th class="pt-rank" rowspan="2">Rank</th>
+          <th class="pt-sg" rowspan="2">SG Tot</th>
+          <th class="pt-fit" rowspan="2">Fit Score</th>
+          ${skillGroupHeader}
+        </tr>
+        <tr>
+          ${skillSubHeaders}
         </tr>
       </thead>
       <tbody>${rows}</tbody>

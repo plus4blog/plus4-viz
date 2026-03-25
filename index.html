@@ -62,8 +62,8 @@
           <th class="bd-course">Course</th>
           <th class="bd-skill">Skill</th>
           <th class="bd-r">R-value</th>
-          <th class="bd-vintage">Vintage</th>
-          <th class="bd-events">Events</th>
+          <th class="bd-vintage">Vintages</th>
+          <th class="bd-events">Shared Players</th>
         </tr>
       </thead>
       <tbody id="breakdown-tbody"></tbody>
@@ -103,6 +103,13 @@
       </div>
     </div>
     <div class="player-count" id="player-count" style="padding:0;max-width:none;margin-left:0;margin-right:0;"></div>
+    <div class="player-toolbar">
+      <input type="search" id="player-search" class="player-search" placeholder="Search players…" oninput="onSearchInput(this.value)">
+      <div class="view-toggle">
+        <button class="view-btn active" id="view-btn-card" onclick="setViewMode('card')">Cards</button>
+        <button class="view-btn" id="view-btn-table" onclick="setViewMode('table')">Table</button>
+      </div>
+    </div>
     <button class="callout-toggle" id="fit-toggle" aria-expanded="false" onclick="toggleCallout('fit')">
       <span>How to read the player cards</span>
       <svg class="callout-chevron" id="fit-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>

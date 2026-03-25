@@ -6,6 +6,8 @@ let activeSkill  = null;  // skill shown in global filter (null = all)
 let sortBy       = 'salary';
 let sortDir      = 'desc';
 let chartInstances = {};  // canvasId -> Chart instance
+let searchQuery  = '';    // player name filter
+let viewMode     = 'card'; // 'card' | 'table'
 
 const SKILL_LABELS = {
   sg_ott  : 'Off the Tee',
@@ -199,21 +201,32 @@ function renderGrid() {
     if (sortBy === 'course_fit')  return p.course_fit_score   ?? -Infinity;
     return p.salary ?? 0;
   };
-  const sorted = [...players].sort((a, b) =>
+
+  const filtered = searchQuery
+    ? players.filter(p => p.name.toLowerCase().includes(searchQuery))
+    : players;
+
+  const sorted = [...filtered].sort((a, b) =>
     sortDir === 'desc' ? getValue(b) - getValue(a) : getValue(a) - getValue(b)
   );
 
   const sortLabel = { salary: 'DraftKings salary', sg_total: 'projected SG Total', course_fit: 'Course Fit score' };
   document.getElementById('player-count').textContent =
-    `${sorted.length} players · sorted by ${sortLabel[sortBy]}`;
+    `${sorted.length} player${sorted.length !== 1 ? 's' : ''} · sorted by ${sortLabel[sortBy]}`;
 
   Object.values(chartInstances).forEach(c => c.destroy());
   chartInstances = {};
 
-  setupCardObserver();
-
   const grid = document.getElementById('player-grid');
   grid.innerHTML = '';
+
+  if (viewMode === 'table') {
+    grid.appendChild(buildPlayerTable(sorted));
+    setTimeout(reportHeight, 200);
+    return;
+  }
+
+  setupCardObserver();
 
   sorted.forEach((player, idx) => {
     const card = buildPlayerCard(player, idx);
@@ -222,6 +235,67 @@ function renderGrid() {
   });
 
   setTimeout(reportHeight, 600);
+}
+
+// ── PLAYER TABLE (lightweight view) ──────────────────────────────────────────
+const SKILL_ORDER = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
+const SKILL_SHORT = { sg_ott:'OTT', sg_app:'APP', sg_arg:'ARG', sg_putt:'PUTT', sg_total:'OTR' };
+
+function buildPlayerTable(sorted) {
+  const allSkills = [...new Set(sorted.flatMap(p => Object.keys(p.courses)))];
+  const displaySkills = activeSkill
+    ? (allSkills.includes(activeSkill) ? [activeSkill] : [])
+    : [...SKILL_ORDER.filter(s => allSkills.includes(s)), ...allSkills.filter(s => !SKILL_ORDER.includes(s))];
+
+  const skillHeaders = displaySkills.map(s =>
+    `<th class="pt-skill">${SKILL_SHORT[s] || s}</th>`).join('');
+
+  const rows = sorted.map(player => {
+    const salaryStr = player.salary ? '$' + Number(player.salary).toLocaleString() : '—';
+    const rankStr   = player.proj_rank != null ? `#${player.proj_rank}` : '—';
+    const sgVal     = player.projected_sg_total;
+    const fitVal    = player.course_fit_score;
+    const sgStr     = sgVal  != null ? (sgVal  >= 0 ? '+' : '') + sgVal.toFixed(2)  : '—';
+    const fitStr    = fitVal != null ? (fitVal >= 0 ? '+' : '') + fitVal.toFixed(3) : '—';
+    const sgColor   = sgVal  != null ? valueColor(sgVal,  2.0) : 'var(--muted)';
+    const fitColor  = fitVal != null ? valueColor(fitVal, 0.3) : 'var(--muted)';
+
+    const skillCells = displaySkills.map(skill => {
+      const pts = player.courses[skill];
+      if (!pts || !pts.length) return `<td class="pt-skill pt-na">—</td>`;
+      const avg   = pts.reduce((a, b) => a + b.value, 0) / pts.length;
+      const color = valueColor(avg, 1.5);
+      const sign  = avg >= 0 ? '+' : '';
+      return `<td class="pt-skill" style="color:${color}">${sign}${avg.toFixed(2)}</td>`;
+    }).join('');
+
+    return `<tr class="pt-row">
+      <td class="pt-name">${player.name}</td>
+      <td class="pt-salary">${salaryStr}</td>
+      <td class="pt-rank">${rankStr}</td>
+      <td class="pt-sg" style="color:${sgColor}">${sgStr}</td>
+      <td class="pt-fit" style="color:${fitColor}">${fitStr}</td>
+      ${skillCells}
+    </tr>`;
+  }).join('');
+
+  const wrap = document.createElement('div');
+  wrap.className = 'player-table-wrap';
+  wrap.innerHTML = `
+    <table class="player-table">
+      <thead>
+        <tr>
+          <th class="pt-name">Player</th>
+          <th class="pt-salary">Salary</th>
+          <th class="pt-rank">Rank</th>
+          <th class="pt-sg">SG Tot</th>
+          <th class="pt-fit">Fit Score</th>
+          ${skillHeaders}
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+  return wrap;
 }
 
 // ── PLAYER CARD ───────────────────────────────────────────────────────────────
@@ -498,7 +572,7 @@ function wrapLabel(str, maxChars) {
   return lines;
 }
 
-// ── SORT CONTROL ──────────────────────────────────────────────────────────────
+// ── SORT / SEARCH / VIEW CONTROLS ────────────────────────────────────────────
 document.getElementById('sort-by').addEventListener('change', e => {
   sortBy = e.target.value;
   if (players.length) renderGrid();
@@ -508,6 +582,18 @@ document.getElementById('sort-dir').addEventListener('change', e => {
   sortDir = e.target.value;
   if (players.length) renderGrid();
 });
+
+function onSearchInput(val) {
+  searchQuery = val.trim().toLowerCase();
+  if (players.length) renderGrid();
+}
+
+function setViewMode(mode) {
+  viewMode = mode;
+  document.getElementById('view-btn-card').classList.toggle('active', mode === 'card');
+  document.getElementById('view-btn-table').classList.toggle('active', mode === 'table');
+  if (players.length) renderGrid();
+}
 
 // ── COURSE BREAKDOWN ──────────────────────────────────────────────────────────
 let breakdownSkill = null;

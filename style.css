@@ -826,6 +826,104 @@ select:hover, select:focus { border-color: var(--accent); }
 /* ── EMBED MODE ──────────────────────────────────────────────── */
 /* header always visible */
 
+/* ── PLAYER TOOLBAR (search + view toggle) ──────────────────── */
+.player-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0 12px;
+  flex-wrap: wrap;
+}
+
+.player-search {
+  flex: 1;
+  min-width: 160px;
+  max-width: 300px;
+  height: 32px;
+  padding: 0 12px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 13px;
+  outline: none;
+}
+.player-search:focus { border-color: var(--accent-2); }
+.player-search::placeholder { color: var(--muted); }
+
+.view-toggle {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.view-btn {
+  padding: 0 14px;
+  height: 32px;
+  background: transparent;
+  border: none;
+  border-left: 1px solid var(--border);
+  color: var(--muted);
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  transition: background 0.15s, color 0.15s;
+}
+.view-btn:first-child { border-left: none; }
+.view-btn.active {
+  background: var(--accent);
+  color: #fff;
+}
+.view-btn:not(.active):hover { background: var(--border); color: var(--text); }
+
+/* ── PLAYER TABLE VIEW ───────────────────────────────────────── */
+.player-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+.player-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 13px;
+}
+.player-table thead th {
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 9px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+.player-table thead th.pt-skill,
+.player-table thead th.pt-sg,
+.player-table thead th.pt-fit,
+.player-table thead th.pt-rank,
+.player-table thead th.pt-salary { text-align: right; }
+
+.pt-row { border-bottom: 1px solid var(--border); }
+.pt-row:last-child { border-bottom: none; }
+.pt-row:hover { background: var(--surface); }
+
+.pt-row td {
+  padding: 9px 12px;
+  color: var(--text);
+  white-space: nowrap;
+}
+.pt-name { font-weight: 500; }
+.pt-salary { text-align: right; color: var(--muted); }
+.pt-rank   { text-align: right; color: var(--muted); }
+.pt-sg, .pt-fit, .pt-skill { text-align: right; font-variant-numeric: tabular-nums; }
+.pt-na { color: var(--muted) !important; }
+
 /* ── MOBILE ──────────────────────────────────────────────────── */
 @media (max-width: 600px) {
   .header { padding: 18px 16px 14px; }

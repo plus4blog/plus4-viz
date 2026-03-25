@@ -77,8 +77,10 @@ loadCSV();
 function processData() {
   if (!allData.length) return;
 
+  const targetNum = allData[0]?.target_course_num;
+  const targetRow = allData.find(r => r.course_num_b === targetNum && r.course_name_b);
   document.getElementById('course-title').textContent =
-    allData[0]?.anchor_course_name || 'Weekly Course';
+    targetRow?.course_name_b || targetNum || 'Weekly Course';
 
   // Meta pills
   const uniqueCourses = [...new Set(allData.map(r => r.course_num_b).filter(Boolean))];

@@ -795,7 +795,7 @@ select:hover, select:focus { border-color: var(--accent); }
   border: 1px solid var(--border);
 }
 
-.bd-r, .bd-p, .bd-vintage, .bd-events {
+.bd-cor, .bd-r, .bd-p, .bd-vintage, .bd-events {
   text-align: right;
   white-space: nowrap;
   font-family: 'Archivo Narrow', sans-serif;

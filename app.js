@@ -696,9 +696,15 @@ function renderBreakdownRows(allRows) {
     ? allRows.filter(r => r.skill === breakdownSkill)
     : allRows;
 
-  const sorted = [...filtered].sort((a, b) => {
-    if (breakdownSort === 'r')             return Math.abs(b.r_avg) - Math.abs(a.r_avg);
-    if (breakdownSort === 'vintage')       return (b.vintage_avg ?? 0) - (a.vintage_avg ?? 0);
+  const withCor = filtered.map(d => {
+    const cor = (d.vintage_avg && d.vintage_avg > 0)
+      ? Math.sign(d.r_avg) * Math.pow(Math.abs(d.r_avg), 1 / d.vintage_avg)
+      : d.r_avg;
+    return { ...d, cor };
+  });
+
+  const sorted = [...withCor].sort((a, b) => {
+    if (breakdownSort === 'cor')            return Math.abs(b.cor) - Math.abs(a.cor);
     if (breakdownSort === 'shared_players') return (b.shared_players ?? 0) - (a.shared_players ?? 0);
     return 0;
   });
@@ -708,11 +714,9 @@ function renderBreakdownRows(allRows) {
 
   const tbody = document.getElementById('breakdown-tbody');
   tbody.innerHTML = visible.map(d => {
-    const r      = d.r_avg;
-    const rSign  = r >= 0 ? '+' : '';
-    const rColor = valueColor(r, 0.5);
-    const rPct   = Math.min(Math.abs(r), 1) * 50;
-    const barLeft = r >= 0 ? '50%' : `${50 - rPct}%`;
+    const cor     = d.cor;
+    const corSign = cor >= 0 ? '+' : '';
+    const corColor = valueColor(cor, 0.8);
     const skillBadgeColor = SKILL_COLORS[d.skill] || 'rgba(100,100,100,0.2)';
     return `<tr>
       <td class="bd-course">${d.course}</td>
@@ -721,15 +725,7 @@ function renderBreakdownRows(allRows) {
           ${SKILL_LABELS[d.skill] || d.skill}
         </span>
       </td>
-      <td class="bd-r">
-        <div class="r-bar-cell">
-          <div class="r-bar-track">
-            <div class="r-bar-fill" style="width:${rPct}%;left:${barLeft};background:${rColor};"></div>
-          </div>
-          <span style="color:${rColor}">${rSign}${r.toFixed(3)}</span>
-        </div>
-      </td>
-      <td class="bd-vintage"><span class="bd-vintage-val">${d.vintage_avg !== null ? Math.round(d.vintage_avg) : '—'}</span></td>
+      <td class="bd-cor" style="color:${corColor};font-variant-numeric:tabular-nums;">${corSign}${cor.toFixed(3)}</td>
       <td class="bd-events">${d.shared_players ?? '—'}</td>
     </tr>`;
   }).join('');

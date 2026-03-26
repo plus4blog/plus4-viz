@@ -1032,6 +1032,5 @@ select:hover, select:focus { border-color: var(--accent); }
   .grid-section-header { flex-direction: column; align-items: flex-start; gap: 8px; padding: 0 16px; }
   .grid-wrap { padding-top: 24px; }
 
-  .skill-tabs { flex-direction: column; }
-  .skill-tab  { text-align: center; }
+  .grid-section-controls { flex-direction: column; align-items: flex-start; }
 }

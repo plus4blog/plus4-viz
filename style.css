@@ -155,6 +155,14 @@ body {
   max-width: 860px;
 }
 
+.callout-body li {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--label);
+  max-width: 860px;
+}
+
 .callout-body strong {
   color: var(--text);
   font-weight: 600;
@@ -1023,4 +1031,7 @@ select:hover, select:focus { border-color: var(--accent); }
 
   .grid-section-header { flex-direction: column; align-items: flex-start; gap: 8px; padding: 0 16px; }
   .grid-wrap { padding-top: 24px; }
+
+  .skill-tabs { flex-direction: column; }
+  .skill-tab  { text-align: center; }
 }

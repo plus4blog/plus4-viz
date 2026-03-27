@@ -411,7 +411,7 @@ function buildPlayerCard(player, idx) {
       <span class="proj-stat"><span class="proj-label">Rank</span><span class="proj-val">${rankStr}</span></span>
       <span class="proj-stat"><span class="proj-label">SG Total</span><span class="proj-val" style="color:${sgColor}">${sgStr}</span></span>
       <span class="proj-stat"><span class="proj-label">Course Fit</span><span class="proj-val" style="color:${fitColor}">${fitStr}</span></span>
-      <span class="proj-stat"><span class="proj-label proj-label-ml">🧠 ML</span><span class="proj-val proj-val-ml">—</span></span>
+      <span class="proj-stat"><span class="proj-label proj-label-ml">✨ ML</span><span class="proj-val proj-val-ml">—</span></span>
     </div>`;
 
   card.innerHTML = `

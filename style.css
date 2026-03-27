@@ -330,9 +330,19 @@ select:hover, select:focus { border-color: var(--accent); }
 
 .proj-stats {
   display: flex;
-  gap: 14px;
+  gap: 10px;
   align-items: flex-start;
   padding: 4px 0 2px;
+}
+
+.proj-label-ml {
+  font-size: 10px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.proj-val-ml {
+  color: var(--muted);
 }
 
 .proj-stat {
@@ -966,7 +976,7 @@ select:hover, select:focus { border-color: var(--accent); }
     border-bottom: 1px solid var(--border);
   }
 
-  .proj-stats { gap: 10px; }
+  .proj-stats { gap: 7px; }
   .proj-val { font-size: 12px; }
 
   .split-body {

@@ -402,7 +402,7 @@ function buildPlayerCard(player, idx) {
   const sgVal     = (hasFit && player.projected_sg_total != null) ? player.projected_sg_total : null;
   const rankStr   = player.proj_rank  != null ? `#${player.proj_rank}` : '—';
   const sgStr     = sgVal  != null ? (sgVal  >= 0 ? '+' : '') + sgVal.toFixed(2)  : 'N/A';
-  const fitStr    = fitVal != null ? (fitVal >= 0 ? '+' : '') + fitVal.toFixed(3) : '—';
+  const fitStr    = fitVal != null ? (fitVal >= 0 ? '+' : '') + fitVal.toFixed(2) : '—';
   const sgColor   = sgVal  != null ? valueColor(sgVal,  2.0) : 'var(--muted)';
   const fitColor  = fitVal != null ? valueColor(fitVal, 0.3) : 'var(--muted)';
 
@@ -411,6 +411,7 @@ function buildPlayerCard(player, idx) {
       <span class="proj-stat"><span class="proj-label">Rank</span><span class="proj-val">${rankStr}</span></span>
       <span class="proj-stat"><span class="proj-label">SG Total</span><span class="proj-val" style="color:${sgColor}">${sgStr}</span></span>
       <span class="proj-stat"><span class="proj-label">Course Fit</span><span class="proj-val" style="color:${fitColor}">${fitStr}</span></span>
+      <span class="proj-stat"><span class="proj-label proj-label-ml">✨ ML</span><span class="proj-val proj-val-ml">—</span></span>
     </div>`;
 
   card.innerHTML = `

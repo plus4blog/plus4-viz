@@ -199,8 +199,9 @@ function renderGrid() {
   document.getElementById('empty-state').style.display = 'none';
 
   const getValue = p => {
-    if (sortBy === 'sg_total')    return p.projected_sg_total ?? -Infinity;
-    if (sortBy === 'course_fit')  return p.course_fit_score   ?? -Infinity;
+    if (sortBy === 'sg_total')   return p.projected_sg_total ?? -Infinity;
+    if (sortBy === 'course_fit') return p.course_fit_score   ?? -Infinity;
+    if (sortBy === 'ml')         return p.ml_score           ?? -Infinity;
     return p.salary ?? 0;
   };
 
@@ -212,7 +213,7 @@ function renderGrid() {
     sortDir === 'desc' ? getValue(b) - getValue(a) : getValue(a) - getValue(b)
   );
 
-  const sortLabel = { salary: 'DraftKings salary', sg_total: 'projected SG Total', course_fit: 'Course Fit score' };
+  const sortLabel = { salary: 'DraftKings salary', sg_total: 'projected SG Total', course_fit: 'Course Fit score', ml: '✨ ML score' };
   document.getElementById('player-count').textContent =
     `${sorted.length} player${sorted.length !== 1 ? 's' : ''} · sorted by ${sortLabel[sortBy]}`;
 
@@ -582,13 +583,18 @@ function wrapLabel(str, maxChars) {
 }
 
 // ── SORT / SEARCH / VIEW CONTROLS ────────────────────────────────────────────
-document.getElementById('sort-by').addEventListener('change', e => {
-  sortBy = e.target.value;
+document.getElementById('sort-by-group').addEventListener('click', e => {
+  const btn = e.target.closest('.sort-btn');
+  if (!btn) return;
+  sortBy = btn.dataset.val;
+  document.querySelectorAll('#sort-by-group .sort-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
   if (players.length) renderGrid();
 });
 
-document.getElementById('sort-dir').addEventListener('change', e => {
-  sortDir = e.target.value;
+document.getElementById('sort-dir-btn').addEventListener('click', () => {
+  sortDir = sortDir === 'desc' ? 'asc' : 'desc';
+  document.getElementById('sort-dir-btn').textContent = sortDir === 'desc' ? '↓' : '↑';
   if (players.length) renderGrid();
 });
 

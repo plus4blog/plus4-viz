@@ -74,15 +74,13 @@
 <div class="controls">
   <div class="controls-inner">
     <span class="ctrl-label">Sort by</span>
-    <select id="sort-by">
-      <option value="salary">Salary</option>
-      <option value="sg_total">SG Total</option>
-      <option value="course_fit">Course Fit</option>
-    </select>
-    <select id="sort-dir">
-      <option value="desc">High → Low</option>
-      <option value="asc">Low → High</option>
-    </select>
+    <div class="sort-btn-group" id="sort-by-group">
+      <button class="sort-btn active" data-val="salary">Salary</button>
+      <button class="sort-btn" data-val="sg_total">SG Total</button>
+      <button class="sort-btn" data-val="course_fit">Course Fit</button>
+      <button class="sort-btn" data-val="ml">✨ ML</button>
+    </div>
+    <button class="sort-dir-btn" id="sort-dir-btn" title="Toggle direction">↓</button>
 
     <span id="load-status" class="ctrl-label" style="margin-left:auto;color:var(--muted);font-style:italic;"></span>
   </div>

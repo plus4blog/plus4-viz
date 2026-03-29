@@ -113,7 +113,7 @@
     </button>
     <div class="callout-body" id="fit-body" style="display:none;">
       <p>Each card shows a player's strokes gained above or below their moment-in-time baseline at the courses that correlate with this week's venue. The spider chart plots per-course values across up to 15 analogues for each skill — points further from center mean stronger historical performance. Use the Skill filters above to isolate a single category: this displays a ranked-course table alongside the chart, so you can see exactly which venues are driving a player's fit score.</p>
-      <p style="margin-top:10px;"><strong>✨ ML score:</strong> A separate model trained on a broader set of features. It runs independently from SG Total and will often produce a different result.</p>
+      <p style="margin-top:10px;"><strong>✨ ML score:</strong> A separate model trained on a broader set of features. It runs independently from SG Total and will often produce a different result. This is by design: the underlying model is fully deterministic and shares no methodology with how SG Total is derived.</p>
     </div>
     <button class="callout-toggle" id="score-toggle" aria-expanded="false" onclick="toggleCallout('score')">
       <span>Plus4's proprietary Course Fit Score</span>

@@ -61,8 +61,9 @@ function loadCSV() {
       projData = {};
       result.data.forEach(row => {
         if (row.player_name) projData[row.player_name] = {
-          course_fit_score  : row.course_fit_score != null ? parseFloat(row.course_fit_score) : null,
-          projected_sg_total: row.projected_sg_total != null ? parseFloat(row.projected_sg_total) : null
+          course_fit_score  : row.course_fit_score   != null ? parseFloat(row.course_fit_score)   : null,
+          projected_sg_total: row.projected_sg_total != null ? parseFloat(row.projected_sg_total) : null,
+          salary            : row.salary             != null ? parseFloat(row.salary)             : null
         };
       });
       projDone = true;
@@ -77,13 +78,7 @@ loadCSV();
 function processData() {
   if (!allData.length) return;
 
-  const targetNum = allData[0]?.target_course_num;
-  const targetRow = allData.find(r => r.course_num_b === targetNum && r.course_name_b);
-  document.getElementById('course-title').textContent =
-    targetRow?.course_name_b || targetNum || 'Weekly Course';
-
-  // Meta pills
-  const uniqueCourses = [...new Set(allData.map(r => r.course_num_b).filter(Boolean))];
+  const uniqueCourses = [...new Set(allData.map(r => r.course_name_b).filter(Boolean))];
   const uniquePlayers = [...new Set(allData.map(r => r.player_name).filter(Boolean))];
   const skills        = [...new Set(allData.map(r => r.skill).filter(Boolean))];
 
@@ -102,7 +97,7 @@ function processData() {
     if (!playerMap[row.player_name]) {
       playerMap[row.player_name] = {
         name  : row.player_name,
-        salary: row.dk_price || row.dk_salary || row.draftkings_salary || row.salary || 0,
+        salary: row.salary || 0,
         courses: {}
       };
     }
@@ -110,14 +105,11 @@ function processData() {
     if (!playerMap[row.player_name].courses[skill]) {
       playerMap[row.player_name].courses[skill] = [];
     }
-    const r = parseFloat(row.blended_r) || 0;
-    if (Math.abs(r) <= 0.05) return;
     playerMap[row.player_name].courses[skill].push({
-      course      : row.course_name_b || row.course_num_b || 'Unknown',
-      value       : parseFloat(row.avg_value) || 0,
-      r,
-      p           : parseFloat(row.p_value) || 0,
-      event_count : parseInt(row.event_count) || 0
+      course       : row.course_name_b || 'Unknown',
+      value        : parseFloat(row.avg_value) || 0,
+      cor_score    : parseFloat(row.cor_score) || 0,
+      shared_players: parseInt(row.shared_players) || 0
     });
   });
 
@@ -133,9 +125,10 @@ function processData() {
     const hasFit = proj && proj.course_fit_score != null && proj.course_fit_score !== 0;
     return {
       ...p,
+      salary            : proj?.salary             ?? p.salary,
       projected_sg_total: proj?.projected_sg_total ?? null,
-      course_fit_score  : proj?.course_fit_score ?? null,
-      proj_rank         : projRankMap[p.name] ?? null,
+      course_fit_score  : proj?.course_fit_score   ?? null,
+      proj_rank         : projRankMap[p.name]       ?? null,
       hasFit
     };
   });
@@ -620,36 +613,23 @@ function buildBreakdown() {
   // Aggregate by (course_name_b, skill)
   const keyMap = {};
   allData.forEach(row => {
-    const course = row.course_name_b || row.course_num_b;
+    const course = row.course_name_b;
     const skill  = row.skill;
     if (!course || !skill) return;
     const key = `${course}||${skill}`;
     if (!keyMap[key]) {
-      keyMap[key] = {
-        course,
-        skill,
-        r_vals        : [],
-        p_vals        : [],
-        vintage_vals  : [],
-        shared_players: null
-      };
+      keyMap[key] = { course, skill, cor_vals: [], shared_players: null };
     }
-    const r = parseFloat(row.blended_r);
-    const p = parseFloat(row.p_value);
-    const v = parseFloat(row.vintage_count);
-    const s = parseInt(row.shared_players);
-    if (isFinite(r)) keyMap[key].r_vals.push(r);
-    if (isFinite(p)) keyMap[key].p_vals.push(p);
-    if (isFinite(v)) keyMap[key].vintage_vals.push(v);
+    const cor = parseFloat(row.cor_score);
+    const s   = parseInt(row.shared_players);
+    if (isFinite(cor)) keyMap[key].cor_vals.push(cor);
     if (!isNaN(s) && (keyMap[key].shared_players === null || s > keyMap[key].shared_players))
       keyMap[key].shared_players = s;
   });
 
   let rows = Object.values(keyMap).map(d => ({
     ...d,
-    r_avg      : d.r_vals.length       ? d.r_vals.reduce((a,b)=>a+b,0)/d.r_vals.length             : 0,
-    p_avg      : d.p_vals.length       ? d.p_vals.reduce((a,b)=>a+b,0)/d.p_vals.length             : null,
-    vintage_avg: d.vintage_vals.length ? d.vintage_vals.reduce((a,b)=>a+b,0)/d.vintage_vals.length : null
+    cor_score: d.cor_vals.length ? d.cor_vals.reduce((a, b) => a + b, 0) / d.cor_vals.length : 0
   }));
 
   // Build skill tabs
@@ -703,15 +683,8 @@ function renderBreakdownRows(allRows) {
     ? allRows.filter(r => r.skill === breakdownSkill)
     : allRows;
 
-  const withCor = filtered.map(d => {
-    const cor = (d.vintage_avg && d.vintage_avg > 0)
-      ? Math.sign(d.r_avg) * Math.pow(Math.abs(d.r_avg), 1 / d.vintage_avg)
-      : d.r_avg;
-    return { ...d, cor };
-  });
-
-  const sorted = [...withCor].sort((a, b) => {
-    if (breakdownSort === 'cor')            return Math.abs(b.cor) - Math.abs(a.cor);
+  const sorted = [...filtered].sort((a, b) => {
+    if (breakdownSort === 'cor')            return Math.abs(b.cor_score) - Math.abs(a.cor_score);
     if (breakdownSort === 'shared_players') return (b.shared_players ?? 0) - (a.shared_players ?? 0);
     return 0;
   });
@@ -721,7 +694,7 @@ function renderBreakdownRows(allRows) {
 
   const tbody = document.getElementById('breakdown-tbody');
   tbody.innerHTML = visible.map(d => {
-    const cor     = d.cor;
+    const cor     = d.cor_score;
     const corSign = cor >= 0 ? '+' : '';
     const corColor = valueColor(cor, 0.8);
     const skillBadgeColor = SKILL_COLORS[d.skill] || 'rgba(100,100,100,0.2)';

@@ -60,7 +60,8 @@ function loadCSV() {
     complete: result => {
       projData = {};
       result.data.forEach(row => {
-        if (row.player_name) projData[row.player_name] = {
+        if (row.dg_id) projData[row.dg_id] = {
+          player_name       : row.player_name,
           course_fit_score  : row.course_fit_score   != null ? parseFloat(row.course_fit_score)   : null,
           projected_sg_total: row.projected_sg_total != null ? parseFloat(row.projected_sg_total) : null,
           salary            : row.salary             != null ? parseFloat(row.salary)             : null
@@ -98,19 +99,20 @@ function processData() {
   // Group by player
   const playerMap = {};
   allData.forEach(row => {
-    if (!row.player_name) return;
-    if (!playerMap[row.player_name]) {
-      playerMap[row.player_name] = {
+    if (!row.dg_id) return;
+    if (!playerMap[row.dg_id]) {
+      playerMap[row.dg_id] = {
+        dg_id : row.dg_id,
         name  : row.player_name,
         salary: row.salary || 0,
         courses: {}
       };
     }
     const skill = row.skill;
-    if (!playerMap[row.player_name].courses[skill]) {
-      playerMap[row.player_name].courses[skill] = [];
+    if (!playerMap[row.dg_id].courses[skill]) {
+      playerMap[row.dg_id].courses[skill] = [];
     }
-    playerMap[row.player_name].courses[skill].push({
+    playerMap[row.dg_id].courses[skill].push({
       course       : row.course_name_b || 'Unknown',
       value        : parseFloat(row.avg_value) || 0,
       cor_score    : parseFloat(row.cor_score) || 0,
@@ -123,17 +125,17 @@ function processData() {
   Object.entries(projData)
     .filter(([, v]) => v.projected_sg_total != null)
     .sort(([, a], [, b]) => b.projected_sg_total - a.projected_sg_total)
-    .forEach(([name], i) => { projRankMap[name] = i + 1; });
+    .forEach(([dg_id], i) => { projRankMap[dg_id] = i + 1; });
 
   players = Object.values(playerMap).map(p => {
-    const proj = projData[p.name] || null;
+    const proj = projData[p.dg_id] || null;
     const hasFit = proj && proj.course_fit_score != null && proj.course_fit_score !== 0;
     return {
       ...p,
       salary            : proj?.salary             ?? p.salary,
       projected_sg_total: proj?.projected_sg_total ?? null,
       course_fit_score  : proj?.course_fit_score   ?? null,
-      proj_rank         : projRankMap[p.name]       ?? null,
+      proj_rank         : projRankMap[p.dg_id]     ?? null,
       hasFit
     };
   });

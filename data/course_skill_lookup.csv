@@ -34,14 +34,14 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 19846,"Bauchou, Zach",608,Oakmont Country Club,sg_arg,-3.847751412787067,0.5116314755958971,37,770
 19846,"Bauchou, Zach",608,Oakmont Country Club,sg_ott,1.0703781983567089,0.3935077836220362,37,770
 19846,"Bauchou, Zach",897,Memorial Park Golf Course,sg_putt,-0.44174539774675614,0.3780874149073176,126,770
-19846,"Bauchou, Zach",93,Vanderbilt Legends Club,sg_total,2.855997787241914,0.6180217370617999,21,770
-19846,"Bauchou, Zach",60,Texas Rangers Golf Club,sg_total,0.7839056314214606,0.6167570095321873,23,770
-19846,"Bauchou, Zach",800,The Abaco Club on Winding Bay,sg_total,-1.3113701082082634,0.4709398928223278,39,770
-19846,"Bauchou, Zach",678,Thornblade Club,sg_total,-2.8837940237569692,0.3513700323407084,28,770
-19846,"Bauchou, Zach",94,Jimmie Austin OU Golf Club,sg_total,1.0349874338583454,0.3480024942186549,18,770
-19846,"Bauchou, Zach",55,Panther Creek Country Club,sg_total,0.11287196890214429,0.32120800029494245,27,770
-19846,"Bauchou, Zach",807,Lakewood National Golf Club,sg_total,-0.052733770628568655,0.3104472706323593,22,770
-19846,"Bauchou, Zachary",807,Lakewood National Golf Club,sg_total,0.14914861424015202,0.3104472706323593,22,770
+19846,"Bauchou, Zach",93,Vanderbilt Legends Club,sg_total,2.8544186047685307,0.6180217370617999,21,770
+19846,"Bauchou, Zach",60,Texas Rangers Golf Club,sg_total,0.782326448948077,0.6167570095321873,23,770
+19846,"Bauchou, Zach",800,The Abaco Club on Winding Bay,sg_total,-1.3129492906816471,0.4709398928223278,39,770
+19846,"Bauchou, Zach",678,Thornblade Club,sg_total,-2.8853732062303528,0.3513700323407084,28,770
+19846,"Bauchou, Zach",94,Jimmie Austin OU Golf Club,sg_total,1.0334082513849616,0.3480024942186549,18,770
+19846,"Bauchou, Zach",55,Panther Creek Country Club,sg_total,0.11129278642876039,0.32120800029494245,27,770
+19846,"Bauchou, Zach",807,Lakewood National Golf Club,sg_total,-0.05431295310195222,0.3104472706323593,22,770
+19846,"Bauchou, Zachary",807,Lakewood National Golf Club,sg_total,0.14756943176676846,0.3104472706323593,22,770
 17606,"Berger, Daniel",770,TPC San Antonio (Oaks Course),sg_app,0.11133494916207037,0.9334587523679371,138,770
 17606,"Berger, Daniel",608,Oakmont Country Club,sg_app,0.4115818713438813,0.5183061495661612,37,770
 17606,"Berger, Daniel",891,Winged Foot GC,sg_app,0.034524042175452296,0.5068424512624736,38,770
@@ -84,7 +84,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17606,"Berger, Daniel",885,Royal Portrush Golf Club,sg_putt,0.5162585548444648,0.3660219629675547,34,770
 17606,"Berger, Daniel",500,The Riviera Country Club,sg_putt,-0.9104381733113872,0.36172215580175954,106,770
 17606,"Berger, Daniel",241,Quail Hollow-PGA Championship,sg_putt,-0.351895638192609,0.31746669860215504,45,770
-17606,"Berger, Daniel",769,Monterey Peninsula CC,sg_total,-0.7716379836176473,0.32903104901358904,105,770
+17606,"Berger, Daniel",769,Monterey Peninsula CC,sg_total,-0.7716626846252775,0.32903104901358904,105,770
 18103,"Bezuidenhout, Christiaan",770,TPC San Antonio (Oaks Course),sg_app,0.1923859652027336,0.9334587523679371,138,770
 18103,"Bezuidenhout, Christiaan",887,Kasumigaseki Country Club,sg_app,0.6843801122678987,0.7121292004060108,12,770
 18103,"Bezuidenhout, Christiaan",608,Oakmont Country Club,sg_app,0.8838308748596133,0.5183061495661612,37,770
@@ -128,21 +128,21 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 18103,"Bezuidenhout, Christiaan",885,Royal Portrush Golf Club,sg_putt,-0.15860743485721823,0.3660219629675547,34,770
 18103,"Bezuidenhout, Christiaan",500,The Riviera Country Club,sg_putt,0.07763688299129903,0.36172215580175954,106,770
 18103,"Bezuidenhout, Christiaan",241,Quail Hollow-PGA Championship,sg_putt,-0.7197228127971975,0.31746669860215504,45,770
-18103,"Bezuidenhout, Christiaan",3867,mount juliet estate,sg_total,-0.20015190456676896,0.7428767894335073,8,770
-18103,"Bezuidenhout, Christiaan",3796,wentworth golf club,sg_total,4.33834530968035,0.6365456695838412,14,770
-18103,"Bezuidenhout, Christiaan",4033,jumeirah golf estates,sg_total,-0.7053459290171729,0.5856332618511396,6,770
-18103,"Bezuidenhout, Christiaan",3785,golfclub münchen eichenried,sg_total,2.573243026276114,0.5022972237102333,7,770
-18103,"Bezuidenhout, Christiaan",4136,abu dhabi gc,sg_total,0.6877022575837922,0.4516384086696491,11,770
-18103,"Bezuidenhout, Christiaan",3902,randpark gc bushwillow course,sg_total,-3.8681388029988097,0.4367612615201906,5,770
-18103,"Bezuidenhout, Christiaan",3890,leopard creek cc,sg_total,2.8555572437815417,0.4174102349705498,4,770
-18103,"Bezuidenhout, Christiaan",3768,emirates gc,sg_total,0.14273944826399804,0.4154167498856704,9,770
-18103,"Bezuidenhout, Christiaan",3787,lahinch gc,sg_total,-2.265870236339919,0.400576532740988,10,770
-18103,"Bezuidenhout, Christiaan",4367,leopard creek cc,sg_total,2.150568509772536,0.3971949827757657,5,770
-18103,"Bezuidenhout, Christiaan",3811,hillside golf club,sg_total,-0.11135720780787355,0.389803985254987,6,770
-18103,"Bezuidenhout, Christiaan",936,Yokohama Country Club,sg_total,1.4220136462917714,0.3742798844744178,26,770
-18103,"Bezuidenhout, Christiaan",3797,old course st andrews,sg_total,1.2049728241285544,0.3411633033644508,14,770
-18103,"Bezuidenhout, Christiaan",769,Monterey Peninsula CC,sg_total,-2.533231090092389,0.32903104901358904,105,770
-18103,"Bezuidenhout, Christiaan",3803,real club valderrama,sg_total,4.227383483672374,0.3193154955433175,5,770
+18103,"Bezuidenhout, Christiaan",3867,mount juliet estate,sg_total,-0.1997835093305053,0.7428767894335073,8,770
+18103,"Bezuidenhout, Christiaan",3796,wentworth golf club,sg_total,4.338713704916613,0.6365456695838412,14,770
+18103,"Bezuidenhout, Christiaan",4033,jumeirah golf estates,sg_total,-0.7049775337809092,0.5856332618511396,6,770
+18103,"Bezuidenhout, Christiaan",3785,golfclub münchen eichenried,sg_total,2.5736114215123775,0.5022972237102333,7,770
+18103,"Bezuidenhout, Christiaan",4136,abu dhabi gc,sg_total,0.6880706528200559,0.4516384086696491,11,770
+18103,"Bezuidenhout, Christiaan",3902,randpark gc bushwillow course,sg_total,-3.867770407762546,0.4367612615201906,5,770
+18103,"Bezuidenhout, Christiaan",3890,leopard creek cc,sg_total,2.8559256390178054,0.4174102349705498,4,770
+18103,"Bezuidenhout, Christiaan",3768,emirates gc,sg_total,0.1431078435002617,0.4154167498856704,9,770
+18103,"Bezuidenhout, Christiaan",3787,lahinch gc,sg_total,-2.265501841103655,0.400576532740988,10,770
+18103,"Bezuidenhout, Christiaan",4367,leopard creek cc,sg_total,2.1509369050087996,0.3971949827757657,5,770
+18103,"Bezuidenhout, Christiaan",3811,hillside golf club,sg_total,-0.11098881257160989,0.389803985254987,6,770
+18103,"Bezuidenhout, Christiaan",936,Yokohama Country Club,sg_total,1.422382041528035,0.3742798844744178,26,770
+18103,"Bezuidenhout, Christiaan",3797,old course st andrews,sg_total,1.205341219364818,0.3411633033644508,14,770
+18103,"Bezuidenhout, Christiaan",769,Monterey Peninsula CC,sg_total,-2.5328626948561253,0.32903104901358904,105,770
+18103,"Bezuidenhout, Christiaan",3803,real club valderrama,sg_total,4.227751878908637,0.3193154955433175,5,770
 24956,"Blanchet, Chandler",928,PGA National  - Champion Course,sg_app,1.368610703081854,0.3147934734817942,88,770
 24956,"Blanchet, Chandler",897,Memorial Park Golf Course,sg_putt,-0.056944950054907795,0.3780874149073176,126,770
 24956,"Blanchet, Chandler",93,Vanderbilt Legends Club,sg_total,0.9023252854039145,0.6180217370617999,21,770
@@ -155,15 +155,15 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 20766,"Brown, Dan",897,Memorial Park Golf Course,sg_putt,-0.16052263518812915,0.3780874149073176,126,770
 20766,"Brown, Daniel",977,The Renaissance Club,sg_ott,0.08998653510736207,0.3961561870401492,70,770
 20766,"Brown, Daniel",885,Royal Portrush Golf Club,sg_putt,-1.1321200562947822,0.3660219629675547,34,770
-20766,"Brown, Daniel",4414,real club de golf sotogrande,sg_total,0.1576146897787772,0.6511016676293667,7,770
+20766,"Brown, Daniel",4414,real club de golf sotogrande,sg_total,0.15761468977877718,0.6511016676293667,7,770
 20766,"Brown, Daniel",4591,club de campo villa de madrid,sg_total,2.8547248165501276,0.6058678578766112,5,770
-20766,"Brown, Daniel",4207,golfclub münchen eichenried,sg_total,-0.5058050572545073,0.6031145566280598,5,770
+20766,"Brown, Daniel",4207,golfclub münchen eichenried,sg_total,-0.5058050572545074,0.6031145566280598,5,770
 20766,"Brown, Daniel",4235,gary player cc,sg_total,-3.724231559102557,0.5631540841112208,8,770
 20766,"Brown, Daniel",4621,gut altentann gc,sg_total,-3.0649593911829105,0.5423864348419307,6,770
 20766,"Brown, Daniel",4601,old course st andrews,sg_total,-3.730256235299763,0.4697081735101227,9,770
 20766,"Brown, Daniel",4230,kingsbarns golf links,sg_total,2.6386321225183766,0.44959278573185796,8,770
 20766,"Brown, Daniel",4602,carnoustie,sg_total,-1.248256235299763,0.3955744153801582,9,770
-20766,"Brown, Daniel",4706,trump international golf links,sg_total,0.7256579984757406,0.39479517203591025,6,770
+20766,"Brown, Daniel",4706,trump international golf links,sg_total,0.7256579984757405,0.39479517203591025,6,770
 20766,"Brown, Daniel",4236,jumeirah golf estates,sg_total,-1.1902519604906086,0.3678165474981815,8,770
 20766,"Brown, Daniel",4592,yas links,sg_total,1.0952985629368348,0.34581953373452445,6,770
 11082,"Burgoon, Bronson",770,TPC San Antonio (Oaks Course),sg_app,0.4192431606129433,0.9334587523679371,138,770
@@ -185,9 +185,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 11082,"Burgoon, Bronson",770,TPC San Antonio (Oaks Course),sg_putt,0.15201060491024718,0.937594127699997,138,770
 11082,"Burgoon, Bronson",897,Memorial Park Golf Course,sg_putt,0.7816291005794924,0.3780874149073176,126,770
 11082,"Burgoon, Bronson",500,The Riviera Country Club,sg_putt,-0.9140384563304803,0.36172215580175954,106,770
-11082,"Burgoon, Bronson",93,Vanderbilt Legends Club,sg_total,2.174257233362905,0.6180217370617999,21,770
-11082,"Burgoon, Bronson",94,Jimmie Austin OU Golf Club,sg_total,-1.323332744471535,0.3480024942186549,18,770
-11082,"Burgoon, Bronson",769,Monterey Peninsula CC,sg_total,-2.1403372846476048,0.32903104901358904,105,770
+11082,"Burgoon, Bronson",93,Vanderbilt Legends Club,sg_total,2.1751784969113532,0.6180217370617999,21,770
+11082,"Burgoon, Bronson",94,Jimmie Austin OU Golf Club,sg_total,-1.322411480923087,0.3480024942186549,18,770
+11082,"Burgoon, Bronson",769,Monterey Peninsula CC,sg_total,-2.1394160210991564,0.32903104901358904,105,770
 12909,"Campos, Rafael",770,TPC San Antonio (Oaks Course),sg_app,-0.05803431597185867,0.9334587523679371,138,770
 12909,"Campos, Rafael",887,Kasumigaseki Country Club,sg_app,0.36323300023099464,0.7121292004060108,12,770
 12909,"Campos, Rafael",921,TPC Craig Ranch,sg_app,0.6752228049015673,0.45613377403213234,104,770
@@ -225,12 +225,12 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 27819,"Castillo, Ricky",770,TPC San Antonio (Oaks Course),sg_putt,-0.3714278567309119,0.937594127699997,138,770
 27819,"Castillo, Ricky",925,Dunes Golf and Beach Club,sg_putt,0.43507834091566605,0.4070002175457089,70,770
 27819,"Castillo, Ricky",897,Memorial Park Golf Course,sg_putt,-0.31208046580739635,0.3780874149073176,126,770
-27819,"Castillo, Ricky",93,Vanderbilt Legends Club,sg_total,0.39531840035817023,0.6180217370617999,21,770
-27819,"Castillo, Ricky",60,Texas Rangers Golf Club,sg_total,-0.9251857136092531,0.6167570095321873,23,770
-27819,"Castillo, Ricky",800,The Abaco Club on Winding Bay,sg_total,1.5701194497782396,0.4709398928223278,39,770
-27819,"Castillo, Ricky",678,Thornblade Club,sg_total,-0.9387589551068991,0.3513700323407084,28,770
-27819,"Castillo, Ricky",94,Jimmie Austin OU Golf Club,sg_total,0.19037136886499317,0.3480024942186549,18,770
-27819,"Castillo, Ricky",807,Lakewood National Golf Club,sg_total,-0.4233929786619,0.3104472706323593,22,770
+27819,"Castillo, Ricky",93,Vanderbilt Legends Club,sg_total,0.3946712471060747,0.6180217370617999,21,770
+27819,"Castillo, Ricky",60,Texas Rangers Golf Club,sg_total,-0.9258328668613486,0.6167570095321873,23,770
+27819,"Castillo, Ricky",800,The Abaco Club on Winding Bay,sg_total,1.5694722965261443,0.4709398928223278,39,770
+27819,"Castillo, Ricky",678,Thornblade Club,sg_total,-0.9394061083589946,0.3513700323407084,28,770
+27819,"Castillo, Ricky",94,Jimmie Austin OU Golf Club,sg_total,0.18972421561289765,0.3480024942186549,18,770
+27819,"Castillo, Ricky",807,Lakewood National Golf Club,sg_total,-0.42404013191399553,0.3104472706323593,22,770
 14502,"Cauley, Bud",770,TPC San Antonio (Oaks Course),sg_app,0.3053903233742248,0.9334587523679371,138,770
 14502,"Cauley, Bud",608,Oakmont Country Club,sg_app,-0.34834172738147073,0.5183061495661612,37,770
 14502,"Cauley, Bud",886,Liberty National Golf Club,sg_app,-0.7512554155028817,0.49599169794035103,69,770
@@ -266,13 +266,13 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 14502,"Cauley, Bud",936,Yokohama Country Club,sg_total,0.11965908635885647,0.3742798844744178,26,770
 30620,"Chatfield, Davis",928,PGA National  - Champion Course,sg_app,-0.01920178943525369,0.3147934734817942,88,770
 30620,"Chatfield, Davis",897,Memorial Park Golf Course,sg_putt,1.2526601341782801,0.3780874149073176,126,770
-30620,"Chatfield, Davis",93,Vanderbilt Legends Club,sg_total,-0.9578260964696789,0.6180217370617999,21,770
+30620,"Chatfield, Davis",93,Vanderbilt Legends Club,sg_total,-0.9578260964696788,0.6180217370617999,21,770
 30620,"Chatfield, Davis",60,Texas Rangers Golf Club,sg_total,-1.0747772347487181,0.6167570095321873,23,770
 30620,"Chatfield, Davis",800,The Abaco Club on Winding Bay,sg_total,2.116367787797431,0.4709398928223278,39,770
 30620,"Chatfield, Davis",678,Thornblade Club,sg_total,-3.370129311025755,0.3513700323407084,28,770
 30620,"Chatfield, Davis",94,Jimmie Austin OU Golf Club,sg_total,1.516122121363275,0.3480024942186549,18,770
-30620,"Chatfield, Davis",55,Panther Creek Country Club,sg_total,0.832050420182926,0.32120800029494245,27,770
-30620,"Chatfield, Davis",807,Lakewood National Golf Club,sg_total,-0.6807200958480247,0.3104472706323593,22,770
+30620,"Chatfield, Davis",55,Panther Creek Country Club,sg_total,0.8320504201829261,0.32120800029494245,27,770
+30620,"Chatfield, Davis",807,Lakewood National Golf Club,sg_total,-0.6807200958480246,0.3104472706323593,22,770
 32330,"Clanton, Luke",928,PGA National  - Champion Course,sg_app,-0.3196054333773538,0.3147934734817942,88,770
 32330,"Clanton, Luke",876,Detroit Golf Club,sg_arg,-0.09408798676685634,0.4945560596830631,131,770
 32330,"Clanton, Luke",926,Silverado Resort (North Course),sg_arg,-0.6686352975791406,0.4250628232567859,101,770
@@ -313,8 +313,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 21756,"Cole, Eric",500,The Riviera Country Club,sg_putt,0.15277038584891312,0.36172215580175954,106,770
 21756,"Cole, Eric",43,The Los Angeles Country Club (North Course),sg_putt,0.9696937938699173,0.3337669048945031,41,770
 21756,"Cole, Eric",241,Quail Hollow-PGA Championship,sg_putt,0.9500986458968285,0.31746669860215504,45,770
-21756,"Cole, Eric",936,Yokohama Country Club,sg_total,-0.4970244630159046,0.3742798844744178,26,770
-21756,"Cole, Eric",769,Monterey Peninsula CC,sg_total,4.189588869675717,0.32903104901358904,105,770
+21756,"Cole, Eric",936,Yokohama Country Club,sg_total,-0.49646797054361713,0.3742798844744178,26,770
+21756,"Cole, Eric",769,Monterey Peninsula CC,sg_total,4.190145362148004,0.32903104901358904,105,770
 14509,"Dahmen, Joel",770,TPC San Antonio (Oaks Course),sg_app,-0.3972134569111184,0.9334587523679371,138,770
 14509,"Dahmen, Joel",891,Winged Foot GC,sg_app,0.5352268606062809,0.5068424512624736,38,770
 14509,"Dahmen, Joel",886,Liberty National Golf Club,sg_app,0.5187250196747448,0.49599169794035103,69,770
@@ -355,8 +355,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 14509,"Dahmen, Joel",897,Memorial Park Golf Course,sg_putt,0.4764510758656619,0.3780874149073176,126,770
 14509,"Dahmen, Joel",500,The Riviera Country Club,sg_putt,-0.7849564624250842,0.36172215580175954,106,770
 14509,"Dahmen, Joel",43,The Los Angeles Country Club (North Course),sg_putt,-2.3162476658025977,0.3337669048945031,41,770
-14509,"Dahmen, Joel",936,Yokohama Country Club,sg_total,-1.975924747968104,0.3742798844744178,26,770
-14509,"Dahmen, Joel",769,Monterey Peninsula CC,sg_total,2.8716469077806,0.32903104901358904,105,770
+14509,"Dahmen, Joel",936,Yokohama Country Club,sg_total,-1.9759505604684195,0.3742798844744178,26,770
+14509,"Dahmen, Joel",769,Monterey Peninsula CC,sg_total,2.8716210952802848,0.32903104901358904,105,770
 16757,"Dou, Zecheng",770,TPC San Antonio (Oaks Course),sg_app,0.08981305288398658,0.9334587523679371,138,770
 16757,"Dou, Zecheng",921,TPC Craig Ranch,sg_app,-0.30597234958280595,0.45613377403213234,104,770
 16757,"Dou, Zecheng",250,Le Golf National,sg_app,-0.8555407021499634,0.44871449599037416,15,770
@@ -374,13 +374,13 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 16757,"Dou, Zecheng",770,TPC San Antonio (Oaks Course),sg_putt,2.433518004726818,0.937594127699997,138,770
 16757,"Dou, Zecheng",925,Dunes Golf and Beach Club,sg_putt,0.9593063340251856,0.4070002175457089,70,770
 16757,"Dou, Zecheng",897,Memorial Park Golf Course,sg_putt,0.04106409636288583,0.3780874149073176,126,770
-16757,"Dou, Zecheng",93,Vanderbilt Legends Club,sg_total,-1.348130580368133,0.6180217370617999,21,770
-16757,"Dou, Zecheng",60,Texas Rangers Golf Club,sg_total,0.9363765841993684,0.6167570095321873,23,770
-16757,"Dou, Zecheng",800,The Abaco Club on Winding Bay,sg_total,-1.2137265624417464,0.4709398928223278,39,770
-16757,"Dou, Zecheng",678,Thornblade Club,sg_total,-3.220645244045119,0.3513700323407084,28,770
-16757,"Dou, Zecheng",94,Jimmie Austin OU Golf Club,sg_total,0.9674208806355343,0.3480024942186549,18,770
-16757,"Dou, Zecheng",769,Monterey Peninsula CC,sg_total,0.4949539910096832,0.32903104901358904,105,770
-16757,"Dou, Zecheng",55,Panther Creek Country Club,sg_total,-1.2735045158112768,0.32120800029494245,27,770
+16757,"Dou, Zecheng",93,Vanderbilt Legends Club,sg_total,-1.340793757527261,0.6180217370617999,21,770
+16757,"Dou, Zecheng",60,Texas Rangers Golf Club,sg_total,0.9361946127134667,0.6167570095321873,23,770
+16757,"Dou, Zecheng",800,The Abaco Club on Winding Bay,sg_total,-1.2139085339276479,0.4709398928223278,39,770
+16757,"Dou, Zecheng",678,Thornblade Club,sg_total,-3.220827215531021,0.3513700323407084,28,770
+16757,"Dou, Zecheng",94,Jimmie Austin OU Golf Club,sg_total,0.9672389091496326,0.3480024942186549,18,770
+16757,"Dou, Zecheng",769,Monterey Peninsula CC,sg_total,0.49477201952378147,0.32903104901358904,105,770
+16757,"Dou, Zecheng",55,Panther Creek Country Club,sg_total,-1.2736864872971785,0.32120800029494245,27,770
 22002,"Dumont de Chassart, Adrien",770,TPC San Antonio (Oaks Course),sg_app,-0.38984522833605517,0.9334587523679371,138,770
 22002,"Dumont de Chassart, Adrien",921,TPC Craig Ranch,sg_app,1.0169405545275216,0.45613377403213234,104,770
 22002,"Dumont de Chassart, Adrien",250,Le Golf National,sg_app,-0.713160358007509,0.44871449599037416,15,770
@@ -396,11 +396,11 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 22002,"Dumont de Chassart, Adrien",770,TPC San Antonio (Oaks Course),sg_putt,-0.377179334596121,0.937594127699997,138,770
 22002,"Dumont de Chassart, Adrien",925,Dunes Golf and Beach Club,sg_putt,-0.37342659469855266,0.4070002175457089,70,770
 22002,"Dumont de Chassart, Adrien",897,Memorial Park Golf Course,sg_putt,1.4839018331448224,0.3780874149073176,126,770
-22002,"Dumont de Chassart, Adrien",93,Vanderbilt Legends Club,sg_total,-1.012797981604726,0.6180217370617999,21,770
-22002,"Dumont de Chassart, Adrien",60,Texas Rangers Golf Club,sg_total,-0.5872097082270058,0.6167570095321873,23,770
-22002,"Dumont de Chassart, Adrien",678,Thornblade Club,sg_total,1.4413182977272496,0.3513700323407084,28,770
-22002,"Dumont de Chassart, Adrien",55,Panther Creek Country Club,sg_total,-3.0812023567305986,0.32120800029494245,27,770
-22002,"Dumont de Chassart, Adrien",807,Lakewood National Golf Club,sg_total,-0.9530766896914216,0.3104472706323593,22,770
+22002,"Dumont de Chassart, Adrien",93,Vanderbilt Legends Club,sg_total,-1.01327010153867,0.6180217370617999,21,770
+22002,"Dumont de Chassart, Adrien",60,Texas Rangers Golf Club,sg_total,-0.58768182816095,0.6167570095321873,23,770
+22002,"Dumont de Chassart, Adrien",678,Thornblade Club,sg_total,1.4408461777933055,0.3513700323407084,28,770
+22002,"Dumont de Chassart, Adrien",55,Panther Creek Country Club,sg_total,-3.081674476664543,0.32120800029494245,27,770
+22002,"Dumont de Chassart, Adrien",807,Lakewood National Golf Club,sg_total,-0.9535488096253658,0.3104472706323593,22,770
 28270,"Dunlap, Nick",232,Albany GC,sg_app,-0.3991247740666661,0.6231909589372491,15,770
 28270,"Dunlap, Nick",608,Oakmont Country Club,sg_app,-0.9036460052965986,0.5183061495661612,37,770
 28270,"Dunlap, Nick",921,TPC Craig Ranch,sg_app,0.07167345207460209,0.45613377403213234,104,770
@@ -448,8 +448,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 26653,"Eckroat, Austin",897,Memorial Park Golf Course,sg_putt,1.0978334240945002,0.3780874149073176,126,770
 26653,"Eckroat, Austin",43,The Los Angeles Country Club (North Course),sg_putt,-0.563745173764404,0.3337669048945031,41,770
 26653,"Eckroat, Austin",241,Quail Hollow-PGA Championship,sg_putt,-0.5977408934335657,0.31746669860215504,45,770
-26653,"Eckroat, Austin",936,Yokohama Country Club,sg_total,-1.316201618328987,0.3742798844744178,26,770
-26653,"Eckroat, Austin",769,Monterey Peninsula CC,sg_total,0.1702474479816206,0.32903104901358904,105,770
+26653,"Eckroat, Austin",936,Yokohama Country Club,sg_total,-1.3163674089564465,0.3742798844744178,26,770
+26653,"Eckroat, Austin",769,Monterey Peninsula CC,sg_total,0.17008165735416103,0.32903104901358904,105,770
 21883,"Ewart, A.J.",928,PGA National  - Champion Course,sg_app,0.9850543189045582,0.3147934734817942,88,770
 21883,"Ewart, A.J.",897,Memorial Park Golf Course,sg_putt,-0.4517040951891135,0.3780874149073176,126,770
 11676,"Finau, Tony",770,TPC San Antonio (Oaks Course),sg_app,0.11292787306985445,0.9334587523679371,138,770
@@ -501,11 +501,11 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 11676,"Finau, Tony",500,The Riviera Country Club,sg_putt,0.14135510755973024,0.36172215580175954,106,770
 11676,"Finau, Tony",43,The Los Angeles Country Club (North Course),sg_putt,-0.7127103782385605,0.3337669048945031,41,770
 11676,"Finau, Tony",241,Quail Hollow-PGA Championship,sg_putt,0.12522590609613127,0.31746669860215504,45,770
-11676,"Finau, Tony",3796,wentworth golf club,sg_total,-0.7233693578105783,0.6365456695838412,14,770
-11676,"Finau, Tony",4601,old course st andrews,sg_total,0.44538155028236004,0.4697081735101227,9,770
-11676,"Finau, Tony",4602,carnoustie,sg_total,-4.97461844971764,0.3955744153801582,9,770
-11676,"Finau, Tony",3797,old course st andrews,sg_total,-0.6760796625587397,0.3411633033644508,14,770
-11676,"Finau, Tony",769,Monterey Peninsula CC,sg_total,-2.1306573242086273,0.32903104901358904,105,770
+11676,"Finau, Tony",3796,wentworth golf club,sg_total,-0.7232534300472022,0.6365456695838412,14,770
+11676,"Finau, Tony",4601,old course st andrews,sg_total,0.4454974780457362,0.4697081735101227,9,770
+11676,"Finau, Tony",4602,carnoustie,sg_total,-4.974502521954264,0.3955744153801582,9,770
+11676,"Finau, Tony",3797,old course st andrews,sg_total,-0.6759637347953635,0.3411633033644508,14,770
+11676,"Finau, Tony",769,Monterey Peninsula CC,sg_total,-2.130541396445251,0.32903104901358904,105,770
 25094,"Fishburn, Patrick",770,TPC San Antonio (Oaks Course),sg_app,0.7620736380721236,0.9334587523679371,138,770
 25094,"Fishburn, Patrick",921,TPC Craig Ranch,sg_app,-0.297633275326569,0.45613377403213234,104,770
 25094,"Fishburn, Patrick",931,Tahoe Mountain Club (Old Greenwood),sg_app,1.262158263070383,0.43713363031576813,48,770
@@ -524,7 +524,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 25094,"Fishburn, Patrick",925,Dunes Golf and Beach Club,sg_putt,-1.4898246590183948,0.4070002175457089,70,770
 25094,"Fishburn, Patrick",897,Memorial Park Golf Course,sg_putt,-0.21537851139665337,0.3780874149073176,126,770
 25094,"Fishburn, Patrick",241,Quail Hollow-PGA Championship,sg_putt,-1.3325640623912274,0.31746669860215504,45,770
-25094,"Fishburn, Patrick",936,Yokohama Country Club,sg_total,-1.4659302915768146,0.3742798844744178,26,770
+25094,"Fishburn, Patrick",936,Yokohama Country Club,sg_total,-1.4671138683180218,0.3742798844744178,26,770
 26657,"Fisk, Steven",770,TPC San Antonio (Oaks Course),sg_app,0.3666648759277316,0.9334587523679371,138,770
 26657,"Fisk, Steven",21,Colonial Country Club,sg_app,1.6708069769630463,0.3243427906293031,118,770
 26657,"Fisk, Steven",928,PGA National  - Champion Course,sg_app,0.8802966647907493,0.3147934734817942,88,770
@@ -538,13 +538,13 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 26657,"Fisk, Steven",770,TPC San Antonio (Oaks Course),sg_putt,0.49626225934293045,0.937594127699997,138,770
 26657,"Fisk, Steven",925,Dunes Golf and Beach Club,sg_putt,1.0327511484131862,0.4070002175457089,70,770
 26657,"Fisk, Steven",897,Memorial Park Golf Course,sg_putt,-0.4483274060270552,0.3780874149073176,126,770
-26657,"Fisk, Steven",93,Vanderbilt Legends Club,sg_total,-1.8411894297434852,0.6180217370617999,21,770
-26657,"Fisk, Steven",60,Texas Rangers Golf Club,sg_total,-0.6979855358145209,0.6167570095321873,23,770
-26657,"Fisk, Steven",800,The Abaco Club on Winding Bay,sg_total,-0.7873246658958342,0.4709398928223278,39,770
-26657,"Fisk, Steven",678,Thornblade Club,sg_total,1.9102855626873083,0.3513700323407084,28,770
-26657,"Fisk, Steven",94,Jimmie Austin OU Golf Club,sg_total,2.1781623665024297,0.3480024942186549,18,770
-26657,"Fisk, Steven",55,Panther Creek Country Club,sg_total,2.113723023552092,0.32120800029494245,27,770
-26657,"Fisk, Steven",807,Lakewood National Golf Club,sg_total,2.7267195219839064,0.3104472706323593,22,770
+26657,"Fisk, Steven",93,Vanderbilt Legends Club,sg_total,-1.8400564179203793,0.6180217370617999,21,770
+26657,"Fisk, Steven",60,Texas Rangers Golf Club,sg_total,-0.6968525239914154,0.6167570095321873,23,770
+26657,"Fisk, Steven",800,The Abaco Club on Winding Bay,sg_total,-0.7861916540727285,0.4709398928223278,39,770
+26657,"Fisk, Steven",678,Thornblade Club,sg_total,1.911418574510414,0.3513700323407084,28,770
+26657,"Fisk, Steven",94,Jimmie Austin OU Golf Club,sg_total,2.179295378325535,0.3480024942186549,18,770
+26657,"Fisk, Steven",55,Panther Creek Country Club,sg_total,2.1148560353751975,0.32120800029494245,27,770
+26657,"Fisk, Steven",807,Lakewood National Golf Club,sg_total,2.7278525338070123,0.3104472706323593,22,770
 12294,"Fleetwood, Tommy",770,TPC San Antonio (Oaks Course),sg_app,0.38566532977934387,0.9334587523679371,138,770
 12294,"Fleetwood, Tommy",887,Kasumigaseki Country Club,sg_app,-0.04852149770288938,0.7121292004060108,12,770
 12294,"Fleetwood, Tommy",608,Oakmont Country Club,sg_app,-0.4063814944964024,0.5183061495661612,37,770
@@ -593,28 +593,28 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 12294,"Fleetwood, Tommy",500,The Riviera Country Club,sg_putt,0.36986315930215663,0.36172215580175954,106,770
 12294,"Fleetwood, Tommy",43,The Los Angeles Country Club (North Course),sg_putt,-0.6957430788632717,0.3337669048945031,41,770
 12294,"Fleetwood, Tommy",241,Quail Hollow-PGA Championship,sg_putt,-1.041886814335506,0.31746669860215504,45,770
-12294,"Fleetwood, Tommy",3867,mount juliet estate,sg_total,-0.08922356665111489,0.7428767894335073,8,770
-12294,"Fleetwood, Tommy",4200,yas links,sg_total,-1.2480392685955524,0.6824220284151636,9,770
-12294,"Fleetwood, Tommy",3881,old course st andrews,sg_total,-0.3111919994357808,0.6811356717559214,10,770
-12294,"Fleetwood, Tommy",3946,marco simone gc,sg_total,1.5565998404794215,0.6488815854856618,7,770
-12294,"Fleetwood, Tommy",3796,wentworth golf club,sg_total,-1.9330351607038077,0.6365456695838412,14,770
-12294,"Fleetwood, Tommy",4033,jumeirah golf estates,sg_total,-0.7774979773537813,0.5856332618511396,6,770
-12294,"Fleetwood, Tommy",4727,emirates gc,sg_total,-1.818759723542204,0.5736069857481715,7,770
-12294,"Fleetwood, Tommy",4235,gary player cc,sg_total,0.11149748369163301,0.5631540841112208,8,770
-12294,"Fleetwood, Tommy",4726,dubai creek resort,sg_total,-1.828663637117111,0.5547049557869058,7,770
-12294,"Fleetwood, Tommy",4193,kingsbarns golf links,sg_total,1.6949470797239807,0.5232389273430023,9,770
-12294,"Fleetwood, Tommy",4601,old course st andrews,sg_total,-2.1978226109485677,0.4697081735101227,9,770
-12294,"Fleetwood, Tommy",4136,abu dhabi gc,sg_total,0.5486468331864018,0.4516384086696491,11,770
-12294,"Fleetwood, Tommy",4230,kingsbarns golf links,sg_total,-4.642437228868787,0.44959278573185796,8,770
-12294,"Fleetwood, Tommy",3768,emirates gc,sg_total,2.553647003533212,0.4154167498856704,9,770
-12294,"Fleetwood, Tommy",3787,lahinch gc,sg_total,0.3078069308069391,0.400576532740988,10,770
-12294,"Fleetwood, Tommy",4602,carnoustie,sg_total,0.3821773890514325,0.3955744153801582,9,770
-12294,"Fleetwood, Tommy",3811,hillside golf club,sg_total,0.6003446248359624,0.389803985254987,6,770
-12294,"Fleetwood, Tommy",4236,jumeirah golf estates,sg_total,1.4806803650846516,0.3678165474981815,8,770
-12294,"Fleetwood, Tommy",4592,yas links,sg_total,1.2748326296460648,0.34581953373452445,6,770
-12294,"Fleetwood, Tommy",3797,old course st andrews,sg_total,0.06684149843272288,0.3411633033644508,14,770
-12294,"Fleetwood, Tommy",4192,carnoustie,sg_total,-1.1590529202760191,0.33242151988048835,9,770
-12294,"Fleetwood, Tommy",769,Monterey Peninsula CC,sg_total,-4.557480935662233,0.32903104901358904,105,770
+12294,"Fleetwood, Tommy",3867,mount juliet estate,sg_total,-0.08859787054883828,0.7428767894335073,8,770
+12294,"Fleetwood, Tommy",4200,yas links,sg_total,-1.2474135724932758,0.6824220284151636,9,770
+12294,"Fleetwood, Tommy",3881,old course st andrews,sg_total,-0.3105663033335042,0.6811356717559214,10,770
+12294,"Fleetwood, Tommy",3946,marco simone gc,sg_total,1.557225536581698,0.6488815854856618,7,770
+12294,"Fleetwood, Tommy",3796,wentworth golf club,sg_total,-1.9324094646015308,0.6365456695838412,14,770
+12294,"Fleetwood, Tommy",4033,jumeirah golf estates,sg_total,-0.8019346311169886,0.5856332618511396,6,770
+12294,"Fleetwood, Tommy",4727,emirates gc,sg_total,-1.8181340274399274,0.5736069857481715,7,770
+12294,"Fleetwood, Tommy",4235,gary player cc,sg_total,0.11212317979390896,0.5631540841112208,8,770
+12294,"Fleetwood, Tommy",4726,dubai creek resort,sg_total,-1.8280379410148342,0.5547049557869058,7,770
+12294,"Fleetwood, Tommy",4193,kingsbarns golf links,sg_total,1.6955727758262573,0.5232389273430023,9,770
+12294,"Fleetwood, Tommy",4601,old course st andrews,sg_total,-2.197196914846291,0.4697081735101227,9,770
+12294,"Fleetwood, Tommy",4136,abu dhabi gc,sg_total,0.5492725292886784,0.4516384086696491,11,770
+12294,"Fleetwood, Tommy",4230,kingsbarns golf links,sg_total,-4.641811532766511,0.44959278573185796,8,770
+12294,"Fleetwood, Tommy",3768,emirates gc,sg_total,2.5542726996354888,0.4154167498856704,9,770
+12294,"Fleetwood, Tommy",3787,lahinch gc,sg_total,0.3084326269092157,0.400576532740988,10,770
+12294,"Fleetwood, Tommy",4602,carnoustie,sg_total,0.3828030851537091,0.3955744153801582,9,770
+12294,"Fleetwood, Tommy",3811,hillside golf club,sg_total,0.600970320938239,0.389803985254987,6,770
+12294,"Fleetwood, Tommy",4236,jumeirah golf estates,sg_total,1.4813060611869284,0.3678165474981815,8,770
+12294,"Fleetwood, Tommy",4592,yas links,sg_total,1.2710626327818253,0.34581953373452445,6,770
+12294,"Fleetwood, Tommy",3797,old course st andrews,sg_total,0.06746719453500016,0.3411633033644508,14,770
+12294,"Fleetwood, Tommy",4192,carnoustie,sg_total,-1.1584272241737423,0.33242151988048835,9,770
+12294,"Fleetwood, Tommy",769,Monterey Peninsula CC,sg_total,-4.556855239559956,0.32903104901358904,105,770
 31343,"Ford, David",21,Colonial Country Club,sg_app,-0.31735558822124926,0.3243427906293031,118,770
 31343,"Ford, David",928,PGA National  - Champion Course,sg_app,1.1965639221458022,0.3147934734817942,88,770
 31343,"Ford, David",876,Detroit Golf Club,sg_arg,-0.8222890945538127,0.4945560596830631,131,770
@@ -694,8 +694,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 11451,"Garnett, Brice",770,TPC San Antonio (Oaks Course),sg_putt,0.10579093949114465,0.937594127699997,138,770
 11451,"Garnett, Brice",925,Dunes Golf and Beach Club,sg_putt,0.8161841474423627,0.4070002175457089,70,770
 11451,"Garnett, Brice",897,Memorial Park Golf Course,sg_putt,-0.4883424753774644,0.3780874149073176,126,770
-11451,"Garnett, Brice",800,The Abaco Club on Winding Bay,sg_total,-1.8816020788357655,0.4709398928223278,39,770
-11451,"Garnett, Brice",769,Monterey Peninsula CC,sg_total,-1.5824311748132553,0.32903104901358904,105,770
+11451,"Garnett, Brice",800,The Abaco Club on Winding Bay,sg_total,-1.8813356025899197,0.4709398928223278,39,770
+11451,"Garnett, Brice",769,Monterey Peninsula CC,sg_total,-1.5821646985674096,0.32903104901358904,105,770
 24550,"Ghim, Doug",770,TPC San Antonio (Oaks Course),sg_app,0.09329296125615397,0.9334587523679371,138,770
 24550,"Ghim, Doug",608,Oakmont Country Club,sg_app,0.16218932683203466,0.5183061495661612,37,770
 24550,"Ghim, Doug",886,Liberty National Golf Club,sg_app,-0.5247464629724291,0.49599169794035103,69,770
@@ -724,7 +724,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 24550,"Ghim, Doug",925,Dunes Golf and Beach Club,sg_putt,0.38017193773508073,0.4070002175457089,70,770
 24550,"Ghim, Doug",897,Memorial Park Golf Course,sg_putt,-0.5927282352762209,0.3780874149073176,126,770
 24550,"Ghim, Doug",500,The Riviera Country Club,sg_putt,0.6220120910901958,0.36172215580175954,106,770
-24550,"Ghim, Doug",769,Monterey Peninsula CC,sg_total,-0.2623995254703025,0.32903104901358904,105,770
+24550,"Ghim, Doug",769,Monterey Peninsula CC,sg_total,-0.2622990132295983,0.32903104901358904,105,770
 7399,"Glover, Lucas",770,TPC San Antonio (Oaks Course),sg_app,0.5654478712362395,0.9334587523679371,138,770
 7399,"Glover, Lucas",232,Albany GC,sg_app,-0.18499712957230485,0.6231909589372491,15,770
 7399,"Glover, Lucas",608,Oakmont Country Club,sg_app,0.7503011548911088,0.5183061495661612,37,770
@@ -768,7 +768,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 7399,"Glover, Lucas",899,The Summit Club,sg_putt,0.16695214053358262,0.3632539833919035,25,770
 7399,"Glover, Lucas",500,The Riviera Country Club,sg_putt,0.13716684612409555,0.36172215580175954,106,770
 7399,"Glover, Lucas",241,Quail Hollow-PGA Championship,sg_putt,-0.10226013155276281,0.31746669860215504,45,770
-7399,"Glover, Lucas",769,Monterey Peninsula CC,sg_total,2.7511052815796293,0.32903104901358904,105,770
+7399,"Glover, Lucas",769,Monterey Peninsula CC,sg_total,2.750938229160127,0.32903104901358904,105,770
 12808,"Grillo, Emiliano",770,TPC San Antonio (Oaks Course),sg_app,0.023414356748481815,0.9334587523679371,138,770
 12808,"Grillo, Emiliano",608,Oakmont Country Club,sg_app,0.12385414173740786,0.5183061495661612,37,770
 12808,"Grillo, Emiliano",886,Liberty National Golf Club,sg_app,0.7100549399373789,0.49599169794035103,69,770
@@ -817,7 +817,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 12808,"Grillo, Emiliano",899,The Summit Club,sg_putt,0.22532959824930449,0.3632539833919035,25,770
 12808,"Grillo, Emiliano",500,The Riviera Country Club,sg_putt,0.2780826076228582,0.36172215580175954,106,770
 12808,"Grillo, Emiliano",43,The Los Angeles Country Club (North Course),sg_putt,-0.58714961719137,0.3337669048945031,41,770
-12808,"Grillo, Emiliano",936,Yokohama Country Club,sg_total,0.9355864672430527,0.3742798844744178,26,770
+12808,"Grillo, Emiliano",936,Yokohama Country Club,sg_total,0.9351919626118625,0.3742798844744178,26,770
 19865,"Hardy, Nick",770,TPC San Antonio (Oaks Course),sg_app,0.5867033504080098,0.9334587523679371,138,770
 19865,"Hardy, Nick",921,TPC Craig Ranch,sg_app,-0.41632677368914006,0.45613377403213234,104,770
 19865,"Hardy, Nick",931,Tahoe Mountain Club (Old Greenwood),sg_app,1.9961508720414571,0.43713363031576813,48,770
@@ -844,8 +844,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 19865,"Hardy, Nick",897,Memorial Park Golf Course,sg_putt,-0.14792654146758472,0.3780874149073176,126,770
 19865,"Hardy, Nick",500,The Riviera Country Club,sg_putt,1.1890498137097907,0.36172215580175954,106,770
 19865,"Hardy, Nick",43,The Los Angeles Country Club (North Course),sg_putt,1.0827260834126762,0.3337669048945031,41,770
-19865,"Hardy, Nick",800,The Abaco Club on Winding Bay,sg_total,0.481828667592147,0.4709398928223278,39,770
-19865,"Hardy, Nick",769,Monterey Peninsula CC,sg_total,1.0818534302558807,0.32903104901358904,105,770
+19865,"Hardy, Nick",800,The Abaco Club on Winding Bay,sg_total,0.4824627569147221,0.4709398928223278,39,770
+19865,"Hardy, Nick",769,Monterey Peninsula CC,sg_total,1.082487519578456,0.32903104901358904,105,770
 8825,"Harman, Brian",770,TPC San Antonio (Oaks Course),sg_app,0.31467809394451207,0.9334587523679371,138,770
 8825,"Harman, Brian",232,Albany GC,sg_app,-0.8419445759204918,0.6231909589372491,15,770
 8825,"Harman, Brian",608,Oakmont Country Club,sg_app,-0.6095070087116411,0.5183061495661612,37,770
@@ -894,7 +894,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 8825,"Harman, Brian",500,The Riviera Country Club,sg_putt,-0.23950338659405612,0.36172215580175954,106,770
 8825,"Harman, Brian",43,The Los Angeles Country Club (North Course),sg_putt,0.3120530583365821,0.3337669048945031,41,770
 8825,"Harman, Brian",241,Quail Hollow-PGA Championship,sg_putt,0.28583657962931547,0.31746669860215504,45,770
-8825,"Harman, Brian",769,Monterey Peninsula CC,sg_total,1.9207668570880112,0.32903104901358904,105,770
+8825,"Harman, Brian",769,Monterey Peninsula CC,sg_total,1.9209231434706775,0.32903104901358904,105,770
 14578,"Henley, Russell",770,TPC San Antonio (Oaks Course),sg_app,1.3671137335555679,0.9334587523679371,138,770
 14578,"Henley, Russell",232,Albany GC,sg_app,-0.8345637943699503,0.6231909589372491,15,770
 14578,"Henley, Russell",608,Oakmont Country Club,sg_app,0.7768941757586992,0.5183061495661612,37,770
@@ -942,7 +942,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 14578,"Henley, Russell",500,The Riviera Country Club,sg_putt,0.06925804911588648,0.36172215580175954,106,770
 14578,"Henley, Russell",43,The Los Angeles Country Club (North Course),sg_putt,0.28182401424208486,0.3337669048945031,41,770
 14578,"Henley, Russell",241,Quail Hollow-PGA Championship,sg_putt,-1.3580755727177236,0.31746669860215504,45,770
-14578,"Henley, Russell",769,Monterey Peninsula CC,sg_total,-1.749468286577457,0.32903104901358904,105,770
+14578,"Henley, Russell",769,Monterey Peninsula CC,sg_total,-1.7494862314416122,0.32903104901358904,105,770
 24342,"Higgo, Garrick",770,TPC San Antonio (Oaks Course),sg_app,-0.6272216314858731,0.9334587523679371,138,770
 24342,"Higgo, Garrick",887,Kasumigaseki Country Club,sg_app,-0.5083123355108988,0.7121292004060108,12,770
 24342,"Higgo, Garrick",886,Liberty National Golf Club,sg_app,-0.39787958701847354,0.49599169794035103,69,770
@@ -971,18 +971,18 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 24342,"Higgo, Garrick",897,Memorial Park Golf Course,sg_putt,-0.9312396304884506,0.3780874149073176,126,770
 24342,"Higgo, Garrick",500,The Riviera Country Club,sg_putt,-2.3827416999152224,0.36172215580175954,106,770
 24342,"Higgo, Garrick",241,Quail Hollow-PGA Championship,sg_putt,1.7476884297352115,0.31746669860215504,45,770
-24342,"Higgo, Garrick",3946,marco simone gc,sg_total,0.10346410380653948,0.6488815854856618,7,770
-24342,"Higgo, Garrick",4033,jumeirah golf estates,sg_total,1.145027274173743,0.5856332618511396,6,770
-24342,"Higgo, Garrick",3955,galgorm castle golf club,sg_total,-1.3231267217408162,0.5825204175179615,4,770
-24342,"Higgo, Garrick",800,The Abaco Club on Winding Bay,sg_total,-0.03282397993154207,0.4709398928223278,39,770
-24342,"Higgo, Garrick",4136,abu dhabi gc,sg_total,-0.16034976738555418,0.4516384086696491,11,770
-24342,"Higgo, Garrick",3902,randpark gc bushwillow course,sg_total,0.8572740552138857,0.4367612615201906,5,770
-24342,"Higgo, Garrick",3890,leopard creek cc,sg_total,-1.071402318278614,0.4174102349705498,4,770
-24342,"Higgo, Garrick",4056,brabazon course at the belfry,sg_total,0.09988235408407663,0.4056319826761129,7,770
-24342,"Higgo, Garrick",4074,pga national cyprus course,sg_total,-4.463596381387813,0.39809076103437085,4,770
-24342,"Higgo, Garrick",936,Yokohama Country Club,sg_total,2.9066962115275805,0.3742798844744178,26,770
-24342,"Higgo, Garrick",3891,golf costa adeje,sg_total,4.087233199782785,0.37239918327691734,4,770
-24342,"Higgo, Garrick",769,Monterey Peninsula CC,sg_total,1.9433853236073593,0.32903104901358904,105,770
+24342,"Higgo, Garrick",3946,marco simone gc,sg_total,0.10344282702127486,0.6488815854856618,7,770
+24342,"Higgo, Garrick",4033,jumeirah golf estates,sg_total,1.1450059973884783,0.5856332618511396,6,770
+24342,"Higgo, Garrick",3955,galgorm castle golf club,sg_total,-1.323147998526081,0.5825204175179615,4,770
+24342,"Higgo, Garrick",800,The Abaco Club on Winding Bay,sg_total,-0.032845256716806916,0.4709398928223278,39,770
+24342,"Higgo, Garrick",4136,abu dhabi gc,sg_total,-0.16037104417081902,0.4516384086696491,11,770
+24342,"Higgo, Garrick",3902,randpark gc bushwillow course,sg_total,0.8572527784286208,0.4367612615201906,5,770
+24342,"Higgo, Garrick",3890,leopard creek cc,sg_total,-1.0714235950638789,0.4174102349705498,4,770
+24342,"Higgo, Garrick",4056,brabazon course at the belfry,sg_total,0.09986107729881177,0.4056319826761129,7,770
+24342,"Higgo, Garrick",4074,pga national cyprus course,sg_total,-4.463617658173077,0.39809076103437085,4,770
+24342,"Higgo, Garrick",936,Yokohama Country Club,sg_total,2.9066749347423158,0.3742798844744178,26,770
+24342,"Higgo, Garrick",3891,golf costa adeje,sg_total,4.087211922997521,0.37239918327691734,4,770
+24342,"Higgo, Garrick",769,Monterey Peninsula CC,sg_total,1.9433640468220945,0.32903104901358904,105,770
 28469,"Highsmith, Joe",770,TPC San Antonio (Oaks Course),sg_app,0.6596541373490854,0.9334587523679371,138,770
 28469,"Highsmith, Joe",608,Oakmont Country Club,sg_app,-0.10625171193801083,0.5183061495661612,37,770
 28469,"Highsmith, Joe",921,TPC Craig Ranch,sg_app,0.86799189684352,0.45613377403213234,104,770
@@ -1007,12 +1007,12 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 28469,"Highsmith, Joe",925,Dunes Golf and Beach Club,sg_putt,-0.6524311541358675,0.4070002175457089,70,770
 28469,"Highsmith, Joe",897,Memorial Park Golf Course,sg_putt,1.0270454725687959,0.3780874149073176,126,770
 28469,"Highsmith, Joe",241,Quail Hollow-PGA Championship,sg_putt,1.9427479628667432,0.31746669860215504,45,770
-28469,"Highsmith, Joe",936,Yokohama Country Club,sg_total,-1.5695585578174813,0.3742798844744178,26,770
-28469,"Highsmith, Joe",94,Jimmie Austin OU Golf Club,sg_total,-4.71013857901584,0.3480024942186549,18,770
+28469,"Highsmith, Joe",936,Yokohama Country Club,sg_total,-1.5696209183452545,0.3742798844744178,26,770
+28469,"Highsmith, Joe",94,Jimmie Austin OU Golf Club,sg_total,-4.710200939543614,0.3480024942186549,18,770
 20954,"Hirata, Kensei",928,PGA National  - Champion Course,sg_app,-0.7655123192738499,0.3147934734817942,88,770
 20954,"Hirata, Kensei",897,Memorial Park Golf Course,sg_putt,-1.2911939109600343,0.3780874149073176,126,770
 20954,"Hirata, Kensei",93,Vanderbilt Legends Club,sg_total,-1.4888848257384044,0.6180217370617999,21,770
-20954,"Hirata, Kensei",60,Texas Rangers Golf Club,sg_total,1.354061587638885,0.6167570095321873,23,770
+20954,"Hirata, Kensei",60,Texas Rangers Golf Club,sg_total,1.3540615876388848,0.6167570095321873,23,770
 20954,"Hirata, Kensei",800,The Abaco Club on Winding Bay,sg_total,3.336086548523293,0.4709398928223278,39,770
 20954,"Hirata, Kensei",678,Thornblade Club,sg_total,3.2053086167988,0.3513700323407084,28,770
 20954,"Hirata, Kensei",55,Panther Creek Country Club,sg_total,1.6600908975720945,0.32120800029494245,27,770
@@ -1039,7 +1039,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 22760,"Hisatsune, Ryo",897,Memorial Park Golf Course,sg_putt,0.9154771609967628,0.3780874149073176,126,770
 22760,"Hisatsune, Ryo",500,The Riviera Country Club,sg_putt,-1.0493915269322724,0.36172215580175954,106,770
 22760,"Hisatsune, Ryo",241,Quail Hollow-PGA Championship,sg_putt,1.567187128148614,0.31746669860215504,45,770
-22760,"Hisatsune, Ryo",4235,gary player cc,sg_total,1.9599314257850766,0.5631540841112208,8,770
+22760,"Hisatsune, Ryo",4235,gary player cc,sg_total,1.9599314257850764,0.5631540841112208,8,770
 22760,"Hisatsune, Ryo",936,Yokohama Country Club,sg_total,-2.5425260439158643,0.3742798844744178,26,770
 22760,"Hisatsune, Ryo",4236,jumeirah golf estates,sg_total,0.7602128199264201,0.3678165474981815,8,770
 22760,"Hisatsune, Ryo",4415,doha gc,sg_total,0.3995205644078281,0.3212911694092942,6,770
@@ -1075,8 +1075,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 25157,"Hodges, Lee",897,Memorial Park Golf Course,sg_putt,-0.4425308354593992,0.3780874149073176,126,770
 25157,"Hodges, Lee",500,The Riviera Country Club,sg_putt,0.9576346466809472,0.36172215580175954,106,770
 25157,"Hodges, Lee",241,Quail Hollow-PGA Championship,sg_putt,-1.897248315926859,0.31746669860215504,45,770
-25157,"Hodges, Lee",936,Yokohama Country Club,sg_total,0.044199686294007605,0.3742798844744178,26,770
-25157,"Hodges, Lee",769,Monterey Peninsula CC,sg_total,-0.6939292857538683,0.32903104901358904,105,770
+25157,"Hodges, Lee",936,Yokohama Country Club,sg_total,0.044107495606077116,0.3742798844744178,26,770
+25157,"Hodges, Lee",769,Monterey Peninsula CC,sg_total,-0.6940214764417988,0.32903104901358904,105,770
 23504,"Hoey, Rico",770,TPC San Antonio (Oaks Course),sg_app,1.1560023745182086,0.9334587523679371,138,770
 23504,"Hoey, Rico",921,TPC Craig Ranch,sg_app,-0.7000975236732503,0.45613377403213234,104,770
 23504,"Hoey, Rico",931,Tahoe Mountain Club (Old Greenwood),sg_app,0.7692407009272126,0.43713363031576813,48,770
@@ -1131,7 +1131,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 5768,"Hoffman, Charley",899,The Summit Club,sg_putt,-1.0729788412112444,0.3632539833919035,25,770
 5768,"Hoffman, Charley",500,The Riviera Country Club,sg_putt,0.015141220576457226,0.36172215580175954,106,770
 5768,"Hoffman, Charley",43,The Los Angeles Country Club (North Course),sg_putt,0.9783917974489702,0.3337669048945031,41,770
-5768,"Hoffman, Charley",769,Monterey Peninsula CC,sg_total,-0.6386385274862113,0.32903104901358904,105,770
+5768,"Hoffman, Charley",769,Monterey Peninsula CC,sg_total,-0.6383431065465184,0.32903104901358904,105,770
 15575,"Hoge, Tom",770,TPC San Antonio (Oaks Course),sg_app,0.16824197067130897,0.9334587523679371,138,770
 15575,"Hoge, Tom",608,Oakmont Country Club,sg_app,0.3283533542298508,0.5183061495661612,37,770
 15575,"Hoge, Tom",886,Liberty National Golf Club,sg_app,0.21643657797477125,0.49599169794035103,69,770
@@ -1181,7 +1181,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 15575,"Hoge, Tom",500,The Riviera Country Club,sg_putt,-0.20904717345291124,0.36172215580175954,106,770
 15575,"Hoge, Tom",43,The Los Angeles Country Club (North Course),sg_putt,-0.6985360535851678,0.3337669048945031,41,770
 15575,"Hoge, Tom",241,Quail Hollow-PGA Championship,sg_putt,-0.11425810984543142,0.31746669860215504,45,770
-15575,"Hoge, Tom",769,Monterey Peninsula CC,sg_total,-1.1063811783995068,0.32903104901358904,105,770
+15575,"Hoge, Tom",769,Monterey Peninsula CC,sg_total,-1.1063296738402721,0.32903104901358904,105,770
 17538,"Homa, Max",770,TPC San Antonio (Oaks Course),sg_app,-1.3045410850735408,0.9334587523679371,138,770
 17538,"Homa, Max",232,Albany GC,sg_app,-0.31351815752898615,0.6231909589372491,15,770
 17538,"Homa, Max",891,Winged Foot GC,sg_app,-1.11584271185782,0.5068424512624736,38,770
@@ -1230,9 +1230,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17538,"Homa, Max",500,The Riviera Country Club,sg_putt,0.8347452234887333,0.36172215580175954,106,770
 17538,"Homa, Max",43,The Los Angeles Country Club (North Course),sg_putt,0.10265688225480714,0.3337669048945031,41,770
 17538,"Homa, Max",241,Quail Hollow-PGA Championship,sg_putt,0.5125807563587612,0.31746669860215504,45,770
-17538,"Homa, Max",4235,gary player cc,sg_total,3.1715436923022278,0.5631540841112208,8,770
-17538,"Homa, Max",936,Yokohama Country Club,sg_total,0.4268322165507482,0.3742798844744178,26,770
-17538,"Homa, Max",769,Monterey Peninsula CC,sg_total,0.837900389690654,0.32903104901358904,105,770
+17538,"Homa, Max",4235,gary player cc,sg_total,3.171131128263349,0.5631540841112208,8,770
+17538,"Homa, Max",936,Yokohama Country Club,sg_total,0.4264196525118697,0.3742798844744178,26,770
+17538,"Homa, Max",769,Monterey Peninsula CC,sg_total,0.8374878256517755,0.32903104901358904,105,770
 11276,"Horschel, Billy",770,TPC San Antonio (Oaks Course),sg_app,-0.9075662955595963,0.9334587523679371,138,770
 11276,"Horschel, Billy",232,Albany GC,sg_app,0.5870825026602002,0.6231909589372491,15,770
 11276,"Horschel, Billy",891,Winged Foot GC,sg_app,-0.3682210351295648,0.5068424512624736,38,770
@@ -1276,13 +1276,13 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 11276,"Horschel, Billy",897,Memorial Park Golf Course,sg_putt,-1.1692485412611018,0.3780874149073176,126,770
 11276,"Horschel, Billy",500,The Riviera Country Club,sg_putt,-2.4824330679921127,0.36172215580175954,106,770
 11276,"Horschel, Billy",43,The Los Angeles Country Club (North Course),sg_putt,0.010779799249564181,0.3337669048945031,41,770
-11276,"Horschel, Billy",3881,old course st andrews,sg_total,-0.9384677194247055,0.6811356717559214,10,770
-11276,"Horschel, Billy",3796,wentworth golf club,sg_total,3.342007976383505,0.6365456695838412,14,770
-11276,"Horschel, Billy",4033,jumeirah golf estates,sg_total,-0.453525182716941,0.5856332618511396,6,770
-11276,"Horschel, Billy",4193,kingsbarns golf links,sg_total,3.090899560787858,0.5232389273430023,9,770
-11276,"Horschel, Billy",4230,kingsbarns golf links,sg_total,-0.2251843773372262,0.44959278573185796,8,770
-11276,"Horschel, Billy",936,Yokohama Country Club,sg_total,-1.2449625061016756,0.3742798844744178,26,770
-11276,"Horschel, Billy",4192,carnoustie,sg_total,-1.7631004392121423,0.33242151988048835,9,770
+11276,"Horschel, Billy",3881,old course st andrews,sg_total,-0.9385519229511949,0.6811356717559214,10,770
+11276,"Horschel, Billy",3796,wentworth golf club,sg_total,3.3419237728570153,0.6365456695838412,14,770
+11276,"Horschel, Billy",4033,jumeirah golf estates,sg_total,-0.4536093862434304,0.5856332618511396,6,770
+11276,"Horschel, Billy",4193,kingsbarns golf links,sg_total,3.0908153572613686,0.5232389273430023,9,770
+11276,"Horschel, Billy",4230,kingsbarns golf links,sg_total,-0.2252685808637155,0.44959278573185796,8,770
+11276,"Horschel, Billy",936,Yokohama Country Club,sg_total,-1.245046709628165,0.3742798844744178,26,770
+11276,"Horschel, Billy",4192,carnoustie,sg_total,-1.7631846427386317,0.33242151988048835,9,770
 15470,"Hossler, Beau",770,TPC San Antonio (Oaks Course),sg_app,-0.177690714199842,0.9334587523679371,138,770
 15470,"Hossler, Beau",921,TPC Craig Ranch,sg_app,-0.6373620561012331,0.45613377403213234,104,770
 15470,"Hossler, Beau",931,Tahoe Mountain Club (Old Greenwood),sg_app,0.6894921372766284,0.43713363031576813,48,770
@@ -1315,8 +1315,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 15470,"Hossler, Beau",897,Memorial Park Golf Course,sg_putt,0.03741641506422982,0.3780874149073176,126,770
 15470,"Hossler, Beau",500,The Riviera Country Club,sg_putt,0.16762033352470457,0.36172215580175954,106,770
 15470,"Hossler, Beau",241,Quail Hollow-PGA Championship,sg_putt,0.5304596880393249,0.31746669860215504,45,770
-15470,"Hossler, Beau",936,Yokohama Country Club,sg_total,0.3696054879521856,0.3742798844744178,26,770
-15470,"Hossler, Beau",769,Monterey Peninsula CC,sg_total,1.0226119279467358,0.32903104901358904,105,770
+15470,"Hossler, Beau",936,Yokohama Country Club,sg_total,0.368981477659752,0.3742798844744178,26,770
+15470,"Hossler, Beau",769,Monterey Peninsula CC,sg_total,1.021987917654302,0.32903104901358904,105,770
 16333,"Hubbard, Mark",770,TPC San Antonio (Oaks Course),sg_app,-1.1475054700269787,0.9334587523679371,138,770
 16333,"Hubbard, Mark",608,Oakmont Country Club,sg_app,-2.326944520476206,0.5183061495661612,37,770
 16333,"Hubbard, Mark",891,Winged Foot GC,sg_app,-1.7988242390303184,0.5068424512624736,38,770
@@ -1352,8 +1352,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 16333,"Hubbard, Mark",891,Winged Foot GC,sg_putt,1.4256507699712706,0.3932690507844661,38,770
 16333,"Hubbard, Mark",897,Memorial Park Golf Course,sg_putt,-0.3388716734050577,0.3780874149073176,126,770
 16333,"Hubbard, Mark",500,The Riviera Country Club,sg_putt,-0.8143995172745357,0.36172215580175954,106,770
-16333,"Hubbard, Mark",936,Yokohama Country Club,sg_total,-0.4134274809001974,0.3742798844744178,26,770
-16333,"Hubbard, Mark",769,Monterey Peninsula CC,sg_total,2.614218279931259,0.32903104901358904,105,770
+16333,"Hubbard, Mark",936,Yokohama Country Club,sg_total,-0.41374131521057655,0.3742798844744178,26,770
+16333,"Hubbard, Mark",769,Monterey Peninsula CC,sg_total,2.6139044456208804,0.32903104901358904,105,770
 15556,"Hughes, Mackenzie",770,TPC San Antonio (Oaks Course),sg_app,0.26350435127248867,0.9334587523679371,138,770
 15556,"Hughes, Mackenzie",887,Kasumigaseki Country Club,sg_app,0.14640017360694524,0.7121292004060108,12,770
 15556,"Hughes, Mackenzie",608,Oakmont Country Club,sg_app,1.0134386053280922,0.5183061495661612,37,770
@@ -1400,7 +1400,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 15556,"Hughes, Mackenzie",500,The Riviera Country Club,sg_putt,-0.08272156120901088,0.36172215580175954,106,770
 15556,"Hughes, Mackenzie",43,The Los Angeles Country Club (North Course),sg_putt,0.8480124700538149,0.3337669048945031,41,770
 15556,"Hughes, Mackenzie",241,Quail Hollow-PGA Championship,sg_putt,-3.5390178187366237,0.31746669860215504,45,770
-15556,"Hughes, Mackenzie",769,Monterey Peninsula CC,sg_total,-0.7365862542912279,0.32903104901358904,105,770
+15556,"Hughes, Mackenzie",769,Monterey Peninsula CC,sg_total,-0.7359975891449343,0.32903104901358904,105,770
 16394,"Jaeger, Stephan",770,TPC San Antonio (Oaks Course),sg_app,0.11335716114760316,0.9334587523679371,138,770
 16394,"Jaeger, Stephan",608,Oakmont Country Club,sg_app,0.1511912063356925,0.5183061495661612,37,770
 16394,"Jaeger, Stephan",891,Winged Foot GC,sg_app,-0.09909022401475726,0.5068424512624736,38,770
@@ -1437,7 +1437,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 16394,"Jaeger, Stephan",885,Royal Portrush Golf Club,sg_putt,1.2855732026134885,0.3660219629675547,34,770
 16394,"Jaeger, Stephan",500,The Riviera Country Club,sg_putt,-0.7902653539288778,0.36172215580175954,106,770
 16394,"Jaeger, Stephan",241,Quail Hollow-PGA Championship,sg_putt,0.41506220552235507,0.31746669860215504,45,770
-16394,"Jaeger, Stephan",769,Monterey Peninsula CC,sg_total,1.3755108480483458,0.32903104901358904,105,770
+16394,"Jaeger, Stephan",769,Monterey Peninsula CC,sg_total,1.3754976188279417,0.32903104901358904,105,770
 19729,"Kanaya, Takumi",770,TPC San Antonio (Oaks Course),sg_app,-0.6218986333076697,0.9334587523679371,138,770
 19729,"Kanaya, Takumi",608,Oakmont Country Club,sg_app,0.4419918138188095,0.5183061495661612,37,770
 19729,"Kanaya, Takumi",921,TPC Craig Ranch,sg_app,0.6507331707579439,0.45613377403213234,104,770
@@ -1464,22 +1464,22 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 19729,"Kanaya, Takumi",897,Memorial Park Golf Course,sg_putt,0.7409624149152685,0.3780874149073176,126,770
 19729,"Kanaya, Takumi",885,Royal Portrush Golf Club,sg_putt,0.6636879517402395,0.3660219629675547,34,770
 19729,"Kanaya, Takumi",241,Quail Hollow-PGA Championship,sg_putt,-0.5834487790104971,0.31746669860215504,45,770
-19729,"Kanaya, Takumi",3867,mount juliet estate,sg_total,1.2061540163437925,0.7428767894335073,8,770
-19729,"Kanaya, Takumi",4207,golfclub münchen eichenried,sg_total,-2.0539136390663746,0.6031145566280598,5,770
-19729,"Kanaya, Takumi",4193,kingsbarns golf links,sg_total,-2.7438065818464,0.5232389273430023,9,770
-19729,"Kanaya, Takumi",4014,le golf national,sg_total,-1.0443613596915722,0.4585525648402019,7,770
-19729,"Kanaya, Takumi",936,Yokohama Country Club,sg_total,2.8851173614859187,0.3742798844744178,26,770
-19729,"Kanaya, Takumi",4192,carnoustie,sg_total,0.4021934181536002,0.33242151988048835,9,770
+19729,"Kanaya, Takumi",3867,mount juliet estate,sg_total,1.2066033656851556,0.7428767894335073,8,770
+19729,"Kanaya, Takumi",4207,golfclub münchen eichenried,sg_total,-2.053464289725011,0.6031145566280598,5,770
+19729,"Kanaya, Takumi",4193,kingsbarns golf links,sg_total,-2.743357232505037,0.5232389273430023,9,770
+19729,"Kanaya, Takumi",4014,le golf national,sg_total,-1.0439120103502089,0.4585525648402019,7,770
+19729,"Kanaya, Takumi",936,Yokohama Country Club,sg_total,2.885566710827282,0.3742798844744178,26,770
+19729,"Kanaya, Takumi",4192,carnoustie,sg_total,0.4026427674949633,0.33242151988048835,9,770
 21889,"Kang, Jeffrey",921,TPC Craig Ranch,sg_app,-0.7139136383136984,0.45613377403213234,104,770
 21889,"Kang, Jeffrey",928,PGA National  - Champion Course,sg_app,-0.14059418584675698,0.3147934734817942,88,770
 21889,"Kang, Jeffrey",897,Memorial Park Golf Course,sg_putt,1.0437763099718593,0.3780874149073176,126,770
-21889,"Kang, Jeffrey",93,Vanderbilt Legends Club,sg_total,0.012723182352334203,0.6180217370617999,21,770
-21889,"Kang, Jeffrey",60,Texas Rangers Golf Club,sg_total,0.22630054879102174,0.6167570095321873,23,770
+21889,"Kang, Jeffrey",93,Vanderbilt Legends Club,sg_total,0.012723182352334217,0.6180217370617999,21,770
+21889,"Kang, Jeffrey",60,Texas Rangers Golf Club,sg_total,0.22630054879102177,0.6167570095321873,23,770
 21889,"Kang, Jeffrey",800,The Abaco Club on Winding Bay,sg_total,-1.5225661362003888,0.4709398928223278,39,770
 21889,"Kang, Jeffrey",678,Thornblade Club,sg_total,-0.7862414316798109,0.3513700323407084,28,770
 21889,"Kang, Jeffrey",94,Jimmie Austin OU Golf Club,sg_total,0.601640115317789,0.3480024942186549,18,770
 21889,"Kang, Jeffrey",55,Panther Creek Country Club,sg_total,0.8355758973219019,0.32120800029494245,27,770
-21889,"Kang, Jeffrey",807,Lakewood National Golf Club,sg_total,-0.14665554857325855,0.3104472706323593,22,770
+21889,"Kang, Jeffrey",807,Lakewood National Golf Club,sg_total,-0.14665554857325852,0.3104472706323593,22,770
 32457,"Keefer, Johnny",608,Oakmont Country Club,sg_app,0.2032066857041522,0.5183061495661612,37,770
 32457,"Keefer, Johnny",928,PGA National  - Champion Course,sg_app,-1.334158668112961,0.3147934734817942,88,770
 32457,"Keefer, Johnny",608,Oakmont Country Club,sg_arg,-0.7139972541380688,0.5116314755958971,37,770
@@ -1496,8 +1496,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 24766,"Kim, Joohyung",752,Sedgefield Country Club,sg_ott,0.30578755355075843,0.49207604550358264,131,770
 24766,"Kim, Joohyung",977,The Renaissance Club,sg_ott,0.7775479127801144,0.3961561870401492,70,770
 24766,"Kim, Joohyung",899,The Summit Club,sg_putt,1.0733720259627397,0.3632539833919035,25,770
-24766,"Kim, Joohyung",4075,doha gc,sg_total,-2.291678371693683,0.4166973465837519,6,770
-24766,"Kim, Joohyung",4236,jumeirah golf estates,sg_total,0.5774742055423178,0.3678165474981815,8,770
+24766,"Kim, Joohyung",4075,doha gc,sg_total,-2.29215157426847,0.4166973465837519,6,770
+24766,"Kim, Joohyung",4236,jumeirah golf estates,sg_total,0.5770010029675308,0.3678165474981815,8,770
 17543,"Kim, Michael",770,TPC San Antonio (Oaks Course),sg_app,0.0754471586963724,0.9334587523679371,138,770
 17543,"Kim, Michael",608,Oakmont Country Club,sg_app,0.33822232506582783,0.5183061495661612,37,770
 17543,"Kim, Michael",921,TPC Craig Ranch,sg_app,-0.30857258996549747,0.45613377403213234,104,770
@@ -1534,9 +1534,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17543,"Kim, Michael",500,The Riviera Country Club,sg_putt,-1.9945558164137858,0.36172215580175954,106,770
 17543,"Kim, Michael",43,The Los Angeles Country Club (North Course),sg_putt,0.9175360437442276,0.3337669048945031,41,770
 17543,"Kim, Michael",241,Quail Hollow-PGA Championship,sg_putt,-0.3457781063362873,0.31746669860215504,45,770
-17543,"Kim, Michael",936,Yokohama Country Club,sg_total,-1.7006244355087046,0.3742798844744178,26,770
-17543,"Kim, Michael",4592,yas links,sg_total,-0.21389537520351748,0.34581953373452445,6,770
-17543,"Kim, Michael",769,Monterey Peninsula CC,sg_total,1.8658430584146442,0.32903104901358904,105,770
+17543,"Kim, Michael",936,Yokohama Country Club,sg_total,-1.7004079393661864,0.3742798844744178,26,770
+17543,"Kim, Michael",4592,yas links,sg_total,-0.21367887906099933,0.34581953373452445,6,770
+17543,"Kim, Michael",769,Monterey Peninsula CC,sg_total,1.8660595545571623,0.32903104901358904,105,770
 21688,"Kim, S.H.",770,TPC San Antonio (Oaks Course),sg_app,0.5315503518752952,0.9334587523679371,138,770
 21688,"Kim, S.H.",921,TPC Craig Ranch,sg_app,-0.19034375268675027,0.45613377403213234,104,770
 21688,"Kim, S.H.",931,Tahoe Mountain Club (Old Greenwood),sg_app,1.1764689027367077,0.43713363031576813,48,770
@@ -1557,10 +1557,10 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 21688,"Kim, S.H.",925,Dunes Golf and Beach Club,sg_putt,-0.8254822843578543,0.4070002175457089,70,770
 21688,"Kim, S.H.",897,Memorial Park Golf Course,sg_putt,-0.5795003417279564,0.3780874149073176,126,770
 21688,"Kim, S.H.",500,The Riviera Country Club,sg_putt,1.3127641606426597,0.36172215580175954,106,770
-21688,"Kim, S.H.",60,Texas Rangers Golf Club,sg_total,1.6500386456931162,0.6167570095321873,23,770
-21688,"Kim, S.H.",678,Thornblade Club,sg_total,0.05483257442094882,0.3513700323407084,28,770
-21688,"Kim, S.H.",769,Monterey Peninsula CC,sg_total,-4.04713093020017,0.32903104901358904,105,770
-21688,"Kim, S.H.",807,Lakewood National Golf Club,sg_total,0.16870865260280762,0.3104472706323593,22,770
+21688,"Kim, S.H.",60,Texas Rangers Golf Club,sg_total,1.6510517758965448,0.6167570095321873,23,770
+21688,"Kim, S.H.",678,Thornblade Club,sg_total,0.05584570462437749,0.3513700323407084,28,770
+21688,"Kim, S.H.",769,Monterey Peninsula CC,sg_total,-4.046117799996742,0.32903104901358904,105,770
+21688,"Kim, S.H.",807,Lakewood National Golf Club,sg_total,0.1697217828062363,0.3104472706323593,22,770
 21688,"Kim, Seonghyeon",921,TPC Craig Ranch,sg_app,0.7777693493675004,0.45613377403213234,104,770
 21688,"Kim, Seonghyeon",977,The Renaissance Club,sg_ott,0.32430569946413773,0.3961561870401492,70,770
 14609,"Kim, Si Woo",770,TPC San Antonio (Oaks Course),sg_app,-0.19671954214549314,0.9334587523679371,138,770
@@ -1614,8 +1614,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 14609,"Kim, Si Woo",500,The Riviera Country Club,sg_putt,-0.09123986974512341,0.36172215580175954,106,770
 14609,"Kim, Si Woo",43,The Los Angeles Country Club (North Course),sg_putt,0.6163927338084193,0.3337669048945031,41,770
 14609,"Kim, Si Woo",241,Quail Hollow-PGA Championship,sg_putt,2.114581927093938,0.31746669860215504,45,770
-14609,"Kim, Si Woo",936,Yokohama Country Club,sg_total,0.29223008062667594,0.3742798844744178,26,770
-14609,"Kim, Si Woo",769,Monterey Peninsula CC,sg_total,-0.9749147801978371,0.32903104901358904,105,770
+14609,"Kim, Si Woo",936,Yokohama Country Club,sg_total,0.2919622374778329,0.3742798844744178,26,770
+14609,"Kim, Si Woo",769,Monterey Peninsula CC,sg_total,-0.9751826233466802,0.32903104901358904,105,770
 24766,"Kim, Tom",770,TPC San Antonio (Oaks Course),sg_app,-2.7469651937219677,0.9334587523679371,138,770
 24766,"Kim, Tom",232,Albany GC,sg_app,0.0921939791744182,0.6231909589372491,15,770
 24766,"Kim, Tom",608,Oakmont Country Club,sg_app,-0.8080484946321184,0.5183061495661612,37,770
@@ -1655,7 +1655,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 24766,"Kim, Tom",500,The Riviera Country Club,sg_putt,-0.6726268835446911,0.36172215580175954,106,770
 24766,"Kim, Tom",43,The Los Angeles Country Club (North Course),sg_putt,1.0717449694006753,0.3337669048945031,41,770
 24766,"Kim, Tom",241,Quail Hollow-PGA Championship,sg_putt,-0.2811510460471601,0.31746669860215504,45,770
-24766,"Kim, Tom",936,Yokohama Country Club,sg_total,-1.1032763112381663,0.3742798844744178,26,770
+24766,"Kim, Tom",936,Yokohama Country Club,sg_total,-1.1037495138129532,0.3742798844744178,26,770
 12423,"Kirk, Chris",770,TPC San Antonio (Oaks Course),sg_app,-0.2380080904036988,0.9334587523679371,138,770
 12423,"Kirk, Chris",608,Oakmont Country Club,sg_app,-0.20829790561832406,0.5183061495661612,37,770
 12423,"Kirk, Chris",886,Liberty National Golf Club,sg_app,-0.2962276509214519,0.49599169794035103,69,770
@@ -1699,7 +1699,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 12423,"Kirk, Chris",500,The Riviera Country Club,sg_putt,-2.018187976075611,0.36172215580175954,106,770
 12423,"Kirk, Chris",43,The Los Angeles Country Club (North Course),sg_putt,-0.3858971299991287,0.3337669048945031,41,770
 12423,"Kirk, Chris",241,Quail Hollow-PGA Championship,sg_putt,-0.06344985133655344,0.31746669860215504,45,770
-12423,"Kirk, Chris",769,Monterey Peninsula CC,sg_total,1.0528692725192488,0.32903104901358904,105,770
+12423,"Kirk, Chris",769,Monterey Peninsula CC,sg_total,1.052824096216863,0.32903104901358904,105,770
 13470,"Kizzire, Patton",770,TPC San Antonio (Oaks Course),sg_app,-0.18529826357023962,0.9334587523679371,138,770
 13470,"Kizzire, Patton",886,Liberty National Golf Club,sg_app,0.9332314381123292,0.49599169794035103,69,770
 13470,"Kizzire, Patton",921,TPC Craig Ranch,sg_app,1.0034760114839683,0.45613377403213234,104,770
@@ -1769,14 +1769,14 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 6169,"Kuchar, Matt",897,Memorial Park Golf Course,sg_putt,0.969609745203734,0.3780874149073176,126,770
 6169,"Kuchar, Matt",500,The Riviera Country Club,sg_putt,-0.2164057364601291,0.36172215580175954,106,770
 6169,"Kuchar, Matt",43,The Los Angeles Country Club (North Course),sg_putt,-1.8578107956791252,0.3337669048945031,41,770
-6169,"Kuchar, Matt",4414,real club de golf sotogrande,sg_total,0.5177108651711088,0.6511016676293667,7,770
-6169,"Kuchar, Matt",4230,kingsbarns golf links,sg_total,0.772196465832769,0.44959278573185796,8,770
-6169,"Kuchar, Matt",769,Monterey Peninsula CC,sg_total,-0.8705805393289395,0.32903104901358904,105,770
+6169,"Kuchar, Matt",4414,real club de golf sotogrande,sg_total,0.5163962057285009,0.6511016676293667,7,770
+6169,"Kuchar, Matt",4230,kingsbarns golf links,sg_total,0.7708818063901611,0.44959278573185796,8,770
+6169,"Kuchar, Matt",769,Monterey Peninsula CC,sg_total,-0.8718951987715474,0.32903104901358904,105,770
 24343,"Lamprecht, Christo",921,TPC Craig Ranch,sg_app,-1.876377661054574,0.45613377403213234,104,770
 24343,"Lamprecht, Christo",928,PGA National  - Champion Course,sg_app,0.2530940385889003,0.3147934734817942,88,770
 24343,"Lamprecht, Christo",897,Memorial Park Golf Course,sg_putt,-1.1268059567241493,0.3780874149073176,126,770
 24343,"Lamprecht, Christo",93,Vanderbilt Legends Club,sg_total,-0.24813429143713242,0.6180217370617999,21,770
-24343,"Lamprecht, Christo",60,Texas Rangers Golf Club,sg_total,-0.47603987255439917,0.6167570095321873,23,770
+24343,"Lamprecht, Christo",60,Texas Rangers Golf Club,sg_total,-0.47603987255439906,0.6167570095321873,23,770
 24343,"Lamprecht, Christo",800,The Abaco Club on Winding Bay,sg_total,3.2526444372640997,0.4709398928223278,39,770
 24343,"Lamprecht, Christo",3902,randpark gc bushwillow course,sg_total,-1.143623931978861,0.4367612615201906,5,770
 24343,"Lamprecht, Christo",4367,leopard creek cc,sg_total,1.0569518242064744,0.3971949827757657,5,770
@@ -1803,14 +1803,14 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 21943,"Lebioda, Hank",897,Memorial Park Golf Course,sg_putt,0.6432056097621498,0.3780874149073176,126,770
 21943,"Lebioda, Hank",500,The Riviera Country Club,sg_putt,0.4300478302739431,0.36172215580175954,106,770
 21943,"Lebioda, Hank",43,The Los Angeles Country Club (North Course),sg_putt,-3.671755997524538,0.3337669048945031,41,770
-21943,"Lebioda, Hank",93,Vanderbilt Legends Club,sg_total,-1.4079779239518477,0.6180217370617999,21,770
-21943,"Lebioda, Hank",60,Texas Rangers Golf Club,sg_total,-0.2458454460860101,0.6167570095321873,23,770
-21943,"Lebioda, Hank",800,The Abaco Club on Winding Bay,sg_total,2.21205477913809,0.4709398928223278,39,770
-21943,"Lebioda, Hank",678,Thornblade Club,sg_total,0.6689717124856575,0.3513700323407084,28,770
-21943,"Lebioda, Hank",94,Jimmie Austin OU Golf Club,sg_total,-0.35398514631912825,0.3480024942186549,18,770
-21943,"Lebioda, Hank",769,Monterey Peninsula CC,sg_total,3.768049200668705,0.32903104901358904,105,770
-21943,"Lebioda, Hank",55,Panther Creek Country Club,sg_total,1.66317865293234,0.32120800029494245,27,770
-21943,"Lebioda, Hank",807,Lakewood National Golf Club,sg_total,1.9725305583648236,0.3104472706323593,22,770
+21943,"Lebioda, Hank",93,Vanderbilt Legends Club,sg_total,-1.407916058011512,0.6180217370617999,21,770
+21943,"Lebioda, Hank",60,Texas Rangers Golf Club,sg_total,-0.24578358014567425,0.6167570095321873,23,770
+21943,"Lebioda, Hank",800,The Abaco Club on Winding Bay,sg_total,2.2121166450784258,0.4709398928223278,39,770
+21943,"Lebioda, Hank",678,Thornblade Club,sg_total,0.6690335784259933,0.3513700323407084,28,770
+21943,"Lebioda, Hank",94,Jimmie Austin OU Golf Club,sg_total,-0.3539232803787924,0.3480024942186549,18,770
+21943,"Lebioda, Hank",769,Monterey Peninsula CC,sg_total,3.768111066609041,0.32903104901358904,105,770
+21943,"Lebioda, Hank",55,Panther Creek Country Club,sg_total,1.663240518872676,0.32120800029494245,27,770
+21943,"Lebioda, Hank",807,Lakewood National Golf Club,sg_total,1.9725924243051596,0.3104472706323593,22,770
 13497,"Lee, K.H.",770,TPC San Antonio (Oaks Course),sg_app,-0.08292031149884316,0.9334587523679371,138,770
 13497,"Lee, K.H.",886,Liberty National Golf Club,sg_app,-0.1360254046524655,0.49599169794035103,69,770
 13497,"Lee, K.H.",921,TPC Craig Ranch,sg_app,1.7756938328414864,0.45613377403213234,104,770
@@ -1860,7 +1860,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 13497,"Lee, Kyoung-Hoon",770,TPC San Antonio (Oaks Course),sg_putt,0.0191443501136295,0.937594127699997,138,770
 13497,"Lee, Kyoung-Hoon",897,Memorial Park Golf Course,sg_putt,-0.5748131319797661,0.3780874149073176,126,770
 13497,"Lee, Kyoung-Hoon",500,The Riviera Country Club,sg_putt,-0.06409166626694407,0.36172215580175954,106,770
-13497,"Lee, Kyoung-Hoon",769,Monterey Peninsula CC,sg_total,-1.4190011559239317,0.32903104901358904,105,770
+13497,"Lee, Kyoung-Hoon",769,Monterey Peninsula CC,sg_total,-1.4190537135173296,0.32903104901358904,105,770
 13497,"Lee, Kyounghoon",921,TPC Craig Ranch,sg_app,0.3375701810452439,0.45613377403213234,104,770
 13497,"Lee, Kyounghoon",724,Royal Liverpool,sg_app,-0.014269011289777617,0.44812525703902684,33,770
 13497,"Lee, Kyounghoon",724,Royal Liverpool,sg_arg,0.9168807509526052,0.5509835595481248,33,770
@@ -1880,26 +1880,26 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 15310,"Li, Haotong",880,Bethpage Black,sg_ott,-0.057938227774662454,0.38589345877316966,45,770
 15310,"Li, Haotong",897,Memorial Park Golf Course,sg_putt,-0.6879154599476845,0.3780874149073176,126,770
 15310,"Li, Haotong",885,Royal Portrush Golf Club,sg_putt,0.5529552298955351,0.3660219629675547,34,770
-15310,"Li, Haotong",3867,mount juliet estate,sg_total,-4.353568407658077,0.7428767894335073,8,770
-15310,"Li, Haotong",4200,yas links,sg_total,-5.605636290316527,0.6824220284151636,9,770
-15310,"Li, Haotong",3881,old course st andrews,sg_total,3.261627836530269,0.6811356717559214,10,770
-15310,"Li, Haotong",3796,wentworth golf club,sg_total,-0.7545969421924099,0.6365456695838412,14,770
-15310,"Li, Haotong",4591,club de campo villa de madrid,sg_total,-1.4769410526001376,0.6058678578766112,5,770
-15310,"Li, Haotong",4207,golfclub münchen eichenried,sg_total,-5.097346417139217,0.6031145566280598,5,770
-15310,"Li, Haotong",4621,gut altentann gc,sg_total,0.3999305682312386,0.5423864348419307,6,770
-15310,"Li, Haotong",3801,olgiata gc,sg_total,-0.7818298707504894,0.5361973537543031,10,770
-15310,"Li, Haotong",4601,old course st andrews,sg_total,0.9029222276245752,0.4697081735101227,9,770
-15310,"Li, Haotong",4136,abu dhabi gc,sg_total,-0.5746484365330644,0.4516384086696491,11,770
-15310,"Li, Haotong",4230,kingsbarns golf links,sg_total,-0.5590774514562953,0.44959278573185796,8,770
-15310,"Li, Haotong",3768,emirates gc,sg_total,2.7172215335197647,0.4154167498856704,9,770
-15310,"Li, Haotong",4584,crans-sur-sierre gc,sg_total,0.5832368096112226,0.40630602803052057,11,770
-15310,"Li, Haotong",4056,brabazon course at the belfry,sg_total,-0.2111451976924532,0.4056319826761129,7,770
-15310,"Li, Haotong",3787,lahinch gc,sg_total,1.128590357860688,0.400576532740988,10,770
-15310,"Li, Haotong",4074,pga national cyprus course,sg_total,-0.017818532614915616,0.39809076103437085,4,770
-15310,"Li, Haotong",4602,carnoustie,sg_total,-0.5170777723754248,0.3955744153801582,9,770
-15310,"Li, Haotong",4592,yas links,sg_total,0.5961800935479356,0.34581953373452445,6,770
-15310,"Li, Haotong",3797,old course st andrews,sg_total,1.237935434173584,0.3411633033644508,14,770
-15310,"Li, Haotong",4097,fire course,sg_total,-0.7993184019205257,0.318586127268691,5,770
+15310,"Li, Haotong",3867,mount juliet estate,sg_total,-4.353430636951266,0.7428767894335073,8,770
+15310,"Li, Haotong",4200,yas links,sg_total,-5.623271112627787,0.6824220284151636,9,770
+15310,"Li, Haotong",3881,old course st andrews,sg_total,3.2617656072370793,0.6811356717559214,10,770
+15310,"Li, Haotong",3796,wentworth golf club,sg_total,-0.7544591714855997,0.6365456695838412,14,770
+15310,"Li, Haotong",4591,club de campo villa de madrid,sg_total,-1.4768032818933274,0.6058678578766112,5,770
+15310,"Li, Haotong",4207,golfclub münchen eichenried,sg_total,-5.097208646432408,0.6031145566280598,5,770
+15310,"Li, Haotong",4621,gut altentann gc,sg_total,0.4000683389380489,0.5423864348419307,6,770
+15310,"Li, Haotong",3801,olgiata gc,sg_total,-0.7816921000436792,0.5361973537543031,10,770
+15310,"Li, Haotong",4601,old course st andrews,sg_total,0.9030599983313854,0.4697081735101227,9,770
+15310,"Li, Haotong",4136,abu dhabi gc,sg_total,-0.5745106658262542,0.4516384086696491,11,770
+15310,"Li, Haotong",4230,kingsbarns golf links,sg_total,-0.5589396807494851,0.44959278573185796,8,770
+15310,"Li, Haotong",3768,emirates gc,sg_total,2.717359304226575,0.4154167498856704,9,770
+15310,"Li, Haotong",4584,crans-sur-sierre gc,sg_total,0.5833745803180328,0.40630602803052057,11,770
+15310,"Li, Haotong",4056,brabazon course at the belfry,sg_total,-0.21100742698564284,0.4056319826761129,7,770
+15310,"Li, Haotong",3787,lahinch gc,sg_total,1.1287281285674982,0.400576532740988,10,770
+15310,"Li, Haotong",4074,pga national cyprus course,sg_total,-0.017680761908105136,0.39809076103437085,4,770
+15310,"Li, Haotong",4602,carnoustie,sg_total,-0.5169400016686145,0.3955744153801582,9,770
+15310,"Li, Haotong",4592,yas links,sg_total,0.5963178642547458,0.34581953373452445,6,770
+15310,"Li, Haotong",3797,old course st andrews,sg_total,1.2380732048803942,0.3411633033644508,14,770
+15310,"Li, Haotong",4097,fire course,sg_total,-0.7991806312137155,0.318586127268691,5,770
 15980,"Lipsky, David",770,TPC San Antonio (Oaks Course),sg_app,-0.9195800803313272,0.9334587523679371,138,770
 15980,"Lipsky, David",921,TPC Craig Ranch,sg_app,0.04591527074169574,0.45613377403213234,104,770
 15980,"Lipsky, David",931,Tahoe Mountain Club (Old Greenwood),sg_app,-1.258918567513162,0.43713363031576813,48,770
@@ -1923,16 +1923,16 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 15980,"Lipsky, David",925,Dunes Golf and Beach Club,sg_putt,-0.7442943421915962,0.4070002175457089,70,770
 15980,"Lipsky, David",897,Memorial Park Golf Course,sg_putt,-0.7213133611050855,0.3780874149073176,126,770
 15980,"Lipsky, David",500,The Riviera Country Club,sg_putt,-0.4579332397261966,0.36172215580175954,106,770
-15980,"Lipsky, David",3796,wentworth golf club,sg_total,-0.03128776538522492,0.6365456695838412,14,770
-15980,"Lipsky, David",3801,olgiata gc,sg_total,-2.1271479407332845,0.5361973537543031,10,770
-15980,"Lipsky, David",3785,golfclub münchen eichenried,sg_total,0.3580256864091153,0.5022972237102333,7,770
-15980,"Lipsky, David",4136,abu dhabi gc,sg_total,2.354583779638468,0.4516384086696491,11,770
-15980,"Lipsky, David",3768,emirates gc,sg_total,-2.0798872827857653,0.4154167498856704,9,770
-15980,"Lipsky, David",3787,lahinch gc,sg_total,-6.020930948492466,0.400576532740988,10,770
-15980,"Lipsky, David",936,Yokohama Country Club,sg_total,0.2528262960991565,0.3742798844744178,26,770
-15980,"Lipsky, David",3797,old course st andrews,sg_total,-3.5635561682781614,0.3411633033644508,14,770
-15980,"Lipsky, David",769,Monterey Peninsula CC,sg_total,0.01963535964652806,0.32903104901358904,105,770
-15980,"Lipsky, David",3803,real club valderrama,sg_total,-0.5864746055234564,0.3193154955433175,5,770
+15980,"Lipsky, David",3796,wentworth golf club,sg_total,-0.0315684373315947,0.6365456695838412,14,770
+15980,"Lipsky, David",3801,olgiata gc,sg_total,-2.127428612679654,0.5361973537543031,10,770
+15980,"Lipsky, David",3785,golfclub münchen eichenried,sg_total,0.35774501446274554,0.5022972237102333,7,770
+15980,"Lipsky, David",4136,abu dhabi gc,sg_total,2.354303107692098,0.4516384086696491,11,770
+15980,"Lipsky, David",3768,emirates gc,sg_total,-2.080167954732135,0.4154167498856704,9,770
+15980,"Lipsky, David",3787,lahinch gc,sg_total,-6.0212116204388355,0.400576532740988,10,770
+15980,"Lipsky, David",936,Yokohama Country Club,sg_total,0.25254562415278675,0.3742798844744178,26,770
+15980,"Lipsky, David",3797,old course st andrews,sg_total,-3.563836840224531,0.3411633033644508,14,770
+15980,"Lipsky, David",769,Monterey Peninsula CC,sg_total,0.019354687700158274,0.32903104901358904,105,770
+15980,"Lipsky, David",3803,real club valderrama,sg_total,-0.5867552774698261,0.3193154955433175,5,770
 17723,"Lower, Justin",770,TPC San Antonio (Oaks Course),sg_app,-0.3843033164189602,0.9334587523679371,138,770
 17723,"Lower, Justin",608,Oakmont Country Club,sg_app,-2.070426761456199,0.5183061495661612,37,770
 17723,"Lower, Justin",921,TPC Craig Ranch,sg_app,0.040825293246375766,0.45613377403213234,104,770
@@ -1961,7 +1961,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17723,"Lower, Justin",897,Memorial Park Golf Course,sg_putt,-1.4230809776268878,0.3780874149073176,126,770
 17723,"Lower, Justin",500,The Riviera Country Club,sg_putt,0.9347809200590178,0.36172215580175954,106,770
 17723,"Lower, Justin",241,Quail Hollow-PGA Championship,sg_putt,1.1255519633142224,0.31746669860215504,45,770
-17723,"Lower, Justin",769,Monterey Peninsula CC,sg_total,-0.7645168067241518,0.32903104901358904,105,770
+17723,"Lower, Justin",769,Monterey Peninsula CC,sg_total,-0.7639642094394534,0.32903104901358904,105,770
 23323,"MacIntyre, Robert",770,TPC San Antonio (Oaks Course),sg_app,0.09751632388355472,0.9334587523679371,138,770
 23323,"MacIntyre, Robert",232,Albany GC,sg_app,0.42748064458657664,0.6231909589372491,15,770
 23323,"MacIntyre, Robert",608,Oakmont Country Club,sg_app,0.5896419265487685,0.5183061495661612,37,770
@@ -2001,37 +2001,37 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 23323,"Macintyre, Robert",977,The Renaissance Club,sg_ott,0.5562675566296437,0.3961561870401492,70,770
 23323,"Macintyre, Robert",514,Oak Hill Country Club,sg_ott,-0.3823844179022798,0.3283629628363219,48,770
 23323,"Macintyre, Robert",724,Royal Liverpool,sg_putt,-1.0226842330411212,0.6746917363930047,33,770
-23323,"Macintyre, Robert",4017,real club valderrama,sg_total,0.7280353618553247,0.7130053387528874,7,770
-23323,"Macintyre, Robert",4000,mount juliet estate,sg_total,0.9101933333059599,0.6961769540188673,8,770
-23323,"Macintyre, Robert",4200,yas links,sg_total,0.1500943003103813,0.6824220284151636,9,770
-23323,"Macintyre, Robert",3881,old course st andrews,sg_total,-0.35518467609830623,0.6811356717559214,10,770
-23323,"Macintyre, Robert",4414,real club de golf sotogrande,sg_total,0.0035251147706558683,0.6511016676293667,7,770
-23323,"Macintyre, Robert",4011,himmerland golf & spa resort,sg_total,0.7434968772195759,0.6447942000988162,4,770
-23323,"Macintyre, Robert",3796,wentworth golf club,sg_total,0.7111991404959054,0.6365456695838412,14,770
-23323,"Macintyre, Robert",4207,golfclub münchen eichenried,sg_total,0.20239421048840056,0.6031145566280598,5,770
-23323,"Macintyre, Robert",4033,jumeirah golf estates,sg_total,1.515749829803859,0.5856332618511396,6,770
-23323,"Macintyre, Robert",3782,himmerland golf & spa resort,sg_total,3.1628640222606843,0.5757860892708787,7,770
-23323,"Macintyre, Robert",4235,gary player cc,sg_total,-2.1480894332620326,0.5631540841112208,8,770
-23323,"Macintyre, Robert",3801,olgiata gc,sg_total,2.1732125060088436,0.5361973537543031,10,770
-23323,"Macintyre, Robert",4010,crans-sur-sierre gc,sg_total,-1.6106612299638603,0.5300172537833142,5,770
-23323,"Macintyre, Robert",4193,kingsbarns golf links,sg_total,4.518872055481673,0.5232389273430023,9,770
-23323,"Macintyre, Robert",3785,golfclub münchen eichenried,sg_total,-1.0132042566185113,0.5022972237102333,7,770
-23323,"Macintyre, Robert",4601,old course st andrews,sg_total,2.402690278234752,0.4697081735101227,9,770
-23323,"Macintyre, Robert",4014,le golf national,sg_total,0.8363906867825203,0.4585525648402019,7,770
-23323,"Macintyre, Robert",4136,abu dhabi gc,sg_total,0.24694645583297326,0.4516384086696491,11,770
-23323,"Macintyre, Robert",4230,kingsbarns golf links,sg_total,-1.2840779271359275,0.44959278573185796,8,770
-23323,"Macintyre, Robert",3890,leopard creek cc,sg_total,1.541256932110028,0.4174102349705498,4,770
-23323,"Macintyre, Robert",3787,lahinch gc,sg_total,0.026711759387237022,0.400576532740988,10,770
-23323,"Macintyre, Robert",4074,pga national cyprus course,sg_total,1.7058772435240974,0.39809076103437085,4,770
-23323,"Macintyre, Robert",4602,carnoustie,sg_total,1.982690278234752,0.3955744153801582,9,770
-23323,"Macintyre, Robert",3811,hillside golf club,sg_total,3.22968610593629,0.389803985254987,6,770
-23323,"Macintyre, Robert",4236,jumeirah golf estates,sg_total,0.5598296697642245,0.3678165474981815,8,770
-23323,"Macintyre, Robert",3791,albatross golf resort,sg_total,-0.10614350375431908,0.34616805597378386,4,770
-23323,"Macintyre, Robert",4592,yas links,sg_total,0.22255545549247835,0.34581953373452445,6,770
-23323,"Macintyre, Robert",3797,old course st andrews,sg_total,0.00014298652501637532,0.3411633033644508,14,770
-23323,"Macintyre, Robert",4192,carnoustie,sg_total,1.6648720554816716,0.33242151988048835,9,770
-23323,"Macintyre, Robert",4415,doha gc,sg_total,1.0431784215106537,0.3212911694092942,6,770
-23323,"Macintyre, Robert",4097,fire course,sg_total,0.24384280480560816,0.318586127268691,5,770
+23323,"Macintyre, Robert",4017,real club valderrama,sg_total,0.7275276889250173,0.7130053387528874,7,770
+23323,"Macintyre, Robert",4000,mount juliet estate,sg_total,0.9096856603756525,0.6961769540188673,8,770
+23323,"Macintyre, Robert",4200,yas links,sg_total,0.14958662738007383,0.6824220284151636,9,770
+23323,"Macintyre, Robert",3881,old course st andrews,sg_total,-0.3556923490286137,0.6811356717559214,10,770
+23323,"Macintyre, Robert",4414,real club de golf sotogrande,sg_total,0.0030174418403484116,0.6511016676293667,7,770
+23323,"Macintyre, Robert",4011,himmerland golf & spa resort,sg_total,0.7429892042892685,0.6447942000988162,4,770
+23323,"Macintyre, Robert",3796,wentworth golf club,sg_total,0.710691467565598,0.6365456695838412,14,770
+23323,"Macintyre, Robert",4207,golfclub münchen eichenried,sg_total,0.2018865375580931,0.6031145566280598,5,770
+23323,"Macintyre, Robert",4033,jumeirah golf estates,sg_total,1.5152421568735517,0.5856332618511396,6,770
+23323,"Macintyre, Robert",3782,himmerland golf & spa resort,sg_total,3.162356349330377,0.5757860892708787,7,770
+23323,"Macintyre, Robert",4235,gary player cc,sg_total,-2.1485971061923403,0.5631540841112208,8,770
+23323,"Macintyre, Robert",3801,olgiata gc,sg_total,2.1727048330785363,0.5361973537543031,10,770
+23323,"Macintyre, Robert",4010,crans-sur-sierre gc,sg_total,-1.6111689028941678,0.5300172537833142,5,770
+23323,"Macintyre, Robert",4193,kingsbarns golf links,sg_total,4.518364382551365,0.5232389273430023,9,770
+23323,"Macintyre, Robert",3785,golfclub münchen eichenried,sg_total,-1.0137119295488188,0.5022972237102333,7,770
+23323,"Macintyre, Robert",4601,old course st andrews,sg_total,2.4021826053044446,0.4697081735101227,9,770
+23323,"Macintyre, Robert",4014,le golf national,sg_total,0.8358830138522129,0.4585525648402019,7,770
+23323,"Macintyre, Robert",4136,abu dhabi gc,sg_total,0.2464387829026658,0.4516384086696491,11,770
+23323,"Macintyre, Robert",4230,kingsbarns golf links,sg_total,-1.284585600066235,0.44959278573185796,8,770
+23323,"Macintyre, Robert",3890,leopard creek cc,sg_total,1.5407492591797207,0.4174102349705498,4,770
+23323,"Macintyre, Robert",3787,lahinch gc,sg_total,0.026204086456929565,0.400576532740988,10,770
+23323,"Macintyre, Robert",4074,pga national cyprus course,sg_total,1.7053695705937901,0.39809076103437085,4,770
+23323,"Macintyre, Robert",4602,carnoustie,sg_total,1.9821826053044447,0.3955744153801582,9,770
+23323,"Macintyre, Robert",3811,hillside golf club,sg_total,3.2291784330059827,0.389803985254987,6,770
+23323,"Macintyre, Robert",4236,jumeirah golf estates,sg_total,0.5593219968339171,0.3678165474981815,8,770
+23323,"Macintyre, Robert",3791,albatross golf resort,sg_total,-0.10665117668462654,0.34616805597378386,4,770
+23323,"Macintyre, Robert",4592,yas links,sg_total,0.2220477825621709,0.34581953373452445,6,770
+23323,"Macintyre, Robert",3797,old course st andrews,sg_total,-0.00036468640529108143,0.3411633033644508,14,770
+23323,"Macintyre, Robert",4192,carnoustie,sg_total,1.6643643825513643,0.33242151988048835,9,770
+23323,"Macintyre, Robert",4415,doha gc,sg_total,1.0426707485803464,0.3212911694092942,6,770
+23323,"Macintyre, Robert",4097,fire course,sg_total,0.24333513187530093,0.318586127268691,5,770
 14926,"Malnati, Peter",770,TPC San Antonio (Oaks Course),sg_app,0.22043610420230814,0.9334587523679371,138,770
 14926,"Malnati, Peter",886,Liberty National Golf Club,sg_app,0.7418143251473179,0.49599169794035103,69,770
 14926,"Malnati, Peter",921,TPC Craig Ranch,sg_app,-2.5542094046011616,0.45613377403213234,104,770
@@ -2059,7 +2059,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 14926,"Malnati, Peter",925,Dunes Golf and Beach Club,sg_putt,-0.0517513654851885,0.4070002175457089,70,770
 14926,"Malnati, Peter",897,Memorial Park Golf Course,sg_putt,-0.4261241013177142,0.3780874149073176,126,770
 14926,"Malnati, Peter",500,The Riviera Country Club,sg_putt,0.6741438636265606,0.36172215580175954,106,770
-14926,"Malnati, Peter",769,Monterey Peninsula CC,sg_total,2.5535025385795476,0.32903104901358904,105,770
+14926,"Malnati, Peter",769,Monterey Peninsula CC,sg_total,2.5535603435445995,0.32903104901358904,105,770
 13562,"Matsuyama, Hideki",770,TPC San Antonio (Oaks Course),sg_app,-0.005546156814815552,0.9334587523679371,138,770
 13562,"Matsuyama, Hideki",887,Kasumigaseki Country Club,sg_app,-0.054043922175849884,0.7121292004060108,12,770
 13562,"Matsuyama, Hideki",232,Albany GC,sg_app,0.01576236905915448,0.6231909589372491,15,770
@@ -2115,7 +2115,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 13562,"Matsuyama, Hideki",500,The Riviera Country Club,sg_putt,0.27783664898624433,0.36172215580175954,106,770
 13562,"Matsuyama, Hideki",43,The Los Angeles Country Club (North Course),sg_putt,-1.4528827850086254,0.3337669048945031,41,770
 13562,"Matsuyama, Hideki",241,Quail Hollow-PGA Championship,sg_putt,1.2607087506126913,0.31746669860215504,45,770
-13562,"Matsuyama, Hideki",936,Yokohama Country Club,sg_total,-0.2472931130019927,0.3742798844744178,26,770
+13562,"Matsuyama, Hideki",936,Yokohama Country Club,sg_total,-0.24729311300199266,0.3742798844744178,26,770
 19870,"McCarthy, Denny",770,TPC San Antonio (Oaks Course),sg_app,0.040228460455016476,0.9334587523679371,138,770
 19870,"McCarthy, Denny",608,Oakmont Country Club,sg_app,-0.0093856855559218,0.5183061495661612,37,770
 19870,"McCarthy, Denny",886,Liberty National Golf Club,sg_app,-0.2327034406073472,0.49599169794035103,69,770
@@ -2157,7 +2157,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 19870,"McCarthy, Denny",500,The Riviera Country Club,sg_putt,-0.01717594888134677,0.36172215580175954,106,770
 19870,"McCarthy, Denny",43,The Los Angeles Country Club (North Course),sg_putt,0.18956605042930863,0.3337669048945031,41,770
 19870,"McCarthy, Denny",241,Quail Hollow-PGA Championship,sg_putt,0.777597759319444,0.31746669860215504,45,770
-19870,"McCarthy, Denny",769,Monterey Peninsula CC,sg_total,0.8859488435008124,0.32903104901358904,105,770
+19870,"McCarthy, Denny",769,Monterey Peninsula CC,sg_total,0.8856492811142296,0.32903104901358904,105,770
 28635,"McCarty, Matt",608,Oakmont Country Club,sg_app,-2.3423854150953387,0.5183061495661612,37,770
 28635,"McCarty, Matt",921,TPC Craig Ranch,sg_app,0.6443333392119476,0.45613377403213234,104,770
 28635,"McCarty, Matt",21,Colonial Country Club,sg_app,-0.28337120208584315,0.3243427906293031,118,770
@@ -2178,14 +2178,14 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 28635,"McCarty, Matt",885,Royal Portrush Golf Club,sg_putt,-0.26822680238899405,0.3660219629675547,34,770
 28635,"McCarty, Matt",500,The Riviera Country Club,sg_putt,0.29310490440393494,0.36172215580175954,106,770
 28635,"McCarty, Matt",241,Quail Hollow-PGA Championship,sg_putt,-0.4939772775540938,0.31746669860215504,45,770
-28635,"McCarty, Matt",93,Vanderbilt Legends Club,sg_total,-0.3274259811765874,0.6180217370617999,21,770
-28635,"McCarty, Matt",60,Texas Rangers Golf Club,sg_total,-1.988186277401549,0.6167570095321873,23,770
-28635,"McCarty, Matt",800,The Abaco Club on Winding Bay,sg_total,1.299981506061827,0.4709398928223278,39,770
-28635,"McCarty, Matt",936,Yokohama Country Club,sg_total,1.2028212575911978,0.3742798844744178,26,770
-28635,"McCarty, Matt",678,Thornblade Club,sg_total,0.8966496154882205,0.3513700323407084,28,770
-28635,"McCarty, Matt",94,Jimmie Austin OU Golf Club,sg_total,0.5151879833213125,0.3480024942186549,18,770
-28635,"McCarty, Matt",55,Panther Creek Country Club,sg_total,0.5526095342982286,0.32120800029494245,27,770
-28635,"McCarty, Matt",807,Lakewood National Golf Club,sg_total,0.70564207804553,0.3104472706323593,22,770
+28635,"McCarty, Matt",93,Vanderbilt Legends Club,sg_total,-0.3268677479965325,0.6180217370617999,21,770
+28635,"McCarty, Matt",60,Texas Rangers Golf Club,sg_total,-1.9876280442214942,0.6167570095321873,23,770
+28635,"McCarty, Matt",800,The Abaco Club on Winding Bay,sg_total,1.3005397392418818,0.4709398928223278,39,770
+28635,"McCarty, Matt",936,Yokohama Country Club,sg_total,1.2033794907712527,0.3742798844744178,26,770
+28635,"McCarty, Matt",678,Thornblade Club,sg_total,0.8972078486682757,0.3513700323407084,28,770
+28635,"McCarty, Matt",94,Jimmie Austin OU Golf Club,sg_total,0.5157462165013675,0.3480024942186549,18,770
+28635,"McCarty, Matt",55,Panther Creek Country Club,sg_total,0.5531677674782836,0.32120800029494245,27,770
+28635,"McCarty, Matt",807,Lakewood National Golf Club,sg_total,0.706200311225585,0.3104472706323593,22,770
 23505,"McGreevy, Max",770,TPC San Antonio (Oaks Course),sg_app,-0.06167769255803364,0.9334587523679371,138,770
 23505,"McGreevy, Max",921,TPC Craig Ranch,sg_app,0.5618756031413621,0.45613377403213234,104,770
 23505,"McGreevy, Max",21,Colonial Country Club,sg_app,0.1779441540494298,0.3243427906293031,118,770
@@ -2211,15 +2211,15 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 23505,"McGreevy, Max",897,Memorial Park Golf Course,sg_putt,0.24083778044024406,0.3780874149073176,126,770
 23505,"McGreevy, Max",500,The Riviera Country Club,sg_putt,-1.1858348932970082,0.36172215580175954,106,770
 23505,"McGreevy, Max",241,Quail Hollow-PGA Championship,sg_putt,-1.3109118217768154,0.31746669860215504,45,770
-23505,"McGreevy, Max",93,Vanderbilt Legends Club,sg_total,2.4053246204289085,0.6180217370617999,21,770
-23505,"McGreevy, Max",60,Texas Rangers Golf Club,sg_total,1.2044857254739043,0.6167570095321873,23,770
-23505,"McGreevy, Max",800,The Abaco Club on Winding Bay,sg_total,1.9348633100805632,0.4709398928223278,39,770
-23505,"McGreevy, Max",936,Yokohama Country Club,sg_total,0.6272735678171184,0.3742798844744178,26,770
-23505,"McGreevy, Max",678,Thornblade Club,sg_total,-1.3304537836759949,0.3513700323407084,28,770
-23505,"McGreevy, Max",94,Jimmie Austin OU Golf Club,sg_total,0.03219085390285509,0.3480024942186549,18,770
-23505,"McGreevy, Max",769,Monterey Peninsula CC,sg_total,-0.42725709445964366,0.32903104901358904,105,770
-23505,"McGreevy, Max",55,Panther Creek Country Club,sg_total,2.577372720087194,0.32120800029494245,27,770
-23505,"McGreevy, Max",807,Lakewood National Golf Club,sg_total,-2.397563507120883,0.3104472706323593,22,770
+23505,"McGreevy, Max",93,Vanderbilt Legends Club,sg_total,2.405598895081037,0.6180217370617999,21,770
+23505,"McGreevy, Max",60,Texas Rangers Golf Club,sg_total,1.2047600001260332,0.6167570095321873,23,770
+23505,"McGreevy, Max",800,The Abaco Club on Winding Bay,sg_total,1.9351375847326922,0.4709398928223278,39,770
+23505,"McGreevy, Max",936,Yokohama Country Club,sg_total,0.6275478424692472,0.3742798844744178,26,770
+23505,"McGreevy, Max",678,Thornblade Club,sg_total,-1.330179509023866,0.3513700323407084,28,770
+23505,"McGreevy, Max",94,Jimmie Austin OU Golf Club,sg_total,0.03246512855498396,0.3480024942186549,18,770
+23505,"McGreevy, Max",769,Monterey Peninsula CC,sg_total,-0.4269828198075147,0.32903104901358904,105,770
+23505,"McGreevy, Max",55,Panther Creek Country Club,sg_total,2.5776469947393226,0.32120800029494245,27,770
+23505,"McGreevy, Max",807,Lakewood National Golf Club,sg_total,-2.3972892324687542,0.3104472706323593,22,770
 18634,"McNealy, Maverick",770,TPC San Antonio (Oaks Course),sg_app,0.6172385663954332,0.9334587523679371,138,770
 18634,"McNealy, Maverick",608,Oakmont Country Club,sg_app,-0.3093875162461256,0.5183061495661612,37,770
 18634,"McNealy, Maverick",886,Liberty National Golf Club,sg_app,-0.16035998131913398,0.49599169794035103,69,770
@@ -2260,7 +2260,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 18634,"McNealy, Maverick",899,The Summit Club,sg_putt,0.5504118770383691,0.3632539833919035,25,770
 18634,"McNealy, Maverick",500,The Riviera Country Club,sg_putt,-0.5211242046380273,0.36172215580175954,106,770
 18634,"McNealy, Maverick",241,Quail Hollow-PGA Championship,sg_putt,0.16835510691690603,0.31746669860215504,45,770
-18634,"McNealy, Maverick",769,Monterey Peninsula CC,sg_total,-0.9210550791723652,0.32903104901358904,105,770
+18634,"McNealy, Maverick",769,Monterey Peninsula CC,sg_total,-0.9209499789641038,0.32903104901358904,105,770
 28159,"Meissner, Mac",770,TPC San Antonio (Oaks Course),sg_app,0.01171850913218897,0.9334587523679371,138,770
 28159,"Meissner, Mac",921,TPC Craig Ranch,sg_app,-1.7234581911929188,0.45613377403213234,104,770
 28159,"Meissner, Mac",931,Tahoe Mountain Club (Old Greenwood),sg_app,0.1949757595038902,0.43713363031576813,48,770
@@ -2277,8 +2277,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 28159,"Meissner, Mac",925,Dunes Golf and Beach Club,sg_putt,0.001708176939454595,0.4070002175457089,70,770
 28159,"Meissner, Mac",897,Memorial Park Golf Course,sg_putt,0.5787356661060582,0.3780874149073176,126,770
 28159,"Meissner, Mac",43,The Los Angeles Country Club (North Course),sg_putt,-1.7691578174328184,0.3337669048945031,41,770
-28159,"Meissner, Mac",3881,old course st andrews,sg_total,-0.7778167128015503,0.6811356717559214,10,770
-28159,"Meissner, Mac",936,Yokohama Country Club,sg_total,0.7871927423916996,0.3742798844744178,26,770
+28159,"Meissner, Mac",3881,old course st andrews,sg_total,-0.7783228644033359,0.6811356717559214,10,770
+28159,"Meissner, Mac",936,Yokohama Country Club,sg_total,0.7866865907899138,0.3742798844744178,26,770
 17365,"Mitchell, Keith",770,TPC San Antonio (Oaks Course),sg_app,0.2133897851242212,0.9334587523679371,138,770
 17365,"Mitchell, Keith",886,Liberty National Golf Club,sg_app,0.5408575810403958,0.49599169794035103,69,770
 17365,"Mitchell, Keith",921,TPC Craig Ranch,sg_app,0.20573618945843902,0.45613377403213234,104,770
@@ -2317,8 +2317,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17365,"Mitchell, Keith",500,The Riviera Country Club,sg_putt,0.18096448676670238,0.36172215580175954,106,770
 17365,"Mitchell, Keith",43,The Los Angeles Country Club (North Course),sg_putt,1.5472204737853519,0.3337669048945031,41,770
 17365,"Mitchell, Keith",241,Quail Hollow-PGA Championship,sg_putt,0.49846918095336035,0.31746669860215504,45,770
-17365,"Mitchell, Keith",936,Yokohama Country Club,sg_total,1.686530500611254,0.3742798844744178,26,770
-17365,"Mitchell, Keith",769,Monterey Peninsula CC,sg_total,0.8843365457757001,0.32903104901358904,105,770
+17365,"Mitchell, Keith",936,Yokohama Country Club,sg_total,1.6862629566715062,0.3742798844744178,26,770
+17365,"Mitchell, Keith",769,Monterey Peninsula CC,sg_total,0.8840690018359523,0.32903104901358904,105,770
 21944,"Moore, Taylor",770,TPC San Antonio (Oaks Course),sg_app,-0.5591687848038508,0.9334587523679371,138,770
 21944,"Moore, Taylor",921,TPC Craig Ranch,sg_app,-1.3706739108750314,0.45613377403213234,104,770
 21944,"Moore, Taylor",724,Royal Liverpool,sg_app,-0.49395711712376966,0.44812525703902684,33,770
@@ -2352,8 +2352,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 21944,"Moore, Taylor",500,The Riviera Country Club,sg_putt,0.2809871080601345,0.36172215580175954,106,770
 21944,"Moore, Taylor",43,The Los Angeles Country Club (North Course),sg_putt,-0.46555800874578124,0.3337669048945031,41,770
 21944,"Moore, Taylor",241,Quail Hollow-PGA Championship,sg_putt,-0.1244562756132129,0.31746669860215504,45,770
-21944,"Moore, Taylor",936,Yokohama Country Club,sg_total,-1.1428337429391682,0.3742798844744178,26,770
-21944,"Moore, Taylor",769,Monterey Peninsula CC,sg_total,1.4436920664577229,0.32903104901358904,105,770
+21944,"Moore, Taylor",936,Yokohama Country Club,sg_total,-1.1431537694426686,0.3742798844744178,26,770
+21944,"Moore, Taylor",769,Monterey Peninsula CC,sg_total,1.4433720399542223,0.32903104901358904,105,770
 22085,"Morikawa, Collin",770,TPC San Antonio (Oaks Course),sg_app,-1.349274166597483,0.9334587523679371,138,770
 22085,"Morikawa, Collin",887,Kasumigaseki Country Club,sg_app,-1.5436572537571325,0.7121292004060108,12,770
 22085,"Morikawa, Collin",232,Albany GC,sg_app,-1.3029677821399466,0.6231909589372491,15,770
@@ -2476,18 +2476,18 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 10419,"Noren, Alex",500,The Riviera Country Club,sg_putt,0.20067689358313334,0.36172215580175954,106,770
 10419,"Noren, Alex",43,The Los Angeles Country Club (North Course),sg_putt,-1.8450819823148028,0.3337669048945031,41,770
 10419,"Noren, Alex",241,Quail Hollow-PGA Championship,sg_putt,0.0964561249333954,0.31746669860215504,45,770
-10419,"Noren, Alex",4200,yas links,sg_total,0.7154386902051204,0.6824220284151636,9,770
-10419,"Noren, Alex",3881,old course st andrews,sg_total,-0.5224839525191842,0.6811356717559214,10,770
-10419,"Noren, Alex",3796,wentworth golf club,sg_total,1.2933357379705022,0.6365456695838412,14,770
-10419,"Noren, Alex",3801,olgiata gc,sg_total,0.6073117263676213,0.5361973537543031,10,770
-10419,"Noren, Alex",4193,kingsbarns golf links,sg_total,5.379217025807124,0.5232389273430023,9,770
-10419,"Noren, Alex",3785,golfclub münchen eichenried,sg_total,0.9820745699247697,0.5022972237102333,7,770
-10419,"Noren, Alex",4584,crans-sur-sierre gc,sg_total,-1.9056992879480408,0.40630602803052057,11,770
-10419,"Noren, Alex",936,Yokohama Country Club,sg_total,-0.21081102729065754,0.3742798844744178,26,770
-10419,"Noren, Alex",4592,yas links,sg_total,0.07648384172623698,0.34581953373452445,6,770
-10419,"Noren, Alex",3797,old course st andrews,sg_total,0.6197323086569999,0.3411633033644508,14,770
-10419,"Noren, Alex",4192,carnoustie,sg_total,2.525217025807124,0.33242151988048835,9,770
-10419,"Noren, Alex",769,Monterey Peninsula CC,sg_total,0.3094405430826933,0.32903104901358904,105,770
+10419,"Noren, Alex",4200,yas links,sg_total,0.7159470563475349,0.6824220284151636,9,770
+10419,"Noren, Alex",3881,old course st andrews,sg_total,-0.5219755863767698,0.6811356717559214,10,770
+10419,"Noren, Alex",3796,wentworth golf club,sg_total,1.2938441041129167,0.6365456695838412,14,770
+10419,"Noren, Alex",3801,olgiata gc,sg_total,0.6078200925100357,0.5361973537543031,10,770
+10419,"Noren, Alex",4193,kingsbarns golf links,sg_total,5.379725391949539,0.5232389273430023,9,770
+10419,"Noren, Alex",3785,golfclub münchen eichenried,sg_total,0.9825829360671842,0.5022972237102333,7,770
+10419,"Noren, Alex",4584,crans-sur-sierre gc,sg_total,-1.9051909218056262,0.40630602803052057,11,770
+10419,"Noren, Alex",936,Yokohama Country Club,sg_total,-0.21030266114824314,0.3742798844744178,26,770
+10419,"Noren, Alex",4592,yas links,sg_total,0.07699220786865148,0.34581953373452445,6,770
+10419,"Noren, Alex",3797,old course st andrews,sg_total,0.6202406747994144,0.3411633033644508,14,770
+10419,"Noren, Alex",4192,carnoustie,sg_total,2.525725391949538,0.33242151988048835,9,770
+10419,"Noren, Alex",769,Monterey Peninsula CC,sg_total,0.3099489092251077,0.32903104901358904,105,770
 23475,"Novak, Andrew",770,TPC San Antonio (Oaks Course),sg_app,0.6335208281917573,0.9334587523679371,138,770
 23475,"Novak, Andrew",232,Albany GC,sg_app,0.23622644078018962,0.6231909589372491,15,770
 23475,"Novak, Andrew",608,Oakmont Country Club,sg_app,0.6287571263631488,0.5183061495661612,37,770
@@ -2520,16 +2520,16 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 23475,"Novak, Andrew",885,Royal Portrush Golf Club,sg_putt,0.11648117583148732,0.3660219629675547,34,770
 23475,"Novak, Andrew",500,The Riviera Country Club,sg_putt,1.016969415337519,0.36172215580175954,106,770
 23475,"Novak, Andrew",241,Quail Hollow-PGA Championship,sg_putt,-0.48041726718267075,0.31746669860215504,45,770
-23475,"Novak, Andrew",769,Monterey Peninsula CC,sg_total,-0.9018019682883528,0.32903104901358904,105,770
+23475,"Novak, Andrew",769,Monterey Peninsula CC,sg_total,-0.9021513812579474,0.32903104901358904,105,770
 25475,"Nyholm, Pontus",928,PGA National  - Champion Course,sg_app,1.0551968041531383,0.3147934734817942,88,770
 25475,"Nyholm, Pontus",897,Memorial Park Golf Course,sg_putt,0.7671187178597875,0.3780874149073176,126,770
-25475,"Nyholm, Pontus",93,Vanderbilt Legends Club,sg_total,0.15570553170538026,0.6180217370617999,21,770
-25475,"Nyholm, Pontus",60,Texas Rangers Golf Club,sg_total,0.3702770302428225,0.6167570095321873,23,770
-25475,"Nyholm, Pontus",800,The Abaco Club on Winding Bay,sg_total,-1.1405576054557827,0.4709398928223278,39,770
-25475,"Nyholm, Pontus",678,Thornblade Club,sg_total,0.7373889891942708,0.3513700323407084,28,770
-25475,"Nyholm, Pontus",94,Jimmie Austin OU Golf Club,sg_total,1.5333693058839517,0.3480024942186549,18,770
-25475,"Nyholm, Pontus",55,Panther Creek Country Club,sg_total,-0.03565220795498092,0.32120800029494245,27,770
-25475,"Nyholm, Pontus",807,Lakewood National Golf Club,sg_total,-0.7250444151302406,0.3104472706323593,22,770
+25475,"Nyholm, Pontus",93,Vanderbilt Legends Club,sg_total,0.15481311742116408,0.6180217370617999,21,770
+25475,"Nyholm, Pontus",60,Texas Rangers Golf Club,sg_total,0.3693846159586063,0.6167570095321873,23,770
+25475,"Nyholm, Pontus",800,The Abaco Club on Winding Bay,sg_total,-1.1414500197399988,0.4709398928223278,39,770
+25475,"Nyholm, Pontus",678,Thornblade Club,sg_total,0.7364965749100546,0.3513700323407084,28,770
+25475,"Nyholm, Pontus",94,Jimmie Austin OU Golf Club,sg_total,1.5324768915997355,0.3480024942186549,18,770
+25475,"Nyholm, Pontus",55,Panther Creek Country Club,sg_total,-0.03654462223919709,0.32120800029494245,27,770
+25475,"Nyholm, Pontus",807,Lakewood National Golf Club,sg_total,-0.7259368294144568,0.3104472706323593,22,770
 13412,"Olesen, Thorbjorn",770,TPC San Antonio (Oaks Course),sg_app,0.9334586368802111,0.9334587523679371,138,770
 13412,"Olesen, Thorbjorn",608,Oakmont Country Club,sg_app,-0.19759702837391813,0.5183061495661612,37,770
 13412,"Olesen, Thorbjorn",921,TPC Craig Ranch,sg_app,-0.5123378464271579,0.45613377403213234,104,770
@@ -2560,31 +2560,31 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 13412,"Olesen, Thorbjorn",897,Memorial Park Golf Course,sg_putt,0.28888362323730565,0.3780874149073176,126,770
 13412,"Olesen, Thorbjorn",885,Royal Portrush Golf Club,sg_putt,-1.6063760775516809,0.3660219629675547,34,770
 13412,"Olesen, Thorbjorn",241,Quail Hollow-PGA Championship,sg_putt,-0.5519002657500409,0.31746669860215504,45,770
-13412,"Olesen, Thorbjorn",3867,mount juliet estate,sg_total,-0.8159043188661803,0.7428767894335073,8,770
-13412,"Olesen, Thorbjorn",4017,real club valderrama,sg_total,0.7739924519719943,0.7130053387528874,7,770
-13412,"Olesen, Thorbjorn",4000,mount juliet estate,sg_total,2.1394029994112516,0.6961769540188673,8,770
-13412,"Olesen, Thorbjorn",4200,yas links,sg_total,1.1835100047791831,0.6824220284151636,9,770
-13412,"Olesen, Thorbjorn",3881,old course st andrews,sg_total,0.7704622131355416,0.6811356717559214,10,770
-13412,"Olesen, Thorbjorn",4414,real club de golf sotogrande,sg_total,1.218104120811377,0.6511016676293667,7,770
-13412,"Olesen, Thorbjorn",3946,marco simone gc,sg_total,-0.3968081437341511,0.6488815854856618,7,770
-13412,"Olesen, Thorbjorn",4011,himmerland golf & spa resort,sg_total,0.6431713476768963,0.6447942000988162,4,770
-13412,"Olesen, Thorbjorn",4591,club de campo villa de madrid,sg_total,1.2417530382438218,0.6058678578766112,5,770
-13412,"Olesen, Thorbjorn",3782,himmerland golf & spa resort,sg_total,-0.8354699853239567,0.5757860892708787,7,770
-13412,"Olesen, Thorbjorn",4727,emirates gc,sg_total,0.8593821355634312,0.5736069857481715,7,770
-13412,"Olesen, Thorbjorn",4235,gary player cc,sg_total,3.264332654854428,0.5631540841112208,8,770
-13412,"Olesen, Thorbjorn",4726,dubai creek resort,sg_total,1.2147770900538566,0.5547049557869058,7,770
-13412,"Olesen, Thorbjorn",4193,kingsbarns golf links,sg_total,0.38374266925497086,0.5232389273430023,9,770
-13412,"Olesen, Thorbjorn",3785,golfclub münchen eichenried,sg_total,1.9662904748860754,0.5022972237102333,7,770
-13412,"Olesen, Thorbjorn",4014,le golf national,sg_total,0.6126226301557682,0.4585525648402019,7,770
-13412,"Olesen, Thorbjorn",4075,doha gc,sg_total,0.866235597515397,0.4166973465837519,6,770
-13412,"Olesen, Thorbjorn",3768,emirates gc,sg_total,3.2806445453720015,0.4154167498856704,9,770
-13412,"Olesen, Thorbjorn",4056,brabazon course at the belfry,sg_total,1.2164888745597993,0.4056319826761129,7,770
-13412,"Olesen, Thorbjorn",3787,lahinch gc,sg_total,1.8174930612891218,0.400576532740988,10,770
-13412,"Olesen, Thorbjorn",4074,pga national cyprus course,sg_total,0.5141999040132974,0.39809076103437085,4,770
-13412,"Olesen, Thorbjorn",4236,jumeirah golf estates,sg_total,0.2940422592594126,0.3678165474981815,8,770
-13412,"Olesen, Thorbjorn",4192,carnoustie,sg_total,0.4407426692549709,0.33242151988048835,9,770
-13412,"Olesen, Thorbjorn",4415,doha gc,sg_total,1.2134167979398134,0.3212911694092942,6,770
-13412,"Olesen, Thorbjorn",4097,fire course,sg_total,1.7095190091882648,0.318586127268691,5,770
+13412,"Olesen, Thorbjorn",3867,mount juliet estate,sg_total,-0.8162354411020294,0.7428767894335073,8,770
+13412,"Olesen, Thorbjorn",4017,real club valderrama,sg_total,0.7736613297361452,0.7130053387528874,7,770
+13412,"Olesen, Thorbjorn",4000,mount juliet estate,sg_total,2.1390718771754025,0.6961769540188673,8,770
+13412,"Olesen, Thorbjorn",4200,yas links,sg_total,1.1831788825433338,0.6824220284151636,9,770
+13412,"Olesen, Thorbjorn",3881,old course st andrews,sg_total,0.7701310908996926,0.6811356717559214,10,770
+13412,"Olesen, Thorbjorn",4414,real club de golf sotogrande,sg_total,1.217772998575528,0.6511016676293667,7,770
+13412,"Olesen, Thorbjorn",3946,marco simone gc,sg_total,-0.39713926597000015,0.6488815854856618,7,770
+13412,"Olesen, Thorbjorn",4011,himmerland golf & spa resort,sg_total,0.6428402254410472,0.6447942000988162,4,770
+13412,"Olesen, Thorbjorn",4591,club de campo villa de madrid,sg_total,1.2414219160079727,0.6058678578766112,5,770
+13412,"Olesen, Thorbjorn",3782,himmerland golf & spa resort,sg_total,-0.8358011075598057,0.5757860892708787,7,770
+13412,"Olesen, Thorbjorn",4727,emirates gc,sg_total,0.8590510133275822,0.5736069857481715,7,770
+13412,"Olesen, Thorbjorn",4235,gary player cc,sg_total,3.2640015326185785,0.5631540841112208,8,770
+13412,"Olesen, Thorbjorn",4726,dubai creek resort,sg_total,1.2144459678180075,0.5547049557869058,7,770
+13412,"Olesen, Thorbjorn",4193,kingsbarns golf links,sg_total,0.3834115470191219,0.5232389273430023,9,770
+13412,"Olesen, Thorbjorn",3785,golfclub münchen eichenried,sg_total,1.9659593526502264,0.5022972237102333,7,770
+13412,"Olesen, Thorbjorn",4014,le golf national,sg_total,0.6122915079199192,0.4585525648402019,7,770
+13412,"Olesen, Thorbjorn",4075,doha gc,sg_total,0.865904475279548,0.4166973465837519,6,770
+13412,"Olesen, Thorbjorn",3768,emirates gc,sg_total,3.2803134231361524,0.4154167498856704,9,770
+13412,"Olesen, Thorbjorn",4056,brabazon course at the belfry,sg_total,1.2161577523239502,0.4056319826761129,7,770
+13412,"Olesen, Thorbjorn",3787,lahinch gc,sg_total,1.8171619390532727,0.400576532740988,10,770
+13412,"Olesen, Thorbjorn",4074,pga national cyprus course,sg_total,0.5138687817774483,0.39809076103437085,4,770
+13412,"Olesen, Thorbjorn",4236,jumeirah golf estates,sg_total,0.2937111370235635,0.3678165474981815,8,770
+13412,"Olesen, Thorbjorn",4192,carnoustie,sg_total,0.44041154701912194,0.33242151988048835,9,770
+13412,"Olesen, Thorbjorn",4415,doha gc,sg_total,1.2130856757039643,0.3212911694092942,6,770
+13412,"Olesen, Thorbjorn",4097,fire course,sg_total,1.7091878869524157,0.318586127268691,5,770
 7820,"Palmer, Ryan",770,TPC San Antonio (Oaks Course),sg_app,0.14443081311520647,0.9334587523679371,138,770
 7820,"Palmer, Ryan",891,Winged Foot GC,sg_app,-0.6565566623127368,0.5068424512624736,38,770
 7820,"Palmer, Ryan",886,Liberty National Golf Club,sg_app,-0.367308429895036,0.49599169794035103,69,770
@@ -2620,21 +2620,21 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 7820,"Palmer, Ryan",891,Winged Foot GC,sg_putt,0.4584950891775309,0.3932690507844661,38,770
 7820,"Palmer, Ryan",897,Memorial Park Golf Course,sg_putt,-0.9569096749759484,0.3780874149073176,126,770
 7820,"Palmer, Ryan",500,The Riviera Country Club,sg_putt,-1.4995633966626634,0.36172215580175954,106,770
-7820,"Palmer, Ryan",4785,doha gc,sg_total,1.5668203221796633,0.5752445573015165,6,770
-7820,"Palmer, Ryan",769,Monterey Peninsula CC,sg_total,-0.9675269144919999,0.32903104901358904,105,770
-7820,"Palmer, Ryan",55,Panther Creek Country Club,sg_total,0.6680528593729247,0.32120800029494245,27,770
+7820,"Palmer, Ryan",4785,doha gc,sg_total,1.5668988051386419,0.5752445573015165,6,770
+7820,"Palmer, Ryan",769,Monterey Peninsula CC,sg_total,-0.9674484315330214,0.32903104901358904,105,770
+7820,"Palmer, Ryan",55,Panther Creek Country Club,sg_total,0.6681313423319032,0.32120800029494245,27,770
 13764,"Parry, John",928,PGA National  - Champion Course,sg_app,-0.7181245546542838,0.3147934734817942,88,770
 13764,"Parry, John",977,The Renaissance Club,sg_ott,-0.13134908673016074,0.3961561870401492,70,770
 13764,"Parry, John",897,Memorial Park Golf Course,sg_putt,0.786750377058948,0.3780874149073176,126,770
 13764,"Parry, John",885,Royal Portrush Golf Club,sg_putt,-0.225896227792246,0.3660219629675547,34,770
-13764,"Parry, John",4591,club de campo villa de madrid,sg_total,0.2820149621494541,0.6058678578766112,5,770
-13764,"Parry, John",4207,golfclub münchen eichenried,sg_total,-0.2600603618505283,0.6031145566280598,5,770
-13764,"Parry, John",4601,old course st andrews,sg_total,3.5320546768877867,0.4697081735101227,9,770
-13764,"Parry, John",4230,kingsbarns golf links,sg_total,-1.5639156115049446,0.44959278573185796,8,770
-13764,"Parry, John",4584,crans-sur-sierre gc,sg_total,1.122633742250711,0.40630602803052057,11,770
-13764,"Parry, John",4602,carnoustie,sg_total,2.1120546768877873,0.3955744153801582,9,770
-13764,"Parry, John",4706,trump international golf links,sg_total,1.8589324074045779,0.39479517203591025,6,770
-13764,"Parry, John",4592,yas links,sg_total,0.696147114930373,0.34581953373452445,6,770
+13764,"Parry, John",4591,club de campo villa de madrid,sg_total,0.28184973669924307,0.6058678578766112,5,770
+13764,"Parry, John",4207,golfclub münchen eichenried,sg_total,-0.2602255873007393,0.6031145566280598,5,770
+13764,"Parry, John",4601,old course st andrews,sg_total,3.531889451437576,0.4697081735101227,9,770
+13764,"Parry, John",4230,kingsbarns golf links,sg_total,-1.5640808369551558,0.44959278573185796,8,770
+13764,"Parry, John",4584,crans-sur-sierre gc,sg_total,1.1224685168005,0.40630602803052057,11,770
+13764,"Parry, John",4602,carnoustie,sg_total,2.111889451437576,0.3955744153801582,9,770
+13764,"Parry, John",4706,trump international golf links,sg_total,1.858767181954367,0.39479517203591025,6,770
+13764,"Parry, John",4592,yas links,sg_total,0.6959818894801619,0.34581953373452445,6,770
 19960,"Pavon, Matthieu",232,Albany GC,sg_app,-0.8870015302692407,0.6231909589372491,15,770
 19960,"Pavon, Matthieu",608,Oakmont Country Club,sg_app,-0.07993852760463885,0.5183061495661612,37,770
 19960,"Pavon, Matthieu",250,Le Golf National,sg_app,-1.7268145399043595,0.44871449599037416,15,770
@@ -2658,39 +2658,39 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 19960,"Pavon, Matthieu",897,Memorial Park Golf Course,sg_putt,0.546528557220489,0.3780874149073176,126,770
 19960,"Pavon, Matthieu",885,Royal Portrush Golf Club,sg_putt,-0.6110940553741383,0.3660219629675547,34,770
 19960,"Pavon, Matthieu",241,Quail Hollow-PGA Championship,sg_putt,0.10527900834190884,0.31746669860215504,45,770
-19960,"Pavon, Matthieu",3867,mount juliet estate,sg_total,-1.2697671430858264,0.7428767894335073,8,770
-19960,"Pavon, Matthieu",4017,real club valderrama,sg_total,-2.060426373184779,0.7130053387528874,7,770
-19960,"Pavon, Matthieu",4000,mount juliet estate,sg_total,-0.35214435885027057,0.6961769540188673,8,770
-19960,"Pavon, Matthieu",4200,yas links,sg_total,1.354882223422347,0.6824220284151636,9,770
-19960,"Pavon, Matthieu",3881,old course st andrews,sg_total,2.6964694103815545,0.6811356717559214,10,770
-19960,"Pavon, Matthieu",4414,real club de golf sotogrande,sg_total,1.4434566130399815,0.6511016676293667,7,770
-19960,"Pavon, Matthieu",3946,marco simone gc,sg_total,-0.8615456685383741,0.6488815854856618,7,770
-19960,"Pavon, Matthieu",4011,himmerland golf & spa resort,sg_total,0.08716058658123275,0.6447942000988162,4,770
-19960,"Pavon, Matthieu",3796,wentworth golf club,sg_total,-4.991977278001223,0.6365456695838412,14,770
-19960,"Pavon, Matthieu",4207,golfclub münchen eichenried,sg_total,2.2333140884319223,0.6031145566280598,5,770
-19960,"Pavon, Matthieu",3782,himmerland golf & spa resort,sg_total,0.12027495879067744,0.5757860892708787,7,770
-19960,"Pavon, Matthieu",4235,gary player cc,sg_total,1.5365487941094533,0.5631540841112208,8,770
-19960,"Pavon, Matthieu",3801,olgiata gc,sg_total,1.046299687323621,0.5361973537543031,10,770
-19960,"Pavon, Matthieu",4010,crans-sur-sierre gc,sg_total,-0.6060545705374232,0.5300172537833142,5,770
-19960,"Pavon, Matthieu",4193,kingsbarns golf links,sg_total,-3.4621482520511733,0.5232389273430023,9,770
-19960,"Pavon, Matthieu",3785,golfclub münchen eichenried,sg_total,3.035663933320805,0.5022972237102333,7,770
-19960,"Pavon, Matthieu",4014,le golf national,sg_total,0.2408336180284863,0.4585525648402019,7,770
-19960,"Pavon, Matthieu",4136,abu dhabi gc,sg_total,-0.6094242257600623,0.4516384086696491,11,770
-19960,"Pavon, Matthieu",4230,kingsbarns golf links,sg_total,0.3689271602031475,0.44959278573185796,8,770
-19960,"Pavon, Matthieu",3890,leopard creek cc,sg_total,-1.1669745754727205,0.4174102349705498,4,770
-19960,"Pavon, Matthieu",4075,doha gc,sg_total,0.18781164692495644,0.4166973465837519,6,770
-19960,"Pavon, Matthieu",3768,emirates gc,sg_total,2.261213777429034,0.4154167498856704,9,770
-19960,"Pavon, Matthieu",4056,brabazon course at the belfry,sg_total,-1.9490278947012392,0.4056319826761129,7,770
-19960,"Pavon, Matthieu",3787,lahinch gc,sg_total,-0.9264167144931933,0.400576532740988,10,770
-19960,"Pavon, Matthieu",4074,pga national cyprus course,sg_total,0.864726112942797,0.39809076103437085,4,770
-19960,"Pavon, Matthieu",3811,hillside golf club,sg_total,-0.38239993092316854,0.389803985254987,6,770
-19960,"Pavon, Matthieu",3891,golf costa adeje,sg_total,1.0695282080820825,0.37239918327691734,4,770
-19960,"Pavon, Matthieu",4236,jumeirah golf estates,sg_total,2.6299044967287566,0.3678165474981815,8,770
-19960,"Pavon, Matthieu",3791,albatross golf resort,sg_total,-4.925013554283473,0.34616805597378386,4,770
-19960,"Pavon, Matthieu",3797,old course st andrews,sg_total,2.080695063210029,0.3411633033644508,14,770
-19960,"Pavon, Matthieu",4192,carnoustie,sg_total,-2.4051482520511733,0.33242151988048835,9,770
-19960,"Pavon, Matthieu",4415,doha gc,sg_total,-0.5548132173337619,0.3212911694092942,6,770
-19960,"Pavon, Matthieu",3803,real club valderrama,sg_total,1.9150237232264102,0.3193154955433175,5,770
+19960,"Pavon, Matthieu",3867,mount juliet estate,sg_total,-1.270314862469017,0.7428767894335073,8,770
+19960,"Pavon, Matthieu",4017,real club valderrama,sg_total,-2.06097409256797,0.7130053387528874,7,770
+19960,"Pavon, Matthieu",4000,mount juliet estate,sg_total,-0.35269207823346127,0.6961769540188673,8,770
+19960,"Pavon, Matthieu",4200,yas links,sg_total,1.3543345040391563,0.6824220284151636,9,770
+19960,"Pavon, Matthieu",3881,old course st andrews,sg_total,2.6959216909983645,0.6811356717559214,10,770
+19960,"Pavon, Matthieu",4414,real club de golf sotogrande,sg_total,1.4429088936567909,0.6511016676293667,7,770
+19960,"Pavon, Matthieu",3946,marco simone gc,sg_total,-0.8620933879215646,0.6488815854856618,7,770
+19960,"Pavon, Matthieu",4011,himmerland golf & spa resort,sg_total,0.08661286719804215,0.6447942000988162,4,770
+19960,"Pavon, Matthieu",3796,wentworth golf club,sg_total,-4.992524997384415,0.6365456695838412,14,770
+19960,"Pavon, Matthieu",4207,golfclub münchen eichenried,sg_total,2.232766369048732,0.6031145566280598,5,770
+19960,"Pavon, Matthieu",3782,himmerland golf & spa resort,sg_total,0.11972723940748684,0.5757860892708787,7,770
+19960,"Pavon, Matthieu",4235,gary player cc,sg_total,1.5360010747262627,0.5631540841112208,8,770
+19960,"Pavon, Matthieu",3801,olgiata gc,sg_total,1.0457519679404303,0.5361973537543031,10,770
+19960,"Pavon, Matthieu",4010,crans-sur-sierre gc,sg_total,-0.6066022899206137,0.5300172537833142,5,770
+19960,"Pavon, Matthieu",4193,kingsbarns golf links,sg_total,-3.4626959714343637,0.5232389273430023,9,770
+19960,"Pavon, Matthieu",3785,golfclub münchen eichenried,sg_total,3.0351162139376147,0.5022972237102333,7,770
+19960,"Pavon, Matthieu",4014,le golf national,sg_total,0.24028589864529556,0.4585525648402019,7,770
+19960,"Pavon, Matthieu",4136,abu dhabi gc,sg_total,-0.6099719451432528,0.4516384086696491,11,770
+19960,"Pavon, Matthieu",4230,kingsbarns golf links,sg_total,0.36837944081995677,0.44959278573185796,8,770
+19960,"Pavon, Matthieu",3890,leopard creek cc,sg_total,-1.1675222948559112,0.4174102349705498,4,770
+19960,"Pavon, Matthieu",4075,doha gc,sg_total,0.18726392754176588,0.4166973465837519,6,770
+19960,"Pavon, Matthieu",3768,emirates gc,sg_total,2.2606660580458438,0.4154167498856704,9,770
+19960,"Pavon, Matthieu",4056,brabazon course at the belfry,sg_total,-1.9495756140844298,0.4056319826761129,7,770
+19960,"Pavon, Matthieu",3787,lahinch gc,sg_total,-0.9269644338763838,0.400576532740988,10,770
+19960,"Pavon, Matthieu",4074,pga national cyprus course,sg_total,0.8641783935596065,0.39809076103437085,4,770
+19960,"Pavon, Matthieu",3811,hillside golf club,sg_total,-0.38294765030635913,0.389803985254987,6,770
+19960,"Pavon, Matthieu",3891,golf costa adeje,sg_total,1.068980488698892,0.37239918327691734,4,770
+19960,"Pavon, Matthieu",4236,jumeirah golf estates,sg_total,2.629356777345566,0.3678165474981815,8,770
+19960,"Pavon, Matthieu",3791,albatross golf resort,sg_total,-4.9255612736666645,0.34616805597378386,4,770
+19960,"Pavon, Matthieu",3797,old course st andrews,sg_total,2.0801473438268387,0.3411633033644508,14,770
+19960,"Pavon, Matthieu",4192,carnoustie,sg_total,-2.4056959714343638,0.33242151988048835,9,770
+19960,"Pavon, Matthieu",4415,doha gc,sg_total,-0.5553609367169524,0.3212911694092942,6,770
+19960,"Pavon, Matthieu",3803,real club valderrama,sg_total,1.9144760038432196,0.3193154955433175,5,770
 22465,"Penge, Marco",931,Tahoe Mountain Club (Old Greenwood),sg_app,-1.236902756351939,0.43713363031576813,48,770
 22465,"Penge, Marco",241,Quail Hollow-PGA Championship,sg_arg,1.372762997662787,0.6891741810305877,45,770
 22465,"Penge, Marco",500,The Riviera Country Club,sg_arg,1.1163746757639688,0.5201690587051075,106,770
@@ -2803,10 +2803,10 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 10104,"Power, Seamus",500,The Riviera Country Club,sg_putt,0.5443653472673718,0.36172215580175954,106,770
 10104,"Power, Seamus",43,The Los Angeles Country Club (North Course),sg_putt,0.9276742549947943,0.3337669048945031,41,770
 10104,"Power, Seamus",241,Quail Hollow-PGA Championship,sg_putt,0.7549299157898488,0.31746669860215504,45,770
-10104,"Power, Seamus",4000,mount juliet estate,sg_total,-0.8568638324137493,0.6961769540188673,8,770
-10104,"Power, Seamus",4200,yas links,sg_total,-0.22948992830682702,0.6824220284151636,9,770
-10104,"Power, Seamus",3787,lahinch gc,sg_total,0.7915304958828634,0.400576532740988,10,770
-10104,"Power, Seamus",769,Monterey Peninsula CC,sg_total,0.6173599318555997,0.32903104901358904,105,770
+10104,"Power, Seamus",4000,mount juliet estate,sg_total,-0.8567457744179099,0.6961769540188673,8,770
+10104,"Power, Seamus",4200,yas links,sg_total,-0.22937187031098766,0.6824220284151636,9,770
+10104,"Power, Seamus",3787,lahinch gc,sg_total,0.7916485538787028,0.400576532740988,10,770
+10104,"Power, Seamus",769,Monterey Peninsula CC,sg_total,0.6174779898514391,0.32903104901358904,105,770
 14704,"Putnam, Andrew",770,TPC San Antonio (Oaks Course),sg_app,0.6547180361121273,0.9334587523679371,138,770
 14704,"Putnam, Andrew",891,Winged Foot GC,sg_app,-0.3793769634687146,0.5068424512624736,38,770
 14704,"Putnam, Andrew",886,Liberty National Golf Club,sg_app,0.3698497819247803,0.49599169794035103,69,770
@@ -2845,9 +2845,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 14704,"Putnam, Andrew",897,Memorial Park Golf Course,sg_putt,0.500603895009313,0.3780874149073176,126,770
 14704,"Putnam, Andrew",500,The Riviera Country Club,sg_putt,-0.4241044103546427,0.36172215580175954,106,770
 14704,"Putnam, Andrew",43,The Los Angeles Country Club (North Course),sg_putt,0.36543785214764435,0.3337669048945031,41,770
-14704,"Putnam, Andrew",3796,wentworth golf club,sg_total,1.4112450112316655,0.6365456695838412,14,770
-14704,"Putnam, Andrew",936,Yokohama Country Club,sg_total,-2.0514381329179727,0.3742798844744178,26,770
-14704,"Putnam, Andrew",769,Monterey Peninsula CC,sg_total,1.6013117532853998,0.32903104901358904,105,770
+14704,"Putnam, Andrew",3796,wentworth golf club,sg_total,1.4111672718922808,0.6365456695838412,14,770
+14704,"Putnam, Andrew",936,Yokohama Country Club,sg_total,-2.051515872257357,0.3742798844744178,26,770
+14704,"Putnam, Andrew",769,Monterey Peninsula CC,sg_total,1.601234013946015,0.32903104901358904,105,770
 19840,"Ramey, Chad",770,TPC San Antonio (Oaks Course),sg_app,0.3810320211375645,0.9334587523679371,138,770
 19840,"Ramey, Chad",921,TPC Craig Ranch,sg_app,-0.08054401704087821,0.45613377403213234,104,770
 19840,"Ramey, Chad",931,Tahoe Mountain Club (Old Greenwood),sg_app,0.19813926119747424,0.43713363031576813,48,770
@@ -2871,24 +2871,24 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 19840,"Ramey, Chad",925,Dunes Golf and Beach Club,sg_putt,-0.6219469514047398,0.4070002175457089,70,770
 19840,"Ramey, Chad",897,Memorial Park Golf Course,sg_putt,0.5526853235377677,0.3780874149073176,126,770
 19840,"Ramey, Chad",500,The Riviera Country Club,sg_putt,0.5183778458366893,0.36172215580175954,106,770
-19840,"Ramey, Chad",769,Monterey Peninsula CC,sg_total,-1.3572660775360372,0.32903104901358904,105,770
+19840,"Ramey, Chad",769,Monterey Peninsula CC,sg_total,-1.3573074106030154,0.32903104901358904,105,770
 21407,"Reitan, Kristoffer",928,PGA National  - Champion Course,sg_app,0.11774123396705244,0.3147934734817942,88,770
 21407,"Reitan, Kristoffer",897,Memorial Park Golf Course,sg_putt,-0.47411265660728946,0.3780874149073176,126,770
-21407,"Reitan, Kristoffer",4591,club de campo villa de madrid,sg_total,-0.3335245277554845,0.6058678578766112,5,770
-21407,"Reitan, Kristoffer",3955,galgorm castle golf club,sg_total,-0.3642535806160848,0.5825204175179615,4,770
-21407,"Reitan, Kristoffer",3782,himmerland golf & spa resort,sg_total,-0.027677784897405577,0.5757860892708787,7,770
-21407,"Reitan, Kristoffer",4621,gut altentann gc,sg_total,3.3257463698192327,0.5423864348419307,6,770
-21407,"Reitan, Kristoffer",3785,golfclub münchen eichenried,sg_total,-1.6030351107996008,0.5022972237102333,7,770
-21407,"Reitan, Kristoffer",4601,old course st andrews,sg_total,1.3403050522132998,0.4697081735101227,9,770
-21407,"Reitan, Kristoffer",3768,emirates gc,sg_total,-2.646793681221602,0.4154167498856704,9,770
-21407,"Reitan, Kristoffer",3787,lahinch gc,sg_total,-0.5524257291022096,0.400576532740988,10,770
-21407,"Reitan, Kristoffer",4602,carnoustie,sg_total,1.9203050522132998,0.3955744153801582,9,770
-21407,"Reitan, Kristoffer",4706,trump international golf links,sg_total,1.6024420059446736,0.39479517203591025,6,770
-21407,"Reitan, Kristoffer",3811,hillside golf club,sg_total,0.007401160068692625,0.389803985254987,6,770
-21407,"Reitan, Kristoffer",3791,albatross golf resort,sg_total,1.226464195039016,0.34616805597378386,4,770
-21407,"Reitan, Kristoffer",4592,yas links,sg_total,0.28559683022777116,0.34581953373452445,6,770
-21407,"Reitan, Kristoffer",3797,old course st andrews,sg_total,4.109497240690589,0.3411633033644508,14,770
-21407,"Reitan, Kristoffer",3803,real club valderrama,sg_total,1.27400754774084,0.3193154955433175,5,770
+21407,"Reitan, Kristoffer",4591,club de campo villa de madrid,sg_total,-0.3331001919450767,0.6058678578766112,5,770
+21407,"Reitan, Kristoffer",3955,galgorm castle golf club,sg_total,-0.3638292448056769,0.5825204175179615,4,770
+21407,"Reitan, Kristoffer",3782,himmerland golf & spa resort,sg_total,-0.027253449086997672,0.5757860892708787,7,770
+21407,"Reitan, Kristoffer",4621,gut altentann gc,sg_total,3.3261707056296403,0.5423864348419307,6,770
+21407,"Reitan, Kristoffer",3785,golfclub münchen eichenried,sg_total,-1.6026107749891931,0.5022972237102333,7,770
+21407,"Reitan, Kristoffer",4601,old course st andrews,sg_total,1.3340286545976414,0.4697081735101227,9,770
+21407,"Reitan, Kristoffer",3768,emirates gc,sg_total,-2.6463693454111943,0.4154167498856704,9,770
+21407,"Reitan, Kristoffer",3787,lahinch gc,sg_total,-0.5520013932918016,0.400576532740988,10,770
+21407,"Reitan, Kristoffer",4602,carnoustie,sg_total,1.9140286545976415,0.3955744153801582,9,770
+21407,"Reitan, Kristoffer",4706,trump international golf links,sg_total,1.6028663417550821,0.39479517203591025,6,770
+21407,"Reitan, Kristoffer",3811,hillside golf club,sg_total,0.00782549587910053,0.389803985254987,6,770
+21407,"Reitan, Kristoffer",3791,albatross golf resort,sg_total,1.2268885308494237,0.34616805597378386,4,770
+21407,"Reitan, Kristoffer",4592,yas links,sg_total,0.28602116603817906,0.34581953373452445,6,770
+21407,"Reitan, Kristoffer",3797,old course st andrews,sg_total,4.109921576500998,0.3411633033644508,14,770
+21407,"Reitan, Kristoffer",3803,real club valderrama,sg_total,1.2744318835512476,0.3193154955433175,5,770
 16283,"Rodgers, Patrick",770,TPC San Antonio (Oaks Course),sg_app,0.08789820917607864,0.9334587523679371,138,770
 16283,"Rodgers, Patrick",886,Liberty National Golf Club,sg_app,-2.5472803032143525,0.49599169794035103,69,770
 16283,"Rodgers, Patrick",921,TPC Craig Ranch,sg_app,-0.40568406570146553,0.45613377403213234,104,770
@@ -2924,9 +2924,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 16283,"Rodgers, Patrick",500,The Riviera Country Club,sg_putt,-0.11040179639599221,0.36172215580175954,106,770
 16283,"Rodgers, Patrick",43,The Los Angeles Country Club (North Course),sg_putt,1.452941250292283,0.3337669048945031,41,770
 16283,"Rodgers, Patrick",241,Quail Hollow-PGA Championship,sg_putt,-1.0263290270335097,0.31746669860215504,45,770
-16283,"Rodgers, Patrick",4584,crans-sur-sierre gc,sg_total,-0.3121072846523556,0.40630602803052057,11,770
-16283,"Rodgers, Patrick",936,Yokohama Country Club,sg_total,-1.6421862704604866,0.3742798844744178,26,770
-16283,"Rodgers, Patrick",769,Monterey Peninsula CC,sg_total,-0.777450951836504,0.32903104901358904,105,770
+16283,"Rodgers, Patrick",4584,crans-sur-sierre gc,sg_total,-0.31284467719236353,0.40630602803052057,11,770
+16283,"Rodgers, Patrick",936,Yokohama Country Club,sg_total,-1.6429236630004944,0.3742798844744178,26,770
+16283,"Rodgers, Patrick",769,Monterey Peninsula CC,sg_total,-0.778188344376512,0.32903104901358904,105,770
 18424,"Roy, Kevin",770,TPC San Antonio (Oaks Course),sg_app,-0.13579544720595332,0.9334587523679371,138,770
 18424,"Roy, Kevin",921,TPC Craig Ranch,sg_app,-0.11742886765714217,0.45613377403213234,104,770
 18424,"Roy, Kevin",21,Colonial Country Club,sg_app,0.9638152054865368,0.3243427906293031,118,770
@@ -2942,23 +2942,23 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 18424,"Roy, Kevin",770,TPC San Antonio (Oaks Course),sg_putt,-0.3257911558094674,0.937594127699997,138,770
 18424,"Roy, Kevin",925,Dunes Golf and Beach Club,sg_putt,0.3279409312753575,0.4070002175457089,70,770
 18424,"Roy, Kevin",897,Memorial Park Golf Course,sg_putt,-0.5412892644141873,0.3780874149073176,126,770
-18424,"Roy, Kevin",93,Vanderbilt Legends Club,sg_total,-0.711063659718438,0.6180217370617999,21,770
-18424,"Roy, Kevin",60,Texas Rangers Golf Club,sg_total,-1.704087575812624,0.6167570095321873,23,770
-18424,"Roy, Kevin",800,The Abaco Club on Winding Bay,sg_total,0.6742960732783119,0.4709398928223278,39,770
-18424,"Roy, Kevin",936,Yokohama Country Club,sg_total,0.08162715372668342,0.3742798844744178,26,770
-18424,"Roy, Kevin",678,Thornblade Club,sg_total,-3.07164522509298,0.3513700323407084,28,770
-18424,"Roy, Kevin",94,Jimmie Austin OU Golf Club,sg_total,-0.1821840455015875,0.3480024942186549,18,770
-18424,"Roy, Kevin",769,Monterey Peninsula CC,sg_total,-1.176141072252259,0.32903104901358904,105,770
-18424,"Roy, Kevin",55,Panther Creek Country Club,sg_total,-0.5421538755882838,0.32120800029494245,27,770
-18424,"Roy, Kevin",807,Lakewood National Golf Club,sg_total,-1.564395009972237,0.3104472706323593,22,770
+18424,"Roy, Kevin",93,Vanderbilt Legends Club,sg_total,-0.710869510641811,0.6180217370617999,21,770
+18424,"Roy, Kevin",60,Texas Rangers Golf Club,sg_total,-1.7038934267359969,0.6167570095321873,23,770
+18424,"Roy, Kevin",800,The Abaco Club on Winding Bay,sg_total,0.6744902223549389,0.4709398928223278,39,770
+18424,"Roy, Kevin",936,Yokohama Country Club,sg_total,0.08182130280331035,0.3742798844744178,26,770
+18424,"Roy, Kevin",678,Thornblade Club,sg_total,-3.0714510760163534,0.3513700323407084,28,770
+18424,"Roy, Kevin",94,Jimmie Austin OU Golf Club,sg_total,-0.1819898964249605,0.3480024942186549,18,770
+18424,"Roy, Kevin",769,Monterey Peninsula CC,sg_total,-1.1759469231756319,0.32903104901358904,105,770
+18424,"Roy, Kevin",55,Panther Creek Country Club,sg_total,-0.5419597265116567,0.32120800029494245,27,770
+18424,"Roy, Kevin",807,Lakewood National Golf Club,sg_total,-1.56420086089561,0.3104472706323593,22,770
 16591,"Rozo, Marcelo",928,PGA National  - Champion Course,sg_app,-0.7489446204260404,0.3147934734817942,88,770
-16591,"Rozo, Marcelo",93,Vanderbilt Legends Club,sg_total,-0.6989333744897603,0.6180217370617999,21,770
-16591,"Rozo, Marcelo",60,Texas Rangers Golf Club,sg_total,-0.40858345655805595,0.6167570095321873,23,770
-16591,"Rozo, Marcelo",800,The Abaco Club on Winding Bay,sg_total,-0.4700233861849079,0.4709398928223278,39,770
-16591,"Rozo, Marcelo",678,Thornblade Club,sg_total,-0.6971823531420395,0.3513700323407084,28,770
-16591,"Rozo, Marcelo",94,Jimmie Austin OU Golf Club,sg_total,-1.1842833958762176,0.3480024942186549,18,770
-16591,"Rozo, Marcelo",55,Panther Creek Country Club,sg_total,-0.4808966499456524,0.32120800029494245,27,770
-16591,"Rozo, Marcelo",807,Lakewood National Golf Club,sg_total,1.858649527723412,0.3104472706323593,22,770
+16591,"Rozo, Marcelo",93,Vanderbilt Legends Club,sg_total,-0.6983743901114019,0.6180217370617999,21,770
+16591,"Rozo, Marcelo",60,Texas Rangers Golf Club,sg_total,-0.4080244721796975,0.6167570095321873,23,770
+16591,"Rozo, Marcelo",800,The Abaco Club on Winding Bay,sg_total,-0.4694644018065494,0.4709398928223278,39,770
+16591,"Rozo, Marcelo",678,Thornblade Club,sg_total,-0.6966233687636809,0.3513700323407084,28,770
+16591,"Rozo, Marcelo",94,Jimmie Austin OU Golf Club,sg_total,-1.1837244114978593,0.3480024942186549,18,770
+16591,"Rozo, Marcelo",55,Panther Creek Country Club,sg_total,-0.48033766556729396,0.32120800029494245,27,770
+16591,"Rozo, Marcelo",807,Lakewood National Golf Club,sg_total,1.8592085121017705,0.3104472706323593,22,770
 16715,"Ryder, Sam",770,TPC San Antonio (Oaks Course),sg_app,-0.3242646105512952,0.9334587523679371,138,770
 16715,"Ryder, Sam",886,Liberty National Golf Club,sg_app,-0.30314025387578275,0.49599169794035103,69,770
 16715,"Ryder, Sam",921,TPC Craig Ranch,sg_app,-0.07093545322682923,0.45613377403213234,104,770
@@ -2987,33 +2987,33 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 16715,"Ryder, Sam",925,Dunes Golf and Beach Club,sg_putt,-0.13070087398328825,0.4070002175457089,70,770
 16715,"Ryder, Sam",897,Memorial Park Golf Course,sg_putt,0.049332333170531206,0.3780874149073176,126,770
 16715,"Ryder, Sam",500,The Riviera Country Club,sg_putt,0.30858727369436534,0.36172215580175954,106,770
-16715,"Ryder, Sam",936,Yokohama Country Club,sg_total,1.5536571529025438,0.3742798844744178,26,770
+16715,"Ryder, Sam",936,Yokohama Country Club,sg_total,1.5535069918728035,0.3742798844744178,26,770
 14792,"Saddier, Adrien",928,PGA National  - Champion Course,sg_app,-1.0463517201323627,0.3147934734817942,88,770
 14792,"Saddier, Adrien",977,The Renaissance Club,sg_ott,-0.8934913287349806,0.3961561870401492,70,770
 14792,"Saddier, Adrien",897,Memorial Park Golf Course,sg_putt,0.9346190719408959,0.3780874149073176,126,770
 14792,"Saddier, Adrien",885,Royal Portrush Golf Club,sg_putt,0.22061497617435877,0.3660219629675547,34,770
-14792,"Saddier, Adrien",3867,mount juliet estate,sg_total,1.4501881913720418,0.7428767894335073,8,770
-14792,"Saddier, Adrien",3946,marco simone gc,sg_total,2.0279870203366888,0.6488815854856618,7,770
-14792,"Saddier, Adrien",4207,golfclub münchen eichenried,sg_total,1.53151390072171,0.6031145566280598,5,770
-14792,"Saddier, Adrien",3782,himmerland golf & spa resort,sg_total,1.3286282346751506,0.5757860892708787,7,770
-14792,"Saddier, Adrien",4621,gut altentann gc,sg_total,-1.1289825635053492,0.5423864348419307,6,770
-14792,"Saddier, Adrien",4010,crans-sur-sierre gc,sg_total,-0.23569371719060989,0.5300172537833142,5,770
-14792,"Saddier, Adrien",3785,golfclub münchen eichenried,sg_total,-1.704144175128187,0.5022972237102333,7,770
-14792,"Saddier, Adrien",4601,old course st andrews,sg_total,-1.1201256533632036,0.4697081735101227,9,770
-14792,"Saddier, Adrien",4014,le golf national,sg_total,-0.1472429607338474,0.4585525648402019,7,770
-14792,"Saddier, Adrien",4230,kingsbarns golf links,sg_total,-1.2677771745169228,0.44959278573185796,8,770
-14792,"Saddier, Adrien",3902,randpark gc bushwillow course,sg_total,0.6097703813782236,0.4367612615201906,5,770
-14792,"Saddier, Adrien",3890,leopard creek cc,sg_total,-4.221374798314229,0.4174102349705498,4,770
-14792,"Saddier, Adrien",4584,crans-sur-sierre gc,sg_total,0.4348728784880141,0.40630602803052057,11,770
-14792,"Saddier, Adrien",4056,brabazon course at the belfry,sg_total,-1.529405822796263,0.4056319826761129,7,770
-14792,"Saddier, Adrien",4074,pga national cyprus course,sg_total,-2.663282517429141,0.39809076103437085,4,770
-14792,"Saddier, Adrien",4367,leopard creek cc,sg_total,-0.001589472596473962,0.3971949827757657,5,770
-14792,"Saddier, Adrien",4602,carnoustie,sg_total,1.4598743466367965,0.3955744153801582,9,770
-14792,"Saddier, Adrien",3811,hillside golf club,sg_total,-1.6916010985174246,0.389803985254987,6,770
-14792,"Saddier, Adrien",3791,albatross golf resort,sg_total,-3.7813798927209454,0.34616805597378386,4,770
-14792,"Saddier, Adrien",4592,yas links,sg_total,0.2974154356203448,0.34581953373452445,6,770
-14792,"Saddier, Adrien",4415,doha gc,sg_total,1.4573863973130716,0.3212911694092942,6,770
-14792,"Saddier, Adrien",3803,real club valderrama,sg_total,-0.047478137458892344,0.3193154955433175,5,770
+14792,"Saddier, Adrien",3867,mount juliet estate,sg_total,1.4500777716273765,0.7428767894335073,8,770
+14792,"Saddier, Adrien",3946,marco simone gc,sg_total,2.0278766005920232,0.6488815854856618,7,770
+14792,"Saddier, Adrien",4207,golfclub münchen eichenried,sg_total,1.5314034809770445,0.6031145566280598,5,770
+14792,"Saddier, Adrien",3782,himmerland golf & spa resort,sg_total,1.328517814930485,0.5757860892708787,7,770
+14792,"Saddier, Adrien",4621,gut altentann gc,sg_total,-1.1290929832500147,0.5423864348419307,6,770
+14792,"Saddier, Adrien",4010,crans-sur-sierre gc,sg_total,-0.23580413693527535,0.5300172537833142,5,770
+14792,"Saddier, Adrien",3785,golfclub münchen eichenried,sg_total,-1.7042545948728525,0.5022972237102333,7,770
+14792,"Saddier, Adrien",4601,old course st andrews,sg_total,-1.120236073107869,0.4697081735101227,9,770
+14792,"Saddier, Adrien",4014,le golf national,sg_total,-0.14735338047851287,0.4585525648402019,7,770
+14792,"Saddier, Adrien",4230,kingsbarns golf links,sg_total,-1.2678875942615884,0.44959278573185796,8,770
+14792,"Saddier, Adrien",3902,randpark gc bushwillow course,sg_total,0.6096599616335582,0.4367612615201906,5,770
+14792,"Saddier, Adrien",3890,leopard creek cc,sg_total,-4.221485218058895,0.4174102349705498,4,770
+14792,"Saddier, Adrien",4584,crans-sur-sierre gc,sg_total,0.4347624587433486,0.40630602803052057,11,770
+14792,"Saddier, Adrien",4056,brabazon course at the belfry,sg_total,-1.5295162425409283,0.4056319826761129,7,770
+14792,"Saddier, Adrien",4074,pga national cyprus course,sg_total,-2.6633929371738065,0.39809076103437085,4,770
+14792,"Saddier, Adrien",4367,leopard creek cc,sg_total,-0.0016998923411394307,0.3971949827757657,5,770
+14792,"Saddier, Adrien",4602,carnoustie,sg_total,1.4597639268921312,0.3955744153801582,9,770
+14792,"Saddier, Adrien",3811,hillside golf club,sg_total,-1.6917115182620899,0.389803985254987,6,770
+14792,"Saddier, Adrien",3791,albatross golf resort,sg_total,-3.781490312465611,0.34616805597378386,4,770
+14792,"Saddier, Adrien",4592,yas links,sg_total,0.2973050158756793,0.34581953373452445,6,770
+14792,"Saddier, Adrien",4415,doha gc,sg_total,1.4572759775684068,0.3212911694092942,6,770
+14792,"Saddier, Adrien",3803,real club valderrama,sg_total,-0.04758855720355781,0.3193154955433175,5,770
 30814,"Sargent, Gordon",928,PGA National  - Champion Course,sg_app,0.18263550951816732,0.3147934734817942,88,770
 30814,"Sargent, Gordon",876,Detroit Golf Club,sg_arg,-0.06366943333164302,0.4945560596830631,131,770
 30814,"Sargent, Gordon",926,Silverado Resort (North Course),sg_arg,-0.004993134786352667,0.4250628232567859,101,770
@@ -3059,7 +3059,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 19477,"Schenk, Adam",897,Memorial Park Golf Course,sg_putt,-0.47336423775992803,0.3780874149073176,126,770
 19477,"Schenk, Adam",500,The Riviera Country Club,sg_putt,0.011080239592604096,0.36172215580175954,106,770
 19477,"Schenk, Adam",43,The Los Angeles Country Club (North Course),sg_putt,0.9653482263913522,0.3337669048945031,41,770
-19477,"Schenk, Adam",769,Monterey Peninsula CC,sg_total,1.9890579280004574,0.32903104901358904,105,770
+19477,"Schenk, Adam",769,Monterey Peninsula CC,sg_total,1.989067943605422,0.32903104901358904,105,770
 32055,"Shipley, Neal",931,Tahoe Mountain Club (Old Greenwood),sg_app,2.1538945375176217,0.43713363031576813,48,770
 32055,"Shipley, Neal",21,Colonial Country Club,sg_app,-0.08443899855971143,0.3243427906293031,118,770
 32055,"Shipley, Neal",928,PGA National  - Champion Course,sg_app,-2.208786394568571,0.3147934734817942,88,770
@@ -3068,7 +3068,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 32055,"Shipley, Neal",669,TPC Deere Run,sg_ott,-0.19770382805901068,0.37946789578467727,122,770
 32055,"Shipley, Neal",897,Memorial Park Golf Course,sg_putt,0.4282198726939008,0.3780874149073176,126,770
 32055,"Shipley, Neal",93,Vanderbilt Legends Club,sg_total,-0.6570064484932312,0.6180217370617999,21,770
-32055,"Shipley, Neal",60,Texas Rangers Golf Club,sg_total,0.6780877935742332,0.6167570095321873,23,770
+32055,"Shipley, Neal",60,Texas Rangers Golf Club,sg_total,0.6780877935742331,0.6167570095321873,23,770
 32055,"Shipley, Neal",800,The Abaco Club on Winding Bay,sg_total,-3.9792382967083384,0.4709398928223278,39,770
 32055,"Shipley, Neal",678,Thornblade Club,sg_total,-1.1845176699413702,0.3513700323407084,28,770
 32055,"Shipley, Neal",55,Panther Creek Country Club,sg_total,2.4282735330331517,0.32120800029494245,27,770
@@ -3105,7 +3105,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 11049,"Simpson, Webb",348,Medinah Country Club (No. 3),sg_putt,-0.164618147893081,0.41836007437478184,28,770
 11049,"Simpson, Webb",891,Winged Foot GC,sg_putt,1.2706713174227957,0.3932690507844661,38,770
 11049,"Simpson, Webb",899,The Summit Club,sg_putt,0.486602138976977,0.3632539833919035,25,770
-11049,"Simpson, Webb",769,Monterey Peninsula CC,sg_total,-1.747052195935805,0.32903104901358904,105,770
+11049,"Simpson, Webb",769,Monterey Peninsula CC,sg_total,-1.7467463329643176,0.32903104901358904,105,770
 18474,"Smalley, Alex",770,TPC San Antonio (Oaks Course),sg_app,0.12500024307925583,0.9334587523679371,138,770
 18474,"Smalley, Alex",921,TPC Craig Ranch,sg_app,0.346395555502948,0.45613377403213234,104,770
 18474,"Smalley, Alex",931,Tahoe Mountain Club (Old Greenwood),sg_app,0.7119958632878832,0.43713363031576813,48,770
@@ -3133,8 +3133,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 18474,"Smalley, Alex",897,Memorial Park Golf Course,sg_putt,0.5407071907597495,0.3780874149073176,126,770
 18474,"Smalley, Alex",500,The Riviera Country Club,sg_putt,0.2800003942968547,0.36172215580175954,106,770
 18474,"Smalley, Alex",241,Quail Hollow-PGA Championship,sg_putt,0.06078242361123968,0.31746669860215504,45,770
-18474,"Smalley, Alex",936,Yokohama Country Club,sg_total,2.842769236715746,0.3742798844744178,26,770
-18474,"Smalley, Alex",769,Monterey Peninsula CC,sg_total,0.01861439762522113,0.32903104901358904,105,770
+18474,"Smalley, Alex",936,Yokohama Country Club,sg_total,2.8423547290483815,0.3742798844744178,26,770
+18474,"Smalley, Alex",769,Monterey Peninsula CC,sg_total,0.018199889957856187,0.32903104901358904,105,770
 18586,"Smith, Jordan",608,Oakmont Country Club,sg_app,-1.339014036907192,0.5183061495661612,37,770
 18586,"Smith, Jordan",724,Royal Liverpool,sg_app,0.26598608646859867,0.44812525703902684,33,770
 18586,"Smith, Jordan",928,PGA National  - Champion Course,sg_app,-0.1766160592010173,0.3147934734817942,88,770
@@ -3147,40 +3147,40 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 18586,"Smith, Jordan",897,Memorial Park Golf Course,sg_putt,0.16813460233545402,0.3780874149073176,126,770
 18586,"Smith, Jordan",885,Royal Portrush Golf Club,sg_putt,0.46944690606235784,0.3660219629675547,34,770
 18586,"Smith, Jordan",43,The Los Angeles Country Club (North Course),sg_putt,-0.048152527607179724,0.3337669048945031,41,770
-18586,"Smith, Jordan",3867,mount juliet estate,sg_total,-0.10881250302051935,0.7428767894335073,8,770
-18586,"Smith, Jordan",4017,real club valderrama,sg_total,1.3643934104830369,0.7130053387528874,7,770
-18586,"Smith, Jordan",4000,mount juliet estate,sg_total,0.18779804844714065,0.6961769540188673,8,770
-18586,"Smith, Jordan",4200,yas links,sg_total,-2.1903387398327645,0.6824220284151636,9,770
-18586,"Smith, Jordan",3881,old course st andrews,sg_total,-0.10568088569996457,0.6811356717559214,10,770
-18586,"Smith, Jordan",4414,real club de golf sotogrande,sg_total,-0.2669725707213563,0.6511016676293667,7,770
-18586,"Smith, Jordan",3946,marco simone gc,sg_total,-2.8010229345044464,0.6488815854856618,7,770
-18586,"Smith, Jordan",3796,wentworth golf club,sg_total,1.8496738784980897,0.6365456695838412,14,770
-18586,"Smith, Jordan",4591,club de campo villa de madrid,sg_total,-1.52790786379487,0.6058678578766112,5,770
-18586,"Smith, Jordan",3955,galgorm castle golf club,sg_total,1.9800659087154926,0.5825204175179615,4,770
-18586,"Smith, Jordan",3782,himmerland golf & spa resort,sg_total,-0.569450518472603,0.5757860892708787,7,770
-18586,"Smith, Jordan",4235,gary player cc,sg_total,1.1114892713209203,0.5631540841112208,8,770
-18586,"Smith, Jordan",4621,gut altentann gc,sg_total,-4.033479588030749,0.5423864348419307,6,770
-18586,"Smith, Jordan",3801,olgiata gc,sg_total,0.9394143450302713,0.5361973537543031,10,770
-18586,"Smith, Jordan",3785,golfclub münchen eichenried,sg_total,1.8146097336466511,0.5022972237102333,7,770
-18586,"Smith, Jordan",4601,old course st andrews,sg_total,4.612406567987462,0.4697081735101227,9,770
-18586,"Smith, Jordan",4014,le golf national,sg_total,1.2083390380524914,0.4585525648402019,7,770
-18586,"Smith, Jordan",4136,abu dhabi gc,sg_total,-0.38583327296247394,0.4516384086696491,11,770
-18586,"Smith, Jordan",4230,kingsbarns golf links,sg_total,-1.4928042975950797,0.44959278573185796,8,770
-18586,"Smith, Jordan",4075,doha gc,sg_total,-1.4290180880505787,0.4166973465837519,6,770
-18586,"Smith, Jordan",3768,emirates gc,sg_total,1.7814775176540554,0.4154167498856704,9,770
-18586,"Smith, Jordan",4584,crans-sur-sierre gc,sg_total,0.6764873292936714,0.40630602803052057,11,770
-18586,"Smith, Jordan",4056,brabazon course at the belfry,sg_total,-1.5736744209869762,0.4056319826761129,7,770
-18586,"Smith, Jordan",3787,lahinch gc,sg_total,-2.7100118944369793,0.400576532740988,10,770
-18586,"Smith, Jordan",4074,pga national cyprus course,sg_total,-1.45859648354756,0.39809076103437085,4,770
-18586,"Smith, Jordan",4602,carnoustie,sg_total,1.1924065679874623,0.3955744153801582,9,770
-18586,"Smith, Jordan",4706,trump international golf links,sg_total,1.3343906239709111,0.39479517203591025,6,770
-18586,"Smith, Jordan",3811,hillside golf club,sg_total,1.9081200798932711,0.389803985254987,6,770
-18586,"Smith, Jordan",4236,jumeirah golf estates,sg_total,-2.3068089211959704,0.3678165474981815,8,770
-18586,"Smith, Jordan",4592,yas links,sg_total,1.2042225856484878,0.34581953373452445,6,770
-18586,"Smith, Jordan",3797,old course st andrews,sg_total,2.1951622851374974,0.3411633033644508,14,770
-18586,"Smith, Jordan",4192,carnoustie,sg_total,-3.2063117749586056,0.33242151988048835,9,770
-18586,"Smith, Jordan",4415,doha gc,sg_total,1.2993427705242258,0.3212911694092942,6,770
-18586,"Smith, Jordan",4097,fire course,sg_total,0.32162816848191506,0.318586127268691,5,770
+18586,"Smith, Jordan",3867,mount juliet estate,sg_total,-0.10839738662921647,0.7428767894335073,8,770
+18586,"Smith, Jordan",4017,real club valderrama,sg_total,1.3648085268743397,0.7130053387528874,7,770
+18586,"Smith, Jordan",4000,mount juliet estate,sg_total,0.18821316483844355,0.6961769540188673,8,770
+18586,"Smith, Jordan",4200,yas links,sg_total,-2.1899236234414614,0.6824220284151636,9,770
+18586,"Smith, Jordan",3881,old course st andrews,sg_total,-0.10526576930866169,0.6811356717559214,10,770
+18586,"Smith, Jordan",4414,real club de golf sotogrande,sg_total,-0.2665574543300534,0.6511016676293667,7,770
+18586,"Smith, Jordan",3946,marco simone gc,sg_total,-2.8006078181131433,0.6488815854856618,7,770
+18586,"Smith, Jordan",3796,wentworth golf club,sg_total,1.8500889948893926,0.6365456695838412,14,770
+18586,"Smith, Jordan",4591,club de campo villa de madrid,sg_total,-1.527492747403567,0.6058678578766112,5,770
+18586,"Smith, Jordan",3955,galgorm castle golf club,sg_total,1.9804810251067955,0.5825204175179615,4,770
+18586,"Smith, Jordan",3782,himmerland golf & spa resort,sg_total,-0.5690354020813001,0.5757860892708787,7,770
+18586,"Smith, Jordan",4235,gary player cc,sg_total,1.1119043877122232,0.5631540841112208,8,770
+18586,"Smith, Jordan",4621,gut altentann gc,sg_total,-4.033064471639446,0.5423864348419307,6,770
+18586,"Smith, Jordan",3801,olgiata gc,sg_total,0.9398294614215742,0.5361973537543031,10,770
+18586,"Smith, Jordan",3785,golfclub münchen eichenried,sg_total,1.815024850037954,0.5022972237102333,7,770
+18586,"Smith, Jordan",4601,old course st andrews,sg_total,4.6128216843787655,0.4697081735101227,9,770
+18586,"Smith, Jordan",4014,le golf national,sg_total,1.2087541544437943,0.4585525648402019,7,770
+18586,"Smith, Jordan",4136,abu dhabi gc,sg_total,-0.38541815657117107,0.4516384086696491,11,770
+18586,"Smith, Jordan",4230,kingsbarns golf links,sg_total,-1.492389181203777,0.44959278573185796,8,770
+18586,"Smith, Jordan",4075,doha gc,sg_total,-1.428602971659276,0.4166973465837519,6,770
+18586,"Smith, Jordan",3768,emirates gc,sg_total,1.7818926340453582,0.4154167498856704,9,770
+18586,"Smith, Jordan",4584,crans-sur-sierre gc,sg_total,0.6769024456849743,0.40630602803052057,11,770
+18586,"Smith, Jordan",4056,brabazon course at the belfry,sg_total,-1.5732593045956733,0.4056319826761129,7,770
+18586,"Smith, Jordan",3787,lahinch gc,sg_total,-2.7095967780456762,0.400576532740988,10,770
+18586,"Smith, Jordan",4074,pga national cyprus course,sg_total,-1.4581813671562571,0.39809076103437085,4,770
+18586,"Smith, Jordan",4602,carnoustie,sg_total,1.1928216843787656,0.3955744153801582,9,770
+18586,"Smith, Jordan",4706,trump international golf links,sg_total,1.334805740362214,0.39479517203591025,6,770
+18586,"Smith, Jordan",3811,hillside golf club,sg_total,1.908535196284574,0.389803985254987,6,770
+18586,"Smith, Jordan",4236,jumeirah golf estates,sg_total,-2.3063938048046673,0.3678165474981815,8,770
+18586,"Smith, Jordan",4592,yas links,sg_total,1.2046377020397907,0.34581953373452445,6,770
+18586,"Smith, Jordan",3797,old course st andrews,sg_total,2.1955774015288005,0.3411633033644508,14,770
+18586,"Smith, Jordan",4192,carnoustie,sg_total,-3.2058966585673025,0.33242151988048835,9,770
+18586,"Smith, Jordan",4415,doha gc,sg_total,1.2997578869155286,0.3212911694092942,6,770
+18586,"Smith, Jordan",4097,fire course,sg_total,0.322043284873218,0.318586127268691,5,770
 22985,"Smotherman, Austin",770,TPC San Antonio (Oaks Course),sg_app,-0.3226766339156576,0.9334587523679371,138,770
 22985,"Smotherman, Austin",921,TPC Craig Ranch,sg_app,-0.3174407335726319,0.45613377403213234,104,770
 22985,"Smotherman, Austin",21,Colonial Country Club,sg_app,-0.5033099654546516,0.3243427906293031,118,770
@@ -3201,14 +3201,14 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 22985,"Smotherman, Austin",925,Dunes Golf and Beach Club,sg_putt,-1.5985560511177979,0.4070002175457089,70,770
 22985,"Smotherman, Austin",897,Memorial Park Golf Course,sg_putt,-4.16029892312909,0.3780874149073176,126,770
 22985,"Smotherman, Austin",500,The Riviera Country Club,sg_putt,-0.21341399109691805,0.36172215580175954,106,770
-22985,"Smotherman, Austin",93,Vanderbilt Legends Club,sg_total,-1.0729909963059254,0.6180217370617999,21,770
-22985,"Smotherman, Austin",60,Texas Rangers Golf Club,sg_total,-1.8707824605486507,0.6167570095321873,23,770
-22985,"Smotherman, Austin",800,The Abaco Club on Winding Bay,sg_total,1.3823794396788192,0.4709398928223278,39,770
-22985,"Smotherman, Austin",678,Thornblade Club,sg_total,0.5063497543891526,0.3513700323407084,28,770
-22985,"Smotherman, Austin",94,Jimmie Austin OU Golf Club,sg_total,-0.4478318659643,0.3480024942186549,18,770
-22985,"Smotherman, Austin",769,Monterey Peninsula CC,sg_total,0.11925277968894313,0.32903104901358904,105,770
-22985,"Smotherman, Austin",55,Panther Creek Country Club,sg_total,1.2504781792313697,0.32120800029494245,27,770
-22985,"Smotherman, Austin",807,Lakewood National Golf Club,sg_total,0.5610336690336282,0.3104472706323593,22,770
+22985,"Smotherman, Austin",93,Vanderbilt Legends Club,sg_total,-1.0718918500119519,0.6180217370617999,21,770
+22985,"Smotherman, Austin",60,Texas Rangers Golf Club,sg_total,-1.8696833142546774,0.6167570095321873,23,770
+22985,"Smotherman, Austin",800,The Abaco Club on Winding Bay,sg_total,1.3834785859727927,0.4709398928223278,39,770
+22985,"Smotherman, Austin",678,Thornblade Club,sg_total,0.5074489006831262,0.3513700323407084,28,770
+22985,"Smotherman, Austin",94,Jimmie Austin OU Golf Club,sg_total,-0.4467327196703265,0.3480024942186549,18,770
+22985,"Smotherman, Austin",769,Monterey Peninsula CC,sg_total,0.12035192598291661,0.32903104901358904,105,770
+22985,"Smotherman, Austin",55,Panther Creek Country Club,sg_total,1.2515773255253428,0.32120800029494245,27,770
+22985,"Smotherman, Austin",807,Lakewood National Golf Club,sg_total,0.5621328153276017,0.3104472706323593,22,770
 8820,"Snedeker, Brandt",770,TPC San Antonio (Oaks Course),sg_app,1.0770741071412868,0.9334587523679371,138,770
 8820,"Snedeker, Brandt",891,Winged Foot GC,sg_app,0.8528390992073606,0.5068424512624736,38,770
 8820,"Snedeker, Brandt",886,Liberty National Golf Club,sg_app,-0.21345913081759543,0.49599169794035103,69,770
@@ -3240,7 +3240,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 8820,"Snedeker, Brandt",891,Winged Foot GC,sg_putt,-1.5675421406091419,0.3932690507844661,38,770
 8820,"Snedeker, Brandt",897,Memorial Park Golf Course,sg_putt,-0.6698521264924158,0.3780874149073176,126,770
 8820,"Snedeker, Brandt",500,The Riviera Country Club,sg_putt,-2.047753460005998,0.36172215580175954,106,770
-8820,"Snedeker, Brandt",769,Monterey Peninsula CC,sg_total,-1.870548362657931,0.32903104901358904,105,770
+8820,"Snedeker, Brandt",769,Monterey Peninsula CC,sg_total,-1.8691630219298883,0.32903104901358904,105,770
 17536,"Spaun, J.J.",770,TPC San Antonio (Oaks Course),sg_app,0.24028504989836136,0.9334587523679371,138,770
 17536,"Spaun, J.J.",232,Albany GC,sg_app,0.307104269968597,0.6231909589372491,15,770
 17536,"Spaun, J.J.",608,Oakmont Country Club,sg_app,-0.14563534370909392,0.5183061495661612,37,770
@@ -3280,7 +3280,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17536,"Spaun, J.J.",885,Royal Portrush Golf Club,sg_putt,0.8058854234629506,0.3660219629675547,34,770
 17536,"Spaun, J.J.",500,The Riviera Country Club,sg_putt,-0.8236055466466566,0.36172215580175954,106,770
 17536,"Spaun, J.J.",241,Quail Hollow-PGA Championship,sg_putt,0.3576812012464143,0.31746669860215504,45,770
-17536,"Spaun, J.J.",769,Monterey Peninsula CC,sg_total,-1.0257792153562302,0.32903104901358904,105,770
+17536,"Spaun, J.J.",769,Monterey Peninsula CC,sg_total,-1.0253458739468537,0.32903104901358904,105,770
 14636,"Spieth, Jordan",770,TPC San Antonio (Oaks Course),sg_app,0.5404145553102399,0.9334587523679371,138,770
 14636,"Spieth, Jordan",232,Albany GC,sg_app,-0.20165709509979565,0.6231909589372491,15,770
 14636,"Spieth, Jordan",608,Oakmont Country Club,sg_app,2.111148635089918,0.5183061495661612,37,770
@@ -3329,7 +3329,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 14636,"Spieth, Jordan",500,The Riviera Country Club,sg_putt,0.201785365730469,0.36172215580175954,106,770
 14636,"Spieth, Jordan",43,The Los Angeles Country Club (North Course),sg_putt,0.15790957091817626,0.3337669048945031,41,770
 14636,"Spieth, Jordan",241,Quail Hollow-PGA Championship,sg_putt,-0.1877120625656103,0.31746669860215504,45,770
-14636,"Spieth, Jordan",769,Monterey Peninsula CC,sg_total,-0.07806736849135824,0.32903104901358904,105,770
+14636,"Spieth, Jordan",769,Monterey Peninsula CC,sg_total,-0.07821416242413369,0.32903104901358904,105,770
 23048,"Stanger, Jimmy",770,TPC San Antonio (Oaks Course),sg_app,-2.3444950866182017,0.9334587523679371,138,770
 23048,"Stanger, Jimmy",921,TPC Craig Ranch,sg_app,-0.818876331696859,0.45613377403213234,104,770
 23048,"Stanger, Jimmy",21,Colonial Country Club,sg_app,1.4795878800718854,0.3243427906293031,118,770
@@ -3390,9 +3390,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17511,"Straka, Sepp",500,The Riviera Country Club,sg_putt,-0.6035736846408416,0.36172215580175954,106,770
 17511,"Straka, Sepp",43,The Los Angeles Country Club (North Course),sg_putt,-1.1023428760229845,0.3337669048945031,41,770
 17511,"Straka, Sepp",241,Quail Hollow-PGA Championship,sg_putt,0.820556769536397,0.31746669860215504,45,770
-17511,"Straka, Sepp",4200,yas links,sg_total,-3.0277194893532027,0.6824220284151636,9,770
-17511,"Straka, Sepp",4236,jumeirah golf estates,sg_total,0.3173493189880093,0.3678165474981815,8,770
-17511,"Straka, Sepp",769,Monterey Peninsula CC,sg_total,-4.890496966336678,0.32903104901358904,105,770
+17511,"Straka, Sepp",4200,yas links,sg_total,-3.027775709713973,0.6824220284151636,9,770
+17511,"Straka, Sepp",4236,jumeirah golf estates,sg_total,0.3172930986272389,0.3678165474981815,8,770
+17511,"Straka, Sepp",769,Monterey Peninsula CC,sg_total,-4.890553186697448,0.32903104901358904,105,770
 8480,"Streelman, Kevin",770,TPC San Antonio (Oaks Course),sg_app,-0.5405287409964608,0.9334587523679371,138,770
 8480,"Streelman, Kevin",891,Winged Foot GC,sg_app,0.518421064140004,0.5068424512624736,38,770
 8480,"Streelman, Kevin",886,Liberty National Golf Club,sg_app,0.3545068324063405,0.49599169794035103,69,770
@@ -3425,7 +3425,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 8480,"Streelman, Kevin",899,The Summit Club,sg_putt,-0.1408895602140241,0.3632539833919035,25,770
 8480,"Streelman, Kevin",500,The Riviera Country Club,sg_putt,-0.1367646867652329,0.36172215580175954,106,770
 8480,"Streelman, Kevin",43,The Los Angeles Country Club (North Course),sg_putt,-0.8035987390757275,0.3337669048945031,41,770
-8480,"Streelman, Kevin",769,Monterey Peninsula CC,sg_total,-0.9720574413444047,0.32903104901358904,105,770
+8480,"Streelman, Kevin",769,Monterey Peninsula CC,sg_total,-0.9718172028335194,0.32903104901358904,105,770
 29279,"Suber, Jackson",770,TPC San Antonio (Oaks Course),sg_app,-0.592821560318712,0.9334587523679371,138,770
 29279,"Suber, Jackson",921,TPC Craig Ranch,sg_app,1.3252260835648506,0.45613377403213234,104,770
 29279,"Suber, Jackson",21,Colonial Country Club,sg_app,-1.0629962476631218,0.3243427906293031,118,770
@@ -3472,7 +3472,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 13997,"Svensson, Adam",897,Memorial Park Golf Course,sg_putt,0.18535423135605417,0.3780874149073176,126,770
 13997,"Svensson, Adam",500,The Riviera Country Club,sg_putt,0.44872629772356604,0.36172215580175954,106,770
 13997,"Svensson, Adam",43,The Los Angeles Country Club (North Course),sg_putt,0.5158767236772122,0.3337669048945031,41,770
-13997,"Svensson, Adam",769,Monterey Peninsula CC,sg_total,4.963197443289569,0.32903104901358904,105,770
+13997,"Svensson, Adam",769,Monterey Peninsula CC,sg_total,4.963225480891213,0.32903104901358904,105,770
 26850,"Svensson, Jesper",770,TPC San Antonio (Oaks Course),sg_app,-1.3928372996149099,0.9334587523679371,138,770
 26850,"Svensson, Jesper",921,TPC Craig Ranch,sg_app,-1.8009976315434466,0.45613377403213234,104,770
 26850,"Svensson, Jesper",21,Colonial Country Club,sg_app,-0.026777626839405322,0.3243427906293031,118,770
@@ -3532,7 +3532,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 13126,"Taylor, Nick",500,The Riviera Country Club,sg_putt,-0.1849504341401244,0.36172215580175954,106,770
 13126,"Taylor, Nick",43,The Los Angeles Country Club (North Course),sg_putt,0.6493046815591502,0.3337669048945031,41,770
 13126,"Taylor, Nick",241,Quail Hollow-PGA Championship,sg_putt,-1.2875661105396388,0.31746669860215504,45,770
-13126,"Taylor, Nick",769,Monterey Peninsula CC,sg_total,1.7473933781802518,0.32903104901358904,105,770
+13126,"Taylor, Nick",769,Monterey Peninsula CC,sg_total,1.7470837149397347,0.32903104901358904,105,770
 27364,"Thompson, Davis",770,TPC San Antonio (Oaks Course),sg_app,-1.31057813817025,0.9334587523679371,138,770
 27364,"Thompson, Davis",608,Oakmont Country Club,sg_app,-0.460927648287059,0.5183061495661612,37,770
 27364,"Thompson, Davis",921,TPC Craig Ranch,sg_app,-0.333569500998398,0.45613377403213234,104,770
@@ -3618,8 +3618,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 12425,"Todd, Brendon",896,Olympia Fields Country Club (North Course),sg_putt,-1.2529659163463238,0.42387191833987575,39,770
 12425,"Todd, Brendon",891,Winged Foot GC,sg_putt,1.0901163215449408,0.3932690507844661,38,770
 12425,"Todd, Brendon",500,The Riviera Country Club,sg_putt,-0.1848786758913124,0.36172215580175954,106,770
-12425,"Todd, Brendon",800,The Abaco Club on Winding Bay,sg_total,1.1683905043447944,0.4709398928223278,39,770
-12425,"Todd, Brendon",769,Monterey Peninsula CC,sg_total,0.5780197607503417,0.32903104901358904,105,770
+12425,"Todd, Brendon",800,The Abaco Club on Winding Bay,sg_total,1.168722501741565,0.4709398928223278,39,770
+12425,"Todd, Brendon",769,Monterey Peninsula CC,sg_total,0.5783517581471134,0.32903104901358904,105,770
 17032,"Tosti, Alejandro",770,TPC San Antonio (Oaks Course),sg_app,0.2903679079557586,0.9334587523679371,138,770
 17032,"Tosti, Alejandro",921,TPC Craig Ranch,sg_app,0.11439928922738633,0.45613377403213234,104,770
 17032,"Tosti, Alejandro",250,Le Golf National,sg_app,0.7063831915500867,0.44871449599037416,15,770
@@ -3639,7 +3639,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17032,"Tosti, Alejandro",770,TPC San Antonio (Oaks Course),sg_putt,-0.8226666895303744,0.937594127699997,138,770
 17032,"Tosti, Alejandro",925,Dunes Golf and Beach Club,sg_putt,0.41612211334419513,0.4070002175457089,70,770
 17032,"Tosti, Alejandro",897,Memorial Park Golf Course,sg_putt,0.5350458079635506,0.3780874149073176,126,770
-17032,"Tosti, Alejandro",3891,golf costa adeje,sg_total,0.04343449735043292,0.37239918327691734,4,770
+17032,"Tosti, Alejandro",3891,golf costa adeje,sg_total,0.042519936980066175,0.37239918327691734,4,770
 23816,"Valimaki, Sami",770,TPC San Antonio (Oaks Course),sg_app,1.0960223726193141,0.9334587523679371,138,770
 23816,"Valimaki, Sami",887,Kasumigaseki Country Club,sg_app,-0.40796319681749393,0.7121292004060108,12,770
 23816,"Valimaki, Sami",921,TPC Craig Ranch,sg_app,-0.4150982459802679,0.45613377403213234,104,770
@@ -3669,29 +3669,29 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 23816,"Valimaki, Sami",897,Memorial Park Golf Course,sg_putt,0.2406036075361886,0.3780874149073176,126,770
 23816,"Valimaki, Sami",500,The Riviera Country Club,sg_putt,-0.7240270245623421,0.36172215580175954,106,770
 23816,"Valimaki, Sami",241,Quail Hollow-PGA Championship,sg_putt,-0.7869671391447186,0.31746669860215504,45,770
-23816,"Valimaki, Sami",3867,mount juliet estate,sg_total,-1.7702485507170163,0.7428767894335073,8,770
-23816,"Valimaki, Sami",4017,real club valderrama,sg_total,-1.2306815252110361,0.7130053387528874,7,770
-23816,"Valimaki, Sami",4000,mount juliet estate,sg_total,1.2822256706520057,0.6961769540188673,8,770
-23816,"Valimaki, Sami",4200,yas links,sg_total,2.0860892151323984,0.6824220284151636,9,770
-23816,"Valimaki, Sami",3881,old course st andrews,sg_total,1.3759267397708586,0.6811356717559214,10,770
-23816,"Valimaki, Sami",4414,real club de golf sotogrande,sg_total,-2.782614231627137,0.6511016676293667,7,770
-23816,"Valimaki, Sami",3946,marco simone gc,sg_total,0.7388685734275696,0.6488815854856618,7,770
-23816,"Valimaki, Sami",4207,golfclub münchen eichenried,sg_total,1.1930494123602855,0.6031145566280598,5,770
-23816,"Valimaki, Sami",4235,gary player cc,sg_total,0.665712010043547,0.5631540841112208,8,770
-23816,"Valimaki, Sami",4193,kingsbarns golf links,sg_total,2.930756787301643,0.5232389273430023,9,770
-23816,"Valimaki, Sami",4014,le golf national,sg_total,1.270885904726424,0.4585525648402019,7,770
-23816,"Valimaki, Sami",4136,abu dhabi gc,sg_total,-4.342625851438416,0.4516384086696491,11,770
-23816,"Valimaki, Sami",4230,kingsbarns golf links,sg_total,1.258380001512704,0.44959278573185796,8,770
-23816,"Valimaki, Sami",3902,randpark gc bushwillow course,sg_total,2.082130436710204,0.4367612615201906,5,770
-23816,"Valimaki, Sami",4075,doha gc,sg_total,0.5759913982020786,0.4166973465837519,6,770
-23816,"Valimaki, Sami",4584,crans-sur-sierre gc,sg_total,2.696096215578705,0.40630602803052057,11,770
-23816,"Valimaki, Sami",4074,pga national cyprus course,sg_total,0.5634766504191463,0.39809076103437085,4,770
-23816,"Valimaki, Sami",936,Yokohama Country Club,sg_total,-2.6136184553362143,0.3742798844744178,26,770
-23816,"Valimaki, Sami",3891,golf costa adeje,sg_total,0.7742699772562258,0.37239918327691734,4,770
-23816,"Valimaki, Sami",4236,jumeirah golf estates,sg_total,-0.7365195066834807,0.3678165474981815,8,770
-23816,"Valimaki, Sami",4192,carnoustie,sg_total,1.076756787301643,0.33242151988048835,9,770
-23816,"Valimaki, Sami",4415,doha gc,sg_total,2.7205634609152716,0.3212911694092942,6,770
-23816,"Valimaki, Sami",4097,fire course,sg_total,1.7120904759928872,0.318586127268691,5,770
+23816,"Valimaki, Sami",3867,mount juliet estate,sg_total,-1.7707977210164956,0.7428767894335073,8,770
+23816,"Valimaki, Sami",4017,real club valderrama,sg_total,-1.2312306955105154,0.7130053387528874,7,770
+23816,"Valimaki, Sami",4000,mount juliet estate,sg_total,1.2816765003525263,0.6961769540188673,8,770
+23816,"Valimaki, Sami",4200,yas links,sg_total,2.085540044832919,0.6824220284151636,9,770
+23816,"Valimaki, Sami",3881,old course st andrews,sg_total,1.3753775694713792,0.6811356717559214,10,770
+23816,"Valimaki, Sami",4414,real club de golf sotogrande,sg_total,-2.7831634019266165,0.6511016676293667,7,770
+23816,"Valimaki, Sami",3946,marco simone gc,sg_total,0.7383194031280902,0.6488815854856618,7,770
+23816,"Valimaki, Sami",4207,golfclub münchen eichenried,sg_total,1.1925002420608062,0.6031145566280598,5,770
+23816,"Valimaki, Sami",4235,gary player cc,sg_total,0.6651628397440675,0.5631540841112208,8,770
+23816,"Valimaki, Sami",4193,kingsbarns golf links,sg_total,2.930207617002164,0.5232389273430023,9,770
+23816,"Valimaki, Sami",4014,le golf national,sg_total,1.2703367344269447,0.4585525648402019,7,770
+23816,"Valimaki, Sami",4136,abu dhabi gc,sg_total,-4.3431750217378955,0.4516384086696491,11,770
+23816,"Valimaki, Sami",4230,kingsbarns golf links,sg_total,1.2578308312132247,0.44959278573185796,8,770
+23816,"Valimaki, Sami",3902,randpark gc bushwillow course,sg_total,2.0815812664107245,0.4367612615201906,5,770
+23816,"Valimaki, Sami",4075,doha gc,sg_total,0.5754422279025991,0.4166973465837519,6,770
+23816,"Valimaki, Sami",4584,crans-sur-sierre gc,sg_total,2.6955470452792256,0.40630602803052057,11,770
+23816,"Valimaki, Sami",4074,pga national cyprus course,sg_total,0.5629274801196669,0.39809076103437085,4,770
+23816,"Valimaki, Sami",936,Yokohama Country Club,sg_total,-2.6109085696015772,0.3742798844744178,26,770
+23816,"Valimaki, Sami",3891,golf costa adeje,sg_total,0.7737208069567464,0.37239918327691734,4,770
+23816,"Valimaki, Sami",4236,jumeirah golf estates,sg_total,-0.7370686769829601,0.3678165474981815,8,770
+23816,"Valimaki, Sami",4192,carnoustie,sg_total,1.0762076170021637,0.33242151988048835,9,770
+23816,"Valimaki, Sami",4415,doha gc,sg_total,2.7200142906157923,0.3212911694092942,6,770
+23816,"Valimaki, Sami",4097,fire course,sg_total,1.711541305693408,0.318586127268691,5,770
 17550,"Van Rooyen, Erik",608,Oakmont Country Club,sg_app,-0.11806002717057781,0.5183061495661612,37,770
 17550,"Van Rooyen, Erik",250,Le Golf National,sg_app,0.9661315158366199,0.44871449599037416,15,770
 17550,"Van Rooyen, Erik",241,Quail Hollow-PGA Championship,sg_arg,-0.11716199036578642,0.6891741810305877,45,770
@@ -3700,18 +3700,18 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17550,"Van Rooyen, Erik",977,The Renaissance Club,sg_ott,0.03833342835648576,0.3961561870401492,70,770
 17550,"Van Rooyen, Erik",608,Oakmont Country Club,sg_ott,0.39191362716811545,0.3935077836220362,37,770
 17550,"Van Rooyen, Erik",241,Quail Hollow-PGA Championship,sg_putt,0.61740572474427,0.31746669860215504,45,770
-17550,"Van Rooyen, Erik",4017,real club valderrama,sg_total,-1.6063088268138683,0.7130053387528874,7,770
-17550,"Van Rooyen, Erik",3796,wentworth golf club,sg_total,2.220407740052416,0.6365456695838412,14,770
-17550,"Van Rooyen, Erik",3782,himmerland golf & spa resort,sg_total,-0.2626351458117404,0.5757860892708787,7,770
-17550,"Van Rooyen, Erik",3801,olgiata gc,sg_total,1.9923387170543614,0.5361973537543031,10,770
-17550,"Van Rooyen, Erik",3785,golfclub münchen eichenried,sg_total,1.537954486618219,0.5022972237102333,7,770
-17550,"Van Rooyen, Erik",3902,randpark gc bushwillow course,sg_total,0.21615210940071394,0.4367612615201906,5,770
-17550,"Van Rooyen, Erik",3768,emirates gc,sg_total,-1.7376167436355598,0.4154167498856704,9,770
-17550,"Van Rooyen, Erik",4584,crans-sur-sierre gc,sg_total,-0.7849721992853913,0.40630602803052057,11,770
-17550,"Van Rooyen, Erik",3787,lahinch gc,sg_total,-0.1773883106883502,0.400576532740988,10,770
-17550,"Van Rooyen, Erik",4367,leopard creek cc,sg_total,0.4110647345505245,0.3971949827757657,5,770
-17550,"Van Rooyen, Erik",3791,albatross golf resort,sg_total,1.582862019901861,0.34616805597378386,4,770
-17550,"Van Rooyen, Erik",3797,old course st andrews,sg_total,3.7255359313379723,0.3411633033644508,14,770
+17550,"Van Rooyen, Erik",4017,real club valderrama,sg_total,-1.6066534745586027,0.7130053387528874,7,770
+17550,"Van Rooyen, Erik",3796,wentworth golf club,sg_total,2.2200630923076816,0.6365456695838412,14,770
+17550,"Van Rooyen, Erik",3782,himmerland golf & spa resort,sg_total,-0.26297979355647494,0.5757860892708787,7,770
+17550,"Van Rooyen, Erik",3801,olgiata gc,sg_total,1.9919940693096267,0.5361973537543031,10,770
+17550,"Van Rooyen, Erik",3785,golfclub münchen eichenried,sg_total,1.5376098388734845,0.5022972237102333,7,770
+17550,"Van Rooyen, Erik",3902,randpark gc bushwillow course,sg_total,0.21580746165597944,0.4367612615201906,5,770
+17550,"Van Rooyen, Erik",3768,emirates gc,sg_total,-1.7379613913802945,0.4154167498856704,9,770
+17550,"Van Rooyen, Erik",4584,crans-sur-sierre gc,sg_total,-0.7853168470301258,0.40630602803052057,11,770
+17550,"Van Rooyen, Erik",3787,lahinch gc,sg_total,-0.1777329584330847,0.400576532740988,10,770
+17550,"Van Rooyen, Erik",4367,leopard creek cc,sg_total,0.41072008680579,0.3971949827757657,5,770
+17550,"Van Rooyen, Erik",3791,albatross golf resort,sg_total,1.5825173721571266,0.34616805597378386,4,770
+17550,"Van Rooyen, Erik",3797,old course st andrews,sg_total,3.725191283593238,0.3411633033644508,14,770
 25319,"VanDerLaan, John",928,PGA National  - Champion Course,sg_app,-1.6609481545005305,0.3147934734817942,88,770
 25319,"VanDerLaan, John",897,Memorial Park Golf Course,sg_putt,-1.1861093674061316,0.3780874149073176,126,770
 25319,"VanDerLaan, John",93,Vanderbilt Legends Club,sg_total,-0.6094441572058644,0.6180217370617999,21,770
@@ -3759,7 +3759,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 13508,"Vegas, Jhonattan",899,The Summit Club,sg_putt,0.1961859067841683,0.3632539833919035,25,770
 13508,"Vegas, Jhonattan",500,The Riviera Country Club,sg_putt,-0.34499850983826713,0.36172215580175954,106,770
 13508,"Vegas, Jhonattan",241,Quail Hollow-PGA Championship,sg_putt,0.5663350556742988,0.31746669860215504,45,770
-13508,"Vegas, Jhonattan",3785,golfclub münchen eichenried,sg_total,-1.1197098684081692,0.5022972237102333,7,770
+13508,"Vegas, Jhonattan",3785,golfclub münchen eichenried,sg_total,-1.1195450020809985,0.5022972237102333,7,770
 15651,"Ventura, Kris",770,TPC San Antonio (Oaks Course),sg_app,0.6029516835040585,0.9334587523679371,138,770
 15651,"Ventura, Kris",921,TPC Craig Ranch,sg_app,-0.403411083015398,0.45613377403213234,104,770
 15651,"Ventura, Kris",21,Colonial Country Club,sg_app,0.8163180264722527,0.3243427906293031,118,770
@@ -3775,18 +3775,18 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 15651,"Ventura, Kris",770,TPC San Antonio (Oaks Course),sg_putt,0.2680769919107618,0.937594127699997,138,770
 15651,"Ventura, Kris",925,Dunes Golf and Beach Club,sg_putt,-0.7906841700303022,0.4070002175457089,70,770
 15651,"Ventura, Kris",897,Memorial Park Golf Course,sg_putt,-0.2160727028981612,0.3780874149073176,126,770
-15651,"Ventura, Kris",93,Vanderbilt Legends Club,sg_total,-0.7100320873874779,0.6180217370617999,21,770
-15651,"Ventura, Kris",60,Texas Rangers Golf Club,sg_total,1.2612940117492906,0.6167570095321873,23,770
-15651,"Ventura, Kris",800,The Abaco Club on Winding Bay,sg_total,1.4861443386909112,0.4709398928223278,39,770
-15651,"Ventura, Kris",94,Jimmie Austin OU Golf Club,sg_total,-1.0631274932120744,0.3480024942186549,18,770
+15651,"Ventura, Kris",93,Vanderbilt Legends Club,sg_total,-0.7098342791438219,0.6180217370617999,21,770
+15651,"Ventura, Kris",60,Texas Rangers Golf Club,sg_total,1.2408277970032726,0.6167570095321873,23,770
+15651,"Ventura, Kris",800,The Abaco Club on Winding Bay,sg_total,1.4863421469345672,0.4709398928223278,39,770
+15651,"Ventura, Kris",94,Jimmie Austin OU Golf Club,sg_total,-1.0629296849684184,0.3480024942186549,18,770
 15651,"Ventura, Kristoffer",250,Le Golf National,sg_app,0.9479415570219611,0.44871449599037416,15,770
 15651,"Ventura, Kristoffer",250,Le Golf National,sg_arg,0.33113639193270156,0.5059408940984893,15,770
 15651,"Ventura, Kristoffer",876,Detroit Golf Club,sg_arg,0.46641580374115493,0.4945560596830631,131,770
 15651,"Ventura, Kristoffer",752,Sedgefield Country Club,sg_ott,0.27336984415349475,0.49207604550358264,131,770
 15651,"Ventura, Kristoffer",538,TPC Summerlin,sg_ott,-0.6378332656538577,0.39764010438270847,118,770
 15651,"Ventura, Kristoffer",897,Memorial Park Golf Course,sg_putt,-0.13754043898041918,0.3780874149073176,126,770
-15651,"Ventura, Kristoffer",769,Monterey Peninsula CC,sg_total,2.299231952322863,0.32903104901358904,105,770
-15651,"Ventura, Kristoffer",807,Lakewood National Golf Club,sg_total,2.460503446410194,0.3104472706323593,22,770
+15651,"Ventura, Kristoffer",769,Monterey Peninsula CC,sg_total,2.299429760566519,0.32903104901358904,105,770
+15651,"Ventura, Kristoffer",807,Lakewood National Golf Club,sg_total,2.46070125465385,0.3104472706323593,22,770
 24304,"Vilips, Karl",921,TPC Craig Ranch,sg_app,-0.03941496558830428,0.45613377403213234,104,770
 24304,"Vilips, Karl",21,Colonial Country Club,sg_app,0.7416674942980068,0.3243427906293031,118,770
 24304,"Vilips, Karl",928,PGA National  - Champion Course,sg_app,-1.602097937744194,0.3147934734817942,88,770
@@ -3824,8 +3824,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 9171,"Villegas, Camilo",925,Dunes Golf and Beach Club,sg_putt,1.6244552955051794,0.4070002175457089,70,770
 9171,"Villegas, Camilo",897,Memorial Park Golf Course,sg_putt,0.2847573512229677,0.3780874149073176,126,770
 9171,"Villegas, Camilo",500,The Riviera Country Club,sg_putt,0.743342777277554,0.36172215580175954,106,770
-9171,"Villegas, Camilo",936,Yokohama Country Club,sg_total,1.9302899196900638,0.3742798844744178,26,770
-9171,"Villegas, Camilo",769,Monterey Peninsula CC,sg_total,0.8393569083160514,0.32903104901358904,105,770
+9171,"Villegas, Camilo",936,Yokohama Country Club,sg_total,1.929680098407912,0.3742798844744178,26,770
+9171,"Villegas, Camilo",769,Monterey Peninsula CC,sg_total,0.8387470870338997,0.32903104901358904,105,770
 25003,"Walker, Danny",770,TPC San Antonio (Oaks Course),sg_app,2.4211874389884644,0.9334587523679371,138,770
 25003,"Walker, Danny",921,TPC Craig Ranch,sg_app,0.18524582504856862,0.45613377403213234,104,770
 25003,"Walker, Danny",21,Colonial Country Club,sg_app,-0.7348060484703002,0.3243427906293031,118,770
@@ -3845,7 +3845,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 25003,"Walker, Danny",936,Yokohama Country Club,sg_total,-2.339287820731894,0.3742798844744178,26,770
 25003,"Walker, Danny",94,Jimmie Austin OU Golf Club,sg_total,-1.3113411466795861,0.3480024942186549,18,770
 25003,"Walker, Danny",55,Panther Creek Country Club,sg_total,2.065233506017273,0.32120800029494245,27,770
-25003,"Walker, Danny",807,Lakewood National Golf Club,sg_total,1.6582402040015323,0.3104472706323593,22,770
+25003,"Walker, Danny",807,Lakewood National Golf Club,sg_total,1.658240204001532,0.3104472706323593,22,770
 7293,"Walker, Jimmy",770,TPC San Antonio (Oaks Course),sg_app,-0.5793349624094999,0.9334587523679371,138,770
 7293,"Walker, Jimmy",891,Winged Foot GC,sg_app,-0.26224190914267276,0.5068424512624736,38,770
 7293,"Walker, Jimmy",921,TPC Craig Ranch,sg_app,0.6492713426841433,0.45613377403213234,104,770
@@ -3875,7 +3875,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 7293,"Walker, Jimmy",897,Memorial Park Golf Course,sg_putt,-0.7319191845454706,0.3780874149073176,126,770
 7293,"Walker, Jimmy",500,The Riviera Country Club,sg_putt,-0.15528391389087046,0.36172215580175954,106,770
 7293,"Walker, Jimmy",241,Quail Hollow-PGA Championship,sg_putt,0.15750611464448697,0.31746669860215504,45,770
-7293,"Walker, Jimmy",769,Monterey Peninsula CC,sg_total,-0.0389769242162733,0.32903104901358904,105,770
+7293,"Walker, Jimmy",769,Monterey Peninsula CC,sg_total,-0.03910716622207361,0.32903104901358904,105,770
 20706,"Wallace, Matt",770,TPC San Antonio (Oaks Course),sg_app,-0.31155947212522883,0.9334587523679371,138,770
 20706,"Wallace, Matt",608,Oakmont Country Club,sg_app,0.7126410333386165,0.5183061495661612,37,770
 20706,"Wallace, Matt",891,Winged Foot GC,sg_app,1.622444363815037,0.5068424512624736,38,770
@@ -3918,31 +3918,31 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 20706,"Wallace, Matt",885,Royal Portrush Golf Club,sg_putt,-0.06844509342991004,0.3660219629675547,34,770
 20706,"Wallace, Matt",500,The Riviera Country Club,sg_putt,-0.3935044136075564,0.36172215580175954,106,770
 20706,"Wallace, Matt",241,Quail Hollow-PGA Championship,sg_putt,0.5111708533286959,0.31746669860215504,45,770
-20706,"Wallace, Matt",4200,yas links,sg_total,1.6491694078925994,0.6824220284151636,9,770
-20706,"Wallace, Matt",3946,marco simone gc,sg_total,-1.931905725208567,0.6488815854856618,7,770
-20706,"Wallace, Matt",4011,himmerland golf & spa resort,sg_total,-1.2019517623820097,0.6447942000988162,4,770
-20706,"Wallace, Matt",3796,wentworth golf club,sg_total,0.02755510349892204,0.6365456695838412,14,770
-20706,"Wallace, Matt",3782,himmerland golf & spa resort,sg_total,0.06162840909785683,0.5757860892708787,7,770
-20706,"Wallace, Matt",4785,doha gc,sg_total,0.8251552588556458,0.5752445573015165,6,770
-20706,"Wallace, Matt",4235,gary player cc,sg_total,1.3472932531071091,0.5631540841112208,8,770
-20706,"Wallace, Matt",4726,dubai creek resort,sg_total,1.6861840335479896,0.5547049557869058,7,770
-20706,"Wallace, Matt",3801,olgiata gc,sg_total,1.8052626112969437,0.5361973537543031,10,770
-20706,"Wallace, Matt",4010,crans-sur-sierre gc,sg_total,2.781275631085454,0.5300172537833142,5,770
-20706,"Wallace, Matt",4193,kingsbarns golf links,sg_total,1.6435010379315655,0.5232389273430023,9,770
-20706,"Wallace, Matt",3785,golfclub münchen eichenried,sg_total,1.6693425369507877,0.5022972237102333,7,770
-20706,"Wallace, Matt",4136,abu dhabi gc,sg_total,1.4721625125407312,0.4516384086696491,11,770
-20706,"Wallace, Matt",4230,kingsbarns golf links,sg_total,1.0400426739615996,0.44959278573185796,8,770
-20706,"Wallace, Matt",3768,emirates gc,sg_total,3.6760959720072313,0.4154167498856704,9,770
-20706,"Wallace, Matt",4584,crans-sur-sierre gc,sg_total,2.628978993909581,0.40630602803052057,11,770
-20706,"Wallace, Matt",4056,brabazon course at the belfry,sg_total,0.502939189285286,0.4056319826761129,7,770
-20706,"Wallace, Matt",3787,lahinch gc,sg_total,-0.9339104961171864,0.400576532740988,10,770
-20706,"Wallace, Matt",3811,hillside golf club,sg_total,3.2159589909999045,0.389803985254987,6,770
-20706,"Wallace, Matt",936,Yokohama Country Club,sg_total,1.904936050303216,0.3742798844744178,26,770
-20706,"Wallace, Matt",4236,jumeirah golf estates,sg_total,2.938630880527706,0.3678165474981815,8,770
-20706,"Wallace, Matt",3797,old course st andrews,sg_total,1.5568188103608445,0.3411633033644508,14,770
-20706,"Wallace, Matt",4192,carnoustie,sg_total,-1.2104989620684345,0.33242151988048835,9,770
-20706,"Wallace, Matt",4415,doha gc,sg_total,1.295408612208134,0.3212911694092942,6,770
-20706,"Wallace, Matt",4097,fire course,sg_total,2.2220464444264154,0.318586127268691,5,770
+20706,"Wallace, Matt",4200,yas links,sg_total,1.6489449329583075,0.6824220284151636,9,770
+20706,"Wallace, Matt",3946,marco simone gc,sg_total,-1.9066042226645459,0.6488815854856618,7,770
+20706,"Wallace, Matt",4011,himmerland golf & spa resort,sg_total,-1.2021762373163016,0.6447942000988162,4,770
+20706,"Wallace, Matt",3796,wentworth golf club,sg_total,0.027330628564630192,0.6365456695838412,14,770
+20706,"Wallace, Matt",3782,himmerland golf & spa resort,sg_total,0.06140393416356498,0.5757860892708787,7,770
+20706,"Wallace, Matt",4785,doha gc,sg_total,0.8249307839213539,0.5752445573015165,6,770
+20706,"Wallace, Matt",4235,gary player cc,sg_total,1.3470687781728172,0.5631540841112208,8,770
+20706,"Wallace, Matt",4726,dubai creek resort,sg_total,1.6859595586136977,0.5547049557869058,7,770
+20706,"Wallace, Matt",3801,olgiata gc,sg_total,1.8050381363626518,0.5361973537543031,10,770
+20706,"Wallace, Matt",4010,crans-sur-sierre gc,sg_total,2.781051156151162,0.5300172537833142,5,770
+20706,"Wallace, Matt",4193,kingsbarns golf links,sg_total,1.6432765629972736,0.5232389273430023,9,770
+20706,"Wallace, Matt",3785,golfclub münchen eichenried,sg_total,1.6691180620164958,0.5022972237102333,7,770
+20706,"Wallace, Matt",4136,abu dhabi gc,sg_total,1.4719380376064393,0.4516384086696491,11,770
+20706,"Wallace, Matt",4230,kingsbarns golf links,sg_total,1.0398181990273077,0.44959278573185796,8,770
+20706,"Wallace, Matt",3768,emirates gc,sg_total,3.675871497072939,0.4154167498856704,9,770
+20706,"Wallace, Matt",4584,crans-sur-sierre gc,sg_total,2.628754518975289,0.40630602803052057,11,770
+20706,"Wallace, Matt",4056,brabazon course at the belfry,sg_total,0.5027147143509941,0.4056319826761129,7,770
+20706,"Wallace, Matt",3787,lahinch gc,sg_total,-0.9341349710514782,0.400576532740988,10,770
+20706,"Wallace, Matt",3811,hillside golf club,sg_total,3.2157345160656123,0.389803985254987,6,770
+20706,"Wallace, Matt",936,Yokohama Country Club,sg_total,1.9047115753689243,0.3742798844744178,26,770
+20706,"Wallace, Matt",4236,jumeirah golf estates,sg_total,2.938406405593414,0.3678165474981815,8,770
+20706,"Wallace, Matt",3797,old course st andrews,sg_total,1.5565943354265526,0.3411633033644508,14,770
+20706,"Wallace, Matt",4192,carnoustie,sg_total,-1.2107234370027262,0.33242151988048835,9,770
+20706,"Wallace, Matt",4415,doha gc,sg_total,1.2951841372738422,0.3212911694092942,6,770
+20706,"Wallace, Matt",4097,fire course,sg_total,2.2218219694921233,0.318586127268691,5,770
 12426,"Waring, Paul",770,TPC San Antonio (Oaks Course),sg_app,0.7835781357482581,0.9334587523679371,138,770
 12426,"Waring, Paul",921,TPC Craig Ranch,sg_app,1.1132673408556872,0.45613377403213234,104,770
 12426,"Waring, Paul",928,PGA National  - Champion Course,sg_app,-0.427550436464347,0.3147934734817942,88,770
@@ -3954,34 +3954,34 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 12426,"Waring, Paul",770,TPC San Antonio (Oaks Course),sg_putt,-3.046865250865059,0.937594127699997,138,770
 12426,"Waring, Paul",925,Dunes Golf and Beach Club,sg_putt,-0.597629819396339,0.4070002175457089,70,770
 12426,"Waring, Paul",897,Memorial Park Golf Course,sg_putt,0.3189781924371376,0.3780874149073176,126,770
-12426,"Waring, Paul",3867,mount juliet estate,sg_total,-0.9954656903684348,0.7428767894335073,8,770
-12426,"Waring, Paul",4000,mount juliet estate,sg_total,-0.06029864008487367,0.6961769540188673,8,770
-12426,"Waring, Paul",4200,yas links,sg_total,0.5016391247279844,0.6824220284151636,9,770
-12426,"Waring, Paul",3881,old course st andrews,sg_total,-0.12065169923397692,0.6811356717559214,10,770
-12426,"Waring, Paul",4414,real club de golf sotogrande,sg_total,-1.2875913626582731,0.6511016676293667,7,770
-12426,"Waring, Paul",3946,marco simone gc,sg_total,-0.15122284944931277,0.6488815854856618,7,770
-12426,"Waring, Paul",4011,himmerland golf & spa resort,sg_total,-1.375147168732701,0.6447942000988162,4,770
-12426,"Waring, Paul",3796,wentworth golf club,sg_total,1.9803540657186196,0.6365456695838412,14,770
-12426,"Waring, Paul",4207,golfclub münchen eichenried,sg_total,-0.441529570555345,0.6031145566280598,5,770
-12426,"Waring, Paul",3782,himmerland golf & spa resort,sg_total,1.5302584412340572,0.5757860892708787,7,770
-12426,"Waring, Paul",4785,doha gc,sg_total,1.5652975628058936,0.5752445573015165,6,770
-12426,"Waring, Paul",4727,emirates gc,sg_total,-0.8756536754627761,0.5736069857481715,7,770
-12426,"Waring, Paul",4726,dubai creek resort,sg_total,1.1337857659733714,0.5547049557869058,7,770
-12426,"Waring, Paul",3801,olgiata gc,sg_total,0.4134160997602735,0.5361973537543031,10,770
-12426,"Waring, Paul",4136,abu dhabi gc,sg_total,-2.9339452269272215,0.4516384086696491,11,770
-12426,"Waring, Paul",4230,kingsbarns golf links,sg_total,-1.0936859407477943,0.44959278573185796,8,770
-12426,"Waring, Paul",4075,doha gc,sg_total,1.6666665943980323,0.4166973465837519,6,770
-12426,"Waring, Paul",3768,emirates gc,sg_total,3.3995835844902387,0.4154167498856704,9,770
-12426,"Waring, Paul",4056,brabazon course at the belfry,sg_total,0.023246306645727095,0.4056319826761129,7,770
-12426,"Waring, Paul",3787,lahinch gc,sg_total,3.105498869164657,0.400576532740988,10,770
-12426,"Waring, Paul",4074,pga national cyprus course,sg_total,-4.039803256470459,0.39809076103437085,4,770
-12426,"Waring, Paul",4367,leopard creek cc,sg_total,1.6475221136641234,0.3971949827757657,5,770
-12426,"Waring, Paul",3811,hillside golf club,sg_total,2.356248784905636,0.389803985254987,6,770
-12426,"Waring, Paul",3891,golf costa adeje,sg_total,-1.335099603613613,0.37239918327691734,4,770
-12426,"Waring, Paul",3791,albatross golf resort,sg_total,0.13203786920930802,0.34616805597378386,4,770
-12426,"Waring, Paul",3797,old course st andrews,sg_total,-0.4160515551117411,0.3411633033644508,14,770
-12426,"Waring, Paul",3803,real club valderrama,sg_total,-2.4224790131306047,0.3193154955433175,5,770
-12426,"Waring, Paul",4097,fire course,sg_total,0.3704291505945222,0.318586127268691,5,770
+12426,"Waring, Paul",3867,mount juliet estate,sg_total,-0.9954102873036954,0.7428767894335073,8,770
+12426,"Waring, Paul",4000,mount juliet estate,sg_total,-0.08994961572593167,0.6961769540188673,8,770
+12426,"Waring, Paul",4200,yas links,sg_total,0.5016945277927238,0.6824220284151636,9,770
+12426,"Waring, Paul",3881,old course st andrews,sg_total,-0.12059629616923755,0.6811356717559214,10,770
+12426,"Waring, Paul",4414,real club de golf sotogrande,sg_total,-1.2712825401122305,0.6511016676293667,7,770
+12426,"Waring, Paul",3946,marco simone gc,sg_total,-0.1511674463845734,0.6488815854856618,7,770
+12426,"Waring, Paul",4011,himmerland golf & spa resort,sg_total,-1.3750917656679607,0.6447942000988162,4,770
+12426,"Waring, Paul",3796,wentworth golf club,sg_total,1.980409468783359,0.6365456695838412,14,770
+12426,"Waring, Paul",4207,golfclub münchen eichenried,sg_total,-0.4414741674906056,0.6031145566280598,5,770
+12426,"Waring, Paul",3782,himmerland golf & spa resort,sg_total,1.5303138442987967,0.5757860892708787,7,770
+12426,"Waring, Paul",4785,doha gc,sg_total,1.565352965870633,0.5752445573015165,6,770
+12426,"Waring, Paul",4727,emirates gc,sg_total,-0.8755982723980367,0.5736069857481715,7,770
+12426,"Waring, Paul",4726,dubai creek resort,sg_total,1.133841169038111,0.5547049557869058,7,770
+12426,"Waring, Paul",3801,olgiata gc,sg_total,0.4134715028250129,0.5361973537543031,10,770
+12426,"Waring, Paul",4136,abu dhabi gc,sg_total,-2.933889823862482,0.4516384086696491,11,770
+12426,"Waring, Paul",4230,kingsbarns golf links,sg_total,-1.0936305376830548,0.44959278573185796,8,770
+12426,"Waring, Paul",4075,doha gc,sg_total,1.6667219974627718,0.4166973465837519,6,770
+12426,"Waring, Paul",3768,emirates gc,sg_total,3.399638987554978,0.4154167498856704,9,770
+12426,"Waring, Paul",4056,brabazon course at the belfry,sg_total,0.023301709710466478,0.4056319826761129,7,770
+12426,"Waring, Paul",3787,lahinch gc,sg_total,3.1055542722293965,0.400576532740988,10,770
+12426,"Waring, Paul",4074,pga national cyprus course,sg_total,-4.0397478534057205,0.39809076103437085,4,770
+12426,"Waring, Paul",4367,leopard creek cc,sg_total,1.6475775167288629,0.3971949827757657,5,770
+12426,"Waring, Paul",3811,hillside golf club,sg_total,2.3563041879703754,0.389803985254987,6,770
+12426,"Waring, Paul",3891,golf costa adeje,sg_total,-1.3350442005488734,0.37239918327691734,4,770
+12426,"Waring, Paul",3791,albatross golf resort,sg_total,0.13209327227404738,0.34616805597378386,4,770
+12426,"Waring, Paul",3797,old course st andrews,sg_total,-0.4159961520470017,0.3411633033644508,14,770
+12426,"Waring, Paul",3803,real club valderrama,sg_total,-2.422423610065865,0.3193154955433175,5,770
+12426,"Waring, Paul",4097,fire course,sg_total,0.3704845536592616,0.318586127268691,5,770
 25908,"Whaley, Vince",770,TPC San Antonio (Oaks Course),sg_app,0.093811319868455,0.9334587523679371,138,770
 25908,"Whaley, Vince",921,TPC Craig Ranch,sg_app,0.46272650031505574,0.45613377403213234,104,770
 25908,"Whaley, Vince",931,Tahoe Mountain Club (Old Greenwood),sg_app,0.7189789486652165,0.43713363031576813,48,770
@@ -4002,9 +4002,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 25908,"Whaley, Vince",925,Dunes Golf and Beach Club,sg_putt,-1.3399378483953093,0.4070002175457089,70,770
 25908,"Whaley, Vince",897,Memorial Park Golf Course,sg_putt,-0.4938435402998785,0.3780874149073176,126,770
 25908,"Whaley, Vince",500,The Riviera Country Club,sg_putt,-1.0179052269266817,0.36172215580175954,106,770
-25908,"Whaley, Vince",936,Yokohama Country Club,sg_total,-1.6380464144689937,0.3742798844744178,26,770
-25908,"Whaley, Vince",94,Jimmie Austin OU Golf Club,sg_total,0.4515136052804973,0.3480024942186549,18,770
-25908,"Whaley, Vince",769,Monterey Peninsula CC,sg_total,4.743296981123503,0.32903104901358904,105,770
+25908,"Whaley, Vince",936,Yokohama Country Club,sg_total,-1.6384801666996078,0.3742798844744178,26,770
+25908,"Whaley, Vince",94,Jimmie Austin OU Golf Club,sg_total,0.4510798530498833,0.3480024942186549,18,770
+25908,"Whaley, Vince",769,Monterey Peninsula CC,sg_total,4.742863228892889,0.32903104901358904,105,770
 25908,"Whaley, Vincent",770,TPC San Antonio (Oaks Course),sg_app,-0.25698915478691337,0.9334587523679371,138,770
 25908,"Whaley, Vincent",21,Colonial Country Club,sg_app,2.1159748132260834,0.3243427906293031,118,770
 25908,"Whaley, Vincent",770,TPC San Antonio (Oaks Course),sg_arg,0.0007230278227849836,0.9264084799324732,138,770
@@ -4016,7 +4016,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 25908,"Whaley, Vincent",872,Quail Hollow Club,sg_ott,0.6206367111855704,0.3599929843310691,108,770
 25908,"Whaley, Vincent",770,TPC San Antonio (Oaks Course),sg_putt,1.2440760673139735,0.937594127699997,138,770
 25908,"Whaley, Vincent",897,Memorial Park Golf Course,sg_putt,0.40226138364627106,0.3780874149073176,126,770
-25908,"Whaley, Vincent",769,Monterey Peninsula CC,sg_total,3.0254175877451965,0.32903104901358904,105,770
+25908,"Whaley, Vincent",769,Monterey Peninsula CC,sg_total,3.0249838355145826,0.32903104901358904,105,770
 25002,"Wu, Dylan",770,TPC San Antonio (Oaks Course),sg_app,0.5499233852002482,0.9334587523679371,138,770
 25002,"Wu, Dylan",921,TPC Craig Ranch,sg_app,0.2953316263874802,0.45613377403213234,104,770
 25002,"Wu, Dylan",931,Tahoe Mountain Club (Old Greenwood),sg_app,-0.4277785999559408,0.43713363031576813,48,770
@@ -4037,7 +4037,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 25002,"Wu, Dylan",925,Dunes Golf and Beach Club,sg_putt,0.6647812634613807,0.4070002175457089,70,770
 25002,"Wu, Dylan",897,Memorial Park Golf Course,sg_putt,-0.6007312584742008,0.3780874149073176,126,770
 25002,"Wu, Dylan",43,The Los Angeles Country Club (North Course),sg_putt,0.4564741653765432,0.3337669048945031,41,770
-25002,"Wu, Dylan",769,Monterey Peninsula CC,sg_total,0.8657923366169534,0.32903104901358904,105,770
+25002,"Wu, Dylan",769,Monterey Peninsula CC,sg_total,0.8658253929045968,0.32903104901358904,105,770
 29925,"Yellamaraju, Sudarshan",928,PGA National  - Champion Course,sg_app,-0.4694513588738074,0.3147934734817942,88,770
 29925,"Yellamaraju, Sudarshan",897,Memorial Park Golf Course,sg_putt,-0.17853482343958582,0.3780874149073176,126,770
 29925,"Yellamaraju, Sudarshan",93,Vanderbilt Legends Club,sg_total,-2.276522908702483,0.6180217370617999,21,770
@@ -4074,8 +4074,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17881,"Yu, Kevin",885,Royal Portrush Golf Club,sg_putt,0.6966898999415202,0.3660219629675547,34,770
 17881,"Yu, Kevin",500,The Riviera Country Club,sg_putt,-1.1547149362451903,0.36172215580175954,106,770
 17881,"Yu, Kevin",241,Quail Hollow-PGA Championship,sg_putt,2.0111305553360355,0.31746669860215504,45,770
-17881,"Yu, Kevin",936,Yokohama Country Club,sg_total,0.8980879098219218,0.3742798844744178,26,770
-17881,"Yu, Kevin",769,Monterey Peninsula CC,sg_total,0.18779425709056935,0.32903104901358904,105,770
+17881,"Yu, Kevin",936,Yokohama Country Club,sg_total,0.8980027150197148,0.3742798844744178,26,770
+17881,"Yu, Kevin",769,Monterey Peninsula CC,sg_total,0.18770906228836237,0.32903104901358904,105,770
 19428,"Zalatoris, Will",232,Albany GC,sg_app,-1.4931416228334777,0.6231909589372491,15,770
 19428,"Zalatoris, Will",697,Ocean Course at Kiawah Island,sg_app,1.4571217887497425,0.3609304500389661,43,770
 19428,"Zalatoris, Will",21,Colonial Country Club,sg_app,-2.190945002520478,0.3243427906293031,118,770
@@ -4132,4 +4132,4 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17550,"van Rooyen, Erik",897,Memorial Park Golf Course,sg_putt,0.04980839809395664,0.3780874149073176,126,770
 17550,"van Rooyen, Erik",899,The Summit Club,sg_putt,0.6758194107052888,0.3632539833919035,25,770
 17550,"van Rooyen, Erik",500,The Riviera Country Club,sg_putt,-0.03567532841869177,0.36172215580175954,106,770
-17550,"van Rooyen, Erik",769,Monterey Peninsula CC,sg_total,1.612556537415851,0.32903104901358904,105,770
+17550,"van Rooyen, Erik",769,Monterey Peninsula CC,sg_total,1.6122118896711164,0.32903104901358904,105,770

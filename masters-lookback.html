@@ -157,7 +157,7 @@
   }
   .heatmap-grid {
     display: grid;
-    grid-template-columns: 90px repeat(5, 1fr);
+    grid-template-columns: 100px repeat(5, 1fr);
     min-width: 480px;
   }
   .hm-col-header {
@@ -190,6 +190,21 @@
     white-space: nowrap;
   }
   .hm-row-label:last-of-type { border-bottom: none; }
+  /* Course-view row labels: wider col, wrapping text */
+  .heatmap-grid.course-view {
+    grid-template-columns: 210px repeat(5, 1fr);
+    min-width: 580px;
+  }
+  .heatmap-grid.course-view .hm-row-label {
+    font-size: 10px;
+    white-space: normal;
+    word-break: break-word;
+    line-height: 1.3;
+    padding: 8px 12px 8px 14px;
+    min-height: 44px;
+    align-items: flex-start;
+    padding-top: 10px;
+  }
   .hm-cell {
     border-bottom: 1px solid rgba(0,0,0,0.06);
     border-right: 1px solid rgba(0,0,0,0.06);
@@ -323,10 +338,16 @@
     <div class="lb-divider"></div>
     <span class="lb-filter-label">Tour</span>
     <div class="lb-filter-group" id="tour-group">
-      <button class="lb-btn active" data-tour="all">All</button>
-      <button class="lb-btn" data-tour="pga">PGA</button>
+      <button class="lb-btn" data-tour="all">All</button>
+      <button class="lb-btn active" data-tour="pga">PGA</button>
       <button class="lb-btn" data-tour="euro">Euro</button>
       <button class="lb-btn" data-tour="liv">LIV</button>
+    </div>
+    <div class="lb-divider"></div>
+    <span class="lb-filter-label">View by</span>
+    <div class="lb-filter-group" id="view-group">
+      <button class="lb-btn" data-view="week">Week</button>
+      <button class="lb-btn active" data-view="course">Course</button>
     </div>
   </div>
 </div>
@@ -361,9 +382,10 @@ const SKILL_LABELS = { sg_ott:'Off Tee', sg_app:'Approach', sg_arg:'Around Green
 const SKILL_SHORT  = { sg_ott:'OTT', sg_app:'APP', sg_arg:'ARG', sg_putt:'Putt', sg_total:'Total' };
 
 // ── State ─────────────────────────────────────────────────────
-let allRows    = [];
-let activeYears = [];   // multi-select
-let activeTour  = 'all';
+let allRows     = [];
+let activeYears = [];        // multi-select; defaults to ALL years
+let activeTour  = 'pga';     // single-select; defaults to PGA
+let activeView  = 'course';  // 'week' | 'course'
 
 // ── Helpers ───────────────────────────────────────────────────
 function parseCor(str) {
@@ -408,19 +430,18 @@ Papa.parse('data/masters_lookback_detail.csv', {
     }));
 
     buildYearButtons();
-    buildInsights();
     render();
   }
 });
 
-// ── Year buttons (multi-select) ───────────────────────────────
+// ── Year buttons (multi-select, all on by default) ───────────
 function buildYearButtons() {
   const years = [...new Set(allRows.map(r => r.year))].sort((a, b) => b - a);
-  activeYears = [years[0]];
+  activeYears = [...years]; // default: all selected
   const grp = document.getElementById('year-group');
   years.forEach(y => {
     const btn = document.createElement('button');
-    btn.className = 'lb-btn' + (y === years[0] ? ' active' : '');
+    btn.className = 'lb-btn active';
     btn.dataset.year = y;
     btn.textContent = y;
     btn.addEventListener('click', () => {
@@ -438,7 +459,7 @@ function buildYearButtons() {
   });
 }
 
-// ── Tour buttons ──────────────────────────────────────────────
+// ── Tour buttons (single-select) ─────────────────────────────
 document.getElementById('tour-group').addEventListener('click', e => {
   const btn = e.target.closest('.lb-btn');
   if (!btn) return;
@@ -448,11 +469,21 @@ document.getElementById('tour-group').addEventListener('click', e => {
   render();
 });
 
-// ── Insights (all-time, ≥2 year appearances, positive only) ──
-function buildInsights() {
-  // Group by (course, skill) across all years and tours
+// ── View toggle ───────────────────────────────────────────────
+document.getElementById('view-group').addEventListener('click', e => {
+  const btn = e.target.closest('.lb-btn');
+  if (!btn) return;
+  activeView = btn.dataset.view;
+  document.querySelectorAll('#view-group .lb-btn').forEach(b =>
+    b.classList.toggle('active', b.dataset.view === activeView));
+  hideCallout();
+  render();
+});
+
+// ── Insights (filter-aware, positive signals only) ────────────
+function renderInsights(rows) {
   const map = new Map();
-  allRows.forEach(r => {
+  rows.forEach(r => {
     if (r.cor == null || r.cor <= 0) return;
     const k = `${r.course}||${r.skill}`;
     if (!map.has(k)) map.set(k, { course: r.course, skill: r.skill, sum: 0, count: 0 });
@@ -464,13 +495,13 @@ function buildInsights() {
   const signals = [...map.values()]
     .filter(e => e.count >= 2)
     .map(e => ({ ...e, avg: e.sum / e.count }))
-    .filter(e => e.avg > 0.15)  // meaningfully positive
+    .filter(e => e.avg > 0.15)
     .sort((a, b) => b.avg - a.avg)
     .slice(0, 8);
 
   const container = document.getElementById('insights-cards');
   if (signals.length === 0) {
-    container.innerHTML = '<p style="color:var(--muted);font-size:13px;">No strong signals found.</p>';
+    container.innerHTML = '<p style="color:var(--muted);font-size:13px;">No strong signals found for this selection.</p>';
     return;
   }
 
@@ -479,7 +510,7 @@ function buildInsights() {
       <div class="insight-skill">${SKILL_LABELS[s.skill] || s.skill}</div>
       <div class="insight-course">${titleCase(s.course)}</div>
       <div class="insight-score">${corStr(s.avg)}</div>
-      <div class="insight-count">avg across ${s.count} data points</div>
+      <div class="insight-count">avg across ${s.count} observations</div>
     </div>
   `).join('');
 }
@@ -488,43 +519,133 @@ function titleCase(str) {
   return str.toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
 }
 
-// ── Render heatmap ────────────────────────────────────────────
+// ── Render ────────────────────────────────────────────────────
 function render() {
-  // Filter rows by selected years + tour
   let rows = allRows.filter(r => activeYears.includes(r.year));
   if (activeTour !== 'all') rows = rows.filter(r => r.tour === activeTour);
 
-  // Build week×skill averages: bucket by (flooredWeek, skill)
-  // accumulate { sum, count, courses: Map<course, {sum,count}> }
-  const heatMap = new Map(); // key: `${week}||${skill}`
+  renderInsights(rows);
+
+  if (activeView === 'week') {
+    renderWeekHeatmap(rows);
+  } else {
+    renderCourseHeatmap(rows);
+  }
+}
+
+// ── Week mode: rows = weeks, cols = skills ────────────────────
+function renderWeekHeatmap(rows) {
+  // Bucket by (flooredWeek, skill); track per-course breakdown
+  const heatMap = new Map();
   rows.forEach(r => {
     if (r.cor == null) return;
-    const weekKey = Math.floor(r.week);
-    const k = `${weekKey}||${r.skill}`;
+    const wk = Math.floor(r.week);
+    const k  = `${wk}||${r.skill}`;
     if (!heatMap.has(k)) heatMap.set(k, { sum: 0, count: 0, courses: new Map() });
-    const bucket = heatMap.get(k);
-    bucket.sum += r.cor;
-    bucket.count++;
-    const ck = r.course;
-    if (!bucket.courses.has(ck)) bucket.courses.set(ck, { sum: 0, count: 0 });
-    const cb = bucket.courses.get(ck);
+    const b = heatMap.get(k);
+    b.sum += r.cor;
+    b.count++;
+    if (!b.courses.has(r.course)) b.courses.set(r.course, { sum: 0, count: 0 });
+    const cb = b.courses.get(r.course);
     cb.sum += r.cor;
     cb.count++;
   });
 
-  // Determine which integer weeks have data
-  const weekNums = [...new Set(rows.map(r => Math.floor(r.week)))].sort((a, b) => a - b);
+  const weekNums = [...new Set(rows.map(r => Math.floor(r.week)))]
+    .sort((a, b) => a - b)
+    .slice(0, 16);
+  const grid = buildGridShell('Week', false);
 
-  // Render grid
+  weekNums.forEach(wk => {
+    const rowLabel = document.createElement('div');
+    rowLabel.className = 'hm-row-label';
+    rowLabel.textContent = wk === 1 ? 'Wk 1 ★' : `Wk ${wk}`;
+    grid.appendChild(rowLabel);
+
+    SKILL_KEYS.forEach(sk => {
+      const bucket = heatMap.get(`${wk}||${sk}`);
+      const avg    = bucket ? bucket.sum / bucket.count : null;
+      const courseList = bucket
+        ? [...bucket.courses.entries()]
+            .map(([name, v]) => ({ name, avg: v.sum / v.count }))
+            .filter(c => c.avg > 0)
+            .sort((a, b) => b.avg - a.avg)
+        : [];
+      const label = `${SKILL_LABELS[sk]} · Week ${wk}${wk === 1 ? ' (Final week)' : ' before Masters'}`;
+      grid.appendChild(makeCell(avg, label, courseList, 'week', wk, sk));
+    });
+  });
+
+  updateMeta(weekNums.length + ' weeks');
+  document.getElementById('heatmap-label').textContent =
+    activeYears.length > 1
+      ? `Avg COR Score by Week & Skill — ${activeYears.slice().sort().join(', ')}`
+      : `COR Score by Week & Skill — ${activeYears[0]}`;
+}
+
+// ── Course mode: rows = courses sorted by avg week ────────────
+function renderCourseHeatmap(rows) {
+  // Bucket by (course, skill); also compute per-course avg week for sort
+  const courseMap  = new Map(); // `${course}||${skill}` → {sum,count,points:[]}
+  const weekMap    = new Map(); // course → {sum,count} for avg week
+
+  rows.forEach(r => {
+    if (r.cor == null) return;
+    const k = `${r.course}||${r.skill}`;
+    if (!courseMap.has(k)) courseMap.set(k, { sum: 0, count: 0, points: [] });
+    const b = courseMap.get(k);
+    b.sum += r.cor;
+    b.count++;
+    b.points.push({ year: r.year, week: Math.floor(r.week), cor: r.cor });
+
+    if (!weekMap.has(r.course)) weekMap.set(r.course, { sum: 0, count: 0 });
+    const wb = weekMap.get(r.course);
+    wb.sum += r.week;
+    wb.count++;
+  });
+
+  // Sort courses by avg week ascending (closest to Masters = smallest week # = first)
+  const courses = [...weekMap.keys()].sort((a, b) => {
+    const wa = weekMap.get(a); const wb = weekMap.get(b);
+    return (wa.sum / wa.count) - (wb.sum / wb.count);
+  });
+
+  const grid = buildGridShell('Course', true);
+
+  courses.forEach(course => {
+    const rowLabel = document.createElement('div');
+    rowLabel.className = 'hm-row-label';
+    rowLabel.textContent = titleCase(course);
+    grid.appendChild(rowLabel);
+
+    SKILL_KEYS.forEach(sk => {
+      const bucket = courseMap.get(`${course}||${sk}`);
+      const avg    = bucket ? bucket.sum / bucket.count : null;
+      const points = bucket
+        ? bucket.points.filter(p => p.cor > 0).sort((a, b) => a.week - b.week)
+        : [];
+      const label = `${SKILL_LABELS[sk]} · ${titleCase(course)}`;
+      grid.appendChild(makeCell(avg, label, points, 'course', course, sk));
+    });
+  });
+
+  updateMeta(courses.length + ' courses');
+  document.getElementById('heatmap-label').textContent =
+    activeYears.length > 1
+      ? `Avg COR Score by Course & Skill — ${activeYears.slice().sort().join(', ')}`
+      : `COR Score by Course & Skill — ${activeYears[0]}`;
+}
+
+// ── Shared grid shell (headers only) ─────────────────────────
+function buildGridShell(rowHeaderLabel, isCourseView) {
   const grid = document.getElementById('heatmap-grid');
   grid.innerHTML = '';
-  grid.style.gridTemplateColumns = `90px repeat(${SKILL_KEYS.length}, 1fr)`;
+  grid.className = 'heatmap-grid' + (isCourseView ? ' course-view' : '');
 
-  // Header row
-  const rowLabelHeader = document.createElement('div');
-  rowLabelHeader.className = 'hm-col-header row-label-header';
-  rowLabelHeader.textContent = 'Week';
-  grid.appendChild(rowLabelHeader);
+  const corner = document.createElement('div');
+  corner.className = 'hm-col-header row-label-header';
+  corner.textContent = rowHeaderLabel;
+  grid.appendChild(corner);
 
   SKILL_KEYS.forEach(sk => {
     const th = document.createElement('div');
@@ -533,59 +654,37 @@ function render() {
     grid.appendChild(th);
   });
 
-  // Data rows
-  weekNums.forEach(wk => {
-    const rowLabel = document.createElement('div');
-    rowLabel.className = 'hm-row-label';
-    rowLabel.textContent = wk === 1 ? 'Wk 1 ★' : `Wk ${wk}`;
-    grid.appendChild(rowLabel);
+  return grid;
+}
 
-    SKILL_KEYS.forEach(sk => {
-      const k = `${wk}||${sk}`;
-      const bucket = heatMap.get(k);
-      const avg = bucket ? bucket.sum / bucket.count : null;
+// ── Build a single heatmap cell ───────────────────────────────
+// mode='week': calloutData = [{name, avg}] (courses)
+// mode='course': calloutData = [{year, week, cor}] (data points)
+function makeCell(avg, calloutTitle, calloutData, mode, rowKey, sk) {
+  const cell = document.createElement('div');
+  cell.className = 'hm-cell';
+  cell.style.background = heatColor(avg);
 
-      const cell = document.createElement('div');
-      cell.className = 'hm-cell';
-      cell.style.background = heatColor(avg);
+  const inner = document.createElement('div');
+  inner.className = 'hm-cell-inner';
+  if (avg != null) {
+    inner.textContent = (avg >= 0 ? '+' : '') + avg.toFixed(2);
+    inner.classList.add(avg > 0.1 ? 'strong' : 'weak');
+  } else {
+    inner.textContent = '—';
+    inner.classList.add('weak');
+  }
+  cell.appendChild(inner);
 
-      const inner = document.createElement('div');
-      inner.className = 'hm-cell-inner';
-      if (avg != null) {
-        inner.textContent = avg >= 0 ? '+' + avg.toFixed(2) : avg.toFixed(2);
-        inner.classList.add(avg > 0.1 ? 'strong' : 'weak');
-      } else {
-        inner.textContent = '—';
-        inner.classList.add('weak');
-      }
-      cell.appendChild(inner);
+  cell.addEventListener('click', ev => showCallout(ev, calloutTitle, calloutData, mode));
+  return cell;
+}
 
-      // Click: show callout
-      if (bucket) {
-        const courseList = [...bucket.courses.entries()]
-          .map(([name, v]) => ({ name, avg: v.sum / v.count }))
-          .filter(c => c.avg > 0)
-          .sort((a, b) => b.avg - a.avg);
-
-        cell.addEventListener('click', ev => showCallout(ev, wk, sk, courseList));
-      }
-
-      grid.appendChild(cell);
-    });
-  });
-
-  // Meta
+function updateMeta(desc) {
   const yearLabel = activeYears.length === 1
     ? `${activeYears[0]} Masters`
     : `${activeYears.slice().sort().join(', ')} Masters (averaged)`;
-  document.getElementById('lb-meta').textContent =
-    `${weekNums.length} weeks · ${yearLabel}`;
-
-  // Update heatmap section label
-  document.getElementById('heatmap-label').textContent =
-    activeYears.length > 1
-      ? `Averaged COR Score by Week & Skill — ${activeYears.slice().sort().join(', ')}`
-      : `COR Score by Week & Skill — ${activeYears[0]}`;
+  document.getElementById('lb-meta').textContent = `${desc} · ${yearLabel}`;
 }
 
 // ── Callout popover ───────────────────────────────────────────
@@ -601,19 +700,26 @@ document.addEventListener('click', e => {
   }
 });
 
-function showCallout(ev, week, skill, courses) {
+function showCallout(ev, title, data, mode) {
   ev.stopPropagation();
+  calloutHdr.textContent = title;
 
-  calloutHdr.textContent =
-    `${SKILL_LABELS[skill] || skill} · Week ${week} ${week === 1 ? '(Final week)' : 'before Masters'}`;
-
-  if (courses.length === 0) {
+  if (data.length === 0) {
     calloutBdy.innerHTML = '<p style="color:var(--muted);font-size:12px;padding:4px 0">No positive correlations for this cell.</p>';
-  } else {
-    calloutBdy.innerHTML = courses.map(c => `
+  } else if (mode === 'week') {
+    // data = [{name, avg}] — courses
+    calloutBdy.innerHTML = data.map(c => `
       <div class="callout-course-row">
         <span class="callout-course-name" title="${c.name}">${titleCase(c.name)}</span>
         <span class="callout-course-score">${corStr(c.avg)}</span>
+      </div>
+    `).join('');
+  } else {
+    // mode === 'course', data = [{year, week, cor}]
+    calloutBdy.innerHTML = data.map(p => `
+      <div class="callout-course-row">
+        <span class="callout-course-name">${p.year} · Wk ${p.week}</span>
+        <span class="callout-course-score">${corStr(p.cor)}</span>
       </div>
     `).join('');
   }

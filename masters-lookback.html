@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>plus4.blog · Masters Lookback</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<style>
+  /* ── PAGE-SPECIFIC OVERRIDES ─────────────────────────────── */
+  .lb-header-label {
+    color: rgba(255,255,255,0.8);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .lb-header-title {
+    color: #fff;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: clamp(32px, 5vw, 56px);
+    letter-spacing: 0.03em;
+    line-height: 1;
+  }
+  .lb-header-sub {
+    color: rgba(255,255,255,0.7);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    margin-top: 8px;
+  }
+
+  /* ── FILTER BAR ──────────────────────────────────────────── */
+  .lb-filters {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 32px;
+  }
+  .lb-filters-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+  }
+  .lb-filter-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+  }
+  .lb-filter-label {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-right: 2px;
+  }
+  .lb-btn {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--card);
+    color: var(--label);
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+    white-space: nowrap;
+  }
+  .lb-btn:hover { border-color: var(--accent-2); color: var(--accent-2); }
+  .lb-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  .lb-divider {
+    width: 1px;
+    height: 24px;
+    background: var(--border);
+    margin: 0 4px;
+  }
+
+  /* ── TABLE WRAP ──────────────────────────────────────────── */
+  .lb-wrap {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 32px 40px;
+  }
+  .lb-table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .lb-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+  }
+  .lb-table thead th {
+    background: var(--surface);
+    color: var(--muted);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+    text-align: right;
+  }
+  .lb-table thead th.col-course,
+  .lb-table thead th.col-week {
+    text-align: left;
+  }
+  .lb-table tbody tr {
+    border-bottom: 1px solid var(--border);
+    transition: background 0.1s;
+  }
+  .lb-table tbody tr:last-child { border-bottom: none; }
+  .lb-table tbody tr:hover { background: var(--surface); }
+  .lb-table tbody tr.week-header-row {
+    background: #f0ede4;
+    cursor: default;
+  }
+  .lb-table tbody tr.week-header-row:hover { background: #ebe8df; }
+
+  .lb-table td {
+    padding: 9px 12px;
+    color: var(--text);
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .lb-table td.col-course {
+    text-align: left;
+    font-weight: 500;
+    max-width: 260px;
+    white-space: normal;
+    word-break: break-word;
+  }
+  .lb-table td.col-week {
+    text-align: left;
+    font-weight: 700;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .lb-table td.col-tour {
+    text-align: left;
+  }
+  .lb-tour-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 4px;
+    background: var(--border);
+    color: var(--label);
+  }
+  .lb-tour-badge.pga  { background: #dbeafe; color: #1d4ed8; }
+  .lb-tour-badge.euro { background: #dcfce7; color: #166534; }
+  .lb-tour-badge.liv  { background: #fef9c3; color: #854d0e; }
+
+  .lb-table td.col-sample {
+    color: var(--muted);
+    font-size: 11px;
+  }
+  .lb-table td.col-score {
+    font-weight: 500;
+  }
+  .lb-table td.col-score.highlight {
+    background: rgba(0, 127, 230, 0.06);
+  }
+
+  /* week-header cells span full row */
+  .week-header-cell {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 0.05em;
+    text-align: left !important;
+  }
+
+  .lb-empty {
+    padding: 48px 32px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .lb-meta {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 11px;
+    color: var(--muted);
+    font-style: italic;
+    padding: 10px 0 0;
+    text-align: right;
+  }
+
+  @media (max-width: 600px) {
+    .lb-filters { padding: 10px 16px; }
+    .lb-wrap { padding: 16px 12px 32px; }
+    .lb-table td, .lb-table thead th { padding: 8px 8px; font-size: 11px; }
+    .lb-table td.col-course { max-width: 140px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-inner">
+    <div>
+      <div class="lb-header-label">plus4.blog</div>
+      <div class="lb-header-title">Masters Lookback</div>
+      <div class="lb-header-sub">Course correlations in the weeks leading up to Augusta — by year</div>
+    </div>
+  </div>
+</div>
+
+<!-- FILTERS -->
+<div class="lb-filters">
+  <div class="lb-filters-inner">
+
+    <span class="lb-filter-label">Year</span>
+    <div class="lb-filter-group" id="year-group"></div>
+
+    <div class="lb-divider"></div>
+
+    <span class="lb-filter-label">Skill</span>
+    <div class="lb-filter-group" id="skill-group">
+      <button class="lb-btn active" data-skill="all">All</button>
+      <button class="lb-btn" data-skill="sg_ott">Off Tee</button>
+      <button class="lb-btn" data-skill="sg_app">Approach</button>
+      <button class="lb-btn" data-skill="sg_arg">Around Green</button>
+      <button class="lb-btn" data-skill="sg_putt">Putting</button>
+      <button class="lb-btn" data-skill="sg_total">Total</button>
+    </div>
+
+    <div class="lb-divider"></div>
+
+    <span class="lb-filter-label">Tour</span>
+    <div class="lb-filter-group" id="tour-group">
+      <button class="lb-btn active" data-tour="all">All</button>
+      <button class="lb-btn" data-tour="pga">PGA</button>
+      <button class="lb-btn" data-tour="euro">Euro</button>
+      <button class="lb-btn" data-tour="liv">LIV</button>
+    </div>
+
+  </div>
+</div>
+
+<!-- TABLE -->
+<div class="lb-wrap">
+  <div class="lb-table-wrap" id="table-wrap">
+    <div class="lb-empty" id="lb-empty" style="display:none;">No data for this selection.</div>
+    <table class="lb-table" id="lb-table">
+      <thead>
+        <tr>
+          <th class="col-week">Week</th>
+          <th class="col-course">Course</th>
+          <th class="col-tour" style="text-align:left;">Tour</th>
+          <th class="col-sample">Sample</th>
+          <th class="col-score" id="th-ott">OTT</th>
+          <th class="col-score" id="th-app">APP</th>
+          <th class="col-score" id="th-arg">ARG</th>
+          <th class="col-score" id="th-putt">Putt</th>
+          <th class="col-score" id="th-total">Total</th>
+        </tr>
+      </thead>
+      <tbody id="lb-tbody"></tbody>
+    </table>
+  </div>
+  <div class="lb-meta" id="lb-meta"></div>
+</div>
+
+<script>
+// ── State ─────────────────────────────────────────────────────
+let allRows   = [];
+let activeYear  = null;   // set after data loads
+let activeSkill = 'all';
+let activeTour  = 'all';
+
+const SKILL_KEYS = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
+const SKILL_LABELS = { sg_ott:'OTT', sg_app:'APP', sg_arg:'ARG', sg_putt:'Putt', sg_total:'Total' };
+const TH_IDS = { sg_ott:'th-ott', sg_app:'th-app', sg_arg:'th-arg', sg_putt:'th-putt', sg_total:'th-total' };
+
+// ── Parse COR score (handles "(0.123)" negatives) ─────────────
+function parseCor(str) {
+  if (!str) return null;
+  const s = str.trim();
+  if (!s || s === '—' || s === '-') return null;
+  if (s.startsWith('(') && s.endsWith(')')) return -parseFloat(s.slice(1, -1));
+  return parseFloat(s);
+}
+
+// ── Color a COR score ─────────────────────────────────────────
+function corColor(val) {
+  if (val == null) return 'var(--muted)';
+  if (val > 0.05)  return 'var(--positive)';
+  if (val < -0.05) return 'var(--negative)';
+  return 'var(--text)';
+}
+
+function corStr(val) {
+  if (val == null) return '—';
+  return (val >= 0 ? '+' : '') + val.toFixed(3);
+}
+
+// ── Load CSV ──────────────────────────────────────────────────
+Papa.parse('data/masters_lookback_detail.csv', {
+  download: true,
+  header: true,
+  skipEmptyLines: true,
+  complete({ data }) {
+    allRows = data.map(r => ({
+      year:    parseInt(r['Masters Year'], 10),
+      tour:    (r['Tour'] || '').trim().toLowerCase(),
+      date:    (r['Event Date'] || '').trim(),
+      week:    parseFloat(r['Weeks before Masters']),
+      skill:   (r['Skill'] || '').trim().toLowerCase(),
+      cor:     parseCor(r['COR Score']),
+      sample:  parseInt(r['Sample'], 10) || 0,
+      course:  (r['Course Name'] || '').trim(),
+    }));
+
+    buildYearButtons();
+    render();
+  }
+});
+
+// ── Build year filter buttons ─────────────────────────────────
+function buildYearButtons() {
+  const years = [...new Set(allRows.map(r => r.year))].sort((a,b) => b - a);
+  activeYear = years[0];  // most recent
+  const grp = document.getElementById('year-group');
+  years.forEach(y => {
+    const btn = document.createElement('button');
+    btn.className = 'lb-btn' + (y === activeYear ? ' active' : '');
+    btn.dataset.year = y;
+    btn.textContent = y;
+    btn.onclick = () => {
+      activeYear = y;
+      grp.querySelectorAll('.lb-btn').forEach(b => b.classList.toggle('active', +b.dataset.year === y));
+      render();
+    };
+    grp.appendChild(btn);
+  });
+}
+
+// ── Skill filter buttons ──────────────────────────────────────
+document.getElementById('skill-group').addEventListener('click', e => {
+  const btn = e.target.closest('.lb-btn');
+  if (!btn) return;
+  activeSkill = btn.dataset.skill;
+  document.querySelectorAll('#skill-group .lb-btn').forEach(b => b.classList.toggle('active', b.dataset.skill === activeSkill));
+  updateSkillHeaders();
+  render();
+});
+
+// ── Tour filter buttons ───────────────────────────────────────
+document.getElementById('tour-group').addEventListener('click', e => {
+  const btn = e.target.closest('.lb-btn');
+  if (!btn) return;
+  activeTour = btn.dataset.tour;
+  document.querySelectorAll('#tour-group .lb-btn').forEach(b => b.classList.toggle('active', b.dataset.tour === activeTour));
+  render();
+});
+
+// ── Highlight the active skill column header ──────────────────
+function updateSkillHeaders() {
+  SKILL_KEYS.forEach(sk => {
+    const th = document.getElementById(TH_IDS[sk]);
+    if (!th) return;
+    th.style.background = (activeSkill === sk) ? 'rgba(0,127,230,0.08)' : '';
+    th.style.color       = (activeSkill === sk) ? 'var(--accent-2)' : '';
+  });
+}
+
+// ── Render ────────────────────────────────────────────────────
+function render() {
+  // 1. Filter raw rows
+  let rows = allRows.filter(r => r.year === activeYear);
+  if (activeTour !== 'all') rows = rows.filter(r => r.tour === activeTour);
+
+  // 2. Pivot: group by (week, course, tour) → map of skill→cor
+  const keyOf = r => `${r.week}||${r.course}||${r.tour}`;
+  const pivotMap = new Map();
+  rows.forEach(r => {
+    const k = keyOf(r);
+    if (!pivotMap.has(k)) {
+      pivotMap.set(k, { week: r.week, course: r.course, tour: r.tour, date: r.date, sample: r.sample, skills: {} });
+    }
+    pivotMap.get(k).skills[r.skill] = r.cor;
+    // take the max sample across skills
+    if (r.sample > pivotMap.get(k).sample) pivotMap.get(k).sample = r.sample;
+  });
+
+  let events = [...pivotMap.values()];
+
+  // 3. If a single skill is selected, sort within each week by that skill desc
+  const sortSkill = activeSkill !== 'all' ? activeSkill : null;
+
+  // 4. Sort: by week asc, then by chosen skill desc (or sg_total desc)
+  events.sort((a, b) => {
+    if (a.week !== b.week) return a.week - b.week;
+    const sk = sortSkill || 'sg_total';
+    return (b.skills[sk] ?? -Infinity) - (a.skills[sk] ?? -Infinity);
+  });
+
+  // 5. Build table
+  const tbody = document.getElementById('lb-tbody');
+  tbody.innerHTML = '';
+
+  if (events.length === 0) {
+    document.getElementById('lb-table').style.display = 'none';
+    document.getElementById('lb-empty').style.display = '';
+    document.getElementById('lb-meta').textContent = '';
+    return;
+  }
+
+  document.getElementById('lb-table').style.display = '';
+  document.getElementById('lb-empty').style.display = 'none';
+
+  let lastWeek = null;
+  events.forEach(ev => {
+    const weekInt = Math.floor(ev.week);
+
+    // Week header row
+    if (ev.week !== lastWeek) {
+      const hr = document.createElement('tr');
+      hr.className = 'week-header-row';
+      const label = weekInt === 1 ? 'Week 1 — Final week before Masters'
+                  : `Week ${weekInt} — ${weekInt} weeks out`;
+      hr.innerHTML = `<td class="week-header-cell" colspan="9">${label}</td>`;
+      tbody.appendChild(hr);
+      lastWeek = ev.week;
+    }
+
+    const skillCells = SKILL_KEYS.map(sk => {
+      const val = ev.skills[sk] ?? null;
+      const highlight = activeSkill === sk ? ' highlight' : '';
+      return `<td class="col-score${highlight}" style="color:${corColor(val)}">${corStr(val)}</td>`;
+    }).join('');
+
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td></td>
+      <td class="col-course">${ev.course}</td>
+      <td class="col-tour"><span class="lb-tour-badge ${ev.tour}">${ev.tour.toUpperCase()}</span></td>
+      <td class="col-sample">${ev.sample}</td>
+      ${skillCells}
+    `;
+    tbody.appendChild(tr);
+  });
+
+  const uniqueWeeks = new Set(events.map(e => Math.floor(e.week))).size;
+  document.getElementById('lb-meta').textContent =
+    `${events.length} events · ${uniqueWeeks} weeks · ${activeYear} Masters`;
+}
+</script>
+</body>
+</html>

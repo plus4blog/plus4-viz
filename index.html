@@ -70,22 +70,6 @@
   </div>
 </div>
 
-<!-- CONTROLS -->
-<div class="controls">
-  <div class="controls-inner">
-    <span class="ctrl-label">Sort by</span>
-    <div class="sort-btn-group" id="sort-by-group">
-      <button class="sort-btn active" data-val="salary">Salary</button>
-      <button class="sort-btn" data-val="sg_total">SG Total</button>
-      <button class="sort-btn" data-val="course_fit">Course Fit</button>
-      <button class="sort-btn" data-val="ml">✨ ML</button>
-    </div>
-    <button class="sort-dir-btn" id="sort-dir-btn" title="Toggle direction">↓</button>
-
-    <span id="load-status" class="ctrl-label" style="margin-left:auto;color:var(--muted);font-style:italic;"></span>
-  </div>
-</div>
-
 <!-- PLAYER-COURSE FIT BAR -->
 <div class="intro-callout">
   <div class="intro-callout-inner">
@@ -105,6 +89,21 @@
       <div class="view-toggle">
         <button class="view-btn active" id="view-btn-card" onclick="setViewMode('card')">Cards</button>
         <button class="view-btn" id="view-btn-table" onclick="setViewMode('table')">Table</button>
+      </div>
+    </div>
+    <!-- CONTROLS -->
+    <div class="controls controls-inline">
+      <div class="controls-inner">
+        <span class="ctrl-label">Sort by</span>
+        <div class="sort-btn-group" id="sort-by-group">
+          <button class="sort-btn active" data-val="salary">Salary</button>
+          <button class="sort-btn" data-val="sg_total">SG Total</button>
+          <button class="sort-btn" data-val="course_fit">Course Fit</button>
+          <button class="sort-btn" data-val="ml">✨ ML</button>
+        </div>
+        <button class="sort-dir-btn" id="sort-dir-btn" title="Toggle direction">↓</button>
+
+        <span id="load-status" class="ctrl-label" style="margin-left:auto;color:var(--muted);font-style:italic;"></span>
       </div>
     </div>
     <button class="callout-toggle" id="fit-toggle" aria-expanded="false" onclick="toggleCallout('fit')">

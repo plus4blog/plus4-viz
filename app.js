@@ -295,7 +295,7 @@ function buildPlayerTable(sorted) {
           <th class="pt-salary" rowspan="2">Salary</th>
           <th class="pt-rank" rowspan="2">Rank</th>
           <th class="pt-sg" rowspan="2">SG Tot</th>
-          <th class="pt-fit" rowspan="2">Fit Score</th>
+          <th class="pt-fit" rowspan="2">Course Fit</th>
           ${skillGroupHeader}
         </tr>
         <tr>

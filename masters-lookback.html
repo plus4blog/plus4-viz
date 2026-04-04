@@ -574,8 +574,7 @@ function renderWeekHeatmap(rows) {
   });
 
   const weekNums = [...new Set(rows.map(r => Math.floor(r.week)))]
-    .sort((a, b) => a - b)
-    .slice(0, 16);
+    .sort((a, b) => a - b);
   const grid = buildGridShell('Week', false);
 
   weekNums.forEach(wk => {

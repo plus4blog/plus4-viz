@@ -437,11 +437,11 @@ Papa.parse('data/masters_lookback_detail.csv', {
 // ── Year buttons (multi-select, all on by default) ───────────
 function buildYearButtons() {
   const years = [...new Set(allRows.map(r => r.year))].sort((a, b) => b - a);
-  activeYears = [...years]; // default: all selected
+  activeYears = years.filter(y => y !== 2020); // default: all except 2020
   const grp = document.getElementById('year-group');
   years.forEach(y => {
     const btn = document.createElement('button');
-    btn.className = 'lb-btn active';
+    btn.className = 'lb-btn' + (y !== 2020 ? ' active' : '');
     btn.dataset.year = y;
     btn.textContent = y;
     btn.addEventListener('click', () => {
@@ -598,6 +598,18 @@ function renderCourseHeatmap(rows) {
     b.count++;
     b.points.push({ year: r.year, week: Math.floor(r.week), cor: r.cor });
 
+    // Exclude 2020 from avg-week sort — November Masters skews timing
+    if (r.year !== 2020) {
+      if (!weekMap.has(r.course)) weekMap.set(r.course, { sum: 0, count: 0 });
+      const wb = weekMap.get(r.course);
+      wb.sum += r.week;
+      wb.count++;
+    }
+  });
+
+  // Fall back to overall avg if a course only appears in 2020 data
+  rows.forEach(r => {
+    if (r.year !== 2020 || weekMap.has(r.course)) return;
     if (!weekMap.has(r.course)) weekMap.set(r.course, { sum: 0, count: 0 });
     const wb = weekMap.get(r.course);
     wb.sum += r.week;

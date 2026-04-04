@@ -646,18 +646,36 @@ function renderTrendChart(rows) {
     return { x: wk, y: parseFloat(cum.toFixed(3)) };
   });
 
-  const datasets = [{
-    label: SKILL_LABELS[activeChartSkill],
-    data: lineData,
-    borderColor: color,
-    backgroundColor: color + '18',
-    fill: true,
-    borderWidth: 3.5,
-    pointRadius: 0,
-    pointHoverRadius: 6,
-    pointHoverBackgroundColor: color,
-    tension: 0.3,
-  }];
+  // Individual course COR dots for the active skill
+  const dotData = rows
+    .filter(r => r.skill === activeChartSkill && r.cor != null)
+    .map(r => ({ x: Math.floor(r.week), y: r.cor }));
+
+  const datasets = [
+    {
+      type: 'scatter',
+      label: '_dots',
+      data: dotData,
+      backgroundColor: color + '30',
+      pointRadius: 3.5,
+      pointHoverRadius: 0,
+      order: 2,
+    },
+    {
+      type: 'line',
+      label: SKILL_LABELS[activeChartSkill],
+      data: lineData,
+      borderColor: color,
+      backgroundColor: color + '18',
+      fill: true,
+      borderWidth: 3.5,
+      pointRadius: 0,
+      pointHoverRadius: 6,
+      pointHoverBackgroundColor: color,
+      tension: 0.3,
+      order: 1,
+    },
+  ];
 
   const ctx = document.getElementById('trend-chart').getContext('2d');
 
@@ -668,7 +686,7 @@ function renderTrendChart(rows) {
   }
 
   trendChart = new Chart(ctx, {
-    type: 'line',
+    type: 'scatter',
     data: { datasets },
     options: {
       responsive: true,
@@ -678,6 +696,7 @@ function renderTrendChart(rows) {
       plugins: {
         legend: { display: false },
         tooltip: {
+          filter: item => !item.dataset.label.startsWith('_'),
           backgroundColor: '#fff',
           borderColor: '#e0e0e0',
           borderWidth: 1,

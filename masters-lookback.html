@@ -162,6 +162,12 @@
   }
 
   /* ── TREND CHART ─────────────────────────────────────────── */
+  .chart-skill-toggle {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
   .trend-wrap {
     border: 1px solid var(--border);
     border-radius: 10px;
@@ -385,9 +391,22 @@
   <div class="insights-cards" id="insights-cards"></div>
 
   <!-- TREND CHART -->
-  <div class="lb-section-title">Cumulative COR Score — 16-Week Lead-In</div>
+  <div style="margin-bottom:20px;">
+    <div class="lb-section-title" style="margin-bottom:6px;">Cumulative Correlation</div>
+    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.6;color:var(--label);max-width:680px;">
+      The chart below shows the <strong>cumulative COR score</strong> across the 16-week lead-in to The Masters — a running total of how strongly each skill's performance at corollary courses has historically predicted overperformance at Augusta. The higher the endpoint, the more consistently that skill signal has mattered as Masters week approaches.
+    </p>
+  </div>
+  <div class="lb-section-title" id="chart-title">Cumulative COR Score — Off the Tee</div>
+  <div class="chart-skill-toggle" id="chart-skill-group">
+    <button class="lb-btn active" data-chartskill="sg_ott">Off Tee</button>
+    <button class="lb-btn" data-chartskill="sg_app">Approach</button>
+    <button class="lb-btn" data-chartskill="sg_arg">Around Green</button>
+    <button class="lb-btn" data-chartskill="sg_putt">Putting</button>
+    <button class="lb-btn" data-chartskill="sg_total">Total</button>
+  </div>
   <div class="trend-wrap">
-    <canvas id="trend-chart" height="220"></canvas>
+    <canvas id="trend-chart"></canvas>
   </div>
 
   <!-- HEATMAP -->
@@ -413,10 +432,12 @@ const SKILL_LABELS = { sg_ott:'Off Tee', sg_app:'Approach', sg_arg:'Around Green
 const SKILL_SHORT  = { sg_ott:'OTT', sg_app:'APP', sg_arg:'ARG', sg_putt:'Putt', sg_total:'Total' };
 
 // ── State ─────────────────────────────────────────────────────
-let allRows     = [];
-let activeYears = [];        // multi-select; defaults to ALL years
-let activeTour  = 'pga';     // single-select; defaults to PGA
-let activeView  = 'course';  // 'week' | 'course'
+let allRows        = [];
+let activeYears    = [];        // multi-select; defaults to ALL years
+let activeTour     = 'pga';     // single-select; defaults to PGA
+let activeView     = 'course';  // 'week' | 'course'
+let activeChartSkill = 'sg_ott';
+let cachedRows     = [];        // last filtered rows for chart-only re-render
 
 // ── Helpers ───────────────────────────────────────────────────
 function parseCor(str) {
@@ -574,18 +595,33 @@ function renderInsights(rows) {
   `).join('');
 }
 
-// ── Trend chart — DataGolf style ─────────────────────────────
+// ── Chart skill toggle ────────────────────────────────────────
+document.getElementById('chart-skill-group').addEventListener('click', e => {
+  const btn = e.target.closest('.lb-btn');
+  if (!btn) return;
+  activeChartSkill = btn.dataset.chartskill;
+  document.querySelectorAll('#chart-skill-group .lb-btn').forEach(b =>
+    b.classList.toggle('active', b.dataset.chartskill === activeChartSkill));
+  document.getElementById('chart-title').textContent =
+    `Cumulative COR Score — ${SKILL_LABELS[activeChartSkill]}`;
+  renderTrendChart(cachedRows);
+});
+
+// ── Trend chart — single skill, Masters palette ───────────────
 let trendChart = null;
 
-const CHART_COLORS = {
-  sg_ott:   { line: '#006747', dot: 'rgba(0,103,71,0.15)'   },
-  sg_app:   { line: '#b8860b', dot: 'rgba(184,134,11,0.15)' },
-  sg_arg:   { line: '#c0392b', dot: 'rgba(192,57,43,0.15)'  },
-  sg_putt:  { line: '#2563eb', dot: 'rgba(37,99,235,0.15)'  },
-  sg_total: { line: '#002e1f', dot: 'rgba(0,46,31,0.12)'    },
+// Masters-themed colors per skill
+const SKILL_COLORS = {
+  sg_ott:   '#006747',  // Augusta green
+  sg_app:   '#c9a227',  // Masters gold
+  sg_arg:   '#4a9b6f',  // sage green
+  sg_putt:  '#00843D',  // bright Augusta green
+  sg_total: '#002e1f',  // dark pine green
 };
 
 function renderTrendChart(rows) {
+  cachedRows = rows;
+
   // Avg COR per (floored week, skill) — includes negatives
   const avgBucket = new Map();
   rows.forEach(r => {
@@ -598,40 +634,36 @@ function renderTrendChart(rows) {
     b.count++;
   });
 
-  // Descending order (16 → 1) so cumulative builds left→right on reversed axis
+  // Descending (16→1) so cumulative builds left→right on reversed axis
   const allWeeks = [...new Set(rows.map(r => Math.floor(r.week)))].sort((a, b) => b - a);
+  const color    = SKILL_COLORS[activeChartSkill];
 
-  // Cumulative sum lines — one per skill, no scatter dots
-  const datasets = SKILL_KEYS.map(sk => {
-    let cum = 0;
-    const data = allWeeks.map(wk => {
-      const b   = avgBucket.get(`${wk}||${sk}`);
-      const avg = b ? b.sum / b.count : 0;  // missing week contributes 0
-      cum += avg;
-      return { x: wk, y: parseFloat(cum.toFixed(3)) };
-    });
-    return {
-      type: 'line',
-      label: SKILL_LABELS[sk],
-      data,
-      borderColor: CHART_COLORS[sk].line,
-      backgroundColor: CHART_COLORS[sk].line + '12',
-      fill: sk === 'sg_ott', // shade only OTT to highlight it
-      borderWidth: sk === 'sg_ott' ? 4 : sk === 'sg_total' ? 2.5 : 1.8,
-      borderDash: sk === 'sg_total' ? [5, 3] : [],
-      pointRadius: 0,
-      pointHoverRadius: 6,
-      pointHoverBackgroundColor: CHART_COLORS[sk].line,
-      tension: 0.3,
-      order: sk === 'sg_ott' ? 0 : 1,
-    };
+  let cum = 0;
+  const lineData = allWeeks.map(wk => {
+    const b   = avgBucket.get(`${wk}||${activeChartSkill}`);
+    const avg = b ? b.sum / b.count : 0;
+    cum += avg;
+    return { x: wk, y: parseFloat(cum.toFixed(3)) };
   });
+
+  const datasets = [{
+    label: SKILL_LABELS[activeChartSkill],
+    data: lineData,
+    borderColor: color,
+    backgroundColor: color + '18',
+    fill: true,
+    borderWidth: 3.5,
+    pointRadius: 0,
+    pointHoverRadius: 6,
+    pointHoverBackgroundColor: color,
+    tension: 0.3,
+  }];
 
   const ctx = document.getElementById('trend-chart').getContext('2d');
 
   if (trendChart) {
     trendChart.data.datasets = datasets;
-    trendChart.update('none'); // skip animation on filter change
+    trendChart.update();
     return;
   }
 
@@ -644,18 +676,7 @@ function renderTrendChart(rows) {
       animation: { duration: 400 },
       interaction: { mode: 'index', intersect: false, axis: 'x' },
       plugins: {
-        legend: {
-          position: 'top',
-          labels: {
-            font: { family: "'IBM Plex Sans', sans-serif", size: 11, weight: '600' },
-            color: '#11181F',
-            boxWidth: 28,
-            boxHeight: 3,
-            padding: 16,
-            usePointStyle: true,
-            pointStyle: 'line',
-          },
-        },
+        legend: { display: false },
         tooltip: {
           backgroundColor: '#fff',
           borderColor: '#e0e0e0',

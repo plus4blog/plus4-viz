@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>plus4.blog · Masters Lookback</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <link rel="stylesheet" href="style.css">
 <style>
   /* ── MASTERS COLOR OVERRIDES ────────────────────────────── */
@@ -159,6 +160,18 @@
     color: var(--muted);
     margin-top: 4px;
   }
+
+  /* ── TREND CHART ─────────────────────────────────────────── */
+  .trend-wrap {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: #ffffff;
+    padding: 16px 20px 12px;
+    margin-bottom: 32px;
+    height: 280px;
+    position: relative;
+  }
+  .trend-wrap canvas { display: block; width: 100% !important; height: 100% !important; }
 
   /* ── HEATMAP ─────────────────────────────────────────────── */
   .heatmap-wrap {
@@ -371,6 +384,12 @@
   <div class="lb-section-title">Strongest Historical Signals</div>
   <div class="insights-cards" id="insights-cards"></div>
 
+  <!-- TREND CHART -->
+  <div class="lb-section-title">COR Score by Week Before Masters</div>
+  <div class="trend-wrap">
+    <canvas id="trend-chart" height="220"></canvas>
+  </div>
+
   <!-- HEATMAP -->
   <div class="lb-section-title" id="heatmap-label">COR Score by Week &amp; Skill</div>
   <div class="heatmap-wrap">
@@ -503,7 +522,21 @@ document.getElementById('view-group').addEventListener('click', e => {
 });
 
 // ── Insights (filter-aware, positive signals only) ────────────
+// avgWeekRows: 2023-2025 subset used for "typically X weeks before"
 function renderInsights(rows) {
+  const avgWeekRows = allRows.filter(r => [2023,2024,2025].includes(r.year)
+    && (activeTour === 'all' || r.tour === activeTour));
+
+  // Build avg-week lookup by course+skill from 2023-2025 data
+  const weekLookup = new Map();
+  avgWeekRows.forEach(r => {
+    const k = `${r.course}||${r.skill}`;
+    if (!weekLookup.has(k)) weekLookup.set(k, { sum: 0, count: 0 });
+    const b = weekLookup.get(k);
+    b.sum += r.week;
+    b.count++;
+  });
+
   const map = new Map();
   rows.forEach(r => {
     if (r.cor == null || r.cor <= 0) return;
@@ -516,7 +549,10 @@ function renderInsights(rows) {
 
   const signals = [...map.values()]
     .filter(e => e.count >= 2)
-    .map(e => ({ ...e, avg: e.sum / e.count }))
+    .map(e => {
+      const wk = weekLookup.get(`${e.course}||${e.skill}`);
+      return { ...e, avg: e.sum / e.count, avgWeek: wk ? Math.round(wk.sum / wk.count) : null };
+    })
     .filter(e => e.avg > 0.15)
     .sort((a, b) => b.avg - a.avg)
     .slice(0, 8);
@@ -532,9 +568,158 @@ function renderInsights(rows) {
       <div class="insight-skill">${SKILL_LABELS[s.skill] || s.skill}</div>
       <div class="insight-course">${titleCase(s.course)}</div>
       <div class="insight-score">${corStr(s.avg)}</div>
-      <div class="insight-count">avg across ${s.count} observations</div>
+      <div class="insight-count">avg across ${s.count} vintages</div>
+      ${s.avgWeek != null ? `<div class="insight-count" style="margin-top:5px;color:var(--accent);">Typically ${s.avgWeek === 1 ? '1 week' : s.avgWeek + ' weeks'} before The Masters</div>` : ''}
     </div>
   `).join('');
+}
+
+// ── Trend chart — DataGolf style ─────────────────────────────
+let trendChart = null;
+
+const CHART_COLORS = {
+  sg_ott:   { line: '#006747', dot: 'rgba(0,103,71,0.15)'   },
+  sg_app:   { line: '#b8860b', dot: 'rgba(184,134,11,0.15)' },
+  sg_arg:   { line: '#c0392b', dot: 'rgba(192,57,43,0.15)'  },
+  sg_putt:  { line: '#2563eb', dot: 'rgba(37,99,235,0.15)'  },
+  sg_total: { line: '#002e1f', dot: 'rgba(0,46,31,0.12)'    },
+};
+
+function renderTrendChart(rows) {
+  // Avg COR per (floored week, skill)
+  const avgBucket = new Map();
+  rows.forEach(r => {
+    if (r.cor == null) return;
+    const wk = Math.floor(r.week);
+    const k  = `${wk}||${r.skill}`;
+    if (!avgBucket.has(k)) avgBucket.set(k, { sum: 0, count: 0 });
+    const b = avgBucket.get(k);
+    b.sum += r.cor;
+    b.count++;
+  });
+
+  const allWeeks = [...new Set(rows.map(r => Math.floor(r.week)))].sort((a, b) => a - b);
+
+  const datasets = [];
+
+  // Scatter dots per skill (drawn first = behind lines)
+  SKILL_KEYS.forEach(sk => {
+    datasets.push({
+      type: 'scatter',
+      label: `_${sk}`,
+      data: rows
+        .filter(r => r.skill === sk && r.cor != null)
+        .map(r => ({ x: Math.floor(r.week), y: r.cor })),
+      backgroundColor: CHART_COLORS[sk].dot,
+      pointRadius: 3.5,
+      pointHoverRadius: 0,
+      order: 2,
+    });
+  });
+
+  // Bold avg lines per skill (drawn on top)
+  SKILL_KEYS.forEach(sk => {
+    datasets.push({
+      type: 'line',
+      label: SKILL_LABELS[sk],
+      data: allWeeks.map(wk => {
+        const b = avgBucket.get(`${wk}||${sk}`);
+        return { x: wk, y: b ? parseFloat((b.sum / b.count).toFixed(3)) : null };
+      }),
+      borderColor: CHART_COLORS[sk].line,
+      backgroundColor: 'transparent',
+      borderWidth: sk === 'sg_total' ? 4 : 2.5,
+      pointRadius: 0,
+      pointHoverRadius: 6,
+      pointHoverBackgroundColor: CHART_COLORS[sk].line,
+      tension: 0.35,
+      spanGaps: true,
+      order: sk === 'sg_total' ? 0 : 1,
+    });
+  });
+
+  const ctx = document.getElementById('trend-chart').getContext('2d');
+
+  if (trendChart) {
+    trendChart.data.datasets = datasets;
+    trendChart.update('none'); // skip animation on filter change
+    return;
+  }
+
+  trendChart = new Chart(ctx, {
+    type: 'scatter',
+    data: { datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: { duration: 400 },
+      interaction: { mode: 'index', intersect: false, axis: 'x' },
+      plugins: {
+        legend: {
+          position: 'top',
+          labels: {
+            filter: item => !item.text.startsWith('_'),
+            font: { family: "'IBM Plex Sans', sans-serif", size: 11, weight: '600' },
+            color: '#11181F',
+            boxWidth: 28,
+            boxHeight: 3,
+            padding: 16,
+            usePointStyle: true,
+            pointStyle: 'line',
+          },
+        },
+        tooltip: {
+          filter: item => !item.dataset.label.startsWith('_'),
+          backgroundColor: '#fff',
+          borderColor: '#e0e0e0',
+          borderWidth: 1,
+          titleColor: '#6b7c93',
+          bodyColor: '#11181F',
+          bodyFont: { family: "'IBM Plex Sans', sans-serif", size: 12 },
+          titleFont: { family: "'IBM Plex Sans', sans-serif", size: 10 },
+          callbacks: {
+            title: items => items[0] ? `Week ${items[0].parsed.x} before Masters` : '',
+            label: item => ` ${item.dataset.label}: ${item.parsed.y != null ? (item.parsed.y >= 0 ? '+' : '') + item.parsed.y.toFixed(3) : '—'}`,
+          },
+        },
+      },
+      scales: {
+        x: {
+          type: 'linear',
+          reverse: true,   // week 16 on left → week 1 on right (approaching Masters)
+          min: 0.5,
+          max: 16.5,
+          ticks: {
+            stepSize: 1,
+            font: { family: "'IBM Plex Sans', sans-serif", size: 10 },
+            color: '#6b7c93',
+            callback: v => Number.isInteger(v) ? `Wk ${v}` : '',
+          },
+          grid: { color: 'rgba(0,0,0,0.04)' },
+          title: {
+            display: true,
+            text: '← Further Out    Closer to Masters →',
+            font: { family: "'IBM Plex Sans', sans-serif", size: 10 },
+            color: '#6b7c93',
+          },
+        },
+        y: {
+          ticks: {
+            font: { family: "'IBM Plex Sans', sans-serif", size: 10 },
+            color: '#6b7c93',
+            callback: v => (v >= 0 ? '+' : '') + v.toFixed(2),
+          },
+          grid: { color: 'rgba(0,0,0,0.04)' },
+          title: {
+            display: true,
+            text: 'Avg COR Score',
+            font: { family: "'IBM Plex Sans', sans-serif", size: 10 },
+            color: '#6b7c93',
+          },
+        },
+      },
+    },
+  });
 }
 
 function titleCase(str) {
@@ -547,6 +732,7 @@ function render() {
   if (activeTour !== 'all') rows = rows.filter(r => r.tour === activeTour);
 
   renderInsights(rows);
+  renderTrendChart(rows);
 
   if (activeView === 'week') {
     renderWeekHeatmap(rows);

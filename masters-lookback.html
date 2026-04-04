@@ -397,13 +397,13 @@
       The chart below shows the <strong>cumulative COR score</strong> across the 16-week lead-in to The Masters — a running total of how strongly each skill's form across all lead-in events has tracked with overperformance at Augusta. The higher the endpoint, the more clearly that skill's wave has built toward Masters week.
     </p>
   </div>
-  <div class="lb-section-title" id="chart-title">Cumulative COR Score — Off the Tee</div>
+  <div class="lb-section-title" id="chart-title">Cumulative COR Score — Total</div>
   <div class="chart-skill-toggle" id="chart-skill-group">
-    <button class="lb-btn active" data-chartskill="sg_ott">Off Tee</button>
+    <button class="lb-btn" data-chartskill="sg_ott">Off Tee</button>
     <button class="lb-btn" data-chartskill="sg_app">Approach</button>
     <button class="lb-btn" data-chartskill="sg_arg">Around Green</button>
     <button class="lb-btn" data-chartskill="sg_putt">Putting</button>
-    <button class="lb-btn" data-chartskill="sg_total">Total</button>
+    <button class="lb-btn active" data-chartskill="sg_total">Total</button>
   </div>
   <div class="trend-wrap">
     <canvas id="trend-chart"></canvas>
@@ -436,7 +436,7 @@ let allRows        = [];
 let activeYears    = [];        // multi-select; defaults to ALL years
 let activeTour     = 'pga';     // single-select; defaults to PGA
 let activeView     = 'course';  // 'week' | 'course'
-let activeChartSkill = 'sg_ott';
+let activeChartSkill = 'sg_total';
 let cachedRows     = [];        // last filtered rows for chart-only re-render
 
 // ── Helpers ───────────────────────────────────────────────────

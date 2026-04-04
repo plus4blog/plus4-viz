@@ -178,6 +178,11 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
+.controls.controls-inline {
+  background: none;
+  border-bottom: none;
+  padding: 10px 0 0;
+}
 
 .controls-inner {
   max-width: 1400px;

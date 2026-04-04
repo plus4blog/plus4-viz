@@ -162,6 +162,12 @@
   }
 
   /* ── TREND CHART ─────────────────────────────────────────── */
+  .chart-skill-toggle {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
   .trend-wrap {
     border: 1px solid var(--border);
     border-radius: 10px;
@@ -307,11 +313,11 @@
   }
   .callout-course-score {
     font-weight: 700;
-    color: #006747;
     white-space: nowrap;
     flex-shrink: 0;
+    color: #006747;
   }
-  .callout-course-score.neutral { color: var(--muted); font-weight: 500; }
+  .callout-course-score.neg { color: #c0392b; }
   .callout-close {
     position: absolute;
     top: 10px; right: 12px;
@@ -385,9 +391,22 @@
   <div class="insights-cards" id="insights-cards"></div>
 
   <!-- TREND CHART -->
-  <div class="lb-section-title">COR Score by Week Before Masters</div>
+  <div style="margin-bottom:20px;">
+    <div class="lb-section-title" style="margin-bottom:6px;">Cumulative Correlation</div>
+    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.6;color:var(--label);max-width:680px;">
+      The chart below shows the <strong>cumulative COR score</strong> across the 16-week lead-in to The Masters — a running total of how strongly each skill's form across all lead-in events has tracked with overperformance at Augusta. Use it to find where players are riding form into Augusta: the steeper the climb as you approach Masters week, the more that skill's momentum has mattered. A line that builds late tells you the signal sharpens close to the event; one that rises steadily tells you sustained form over the full window is what counts.
+    </p>
+  </div>
+  <div class="lb-section-title" id="chart-title">Cumulative COR Score — Total</div>
+  <div class="chart-skill-toggle" id="chart-skill-group">
+    <button class="lb-btn" data-chartskill="sg_ott">Off Tee</button>
+    <button class="lb-btn" data-chartskill="sg_app">Approach</button>
+    <button class="lb-btn" data-chartskill="sg_arg">Around Green</button>
+    <button class="lb-btn" data-chartskill="sg_putt">Putting</button>
+    <button class="lb-btn active" data-chartskill="sg_total">Total</button>
+  </div>
   <div class="trend-wrap">
-    <canvas id="trend-chart" height="220"></canvas>
+    <canvas id="trend-chart"></canvas>
   </div>
 
   <!-- HEATMAP -->
@@ -413,10 +432,12 @@ const SKILL_LABELS = { sg_ott:'Off Tee', sg_app:'Approach', sg_arg:'Around Green
 const SKILL_SHORT  = { sg_ott:'OTT', sg_app:'APP', sg_arg:'ARG', sg_putt:'Putt', sg_total:'Total' };
 
 // ── State ─────────────────────────────────────────────────────
-let allRows     = [];
-let activeYears = [];        // multi-select; defaults to ALL years
-let activeTour  = 'pga';     // single-select; defaults to PGA
-let activeView  = 'course';  // 'week' | 'course'
+let allRows        = [];
+let activeYears    = [];        // multi-select; defaults to ALL years
+let activeTour     = 'pga';     // single-select; defaults to PGA
+let activeView     = 'course';  // 'week' | 'course'
+let activeChartSkill = 'sg_total';
+let cachedRows     = [];        // last filtered rows for chart-only re-render
 
 // ── Helpers ───────────────────────────────────────────────────
 function parseCor(str) {
@@ -539,7 +560,7 @@ function renderInsights(rows) {
 
   const map = new Map();
   rows.forEach(r => {
-    if (r.cor == null || r.cor <= 0) return;
+    if (r.cor == null) return;  // include negatives — true average
     const k = `${r.course}||${r.skill}`;
     if (!map.has(k)) map.set(k, { course: r.course, skill: r.skill, sum: 0, count: 0 });
     const e = map.get(k);
@@ -574,19 +595,34 @@ function renderInsights(rows) {
   `).join('');
 }
 
-// ── Trend chart — DataGolf style ─────────────────────────────
+// ── Chart skill toggle ────────────────────────────────────────
+document.getElementById('chart-skill-group').addEventListener('click', e => {
+  const btn = e.target.closest('.lb-btn');
+  if (!btn) return;
+  activeChartSkill = btn.dataset.chartskill;
+  document.querySelectorAll('#chart-skill-group .lb-btn').forEach(b =>
+    b.classList.toggle('active', b.dataset.chartskill === activeChartSkill));
+  document.getElementById('chart-title').textContent =
+    `Cumulative COR Score — ${SKILL_LABELS[activeChartSkill]}`;
+  renderTrendChart(cachedRows);
+});
+
+// ── Trend chart — single skill, Masters palette ───────────────
 let trendChart = null;
 
-const CHART_COLORS = {
-  sg_ott:   { line: '#006747', dot: 'rgba(0,103,71,0.15)'   },
-  sg_app:   { line: '#b8860b', dot: 'rgba(184,134,11,0.15)' },
-  sg_arg:   { line: '#c0392b', dot: 'rgba(192,57,43,0.15)'  },
-  sg_putt:  { line: '#2563eb', dot: 'rgba(37,99,235,0.15)'  },
-  sg_total: { line: '#002e1f', dot: 'rgba(0,46,31,0.12)'    },
+// Masters-themed colors per skill
+const SKILL_COLORS = {
+  sg_ott:   '#006747',  // Augusta green
+  sg_app:   '#c9a227',  // Masters gold
+  sg_arg:   '#4a9b6f',  // sage green
+  sg_putt:  '#00843D',  // bright Augusta green
+  sg_total: '#002e1f',  // dark pine green
 };
 
 function renderTrendChart(rows) {
-  // Avg COR per (floored week, skill)
+  cachedRows = rows;
+
+  // Avg COR per (floored week, skill) — includes negatives
   const avgBucket = new Map();
   rows.forEach(r => {
     if (r.cor == null) return;
@@ -598,56 +634,41 @@ function renderTrendChart(rows) {
     b.count++;
   });
 
-  const allWeeks = [...new Set(rows.map(r => Math.floor(r.week)))].sort((a, b) => a - b);
+  // Descending (16→1) so cumulative builds left→right on reversed axis
+  const allWeeks = [...new Set(rows.map(r => Math.floor(r.week)))].sort((a, b) => b - a);
+  const color    = SKILL_COLORS[activeChartSkill];
 
-  const datasets = [];
-
-  // Scatter dots per skill (drawn first = behind lines)
-  SKILL_KEYS.forEach(sk => {
-    datasets.push({
-      type: 'scatter',
-      label: `_${sk}`,
-      data: rows
-        .filter(r => r.skill === sk && r.cor != null)
-        .map(r => ({ x: Math.floor(r.week), y: r.cor })),
-      backgroundColor: CHART_COLORS[sk].dot,
-      pointRadius: 3.5,
-      pointHoverRadius: 0,
-      order: 2,
-    });
+  let cum = 0;
+  const lineData = allWeeks.map(wk => {
+    const b   = avgBucket.get(`${wk}||${activeChartSkill}`);
+    const avg = b ? b.sum / b.count : 0;
+    cum += avg;
+    return { x: wk, y: parseFloat(cum.toFixed(3)) };
   });
 
-  // Bold avg lines per skill (drawn on top)
-  SKILL_KEYS.forEach(sk => {
-    datasets.push({
-      type: 'line',
-      label: SKILL_LABELS[sk],
-      data: allWeeks.map(wk => {
-        const b = avgBucket.get(`${wk}||${sk}`);
-        return { x: wk, y: b ? parseFloat((b.sum / b.count).toFixed(3)) : null };
-      }),
-      borderColor: CHART_COLORS[sk].line,
-      backgroundColor: 'transparent',
-      borderWidth: sk === 'sg_total' ? 4 : 2.5,
-      pointRadius: 0,
-      pointHoverRadius: 6,
-      pointHoverBackgroundColor: CHART_COLORS[sk].line,
-      tension: 0.35,
-      spanGaps: true,
-      order: sk === 'sg_total' ? 0 : 1,
-    });
-  });
+  const datasets = [{
+    label: SKILL_LABELS[activeChartSkill],
+    data: lineData,
+    borderColor: color,
+    backgroundColor: color + '18',
+    fill: true,
+    borderWidth: 3.5,
+    pointRadius: 0,
+    pointHoverRadius: 6,
+    pointHoverBackgroundColor: color,
+    tension: 0.3,
+  }];
 
   const ctx = document.getElementById('trend-chart').getContext('2d');
 
   if (trendChart) {
     trendChart.data.datasets = datasets;
-    trendChart.update('none'); // skip animation on filter change
+    trendChart.update();
     return;
   }
 
   trendChart = new Chart(ctx, {
-    type: 'scatter',
+    type: 'line',
     data: { datasets },
     options: {
       responsive: true,
@@ -655,21 +676,8 @@ function renderTrendChart(rows) {
       animation: { duration: 400 },
       interaction: { mode: 'index', intersect: false, axis: 'x' },
       plugins: {
-        legend: {
-          position: 'top',
-          labels: {
-            filter: item => !item.text.startsWith('_'),
-            font: { family: "'IBM Plex Sans', sans-serif", size: 11, weight: '600' },
-            color: '#11181F',
-            boxWidth: 28,
-            boxHeight: 3,
-            padding: 16,
-            usePointStyle: true,
-            pointStyle: 'line',
-          },
-        },
+        legend: { display: false },
         tooltip: {
-          filter: item => !item.dataset.label.startsWith('_'),
           backgroundColor: '#fff',
           borderColor: '#e0e0e0',
           borderWidth: 1,
@@ -678,7 +686,7 @@ function renderTrendChart(rows) {
           bodyFont: { family: "'IBM Plex Sans', sans-serif", size: 12 },
           titleFont: { family: "'IBM Plex Sans', sans-serif", size: 10 },
           callbacks: {
-            title: items => items[0] ? `Week ${items[0].parsed.x} before Masters` : '',
+            title: items => items[0] ? `Cumulative through Wk ${items[0].parsed.x} before Masters` : '',
             label: item => ` ${item.dataset.label}: ${item.parsed.y != null ? (item.parsed.y >= 0 ? '+' : '') + item.parsed.y.toFixed(3) : '—'}`,
           },
         },
@@ -698,7 +706,7 @@ function renderTrendChart(rows) {
           grid: { color: 'rgba(0,0,0,0.04)' },
           title: {
             display: true,
-            text: '← Further Out    Closer to Masters →',
+            text: '← Start of Window    Approaching Masters →',
             font: { family: "'IBM Plex Sans', sans-serif", size: 10 },
             color: '#6b7c93',
           },
@@ -712,7 +720,7 @@ function renderTrendChart(rows) {
           grid: { color: 'rgba(0,0,0,0.04)' },
           title: {
             display: true,
-            text: 'Avg COR Score',
+            text: 'Cumulative COR Score',
             font: { family: "'IBM Plex Sans', sans-serif", size: 10 },
             color: '#6b7c93',
           },
@@ -775,7 +783,6 @@ function renderWeekHeatmap(rows) {
       const courseList = bucket
         ? [...bucket.courses.entries()]
             .map(([name, v]) => ({ name, avg: v.sum / v.count }))
-            .filter(c => c.avg > 0)
             .sort((a, b) => b.avg - a.avg)
         : [];
       const label = `${SKILL_LABELS[sk]} · Week ${wk}${wk === 1 ? ' (Final week)' : ' before Masters'}`;
@@ -841,7 +848,7 @@ function renderCourseHeatmap(rows) {
       const bucket = courseMap.get(`${course}||${sk}`);
       const avg    = bucket ? bucket.sum / bucket.count : null;
       const points = bucket
-        ? bucket.points.filter(p => p.cor > 0).sort((a, b) => a.week - b.week)
+        ? bucket.points.slice().sort((a, b) => a.week - b.week)
         : [];
       const label = `${SKILL_LABELS[sk]} · ${titleCase(course)}`;
       grid.appendChild(makeCell(avg, label, points, 'course', course, sk));
@@ -930,7 +937,7 @@ function showCallout(ev, title, data, mode) {
     calloutBdy.innerHTML = data.map(c => `
       <div class="callout-course-row">
         <span class="callout-course-name" title="${c.name}">${titleCase(c.name)}</span>
-        <span class="callout-course-score">${corStr(c.avg)}</span>
+        <span class="callout-course-score${c.avg < 0 ? ' neg' : ''}">${corStr(c.avg)}</span>
       </div>
     `).join('');
   } else {
@@ -938,7 +945,7 @@ function showCallout(ev, title, data, mode) {
     calloutBdy.innerHTML = data.map(p => `
       <div class="callout-course-row">
         <span class="callout-course-name">${p.year} · Wk ${p.week}</span>
-        <span class="callout-course-score">${corStr(p.cor)}</span>
+        <span class="callout-course-score${p.cor < 0 ? ' neg' : ''}">${corStr(p.cor)}</span>
       </div>
     `).join('');
   }

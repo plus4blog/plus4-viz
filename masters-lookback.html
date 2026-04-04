@@ -339,6 +339,9 @@
     text-align: right;
   }
 
+  /* Intro callout — reuse existing class, Masters border */
+  .intro-callout { border-bottom: 1px solid var(--border); }
+
   @media (max-width: 600px) {
     .lb-filters { padding: 10px 16px; }
     .lb-wrap { padding: 20px 16px 40px; }
@@ -356,7 +359,7 @@
     <div>
       <div class="lb-header-label">plus4.blog</div>
       <div class="lb-header-title">Masters Lookback</div>
-      <div class="lb-header-sub">Which courses in the weeks before Augusta actually predict Masters performance</div>
+      <div class="lb-header-sub">In the weeks leading up to Augusta National — where should you be playing well?</div>
     </div>
   </div>
 </div>
@@ -383,18 +386,48 @@
   </div>
 </div>
 
+<!-- INTRO -->
+<div class="intro-callout">
+  <div class="intro-callout-inner" style="padding-top:20px;padding-bottom:20px;">
+    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:14px;line-height:1.7;color:var(--label);max-width:760px;">
+      Every year around Masters week the internet fills up with "15 trends that tell you who will win." The problem? They tell you nothing about <em>where</em> and <em>why</em> players are outperforming leading up to Augusta. +4 takes a more scientific approach. We go year by year — looking at the 16 weeks before the Masters — and ask a simple question: <strong>where did the players who succeeded at Augusta also outperform their own baseline?</strong> We then score each lead-in event by how strongly that outperformance correlated with Masters success. What you see below is what the data actually says.
+    </p>
+    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:11px;line-height:1.6;color:var(--muted);max-width:760px;margin-top:12px;font-style:italic;">
+      Note: 2020 data has been excluded from this analysis. That year's Masters was held in November rather than April, and Augusta National's conditions — and the field's lead-in schedule — were materially different from a standard spring Masters.
+    </p>
+
+    <div style="margin-top:20px;">
+      <div class="lb-section-title" style="margin-bottom:10px;">Key Findings</div>
+      <ul style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.75;color:var(--label);max-width:760px;padding-left:18px;list-style:none;">
+        <li style="padding:8px 0;border-bottom:1px solid var(--border);padding-left:0;display:flex;gap:10px;">
+          <span style="color:#006747;font-weight:700;flex-shrink:0;">▸</span>
+          <span><strong>Off the tee is the clearest leading signal.</strong> Overperforming your own baseline off the tee — at venues like TPC Sawgrass, Innisbrook, and Memorial Park — correlates strongly and consistently with success at Augusta National. Players driving it well above their norm in the lead-in weeks tend to carry that advantage straight to Augusta.</span>
+        </li>
+        <li style="padding:8px 0;border-bottom:1px solid var(--border);padding-left:0;display:flex;gap:10px;">
+          <span style="color:#006747;font-weight:700;flex-shrink:0;">▸</span>
+          <span><strong>Hot players ride hot form.</strong> As you'd expect, overperforming in strokes gained total during the lead-in period does translate to Augusta. A player in form is a player in form — and Augusta rewards it.</span>
+        </li>
+        <li style="padding:8px 0;padding-left:0;display:flex;gap:10px;">
+          <span style="color:#006747;font-weight:700;flex-shrink:0;">▸</span>
+          <span><strong>Don't read the putting stats.</strong> Lead-in putting and around-the-green form has almost no bearing on how a player putts at Augusta National. Players find those greens on the Monday practice round and some of them ride it straight through Sunday. The putter is effectively a wildcard — it resets at Augusta.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 <!-- CONTENT -->
 <div class="lb-wrap">
 
   <!-- INSIGHTS -->
-  <div class="lb-section-title">Strongest Historical Signals</div>
+  <div class="lb-section-title">Strongest Lead-In Signals — All Years</div>
   <div class="insights-cards" id="insights-cards"></div>
 
   <!-- TREND CHART -->
   <div style="margin-bottom:20px;">
-    <div class="lb-section-title" style="margin-bottom:6px;">Cumulative Correlation</div>
+    <div class="lb-section-title" style="margin-bottom:6px;">Cumulative Lead-In Correlation</div>
     <p style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.6;color:var(--label);max-width:680px;">
-      The chart below shows the <strong>cumulative COR score</strong> across the 16-week lead-in to The Masters — a running total of how strongly each skill's form across all lead-in events has tracked with overperformance at Augusta. Use it to find where players are riding form into Augusta: the steeper the climb as you approach Masters week, the more that skill's momentum has mattered. A line that builds late tells you the signal sharpens close to the event; one that rises steadily tells you sustained form over the full window is what counts.
+      Each line shows the <strong>running total of overperformance correlation</strong> across the 16 weeks before Augusta — stacking up week by week as Masters Sunday gets closer. A steep climb near the right means the signal gets stronger in the final weeks. A line that rises steadily from the start means sustained form across the whole window is what predicts Augusta success for that skill.
     </p>
   </div>
   <div class="lb-section-title" id="chart-title">Cumulative COR Score — Total</div>
@@ -489,7 +522,7 @@ Papa.parse('data/masters_lookback_detail.csv', {
       cor:    parseCor(r['COR Score']),
       sample: parseInt(r['Sample'], 10) || 0,
       course: (r['Course Name'] || '').trim(),
-    })).filter(r => r.week <= 16);
+    })).filter(r => r.week <= 16 && r.year !== 2020); // 2020 excluded — November Masters
 
     buildYearButtons();
     render();
@@ -542,14 +575,13 @@ document.getElementById('view-group').addEventListener('click', e => {
   render();
 });
 
-// ── Insights (filter-aware, positive signals only) ────────────
-// avgWeekRows: 2023-2025 subset used for "typically X weeks before"
-function renderInsights(rows) {
-  const avgWeekRows = allRows.filter(r => [2023,2024,2025].includes(r.year)
-    && (activeTour === 'all' || r.tour === activeTour));
+// ── Insights — always all years/tours, unaffected by filters ──
+function renderInsights(_rows) {
+  // Use full dataset (2020 already stripped at load time)
+  const insightRows = allRows;
 
-  // Build avg-week lookup by course+skill from 2023-2025 data
-  const weekLookup = new Map();
+  const avgWeekRows = allRows.filter(r => [2023,2024,2025].includes(r.year));
+  const weekLookup  = new Map();
   avgWeekRows.forEach(r => {
     const k = `${r.course}||${r.skill}`;
     if (!weekLookup.has(k)) weekLookup.set(k, { sum: 0, count: 0 });
@@ -559,8 +591,8 @@ function renderInsights(rows) {
   });
 
   const map = new Map();
-  rows.forEach(r => {
-    if (r.cor == null) return;  // include negatives — true average
+  insightRows.forEach(r => {
+    if (r.cor == null) return;
     const k = `${r.course}||${r.skill}`;
     if (!map.has(k)) map.set(k, { course: r.course, skill: r.skill, sum: 0, count: 0 });
     const e = map.get(k);

@@ -449,7 +449,7 @@ Papa.parse('data/masters_lookback_detail.csv', {
       cor:    parseCor(r['COR Score']),
       sample: parseInt(r['Sample'], 10) || 0,
       course: (r['Course Name'] || '').trim(),
-    }));
+    })).filter(r => r.week <= 16);
 
     buildYearButtons();
     render();

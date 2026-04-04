@@ -346,8 +346,8 @@
     <div class="lb-divider"></div>
     <span class="lb-filter-label">View by</span>
     <div class="lb-filter-group" id="view-group">
-      <button class="lb-btn active" data-view="week">Week</button>
-      <button class="lb-btn" data-view="course">Course</button>
+      <button class="lb-btn" data-view="week">Week</button>
+      <button class="lb-btn active" data-view="course">Course</button>
     </div>
   </div>
 </div>
@@ -385,7 +385,7 @@ const SKILL_SHORT  = { sg_ott:'OTT', sg_app:'APP', sg_arg:'ARG', sg_putt:'Putt',
 let allRows     = [];
 let activeYears = [];        // multi-select; defaults to ALL years
 let activeTour  = 'pga';     // single-select; defaults to PGA
-let activeView  = 'week';    // 'week' | 'course'
+let activeView  = 'course';  // 'week' | 'course'
 
 // ── Helpers ───────────────────────────────────────────────────
 function parseCor(str) {

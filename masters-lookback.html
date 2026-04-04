@@ -7,6 +7,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 <link rel="stylesheet" href="style.css">
 <style>
+  /* ── MASTERS COLOR OVERRIDES ────────────────────────────── */
+  :root {
+    --accent:        #006747;  /* Augusta green */
+    --accent-2:      #00843D;  /* lighter Augusta green */
+    --filter-active: #006747;
+  }
+
+  /* Masters green header (overrides navy from style.css) */
+  .header {
+    background: linear-gradient(135deg, #002e1f 0%, #006747 55%, #00843D 100%) !important;
+  }
+
   /* ── HEADER ──────────────────────────────────────────────── */
   .lb-header-label {
     color: rgba(255,255,255,0.8);
@@ -114,8 +126,8 @@
     transition: box-shadow 0.15s, border-color 0.15s;
   }
   .insight-card:hover {
-    border-color: #4ade80;
-    box-shadow: 0 2px 10px rgba(34,197,94,0.15);
+    border-color: #FFCD00;
+    box-shadow: 0 2px 10px rgba(255,205,0,0.2);
   }
   .insight-skill {
     font-family: 'IBM Plex Sans', sans-serif;
@@ -138,7 +150,7 @@
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    color: #16a34a;
+    color: #006747;
     letter-spacing: -0.02em;
   }
   .insight-count {
@@ -192,8 +204,8 @@
   .hm-row-label:last-of-type { border-bottom: none; }
   /* Course-view row labels: wider col, wrapping text */
   .heatmap-grid.course-view {
-    grid-template-columns: 210px repeat(5, 1fr);
-    min-width: 580px;
+    grid-template-columns: 150px repeat(5, 1fr);
+    min-width: 520px;
   }
   .heatmap-grid.course-view .hm-row-label {
     font-size: 10px;
@@ -282,7 +294,7 @@
   }
   .callout-course-score {
     font-weight: 700;
-    color: #16a34a;
+    color: #006747;
     white-space: nowrap;
     flex-shrink: 0;
   }
@@ -396,14 +408,24 @@ function parseCor(str) {
   return parseFloat(s);
 }
 
-// White → green scale; negatives and near-zero stay near white
+// White → Masters yellow (#FFCD00) → Augusta green (#006747)
 function heatColor(val) {
-  if (val == null || val <= 0) return '#f8f8f8';
-  const t = Math.min(val / 0.3, 1); // clamp 0-1 over 0-0.3 range
-  // interpolate white → green
-  const r = Math.round(255 - t * (255 - 34));
-  const g = Math.round(255 - t * (255 - 197));
-  const b = Math.round(255 - t * (255 - 94));
+  if (val == null || val <= 0) return '#ffffff';
+  const t = Math.min(val / 0.3, 1); // 0–1 over 0–0.3 range
+  let r, g, b;
+  if (t <= 0.5) {
+    // white (255,255,255) → Masters yellow (255,205,0)
+    const u = t * 2;
+    r = 255;
+    g = Math.round(255 - u * 50);  // 255 → 205
+    b = Math.round(255 - u * 255); // 255 → 0
+  } else {
+    // Masters yellow (255,205,0) → Augusta green (0,103,71)
+    const u = (t - 0.5) * 2;
+    r = Math.round(255 - u * 255); // 255 → 0
+    g = Math.round(205 - u * 102); // 205 → 103
+    b = Math.round(0   + u * 71);  // 0 → 71
+  }
   return `rgb(${r},${g},${b})`;
 }
 
@@ -427,7 +449,7 @@ Papa.parse('data/masters_lookback_detail.csv', {
       cor:    parseCor(r['COR Score']),
       sample: parseInt(r['Sample'], 10) || 0,
       course: (r['Course Name'] || '').trim(),
-    }));
+    })).filter(r => r.week <= 16);
 
     buildYearButtons();
     render();
@@ -437,11 +459,11 @@ Papa.parse('data/masters_lookback_detail.csv', {
 // ── Year buttons (multi-select, all on by default) ───────────
 function buildYearButtons() {
   const years = [...new Set(allRows.map(r => r.year))].sort((a, b) => b - a);
-  activeYears = [...years]; // default: all selected
+  activeYears = years.filter(y => y !== 2020); // default: all except 2020
   const grp = document.getElementById('year-group');
   years.forEach(y => {
     const btn = document.createElement('button');
-    btn.className = 'lb-btn active';
+    btn.className = 'lb-btn' + (y !== 2020 ? ' active' : '');
     btn.dataset.year = y;
     btn.textContent = y;
     btn.addEventListener('click', () => {
@@ -552,8 +574,7 @@ function renderWeekHeatmap(rows) {
   });
 
   const weekNums = [...new Set(rows.map(r => Math.floor(r.week)))]
-    .sort((a, b) => a - b)
-    .slice(0, 16);
+    .sort((a, b) => a - b);
   const grid = buildGridShell('Week', false);
 
   weekNums.forEach(wk => {
@@ -598,6 +619,18 @@ function renderCourseHeatmap(rows) {
     b.count++;
     b.points.push({ year: r.year, week: Math.floor(r.week), cor: r.cor });
 
+    // Sort order uses only 2023-2025 — most stable recent timing
+    if ([2023, 2024, 2025].includes(r.year)) {
+      if (!weekMap.has(r.course)) weekMap.set(r.course, { sum: 0, count: 0 });
+      const wb = weekMap.get(r.course);
+      wb.sum += r.week;
+      wb.count++;
+    }
+  });
+
+  // Fall back to all years for courses not present in 2023-2025
+  rows.forEach(r => {
+    if (weekMap.has(r.course)) return;
     if (!weekMap.has(r.course)) weekMap.set(r.course, { sum: 0, count: 0 });
     const wb = weekMap.get(r.course);
     wb.sum += r.week;

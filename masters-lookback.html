@@ -620,8 +620,8 @@ function renderCourseHeatmap(rows) {
     b.count++;
     b.points.push({ year: r.year, week: Math.floor(r.week), cor: r.cor });
 
-    // Exclude 2020 from avg-week sort — November Masters skews timing
-    if (r.year !== 2020) {
+    // Sort order uses only 2023-2025 — most stable recent timing
+    if ([2023, 2024, 2025].includes(r.year)) {
       if (!weekMap.has(r.course)) weekMap.set(r.course, { sum: 0, count: 0 });
       const wb = weekMap.get(r.course);
       wb.sum += r.week;
@@ -629,9 +629,9 @@ function renderCourseHeatmap(rows) {
     }
   });
 
-  // Fall back to overall avg if a course only appears in 2020 data
+  // Fall back to all years for courses not present in 2023-2025
   rows.forEach(r => {
-    if (r.year !== 2020 || weekMap.has(r.course)) return;
+    if (weekMap.has(r.course)) return;
     if (!weekMap.has(r.course)) weekMap.set(r.course, { sum: 0, count: 0 });
     const wb = weekMap.get(r.course);
     wb.sum += r.week;

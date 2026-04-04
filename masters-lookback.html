@@ -385,7 +385,7 @@
   <div class="insights-cards" id="insights-cards"></div>
 
   <!-- TREND CHART -->
-  <div class="lb-section-title">COR Score by Week Before Masters</div>
+  <div class="lb-section-title">Cumulative COR Score — 16-Week Lead-In</div>
   <div class="trend-wrap">
     <canvas id="trend-chart" height="220"></canvas>
   </div>
@@ -586,7 +586,7 @@ const CHART_COLORS = {
 };
 
 function renderTrendChart(rows) {
-  // Avg COR per (floored week, skill)
+  // Avg COR per (floored week, skill) — includes negatives
   const avgBucket = new Map();
   rows.forEach(r => {
     if (r.cor == null) return;
@@ -598,44 +598,33 @@ function renderTrendChart(rows) {
     b.count++;
   });
 
-  const allWeeks = [...new Set(rows.map(r => Math.floor(r.week)))].sort((a, b) => a - b);
+  // Descending order (16 → 1) so cumulative builds left→right on reversed axis
+  const allWeeks = [...new Set(rows.map(r => Math.floor(r.week)))].sort((a, b) => b - a);
 
-  const datasets = [];
-
-  // Scatter dots per skill (drawn first = behind lines)
-  SKILL_KEYS.forEach(sk => {
-    datasets.push({
-      type: 'scatter',
-      label: `_${sk}`,
-      data: rows
-        .filter(r => r.skill === sk && r.cor != null)
-        .map(r => ({ x: Math.floor(r.week), y: r.cor })),
-      backgroundColor: CHART_COLORS[sk].dot,
-      pointRadius: 3.5,
-      pointHoverRadius: 0,
-      order: 2,
+  // Cumulative sum lines — one per skill, no scatter dots
+  const datasets = SKILL_KEYS.map(sk => {
+    let cum = 0;
+    const data = allWeeks.map(wk => {
+      const b   = avgBucket.get(`${wk}||${sk}`);
+      const avg = b ? b.sum / b.count : 0;  // missing week contributes 0
+      cum += avg;
+      return { x: wk, y: parseFloat(cum.toFixed(3)) };
     });
-  });
-
-  // Bold avg lines per skill (drawn on top)
-  SKILL_KEYS.forEach(sk => {
-    datasets.push({
+    return {
       type: 'line',
       label: SKILL_LABELS[sk],
-      data: allWeeks.map(wk => {
-        const b = avgBucket.get(`${wk}||${sk}`);
-        return { x: wk, y: b ? parseFloat((b.sum / b.count).toFixed(3)) : null };
-      }),
+      data,
       borderColor: CHART_COLORS[sk].line,
-      backgroundColor: 'transparent',
-      borderWidth: sk === 'sg_total' ? 4 : 2.5,
+      backgroundColor: CHART_COLORS[sk].line + '12',
+      fill: sk === 'sg_ott', // shade only OTT to highlight it
+      borderWidth: sk === 'sg_ott' ? 4 : sk === 'sg_total' ? 2.5 : 1.8,
+      borderDash: sk === 'sg_total' ? [5, 3] : [],
       pointRadius: 0,
       pointHoverRadius: 6,
       pointHoverBackgroundColor: CHART_COLORS[sk].line,
-      tension: 0.35,
-      spanGaps: true,
-      order: sk === 'sg_total' ? 0 : 1,
-    });
+      tension: 0.3,
+      order: sk === 'sg_ott' ? 0 : 1,
+    };
   });
 
   const ctx = document.getElementById('trend-chart').getContext('2d');
@@ -647,7 +636,7 @@ function renderTrendChart(rows) {
   }
 
   trendChart = new Chart(ctx, {
-    type: 'scatter',
+    type: 'line',
     data: { datasets },
     options: {
       responsive: true,
@@ -658,7 +647,6 @@ function renderTrendChart(rows) {
         legend: {
           position: 'top',
           labels: {
-            filter: item => !item.text.startsWith('_'),
             font: { family: "'IBM Plex Sans', sans-serif", size: 11, weight: '600' },
             color: '#11181F',
             boxWidth: 28,
@@ -669,7 +657,6 @@ function renderTrendChart(rows) {
           },
         },
         tooltip: {
-          filter: item => !item.dataset.label.startsWith('_'),
           backgroundColor: '#fff',
           borderColor: '#e0e0e0',
           borderWidth: 1,
@@ -678,7 +665,7 @@ function renderTrendChart(rows) {
           bodyFont: { family: "'IBM Plex Sans', sans-serif", size: 12 },
           titleFont: { family: "'IBM Plex Sans', sans-serif", size: 10 },
           callbacks: {
-            title: items => items[0] ? `Week ${items[0].parsed.x} before Masters` : '',
+            title: items => items[0] ? `Cumulative through Wk ${items[0].parsed.x} before Masters` : '',
             label: item => ` ${item.dataset.label}: ${item.parsed.y != null ? (item.parsed.y >= 0 ? '+' : '') + item.parsed.y.toFixed(3) : '—'}`,
           },
         },
@@ -698,7 +685,7 @@ function renderTrendChart(rows) {
           grid: { color: 'rgba(0,0,0,0.04)' },
           title: {
             display: true,
-            text: '← Further Out    Closer to Masters →',
+            text: '← Start of Window    Approaching Masters →',
             font: { family: "'IBM Plex Sans', sans-serif", size: 10 },
             color: '#6b7c93',
           },
@@ -712,7 +699,7 @@ function renderTrendChart(rows) {
           grid: { color: 'rgba(0,0,0,0.04)' },
           title: {
             display: true,
-            text: 'Avg COR Score',
+            text: 'Cumulative COR Score',
             font: { family: "'IBM Plex Sans', sans-serif", size: 10 },
             color: '#6b7c93',
           },

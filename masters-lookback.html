@@ -473,8 +473,16 @@
   </div>
 </div>
 
+<!-- JUMP NAV -->
+<div style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;padding:12px 20px;background:var(--surface);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+  <span style="color:var(--muted);font-size:12px;white-space:nowrap;">Skip to →</span>
+  <a href="#section-analysis" style="color:var(--accent);text-decoration:none;padding:4px 10px;border:1px solid var(--accent);border-radius:4px;white-space:nowrap;font-size:12px;">📖 Our Analysis</a>
+  <a href="#section-courses" style="color:var(--accent);text-decoration:none;padding:4px 10px;border:1px solid var(--accent);border-radius:4px;white-space:nowrap;font-size:12px;">🗺️ Which Courses Matter</a>
+  <a href="#section-players" style="color:var(--accent);text-decoration:none;padding:4px 10px;border:1px solid var(--accent);border-radius:4px;white-space:nowrap;font-size:12px;">🏌️ Who Should Benefit at the 2026 Masters</a>
+</div>
+
 <!-- INTRO -->
-<div class="intro-callout">
+<div class="intro-callout" id="section-analysis">
   <div class="intro-callout-inner" style="padding-top:20px;padding-bottom:20px;">
     <p style="font-family:'IBM Plex Sans',sans-serif;font-size:14px;line-height:1.7;color:var(--label);">
       Every year around Masters week the internet fills up with "15 trends that tell you who will win." The problem? None of it tells you <em>where</em> players are actually building form. Plus4 scores every lead-in event across the 16 weeks before Augusta — year by year — to answer one question: <strong>where did the players who succeeded at Augusta also outperform their own baseline?</strong> What you see below is what the data says.
@@ -522,6 +530,7 @@
   </div>
 
   <!-- HEATMAP -->
+  <span id="section-courses" style="display:block;height:0;"></span>
   <div class="lb-section-title" id="heatmap-label">COR Score by Week &amp; Skill</div>
   <div class="heatmap-wrap">
     <div class="heatmap-grid" id="heatmap-grid"></div>
@@ -529,13 +538,16 @@
   <div class="lb-meta" id="lb-meta"></div>
 
   <!-- PER-PLAYER ANALYSIS -->
-  <div style="margin-top:48px;">
+  <div style="margin-top:48px;" id="section-players">
     <div class="lb-section-title" style="margin-bottom:6px;">2026 Masters — Augusta-Weighted Lead-In Form</div>
     <p style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.6;color:var(--label);margin-bottom:4px;">
       Each player's weighted lead-in score across 2026 events — courses with stronger historical correlation to Augusta performance carry more weight. Click any row to see their event-by-event breakdown.
     </p>
-    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:11px;color:var(--muted);margin-bottom:14px;font-style:italic;">
-      All values show strokes gained +/− vs. each player's own expected baseline.
+    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:11px;color:var(--muted);margin-bottom:4px;font-style:italic;">
+      All values show strokes gained +/− vs. each player's own expected baseline. Opportunity-adjusted: same denominator for all players so more relevant events played = higher score.
+    </p>
+    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:11px;color:var(--muted);margin-bottom:14px;">
+      <strong style="color:var(--accent);">&#9733;</strong> Strong Augusta signal &nbsp;·&nbsp; Events at courses with no historical data use a week-proximity weight estimate
     </p>
     <div class="player-table-wrap">
       <table class="player-table" id="player-table">
@@ -543,12 +555,11 @@
           <tr>
             <th data-col="name">Player</th>
             <th data-col="owgr">OWGR</th>
-            <th data-col="composite">Composite</th>
-            <th data-col="sg_ott">OTT</th>
+            <th data-col="sg_total" style="color:var(--accent);">&#9733; Total</th>
+            <th data-col="sg_ott" style="color:var(--accent);">&#9733; OTT</th>
             <th data-col="sg_app">APP</th>
             <th data-col="sg_arg">ARG</th>
             <th data-col="sg_putt">Putt</th>
-            <th data-col="sg_total">Total</th>
           </tr>
         </thead>
         <tbody id="player-tbody"></tbody>
@@ -570,6 +581,10 @@
 const SKILL_KEYS   = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
 const SKILL_LABELS = { sg_ott:'Off Tee', sg_app:'Approach', sg_arg:'Around Green', sg_putt:'Putting', sg_total:'Total' };
 const SKILL_SHORT  = { sg_ott:'OTT', sg_app:'APP', sg_arg:'ARG', sg_putt:'Putt', sg_total:'Total' };
+// Display order for player table (Total + OTT are strong signals, shown first)
+const PLAYER_TABLE_SKILL_ORDER = ['sg_total','sg_ott','sg_app','sg_arg','sg_putt'];
+// Masters 2026 opening round (Thursday)
+const MASTERS_2026 = new Date('2026-04-10T12:00:00Z');
 
 // ── State ─────────────────────────────────────────────────────
 let allRows        = [];
@@ -1122,8 +1137,8 @@ function hideCallout() {
 
 // ── Player Lead-In Section ────────────────────────────────────
 let fieldRows     = [];   // raw rows from field CSV
-let playerSortCol = 'owgr';
-let playerSortDir = 1;    // 1 = asc (OWGR 1 first)
+let playerSortCol = 'sg_total';
+let playerSortDir = -1;   // -1 = desc (highest score first)
 
 const FIELD_SKILL_MAP = {
   sg_ott:   'sg_ott_vs_expected',
@@ -1160,9 +1175,49 @@ function buildCorWeights() {
   return weights;
 }
 
+function buildWeekAvgCor() {
+  // weekAvgCor[week][skill] = sample-weighted avg positive COR across all courses at that week
+  const bucket = {};
+  allRows.forEach(r => {
+    if (r.cor == null || r.cor <= 0 || r.sample <= 0) return;
+    const wk = Math.floor(r.week);
+    if (!bucket[wk]) bucket[wk] = {};
+    if (!bucket[wk][r.skill]) bucket[wk][r.skill] = { wSum: 0, sSum: 0 };
+    bucket[wk][r.skill].wSum += r.cor * r.sample;
+    bucket[wk][r.skill].sSum += r.sample;
+  });
+  const result = {};
+  Object.keys(bucket).forEach(wk => {
+    result[wk] = {};
+    Object.keys(bucket[wk]).forEach(sk => {
+      const b = bucket[wk][sk];
+      result[wk][sk] = b.wSum / b.sSum;
+    });
+  });
+  return result;
+}
+
+function weeksBeforeMasters(dateStr) {
+  if (!dateStr) return null;
+  const d = new Date(dateStr);
+  if (isNaN(d)) return null;
+  return Math.round((MASTERS_2026 - d) / (7 * 24 * 60 * 60 * 1000));
+}
+
 function computePlayerScores() {
   if (!allRows.length || !fieldRows.length) return [];
-  const corWeights = buildCorWeights();
+  const corWeights  = buildCorWeights();
+  const weekAvgCor  = buildWeekAvgCor();
+
+  // Fixed per-skill denominator: sum of all positive corWeights in the database
+  const totalDbCor = {};
+  SKILL_KEYS.forEach(sk => {
+    let sum = 0;
+    corWeights.forEach((val, k) => {
+      if (k.endsWith(`||${sk}`) && val > 0) sum += val;
+    });
+    totalDbCor[sk] = sum;
+  });
 
   // Group field rows by player
   const playerMap = new Map();
@@ -1179,45 +1234,48 @@ function computePlayerScores() {
     playerMap.get(id).rows.push(r);
   });
 
-  // Skill-level avg COR across all courses (for composite weighting)
-  const skillCorTotals = {};
-  SKILL_KEYS.forEach(sk => {
-    let sum = 0, cnt = 0;
-    corWeights.forEach((val, k) => {
-      if (k.endsWith(`||${sk}`) && val > 0) { sum += val; cnt++; }
-    });
-    skillCorTotals[sk] = cnt > 0 ? sum / cnt : 0;
-  });
-
   return [...playerMap.values()].map(p => {
+    // Enrich each row with COR source info for accordion display
+    const enrichedRows = p.rows.map(r => {
+      const course = normalizeCourse((r.course_name || '').trim());
+      const wk = weeksBeforeMasters(r.event_completed);
+      // A course is "known" if it has COR data for at least one skill
+      const knownCor = SKILL_KEYS.some(sk => {
+        const c = corWeights.get(`${course}||${sk}`);
+        return c != null && c > 0;
+      });
+      return { ...r, _knownCor: knownCor, _wkBefore: wk };
+    });
+
     const scores = {};
     SKILL_KEYS.forEach(sk => {
-      let wSum = 0, wTot = 0;
-      p.rows.forEach(r => {
+      let numerator = 0;
+      let hasData = false;
+      enrichedRows.forEach(r => {
         const course = normalizeCourse((r.course_name || '').trim());
-        const cor = corWeights.get(`${course}||${sk}`);
-        const sgRaw = r[FIELD_SKILL_MAP[sk]];
-        if (cor == null || cor <= 0 || sgRaw === '' || sgRaw == null) return;
+        const sgRaw  = r[FIELD_SKILL_MAP[sk]];
+        if (sgRaw === '' || sgRaw == null) return;
         const sg = parseFloat(sgRaw);
         if (isNaN(sg)) return;
-        wSum += sg * cor;
-        wTot += cor;
+
+        // Determine effective COR weight
+        let cor = corWeights.get(`${course}||${sk}`);
+        if (cor == null || cor <= 0) {
+          // Impute from week-proximity average
+          const wk = r._wkBefore;
+          if (wk != null && wk >= 1 && wk <= 16 && weekAvgCor[wk] && weekAvgCor[wk][sk]) {
+            cor = weekAvgCor[wk][sk];
+          } else {
+            return; // no usable weight, skip
+          }
+        }
+        numerator += sg * cor;
+        hasData = true;
       });
-      scores[sk] = wTot > 0 ? wSum / wTot : null;
+      scores[sk] = (hasData && totalDbCor[sk] > 0) ? numerator / totalDbCor[sk] : null;
     });
 
-    // Composite: skill-COR-weighted avg of the 4 individual skills (excl. total)
-    const indivKeys = ['sg_ott','sg_app','sg_arg','sg_putt'];
-    let cSum = 0, cTot = 0;
-    indivKeys.forEach(sk => {
-      if (scores[sk] == null) return;
-      const w = skillCorTotals[sk] || 0;
-      cSum += scores[sk] * w;
-      cTot += w;
-    });
-    scores.composite = cTot > 0 ? cSum / cTot : null;
-
-    return { ...p, scores };
+    return { ...p, rows: p.rows, enrichedRows, scores };
   });
 }
 
@@ -1234,13 +1292,13 @@ function scoreColor(val) {
 
 function accordionDetail(p) {
   // Sort events most recent first (closest to Masters)
-  const events = [...p.rows].sort((a, b) =>
+  const events = [...(p.enrichedRows || p.rows)].sort((a, b) =>
     (b.event_completed || '').localeCompare(a.event_completed || ''));
-  const cols = ['sg_ott_vs_expected','sg_app_vs_expected','sg_arg_vs_expected','sg_putt_vs_expected','sg_total_vs_expected'];
-  const colLabels = ['OTT','APP','ARG','Putt','Total'];
+  const cols = ['sg_total_vs_expected','sg_ott_vs_expected','sg_app_vs_expected','sg_arg_vs_expected','sg_putt_vs_expected'];
+  const colLabels = ['Total','OTT','APP','ARG','Putt'];
   return `
     <div class="pt-accordion-inner">
-      <div class="accordion-label">SG +/− vs player's expected baseline · 2026 lead-in events</div>
+      <div class="accordion-label">SG +/− vs player's expected baseline · 2026 lead-in events · <span style="color:var(--muted);">~est. = week-proximity weight (no course history)</span></div>
       <table class="accordion-table">
         <thead><tr>
           <th>Course</th>
@@ -1250,8 +1308,11 @@ function accordionDetail(p) {
           ${events.map(r => {
             const courseName = normalizeCourse((r.course_name||'').trim());
             const date = (r.event_completed||'').slice(0,10);
+            const estLabel = r._knownCor === false
+              ? ` <span style="color:var(--muted);font-size:10px;font-style:italic;">~wk${r._wkBefore} est.</span>`
+              : '';
             return `<tr>
-              <td><span class="ac-course">${courseName}</span> <span class="ac-date">${date}</span></td>
+              <td><span class="ac-course">${courseName}</span>${estLabel} <span class="ac-date">${date}</span></td>
               ${cols.map(col => {
                 const raw = r[col];
                 if (raw === '' || raw == null) return `<td class="ac-null">—</td>`;
@@ -1270,8 +1331,8 @@ function renderPlayers() {
   if (!allRows.length || !fieldRows.length) return;
   const players = computePlayerScores();
 
-  // Filter out players with no form data
-  const activePlayers = players.filter(p => p.scores.composite != null);
+  // Filter out players with no form data at all
+  const activePlayers = players.filter(p => PLAYER_TABLE_SKILL_ORDER.some(sk => p.scores[sk] != null));
 
   activePlayers.sort((a, b) => {
     if (playerSortCol === 'name') return a.name.localeCompare(b.name) * playerSortDir;
@@ -1287,16 +1348,13 @@ function renderPlayers() {
 
   // Build table rows with accordion
   const tbody = document.getElementById('player-tbody');
-  const NCOLS = 8; // name + owgr + composite + 5 skills
+  const NCOLS = 7; // name + owgr + 5 skills (no composite)
   tbody.innerHTML = activePlayers.map((p, i) => {
-    const cv = p.scores.composite;
-    const ccls = cv == null ? 'pt-null' : cv >= 0 ? 'pt-pos' : 'pt-neg';
     return `
     <tr class="pt-row" data-idx="${i}">
       <td><span class="pt-expand">▶</span><span class="pt-name">${p.name.replace(/,\s*/, ', ')}</span><span class="pt-rank">${countryFlag(p.country)}</span></td>
       <td style="text-align:right;color:var(--muted);font-weight:400;">${p.owgr === 9999 ? '—' : p.owgr}</td>
-      <td class="${ccls}" style="font-size:13px;">${fmtScore(cv)}</td>
-      ${SKILL_KEYS.map(sk => {
+      ${PLAYER_TABLE_SKILL_ORDER.map(sk => {
         const v = p.scores[sk];
         return `<td class="${v == null ? 'pt-null' : v >= 0 ? 'pt-pos' : 'pt-neg'}">${fmtScore(v)}</td>`;
       }).join('')}

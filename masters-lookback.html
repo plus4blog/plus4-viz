@@ -342,7 +342,122 @@
   /* Intro callout — reuse existing class, Masters border */
   .intro-callout { border-bottom: 1px solid var(--border); }
 
+  /* ── PLAYER SECTION ──────────────────────────────────────── */
+  .player-view-toggle { display:flex; gap:6px; margin-bottom:16px; }
+
+  /* Cards */
+  .player-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 12px;
+  }
+  .player-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    cursor: default;
+  }
+  .player-card-name {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .player-card-meta {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 10px;
+    color: var(--muted);
+    margin-bottom: 10px;
+    letter-spacing: 0.08em;
+  }
+  .player-skill-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 5px;
+  }
+  .player-skill-label {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    width: 36px;
+    flex-shrink: 0;
+  }
+  .player-skill-bar-wrap {
+    flex: 1;
+    height: 6px;
+    background: rgba(0,0,0,0.06);
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+  }
+  .player-skill-bar {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.3s;
+  }
+  .player-skill-val {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    width: 40px;
+    text-align: right;
+    flex-shrink: 0;
+  }
+  .player-skill-val.pos { color: #006747; }
+  .player-skill-val.neg { color: #c0392b; }
+  .player-skill-val.null { color: var(--muted); }
+
+  /* Table */
+  .player-table-wrap { overflow-x: auto; }
+  .player-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+  }
+  .player-table th {
+    background: var(--surface);
+    border-bottom: 2px solid var(--border);
+    padding: 8px 10px;
+    text-align: left;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+  }
+  .player-table th:hover { color: var(--accent); }
+  .player-table th.sort-active { color: var(--accent); }
+  .player-table th:not(:first-child) { text-align: right; }
+  .player-table td {
+    padding: 7px 10px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+  }
+  .player-table td:not(:first-child) { text-align: right; font-weight: 600; }
+  .player-table tr:last-child td { border-bottom: none; }
+  .player-table tr:hover td { background: rgba(0,103,71,0.04); }
+  .pt-name { font-family: 'Archivo Narrow', sans-serif; font-size: 14px; font-weight: 700; }
+  .pt-rank { font-size: 10px; color: var(--muted); display: block; }
+  .pt-pos { color: #006747; }
+  .pt-neg { color: #c0392b; }
+  .pt-null { color: var(--muted); font-weight: 400 !important; }
+
   @media (max-width: 600px) {
+    .player-cards { grid-template-columns: 1fr 1fr; }
+  }
     .lb-filters { padding: 10px 16px; }
     .lb-wrap { padding: 20px 16px 40px; }
     .hm-row-label { font-size: 10px; padding: 0 10px; }
@@ -437,13 +552,30 @@
 
   <!-- PER-PLAYER ANALYSIS -->
   <div style="margin-top:48px;">
-    <div class="lb-section-title" style="margin-bottom:6px;">2026 Masters — Player Lead-In Analysis</div>
-    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.6;color:var(--label);margin-bottom:20px;">
-      For each player in the 2026 Masters field, how has their form at the courses that matter for Augusta National tracked over the 16-week lead-in window — and what does it signal heading into Masters week?
+    <div class="lb-section-title" style="margin-bottom:6px;">2026 Masters — Augusta-Weighted Lead-In Form</div>
+    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.6;color:var(--label);margin-bottom:16px;">
+      Each player's SG vs. their own baseline at every 2026 lead-in event, weighted by that course's historical correlation to Augusta performance. Courses that matter more for Augusta carry more weight.
     </p>
-    <div style="border:1px solid var(--border);border-radius:10px;background:var(--surface);padding:48px 32px;text-align:center;">
-      <div style="font-family:'Archivo Narrow',sans-serif;font-size:22px;font-weight:700;color:var(--accent);margin-bottom:8px;">Available Monday Afternoon</div>
-      <div style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;color:var(--muted);max-width:420px;margin:0 auto;line-height:1.6;">Player-by-player lead-in form analysis for the 2026 Masters field will be published here Monday. Check back after the field is set.</div>
+    <div class="player-view-toggle">
+      <button class="lb-btn active" id="pv-card">Cards</button>
+      <button class="lb-btn" id="pv-table">Table</button>
+    </div>
+    <div id="player-cards-wrap" class="player-cards"></div>
+    <div id="player-table-wrap" class="player-table-wrap" style="display:none;">
+      <table class="player-table" id="player-table">
+        <thead>
+          <tr>
+            <th data-col="name">Player</th>
+            <th data-col="composite">Composite</th>
+            <th data-col="sg_ott">OTT</th>
+            <th data-col="sg_app">APP</th>
+            <th data-col="sg_arg">ARG</th>
+            <th data-col="sg_putt">Putt</th>
+            <th data-col="sg_total">Total</th>
+          </tr>
+        </thead>
+        <tbody id="player-tbody"></tbody>
+      </table>
     </div>
   </div>
 
@@ -531,6 +663,7 @@ Papa.parse('data/masters_lookback_detail.csv', {
 
     buildYearButtons();
     render();
+    renderPlayers();
   }
 });
 
@@ -996,6 +1129,217 @@ function positionCallout(cx, cy) {
 
 function hideCallout() {
   callout.classList.remove('visible');
+}
+
+// ── Player Lead-In Section ────────────────────────────────────
+let fieldRows     = [];   // raw rows from field CSV
+let playerView    = 'card';
+let playerSortCol = 'composite';
+let playerSortDir = -1;   // -1 = desc
+
+const FIELD_SKILL_MAP = {
+  sg_ott:   'sg_ott_vs_expected',
+  sg_app:   'sg_app_vs_expected',
+  sg_arg:   'sg_arg_vs_expected',
+  sg_putt:  'sg_putt_vs_expected',
+  sg_total: 'sg_total_vs_expected',
+};
+
+Papa.parse('masters_2026_field_context.csv', {
+  download: true,
+  header: true,
+  skipEmptyLines: true,
+  complete({ data }) {
+    fieldRows = data;
+    renderPlayers();
+  }
+});
+
+document.getElementById('pv-card').addEventListener('click', () => {
+  playerView = 'card';
+  document.getElementById('pv-card').classList.add('active');
+  document.getElementById('pv-table').classList.remove('active');
+  document.getElementById('player-cards-wrap').style.display = '';
+  document.getElementById('player-table-wrap').style.display = 'none';
+  notifyHeight();
+});
+document.getElementById('pv-table').addEventListener('click', () => {
+  playerView = 'table';
+  document.getElementById('pv-table').classList.add('active');
+  document.getElementById('pv-card').classList.remove('active');
+  document.getElementById('player-cards-wrap').style.display = 'none';
+  document.getElementById('player-table-wrap').style.display = '';
+  notifyHeight();
+});
+
+function buildCorWeights() {
+  // Per (normalisedCourse, skill) → sample-weighted avg COR
+  const bucket = new Map();
+  allRows.forEach(r => {
+    if (r.cor == null || r.sample <= 0) return;
+    const k = `${r.course}||${r.skill}`;
+    if (!bucket.has(k)) bucket.set(k, { wSum: 0, sSum: 0 });
+    const b = bucket.get(k);
+    b.wSum += r.cor * r.sample;
+    b.sSum += r.sample;
+  });
+  const weights = new Map();
+  bucket.forEach((b, k) => weights.set(k, b.wSum / b.sSum));
+  return weights;
+}
+
+function computePlayerScores() {
+  if (!allRows.length || !fieldRows.length) return [];
+  const corWeights = buildCorWeights();
+
+  // Group field rows by player
+  const playerMap = new Map();
+  fieldRows.forEach(r => {
+    const id = r.dg_id;
+    if (!playerMap.has(id)) playerMap.set(id, {
+      id,
+      name: r.player_name || r.player_name_dg || '',
+      rank: parseInt(r.dg_rank) || 9999,
+      owgr: parseInt(r.owgr_rank) || 9999,
+      country: r.country || '',
+      rows: [],
+    });
+    playerMap.get(id).rows.push(r);
+  });
+
+  // Skill-level avg COR across all courses (for composite weighting)
+  const skillCorTotals = {};
+  SKILL_KEYS.forEach(sk => {
+    let sum = 0, cnt = 0;
+    corWeights.forEach((val, k) => {
+      if (k.endsWith(`||${sk}`) && val > 0) { sum += val; cnt++; }
+    });
+    skillCorTotals[sk] = cnt > 0 ? sum / cnt : 0;
+  });
+
+  return [...playerMap.values()].map(p => {
+    const scores = {};
+    SKILL_KEYS.forEach(sk => {
+      let wSum = 0, wTot = 0;
+      p.rows.forEach(r => {
+        const course = normalizeCourse((r.course_name || '').trim());
+        const cor = corWeights.get(`${course}||${sk}`);
+        const sgRaw = r[FIELD_SKILL_MAP[sk]];
+        if (cor == null || cor <= 0 || sgRaw === '' || sgRaw == null) return;
+        const sg = parseFloat(sgRaw);
+        if (isNaN(sg)) return;
+        wSum += sg * cor;
+        wTot += cor;
+      });
+      scores[sk] = wTot > 0 ? wSum / wTot : null;
+    });
+
+    // Composite: skill-COR-weighted avg of the 4 individual skills (excl. total)
+    const indivKeys = ['sg_ott','sg_app','sg_arg','sg_putt'];
+    let cSum = 0, cTot = 0;
+    indivKeys.forEach(sk => {
+      if (scores[sk] == null) return;
+      const w = skillCorTotals[sk] || 0;
+      cSum += scores[sk] * w;
+      cTot += w;
+    });
+    scores.composite = cTot > 0 ? cSum / cTot : null;
+
+    return { ...p, scores };
+  });
+}
+
+function fmtScore(val) {
+  if (val == null) return '—';
+  return (val >= 0 ? '+' : '') + val.toFixed(3);
+}
+
+function scoreColor(val) {
+  if (val == null) return '#aaa';
+  return val >= 0 ? '#006747' : '#c0392b';
+}
+
+function skillBar(val, maxAbs) {
+  if (val == null) return `<div class="player-skill-bar-wrap"></div>`;
+  const pct = Math.min(Math.abs(val) / maxAbs, 1) * 100;
+  const color = val >= 0 ? '#006747' : '#c0392b';
+  return `<div class="player-skill-bar-wrap"><div class="player-skill-bar" style="width:${pct}%;background:${color};"></div></div>`;
+}
+
+function renderPlayers() {
+  if (!allRows.length || !fieldRows.length) return;
+  const players = computePlayerScores();
+
+  // Sort
+  players.sort((a, b) => {
+    if (playerSortCol === 'name') return a.name.localeCompare(b.name) * playerSortDir;
+    const av = a.scores[playerSortCol] ?? -Infinity;
+    const bv = b.scores[playerSortCol] ?? -Infinity;
+    return (av - bv) * playerSortDir;
+  });
+
+  // Update sort listeners to include composite
+  document.querySelectorAll('.player-table th[data-col]').forEach(th => {
+    th.onclick = null;
+    th.addEventListener('click', () => {
+      const col = th.dataset.col;
+      if (col === 'name') return;
+      if (playerSortCol === col) playerSortDir *= -1;
+      else { playerSortCol = col; playerSortDir = -1; }
+      renderPlayers();
+    });
+  });
+
+  // Max abs value per skill + composite for bar scaling
+  const allScoreKeys = [...SKILL_KEYS, 'composite'];
+  const maxAbs = {};
+  allScoreKeys.forEach(sk => {
+    maxAbs[sk] = Math.max(...players.map(p => Math.abs(p.scores[sk] ?? 0)), 0.001);
+  });
+
+  // Cards
+  const cardsWrap = document.getElementById('player-cards-wrap');
+  cardsWrap.innerHTML = players.map(p => {
+    const cv = p.scores.composite;
+    return `
+    <div class="player-card">
+      <div class="player-card-name">${p.name.replace(/,\s*/, ', ')}</div>
+      <div class="player-card-meta">OWGR #${p.owgr === 9999 ? '—' : p.owgr} · ${p.country}</div>
+      <div class="player-skill-row" style="margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid var(--border);">
+        <span class="player-skill-label" style="font-size:8px;">COMP</span>
+        ${skillBar(cv, maxAbs.composite)}
+        <span class="player-skill-val ${cv == null ? 'null' : cv >= 0 ? 'pos' : 'neg'}" style="font-size:11px;">${fmtScore(cv)}</span>
+      </div>
+      ${SKILL_KEYS.map(sk => `
+        <div class="player-skill-row">
+          <span class="player-skill-label">${SKILL_SHORT[sk]}</span>
+          ${skillBar(p.scores[sk], maxAbs[sk])}
+          <span class="player-skill-val ${p.scores[sk] == null ? 'null' : p.scores[sk] >= 0 ? 'pos' : 'neg'}">${fmtScore(p.scores[sk])}</span>
+        </div>`).join('')}
+    </div>`}).join('');
+
+  // Table
+  const tbody = document.getElementById('player-tbody');
+  tbody.innerHTML = players.map(p => {
+    const cv = p.scores.composite;
+    const ccls = cv == null ? 'pt-null' : cv >= 0 ? 'pt-pos' : 'pt-neg';
+    return `
+    <tr>
+      <td><span class="pt-name">${p.name.replace(/,\s*/, ', ')}</span><span class="pt-rank">OWGR #${p.owgr === 9999 ? '—' : p.owgr} · ${p.country}</span></td>
+      <td class="${ccls}" style="font-size:13px;">${fmtScore(cv)}</td>
+      ${SKILL_KEYS.map(sk => {
+        const v = p.scores[sk];
+        const cls = v == null ? 'pt-null' : v >= 0 ? 'pt-pos' : 'pt-neg';
+        return `<td class="${cls}">${fmtScore(v)}</td>`;
+      }).join('')}
+    </tr>`}).join('');
+
+  // Update sort header highlights
+  document.querySelectorAll('.player-table th[data-col]').forEach(th => {
+    th.classList.toggle('sort-active', th.dataset.col === playerSortCol);
+  });
+
+  notifyHeight();
 }
 
 // ── Auto-resize for WordPress iframe embed ────────────────────

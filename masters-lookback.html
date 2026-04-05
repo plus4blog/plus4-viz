@@ -1122,8 +1122,8 @@ function hideCallout() {
 
 // ── Player Lead-In Section ────────────────────────────────────
 let fieldRows     = [];   // raw rows from field CSV
-let playerSortCol = 'composite';
-let playerSortDir = -1;   // -1 = desc
+let playerSortCol = 'owgr';
+let playerSortDir = 1;    // 1 = asc (OWGR 1 first)
 
 const FIELD_SKILL_MAP = {
   sg_ott:   'sg_ott_vs_expected',
@@ -1330,7 +1330,7 @@ function renderPlayers() {
       const col = th.dataset.col;
       if (col === 'name') return;
       if (playerSortCol === col) playerSortDir *= -1;
-      else { playerSortCol = col; playerSortDir = -1; }
+      else { playerSortCol = col; playerSortDir = col === 'owgr' ? 1 : -1; }
       renderPlayers();
     });
     th.classList.toggle('sort-active', th.dataset.col === playerSortCol);

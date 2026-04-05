@@ -194,7 +194,7 @@
   .hm-col-header {
     background: var(--surface);
     border-bottom: 1px solid var(--border);
-    padding: 10px 6px;
+    padding: 7px 6px;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 10px;
     font-weight: 600;
@@ -231,16 +231,16 @@
     white-space: normal;
     word-break: break-word;
     line-height: 1.3;
-    padding: 8px 12px 8px 14px;
-    min-height: 44px;
+    padding: 4px 12px 4px 14px;
+    min-height: 28px;
     align-items: flex-start;
-    padding-top: 10px;
+    padding-top: 5px;
   }
   .hm-cell {
     border-bottom: 1px solid rgba(0,0,0,0.06);
     border-right: 1px solid rgba(0,0,0,0.06);
     padding: 0;
-    min-height: 48px;
+    min-height: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -390,7 +390,7 @@
 <div class="intro-callout">
   <div class="intro-callout-inner" style="padding-top:20px;padding-bottom:20px;">
     <p style="font-family:'IBM Plex Sans',sans-serif;font-size:14px;line-height:1.7;color:var(--label);">
-      Every year around Masters week the internet fills up with "15 trends that tell you who will win." The problem? They tell you nothing about <em>where</em> and <em>why</em> players are outperforming leading up to Augusta. +4 takes a more scientific approach. We go year by year — looking at the 16 weeks before the Masters — and ask a simple question: <strong>where did the players who succeeded at Augusta also outperform their own baseline?</strong> We then score each lead-in event by how strongly that outperformance correlated with Masters success. What you see below is what the data actually says.
+      Every year around Masters week the internet fills up with "15 trends that tell you who will win." The problem? None of it tells you <em>where</em> players are actually building form. Plus4 scores every lead-in event across the 16 weeks before Augusta — year by year — to answer one question: <strong>where did the players who succeeded at Augusta also outperform their own baseline?</strong> What you see below is what the data says.
     </p>
     <p style="font-family:'IBM Plex Sans',sans-serif;font-size:11px;line-height:1.6;color:var(--muted);margin-top:12px;font-style:italic;">
       Note: 2020 data has been excluded from this analysis. That year's Masters was held in November rather than April, and Augusta National's conditions — and the field's lead-in schedule — were materially different from a standard spring Masters.
@@ -476,10 +476,12 @@ let activeView     = 'course';  // 'week' | 'course'
 
 // ── Helpers ───────────────────────────────────────────────────
 function normalizeCourse(name) {
-  const upper = name.toUpperCase().replace(/\s+/g, ' ');
-  // Merge PGA National variants
+  let upper = name.toUpperCase().replace(/\s+/g, ' ');
+  // Merge PGA National variants (keep the full name before stripping)
   if (upper.includes('PGA NATIONAL') && (upper.includes('CHAMPION') || upper.includes('THE CHAMPION')))
-    return 'PGA NATIONAL - CHAMPION COURSE';
+    upper = 'PGA NATIONAL';
+  // Strip suffix after " - " or " ("
+  upper = upper.replace(/\s*[-–]\s.*$/, '').replace(/\s*\(.*$/, '').trim();
   return upper;
 }
 

@@ -600,6 +600,18 @@ let allRows        = [];
 let activeYears    = [];        // multi-select; defaults to ALL years
 let activeTour     = 'pga';     // single-select; defaults to PGA
 
+// ── Country flag lookup ───────────────────────────────────────
+const COUNTRY_FLAG = {
+  AUS:'🇦🇺', AUT:'🇦🇹', CAN:'🇨🇦', CHN:'🇨🇳', COL:'🇨🇴',
+  DEN:'🇩🇰', ENG:'🏴󠁧󠁢󠁥󠁮󠁧󠁿', ESP:'🇪🇸', FIJ:'🇫🇯', FIN:'🇫🇮',
+  IRL:'🇮🇪', JPN:'🇯🇵', KOR:'🇰🇷', MEX:'🇲🇽', NIR:'🇬🇧',
+  NOR:'🇳🇴', NZL:'🇳🇿', RSA:'🇿🇦', SCO:'🏴󠁧󠁢󠁳󠁣󠁴󠁿', SWE:'🇸🇪',
+  USA:'🇺🇸', WAL:'🏴󠁧󠁢󠁷󠁬󠁳󠁿',
+};
+function countryFlag(code) {
+  return COUNTRY_FLAG[code] || code;
+}
+
 // ── Helpers ───────────────────────────────────────────────────
 function normalizeCourse(name) {
   let upper = name.toUpperCase().replace(/\s+/g, ' ');
@@ -1306,14 +1318,16 @@ function renderPlayers() {
     maxAbs[sk] = Math.max(...activePlayers.map(p => Math.abs(p.scores[sk] ?? 0)), 0.001);
   });
 
-  // Cards
+  // Cards — always sorted by OWGR
+  const cardPlayers = [...activePlayers].sort((a, b) =>
+    (a.owgr === 9999 ? Infinity : a.owgr) - (b.owgr === 9999 ? Infinity : b.owgr));
   const cardsWrap = document.getElementById('player-cards-wrap');
-  cardsWrap.innerHTML = activePlayers.map(p => {
+  cardsWrap.innerHTML = cardPlayers.map(p => {
     const cv = p.scores.composite;
     return `
     <div class="player-card">
       <div class="player-card-name">${p.name.replace(/,\s*/, ', ')}</div>
-      <div class="player-card-meta">${p.owgr === 9999 ? '' : `OWGR #${p.owgr} · `}${p.country}</div>
+      <div class="player-card-meta">${p.owgr === 9999 ? '' : `OWGR #${p.owgr} · `}${countryFlag(p.country)}</div>
       <div class="player-skill-row" style="margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid var(--border);">
         <span class="player-skill-label" style="font-size:8px;">COMP</span>
         ${skillBar(cv, maxAbs.composite)}
@@ -1334,7 +1348,7 @@ function renderPlayers() {
     const ccls = cv == null ? 'pt-null' : cv >= 0 ? 'pt-pos' : 'pt-neg';
     return `
     <tr>
-      <td><span class="pt-name">${p.name.replace(/,\s*/, ', ')}</span><span class="pt-rank">${p.country}</span></td>
+      <td><span class="pt-name">${p.name.replace(/,\s*/, ', ')}</span><span class="pt-rank">${countryFlag(p.country)}</span></td>
       <td style="text-align:right;color:var(--muted);font-weight:400;">${p.owgr === 9999 ? '—' : p.owgr}</td>
       <td class="${ccls}" style="font-size:13px;">${fmtScore(cv)}</td>
       ${SKILL_KEYS.map(sk => {

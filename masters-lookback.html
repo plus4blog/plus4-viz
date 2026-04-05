@@ -1006,6 +1006,16 @@ function positionCallout(cx, cy) {
 function hideCallout() {
   callout.classList.remove('visible');
 }
+
+// ── Auto-resize for WordPress iframe embed ────────────────────
+function notifyHeight() {
+  const h = document.documentElement.scrollHeight;
+  window.parent.postMessage({ type: 'plus4-resize', height: h }, '*');
+}
+// Fire after initial render and whenever content changes
+const resizeObserver = new ResizeObserver(notifyHeight);
+resizeObserver.observe(document.body);
+window.addEventListener('load', notifyHeight);
 </script>
 </body>
 </html>

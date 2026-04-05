@@ -389,16 +389,16 @@
 <!-- INTRO -->
 <div class="intro-callout">
   <div class="intro-callout-inner" style="padding-top:20px;padding-bottom:20px;">
-    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:14px;line-height:1.7;color:var(--label);max-width:760px;">
+    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:14px;line-height:1.7;color:var(--label);">
       Every year around Masters week the internet fills up with "15 trends that tell you who will win." The problem? They tell you nothing about <em>where</em> and <em>why</em> players are outperforming leading up to Augusta. +4 takes a more scientific approach. We go year by year — looking at the 16 weeks before the Masters — and ask a simple question: <strong>where did the players who succeeded at Augusta also outperform their own baseline?</strong> We then score each lead-in event by how strongly that outperformance correlated with Masters success. What you see below is what the data actually says.
     </p>
-    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:11px;line-height:1.6;color:var(--muted);max-width:760px;margin-top:12px;font-style:italic;">
+    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:11px;line-height:1.6;color:var(--muted);margin-top:12px;font-style:italic;">
       Note: 2020 data has been excluded from this analysis. That year's Masters was held in November rather than April, and Augusta National's conditions — and the field's lead-in schedule — were materially different from a standard spring Masters.
     </p>
 
     <div style="margin-top:20px;">
       <div class="lb-section-title" style="margin-bottom:10px;">Key Findings</div>
-      <ul style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.75;color:var(--label);max-width:760px;padding-left:18px;list-style:none;">
+      <ul style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.75;color:var(--label);padding-left:18px;list-style:none;">
         <li style="padding:8px 0;border-bottom:1px solid var(--border);padding-left:0;display:flex;gap:10px;">
           <span style="color:#006747;font-weight:700;flex-shrink:0;">▸</span>
           <span><strong>Off the tee is the clearest leading signal.</strong> Overperforming your own baseline off the tee — at venues like TPC Sawgrass, Innisbrook, and Memorial Park — correlates strongly and consistently with success at Augusta National. Players driving it well above their norm in the lead-in weeks tend to carry that advantage straight to Augusta.</span>
@@ -426,17 +426,9 @@
   <!-- TREND CHART -->
   <div style="margin-bottom:20px;">
     <div class="lb-section-title" style="margin-bottom:6px;">Cumulative Lead-In Correlation</div>
-    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.6;color:var(--label);max-width:680px;">
+    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.6;color:var(--label);">
       Each line shows the <strong>running total of overperformance correlation</strong> across the 16 weeks before Augusta — stacking up week by week as Masters Sunday gets closer. A steep climb near the right means the signal gets stronger in the final weeks. A line that rises steadily from the start means sustained form across the whole window is what predicts Augusta success for that skill.
     </p>
-  </div>
-  <div class="lb-section-title" id="chart-title">Cumulative COR Score — Total</div>
-  <div class="chart-skill-toggle" id="chart-skill-group">
-    <button class="lb-btn" data-chartskill="sg_ott">Off Tee</button>
-    <button class="lb-btn" data-chartskill="sg_app">Approach</button>
-    <button class="lb-btn" data-chartskill="sg_arg">Around Green</button>
-    <button class="lb-btn" data-chartskill="sg_putt">Putting</button>
-    <button class="lb-btn active" data-chartskill="sg_total">Total</button>
   </div>
   <div class="trend-wrap">
     <canvas id="trend-chart"></canvas>
@@ -452,7 +444,7 @@
   <!-- PER-PLAYER ANALYSIS -->
   <div style="margin-top:48px;">
     <div class="lb-section-title" style="margin-bottom:6px;">2026 Masters — Player Lead-In Analysis</div>
-    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.6;color:var(--label);max-width:680px;margin-bottom:20px;">
+    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.6;color:var(--label);margin-bottom:20px;">
       For each player in the 2026 Masters field, how has their form at the courses that matter for Augusta National tracked over the 16-week lead-in window — and what does it signal heading into Masters week?
     </p>
     <div style="border:1px solid var(--border);border-radius:10px;background:var(--surface);padding:48px 32px;text-align:center;">
@@ -481,10 +473,16 @@ let allRows        = [];
 let activeYears    = [];        // multi-select; defaults to ALL years
 let activeTour     = 'pga';     // single-select; defaults to PGA
 let activeView     = 'course';  // 'week' | 'course'
-let activeChartSkill = 'sg_total';
-let cachedRows     = [];        // last filtered rows for chart-only re-render
 
 // ── Helpers ───────────────────────────────────────────────────
+function normalizeCourse(name) {
+  const upper = name.toUpperCase().replace(/\s+/g, ' ');
+  // Merge PGA National variants
+  if (upper.includes('PGA NATIONAL') && (upper.includes('CHAMPION') || upper.includes('THE CHAMPION')))
+    return 'PGA NATIONAL - CHAMPION COURSE';
+  return upper;
+}
+
 function parseCor(str) {
   if (!str) return null;
   const s = str.trim();
@@ -533,7 +531,7 @@ Papa.parse('data/masters_lookback_detail.csv', {
       skill:  (r['Skill'] || '').trim().toLowerCase(),
       cor:    parseCor(r['COR Score']),
       sample: parseInt(r['Sample'], 10) || 0,
-      course: (r['Course Name'] || '').trim(),
+      course: normalizeCourse((r['Course Name'] || '').trim()),
     })).filter(r => r.week <= 16 && r.year !== 2020); // 2020 excluded — November Masters
 
     buildYearButtons();
@@ -631,7 +629,7 @@ function renderInsights(_rows) {
   container.innerHTML = signals.map(s => `
     <div class="insight-card">
       <div class="insight-skill">${SKILL_LABELS[s.skill] || s.skill}</div>
-      <div class="insight-course">${titleCase(s.course)}</div>
+      <div class="insight-course">${s.course}</div>
       <div class="insight-score">${corStr(s.avg)}</div>
       <div class="insight-count">avg across ${s.count} vintages</div>
       ${s.avgWeek != null ? `<div class="insight-count" style="margin-top:5px;color:var(--accent);">Typically ${s.avgWeek === 1 ? '1 week' : s.avgWeek + ' weeks'} before The Masters</div>` : ''}
@@ -639,22 +637,9 @@ function renderInsights(_rows) {
   `).join('');
 }
 
-// ── Chart skill toggle ────────────────────────────────────────
-document.getElementById('chart-skill-group').addEventListener('click', e => {
-  const btn = e.target.closest('.lb-btn');
-  if (!btn) return;
-  activeChartSkill = btn.dataset.chartskill;
-  document.querySelectorAll('#chart-skill-group .lb-btn').forEach(b =>
-    b.classList.toggle('active', b.dataset.chartskill === activeChartSkill));
-  document.getElementById('chart-title').textContent =
-    `Cumulative COR Score — ${SKILL_LABELS[activeChartSkill]}`;
-  renderTrendChart(cachedRows);
-});
-
-// ── Trend chart — single skill, Masters palette ───────────────
+// ── Trend chart — all 5 skills, Masters palette ──────────────
 let trendChart = null;
 
-// Masters-themed colors per skill
 const SKILL_COLORS = {
   sg_ott:   '#006747',  // Augusta green
   sg_app:   '#c9a227',  // Masters gold
@@ -664,8 +649,6 @@ const SKILL_COLORS = {
 };
 
 function renderTrendChart(rows) {
-  cachedRows = rows;
-
   // Avg COR per (floored week, skill) — includes negatives
   const avgBucket = new Map();
   rows.forEach(r => {
@@ -680,46 +663,42 @@ function renderTrendChart(rows) {
 
   // Descending (16→1) so cumulative builds left→right on reversed axis
   const allWeeks = [...new Set(rows.map(r => Math.floor(r.week)))].sort((a, b) => b - a);
-  const color    = SKILL_COLORS[activeChartSkill];
 
-  let cum = 0;
-  const lineData = allWeeks.map(wk => {
-    const b   = avgBucket.get(`${wk}||${activeChartSkill}`);
-    const avg = b ? b.sum / b.count : 0;
-    cum += avg;
-    return { x: wk, y: parseFloat(cum.toFixed(3)) };
+  const datasets = SKILL_KEYS.flatMap(sk => {
+    const color = SKILL_COLORS[sk];
+    let cum = 0;
+    const lineData = allWeeks.map(wk => {
+      const b = avgBucket.get(`${wk}||${sk}`);
+      cum += b ? b.sum / b.count : 0;
+      return { x: wk, y: parseFloat(cum.toFixed(3)) };
+    });
+    return [
+      {
+        type: 'scatter',
+        label: `_${sk}`,
+        data: rows.filter(r => r.skill === sk && r.cor != null)
+                  .map(r => ({ x: Math.floor(r.week), y: r.cor })),
+        backgroundColor: color + '25',
+        pointRadius: 3,
+        pointHoverRadius: 0,
+        order: 2,
+      },
+      {
+        type: 'line',
+        label: SKILL_LABELS[sk],
+        data: lineData,
+        borderColor: color,
+        backgroundColor: 'transparent',
+        borderWidth: sk === 'sg_total' ? 3 : 2,
+        borderDash: sk === 'sg_total' ? [5, 3] : [],
+        pointRadius: 0,
+        pointHoverRadius: 5,
+        pointHoverBackgroundColor: color,
+        tension: 0.3,
+        order: 1,
+      },
+    ];
   });
-
-  // Individual course COR dots for the active skill
-  const dotData = rows
-    .filter(r => r.skill === activeChartSkill && r.cor != null)
-    .map(r => ({ x: Math.floor(r.week), y: r.cor }));
-
-  const datasets = [
-    {
-      type: 'scatter',
-      label: '_dots',
-      data: dotData,
-      backgroundColor: color + '30',
-      pointRadius: 3.5,
-      pointHoverRadius: 0,
-      order: 2,
-    },
-    {
-      type: 'line',
-      label: SKILL_LABELS[activeChartSkill],
-      data: lineData,
-      borderColor: color,
-      backgroundColor: color + '18',
-      fill: true,
-      borderWidth: 3.5,
-      pointRadius: 0,
-      pointHoverRadius: 6,
-      pointHoverBackgroundColor: color,
-      tension: 0.3,
-      order: 1,
-    },
-  ];
 
   const ctx = document.getElementById('trend-chart').getContext('2d');
 
@@ -738,7 +717,19 @@ function renderTrendChart(rows) {
       animation: { duration: 400 },
       interaction: { mode: 'index', intersect: false, axis: 'x' },
       plugins: {
-        legend: { display: false },
+        legend: {
+          position: 'right',
+          labels: {
+            filter: item => !item.text.startsWith('_'),
+            font: { family: "'IBM Plex Sans', sans-serif", size: 11 },
+            color: '#11181F',
+            boxWidth: 24,
+            boxHeight: 3,
+            padding: 12,
+            usePointStyle: true,
+            pointStyle: 'line',
+          },
+        },
         tooltip: {
           filter: item => !item.dataset.label.startsWith('_'),
           backgroundColor: '#fff',
@@ -904,7 +895,7 @@ function renderCourseHeatmap(rows) {
   courses.forEach(course => {
     const rowLabel = document.createElement('div');
     rowLabel.className = 'hm-row-label';
-    rowLabel.textContent = titleCase(course);
+    rowLabel.textContent = course;
     grid.appendChild(rowLabel);
 
     SKILL_KEYS.forEach(sk => {
@@ -913,7 +904,7 @@ function renderCourseHeatmap(rows) {
       const points = bucket
         ? bucket.points.slice().sort((a, b) => a.week - b.week)
         : [];
-      const label = `${SKILL_LABELS[sk]} · ${titleCase(course)}`;
+      const label = `${SKILL_LABELS[sk]} · ${course}`;
       grid.appendChild(makeCell(avg, label, points, 'course', course, sk));
     });
   });
@@ -999,7 +990,7 @@ function showCallout(ev, title, data, mode) {
     // data = [{name, avg}] — courses
     calloutBdy.innerHTML = data.map(c => `
       <div class="callout-course-row">
-        <span class="callout-course-name" title="${c.name}">${titleCase(c.name)}</span>
+        <span class="callout-course-name" title="${c.name}">${c.name}</span>
         <span class="callout-course-score${c.avg < 0 ? ' neg' : ''}">${corStr(c.avg)}</span>
       </div>
     `).join('');

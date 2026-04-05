@@ -527,7 +527,7 @@ Papa.parse('data/masters_lookback_detail.csv', {
       cor:    parseCor(r['COR Score']),
       sample: parseInt(r['Sample'], 10) || 0,
       course: normalizeCourse((r['Course Name'] || '').trim()),
-    })).filter(r => r.week <= 16 && r.year !== 2020); // 2020 excluded — November Masters
+    })).filter(r => r.week <= 16 && r.year !== 2020 && !r.course.includes('SEA ISLAND')); // 2020 excluded — November Masters
 
     buildYearButtons();
     render();

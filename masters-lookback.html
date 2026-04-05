@@ -476,9 +476,9 @@
 <!-- JUMP NAV -->
 <div style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;padding:12px 20px;background:var(--surface);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
   <span style="color:var(--muted);font-size:12px;white-space:nowrap;">Skip to →</span>
-  <a href="#section-analysis" style="color:var(--accent);text-decoration:none;padding:4px 10px;border:1px solid var(--accent);border-radius:4px;white-space:nowrap;font-size:12px;">📖 Our Analysis</a>
-  <a href="#section-courses" style="color:var(--accent);text-decoration:none;padding:4px 10px;border:1px solid var(--accent);border-radius:4px;white-space:nowrap;font-size:12px;">🗺️ Which Courses Matter</a>
-  <a href="#section-players" style="color:var(--accent);text-decoration:none;padding:4px 10px;border:1px solid var(--accent);border-radius:4px;white-space:nowrap;font-size:12px;">🏌️ Who Should Benefit at the 2026 Masters</a>
+  <button onclick="document.getElementById('section-analysis').scrollIntoView({behavior:'smooth'})" style="cursor:pointer;color:var(--accent);background:none;border:1px solid var(--accent);border-radius:4px;padding:4px 10px;white-space:nowrap;font-size:12px;font-family:inherit;">📖 Our Analysis</button>
+  <button onclick="document.getElementById('section-courses').scrollIntoView({behavior:'smooth'})" style="cursor:pointer;color:var(--accent);background:none;border:1px solid var(--accent);border-radius:4px;padding:4px 10px;white-space:nowrap;font-size:12px;font-family:inherit;">🗺️ Which Courses Matter</button>
+  <button onclick="document.getElementById('section-players').scrollIntoView({behavior:'smooth'})" style="cursor:pointer;color:var(--accent);background:none;border:1px solid var(--accent);border-radius:4px;padding:4px 10px;white-space:nowrap;font-size:12px;font-family:inherit;">🏌️ Who Should Benefit at the 2026 Masters</button>
 </div>
 
 <!-- INTRO -->
@@ -540,14 +540,8 @@
   <!-- PER-PLAYER ANALYSIS -->
   <div style="margin-top:48px;" id="section-players">
     <div class="lb-section-title" style="margin-bottom:6px;">2026 Masters — Augusta-Weighted Lead-In Form</div>
-    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.6;color:var(--label);margin-bottom:4px;">
-      Each player's weighted lead-in score across 2026 events — courses with stronger historical correlation to Augusta performance carry more weight. Click any row to see their event-by-event breakdown.
-    </p>
-    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:11px;color:var(--muted);margin-bottom:4px;font-style:italic;">
-      All values show strokes gained +/− vs. each player's own expected baseline. Opportunity-adjusted: same denominator for all players so more relevant events played = higher score.
-    </p>
-    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:11px;color:var(--muted);margin-bottom:14px;">
-      <strong style="color:var(--accent);">&#9733;</strong> Strong Augusta signal &nbsp;·&nbsp; Events at courses with no historical data use a week-proximity weight estimate
+    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.6;color:var(--label);margin-bottom:14px;">
+      How sharp is each player's game heading into Augusta? These scores measure how much each player has outperformed their own normal level at courses that historically point to Masters performance. A higher number means they've been hitting it and scoring better than usual at the venues that tend to matter. Click any row to see their tournament-by-tournament breakdown.
     </p>
     <div class="player-table-wrap">
       <table class="player-table" id="player-table">
@@ -555,16 +549,21 @@
           <tr>
             <th data-col="name">Player</th>
             <th data-col="owgr">OWGR</th>
-            <th data-col="sg_total" style="color:var(--accent);">&#9733; Total</th>
-            <th data-col="sg_ott" style="color:var(--accent);">&#9733; OTT</th>
-            <th data-col="sg_app">APP</th>
-            <th data-col="sg_arg">ARG</th>
-            <th data-col="sg_putt">Putt</th>
+            <th data-col="sg_total" style="color:var(--accent);" title="Overall strokes gained vs. baseline — scaled by Augusta relevance">&#9733; Total SG</th>
+            <th data-col="sg_ott" style="color:var(--accent);" title="Off-the-tee strokes gained vs. baseline — strongest Augusta predictor">&#9733; Off Tee</th>
+            <th data-col="sg_app" title="Approach / iron play strokes gained vs. baseline">Approach</th>
+            <th data-col="sg_arg" title="Around-the-green strokes gained vs. baseline">Around Green</th>
+            <th data-col="sg_putt" title="Putting strokes gained vs. baseline — weak Augusta signal">Putting</th>
           </tr>
         </thead>
         <tbody id="player-tbody"></tbody>
       </table>
     </div>
+    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:11px;color:var(--muted);margin-top:10px;line-height:1.7;">
+      <strong style="color:var(--accent);">&#9733;</strong> = strong Augusta predictor &nbsp;·&nbsp;
+      Each number is how many strokes per round a player outperformed their own norm, weighted by how predictive that tournament's course is for Augusta &nbsp;·&nbsp;
+      <em>~wk N est.</em> (in event detail) = no historical data for that course; estimated from how close it was to Masters week
+    </p>
   </div>
 
 </div>
@@ -1137,8 +1136,8 @@ function hideCallout() {
 
 // ── Player Lead-In Section ────────────────────────────────────
 let fieldRows     = [];   // raw rows from field CSV
-let playerSortCol = 'sg_total';
-let playerSortDir = -1;   // -1 = desc (highest score first)
+let playerSortCol = 'owgr';
+let playerSortDir = 1;    // 1 = asc (OWGR 1 first)
 
 const FIELD_SKILL_MAP = {
   sg_ott:   'sg_ott_vs_expected',
@@ -1289,6 +1288,14 @@ function scoreColor(val) {
   return val >= 0 ? '#006747' : '#c0392b';
 }
 
+function scoreBg(val) {
+  // Heatmap background: transparent at 0, saturated green/red at ±0.08
+  if (val == null) return '';
+  const t = Math.min(Math.abs(val) / 0.08, 1);
+  const alpha = (t * 0.38).toFixed(2);
+  return val >= 0 ? `rgba(0,103,71,${alpha})` : `rgba(192,57,43,${alpha})`;
+}
+
 
 function accordionDetail(p) {
   // Sort events most recent first (closest to Masters)
@@ -1298,7 +1305,7 @@ function accordionDetail(p) {
   const colLabels = ['Total','OTT','APP','ARG','Putt'];
   return `
     <div class="pt-accordion-inner">
-      <div class="accordion-label">SG +/− vs player's expected baseline · 2026 lead-in events · <span style="color:var(--muted);">~est. = week-proximity weight (no course history)</span></div>
+      <div class="accordion-label">SG +/− vs player's own expected baseline · 2026 lead-in events</div>
       <table class="accordion-table">
         <thead><tr>
           <th>Course</th>
@@ -1356,7 +1363,9 @@ function renderPlayers() {
       <td style="text-align:right;color:var(--muted);font-weight:400;">${p.owgr === 9999 ? '—' : p.owgr}</td>
       ${PLAYER_TABLE_SKILL_ORDER.map(sk => {
         const v = p.scores[sk];
-        return `<td class="${v == null ? 'pt-null' : v >= 0 ? 'pt-pos' : 'pt-neg'}">${fmtScore(v)}</td>`;
+        const bg = scoreBg(v);
+        const cls = v == null ? 'pt-null' : v >= 0 ? 'pt-pos' : 'pt-neg';
+        return `<td class="${cls}"${bg ? ` style="background:${bg};"` : ''}>${fmtScore(v)}</td>`;
       }).join('')}
     </tr>
     <tr class="pt-accordion-row" data-for="${i}">

@@ -343,78 +343,6 @@
   .intro-callout { border-bottom: 1px solid var(--border); }
 
   /* ── PLAYER SECTION ──────────────────────────────────────── */
-  .player-view-toggle { display:flex; gap:6px; margin-bottom:16px; }
-
-  /* Cards */
-  .player-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 12px;
-  }
-  .player-card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 14px 16px;
-    cursor: default;
-  }
-  .player-card-name {
-    font-family: 'Archivo Narrow', sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 2px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  .player-card-meta {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 10px;
-    color: var(--muted);
-    margin-bottom: 10px;
-    letter-spacing: 0.08em;
-  }
-  .player-skill-row {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    margin-bottom: 5px;
-  }
-  .player-skill-label {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 9px;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--muted);
-    width: 36px;
-    flex-shrink: 0;
-  }
-  .player-skill-bar-wrap {
-    flex: 1;
-    height: 6px;
-    background: rgba(0,0,0,0.06);
-    border-radius: 3px;
-    overflow: hidden;
-    position: relative;
-  }
-  .player-skill-bar {
-    height: 100%;
-    border-radius: 3px;
-    transition: width 0.3s;
-  }
-  .player-skill-val {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 10px;
-    font-weight: 600;
-    width: 40px;
-    text-align: right;
-    flex-shrink: 0;
-  }
-  .player-skill-val.pos { color: #006747; }
-  .player-skill-val.neg { color: #c0392b; }
-  .player-skill-val.null { color: var(--muted); }
 
   /* Table */
   .player-table-wrap { overflow-x: auto; }
@@ -450,14 +378,64 @@
   .player-table tr:last-child td { border-bottom: none; }
   .player-table tr:hover td { background: rgba(0,103,71,0.04); }
   .pt-name { font-family: 'Archivo Narrow', sans-serif; font-size: 14px; font-weight: 700; }
-  .pt-rank { font-size: 10px; color: var(--muted); display: block; }
+  .pt-rank { font-size: 13px; color: var(--muted); display: block; }
   .pt-pos { color: #006747; }
   .pt-neg { color: #c0392b; }
   .pt-null { color: var(--muted); font-weight: 400 !important; }
+  .pt-expand { color: var(--muted); font-size: 9px; margin-right: 6px; display: inline-block; transition: transform 0.18s; }
+  .pt-row.open .pt-expand { transform: rotate(90deg); }
+  .pt-row { cursor: pointer; }
+  .pt-row.open > td { background: rgba(0,103,71,0.05); }
 
-  @media (max-width: 600px) {
-    .player-cards { grid-template-columns: 1fr 1fr; }
+  /* Accordion detail */
+  .pt-accordion-row { display: none; }
+  .pt-accordion-row.open { display: table-row; }
+  .pt-accordion-inner {
+    padding: 12px 16px 16px 32px;
+    background: rgba(0,103,71,0.03);
+    border-bottom: 2px solid rgba(0,103,71,0.15);
   }
+  .accordion-label {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .accordion-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 11px;
+  }
+  .accordion-table th {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding: 4px 8px;
+    text-align: right;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  .accordion-table th:first-child { text-align: left; }
+  .accordion-table td {
+    padding: 5px 8px;
+    text-align: right;
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+    font-weight: 600;
+  }
+  .accordion-table td:first-child { text-align: left; font-weight: 400; color: var(--label); }
+  .accordion-table tr:last-child td { border-bottom: none; }
+  .ac-pos { color: #006747; }
+  .ac-neg { color: #c0392b; }
+  .ac-null { color: var(--muted); font-weight: 400; }
+  .ac-course { font-size: 11px; }
+  .ac-date { font-size: 10px; color: var(--muted); }
+
     .lb-filters { padding: 10px 16px; }
     .lb-wrap { padding: 20px 16px 40px; }
     .hm-row-label { font-size: 10px; padding: 0 10px; }
@@ -553,15 +531,13 @@
   <!-- PER-PLAYER ANALYSIS -->
   <div style="margin-top:48px;">
     <div class="lb-section-title" style="margin-bottom:6px;">2026 Masters — Augusta-Weighted Lead-In Form</div>
-    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.6;color:var(--label);margin-bottom:16px;">
-      Each player's SG vs. their own baseline at every 2026 lead-in event, weighted by that course's historical correlation to Augusta performance. Courses that matter more for Augusta carry more weight.
+    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.6;color:var(--label);margin-bottom:4px;">
+      Each player's weighted lead-in score across 2026 events — courses with stronger historical correlation to Augusta performance carry more weight. Click any row to see their event-by-event breakdown.
     </p>
-    <div class="player-view-toggle">
-      <button class="lb-btn active" id="pv-card">Cards</button>
-      <button class="lb-btn" id="pv-table">Table</button>
-    </div>
-    <div id="player-cards-wrap" class="player-cards"></div>
-    <div id="player-table-wrap" class="player-table-wrap" style="display:none;">
+    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:11px;color:var(--muted);margin-bottom:14px;font-style:italic;">
+      All values show strokes gained +/− vs. each player's own expected baseline.
+    </p>
+    <div class="player-table-wrap">
       <table class="player-table" id="player-table">
         <thead>
           <tr>
@@ -1146,7 +1122,6 @@ function hideCallout() {
 
 // ── Player Lead-In Section ────────────────────────────────────
 let fieldRows     = [];   // raw rows from field CSV
-let playerView    = 'card';
 let playerSortCol = 'composite';
 let playerSortDir = -1;   // -1 = desc
 
@@ -1168,22 +1143,6 @@ Papa.parse('masters_2026_field_context.csv', {
   }
 });
 
-document.getElementById('pv-card').addEventListener('click', () => {
-  playerView = 'card';
-  document.getElementById('pv-card').classList.add('active');
-  document.getElementById('pv-table').classList.remove('active');
-  document.getElementById('player-cards-wrap').style.display = '';
-  document.getElementById('player-table-wrap').style.display = 'none';
-  notifyHeight();
-});
-document.getElementById('pv-table').addEventListener('click', () => {
-  playerView = 'table';
-  document.getElementById('pv-table').classList.add('active');
-  document.getElementById('pv-card').classList.remove('active');
-  document.getElementById('player-cards-wrap').style.display = 'none';
-  document.getElementById('player-table-wrap').style.display = '';
-  notifyHeight();
-});
 
 function buildCorWeights() {
   // Per (normalisedCourse, skill) → sample-weighted avg COR
@@ -1272,18 +1231,45 @@ function scoreColor(val) {
   return val >= 0 ? '#006747' : '#c0392b';
 }
 
-function skillBar(val, maxAbs) {
-  if (val == null) return `<div class="player-skill-bar-wrap"></div>`;
-  const pct = Math.min(Math.abs(val) / maxAbs, 1) * 100;
-  const color = val >= 0 ? '#006747' : '#c0392b';
-  return `<div class="player-skill-bar-wrap"><div class="player-skill-bar" style="width:${pct}%;background:${color};"></div></div>`;
+
+function accordionDetail(p) {
+  // Sort events most recent first (closest to Masters)
+  const events = [...p.rows].sort((a, b) =>
+    (b.event_completed || '').localeCompare(a.event_completed || ''));
+  const cols = ['sg_ott_vs_expected','sg_app_vs_expected','sg_arg_vs_expected','sg_putt_vs_expected','sg_total_vs_expected'];
+  const colLabels = ['OTT','APP','ARG','Putt','Total'];
+  return `
+    <div class="pt-accordion-inner">
+      <div class="accordion-label">SG +/− vs player's expected baseline · 2026 lead-in events</div>
+      <table class="accordion-table">
+        <thead><tr>
+          <th>Course</th>
+          ${colLabels.map(l => `<th>${l}</th>`).join('')}
+        </tr></thead>
+        <tbody>
+          ${events.map(r => {
+            const courseName = normalizeCourse((r.course_name||'').trim());
+            const date = (r.event_completed||'').slice(0,10);
+            return `<tr>
+              <td><span class="ac-course">${courseName}</span> <span class="ac-date">${date}</span></td>
+              ${cols.map(col => {
+                const raw = r[col];
+                if (raw === '' || raw == null) return `<td class="ac-null">—</td>`;
+                const v = parseFloat(raw);
+                if (isNaN(v)) return `<td class="ac-null">—</td>`;
+                return `<td class="${v >= 0 ? 'ac-pos' : 'ac-neg'}">${v >= 0 ? '+' : ''}${v.toFixed(3)}</td>`;
+              }).join('')}
+            </tr>`;
+          }).join('')}
+        </tbody>
+      </table>
+    </div>`;
 }
 
 function renderPlayers() {
   if (!allRows.length || !fieldRows.length) return;
   const players = computePlayerScores();
 
-  // Sort
   // Filter out players with no form data
   const activePlayers = players.filter(p => p.scores.composite != null);
 
@@ -1299,7 +1285,45 @@ function renderPlayers() {
     return (av - bv) * playerSortDir;
   });
 
-  // Update sort listeners to include composite
+  // Build table rows with accordion
+  const tbody = document.getElementById('player-tbody');
+  const NCOLS = 8; // name + owgr + composite + 5 skills
+  tbody.innerHTML = activePlayers.map((p, i) => {
+    const cv = p.scores.composite;
+    const ccls = cv == null ? 'pt-null' : cv >= 0 ? 'pt-pos' : 'pt-neg';
+    return `
+    <tr class="pt-row" data-idx="${i}">
+      <td><span class="pt-expand">▶</span><span class="pt-name">${p.name.replace(/,\s*/, ', ')}</span><span class="pt-rank">${countryFlag(p.country)}</span></td>
+      <td style="text-align:right;color:var(--muted);font-weight:400;">${p.owgr === 9999 ? '—' : p.owgr}</td>
+      <td class="${ccls}" style="font-size:13px;">${fmtScore(cv)}</td>
+      ${SKILL_KEYS.map(sk => {
+        const v = p.scores[sk];
+        return `<td class="${v == null ? 'pt-null' : v >= 0 ? 'pt-pos' : 'pt-neg'}">${fmtScore(v)}</td>`;
+      }).join('')}
+    </tr>
+    <tr class="pt-accordion-row" data-for="${i}">
+      <td colspan="${NCOLS}" style="padding:0;">${accordionDetail(p)}</td>
+    </tr>`;
+  }).join('');
+
+  // Accordion click handlers
+  tbody.querySelectorAll('.pt-row').forEach(row => {
+    row.addEventListener('click', () => {
+      const idx = row.dataset.idx;
+      const accRow = tbody.querySelector(`.pt-accordion-row[data-for="${idx}"]`);
+      const isOpen = row.classList.contains('open');
+      // Close all
+      tbody.querySelectorAll('.pt-row.open').forEach(r => r.classList.remove('open'));
+      tbody.querySelectorAll('.pt-accordion-row.open').forEach(r => r.classList.remove('open'));
+      if (!isOpen) {
+        row.classList.add('open');
+        accRow.classList.add('open');
+      }
+      notifyHeight();
+    });
+  });
+
+  // Sort header listeners
   document.querySelectorAll('.player-table th[data-col]').forEach(th => {
     th.onclick = null;
     th.addEventListener('click', () => {
@@ -1309,57 +1333,6 @@ function renderPlayers() {
       else { playerSortCol = col; playerSortDir = -1; }
       renderPlayers();
     });
-  });
-
-  // Max abs value per skill + composite for bar scaling
-  const allScoreKeys = [...SKILL_KEYS, 'composite'];
-  const maxAbs = {};
-  allScoreKeys.forEach(sk => {
-    maxAbs[sk] = Math.max(...activePlayers.map(p => Math.abs(p.scores[sk] ?? 0)), 0.001);
-  });
-
-  // Cards — always sorted by OWGR
-  const cardPlayers = [...activePlayers].sort((a, b) =>
-    (a.owgr === 9999 ? Infinity : a.owgr) - (b.owgr === 9999 ? Infinity : b.owgr));
-  const cardsWrap = document.getElementById('player-cards-wrap');
-  cardsWrap.innerHTML = cardPlayers.map(p => {
-    const cv = p.scores.composite;
-    return `
-    <div class="player-card">
-      <div class="player-card-name">${p.name.replace(/,\s*/, ', ')}</div>
-      <div class="player-card-meta">${p.owgr === 9999 ? '' : `OWGR #${p.owgr} · `}${countryFlag(p.country)}</div>
-      <div class="player-skill-row" style="margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid var(--border);">
-        <span class="player-skill-label" style="font-size:8px;">COMP</span>
-        ${skillBar(cv, maxAbs.composite)}
-        <span class="player-skill-val ${cv == null ? 'null' : cv >= 0 ? 'pos' : 'neg'}" style="font-size:11px;">${fmtScore(cv)}</span>
-      </div>
-      ${SKILL_KEYS.map(sk => `
-        <div class="player-skill-row">
-          <span class="player-skill-label">${SKILL_SHORT[sk]}</span>
-          ${skillBar(p.scores[sk], maxAbs[sk])}
-          <span class="player-skill-val ${p.scores[sk] == null ? 'null' : p.scores[sk] >= 0 ? 'pos' : 'neg'}">${fmtScore(p.scores[sk])}</span>
-        </div>`).join('')}
-    </div>`}).join('');
-
-  // Table
-  const tbody = document.getElementById('player-tbody');
-  tbody.innerHTML = activePlayers.map(p => {
-    const cv = p.scores.composite;
-    const ccls = cv == null ? 'pt-null' : cv >= 0 ? 'pt-pos' : 'pt-neg';
-    return `
-    <tr>
-      <td><span class="pt-name">${p.name.replace(/,\s*/, ', ')}</span><span class="pt-rank">${countryFlag(p.country)}</span></td>
-      <td style="text-align:right;color:var(--muted);font-weight:400;">${p.owgr === 9999 ? '—' : p.owgr}</td>
-      <td class="${ccls}" style="font-size:13px;">${fmtScore(cv)}</td>
-      ${SKILL_KEYS.map(sk => {
-        const v = p.scores[sk];
-        const cls = v == null ? 'pt-null' : v >= 0 ? 'pt-pos' : 'pt-neg';
-        return `<td class="${cls}">${fmtScore(v)}</td>`;
-      }).join('')}
-    </tr>`}).join('');
-
-  // Update sort header highlights
-  document.querySelectorAll('.player-table th[data-col]').forEach(th => {
     th.classList.toggle('sort-active', th.dataset.col === playerSortCol);
   });
 

@@ -514,10 +514,6 @@
 <!-- CONTENT -->
 <div class="lb-wrap">
 
-  <!-- INSIGHTS -->
-  <div class="lb-section-title">Strongest Lead-In Signals — All Years</div>
-  <div class="insights-cards" id="insights-cards"></div>
-
   <!-- TREND CHART -->
   <div style="margin-bottom:20px;">
     <div class="lb-section-title" style="margin-bottom:6px;">Cumulative Lead-In Correlation</div>
@@ -537,9 +533,20 @@
   </div>
   <div class="lb-meta" id="lb-meta"></div>
 
-  <!-- PER-PLAYER ANALYSIS -->
+  <!-- RISER / FALLER CARDS -->
   <div style="margin-top:48px;" id="section-players">
-    <div class="lb-section-title" style="margin-bottom:6px;">2026 Masters — Augusta-Weighted Lead-In Form</div>
+    <div class="lb-section-title" style="margin-bottom:6px;">Biggest Movers — Total SG &amp; Off Tee Combined</div>
+    <div style="margin-bottom:6px;">
+      <div style="font-family:'IBM Plex Sans',sans-serif;font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;">&#9650; Top 10 Risers</div>
+      <div class="insights-cards" id="riser-cards"></div>
+    </div>
+    <div style="margin-bottom:32px;">
+      <div style="font-family:'IBM Plex Sans',sans-serif;font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;">&#9660; Top 10 Fallers</div>
+      <div class="insights-cards" id="faller-cards"></div>
+    </div>
+
+  <!-- PER-PLAYER ANALYSIS -->
+    <div class="lb-section-title" style="margin-bottom:6px;">2026 Masters — True Lead-In Form</div>
     <p style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.6;color:var(--label);margin-bottom:14px;">
       How sharp is each player's game heading into Augusta? These scores measure how much each player has outperformed their own normal level at courses that historically point to Masters performance. A higher number means they've been hitting it and scoring better than usual at the venues that tend to matter. Click any row to see their tournament-by-tournament breakdown.
     </p>
@@ -706,56 +713,37 @@ document.getElementById('tour-group').addEventListener('click', e => {
 });
 
 
-// ── Insights — always all years/tours, unaffected by filters ──
-function renderInsights(_rows) {
-  // Use full dataset (2020 already stripped at load time)
-  const insightRows = allRows;
-
-  const avgWeekRows = allRows.filter(r => [2023,2024,2025].includes(r.year));
-  const weekLookup  = new Map();
-  avgWeekRows.forEach(r => {
-    const k = `${r.course}||${r.skill}`;
-    if (!weekLookup.has(k)) weekLookup.set(k, { sum: 0, count: 0 });
-    const b = weekLookup.get(k);
-    b.sum += r.week;
-    b.count++;
-  });
-
-  const map = new Map();
-  insightRows.forEach(r => {
-    if (r.cor == null) return;
-    const k = `${r.course}||${r.skill}`;
-    if (!map.has(k)) map.set(k, { course: r.course, skill: r.skill, sum: 0, count: 0 });
-    const e = map.get(k);
-    e.sum += r.cor;
-    e.count++;
-  });
-
-  const signals = [...map.values()]
-    .filter(e => e.count >= 2)
-    .map(e => {
-      const wk = weekLookup.get(`${e.course}||${e.skill}`);
-      return { ...e, avg: e.sum / e.count, avgWeek: wk ? Math.round(wk.sum / wk.count) : null };
+// ── Riser / Faller cards — top & bottom 10 by Total SG + Off Tee ──
+function renderRiserFallerCards(players) {
+  const scored = players
+    .map(p => {
+      const t = p.scores.sg_total;
+      const o = p.scores.sg_ott;
+      const vals = [t, o].filter(v => v != null);
+      const combined = vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : null;
+      return { ...p, combined };
     })
-    .filter(e => e.avg > 0.15)
-    .sort((a, b) => b.avg - a.avg)
-    .slice(0, 8);
+    .filter(p => p.combined != null);
 
-  const container = document.getElementById('insights-cards');
-  if (signals.length === 0) {
-    container.innerHTML = '<p style="color:var(--muted);font-size:13px;">No strong signals found for this selection.</p>';
-    return;
+  const sorted = [...scored].sort((a, b) => b.combined - a.combined);
+  const risers = sorted.slice(0, 10);
+  const fallers = [...sorted].reverse().slice(0, 10);
+
+  function card(p, isRiser) {
+    const sign = p.combined >= 0 ? '+' : '';
+    const scoreColor = isRiser ? '#006747' : '#c0392b';
+    const owgrLabel = p.owgr === 9999 ? 'Unranked' : `OWGR #${p.owgr}`;
+    return `
+      <div class="insight-card">
+        <div class="insight-skill">Total SG &amp; Off Tee</div>
+        <div class="insight-course">${p.name.replace(/,\s*(\S)/, ', $1')}</div>
+        <div class="insight-score" style="color:${scoreColor};">${sign}${p.combined.toFixed(3)}</div>
+        <div class="insight-count">${owgrLabel} ${countryFlag(p.country)}</div>
+      </div>`;
   }
 
-  container.innerHTML = signals.map(s => `
-    <div class="insight-card">
-      <div class="insight-skill">${SKILL_LABELS[s.skill] || s.skill}</div>
-      <div class="insight-course">${s.course}</div>
-      <div class="insight-score">${corStr(s.avg)}</div>
-      <div class="insight-count">avg across ${s.count} vintages</div>
-      ${s.avgWeek != null ? `<div class="insight-count" style="margin-top:5px;color:var(--accent);">Typically ${s.avgWeek === 1 ? '1 week' : s.avgWeek + ' weeks'} before The Masters</div>` : ''}
-    </div>
-  `).join('');
+  document.getElementById('riser-cards').innerHTML = risers.map(p => card(p, true)).join('');
+  document.getElementById('faller-cards').innerHTML = fallers.map(p => card(p, false)).join('');
 }
 
 // ── Trend chart — all 5 skills, Masters palette ──────────────
@@ -906,7 +894,6 @@ function render() {
   let rows = allRows.filter(r => activeYears.includes(r.year));
   if (activeTour !== 'all') rows = rows.filter(r => r.tour === activeTour);
 
-  renderInsights(rows);
   renderTrendChart(rows);
 
   renderCourseHeatmap(rows);
@@ -1337,6 +1324,7 @@ function accordionDetail(p) {
 function renderPlayers() {
   if (!allRows.length || !fieldRows.length) return;
   const players = computePlayerScores();
+  renderRiserFallerCards(players);
 
   // Filter out players with no form data at all
   const activePlayers = players.filter(p => PLAYER_TABLE_SKILL_ORDER.some(sk => p.scores[sk] != null));

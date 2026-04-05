@@ -566,6 +566,7 @@
         <thead>
           <tr>
             <th data-col="name">Player</th>
+            <th data-col="owgr">OWGR</th>
             <th data-col="composite">Composite</th>
             <th data-col="sg_ott">OTT</th>
             <th data-col="sg_app">APP</th>
@@ -1271,8 +1272,16 @@ function renderPlayers() {
   const players = computePlayerScores();
 
   // Sort
-  players.sort((a, b) => {
+  // Filter out players with no form data
+  const activePlayers = players.filter(p => p.scores.composite != null);
+
+  activePlayers.sort((a, b) => {
     if (playerSortCol === 'name') return a.name.localeCompare(b.name) * playerSortDir;
+    if (playerSortCol === 'owgr') {
+      const av = a.owgr === 9999 ? Infinity : a.owgr;
+      const bv = b.owgr === 9999 ? Infinity : b.owgr;
+      return (av - bv) * playerSortDir;
+    }
     const av = a.scores[playerSortCol] ?? -Infinity;
     const bv = b.scores[playerSortCol] ?? -Infinity;
     return (av - bv) * playerSortDir;
@@ -1294,17 +1303,17 @@ function renderPlayers() {
   const allScoreKeys = [...SKILL_KEYS, 'composite'];
   const maxAbs = {};
   allScoreKeys.forEach(sk => {
-    maxAbs[sk] = Math.max(...players.map(p => Math.abs(p.scores[sk] ?? 0)), 0.001);
+    maxAbs[sk] = Math.max(...activePlayers.map(p => Math.abs(p.scores[sk] ?? 0)), 0.001);
   });
 
   // Cards
   const cardsWrap = document.getElementById('player-cards-wrap');
-  cardsWrap.innerHTML = players.map(p => {
+  cardsWrap.innerHTML = activePlayers.map(p => {
     const cv = p.scores.composite;
     return `
     <div class="player-card">
       <div class="player-card-name">${p.name.replace(/,\s*/, ', ')}</div>
-      <div class="player-card-meta">OWGR #${p.owgr === 9999 ? '—' : p.owgr} · ${p.country}</div>
+      <div class="player-card-meta">${p.owgr === 9999 ? '' : `OWGR #${p.owgr} · `}${p.country}</div>
       <div class="player-skill-row" style="margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid var(--border);">
         <span class="player-skill-label" style="font-size:8px;">COMP</span>
         ${skillBar(cv, maxAbs.composite)}
@@ -1320,12 +1329,13 @@ function renderPlayers() {
 
   // Table
   const tbody = document.getElementById('player-tbody');
-  tbody.innerHTML = players.map(p => {
+  tbody.innerHTML = activePlayers.map(p => {
     const cv = p.scores.composite;
     const ccls = cv == null ? 'pt-null' : cv >= 0 ? 'pt-pos' : 'pt-neg';
     return `
     <tr>
-      <td><span class="pt-name">${p.name.replace(/,\s*/, ', ')}</span><span class="pt-rank">OWGR #${p.owgr === 9999 ? '—' : p.owgr} · ${p.country}</span></td>
+      <td><span class="pt-name">${p.name.replace(/,\s*/, ', ')}</span><span class="pt-rank">${p.country}</span></td>
+      <td style="text-align:right;color:var(--muted);font-weight:400;">${p.owgr === 9999 ? '—' : p.owgr}</td>
       <td class="${ccls}" style="font-size:13px;">${fmtScore(cv)}</td>
       ${SKILL_KEYS.map(sk => {
         const v = p.scores[sk];

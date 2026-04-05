@@ -649,16 +649,17 @@ const SKILL_COLORS = {
 };
 
 function renderTrendChart(rows) {
-  // Avg COR per (floored week, skill) — includes negatives
+  // Sample-weighted avg COR per (floored week, skill) — includes negatives
+  // Courses with more shared players carry proportionally more weight
   const avgBucket = new Map();
   rows.forEach(r => {
-    if (r.cor == null) return;
+    if (r.cor == null || r.sample <= 0) return;
     const wk = Math.floor(r.week);
     const k  = `${wk}||${r.skill}`;
-    if (!avgBucket.has(k)) avgBucket.set(k, { sum: 0, count: 0 });
+    if (!avgBucket.has(k)) avgBucket.set(k, { weightedSum: 0, totalSample: 0 });
     const b = avgBucket.get(k);
-    b.sum += r.cor;
-    b.count++;
+    b.weightedSum += r.cor * r.sample;
+    b.totalSample += r.sample;
   });
 
   // Descending (16→1) so cumulative builds left→right on reversed axis
@@ -669,7 +670,7 @@ function renderTrendChart(rows) {
     let cum = 0;
     const lineData = allWeeks.map(wk => {
       const b = avgBucket.get(`${wk}||${sk}`);
-      cum += b ? b.sum / b.count : 0;
+      cum += b ? b.weightedSum / b.totalSample : 0;
       return { x: wk, y: parseFloat(cum.toFixed(3)) };
     });
     return [

@@ -746,24 +746,15 @@ function renderTrendChart(rows) {
           grid: { color: 'rgba(0,0,0,0.04)' },
           title: {
             display: true,
-            text: '← Start of Window    Approaching Masters →',
+            text: '← Beginning of Calendar Year    Approaching Masters →',
             font: { family: "'IBM Plex Sans', sans-serif", size: 10 },
             color: '#6b7c93',
           },
         },
         y: {
-          ticks: {
-            font: { family: "'IBM Plex Sans', sans-serif", size: 10 },
-            color: '#6b7c93',
-            callback: v => (v >= 0 ? '+' : '') + v.toFixed(2),
-          },
+          ticks: { display: false },
           grid: { color: 'rgba(0,0,0,0.04)' },
-          title: {
-            display: true,
-            text: 'Cumulative COR Score',
-            font: { family: "'IBM Plex Sans', sans-serif", size: 10 },
-            color: '#6b7c93',
-          },
+          title: { display: false },
         },
       },
     },

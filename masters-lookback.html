@@ -377,12 +377,6 @@
       <button class="lb-btn" data-tour="euro">Euro</button>
       <button class="lb-btn" data-tour="liv">LIV</button>
     </div>
-    <div class="lb-divider"></div>
-    <span class="lb-filter-label">View by</span>
-    <div class="lb-filter-group" id="view-group">
-      <button class="lb-btn" data-view="week">Week</button>
-      <button class="lb-btn active" data-view="course">Course</button>
-    </div>
   </div>
 </div>
 
@@ -472,7 +466,6 @@ const SKILL_SHORT  = { sg_ott:'OTT', sg_app:'APP', sg_arg:'ARG', sg_putt:'Putt',
 let allRows        = [];
 let activeYears    = [];        // multi-select; defaults to ALL years
 let activeTour     = 'pga';     // single-select; defaults to PGA
-let activeView     = 'course';  // 'week' | 'course'
 
 // ── Helpers ───────────────────────────────────────────────────
 function normalizeCourse(name) {
@@ -576,16 +569,6 @@ document.getElementById('tour-group').addEventListener('click', e => {
   render();
 });
 
-// ── View toggle ───────────────────────────────────────────────
-document.getElementById('view-group').addEventListener('click', e => {
-  const btn = e.target.closest('.lb-btn');
-  if (!btn) return;
-  activeView = btn.dataset.view;
-  document.querySelectorAll('#view-group .lb-btn').forEach(b =>
-    b.classList.toggle('active', b.dataset.view === activeView));
-  hideCallout();
-  render();
-});
 
 // ── Insights — always all years/tours, unaffected by filters ──
 function renderInsights(_rows) {
@@ -799,11 +782,7 @@ function render() {
   renderInsights(rows);
   renderTrendChart(rows);
 
-  if (activeView === 'week') {
-    renderWeekHeatmap(rows);
-  } else {
-    renderCourseHeatmap(rows);
-  }
+  renderCourseHeatmap(rows);
 }
 
 // ── Week mode: rows = weeks, cols = skills ────────────────────

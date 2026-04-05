@@ -541,7 +541,7 @@
   <div style="margin-top:48px;" id="section-players">
     <div class="lb-section-title" style="margin-bottom:6px;">2026 Masters — Augusta-Weighted Lead-In Form</div>
     <p style="font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.6;color:var(--label);margin-bottom:14px;">
-      Each player's score reflects how much Augusta-relevant form they've built in the 2026 lead-in — playing well at courses that historically predict Masters performance earns a higher number. Think of it as a form-bank: the more you've deposited at the right venues, the better. Click any row to see their event-by-event breakdown.
+      How sharp is each player's game heading into Augusta? These scores measure how much each player has outperformed their own normal level at courses that historically point to Masters performance. A higher number means they've been hitting it and scoring better than usual at the venues that tend to matter. Click any row to see their tournament-by-tournament breakdown.
     </p>
     <div class="player-table-wrap">
       <table class="player-table" id="player-table">
@@ -561,8 +561,8 @@
     </div>
     <p style="font-family:'IBM Plex Sans',sans-serif;font-size:11px;color:var(--muted);margin-top:10px;line-height:1.7;">
       <strong style="color:var(--accent);">&#9733;</strong> = strong Augusta predictor &nbsp;·&nbsp;
-      Numbers show strokes gained above each player's own typical baseline, scaled by how Augusta-like each course is — so +0.05 means meaningful accumulated form, not a rounding error &nbsp;·&nbsp;
-      <em>~wk N est.</em> (shown in event detail) = no historical data for that course; a week-proximity average weight was used instead
+      Each number is how many strokes per round a player outperformed their own norm, weighted by how predictive that tournament's course is for Augusta &nbsp;·&nbsp;
+      <em>~wk N est.</em> (in event detail) = no historical data for that course; estimated from how close it was to Masters week
     </p>
   </div>
 
@@ -1136,8 +1136,8 @@ function hideCallout() {
 
 // ── Player Lead-In Section ────────────────────────────────────
 let fieldRows     = [];   // raw rows from field CSV
-let playerSortCol = 'sg_total';
-let playerSortDir = -1;   // -1 = desc (highest score first)
+let playerSortCol = 'owgr';
+let playerSortDir = 1;    // 1 = asc (OWGR 1 first)
 
 const FIELD_SKILL_MAP = {
   sg_ott:   'sg_ott_vs_expected',

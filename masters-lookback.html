@@ -655,7 +655,8 @@ function corStr(val) {
 }
 
 // ── Load ──────────────────────────────────────────────────────
-Papa.parse('data/masters_lookback_detail.csv', {
+const _cv = Date.now(); // cache-bust: forces fresh fetch after data uploads
+Papa.parse(`data/masters_lookback_detail.csv?v=${_cv}`, {
   download: true,
   header: true,
   skipEmptyLines: true,
@@ -1134,7 +1135,7 @@ const FIELD_SKILL_MAP = {
   sg_total: 'sg_total_vs_expected',
 };
 
-Papa.parse('masters_2026_field_context.csv', {
+Papa.parse(`masters_2026_field_context.csv?v=${_cv}`, {
   download: true,
   header: true,
   skipEmptyLines: true,

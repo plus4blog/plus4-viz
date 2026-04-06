@@ -662,14 +662,14 @@ Papa.parse(`data/masters_lookback_detail.csv?v=${_cv}`, {
   skipEmptyLines: true,
   complete({ data }) {
     allRows = data.map(r => ({
-      year:   parseInt(r['Masters Year'], 10),
-      tour:   (r['Tour'] || '').trim().toLowerCase(),
-      date:   (r['Event Date'] || '').trim(),
-      week:   parseFloat(r['Weeks before Masters']),
-      skill:  (r['Skill'] || '').trim().toLowerCase(),
-      cor:    parseCor(r['COR Score']),
-      sample: parseInt(r['Sample'], 10) || 0,
-      course: normalizeCourse((r['Course Name'] || '').trim()),
+      year:   parseInt(r.masters_year, 10),
+      tour:   (r.predictor_tour || '').trim().toLowerCase(),
+      date:   (r.predictor_event_date || '').trim(),
+      week:   parseFloat(r.weeks_before_masters),
+      skill:  (r.predictor_skill || '').trim().toLowerCase(),
+      cor:    r.correlation_r != null ? parseFloat(r.correlation_r) : null,
+      sample: parseInt(r.shared_players, 10) || 0,
+      course: normalizeCourse((r.predictor_course_name || '').trim()),
     })).filter(r => r.week <= 16 && r.year !== 2020 && !r.course.includes('SEA ISLAND')); // 2020 excluded — November Masters
 
     buildYearButtons();
@@ -1135,7 +1135,7 @@ const FIELD_SKILL_MAP = {
   sg_total: 'sg_total_vs_expected',
 };
 
-Papa.parse(`masters_2026_field_context.csv?v=${_cv}`, {
+Papa.parse(`data/masters_2026_field_context.csv?v=${_cv}`, {
   download: true,
   header: true,
   skipEmptyLines: true,

@@ -58,10 +58,10 @@ function buildBreakdown(allData) {
     if (!keyMap[key]) {
       keyMap[key] = { course, skill, r_vals: [], p_vals: [], vintage_vals: [], event_sum: 0 };
     }
-    const r = parseFloat(row.blended_r);
+    const r = parseFloat(row.cor_score);
     const p = parseFloat(row.p_value);
     const v = parseFloat(row.vintage_count);
-    const e = parseInt(row.event_count) || 0;
+    const e = parseInt(row.shared_players) || 0;
     if (isFinite(r)) keyMap[key].r_vals.push(r);
     if (isFinite(p)) keyMap[key].p_vals.push(p);
     if (isFinite(v)) keyMap[key].vintage_vals.push(v);

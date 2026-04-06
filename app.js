@@ -352,14 +352,14 @@ function buildPlayerCard(player, idx) {
   if (isSingleSkill) {
     const skill  = displaySkills[0];
     const pts    = player.courses[skill] || [];
-    const sorted = [...pts].sort((a, b) => b.event_count - a.event_count);
+    const sorted = [...pts].sort((a, b) => b.shared_players - a.shared_players);
     const rows   = sorted.map(d => {
       const sign  = d.value >= 0 ? '+' : '';
       const color = valueColor(d.value, 1.5);
       return `<tr>
         <td class="ct-course">${d.course}</td>
         <td class="ct-val" style="color:${color}">${sign}${d.value.toFixed(3)}</td>
-        <td class="ct-r">${d.event_count ?? '—'}</td>
+        <td class="ct-r">${d.shared_players ?? '—'}</td>
       </tr>`;
     }).join('');
 
@@ -467,7 +467,7 @@ function drawRadar(canvasId, player, skill) {
   canvas.style.display = 'block';
   noDataEl.style.display = 'none';
 
-  const sorted  = [...points].sort((a, b) => b.event_count - a.event_count);
+  const sorted  = [...points].sort((a, b) => b.shared_players - a.shared_players);
   const MAX_AXES = 15;
   const MIN_AXES = 3;
   const raw     = sorted.slice(0, MAX_AXES);
@@ -475,7 +475,7 @@ function drawRadar(canvasId, player, skill) {
   // Pad to at least MIN_AXES spokes with empty placeholders
   const display = raw.length >= MIN_AXES
     ? raw
-    : [...raw, ...Array(MIN_AXES - raw.length).fill({ course: '', value: 0, r: 0, event_count: 0 })];
+    : [...raw, ...Array(MIN_AXES - raw.length).fill({ course: '', value: 0, cor_score: 0, shared_players: 0 })];
 
   const labels = display.map(d => d.course ? wrapLabel(d.course, 14) : ['']);
   const values = display.map(d => d.value);
@@ -536,7 +536,7 @@ function drawRadar(canvasId, player, skill) {
               const d = display[item.dataIndex];
               if (!d.course) return '';
               const sign = d.value >= 0 ? '+' : '';
-              return `${sign}${d.value.toFixed(3)}  (r=${d.r.toFixed(2)})`;
+              return `${sign}${d.value.toFixed(3)}  (r=${d.cor_score.toFixed(2)})`;
             },
             filter: item => !!display[item.dataIndex]?.course
           }

@@ -107,8 +107,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17606,"Berger, Daniel",928,PGA National  - Champion Course,sg_putt,-0.02711827838200181,0.23147668088428233,65,12
 17606,"Berger, Daniel",752,Sedgefield Country Club,sg_putt,0.8700004425882428,0.2073471862126644,105,12
 17606,"Berger, Daniel",656,Plantation Course at Kapalua,sg_putt,-0.777933958732808,0.20071736187159786,72,12
-17606,"Berger, Daniel",733,El Camaleón Golf Course at Mayakoba,sg_total,0.33502567573028624,0.30533913800790735,89,12
-17606,"Berger, Daniel",244,Puntacana Resort (Corales Golf Course),sg_total,-0.48066890690160585,0.27591320024340477,74,12
+17606,"Berger, Daniel",733,El Camaleón Golf Course at Mayakoba,sg_total,0.3350256757302863,0.30533913800790735,89,12
+17606,"Berger, Daniel",244,Puntacana Resort (Corales Golf Course),sg_total,-0.4806689069016058,0.27591320024340477,74,12
 26096,"Bhatia, Akshay",12,Harbour Town Golf Links,sg_app,0.8651816871291499,0.9185976483400276,111,12
 26096,"Bhatia, Akshay",933,East Lake Golf Club,sg_app,-0.8859786589884603,0.698853716848569,19,12
 26096,"Bhatia, Akshay",503,TPC River Highlands,sg_app,0.1738741647091108,0.4620797661198388,106,12
@@ -156,15 +156,15 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 26096,"Bhatia, Akshay",928,PGA National  - Champion Course,sg_putt,-2.2658490701468006,0.23147668088428233,65,12
 26096,"Bhatia, Akshay",752,Sedgefield Country Club,sg_putt,-1.2917888256896988,0.2073471862126644,105,12
 26096,"Bhatia, Akshay",656,Plantation Course at Kapalua,sg_putt,1.1343347060262923,0.20071736187159786,72,12
-26096,"Bhatia, Akshay",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.9344140344218402,0.40338517729111795,61,12
-26096,"Bhatia, Akshay",733,El Camaleón Golf Course at Mayakoba,sg_total,0.39938313993055197,0.30533913800790735,89,12
-26096,"Bhatia, Akshay",244,Puntacana Resort (Corales Golf Course),sg_total,0.14870508257028303,0.27591320024340477,74,12
+26096,"Bhatia, Akshay",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.9343811977321893,0.40338517729111795,61,12
+26096,"Bhatia, Akshay",733,El Camaleón Golf Course at Mayakoba,sg_total,0.39935030324090104,0.30533913800790735,89,12
+26096,"Bhatia, Akshay",244,Puntacana Resort (Corales Golf Course),sg_total,0.1486722458806321,0.27591320024340477,74,12
 24956,"Blanchet, Chandler",510,TPC Scottsdale (Stadium Course),sg_ott,-0.7769806671275215,0.4070718044672135,103,12
 24956,"Blanchet, Chandler",704,Pete Dye Stadium Course,sg_putt,-1.2474497298437037,0.39790701777580234,100,12
 24956,"Blanchet, Chandler",897,Memorial Park Golf Course,sg_putt,-0.12431493093875653,0.3474141526083157,96,12
 24956,"Blanchet, Chandler",510,TPC Scottsdale (Stadium Course),sg_putt,0.3289457635231854,0.30815989114675263,103,12
 24956,"Blanchet, Chandler",928,PGA National  - Champion Course,sg_putt,-1.0035985684491533,0.23147668088428233,65,12
-24956,"Blanchet, Chandler",98,PGA Riviera Maya,sg_total,1.4529743619866733,0.42133922287215364,11,12
+24956,"Blanchet, Chandler",98,PGA Riviera Maya,sg_total,1.4529743619866737,0.42133922287215364,11,12
 24956,"Blanchet, Chandler",678,Thornblade Club,sg_total,0.4381015260959168,0.37647661475816235,18,12
 24956,"Blanchet, Chandler",802,Sandals Emerald Bay Golf Club,sg_total,1.6093261562090353,0.3704081274825195,9,12
 24956,"Blanchet, Chandler",91,The Pete Dye Course at French Lick Resort,sg_total,3.4786262636733682,0.35578726391557947,6,12
@@ -367,8 +367,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 19483,"Burns, Sam",21,Colonial Country Club,sg_putt,-0.008542749212793077,0.27380389039483516,103,12
 19483,"Burns, Sam",752,Sedgefield Country Club,sg_putt,0.4396450196888614,0.2073471862126644,105,12
 19483,"Burns, Sam",656,Plantation Course at Kapalua,sg_putt,0.2104035663606736,0.20071736187159786,72,12
-19483,"Burns, Sam",890,Tahoe Mountain Club (Old Greenwood),sg_total,-2.1536286098537163,0.40338517729111795,61,12
-19483,"Burns, Sam",244,Puntacana Resort (Corales Golf Course),sg_total,0.5854076709405395,0.27591320024340477,74,12
+19483,"Burns, Sam",890,Tahoe Mountain Club (Old Greenwood),sg_total,-2.1529973315441793,0.40338517729111795,61,12
+19483,"Burns, Sam",244,Puntacana Resort (Corales Golf Course),sg_total,0.5860389492500766,0.27591320024340477,74,12
 18628,"Campbell, Brian",12,Harbour Town Golf Links,sg_app,1.3165441894226944,0.9185976483400276,111,12
 18628,"Campbell, Brian",921,TPC Craig Ranch,sg_app,1.1210203393533202,0.5485057076776074,69,12
 18628,"Campbell, Brian",885,Royal Portrush Golf Club,sg_app,-1.2317777766391242,0.4456148566669781,43,12
@@ -396,13 +396,13 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 18628,"Campbell, Brian",21,Colonial Country Club,sg_putt,-1.8262852014464708,0.27380389039483516,103,12
 18628,"Campbell, Brian",928,PGA National  - Champion Course,sg_putt,0.08070136939908978,0.23147668088428233,65,12
 18628,"Campbell, Brian",752,Sedgefield Country Club,sg_putt,0.13304142674145727,0.2073471862126644,105,12
-18628,"Campbell, Brian",678,Thornblade Club,sg_total,0.008202066710718714,0.37647661475816235,18,12
-18628,"Campbell, Brian",802,Sandals Emerald Bay Golf Club,sg_total,0.9424239541883548,0.3704081274825195,9,12
-18628,"Campbell, Brian",91,The Pete Dye Course at French Lick Resort,sg_total,2.302030066787328,0.35578726391557947,6,12
-18628,"Campbell, Brian",807,Lakewood National Golf Club - Commander Course,sg_total,0.40017223088692916,0.3456818801432109,20,12
-18628,"Campbell, Brian",22,Highland Springs Country Club,sg_total,1.4634358944300365,0.2760067537557183,11,12
-18628,"Campbell, Brian",60,Texas Rangers Golf Club,sg_total,0.6125984270215961,0.2542949298354507,12,12
-18628,"Campbell, Brian",82,The Glen Club,sg_total,-0.6842254004603199,0.228891509462106,15,12
+18628,"Campbell, Brian",678,Thornblade Club,sg_total,0.007579075064166274,0.37647661475816235,18,12
+18628,"Campbell, Brian",802,Sandals Emerald Bay Golf Club,sg_total,0.9418009625418025,0.3704081274825195,9,12
+18628,"Campbell, Brian",91,The Pete Dye Course at French Lick Resort,sg_total,2.301407075140775,0.35578726391557947,6,12
+18628,"Campbell, Brian",807,Lakewood National Golf Club - Commander Course,sg_total,0.3995492392403767,0.3456818801432109,20,12
+18628,"Campbell, Brian",22,Highland Springs Country Club,sg_total,1.4628129027834842,0.2760067537557183,11,12
+18628,"Campbell, Brian",60,Texas Rangers Golf Club,sg_total,0.6119754353750435,0.2542949298354507,12,12
+18628,"Campbell, Brian",82,The Glen Club,sg_total,-0.6848483921068722,0.228891509462106,15,12
 15466,"Cantlay, Patrick",12,Harbour Town Golf Links,sg_app,0.5467918338020208,0.9185976483400276,111,12
 15466,"Cantlay, Patrick",933,East Lake Golf Club,sg_app,-0.5587768017759546,0.698853716848569,19,12
 15466,"Cantlay, Patrick",891,Winged Foot GC,sg_app,-0.12477319922571245,0.5342356006223477,48,12
@@ -463,7 +463,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 15466,"Cantlay, Patrick",882,Caves Valley Golf Club,sg_putt,1.5234192471952857,0.2867168414926679,48,12
 15466,"Cantlay, Patrick",240,Club de Golf Chapultepec,sg_putt,1.2352292747527995,0.21197090773644714,30,12
 15466,"Cantlay, Patrick",656,Plantation Course at Kapalua,sg_putt,0.42400531432824523,0.20071736187159786,72,12
-15466,"Cantlay, Patrick",3899,abu dhabi gc,sg_total,-0.5653811218046604,0.2354546785163034,12,12
+15466,"Cantlay, Patrick",3899,abu dhabi gc,sg_total,-0.5655476549288279,0.2354546785163034,12,12
 27819,"Castillo, Ricky",921,TPC Craig Ranch,sg_app,1.4977252676439494,0.5485057076776074,69,12
 27819,"Castillo, Ricky",6,Waialae Country Club,sg_app,-0.41810394370831294,0.4234757194110063,96,12
 27819,"Castillo, Ricky",776,Sea Island Golf Club (Seaside Course),sg_app,0.12762405014611444,0.21421600599223561,96,12
@@ -483,10 +483,10 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 27819,"Castillo, Ricky",752,Sedgefield Country Club,sg_putt,1.3012411121041076,0.2073471862126644,105,12
 27819,"Castillo, Ricky",678,Thornblade Club,sg_total,-0.9464561398175251,0.37647661475816235,18,12
 27819,"Castillo, Ricky",802,Sandals Emerald Bay Golf Club,sg_total,-0.9405314011795507,0.3704081274825195,9,12
-27819,"Castillo, Ricky",91,The Pete Dye Course at French Lick Resort,sg_total,-1.2290749376813155,0.35578726391557947,6,12
+27819,"Castillo, Ricky",91,The Pete Dye Course at French Lick Resort,sg_total,-1.2290749376813153,0.35578726391557947,6,12
 27819,"Castillo, Ricky",807,Lakewood National Golf Club - Commander Course,sg_total,-0.343391955542716,0.3456818801432109,20,12
 27819,"Castillo, Ricky",22,Highland Springs Country Club,sg_total,0.22389298370182942,0.2760067537557183,11,12
-27819,"Castillo, Ricky",244,Puntacana Resort (Corales Golf Course),sg_total,-0.5985651596574738,0.27591320024340477,74,12
+27819,"Castillo, Ricky",244,Puntacana Resort (Corales Golf Course),sg_total,-0.5985651596574739,0.27591320024340477,74,12
 27819,"Castillo, Ricky",60,Texas Rangers Golf Club,sg_total,-0.8807590537327741,0.2542949298354507,12,12
 27819,"Castillo, Ricky",82,The Glen Club,sg_total,-1.1299594981136696,0.228891509462106,15,12
 14502,"Cauley, Bud",12,Harbour Town Golf Links,sg_app,0.22477475901141775,0.9185976483400276,111,12
@@ -532,9 +532,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 14502,"Cauley, Bud",21,Colonial Country Club,sg_putt,0.8980400185805756,0.27380389039483516,103,12
 14502,"Cauley, Bud",928,PGA National  - Champion Course,sg_putt,0.03968523862002832,0.23147668088428233,65,12
 14502,"Cauley, Bud",752,Sedgefield Country Club,sg_putt,-1.715229181113242,0.2073471862126644,105,12
-14502,"Cauley, Bud",890,Tahoe Mountain Club (Old Greenwood),sg_total,-0.8723653383506064,0.40338517729111795,61,12
+14502,"Cauley, Bud",890,Tahoe Mountain Club (Old Greenwood),sg_total,-0.8723653383506065,0.40338517729111795,61,12
 14502,"Cauley, Bud",802,Sandals Emerald Bay Golf Club,sg_total,0.34462823245085156,0.3704081274825195,9,12
-14502,"Cauley, Bud",244,Puntacana Resort (Corales Golf Course),sg_total,-0.9401129140495589,0.27591320024340477,74,12
+14502,"Cauley, Bud",244,Puntacana Resort (Corales Golf Course),sg_total,-0.940112914049559,0.27591320024340477,74,12
 23604,"Clark, Wyndham",12,Harbour Town Golf Links,sg_app,0.2842071061442001,0.9185976483400276,111,12
 23604,"Clark, Wyndham",933,East Lake Golf Club,sg_app,0.6993446452082348,0.698853716848569,19,12
 23604,"Clark, Wyndham",503,TPC River Highlands,sg_app,-0.11244952064017208,0.4620797661198388,106,12
@@ -604,11 +604,11 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 23604,"Clark, Wyndham",21,Colonial Country Club,sg_putt,0.2403715138827005,0.27380389039483516,103,12
 23604,"Clark, Wyndham",752,Sedgefield Country Club,sg_putt,-0.03818128863886425,0.2073471862126644,105,12
 23604,"Clark, Wyndham",656,Plantation Course at Kapalua,sg_putt,-0.14388457818256867,0.20071736187159786,72,12
-23604,"Clark, Wyndham",4584,crans-sur-sierre gc,sg_total,-2.8426389438497237,0.5311667632457925,9,12
-23604,"Clark, Wyndham",890,Tahoe Mountain Club (Old Greenwood),sg_total,-0.8735219748564043,0.40338517729111795,61,12
-23604,"Clark, Wyndham",733,El Camaleón Golf Course at Mayakoba,sg_total,-2.0751708130645987,0.30533913800790735,89,12
-23604,"Clark, Wyndham",242,Nine Bridges,sg_total,2.017817869737287,0.27673719132496094,32,12
-23604,"Clark, Wyndham",244,Puntacana Resort (Corales Golf Course),sg_total,1.291330966275463,0.27591320024340477,74,12
+23604,"Clark, Wyndham",4584,crans-sur-sierre gc,sg_total,-2.842976064872624,0.5311667632457925,9,12
+23604,"Clark, Wyndham",890,Tahoe Mountain Club (Old Greenwood),sg_total,-0.8738590958793047,0.40338517729111795,61,12
+23604,"Clark, Wyndham",733,El Camaleón Golf Course at Mayakoba,sg_total,-2.075507934087499,0.30533913800790735,89,12
+23604,"Clark, Wyndham",242,Nine Bridges,sg_total,2.017480748714387,0.27673719132496094,32,12
+23604,"Clark, Wyndham",244,Puntacana Resort (Corales Golf Course),sg_total,1.2909938452525624,0.27591320024340477,74,12
 17576,"Conners, Corey",12,Harbour Town Golf Links,sg_app,0.004566739406236111,0.9185976483400276,111,12
 17576,"Conners, Corey",887,Kasumigaseki Country Club,sg_app,-0.12550215150940408,0.6038754910393548,16,12
 17576,"Conners, Corey",891,Winged Foot GC,sg_app,0.690469051288232,0.5342356006223477,48,12
@@ -687,10 +687,10 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17576,"Conners, Corey",240,Club de Golf Chapultepec,sg_putt,-0.8056154765595762,0.21197090773644714,30,12
 17576,"Conners, Corey",752,Sedgefield Country Club,sg_putt,-0.7029113513003347,0.2073471862126644,105,12
 17576,"Conners, Corey",656,Plantation Course at Kapalua,sg_putt,0.5564750209211237,0.20071736187159786,72,12
-17576,"Conners, Corey",4586,wentworth golf club,sg_total,-2.058363929072986,0.4527820867381119,15,12
-17576,"Conners, Corey",733,El Camaleón Golf Course at Mayakoba,sg_total,1.3686913791094109,0.30533913800790735,89,12
-17576,"Conners, Corey",242,Nine Bridges,sg_total,1.9851682328404312,0.27673719132496094,32,12
-17576,"Conners, Corey",244,Puntacana Resort (Corales Golf Course),sg_total,-1.9992100663521155,0.27591320024340477,74,12
+17576,"Conners, Corey",4586,wentworth golf club,sg_total,-2.0585842443468483,0.4527820867381119,15,12
+17576,"Conners, Corey",733,El Camaleón Golf Course at Mayakoba,sg_total,1.3684710638355486,0.30533913800790735,89,12
+17576,"Conners, Corey",242,Nine Bridges,sg_total,1.984947917566569,0.27673719132496094,32,12
+17576,"Conners, Corey",244,Puntacana Resort (Corales Golf Course),sg_total,-1.9994303816259777,0.27591320024340477,74,12
 28309,"Coody, Pierceson",921,TPC Craig Ranch,sg_app,0.22752064284539214,0.5485057076776074,69,12
 28309,"Coody, Pierceson",6,Waialae Country Club,sg_app,-0.29738624431048566,0.4234757194110063,96,12
 28309,"Coody, Pierceson",874,Hamilton Golf & Country Club,sg_app,-0.6969973491871282,0.33713513457206906,72,12
@@ -716,7 +716,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 28309,"Coody, Pierceson",928,PGA National  - Champion Course,sg_putt,-0.621078860607153,0.23147668088428233,65,12
 28309,"Coody, Pierceson",752,Sedgefield Country Club,sg_putt,-1.0867173940725052,0.2073471862126644,105,12
 28309,"Coody, Pierceson",678,Thornblade Club,sg_total,1.7513766585689448,0.37647661475816235,18,12
-28309,"Coody, Pierceson",91,The Pete Dye Course at French Lick Resort,sg_total,0.45020613114757946,0.35578726391557947,6,12
+28309,"Coody, Pierceson",91,The Pete Dye Course at French Lick Resort,sg_total,0.4502061311475797,0.35578726391557947,6,12
 28309,"Coody, Pierceson",244,Puntacana Resort (Corales Golf Course),sg_total,1.2052130463933985,0.27591320024340477,74,12
 9771,"Day, Jason",12,Harbour Town Golf Links,sg_app,-0.7869263181388584,0.9185976483400276,111,12
 9771,"Day, Jason",921,TPC Craig Ranch,sg_app,0.22880493121691142,0.5485057076776074,69,12
@@ -790,8 +790,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 9771,"Day, Jason",21,Colonial Country Club,sg_putt,0.39810873166706917,0.27380389039483516,103,12
 9771,"Day, Jason",752,Sedgefield Country Club,sg_putt,-0.11037610024012377,0.2073471862126644,105,12
 9771,"Day, Jason",656,Plantation Course at Kapalua,sg_putt,-0.5943275648169496,0.20071736187159786,72,12
-9771,"Day, Jason",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.489128783554746,0.30533913800790735,89,12
-9771,"Day, Jason",242,Nine Bridges,sg_total,0.05996494227642414,0.27673719132496094,32,12
+9771,"Day, Jason",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.48976679094567355,0.30533913800790735,89,12
+9771,"Day, Jason",242,Nine Bridges,sg_total,0.05932693488549655,0.27673719132496094,32,12
 22833,"Echavarria, Nico",12,Harbour Town Golf Links,sg_app,-1.2141467153700656,0.9185976483400276,111,12
 22833,"Echavarria, Nico",921,TPC Craig Ranch,sg_app,1.6811541539597765,0.5485057076776074,69,12
 22833,"Echavarria, Nico",503,TPC River Highlands,sg_app,-1.215300537326479,0.4620797661198388,106,12
@@ -906,8 +906,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 14577,"English, Harris",21,Colonial Country Club,sg_putt,-0.5728084901726634,0.27380389039483516,103,12
 14577,"English, Harris",752,Sedgefield Country Club,sg_putt,-0.4347496108126896,0.2073471862126644,105,12
 14577,"English, Harris",656,Plantation Course at Kapalua,sg_putt,0.4555815487419069,0.20071736187159786,72,12
-14577,"English, Harris",733,El Camaleón Golf Course at Mayakoba,sg_total,1.4289307224092886,0.30533913800790735,89,12
-14577,"English, Harris",244,Puntacana Resort (Corales Golf Course),sg_total,-1.1349960662556393,0.27591320024340477,74,12
+14577,"English, Harris",733,El Camaleón Golf Course at Mayakoba,sg_total,1.4290859815659909,0.30533913800790735,89,12
+14577,"English, Harris",244,Puntacana Resort (Corales Golf Course),sg_total,-1.1348408070989369,0.27591320024340477,74,12
 11676,"Finau, Tony",12,Harbour Town Golf Links,sg_app,0.22074975672851765,0.9185976483400276,111,12
 11676,"Finau, Tony",933,East Lake Golf Club,sg_app,0.2265321283750987,0.698853716848569,19,12
 11676,"Finau, Tony",891,Winged Foot GC,sg_app,1.5395896997465854,0.5342356006223477,48,12
@@ -976,9 +976,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 11676,"Finau, Tony",240,Club de Golf Chapultepec,sg_putt,0.8733745027919257,0.21197090773644714,30,12
 11676,"Finau, Tony",752,Sedgefield Country Club,sg_putt,0.8745180697031205,0.2073471862126644,105,12
 11676,"Finau, Tony",656,Plantation Course at Kapalua,sg_putt,0.3669372621018301,0.20071736187159786,72,12
-11676,"Finau, Tony",3797,old course st andrews,sg_total,-0.7624771785385328,0.6167219079681248,14,12
-11676,"Finau, Tony",3798,kingsbarns golf links,sg_total,0.5620228214614673,0.4050476452171268,14,12
-11676,"Finau, Tony",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.8228871658646273,0.30533913800790735,89,12
+11676,"Finau, Tony",3797,old course st andrews,sg_total,-0.7623908986299653,0.6167219079681248,14,12
+11676,"Finau, Tony",3798,kingsbarns golf links,sg_total,0.5621091013700348,0.4050476452171268,14,12
+11676,"Finau, Tony",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.8228008859560598,0.30533913800790735,89,12
 26657,"Fisk, Steven",6,Waialae Country Club,sg_app,-0.04758481637546523,0.4234757194110063,96,12
 26657,"Fisk, Steven",776,Sea Island Golf Club (Seaside Course),sg_app,-3.403532338304438,0.21421600599223561,96,12
 26657,"Fisk, Steven",669,TPC Deere Run,sg_app,-0.47547136354274777,0.2064686599150841,90,12
@@ -996,13 +996,13 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 26657,"Fisk, Steven",21,Colonial Country Club,sg_putt,-0.9757602834944996,0.27380389039483516,103,12
 26657,"Fisk, Steven",928,PGA National  - Champion Course,sg_putt,-0.43533356085924113,0.23147668088428233,65,12
 26657,"Fisk, Steven",752,Sedgefield Country Club,sg_putt,0.4513816598797366,0.2073471862126644,105,12
-26657,"Fisk, Steven",678,Thornblade Club,sg_total,1.8996035780774914,0.37647661475816235,18,12
-26657,"Fisk, Steven",802,Sandals Emerald Bay Golf Club,sg_total,0.3905269468009934,0.3704081274825195,9,12
-26657,"Fisk, Steven",91,The Pete Dye Course at French Lick Resort,sg_total,0.8297150072502364,0.35578726391557947,6,12
-26657,"Fisk, Steven",807,Lakewood National Golf Club - Commander Course,sg_total,2.814697952601266,0.3456818801432109,20,12
-26657,"Fisk, Steven",244,Puntacana Resort (Corales Golf Course),sg_total,-1.1816448566670457,0.27591320024340477,74,12
-26657,"Fisk, Steven",60,Texas Rangers Golf Club,sg_total,-0.6447961596019192,0.2542949298354507,12,12
-26657,"Fisk, Steven",82,The Glen Club,sg_total,1.7045219900946968,0.228891509462106,15,12
+26657,"Fisk, Steven",678,Thornblade Club,sg_total,1.8976450990770202,0.37647661475816235,18,12
+26657,"Fisk, Steven",802,Sandals Emerald Bay Golf Club,sg_total,0.3885684678005222,0.3704081274825195,9,12
+26657,"Fisk, Steven",91,The Pete Dye Course at French Lick Resort,sg_total,0.8277565282497652,0.35578726391557947,6,12
+26657,"Fisk, Steven",807,Lakewood National Golf Club - Commander Course,sg_total,2.812739473600795,0.3456818801432109,20,12
+26657,"Fisk, Steven",244,Puntacana Resort (Corales Golf Course),sg_total,-1.183603335667517,0.27591320024340477,74,12
+26657,"Fisk, Steven",60,Texas Rangers Golf Club,sg_total,-0.6467546386023904,0.2542949298354507,12,12
+26657,"Fisk, Steven",82,The Glen Club,sg_total,1.7025635110942257,0.228891509462106,15,12
 17646,"Fitzpatrick, Matt",12,Harbour Town Golf Links,sg_app,0.7311018198564934,0.9185976483400276,111,12
 17646,"Fitzpatrick, Matt",503,TPC River Highlands,sg_app,-0.12663896366768485,0.4620797661198388,106,12
 17646,"Fitzpatrick, Matt",885,Royal Portrush Golf Club,sg_app,0.698065868574145,0.4456148566669781,43,12
@@ -1059,7 +1059,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17646,"Fitzpatrick, Matt",928,PGA National  - Champion Course,sg_putt,0.42291513079447934,0.23147668088428233,65,12
 17646,"Fitzpatrick, Matt",752,Sedgefield Country Club,sg_putt,1.1741687457831333,0.2073471862126644,105,12
 17646,"Fitzpatrick, Matt",656,Plantation Course at Kapalua,sg_putt,0.4314200151349367,0.20071736187159786,72,12
-17646,"Fitzpatrick, Matt",733,El Camaleón Golf Course at Mayakoba,sg_total,-1.7979698917025553,0.30533913800790735,89,12
+17646,"Fitzpatrick, Matt",733,El Camaleón Golf Course at Mayakoba,sg_total,-1.79822509871474,0.30533913800790735,89,12
 17646,"Fitzpatrick, Matthew",12,Harbour Town Golf Links,sg_app,0.2654374916182979,0.9185976483400276,111,12
 17646,"Fitzpatrick, Matthew",891,Winged Foot GC,sg_app,1.2173997261534002,0.5342356006223477,48,12
 17646,"Fitzpatrick, Matthew",2000,Sherwood Country Club,sg_app,-0.04050722573071905,0.5106944991142283,35,12
@@ -1086,26 +1086,26 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17646,"Fitzpatrick, Matthew",700,TPC Boston,sg_putt,0.13315226981683906,0.418271598970774,64,12
 17646,"Fitzpatrick, Matthew",21,Colonial Country Club,sg_putt,0.649259957498025,0.27380389039483516,103,12
 17646,"Fitzpatrick, Matthew",240,Club de Golf Chapultepec,sg_putt,-0.05680431445159784,0.21197090773644714,30,12
-17646,"Fitzpatrick, Matthew",3793,crans-sur-sierre gc,sg_total,-2.0101839460150415,0.700902200783588,10,12
-17646,"Fitzpatrick, Matthew",3792,hills golf & sports club,sg_total,2.0232745279459747,0.6468878402217493,6,12
-17646,"Fitzpatrick, Matthew",3788,renaissance club,sg_total,1.0612312027006463,0.6341906643289803,15,12
-17646,"Fitzpatrick, Matthew",3797,old course st andrews,sg_total,-0.9821737404012643,0.6167219079681248,14,12
-17646,"Fitzpatrick, Matthew",4593,jumeirah golf estates,sg_total,1.5489433407785795,0.6007761403955908,6,12
-17646,"Fitzpatrick, Matthew",4583,brabazon course at the belfry,sg_total,0.5310898255071708,0.5366747375739201,9,12
-17646,"Fitzpatrick, Matthew",4013,marco simone gc,sg_total,1.497670667156666,0.5353749804005323,7,12
-17646,"Fitzpatrick, Matthew",4584,crans-sur-sierre gc,sg_total,1.177961838087558,0.5311667632457925,9,12
-17646,"Fitzpatrick, Matthew",3807,jumeirah golf estates,sg_total,1.002021927596309,0.48458590095957504,10,12
-17646,"Fitzpatrick, Matthew",3900,emirates gc,sg_total,-1.137076653031664,0.46628552905862813,11,12
-17646,"Fitzpatrick, Matthew",4586,wentworth golf club,sg_total,0.5970199537198714,0.4527820867381119,15,12
-17646,"Fitzpatrick, Matthew",4224,crans-sur-sierre gc,sg_total,0.7007687586199943,0.44256863636278093,5,12
-17646,"Fitzpatrick, Matthew",3798,kingsbarns golf links,sg_total,-0.6576737404012644,0.4050476452171268,14,12
-17646,"Fitzpatrick, Matthew",3801,olgiata gc,sg_total,2.8944127275788416,0.393867411354965,11,12
-17646,"Fitzpatrick, Matthew",3883,real club valderrama,sg_total,1.49650525404735,0.3112939142308682,6,12
-17646,"Fitzpatrick, Matthew",3878,wentworth golf club,sg_total,0.12007990220147877,0.3009569936494542,14,12
-17646,"Fitzpatrick, Matthew",3930,wentworth golf club,sg_total,1.0562974460824321,0.2747202434854545,12,12
-17646,"Fitzpatrick, Matthew",4012,wentworth golf club,sg_total,-1.392464757943916,0.2608414612864147,13,12
-17646,"Fitzpatrick, Matthew",3899,abu dhabi gc,sg_total,1.9664354677047917,0.2354546785163034,12,12
-17646,"Fitzpatrick, Matthew",4015,old course st andrews,sg_total,-1.1755151272557918,0.2171814404629489,9,12
+17646,"Fitzpatrick, Matthew",3793,crans-sur-sierre gc,sg_total,-2.010439153027226,0.700902200783588,10,12
+17646,"Fitzpatrick, Matthew",3792,hills golf & sports club,sg_total,2.02301932093379,0.6468878402217493,6,12
+17646,"Fitzpatrick, Matthew",3788,renaissance club,sg_total,1.060975995688462,0.6341906643289803,15,12
+17646,"Fitzpatrick, Matthew",3797,old course st andrews,sg_total,-0.9824289474134489,0.6167219079681248,14,12
+17646,"Fitzpatrick, Matthew",4593,jumeirah golf estates,sg_total,1.5486881337663951,0.6007761403955908,6,12
+17646,"Fitzpatrick, Matthew",4583,brabazon course at the belfry,sg_total,0.5308346184949861,0.5366747375739201,9,12
+17646,"Fitzpatrick, Matthew",4013,marco simone gc,sg_total,1.497415460144481,0.5353749804005323,7,12
+17646,"Fitzpatrick, Matthew",4584,crans-sur-sierre gc,sg_total,1.1777066310753734,0.5311667632457925,9,12
+17646,"Fitzpatrick, Matthew",3807,jumeirah golf estates,sg_total,1.0017667205841243,0.48458590095957504,10,12
+17646,"Fitzpatrick, Matthew",3900,emirates gc,sg_total,-1.1373318600438487,0.46628552905862813,11,12
+17646,"Fitzpatrick, Matthew",4586,wentworth golf club,sg_total,0.5967647467076868,0.4527820867381119,15,12
+17646,"Fitzpatrick, Matthew",4224,crans-sur-sierre gc,sg_total,0.7005135516078097,0.44256863636278093,5,12
+17646,"Fitzpatrick, Matthew",3798,kingsbarns golf links,sg_total,-0.657928947413449,0.4050476452171268,14,12
+17646,"Fitzpatrick, Matthew",3801,olgiata gc,sg_total,2.8941575205666568,0.393867411354965,11,12
+17646,"Fitzpatrick, Matthew",3883,real club valderrama,sg_total,1.4880974020953426,0.3112939142308682,6,12
+17646,"Fitzpatrick, Matthew",3878,wentworth golf club,sg_total,0.11982469518929417,0.3009569936494542,14,12
+17646,"Fitzpatrick, Matthew",3930,wentworth golf club,sg_total,1.0560422390702477,0.2747202434854545,12,12
+17646,"Fitzpatrick, Matthew",4012,wentworth golf club,sg_total,-1.3927199649561,0.2608414612864147,13,12
+17646,"Fitzpatrick, Matthew",3899,abu dhabi gc,sg_total,1.966180260692607,0.2354546785163034,12,12
+17646,"Fitzpatrick, Matthew",4015,old course st andrews,sg_total,-1.1757703342679764,0.2171814404629489,9,12
 12294,"Fleetwood, Tommy",12,Harbour Town Golf Links,sg_app,-0.2960146633589015,0.9185976483400276,111,12
 12294,"Fleetwood, Tommy",933,East Lake Golf Club,sg_app,-0.32315502567102494,0.698853716848569,19,12
 12294,"Fleetwood, Tommy",887,Kasumigaseki Country Club,sg_app,-0.0720480769398464,0.6038754910393548,16,12
@@ -1181,22 +1181,22 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 12294,"Fleetwood, Tommy",240,Club de Golf Chapultepec,sg_putt,0.11338991791774404,0.21197090773644714,30,12
 12294,"Fleetwood, Tommy",752,Sedgefield Country Club,sg_putt,-0.05188533157473348,0.2073471862126644,105,12
 12294,"Fleetwood, Tommy",656,Plantation Course at Kapalua,sg_putt,-0.7809152571646416,0.20071736187159786,72,12
-12294,"Fleetwood, Tommy",3793,crans-sur-sierre gc,sg_total,0.6048513012014579,0.700902200783588,10,12
-12294,"Fleetwood, Tommy",3797,old course st andrews,sg_total,0.0019271783074840398,0.6167219079681248,14,12
-12294,"Fleetwood, Tommy",4593,jumeirah golf estates,sg_total,0.5156487952240277,0.6007761403955908,6,12
-12294,"Fleetwood, Tommy",3881,old course st andrews,sg_total,-0.17787471878219038,0.49736623172279193,9,12
-12294,"Fleetwood, Tommy",3807,jumeirah golf estates,sg_total,2.9703834101132616,0.48458590095957504,10,12
-12294,"Fleetwood, Tommy",3900,emirates gc,sg_total,0.5275244002642939,0.46628552905862813,11,12
-12294,"Fleetwood, Tommy",4586,wentworth golf club,sg_total,-1.8279285338511566,0.4527820867381119,15,12
-12294,"Fleetwood, Tommy",3767,abu dhabi gc,sg_total,1.3525202195948254,0.42288439872483724,10,12
-12294,"Fleetwood, Tommy",3798,kingsbarns golf links,sg_total,-3.173572821692516,0.4050476452171268,14,12
-12294,"Fleetwood, Tommy",3975,kingsbarns golf links,sg_total,-0.13187471878219034,0.40252442742361033,9,12
-12294,"Fleetwood, Tommy",3878,wentworth golf club,sg_total,1.1348857753328443,0.3009569936494542,14,12
-12294,"Fleetwood, Tommy",242,Nine Bridges,sg_total,0.26449848671647047,0.27673719132496094,32,12
-12294,"Fleetwood, Tommy",3930,wentworth golf club,sg_total,0.6124226842089362,0.2747202434854545,12,12
-12294,"Fleetwood, Tommy",4012,wentworth golf club,sg_total,-1.7167995118803316,0.2608414612864147,13,12
-12294,"Fleetwood, Tommy",3899,abu dhabi gc,sg_total,1.6123092948820166,0.2354546785163034,12,12
-12294,"Fleetwood, Tommy",4015,old course st andrews,sg_total,-0.7714552681713404,0.2171814404629489,9,12
+12294,"Fleetwood, Tommy",3793,crans-sur-sierre gc,sg_total,0.6055230993327086,0.700902200783588,10,12
+12294,"Fleetwood, Tommy",3797,old course st andrews,sg_total,0.0025989764387347736,0.6167219079681248,14,12
+12294,"Fleetwood, Tommy",4593,jumeirah golf estates,sg_total,0.5163205933552789,0.6007761403955908,6,12
+12294,"Fleetwood, Tommy",3881,old course st andrews,sg_total,-0.17720292065093965,0.49736623172279193,9,12
+12294,"Fleetwood, Tommy",3807,jumeirah golf estates,sg_total,2.971055208244512,0.48458590095957504,10,12
+12294,"Fleetwood, Tommy",3900,emirates gc,sg_total,0.5281961983955447,0.46628552905862813,11,12
+12294,"Fleetwood, Tommy",4586,wentworth golf club,sg_total,-1.8272567357199059,0.4527820867381119,15,12
+12294,"Fleetwood, Tommy",3767,abu dhabi gc,sg_total,1.3531920177260761,0.42288439872483724,10,12
+12294,"Fleetwood, Tommy",3798,kingsbarns golf links,sg_total,-3.1729010235612654,0.4050476452171268,14,12
+12294,"Fleetwood, Tommy",3975,kingsbarns golf links,sg_total,-0.1312029206509396,0.40252442742361033,9,12
+12294,"Fleetwood, Tommy",3878,wentworth golf club,sg_total,1.135557573464095,0.3009569936494542,14,12
+12294,"Fleetwood, Tommy",242,Nine Bridges,sg_total,0.2651702848477212,0.27673719132496094,32,12
+12294,"Fleetwood, Tommy",3930,wentworth golf club,sg_total,0.6130944823401869,0.2747202434854545,12,12
+12294,"Fleetwood, Tommy",4012,wentworth golf club,sg_total,-1.716127713749081,0.2608414612864147,13,12
+12294,"Fleetwood, Tommy",3899,abu dhabi gc,sg_total,1.6129810930132675,0.2354546785163034,12,12
+12294,"Fleetwood, Tommy",4015,old course st andrews,sg_total,-0.7707834700400896,0.2171814404629489,9,12
 12965,"Fowler, Rickie",12,Harbour Town Golf Links,sg_app,0.38095465058311057,0.9185976483400276,111,12
 12965,"Fowler, Rickie",891,Winged Foot GC,sg_app,0.8724872166951358,0.5342356006223477,48,12
 12965,"Fowler, Rickie",2000,Sherwood Country Club,sg_app,-0.9337703022218028,0.5106944991142283,35,12
@@ -1305,27 +1305,27 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 11889,"Fox, Ryan",928,PGA National  - Champion Course,sg_putt,-0.3357835800174551,0.23147668088428233,65,12
 11889,"Fox, Ryan",240,Club de Golf Chapultepec,sg_putt,1.0868356353193935,0.21197090773644714,30,12
 11889,"Fox, Ryan",752,Sedgefield Country Club,sg_putt,-0.7957053398801434,0.2073471862126644,105,12
-11889,"Fox, Ryan",3793,crans-sur-sierre gc,sg_total,-1.4502163817390687,0.700902200783588,10,12
-11889,"Fox, Ryan",3788,renaissance club,sg_total,0.2207207176561929,0.6341906643289803,15,12
-11889,"Fox, Ryan",3797,old course st andrews,sg_total,1.007588947013716,0.6167219079681248,14,12
-11889,"Fox, Ryan",4013,marco simone gc,sg_total,0.9645782409534509,0.5353749804005323,7,12
-11889,"Fox, Ryan",3881,old course st andrews,sg_total,-3.615758630577056,0.49736623172279193,9,12
-11889,"Fox, Ryan",3900,emirates gc,sg_total,1.4929520179078821,0.46628552905862813,11,12
-11889,"Fox, Ryan",4586,wentworth golf club,sg_total,-0.2518853142976295,0.4527820867381119,15,12
-11889,"Fox, Ryan",3767,abu dhabi gc,sg_total,1.9540779330255318,0.42288439872483724,10,12
-11889,"Fox, Ryan",3798,kingsbarns golf links,sg_total,-2.0529110529862837,0.4050476452171268,14,12
-11889,"Fox, Ryan",3975,kingsbarns golf links,sg_total,3.6642413694229443,0.40252442742361033,9,12
-11889,"Fox, Ryan",3801,olgiata gc,sg_total,2.0913460566262168,0.393867411354965,11,12
-11889,"Fox, Ryan",3638,saujana g&cc,sg_total,0.5992490290131449,0.33766572629909486,7,12
-11889,"Fox, Ryan",3883,real club valderrama,sg_total,1.9050353966648212,0.3112939142308682,6,12
-11889,"Fox, Ryan",3878,wentworth golf club,sg_total,-0.5147845645031328,0.3009569936494542,14,12
-11889,"Fox, Ryan",244,Puntacana Resort (Corales Golf Course),sg_total,-1.4709046935779766,0.27591320024340477,74,12
-11889,"Fox, Ryan",3930,wentworth golf club,sg_total,1.653107973034979,0.2747202434854545,12,12
-11889,"Fox, Ryan",4225,k club,sg_total,1.1340357872242066,0.26645139761434267,8,12
-11889,"Fox, Ryan",4012,wentworth golf club,sg_total,-1.785631372307152,0.2608414612864147,13,12
-11889,"Fox, Ryan",3999,golfclub münchen eichenried,sg_total,2.2423794489480913,0.24878517953888782,4,12
-11889,"Fox, Ryan",3899,abu dhabi gc,sg_total,-0.4139238279864927,0.2354546785163034,12,12
-11889,"Fox, Ryan",4015,old course st andrews,sg_total,1.969254005217048,0.2171814404629489,9,12
+11889,"Fox, Ryan",3793,crans-sur-sierre gc,sg_total,-1.4504080692063337,0.700902200783588,10,12
+11889,"Fox, Ryan",3788,renaissance club,sg_total,0.22052903018892794,0.6341906643289803,15,12
+11889,"Fox, Ryan",3797,old course st andrews,sg_total,1.007397259546451,0.6167219079681248,14,12
+11889,"Fox, Ryan",4013,marco simone gc,sg_total,0.964386553486186,0.5353749804005323,7,12
+11889,"Fox, Ryan",3881,old course st andrews,sg_total,-3.615950318044321,0.49736623172279193,9,12
+11889,"Fox, Ryan",3900,emirates gc,sg_total,1.4927603304406172,0.46628552905862813,11,12
+11889,"Fox, Ryan",4586,wentworth golf club,sg_total,-0.25207700176489445,0.4527820867381119,15,12
+11889,"Fox, Ryan",3767,abu dhabi gc,sg_total,1.9538862455582668,0.42288439872483724,10,12
+11889,"Fox, Ryan",3798,kingsbarns golf links,sg_total,-2.0531027404535487,0.4050476452171268,14,12
+11889,"Fox, Ryan",3975,kingsbarns golf links,sg_total,3.6640496819556794,0.40252442742361033,9,12
+11889,"Fox, Ryan",3801,olgiata gc,sg_total,2.091154369158952,0.393867411354965,11,12
+11889,"Fox, Ryan",3638,saujana g&cc,sg_total,0.59905734154588,0.33766572629909486,7,12
+11889,"Fox, Ryan",3883,real club valderrama,sg_total,1.9048437091975563,0.3112939142308682,6,12
+11889,"Fox, Ryan",3878,wentworth golf club,sg_total,-0.5149762519703978,0.3009569936494542,14,12
+11889,"Fox, Ryan",244,Puntacana Resort (Corales Golf Course),sg_total,-1.4710963810452415,0.27591320024340477,74,12
+11889,"Fox, Ryan",3930,wentworth golf club,sg_total,1.652916285567714,0.2747202434854545,12,12
+11889,"Fox, Ryan",4225,k club,sg_total,1.1338440997569417,0.26645139761434267,8,12
+11889,"Fox, Ryan",4012,wentworth golf club,sg_total,-1.785823059774417,0.2608414612864147,13,12
+11889,"Fox, Ryan",3999,golfclub münchen eichenried,sg_total,2.2421877614808263,0.24878517953888782,4,12
+11889,"Fox, Ryan",3899,abu dhabi gc,sg_total,-0.41411551545375763,0.2354546785163034,12,12
+11889,"Fox, Ryan",4015,old course st andrews,sg_total,1.969062317749783,0.2171814404629489,9,12
 29767,"Gerard, Ryan",12,Harbour Town Golf Links,sg_app,-0.8282201073981821,0.9185976483400276,111,12
 29767,"Gerard, Ryan",921,TPC Craig Ranch,sg_app,-1.0787313313655325,0.5485057076776074,69,12
 29767,"Gerard, Ryan",503,TPC River Highlands,sg_app,-0.24661775138477207,0.4620797661198388,106,12
@@ -1357,7 +1357,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 29767,"Gerard, Ryan",21,Colonial Country Club,sg_putt,-1.7939354599932458,0.27380389039483516,103,12
 29767,"Gerard, Ryan",928,PGA National  - Champion Course,sg_putt,0.020668295554200494,0.23147668088428233,65,12
 29767,"Gerard, Ryan",752,Sedgefield Country Club,sg_putt,-1.091044582559292,0.2073471862126644,105,12
-29767,"Gerard, Ryan",4586,wentworth golf club,sg_total,-0.4952089252760044,0.4527820867381119,15,12
+29767,"Gerard, Ryan",4586,wentworth golf club,sg_total,-0.49520892527600435,0.4527820867381119,15,12
 29767,"Gerard, Ryan",890,Tahoe Mountain Club (Old Greenwood),sg_total,1.788884207075455,0.40338517729111795,61,12
 29767,"Gerard, Ryan",678,Thornblade Club,sg_total,4.242691195634692,0.37647661475816235,18,12
 29767,"Gerard, Ryan",802,Sandals Emerald Bay Golf Club,sg_total,-1.8140704812974717,0.3704081274825195,9,12
@@ -1431,8 +1431,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 7399,"Glover, Lucas",240,Club de Golf Chapultepec,sg_putt,-0.768388091975423,0.21197090773644714,30,12
 7399,"Glover, Lucas",752,Sedgefield Country Club,sg_putt,-0.8668498264768403,0.2073471862126644,105,12
 7399,"Glover, Lucas",656,Plantation Course at Kapalua,sg_putt,-1.2664788634229884,0.20071736187159786,72,12
-7399,"Glover, Lucas",733,El Camaleón Golf Course at Mayakoba,sg_total,1.7536051593008433,0.30533913800790735,89,12
-7399,"Glover, Lucas",242,Nine Bridges,sg_total,0.010969067927609044,0.27673719132496094,32,12
+7399,"Glover, Lucas",733,El Camaleón Golf Course at Mayakoba,sg_total,1.7532064894296207,0.30533913800790735,89,12
+7399,"Glover, Lucas",242,Nine Bridges,sg_total,0.010570398056386487,0.27673719132496094,32,12
 27774,"Gotterup, Chris",921,TPC Craig Ranch,sg_app,-0.3473304916740292,0.5485057076776074,69,12
 27774,"Gotterup, Chris",503,TPC River Highlands,sg_app,0.5879007230896899,0.4620797661198388,106,12
 27774,"Gotterup, Chris",885,Royal Portrush Golf Club,sg_app,0.4779491582876112,0.4456148566669781,43,12
@@ -1510,8 +1510,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 24968,"Griffin, Ben",21,Colonial Country Club,sg_putt,0.9992085403277037,0.27380389039483516,103,12
 24968,"Griffin, Ben",928,PGA National  - Champion Course,sg_putt,0.31450989934431484,0.23147668088428233,65,12
 24968,"Griffin, Ben",752,Sedgefield Country Club,sg_putt,0.529343769390516,0.2073471862126644,105,12
-24968,"Griffin, Ben",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.5484873943229844,0.30533913800790735,89,12
-24968,"Griffin, Ben",244,Puntacana Resort (Corales Golf Course),sg_total,0.5988552610672888,0.27591320024340477,74,12
+24968,"Griffin, Ben",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.5484772977917525,0.30533913800790735,89,12
+24968,"Griffin, Ben",244,Puntacana Resort (Corales Golf Course),sg_total,0.5988653575985208,0.27591320024340477,74,12
 27194,"Hall, Harry",921,TPC Craig Ranch,sg_app,0.12044861493890369,0.5485057076776074,69,12
 27194,"Hall, Harry",503,TPC River Highlands,sg_app,0.46173835816498954,0.4620797661198388,106,12
 27194,"Hall, Harry",885,Royal Portrush Golf Club,sg_app,-0.6479884850896936,0.4456148566669781,43,12
@@ -1547,12 +1547,12 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 27194,"Hall, Harry",928,PGA National  - Champion Course,sg_putt,-0.19073355221072225,0.23147668088428233,65,12
 27194,"Hall, Harry",752,Sedgefield Country Club,sg_putt,0.6047606250671189,0.2073471862126644,105,12
 27194,"Hall, Harry",656,Plantation Course at Kapalua,sg_putt,-0.3601745305345712,0.20071736187159786,72,12
-27194,"Hall, Harry",3797,old course st andrews,sg_total,3.278687852892281,0.6167219079681248,14,12
-27194,"Hall, Harry",4586,wentworth golf club,sg_total,0.12036640620759609,0.4527820867381119,15,12
-27194,"Hall, Harry",3798,kingsbarns golf links,sg_total,0.5566878528922804,0.4050476452171268,14,12
-27194,"Hall, Harry",890,Tahoe Mountain Club (Old Greenwood),sg_total,-3.298458101646089,0.40338517729111795,61,12
-27194,"Hall, Harry",733,El Camaleón Golf Course at Mayakoba,sg_total,-1.576763278045982,0.30533913800790735,89,12
-27194,"Hall, Harry",244,Puntacana Resort (Corales Golf Course),sg_total,-0.39624918763543215,0.27591320024340477,74,12
+27194,"Hall, Harry",3797,old course st andrews,sg_total,3.278110940149485,0.6167219079681248,14,12
+27194,"Hall, Harry",4586,wentworth golf club,sg_total,0.1197894934648,0.4527820867381119,15,12
+27194,"Hall, Harry",3798,kingsbarns golf links,sg_total,0.5561109401494844,0.4050476452171268,14,12
+27194,"Hall, Harry",890,Tahoe Mountain Club (Old Greenwood),sg_total,-3.299035014388885,0.40338517729111795,61,12
+27194,"Hall, Harry",733,El Camaleón Golf Course at Mayakoba,sg_total,-1.5773401907887779,0.30533913800790735,89,12
+27194,"Hall, Harry",244,Puntacana Resort (Corales Golf Course),sg_total,-0.3968261003782282,0.27591320024340477,74,12
 8825,"Harman, Brian",12,Harbour Town Golf Links,sg_app,-0.050546492618022625,0.9185976483400276,111,12
 8825,"Harman, Brian",891,Winged Foot GC,sg_app,-0.4240494573063093,0.5342356006223477,48,12
 8825,"Harman, Brian",2000,Sherwood Country Club,sg_app,0.9338165668701205,0.5106944991142283,35,12
@@ -1621,7 +1621,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 8825,"Harman, Brian",928,PGA National  - Champion Course,sg_putt,-1.2055694135643895,0.23147668088428233,65,12
 8825,"Harman, Brian",752,Sedgefield Country Club,sg_putt,0.234492472144968,0.2073471862126644,105,12
 8825,"Harman, Brian",656,Plantation Course at Kapalua,sg_putt,-0.8435615866921636,0.20071736187159786,72,12
-8825,"Harman, Brian",733,El Camaleón Golf Course at Mayakoba,sg_total,0.004114029088354176,0.30533913800790735,89,12
+8825,"Harman, Brian",733,El Camaleón Golf Course at Mayakoba,sg_total,0.004455024643581676,0.30533913800790735,89,12
 14578,"Henley, Russell",12,Harbour Town Golf Links,sg_app,0.3837283657326387,0.9185976483400276,111,12
 14578,"Henley, Russell",933,East Lake Golf Club,sg_app,0.41943350161231857,0.698853716848569,19,12
 14578,"Henley, Russell",2000,Sherwood Country Club,sg_app,1.8191294644703682,0.5106944991142283,35,12
@@ -1695,8 +1695,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 14578,"Henley, Russell",928,PGA National  - Champion Course,sg_putt,0.9771729558146283,0.23147668088428233,65,12
 14578,"Henley, Russell",752,Sedgefield Country Club,sg_putt,1.1378130452113142,0.2073471862126644,105,12
 14578,"Henley, Russell",656,Plantation Course at Kapalua,sg_putt,-0.5317950984315254,0.20071736187159786,72,12
-14578,"Henley, Russell",890,Tahoe Mountain Club (Old Greenwood),sg_total,-0.5696674178149875,0.40338517729111795,61,12
-14578,"Henley, Russell",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.031678250729536006,0.30533913800790735,89,12
+14578,"Henley, Russell",890,Tahoe Mountain Club (Old Greenwood),sg_total,-0.5695447184822355,0.40338517729111795,61,12
+14578,"Henley, Russell",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.03155555139678409,0.30533913800790735,89,12
 24342,"Higgo, Garrick",12,Harbour Town Golf Links,sg_app,-1.01914380405402,0.9185976483400276,111,12
 24342,"Higgo, Garrick",887,Kasumigaseki Country Club,sg_app,-0.5258558899938108,0.6038754910393548,16,12
 24342,"Higgo, Garrick",921,TPC Craig Ranch,sg_app,0.16868300669186087,0.5485057076776074,69,12
@@ -1739,12 +1739,12 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 24342,"Higgo, Garrick",928,PGA National  - Champion Course,sg_putt,0.04293416318058279,0.23147668088428233,65,12
 24342,"Higgo, Garrick",752,Sedgefield Country Club,sg_putt,-0.2598450294863177,0.2073471862126644,105,12
 24342,"Higgo, Garrick",656,Plantation Course at Kapalua,sg_putt,-0.39458629010611923,0.20071736187159786,72,12
-24342,"Higgo, Garrick",3907,education city gc,sg_total,1.8631698575232476,0.42017361068624604,6,12
-24342,"Higgo, Garrick",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.3878727568803545,0.30533913800790735,89,12
-24342,"Higgo, Garrick",3878,wentworth golf club,sg_total,-1.181597034160805,0.3009569936494542,14,12
-24342,"Higgo, Garrick",244,Puntacana Resort (Corales Golf Course),sg_total,0.8197664511466121,0.27591320024340477,74,12
-24342,"Higgo, Garrick",3930,wentworth golf club,sg_total,1.465638271635506,0.2747202434854545,12,12
-24342,"Higgo, Garrick",4012,wentworth golf club,sg_total,-1.1092105268763972,0.2608414612864147,13,12
+24342,"Higgo, Garrick",3907,education city gc,sg_total,1.8631751083658004,0.42017361068624604,6,12
+24342,"Higgo, Garrick",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.3878675060378018,0.30533913800790735,89,12
+24342,"Higgo, Garrick",3878,wentworth golf club,sg_total,-1.1815917833182523,0.3009569936494542,14,12
+24342,"Higgo, Garrick",244,Puntacana Resort (Corales Golf Course),sg_total,0.8197717019891646,0.27591320024340477,74,12
+24342,"Higgo, Garrick",3930,wentworth golf club,sg_total,1.4656435224780588,0.2747202434854545,12,12
+24342,"Higgo, Garrick",4012,wentworth golf club,sg_total,-1.1092052760338444,0.2608414612864147,13,12
 28469,"Highsmith, Joe",12,Harbour Town Golf Links,sg_app,-0.9469491865003429,0.9185976483400276,111,12
 28469,"Highsmith, Joe",921,TPC Craig Ranch,sg_app,0.8863382769412494,0.5485057076776074,69,12
 28469,"Highsmith, Joe",503,TPC River Highlands,sg_app,-0.15578219220480935,0.4620797661198388,106,12
@@ -1777,8 +1777,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 28469,"Highsmith, Joe",21,Colonial Country Club,sg_putt,-1.0973413540206511,0.27380389039483516,103,12
 28469,"Highsmith, Joe",928,PGA National  - Champion Course,sg_putt,0.6032538931016301,0.23147668088428233,65,12
 28469,"Highsmith, Joe",752,Sedgefield Country Club,sg_putt,0.44982956781480954,0.2073471862126644,105,12
-28469,"Highsmith, Joe",890,Tahoe Mountain Club (Old Greenwood),sg_total,-0.619406918111436,0.40338517729111795,61,12
-28469,"Highsmith, Joe",244,Puntacana Resort (Corales Golf Course),sg_total,-0.8254521956094414,0.27591320024340477,74,12
+28469,"Highsmith, Joe",890,Tahoe Mountain Club (Old Greenwood),sg_total,-0.6193456737810563,0.40338517729111795,61,12
+28469,"Highsmith, Joe",244,Puntacana Resort (Corales Golf Course),sg_total,-0.8253909512790616,0.27591320024340477,74,12
 22760,"Hisatsune, Ryo",12,Harbour Town Golf Links,sg_app,0.43085858690449597,0.9185976483400276,111,12
 22760,"Hisatsune, Ryo",921,TPC Craig Ranch,sg_app,-0.9456514227703776,0.5485057076776074,69,12
 22760,"Hisatsune, Ryo",6,Waialae Country Club,sg_app,-0.44565936819725516,0.4234757194110063,96,12
@@ -1808,10 +1808,10 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 22760,"Hisatsune, Ryo",21,Colonial Country Club,sg_putt,1.1110528992947806,0.27380389039483516,103,12
 22760,"Hisatsune, Ryo",928,PGA National  - Champion Course,sg_putt,-0.9843240891820376,0.23147668088428233,65,12
 22760,"Hisatsune, Ryo",752,Sedgefield Country Club,sg_putt,-0.0724061961420536,0.2073471862126644,105,12
-22760,"Hisatsune, Ryo",4362,lakes gc,sg_total,-0.7733032528158155,0.6116377446036373,5,12
-22760,"Hisatsune, Ryo",4224,crans-sur-sierre gc,sg_total,1.4305141660876615,0.44256863636278093,5,12
-22760,"Hisatsune, Ryo",890,Tahoe Mountain Club (Old Greenwood),sg_total,1.4584270289838928,0.40338517729111795,61,12
-22760,"Hisatsune, Ryo",4225,k club,sg_total,-1.9930911132836242,0.26645139761434267,8,12
+22760,"Hisatsune, Ryo",4362,lakes gc,sg_total,-0.7735432895368394,0.6116377446036373,5,12
+22760,"Hisatsune, Ryo",4224,crans-sur-sierre gc,sg_total,1.4302741293666377,0.44256863636278093,5,12
+22760,"Hisatsune, Ryo",890,Tahoe Mountain Club (Old Greenwood),sg_total,1.4581869922628687,0.40338517729111795,61,12
+22760,"Hisatsune, Ryo",4225,k club,sg_total,-1.9933311500046482,0.26645139761434267,8,12
 15575,"Hoge, Tom",12,Harbour Town Golf Links,sg_app,-0.6855404367637326,0.9185976483400276,111,12
 15575,"Hoge, Tom",933,East Lake Golf Club,sg_app,-2.785242254175659,0.698853716848569,19,12
 15575,"Hoge, Tom",921,TPC Craig Ranch,sg_app,-0.06544677485186312,0.5485057076776074,69,12
@@ -1890,10 +1890,10 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 15575,"Hoge, Tom",928,PGA National  - Champion Course,sg_putt,-0.00751091481960281,0.23147668088428233,65,12
 15575,"Hoge, Tom",752,Sedgefield Country Club,sg_putt,-1.023546357441528,0.2073471862126644,105,12
 15575,"Hoge, Tom",656,Plantation Course at Kapalua,sg_putt,0.6907079881983671,0.20071736187159786,72,12
-15575,"Hoge, Tom",890,Tahoe Mountain Club (Old Greenwood),sg_total,-2.497005739736102,0.40338517729111795,61,12
-15575,"Hoge, Tom",733,El Camaleón Golf Course at Mayakoba,sg_total,0.19495254172888954,0.30533913800790735,89,12
-15575,"Hoge, Tom",244,Puntacana Resort (Corales Golf Course),sg_total,-0.6384130876703051,0.27591320024340477,74,12
-15575,"Hoge, Tom",4225,k club,sg_total,-3.4026674840150566,0.26645139761434267,8,12
+15575,"Hoge, Tom",890,Tahoe Mountain Club (Old Greenwood),sg_total,-2.496941914041267,0.40338517729111795,61,12
+15575,"Hoge, Tom",733,El Camaleón Golf Course at Mayakoba,sg_total,0.19501636742372344,0.30533913800790735,89,12
+15575,"Hoge, Tom",244,Puntacana Resort (Corales Golf Course),sg_total,-0.6383492619754713,0.27591320024340477,74,12
+15575,"Hoge, Tom",4225,k club,sg_total,-3.4026036583202224,0.26645139761434267,8,12
 23602,"Hojgaard, Nicolai",921,TPC Craig Ranch,sg_app,-0.416554574124294,0.5485057076776074,69,12
 23602,"Hojgaard, Nicolai",885,Royal Portrush Golf Club,sg_app,0.4150750163538217,0.4456148566669781,43,12
 23602,"Hojgaard, Nicolai",528,Pinehurst Resort & Country Club (Course No. 2),sg_app,0.7735144470169854,0.3630790722989092,53,12
@@ -1924,23 +1924,23 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 23602,"Hojgaard, Nicolai",21,Colonial Country Club,sg_putt,-0.5773765144875264,0.27380389039483516,103,12
 23602,"Hojgaard, Nicolai",928,PGA National  - Champion Course,sg_putt,0.4224796363363257,0.23147668088428233,65,12
 23602,"Hojgaard, Nicolai",752,Sedgefield Country Club,sg_putt,0.5110954881522695,0.2073471862126644,105,12
-23602,"Hojgaard, Nicolai",3797,old course st andrews,sg_total,-5.259825850778956,0.6167219079681248,14,12
-23602,"Hojgaard, Nicolai",4593,jumeirah golf estates,sg_total,0.8224933743610355,0.6007761403955908,6,12
-23602,"Hojgaard, Nicolai",4583,brabazon course at the belfry,sg_total,2.267097819167856,0.5366747375739201,9,12
-23602,"Hojgaard, Nicolai",4013,marco simone gc,sg_total,-0.16970106092494133,0.5353749804005323,7,12
-23602,"Hojgaard, Nicolai",4584,crans-sur-sierre gc,sg_total,-2.6149072199719767,0.5311667632457925,9,12
-23602,"Hojgaard, Nicolai",3881,old course st andrews,sg_total,0.8903857064444923,0.49736623172279193,9,12
-23602,"Hojgaard, Nicolai",4582,furesø golf klub,sg_total,-1.1147333088029574,0.490625539035993,5,12
-23602,"Hojgaard, Nicolai",4586,wentworth golf club,sg_total,-5.02838286400343,0.4527820867381119,15,12
-23602,"Hojgaard, Nicolai",4224,crans-sur-sierre gc,sg_total,1.5027050312947452,0.44256863636278093,5,12
-23602,"Hojgaard, Nicolai",3907,education city gc,sg_total,0.5828041665884912,0.42017361068624604,6,12
-23602,"Hojgaard, Nicolai",3798,kingsbarns golf links,sg_total,-1.4918258507789548,0.4050476452171268,14,12
-23602,"Hojgaard, Nicolai",3975,kingsbarns golf links,sg_total,4.936385706444492,0.40252442742361033,9,12
-23602,"Hojgaard, Nicolai",3883,real club valderrama,sg_total,-0.39000559041029426,0.3112939142308682,6,12
-23602,"Hojgaard, Nicolai",3878,wentworth golf club,sg_total,2.511308052534279,0.3009569936494542,14,12
-23602,"Hojgaard, Nicolai",244,Puntacana Resort (Corales Golf Course),sg_total,-0.5842597472238288,0.27591320024340477,74,12
-23602,"Hojgaard, Nicolai",4012,wentworth golf club,sg_total,0.4773766295839288,0.2608414612864147,13,12
-23602,"Hojgaard, Nicolai",4015,old course st andrews,sg_total,0.8133612076169955,0.2171814404629489,9,12
+23602,"Hojgaard, Nicolai",3797,old course st andrews,sg_total,-5.259945118246889,0.6167219079681248,14,12
+23602,"Hojgaard, Nicolai",4593,jumeirah golf estates,sg_total,0.822374106893103,0.6007761403955908,6,12
+23602,"Hojgaard, Nicolai",4583,brabazon course at the belfry,sg_total,2.266978551699923,0.5366747375739201,9,12
+23602,"Hojgaard, Nicolai",4013,marco simone gc,sg_total,-0.16982032839287373,0.5353749804005323,7,12
+23602,"Hojgaard, Nicolai",4584,crans-sur-sierre gc,sg_total,-2.6150264874399096,0.5311667632457925,9,12
+23602,"Hojgaard, Nicolai",3881,old course st andrews,sg_total,0.8902664389765598,0.49736623172279193,9,12
+23602,"Hojgaard, Nicolai",4582,furesø golf klub,sg_total,-1.11485257627089,0.490625539035993,5,12
+23602,"Hojgaard, Nicolai",4586,wentworth golf club,sg_total,-5.028502131471363,0.4527820867381119,15,12
+23602,"Hojgaard, Nicolai",4224,crans-sur-sierre gc,sg_total,1.5025857638268127,0.44256863636278093,5,12
+23602,"Hojgaard, Nicolai",3907,education city gc,sg_total,0.5826848991205589,0.42017361068624604,6,12
+23602,"Hojgaard, Nicolai",3798,kingsbarns golf links,sg_total,-1.4919451182468875,0.4050476452171268,14,12
+23602,"Hojgaard, Nicolai",3975,kingsbarns golf links,sg_total,4.93626643897656,0.40252442742361033,9,12
+23602,"Hojgaard, Nicolai",3883,real club valderrama,sg_total,-0.39012485787822687,0.3112939142308682,6,12
+23602,"Hojgaard, Nicolai",3878,wentworth golf club,sg_total,2.511188785066346,0.3009569936494542,14,12
+23602,"Hojgaard, Nicolai",244,Puntacana Resort (Corales Golf Course),sg_total,-0.5843790146917613,0.27591320024340477,74,12
+23602,"Hojgaard, Nicolai",4012,wentworth golf club,sg_total,0.47725736211599606,0.2608414612864147,13,12
+23602,"Hojgaard, Nicolai",4015,old course st andrews,sg_total,0.8132419401490629,0.2171814404629489,9,12
 17538,"Homa, Max",12,Harbour Town Golf Links,sg_app,0.04986650307377906,0.9185976483400276,111,12
 17538,"Homa, Max",891,Winged Foot GC,sg_app,-1.110619522525418,0.5342356006223477,48,12
 17538,"Homa, Max",503,TPC River Highlands,sg_app,0.23199272153717254,0.4620797661198388,106,12
@@ -2004,9 +2004,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17538,"Homa, Max",928,PGA National  - Champion Course,sg_putt,0.38562933820436196,0.23147668088428233,65,12
 17538,"Homa, Max",752,Sedgefield Country Club,sg_putt,-1.9545510849629273,0.2073471862126644,105,12
 17538,"Homa, Max",656,Plantation Course at Kapalua,sg_putt,-0.3086760355364728,0.20071736187159786,72,12
-17538,"Homa, Max",733,El Camaleón Golf Course at Mayakoba,sg_total,2.0347910425973947,0.30533913800790735,89,12
-17538,"Homa, Max",242,Nine Bridges,sg_total,-1.3132908156886565,0.27673719132496094,32,12
-17538,"Homa, Max",244,Puntacana Resort (Corales Golf Course),sg_total,-0.4106794119232198,0.27591320024340477,74,12
+17538,"Homa, Max",733,El Camaleón Golf Course at Mayakoba,sg_total,2.034624538187672,0.30533913800790735,89,12
+17538,"Homa, Max",242,Nine Bridges,sg_total,-1.3134573200983788,0.27673719132496094,32,12
+17538,"Homa, Max",244,Puntacana Resort (Corales Golf Course),sg_total,-0.4108459163329422,0.27591320024340477,74,12
 11276,"Horschel, Billy",12,Harbour Town Golf Links,sg_app,-0.40464141800892356,0.9185976483400276,111,12
 11276,"Horschel, Billy",933,East Lake Golf Club,sg_app,-0.508880862904857,0.698853716848569,19,12
 11276,"Horschel, Billy",891,Winged Foot GC,sg_app,-0.36250914870358925,0.5342356006223477,48,12
@@ -2076,17 +2076,17 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 11276,"Horschel, Billy",240,Club de Golf Chapultepec,sg_putt,0.42556506022693835,0.21197090773644714,30,12
 11276,"Horschel, Billy",752,Sedgefield Country Club,sg_putt,0.9438324271177745,0.2073471862126644,105,12
 11276,"Horschel, Billy",656,Plantation Course at Kapalua,sg_putt,-0.43391515871582526,0.20071736187159786,72,12
-11276,"Horschel, Billy",3881,old course st andrews,sg_total,-0.8180772329739879,0.49736623172279193,9,12
-11276,"Horschel, Billy",4586,wentworth golf club,sg_total,-1.2948322181660201,0.4527820867381119,15,12
-11276,"Horschel, Billy",3975,kingsbarns golf links,sg_total,-1.7720772329739882,0.40252442742361033,9,12
-11276,"Horschel, Billy",733,El Camaleón Golf Course at Mayakoba,sg_total,0.281603359727027,0.30533913800790735,89,12
-11276,"Horschel, Billy",3878,wentworth golf club,sg_total,2.765961491973952,0.3009569936494542,14,12
-11276,"Horschel, Billy",242,Nine Bridges,sg_total,-1.950268813854769,0.27673719132496094,32,12
-11276,"Horschel, Billy",244,Puntacana Resort (Corales Golf Course),sg_total,3.6775222929158438,0.27591320024340477,74,12
-11276,"Horschel, Billy",4225,k club,sg_total,-0.26242556531522954,0.26645139761434267,8,12
-11276,"Horschel, Billy",4012,wentworth golf club,sg_total,1.0943680257376838,0.2608414612864147,13,12
-11276,"Horschel, Billy",3999,golfclub münchen eichenried,sg_total,-0.7025082869961701,0.24878517953888782,4,12
-11276,"Horschel, Billy",4015,old course st andrews,sg_total,1.1238950548854345,0.2171814404629489,9,12
+11276,"Horschel, Billy",3881,old course st andrews,sg_total,-0.8178932169293099,0.49736623172279193,9,12
+11276,"Horschel, Billy",4586,wentworth golf club,sg_total,-1.2946482021213421,0.4527820867381119,15,12
+11276,"Horschel, Billy",3975,kingsbarns golf links,sg_total,-1.7718932169293102,0.40252442742361033,9,12
+11276,"Horschel, Billy",733,El Camaleón Golf Course at Mayakoba,sg_total,0.281787375771705,0.30533913800790735,89,12
+11276,"Horschel, Billy",3878,wentworth golf club,sg_total,2.76614550801863,0.3009569936494542,14,12
+11276,"Horschel, Billy",242,Nine Bridges,sg_total,-1.950084797810091,0.27673719132496094,32,12
+11276,"Horschel, Billy",244,Puntacana Resort (Corales Golf Course),sg_total,3.6777063089605218,0.27591320024340477,74,12
+11276,"Horschel, Billy",4225,k club,sg_total,-0.26224154927055154,0.26645139761434267,8,12
+11276,"Horschel, Billy",4012,wentworth golf club,sg_total,1.0945520417823618,0.2608414612864147,13,12
+11276,"Horschel, Billy",3999,golfclub münchen eichenried,sg_total,-0.7023242709514921,0.24878517953888782,4,12
+11276,"Horschel, Billy",4015,old course st andrews,sg_total,1.1240790709301125,0.2171814404629489,9,12
 18841,"Hovland, Viktor",12,Harbour Town Golf Links,sg_app,0.0046037600445584664,0.9185976483400276,111,12
 18841,"Hovland, Viktor",933,East Lake Golf Club,sg_app,0.028880985200455483,0.698853716848569,19,12
 18841,"Hovland, Viktor",887,Kasumigaseki Country Club,sg_app,-0.17379627603353215,0.6038754910393548,16,12
@@ -2157,14 +2157,14 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 18841,"Hovland, Viktor",21,Colonial Country Club,sg_putt,0.6682435482108701,0.27380389039483516,103,12
 18841,"Hovland, Viktor",752,Sedgefield Country Club,sg_putt,0.8321680591045277,0.2073471862126644,105,12
 18841,"Hovland, Viktor",656,Plantation Course at Kapalua,sg_putt,-0.1616153582441499,0.20071736187159786,72,12
-18841,"Hovland, Viktor",4013,marco simone gc,sg_total,-1.6316712457760154,0.5353749804005323,7,12
-18841,"Hovland, Viktor",3900,emirates gc,sg_total,1.0845586995072738,0.46628552905862813,11,12
-18841,"Hovland, Viktor",4586,wentworth golf club,sg_total,0.6033122278499731,0.4527820867381119,15,12
-18841,"Hovland, Viktor",733,El Camaleón Golf Course at Mayakoba,sg_total,1.1969667894394291,0.30533913800790735,89,12
-18841,"Hovland, Viktor",3878,wentworth golf club,sg_total,-1.8153592203749807,0.3009569936494542,14,12
-18841,"Hovland, Viktor",242,Nine Bridges,sg_total,0.2722156835551608,0.27673719132496094,32,12
-18841,"Hovland, Viktor",4012,wentworth golf club,sg_total,0.8084243764287895,0.2608414612864147,13,12
-18841,"Hovland, Viktor",3899,abu dhabi gc,sg_total,-0.8877987979864373,0.2354546785163034,12,12
+18841,"Hovland, Viktor",4013,marco simone gc,sg_total,-1.631665067287846,0.5353749804005323,7,12
+18841,"Hovland, Viktor",3900,emirates gc,sg_total,1.084564877995443,0.46628552905862813,11,12
+18841,"Hovland, Viktor",4586,wentworth golf club,sg_total,0.603318406338142,0.4527820867381119,15,12
+18841,"Hovland, Viktor",733,El Camaleón Golf Course at Mayakoba,sg_total,1.1969729679275984,0.30533913800790735,89,12
+18841,"Hovland, Viktor",3878,wentworth golf club,sg_total,-1.8153530418868118,0.3009569936494542,14,12
+18841,"Hovland, Viktor",242,Nine Bridges,sg_total,0.27222186204332993,0.27673719132496094,32,12
+18841,"Hovland, Viktor",4012,wentworth golf club,sg_total,0.8084305549169587,0.2608414612864147,13,12
+18841,"Hovland, Viktor",3899,abu dhabi gc,sg_total,-0.8877926194982682,0.2354546785163034,12,12
 17488,"Im, Sungjae",12,Harbour Town Golf Links,sg_app,0.29584402389090375,0.9185976483400276,111,12
 17488,"Im, Sungjae",933,East Lake Golf Club,sg_app,0.47769836252061026,0.698853716848569,19,12
 17488,"Im, Sungjae",887,Kasumigaseki Country Club,sg_app,-0.9113428466819569,0.6038754910393548,16,12
@@ -2248,9 +2248,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17488,"Im, Sungjae",240,Club de Golf Chapultepec,sg_putt,-0.26274150359724896,0.21197090773644714,30,12
 17488,"Im, Sungjae",752,Sedgefield Country Club,sg_putt,0.47210850534577214,0.2073471862126644,105,12
 17488,"Im, Sungjae",656,Plantation Course at Kapalua,sg_putt,0.556865068119749,0.20071736187159786,72,12
-17488,"Im, Sungjae",4716,woo jeong hills cc,sg_total,-0.8367107206640264,0.3299328499519135,4,12
-17488,"Im, Sungjae",242,Nine Bridges,sg_total,0.08923573871814458,0.27673719132496094,32,12
-17488,"Im, Sungjae",244,Puntacana Resort (Corales Golf Course),sg_total,1.4291636587848402,0.27591320024340477,74,12
+17488,"Im, Sungjae",4716,woo jeong hills cc,sg_total,-0.836781571387873,0.3299328499519135,4,12
+17488,"Im, Sungjae",242,Nine Bridges,sg_total,0.08916488799429803,0.27673719132496094,32,12
+17488,"Im, Sungjae",244,Puntacana Resort (Corales Golf Course),sg_total,1.4290928080609937,0.27591320024340477,74,12
 32457,"Keefer, Johnny",6,Waialae Country Club,sg_app,0.7461665241949197,0.4234757194110063,96,12
 32457,"Keefer, Johnny",608,Oakmont Country Club,sg_app,0.3722046739988756,0.2345527325655614,46,12
 32457,"Keefer, Johnny",776,Sea Island Golf Club (Seaside Course),sg_app,0.19213902223187812,0.21421600599223561,96,12
@@ -2319,12 +2319,12 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17543,"Kim, Michael",21,Colonial Country Club,sg_putt,-0.35522765038327564,0.27380389039483516,103,12
 17543,"Kim, Michael",928,PGA National  - Champion Course,sg_putt,-0.305385674148359,0.23147668088428233,65,12
 17543,"Kim, Michael",752,Sedgefield Country Club,sg_putt,-0.032655210868420506,0.2073471862126644,105,12
-17543,"Kim, Michael",4593,jumeirah golf estates,sg_total,-0.4409659298757105,0.6007761403955908,6,12
-17543,"Kim, Michael",4586,wentworth golf club,sg_total,-1.922244954479325,0.4527820867381119,15,12
-17543,"Kim, Michael",890,Tahoe Mountain Club (Old Greenwood),sg_total,1.1919293755512888,0.40338517729111795,61,12
-17543,"Kim, Michael",733,El Camaleón Golf Course at Mayakoba,sg_total,-2.606405524642154,0.30533913800790735,89,12
-17543,"Kim, Michael",242,Nine Bridges,sg_total,-0.5700211047036942,0.27673719132496094,32,12
-17543,"Kim, Michael",244,Puntacana Resort (Corales Golf Course),sg_total,0.6077703951514589,0.27591320024340477,74,12
+17543,"Kim, Michael",4593,jumeirah golf estates,sg_total,-0.4410043175623519,0.6007761403955908,6,12
+17543,"Kim, Michael",4586,wentworth golf club,sg_total,-1.9222833421659664,0.4527820867381119,15,12
+17543,"Kim, Michael",890,Tahoe Mountain Club (Old Greenwood),sg_total,1.1918909878646473,0.40338517729111795,61,12
+17543,"Kim, Michael",733,El Camaleón Golf Course at Mayakoba,sg_total,-2.6064439123287957,0.30533913800790735,89,12
+17543,"Kim, Michael",242,Nine Bridges,sg_total,-0.5700594923903356,0.27673719132496094,32,12
+17543,"Kim, Michael",244,Puntacana Resort (Corales Golf Course),sg_total,0.6077320074648174,0.27591320024340477,74,12
 14609,"Kim, Si Woo",12,Harbour Town Golf Links,sg_app,-0.13240253146625613,0.9185976483400276,111,12
 14609,"Kim, Si Woo",887,Kasumigaseki Country Club,sg_app,-0.2357780244325624,0.6038754910393548,16,12
 14609,"Kim, Si Woo",921,TPC Craig Ranch,sg_app,0.9919494916767355,0.5485057076776074,69,12
@@ -2398,12 +2398,12 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 14609,"Kim, Si Woo",21,Colonial Country Club,sg_putt,-0.046205614348082756,0.27380389039483516,103,12
 14609,"Kim, Si Woo",752,Sedgefield Country Club,sg_putt,-0.46350618183928416,0.2073471862126644,105,12
 14609,"Kim, Si Woo",656,Plantation Course at Kapalua,sg_putt,0.46432649389178327,0.20071736187159786,72,12
-14609,"Kim, Si Woo",3788,renaissance club,sg_total,-1.7017977453461999,0.6341906643289803,15,12
-14609,"Kim, Si Woo",4586,wentworth golf club,sg_total,0.9706091692568647,0.4527820867381119,15,12
-14609,"Kim, Si Woo",890,Tahoe Mountain Club (Old Greenwood),sg_total,-0.030011688932995356,0.40338517729111795,61,12
-14609,"Kim, Si Woo",4716,woo jeong hills cc,sg_total,-0.508462230816636,0.3299328499519135,4,12
-14609,"Kim, Si Woo",733,El Camaleón Golf Course at Mayakoba,sg_total,-1.8792890977964185,0.30533913800790735,89,12
-14609,"Kim, Si Woo",242,Nine Bridges,sg_total,1.1841609688169392,0.27673719132496094,32,12
+14609,"Kim, Si Woo",3788,renaissance club,sg_total,-1.7017618400488475,0.6341906643289803,15,12
+14609,"Kim, Si Woo",4586,wentworth golf club,sg_total,0.970645074554217,0.4527820867381119,15,12
+14609,"Kim, Si Woo",890,Tahoe Mountain Club (Old Greenwood),sg_total,-0.02997578363564299,0.40338517729111795,61,12
+14609,"Kim, Si Woo",4716,woo jeong hills cc,sg_total,-0.5084263255192837,0.3299328499519135,4,12
+14609,"Kim, Si Woo",733,El Camaleón Golf Course at Mayakoba,sg_total,-1.879253192499066,0.30533913800790735,89,12
+14609,"Kim, Si Woo",242,Nine Bridges,sg_total,1.1841968741142916,0.27673719132496094,32,12
 21891,"Kitayama, Kurt",12,Harbour Town Golf Links,sg_app,-0.21397492074750163,0.9185976483400276,111,12
 21891,"Kitayama, Kurt",921,TPC Craig Ranch,sg_app,0.33779045366436833,0.5485057076776074,69,12
 21891,"Kitayama, Kurt",891,Winged Foot GC,sg_app,0.6326017552962414,0.5342356006223477,48,12
@@ -2456,23 +2456,23 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 21891,"Kitayama, Kurt",240,Club de Golf Chapultepec,sg_putt,-1.0749355205157878,0.21197090773644714,30,12
 21891,"Kitayama, Kurt",752,Sedgefield Country Club,sg_putt,0.6406661757796892,0.2073471862126644,105,12
 21891,"Kitayama, Kurt",656,Plantation Course at Kapalua,sg_putt,-0.19480457036258397,0.20071736187159786,72,12
-21891,"Kitayama, Kurt",3793,crans-sur-sierre gc,sg_total,-0.4686244681994137,0.700902200783588,10,12
-21891,"Kitayama, Kurt",3788,renaissance club,sg_total,1.0250536690673642,0.6341906643289803,15,12
-21891,"Kitayama, Kurt",4013,marco simone gc,sg_total,2.372533605468675,0.5353749804005323,7,12
-21891,"Kitayama, Kurt",3779,royal golf dar es salam red course,sg_total,1.8266537473683635,0.4964729835213345,6,12
-21891,"Kitayama, Kurt",3807,jumeirah golf estates,sg_total,-2.3085922769164644,0.48458590095957504,10,12
-21891,"Kitayama, Kurt",3900,emirates gc,sg_total,2.4762308085005134,0.46628552905862813,11,12
-21891,"Kitayama, Kurt",3767,abu dhabi gc,sg_total,-0.17834434748192876,0.42288439872483724,10,12
-21891,"Kitayama, Kurt",3907,education city gc,sg_total,1.4525716523823118,0.42017361068624604,6,12
-21891,"Kitayama, Kurt",890,Tahoe Mountain Club (Old Greenwood),sg_total,-2.525005684931655,0.40338517729111795,61,12
-21891,"Kitayama, Kurt",3801,olgiata gc,sg_total,3.3027218189385064,0.393867411354965,11,12
-21891,"Kitayama, Kurt",3774,doha gc,sg_total,1.5983287408136662,0.35924298584696057,7,12
-21891,"Kitayama, Kurt",3638,saujana g&cc,sg_total,0.4078791789222621,0.33766572629909486,7,12
-21891,"Kitayama, Kurt",3878,wentworth golf club,sg_total,-0.9435003291892435,0.3009569936494542,14,12
-21891,"Kitayama, Kurt",244,Puntacana Resort (Corales Golf Course),sg_total,-0.6691581340203383,0.27591320024340477,74,12
-21891,"Kitayama, Kurt",3930,wentworth golf club,sg_total,-0.8133765537750786,0.2747202434854545,12,12
-21891,"Kitayama, Kurt",4012,wentworth golf club,sg_total,0.8961756043204566,0.2608414612864147,13,12
-21891,"Kitayama, Kurt",3899,abu dhabi gc,sg_total,0.7824590748942217,0.2354546785163034,12,12
+21891,"Kitayama, Kurt",3793,crans-sur-sierre gc,sg_total,-0.4687307560273296,0.700902200783588,10,12
+21891,"Kitayama, Kurt",3788,renaissance club,sg_total,1.0249473812394485,0.6341906643289803,15,12
+21891,"Kitayama, Kurt",4013,marco simone gc,sg_total,2.3724273176407595,0.5353749804005323,7,12
+21891,"Kitayama, Kurt",3779,royal golf dar es salam red course,sg_total,1.8265474595404478,0.4964729835213345,6,12
+21891,"Kitayama, Kurt",3807,jumeirah golf estates,sg_total,-2.3086985647443803,0.48458590095957504,10,12
+21891,"Kitayama, Kurt",3900,emirates gc,sg_total,2.4761245206725975,0.46628552905862813,11,12
+21891,"Kitayama, Kurt",3767,abu dhabi gc,sg_total,-0.1784506353098446,0.42288439872483724,10,12
+21891,"Kitayama, Kurt",3907,education city gc,sg_total,1.4524653645543961,0.42017361068624604,6,12
+21891,"Kitayama, Kurt",890,Tahoe Mountain Club (Old Greenwood),sg_total,-2.525111972759571,0.40338517729111795,61,12
+21891,"Kitayama, Kurt",3801,olgiata gc,sg_total,3.3026155311105905,0.393867411354965,11,12
+21891,"Kitayama, Kurt",3774,doha gc,sg_total,1.5982224529857505,0.35924298584696057,7,12
+21891,"Kitayama, Kurt",3638,saujana g&cc,sg_total,0.4077728910943462,0.33766572629909486,7,12
+21891,"Kitayama, Kurt",3878,wentworth golf club,sg_total,-0.9436066170171594,0.3009569936494542,14,12
+21891,"Kitayama, Kurt",244,Puntacana Resort (Corales Golf Course),sg_total,-0.6692644218482541,0.27591320024340477,74,12
+21891,"Kitayama, Kurt",3930,wentworth golf club,sg_total,-0.8134828416029946,0.2747202434854545,12,12
+21891,"Kitayama, Kurt",4012,wentworth golf club,sg_total,0.8960693164925405,0.2608414612864147,13,12
+21891,"Kitayama, Kurt",3899,abu dhabi gc,sg_total,0.7823527870663058,0.2354546785163034,12,12
 19396,"Knapp, Jake",12,Harbour Town Golf Links,sg_app,0.39213527836028717,0.9185976483400276,111,12
 19396,"Knapp, Jake",921,TPC Craig Ranch,sg_app,0.6684385459920226,0.5485057076776074,69,12
 19396,"Knapp, Jake",503,TPC River Highlands,sg_app,-0.015669856140026563,0.4620797661198388,106,12
@@ -2543,8 +2543,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 16841,"Lee, Min Woo",21,Colonial Country Club,sg_putt,0.22401435507320877,0.27380389039483516,103,12
 16841,"Lee, Min Woo",928,PGA National  - Champion Course,sg_putt,0.4513805387922967,0.23147668088428233,65,12
 16841,"Lee, Min Woo",752,Sedgefield Country Club,sg_putt,-1.5296147364094708,0.2073471862126644,105,12
-16841,"Lee, Min Woo",4013,marco simone gc,sg_total,-2.1699931848851888,0.5353749804005323,7,12
-16841,"Lee, Min Woo",4012,wentworth golf club,sg_total,1.654578053566511,0.2608414612864147,13,12
+16841,"Lee, Min Woo",4013,marco simone gc,sg_total,-2.1717685987509885,0.5353749804005323,7,12
+16841,"Lee, Min Woo",4012,wentworth golf club,sg_total,1.652802639700711,0.2608414612864147,13,12
 15980,"Lipsky, David",12,Harbour Town Golf Links,sg_app,-0.15457364774587468,0.9185976483400276,111,12
 15980,"Lipsky, David",921,TPC Craig Ranch,sg_app,0.06671734753610117,0.5485057076776074,69,12
 15980,"Lipsky, David",503,TPC River Highlands,sg_app,-0.5221816983922594,0.4620797661198388,106,12
@@ -2582,21 +2582,21 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 15980,"Lipsky, David",21,Colonial Country Club,sg_putt,0.10835601320139066,0.27380389039483516,103,12
 15980,"Lipsky, David",928,PGA National  - Champion Course,sg_putt,0.0993398300575013,0.23147668088428233,65,12
 15980,"Lipsky, David",752,Sedgefield Country Club,sg_putt,-0.15887453538761778,0.2073471862126644,105,12
-15980,"Lipsky, David",3788,renaissance club,sg_total,-0.8926447715542037,0.6341906643289803,15,12
-15980,"Lipsky, David",3797,old course st andrews,sg_total,-3.7200345706523112,0.6167219079681248,14,12
-15980,"Lipsky, David",3779,royal golf dar es salam red course,sg_total,2.6533060544591835,0.4964729835213345,6,12
-15980,"Lipsky, David",3807,jumeirah golf estates,sg_total,0.9970506469462478,0.48458590095957504,10,12
-15980,"Lipsky, David",3900,emirates gc,sg_total,2.37822345870274,0.46628552905862813,11,12
-15980,"Lipsky, David",3767,abu dhabi gc,sg_total,2.439016587281558,0.42288439872483724,10,12
-15980,"Lipsky, David",3798,kingsbarns golf links,sg_total,3.5339654293476888,0.4050476452171268,14,12
-15980,"Lipsky, David",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.8078227034436498,0.40338517729111795,61,12
-15980,"Lipsky, David",3801,olgiata gc,sg_total,-2.2142679877489635,0.393867411354965,11,12
-15980,"Lipsky, David",3774,doha gc,sg_total,0.014664206156528067,0.35924298584696057,7,12
-15980,"Lipsky, David",3638,saujana g&cc,sg_total,1.9091825765218755,0.33766572629909486,7,12
-15980,"Lipsky, David",3883,real club valderrama,sg_total,2.0251633179354998,0.3112939142308682,6,12
-15980,"Lipsky, David",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.3133242937875235,0.30533913800790735,89,12
-15980,"Lipsky, David",244,Puntacana Resort (Corales Golf Course),sg_total,0.7403436727445872,0.27591320024340477,74,12
-15980,"Lipsky, David",3899,abu dhabi gc,sg_total,1.461490142692984,0.2354546785163034,12,12
+15980,"Lipsky, David",3788,renaissance club,sg_total,-0.8926242944409682,0.6341906643289803,15,12
+15980,"Lipsky, David",3797,old course st andrews,sg_total,-3.7200140935390755,0.6167219079681248,14,12
+15980,"Lipsky, David",3779,royal golf dar es salam red course,sg_total,2.6533265315724193,0.4964729835213345,6,12
+15980,"Lipsky, David",3807,jumeirah golf estates,sg_total,0.9970711240594833,0.48458590095957504,10,12
+15980,"Lipsky, David",3900,emirates gc,sg_total,2.3782439358159757,0.46628552905862813,11,12
+15980,"Lipsky, David",3767,abu dhabi gc,sg_total,2.439037064394794,0.42288439872483724,10,12
+15980,"Lipsky, David",3798,kingsbarns golf links,sg_total,3.5339859064609245,0.4050476452171268,14,12
+15980,"Lipsky, David",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.8078431805568853,0.40338517729111795,61,12
+15980,"Lipsky, David",3801,olgiata gc,sg_total,-2.214247510635728,0.393867411354965,11,12
+15980,"Lipsky, David",3774,doha gc,sg_total,0.014684683269763618,0.35924298584696057,7,12
+15980,"Lipsky, David",3638,saujana g&cc,sg_total,1.9092030536351112,0.33766572629909486,7,12
+15980,"Lipsky, David",3883,real club valderrama,sg_total,2.0251837950487355,0.3112939142308682,6,12
+15980,"Lipsky, David",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.31330381667428797,0.30533913800790735,89,12
+15980,"Lipsky, David",244,Puntacana Resort (Corales Golf Course),sg_total,0.7403641498578227,0.27591320024340477,74,12
+15980,"Lipsky, David",3899,abu dhabi gc,sg_total,1.4615106198062198,0.2354546785163034,12,12
 13900,"Lowry, Shane",12,Harbour Town Golf Links,sg_app,-0.05703594936572727,0.9185976483400276,111,12
 13900,"Lowry, Shane",933,East Lake Golf Club,sg_app,-0.1175763725944064,0.698853716848569,19,12
 13900,"Lowry, Shane",887,Kasumigaseki Country Club,sg_app,1.1051551931154993,0.6038754910393548,16,12
@@ -2671,23 +2671,23 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 13900,"Lowry, Shane",928,PGA National  - Champion Course,sg_putt,0.6906683044282746,0.23147668088428233,65,12
 13900,"Lowry, Shane",240,Club de Golf Chapultepec,sg_putt,-0.49686214538640766,0.21197090773644714,30,12
 13900,"Lowry, Shane",752,Sedgefield Country Club,sg_putt,-1.1355287227221884,0.2073471862126644,105,12
-13900,"Lowry, Shane",3797,old course st andrews,sg_total,1.3761596892897523,0.6167219079681248,14,12
-13900,"Lowry, Shane",4593,jumeirah golf estates,sg_total,0.37580359596228907,0.6007761403955908,6,12
-13900,"Lowry, Shane",3881,old course st andrews,sg_total,1.4641618141467154,0.49736623172279193,9,12
-13900,"Lowry, Shane",3807,jumeirah golf estates,sg_total,0.9709927458599253,0.48458590095957504,10,12
-13900,"Lowry, Shane",3900,emirates gc,sg_total,1.4675146846086764,0.46628552905862813,11,12
-13900,"Lowry, Shane",4586,wentworth golf club,sg_total,-1.0230904654193442,0.4527820867381119,15,12
-13900,"Lowry, Shane",3767,abu dhabi gc,sg_total,4.720842516277668,0.42288439872483724,10,12
-13900,"Lowry, Shane",3798,kingsbarns golf links,sg_total,0.20065968928975242,0.4050476452171268,14,12
-13900,"Lowry, Shane",3975,kingsbarns golf links,sg_total,4.010161814146716,0.40252442742361033,9,12
-13900,"Lowry, Shane",3801,olgiata gc,sg_total,-1.024506740482069,0.393867411354965,11,12
-13900,"Lowry, Shane",733,El Camaleón Golf Course at Mayakoba,sg_total,-1.8321747955566212,0.30533913800790735,89,12
-13900,"Lowry, Shane",3878,wentworth golf club,sg_total,0.7649414926217698,0.3009569936494542,14,12
-13900,"Lowry, Shane",3930,wentworth golf club,sg_total,1.3152764735414149,0.2747202434854545,12,12
-13900,"Lowry, Shane",4225,k club,sg_total,0.9215265349760545,0.26645139761434267,8,12
-13900,"Lowry, Shane",4012,wentworth golf club,sg_total,1.9761890280938545,0.2608414612864147,13,12
-13900,"Lowry, Shane",3899,abu dhabi gc,sg_total,-0.9718258787503439,0.2354546785163034,12,12
-13900,"Lowry, Shane",4015,old course st andrews,sg_total,-0.13412014826943064,0.2171814404629489,9,12
+13900,"Lowry, Shane",3797,old course st andrews,sg_total,1.375410216191991,0.6167219079681248,14,12
+13900,"Lowry, Shane",4593,jumeirah golf estates,sg_total,0.37505412286452755,0.6007761403955908,6,12
+13900,"Lowry, Shane",3881,old course st andrews,sg_total,1.4634123410489541,0.49736623172279193,9,12
+13900,"Lowry, Shane",3807,jumeirah golf estates,sg_total,0.9702432727621638,0.48458590095957504,10,12
+13900,"Lowry, Shane",3900,emirates gc,sg_total,1.466765211510915,0.46628552905862813,11,12
+13900,"Lowry, Shane",4586,wentworth golf club,sg_total,-1.0238399385171055,0.4527820867381119,15,12
+13900,"Lowry, Shane",3767,abu dhabi gc,sg_total,4.720093043179906,0.42288439872483724,10,12
+13900,"Lowry, Shane",3798,kingsbarns golf links,sg_total,0.1999102161919909,0.4050476452171268,14,12
+13900,"Lowry, Shane",3975,kingsbarns golf links,sg_total,4.009412341048955,0.40252442742361033,9,12
+13900,"Lowry, Shane",3801,olgiata gc,sg_total,-1.0252562135798302,0.393867411354965,11,12
+13900,"Lowry, Shane",733,El Camaleón Golf Course at Mayakoba,sg_total,-1.832924268654383,0.30533913800790735,89,12
+13900,"Lowry, Shane",3878,wentworth golf club,sg_total,0.7641920195240083,0.3009569936494542,14,12
+13900,"Lowry, Shane",3930,wentworth golf club,sg_total,1.3145270004436536,0.2747202434854545,12,12
+13900,"Lowry, Shane",4225,k club,sg_total,0.920777061878293,0.26645139761434267,8,12
+13900,"Lowry, Shane",4012,wentworth golf club,sg_total,1.9754395549960932,0.2608414612864147,13,12
+13900,"Lowry, Shane",3899,abu dhabi gc,sg_total,-0.9725753518481055,0.2354546785163034,12,12
+13900,"Lowry, Shane",4015,old course st andrews,sg_total,-0.13486962136719216,0.2171814404629489,9,12
 23323,"MacIntyre, Robert",12,Harbour Town Golf Links,sg_app,-0.38396035868145284,0.9185976483400276,111,12
 23323,"MacIntyre, Robert",933,East Lake Golf Club,sg_app,0.15400197507036978,0.698853716848569,19,12
 23323,"MacIntyre, Robert",891,Winged Foot GC,sg_app,0.4509738335928133,0.5342356006223477,48,12
@@ -2742,32 +2742,32 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 23323,"Macintyre, Robert",528,Pinehurst Resort & Country Club (Course No. 2),sg_ott,0.11063569841360979,0.42486858413444856,53,12
 23323,"Macintyre, Robert",724,Royal Liverpool,sg_putt,-1.0145756820166318,0.5512586552321147,44,12
 23323,"Macintyre, Robert",921,TPC Craig Ranch,sg_putt,1.0681114785795325,0.29363110698362854,69,12
-23323,"Macintyre, Robert",3793,crans-sur-sierre gc,sg_total,-0.8694179376414838,0.700902200783588,10,12
-23323,"Macintyre, Robert",3792,hills golf & sports club,sg_total,-1.2560726918721232,0.6468878402217493,6,12
-23323,"Macintyre, Robert",3788,renaissance club,sg_total,-0.7832308071795455,0.6341906643289803,15,12
-23323,"Macintyre, Robert",3797,old course st andrews,sg_total,-0.08832336488133594,0.6167219079681248,14,12
-23323,"Macintyre, Robert",4362,lakes gc,sg_total,-1.5879728156892847,0.6116377446036373,5,12
-23323,"Macintyre, Robert",4593,jumeirah golf estates,sg_total,0.037348677151764265,0.6007761403955908,6,12
-23323,"Macintyre, Robert",4013,marco simone gc,sg_total,2.79633112497458,0.5353749804005323,7,12
-23323,"Macintyre, Robert",3881,old course st andrews,sg_total,-0.21635048943472546,0.49736623172279193,9,12
-23323,"Macintyre, Robert",3779,royal golf dar es salam red course,sg_total,-2.3509684678458016,0.4964729835213345,6,12
-23323,"Macintyre, Robert",3807,jumeirah golf estates,sg_total,0.4416923752810338,0.48458590095957504,10,12
-23323,"Macintyre, Robert",3900,emirates gc,sg_total,1.4051190888699532,0.46628552905862813,11,12
-23323,"Macintyre, Robert",4586,wentworth golf club,sg_total,-2.185178913056171,0.4527820867381119,15,12
-23323,"Macintyre, Robert",4224,crans-sur-sierre gc,sg_total,-1.6297476396607742,0.44256863636278093,5,12
-23323,"Macintyre, Robert",3767,abu dhabi gc,sg_total,0.4494585739498449,0.42288439872483724,10,12
-23323,"Macintyre, Robert",3907,education city gc,sg_total,-1.4712197879642952,0.42017361068624604,6,12
-23323,"Macintyre, Robert",3798,kingsbarns golf links,sg_total,0.7361766351186642,0.4050476452171268,14,12
-23323,"Macintyre, Robert",3975,kingsbarns golf links,sg_total,-5.819350489434725,0.40252442742361033,9,12
-23323,"Macintyre, Robert",3801,olgiata gc,sg_total,2.1446539369082465,0.393867411354965,11,12
-23323,"Macintyre, Robert",3774,doha gc,sg_total,0.9560037237078342,0.35924298584696057,7,12
-23323,"Macintyre, Robert",3860,brabazon course at the belfry,sg_total,1.0208955810406732,0.33359815832593986,4,12
-23323,"Macintyre, Robert",3883,real club valderrama,sg_total,-1.3171842014609076,0.3112939142308682,6,12
-23323,"Macintyre, Robert",3878,wentworth golf club,sg_total,-1.3413493014960065,0.3009569936494542,14,12
-23323,"Macintyre, Robert",3930,wentworth golf club,sg_total,-1.9024466724228888,0.2747202434854545,12,12
-23323,"Macintyre, Robert",4012,wentworth golf club,sg_total,-0.3769558063628578,0.2608414612864147,13,12
-23323,"Macintyre, Robert",3999,golfclub münchen eichenried,sg_total,-0.7484958430426332,0.24878517953888782,4,12
-23323,"Macintyre, Robert",4015,old course st andrews,sg_total,-1.4664698200315511,0.2171814404629489,9,12
+23323,"Macintyre, Robert",3793,crans-sur-sierre gc,sg_total,-0.8691256683164347,0.700902200783588,10,12
+23323,"Macintyre, Robert",3792,hills golf & sports club,sg_total,-1.2557804225470743,0.6468878402217493,6,12
+23323,"Macintyre, Robert",3788,renaissance club,sg_total,-0.7829385378544964,0.6341906643289803,15,12
+23323,"Macintyre, Robert",3797,old course st andrews,sg_total,-0.08803109555628683,0.6167219079681248,14,12
+23323,"Macintyre, Robert",4362,lakes gc,sg_total,-1.5876805463642354,0.6116377446036373,5,12
+23323,"Macintyre, Robert",4593,jumeirah golf estates,sg_total,0.037640946476813375,0.6007761403955908,6,12
+23323,"Macintyre, Robert",4013,marco simone gc,sg_total,2.7966233942996293,0.5353749804005323,7,12
+23323,"Macintyre, Robert",3881,old course st andrews,sg_total,-0.21605822010967635,0.49736623172279193,9,12
+23323,"Macintyre, Robert",3779,royal golf dar es salam red course,sg_total,-2.3506761985207523,0.4964729835213345,6,12
+23323,"Macintyre, Robert",3807,jumeirah golf estates,sg_total,0.4419846446060829,0.48458590095957504,10,12
+23323,"Macintyre, Robert",3900,emirates gc,sg_total,1.4054113581950025,0.46628552905862813,11,12
+23323,"Macintyre, Robert",4586,wentworth golf club,sg_total,-2.184886643731122,0.4527820867381119,15,12
+23323,"Macintyre, Robert",4224,crans-sur-sierre gc,sg_total,-1.6294553703357253,0.44256863636278093,5,12
+23323,"Macintyre, Robert",3767,abu dhabi gc,sg_total,0.449750843274894,0.42288439872483724,10,12
+23323,"Macintyre, Robert",3907,education city gc,sg_total,-1.4709275186392463,0.42017361068624604,6,12
+23323,"Macintyre, Robert",3798,kingsbarns golf links,sg_total,0.7364689044437133,0.4050476452171268,14,12
+23323,"Macintyre, Robert",3975,kingsbarns golf links,sg_total,-5.819058220109676,0.40252442742361033,9,12
+23323,"Macintyre, Robert",3801,olgiata gc,sg_total,2.144946206233296,0.393867411354965,11,12
+23323,"Macintyre, Robert",3774,doha gc,sg_total,0.9562959930328833,0.35924298584696057,7,12
+23323,"Macintyre, Robert",3860,brabazon course at the belfry,sg_total,1.0207060998864002,0.33359815832593986,4,12
+23323,"Macintyre, Robert",3883,real club valderrama,sg_total,-1.3168919321358583,0.3112939142308682,6,12
+23323,"Macintyre, Robert",3878,wentworth golf club,sg_total,-1.3410570321709572,0.3009569936494542,14,12
+23323,"Macintyre, Robert",3930,wentworth golf club,sg_total,-1.9021544030978395,0.2747202434854545,12,12
+23323,"Macintyre, Robert",4012,wentworth golf club,sg_total,-0.3766635370378087,0.2608414612864147,13,12
+23323,"Macintyre, Robert",3999,golfclub münchen eichenried,sg_total,-0.7482035737175841,0.24878517953888782,4,12
+23323,"Macintyre, Robert",4015,old course st andrews,sg_total,-1.4661775507065022,0.2171814404629489,9,12
 19870,"McCarthy, Denny",12,Harbour Town Golf Links,sg_app,-0.047789936074484014,0.9185976483400276,111,12
 19870,"McCarthy, Denny",503,TPC River Highlands,sg_app,0.2921527043524349,0.4620797661198388,106,12
 19870,"McCarthy, Denny",885,Royal Portrush Golf Club,sg_app,0.40224416048931977,0.4456148566669781,43,12
@@ -2828,9 +2828,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 19870,"McCarthy, Denny",928,PGA National  - Champion Course,sg_putt,-0.49721169403807425,0.23147668088428233,65,12
 19870,"McCarthy, Denny",752,Sedgefield Country Club,sg_putt,0.5347708521570596,0.2073471862126644,105,12
 19870,"McCarthy, Denny",656,Plantation Course at Kapalua,sg_putt,-1.5272219881153504,0.20071736187159786,72,12
-19870,"McCarthy, Denny",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.6789153730307571,0.40338517729111795,61,12
-19870,"McCarthy, Denny",733,El Camaleón Golf Course at Mayakoba,sg_total,0.0020371285575222914,0.30533913800790735,89,12
-19870,"McCarthy, Denny",244,Puntacana Resort (Corales Golf Course),sg_total,0.19974720207182195,0.27591320024340477,74,12
+19870,"McCarthy, Denny",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.6795679096784235,0.40338517729111795,61,12
+19870,"McCarthy, Denny",733,El Camaleón Golf Course at Mayakoba,sg_total,0.0026896652051886516,0.30533913800790735,89,12
+19870,"McCarthy, Denny",244,Puntacana Resort (Corales Golf Course),sg_total,0.16340534089761377,0.27591320024340477,74,12
 28635,"McCarty, Matt",921,TPC Craig Ranch,sg_app,0.6783436254477165,0.5485057076776074,69,12
 28635,"McCarty, Matt",885,Royal Portrush Golf Club,sg_app,-0.6748961214086396,0.4456148566669781,43,12
 28635,"McCarty, Matt",6,Waialae Country Club,sg_app,0.6273887567583577,0.4234757194110063,96,12
@@ -2922,8 +2922,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 18634,"McNealy, Maverick",928,PGA National  - Champion Course,sg_putt,-0.5978246012790125,0.23147668088428233,65,12
 18634,"McNealy, Maverick",752,Sedgefield Country Club,sg_putt,-0.530078380412876,0.2073471862126644,105,12
 18634,"McNealy, Maverick",656,Plantation Course at Kapalua,sg_putt,-0.16965709612025717,0.20071736187159786,72,12
-18634,"McNealy, Maverick",890,Tahoe Mountain Club (Old Greenwood),sg_total,1.2049239525068145,0.40338517729111795,61,12
-18634,"McNealy, Maverick",733,El Camaleón Golf Course at Mayakoba,sg_total,1.2801236877464814,0.30533913800790735,89,12
+18634,"McNealy, Maverick",890,Tahoe Mountain Club (Old Greenwood),sg_total,1.2051355892706488,0.40338517729111795,61,12
+18634,"McNealy, Maverick",733,El Camaleón Golf Course at Mayakoba,sg_total,1.2803353245103162,0.30533913800790735,89,12
 22085,"Morikawa, Collin",12,Harbour Town Golf Links,sg_app,-0.28468054813638516,0.9185976483400276,111,12
 22085,"Morikawa, Collin",933,East Lake Golf Club,sg_app,0.4507037860527728,0.698853716848569,19,12
 22085,"Morikawa, Collin",887,Kasumigaseki Country Club,sg_app,-1.5635928421308845,0.6038754910393548,16,12
@@ -3001,7 +3001,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 22085,"Morikawa, Collin",752,Sedgefield Country Club,sg_putt,0.4380335075582273,0.2073471862126644,105,12
 22085,"Morikawa, Collin",656,Plantation Course at Kapalua,sg_putt,0.6378502291875923,0.20071736187159786,72,12
 22085,"Morikawa, Collin",733,El Camaleón Golf Course at Mayakoba,sg_total,0.6806537445454813,0.30533913800790735,89,12
-22085,"Morikawa, Collin",242,Nine Bridges,sg_total,-0.23810918634327294,0.27673719132496094,32,12
+22085,"Morikawa, Collin",242,Nine Bridges,sg_total,-0.23810918634327297,0.27673719132496094,32,12
 29770,"Mouw, William",921,TPC Craig Ranch,sg_app,-1.6572876203502171,0.5485057076776074,69,12
 29770,"Mouw, William",6,Waialae Country Club,sg_app,1.3514898734694245,0.4234757194110063,96,12
 29770,"Mouw, William",776,Sea Island Golf Club (Seaside Course),sg_app,1.1275127050887899,0.21421600599223561,96,12
@@ -3099,22 +3099,22 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 10419,"Noren, Alex",21,Colonial Country Club,sg_putt,0.4806286551840063,0.27380389039483516,103,12
 10419,"Noren, Alex",928,PGA National  - Champion Course,sg_putt,-0.012548874029997145,0.23147668088428233,65,12
 10419,"Noren, Alex",752,Sedgefield Country Club,sg_putt,0.6087054501580884,0.2073471862126644,105,12
-10419,"Noren, Alex",3793,crans-sur-sierre gc,sg_total,-0.4445036389417305,0.700902200783588,10,12
-10419,"Noren, Alex",3792,hills golf & sports club,sg_total,0.18460372178295545,0.6468878402217493,6,12
-10419,"Noren, Alex",3797,old course st andrews,sg_total,0.5232900000003037,0.6167219079681248,14,12
-10419,"Noren, Alex",4593,jumeirah golf estates,sg_total,-0.14381699508020332,0.6007761403955908,6,12
-10419,"Noren, Alex",4583,brabazon course at the belfry,sg_total,2.167176340155325,0.5366747375739201,9,12
-10419,"Noren, Alex",4584,crans-sur-sierre gc,sg_total,-1.9504029137272365,0.5311667632457925,9,12
-10419,"Noren, Alex",3881,old course st andrews,sg_total,-0.4210562006110895,0.49736623172279193,9,12
-10419,"Noren, Alex",4586,wentworth golf club,sg_total,1.7648894240065647,0.4527820867381119,15,12
-10419,"Noren, Alex",3798,kingsbarns golf links,sg_total,1.3477900000003036,0.4050476452171268,14,12
-10419,"Noren, Alex",890,Tahoe Mountain Club (Old Greenwood),sg_total,2.338326438244998,0.40338517729111795,61,12
-10419,"Noren, Alex",3975,kingsbarns golf links,sg_total,3.1249437993889106,0.40252442742361033,9,12
-10419,"Noren, Alex",3801,olgiata gc,sg_total,0.564323989653799,0.393867411354965,11,12
-10419,"Noren, Alex",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.6663968149790489,0.30533913800790735,89,12
-10419,"Noren, Alex",3878,wentworth golf club,sg_total,0.05857943036999866,0.3009569936494542,14,12
-10419,"Noren, Alex",244,Puntacana Resort (Corales Golf Course),sg_total,-0.32147539283107973,0.27591320024340477,74,12
-10419,"Noren, Alex",4015,old course st andrews,sg_total,0.4209656108998747,0.2171814404629489,9,12
+10419,"Noren, Alex",3793,crans-sur-sierre gc,sg_total,-0.44411008547317843,0.700902200783588,10,12
+10419,"Noren, Alex",3792,hills golf & sports club,sg_total,0.1849972752515075,0.6468878402217493,6,12
+10419,"Noren, Alex",3797,old course st andrews,sg_total,0.5236835534688556,0.6167219079681248,14,12
+10419,"Noren, Alex",4593,jumeirah golf estates,sg_total,-0.14342344161165127,0.6007761403955908,6,12
+10419,"Noren, Alex",4583,brabazon course at the belfry,sg_total,2.167569893623876,0.5366747375739201,9,12
+10419,"Noren, Alex",4584,crans-sur-sierre gc,sg_total,-1.9500093602586845,0.5311667632457925,9,12
+10419,"Noren, Alex",3881,old course st andrews,sg_total,-0.4206626471425375,0.49736623172279193,9,12
+10419,"Noren, Alex",4586,wentworth golf club,sg_total,1.7652829774751166,0.4527820867381119,15,12
+10419,"Noren, Alex",3798,kingsbarns golf links,sg_total,1.3481835534688555,0.4050476452171268,14,12
+10419,"Noren, Alex",890,Tahoe Mountain Club (Old Greenwood),sg_total,2.33871999171355,0.40338517729111795,61,12
+10419,"Noren, Alex",3975,kingsbarns golf links,sg_total,3.125337352857463,0.40252442742361033,9,12
+10419,"Noren, Alex",3801,olgiata gc,sg_total,0.564717543122351,0.393867411354965,11,12
+10419,"Noren, Alex",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.6660032615104969,0.30533913800790735,89,12
+10419,"Noren, Alex",3878,wentworth golf club,sg_total,0.05897298383855103,0.3009569936494542,14,12
+10419,"Noren, Alex",244,Puntacana Resort (Corales Golf Course),sg_total,-0.3210818393625277,0.27591320024340477,74,12
+10419,"Noren, Alex",4015,old course st andrews,sg_total,0.42135916436842674,0.2171814404629489,9,12
 23475,"Novak, Andrew",12,Harbour Town Golf Links,sg_app,1.0649532102244688,0.9185976483400276,111,12
 23475,"Novak, Andrew",921,TPC Craig Ranch,sg_app,0.33318767542570954,0.5485057076776074,69,12
 23475,"Novak, Andrew",503,TPC River Highlands,sg_app,-0.3630204371168977,0.4620797661198388,106,12
@@ -3159,9 +3159,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 23475,"Novak, Andrew",21,Colonial Country Club,sg_putt,0.22705040347027494,0.27380389039483516,103,12
 23475,"Novak, Andrew",928,PGA National  - Champion Course,sg_putt,-0.3728591751315758,0.23147668088428233,65,12
 23475,"Novak, Andrew",752,Sedgefield Country Club,sg_putt,-1.2028042550579137,0.2073471862126644,105,12
-23475,"Novak, Andrew",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.9838833097103326,0.40338517729111795,61,12
-23475,"Novak, Andrew",733,El Camaleón Golf Course at Mayakoba,sg_total,1.4748041633148172,0.30533913800790735,89,12
-23475,"Novak, Andrew",244,Puntacana Resort (Corales Golf Course),sg_total,0.8721187170331006,0.27591320024340477,74,12
+23475,"Novak, Andrew",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.9839024663563042,0.40338517729111795,61,12
+23475,"Novak, Andrew",733,El Camaleón Golf Course at Mayakoba,sg_total,1.4748233199607887,0.30533913800790735,89,12
+23475,"Novak, Andrew",244,Puntacana Resort (Corales Golf Course),sg_total,0.8721378736790723,0.27591320024340477,74,12
 17780,"Pendrith, Taylor",12,Harbour Town Golf Links,sg_app,-0.1852466610684872,0.9185976483400276,111,12
 17780,"Pendrith, Taylor",933,East Lake Golf Club,sg_app,1.1442967865878522,0.698853716848569,19,12
 17780,"Pendrith, Taylor",921,TPC Craig Ranch,sg_app,0.42958896639957866,0.5485057076776074,69,12
@@ -3208,9 +3208,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17780,"Pendrith, Taylor",928,PGA National  - Champion Course,sg_putt,-0.7093977977712724,0.23147668088428233,65,12
 17780,"Pendrith, Taylor",752,Sedgefield Country Club,sg_putt,-0.3215344700149451,0.2073471862126644,105,12
 17780,"Pendrith, Taylor",656,Plantation Course at Kapalua,sg_putt,-0.1944438890458955,0.20071736187159786,72,12
-17780,"Pendrith, Taylor",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.2500322581416779,0.40338517729111795,61,12
-17780,"Pendrith, Taylor",733,El Camaleón Golf Course at Mayakoba,sg_total,-3.2273877839352867,0.30533913800790735,89,12
-17780,"Pendrith, Taylor",244,Puntacana Resort (Corales Golf Course),sg_total,-0.07320925915618523,0.27591320024340477,74,12
+17780,"Pendrith, Taylor",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.2502630818307407,0.40338517729111795,61,12
+17780,"Pendrith, Taylor",733,El Camaleón Golf Course at Mayakoba,sg_total,-3.227156960246224,0.30533913800790735,89,12
+17780,"Pendrith, Taylor",244,Puntacana Resort (Corales Golf Course),sg_total,-0.07297843546712261,0.27591320024340477,74,12
 22465,"Penge, Marco",885,Royal Portrush Golf Club,sg_app,1.898859611783898,0.4456148566669781,43,12
 22465,"Penge, Marco",5,Pebble Beach Golf Links,sg_ott,-0.10769661643552983,0.5655883694823488,103,12
 22465,"Penge, Marco",14,Augusta National Golf Club,sg_ott,-0.6814720448212453,0.4125744519856327,64,12
@@ -3290,7 +3290,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 21554,"Poston, J.T.",928,PGA National  - Champion Course,sg_putt,-0.03738918793016893,0.23147668088428233,65,12
 21554,"Poston, J.T.",752,Sedgefield Country Club,sg_putt,0.04957876854450673,0.2073471862126644,105,12
 21554,"Poston, J.T.",656,Plantation Course at Kapalua,sg_putt,0.007330616164705553,0.20071736187159786,72,12
-21554,"Poston, J.T.",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.47495811982547337,0.30533913800790735,89,12
+21554,"Poston, J.T.",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.4851613882940227,0.30533913800790735,89,12
 27900,"Potgieter, Aldrich",921,TPC Craig Ranch,sg_app,-0.7549350991397981,0.5485057076776074,69,12
 27900,"Potgieter, Aldrich",885,Royal Portrush Golf Club,sg_app,0.26690097667421714,0.4456148566669781,43,12
 27900,"Potgieter, Aldrich",6,Waialae Country Club,sg_app,-1.7136335875129936,0.4234757194110063,96,12
@@ -3310,9 +3310,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 27900,"Potgieter, Aldrich",925,Dunes Golf and Beach Club,sg_putt,0.5707937550925031,0.28631549125323885,38,12
 27900,"Potgieter, Aldrich",21,Colonial Country Club,sg_putt,0.9924505189159458,0.27380389039483516,103,12
 27900,"Potgieter, Aldrich",678,Thornblade Club,sg_total,-1.4407826533659993,0.37647661475816235,18,12
-27900,"Potgieter, Aldrich",802,Sandals Emerald Bay Golf Club,sg_total,-0.10151968585130142,0.3704081274825195,9,12
-27900,"Potgieter, Aldrich",91,The Pete Dye Course at French Lick Resort,sg_total,0.6249335062592142,0.35578726391557947,6,12
-27900,"Potgieter, Aldrich",807,Lakewood National Golf Club - Commander Course,sg_total,0.7295171685464024,0.3456818801432109,20,12
+27900,"Potgieter, Aldrich",802,Sandals Emerald Bay Golf Club,sg_total,-0.10151968585130139,0.3704081274825195,9,12
+27900,"Potgieter, Aldrich",91,The Pete Dye Course at French Lick Resort,sg_total,0.6249335062592143,0.35578726391557947,6,12
+27900,"Potgieter, Aldrich",807,Lakewood National Golf Club - Commander Course,sg_total,0.7295171685464021,0.3456818801432109,20,12
 27900,"Potgieter, Aldrich",22,Highland Springs Country Club,sg_total,-6.2432490559413045,0.2760067537557183,11,12
 27900,"Potgieter, Aldrich",244,Puntacana Resort (Corales Golf Course),sg_total,-2.796209610515079,0.27591320024340477,74,12
 27900,"Potgieter, Aldrich",82,The Glen Club,sg_total,0.9811267940208239,0.228891509462106,15,12
@@ -3367,11 +3367,11 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 14704,"Putnam, Andrew",928,PGA National  - Champion Course,sg_putt,-0.4341155093765534,0.23147668088428233,65,12
 14704,"Putnam, Andrew",752,Sedgefield Country Club,sg_putt,-0.13278932122382206,0.2073471862126644,105,12
 14704,"Putnam, Andrew",656,Plantation Course at Kapalua,sg_putt,0.026156789994330326,0.20071736187159786,72,12
-14704,"Putnam, Andrew",3788,renaissance club,sg_total,1.843539460814765,0.6341906643289803,15,12
-14704,"Putnam, Andrew",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.11264488772342218,0.40338517729111795,61,12
-14704,"Putnam, Andrew",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.8506649413088915,0.30533913800790735,89,12
-14704,"Putnam, Andrew",242,Nine Bridges,sg_total,0.9113281660316707,0.27673719132496094,32,12
-14704,"Putnam, Andrew",244,Puntacana Resort (Corales Golf Course),sg_total,0.24649334896913727,0.27591320024340477,74,12
+14704,"Putnam, Andrew",3788,renaissance club,sg_total,1.8435563835374305,0.6341906643289803,15,12
+14704,"Putnam, Andrew",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.11266181044608754,0.40338517729111795,61,12
+14704,"Putnam, Andrew",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.8506480185862261,0.30533913800790735,89,12
+14704,"Putnam, Andrew",242,Nine Bridges,sg_total,0.9113450887543362,0.27673719132496094,32,12
+14704,"Putnam, Andrew",244,Puntacana Resort (Corales Golf Course),sg_total,0.24651027169180262,0.27591320024340477,74,12
 16283,"Rodgers, Patrick",12,Harbour Town Golf Links,sg_app,0.2533747675025083,0.9185976483400276,111,12
 16283,"Rodgers, Patrick",921,TPC Craig Ranch,sg_app,-0.3588957164637575,0.5485057076776074,69,12
 16283,"Rodgers, Patrick",503,TPC River Highlands,sg_app,0.08944151726336591,0.4620797661198388,106,12
@@ -3419,13 +3419,13 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 16283,"Rodgers, Patrick",928,PGA National  - Champion Course,sg_putt,2.4266508724673335,0.23147668088428233,65,12
 16283,"Rodgers, Patrick",752,Sedgefield Country Club,sg_putt,-0.24464223244665698,0.2073471862126644,105,12
 16283,"Rodgers, Patrick",656,Plantation Course at Kapalua,sg_putt,-0.926333619308661,0.20071736187159786,72,12
-16283,"Rodgers, Patrick",4362,lakes gc,sg_total,4.510118996875677,0.6116377446036373,5,12
-16283,"Rodgers, Patrick",4583,brabazon course at the belfry,sg_total,-3.3132759887158434,0.5366747375739201,9,12
-16283,"Rodgers, Patrick",4584,crans-sur-sierre gc,sg_total,-0.3095844502676524,0.5311667632457925,9,12
-16283,"Rodgers, Patrick",4586,wentworth golf club,sg_total,-2.456502457571349,0.4527820867381119,15,12
-16283,"Rodgers, Patrick",890,Tahoe Mountain Club (Old Greenwood),sg_total,1.3801222477860242,0.40338517729111795,61,12
-16283,"Rodgers, Patrick",733,El Camaleón Golf Course at Mayakoba,sg_total,0.3961559490076863,0.30533913800790735,89,12
-16283,"Rodgers, Patrick",244,Puntacana Resort (Corales Golf Course),sg_total,-1.0639765735691127,0.27591320024340477,74,12
+16283,"Rodgers, Patrick",4362,lakes gc,sg_total,4.510287112964464,0.6116377446036373,5,12
+16283,"Rodgers, Patrick",4583,brabazon course at the belfry,sg_total,-3.3131078726270564,0.5366747375739201,9,12
+16283,"Rodgers, Patrick",4584,crans-sur-sierre gc,sg_total,-0.3094163341788654,0.5311667632457925,9,12
+16283,"Rodgers, Patrick",4586,wentworth golf club,sg_total,-2.4563343414825622,0.4527820867381119,15,12
+16283,"Rodgers, Patrick",890,Tahoe Mountain Club (Old Greenwood),sg_total,1.3802903638748112,0.40338517729111795,61,12
+16283,"Rodgers, Patrick",733,El Camaleón Golf Course at Mayakoba,sg_total,0.4024365433255083,0.30533913800790735,89,12
+16283,"Rodgers, Patrick",244,Puntacana Resort (Corales Golf Course),sg_total,-1.0638084574803257,0.27591320024340477,74,12
 19895,"Schauffele, Xander",12,Harbour Town Golf Links,sg_app,-0.24885042321585127,0.9185976483400276,111,12
 19895,"Schauffele, Xander",933,East Lake Golf Club,sg_app,-0.6193631383127819,0.698853716848569,19,12
 19895,"Schauffele, Xander",887,Kasumigaseki Country Club,sg_app,0.5178120483371111,0.6038754910393548,16,12
@@ -3565,7 +3565,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 18417,"Scheffler, Scottie",21,Colonial Country Club,sg_putt,-0.4167550777601747,0.27380389039483516,103,12
 18417,"Scheffler, Scottie",240,Club de Golf Chapultepec,sg_putt,0.35659925682416965,0.21197090773644714,30,12
 18417,"Scheffler, Scottie",656,Plantation Course at Kapalua,sg_putt,0.003865069994411302,0.20071736187159786,72,12
-18417,"Scheffler, Scottie",733,El Camaleón Golf Course at Mayakoba,sg_total,0.9624578388337695,0.30533913800790735,89,12
+18417,"Scheffler, Scottie",733,El Camaleón Golf Course at Mayakoba,sg_total,0.9625777806957423,0.30533913800790735,89,12
 19477,"Schenk, Adam",12,Harbour Town Golf Links,sg_app,0.14988204383276446,0.9185976483400276,111,12
 19477,"Schenk, Adam",921,TPC Craig Ranch,sg_app,1.0970698989128789,0.5485057076776074,69,12
 19477,"Schenk, Adam",503,TPC River Highlands,sg_app,-0.11392392374114453,0.4620797661198388,106,12
@@ -3624,10 +3624,10 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 19477,"Schenk, Adam",928,PGA National  - Champion Course,sg_putt,0.4608469493351808,0.23147668088428233,65,12
 19477,"Schenk, Adam",752,Sedgefield Country Club,sg_putt,-0.18248287111110542,0.2073471862126644,105,12
 19477,"Schenk, Adam",656,Plantation Course at Kapalua,sg_putt,-0.6091340296108421,0.20071736187159786,72,12
-19477,"Schenk, Adam",890,Tahoe Mountain Club (Old Greenwood),sg_total,2.3054364691017355,0.40338517729111795,61,12
-19477,"Schenk, Adam",733,El Camaleón Golf Course at Mayakoba,sg_total,-1.5647064422279418,0.30533913800790735,89,12
-19477,"Schenk, Adam",242,Nine Bridges,sg_total,0.433858195537862,0.27673719132496094,32,12
-19477,"Schenk, Adam",244,Puntacana Resort (Corales Golf Course),sg_total,0.734153957507278,0.27591320024340477,74,12
+19477,"Schenk, Adam",890,Tahoe Mountain Club (Old Greenwood),sg_total,2.305395989851117,0.40338517729111795,61,12
+19477,"Schenk, Adam",733,El Camaleón Golf Course at Mayakoba,sg_total,-1.5647469214785608,0.30533913800790735,89,12
+19477,"Schenk, Adam",242,Nine Bridges,sg_total,0.43381771628724314,0.27673719132496094,32,12
+19477,"Schenk, Adam",244,Puntacana Resort (Corales Golf Course),sg_total,0.7341134782566591,0.27591320024340477,74,12
 18586,"Smith, Jordan",885,Royal Portrush Golf Club,sg_app,-0.04383190871717324,0.4456148566669781,43,12
 18586,"Smith, Jordan",6,Waialae Country Club,sg_app,-0.04654845108483652,0.4234757194110063,96,12
 18586,"Smith, Jordan",608,Oakmont Country Club,sg_app,-1.3598044834337284,0.2345527325655614,46,12
@@ -3641,37 +3641,37 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 18586,"Smith, Jordan",897,Memorial Park Golf Course,sg_putt,0.2621514923401638,0.3474141526083157,96,12
 18586,"Smith, Jordan",510,TPC Scottsdale (Stadium Course),sg_putt,1.7662199595282932,0.30815989114675263,103,12
 18586,"Smith, Jordan",928,PGA National  - Champion Course,sg_putt,0.619525963849606,0.23147668088428233,65,12
-18586,"Smith, Jordan",3793,crans-sur-sierre gc,sg_total,-2.024626452412105,0.700902200783588,10,12
-18586,"Smith, Jordan",3792,hills golf & sports club,sg_total,-1.4551934297324858,0.6468878402217493,6,12
-18586,"Smith, Jordan",3788,renaissance club,sg_total,-0.6830023523988116,0.6341906643289803,15,12
-18586,"Smith, Jordan",3797,old course st andrews,sg_total,2.1164424872651595,0.6167219079681248,14,12
-18586,"Smith, Jordan",4593,jumeirah golf estates,sg_total,0.43227714189115685,0.6007761403955908,6,12
-18586,"Smith, Jordan",4583,brabazon course at the belfry,sg_total,-0.09981174401199855,0.5366747375739201,9,12
-18586,"Smith, Jordan",4013,marco simone gc,sg_total,-0.6502345732073928,0.5353749804005323,7,12
-18586,"Smith, Jordan",4584,crans-sur-sierre gc,sg_total,0.5888758813892054,0.5311667632457925,9,12
-18586,"Smith, Jordan",3881,old course st andrews,sg_total,0.02731314217347719,0.49736623172279193,9,12
-18586,"Smith, Jordan",3779,royal golf dar es salam red course,sg_total,1.687183912266196,0.4964729835213345,6,12
-18586,"Smith, Jordan",3807,jumeirah golf estates,sg_total,-1.6129994678828674,0.48458590095957504,10,12
-18586,"Smith, Jordan",3900,emirates gc,sg_total,0.6398383804515524,0.46628552905862813,11,12
-18586,"Smith, Jordan",4586,wentworth golf club,sg_total,0.6212523147453537,0.4527820867381119,15,12
-18586,"Smith, Jordan",4621,gut altentann gc,sg_total,-3.941884861817503,0.44964061603042405,5,12
-18586,"Smith, Jordan",4224,crans-sur-sierre gc,sg_total,0.5145963790775422,0.44256863636278093,5,12
-18586,"Smith, Jordan",3767,abu dhabi gc,sg_total,2.7094041480429114,0.42288439872483724,10,12
-18586,"Smith, Jordan",3907,education city gc,sg_total,0.6719318405735271,0.42017361068624604,6,12
-18586,"Smith, Jordan",3798,kingsbarns golf links,sg_total,2.0559424872651597,0.4050476452171268,14,12
-18586,"Smith, Jordan",3975,kingsbarns golf links,sg_total,-2.5446868578265227,0.40252442742361033,9,12
-18586,"Smith, Jordan",3801,olgiata gc,sg_total,0.9196784069876012,0.393867411354965,11,12
-18586,"Smith, Jordan",3774,doha gc,sg_total,-0.3083637882580884,0.35924298584696057,7,12
-18586,"Smith, Jordan",3638,saujana g&cc,sg_total,2.127314579663928,0.33766572629909486,7,12
-18586,"Smith, Jordan",3860,brabazon course at the belfry,sg_total,1.5103575319729696,0.33359815832593986,4,12
-18586,"Smith, Jordan",3883,real club valderrama,sg_total,1.451819891649077,0.3112939142308682,6,12
-18586,"Smith, Jordan",3878,wentworth golf club,sg_total,-0.26109495690447587,0.3009569936494542,14,12
-18586,"Smith, Jordan",3930,wentworth golf club,sg_total,1.6875221690112183,0.2747202434854545,12,12
-18586,"Smith, Jordan",4225,k club,sg_total,0.6062033891565136,0.26645139761434267,8,12
-18586,"Smith, Jordan",4012,wentworth golf club,sg_total,-0.36453380350106607,0.2608414612864147,13,12
-18586,"Smith, Jordan",3999,golfclub münchen eichenried,sg_total,1.378466050928964,0.24878517953888782,4,12
-18586,"Smith, Jordan",3899,abu dhabi gc,sg_total,1.2102928660532617,0.2354546785163034,12,12
-18586,"Smith, Jordan",4015,old course st andrews,sg_total,1.9212966176057027,0.2171814404629489,9,12
+18586,"Smith, Jordan",3793,crans-sur-sierre gc,sg_total,-2.0243585516767824,0.700902200783588,10,12
+18586,"Smith, Jordan",3792,hills golf & sports club,sg_total,-1.454925528997163,0.6468878402217493,6,12
+18586,"Smith, Jordan",3788,renaissance club,sg_total,-0.6827344516634889,0.6341906643289803,15,12
+18586,"Smith, Jordan",3797,old course st andrews,sg_total,2.1167103880004823,0.6167219079681248,14,12
+18586,"Smith, Jordan",4593,jumeirah golf estates,sg_total,0.43254504262647964,0.6007761403955908,6,12
+18586,"Smith, Jordan",4583,brabazon course at the belfry,sg_total,-0.09954384327667586,0.5366747375739201,9,12
+18586,"Smith, Jordan",4013,marco simone gc,sg_total,-0.6499666724720701,0.5353749804005323,7,12
+18586,"Smith, Jordan",4584,crans-sur-sierre gc,sg_total,0.5891437821245281,0.5311667632457925,9,12
+18586,"Smith, Jordan",3881,old course st andrews,sg_total,0.027581042908799855,0.49736623172279193,9,12
+18586,"Smith, Jordan",3779,royal golf dar es salam red course,sg_total,1.6874518130015188,0.4964729835213345,6,12
+18586,"Smith, Jordan",3807,jumeirah golf estates,sg_total,-1.6127315671475446,0.48458590095957504,10,12
+18586,"Smith, Jordan",3900,emirates gc,sg_total,0.6401062811868751,0.46628552905862813,11,12
+18586,"Smith, Jordan",4586,wentworth golf club,sg_total,0.6215202154806764,0.4527820867381119,15,12
+18586,"Smith, Jordan",4621,gut altentann gc,sg_total,-3.9236621073096667,0.44964061603042405,5,12
+18586,"Smith, Jordan",4224,crans-sur-sierre gc,sg_total,0.5148642798128649,0.44256863636278093,5,12
+18586,"Smith, Jordan",3767,abu dhabi gc,sg_total,2.709672048778234,0.42288439872483724,10,12
+18586,"Smith, Jordan",3907,education city gc,sg_total,0.6721997413088497,0.42017361068624604,6,12
+18586,"Smith, Jordan",3798,kingsbarns golf links,sg_total,2.0562103880004825,0.4050476452171268,14,12
+18586,"Smith, Jordan",3975,kingsbarns golf links,sg_total,-2.5444189570912,0.40252442742361033,9,12
+18586,"Smith, Jordan",3801,olgiata gc,sg_total,0.9199463077229239,0.393867411354965,11,12
+18586,"Smith, Jordan",3774,doha gc,sg_total,-0.30809588752276573,0.35924298584696057,7,12
+18586,"Smith, Jordan",3638,saujana g&cc,sg_total,2.127582480399251,0.33766572629909486,7,12
+18586,"Smith, Jordan",3860,brabazon course at the belfry,sg_total,1.5106254327082924,0.33359815832593986,4,12
+18586,"Smith, Jordan",3883,real club valderrama,sg_total,1.4520877923843998,0.3112939142308682,6,12
+18586,"Smith, Jordan",3878,wentworth golf club,sg_total,-0.2608270561691532,0.3009569936494542,14,12
+18586,"Smith, Jordan",3930,wentworth golf club,sg_total,1.687790069746541,0.2747202434854545,12,12
+18586,"Smith, Jordan",4225,k club,sg_total,0.6064712898918363,0.26645139761434267,8,12
+18586,"Smith, Jordan",4012,wentworth golf club,sg_total,-0.3642659027657434,0.2608414612864147,13,12
+18586,"Smith, Jordan",3999,golfclub münchen eichenried,sg_total,1.3787339516642867,0.24878517953888782,4,12
+18586,"Smith, Jordan",3899,abu dhabi gc,sg_total,1.2105607667885845,0.2354546785163034,12,12
+18586,"Smith, Jordan",4015,old course st andrews,sg_total,1.9215645183410255,0.2171814404629489,9,12
 22985,"Smotherman, Austin",12,Harbour Town Golf Links,sg_app,-1.0708921263970526,0.9185976483400276,111,12
 22985,"Smotherman, Austin",921,TPC Craig Ranch,sg_app,-0.29054465659994033,0.5485057076776074,69,12
 22985,"Smotherman, Austin",503,TPC River Highlands,sg_app,0.20782337244778543,0.4620797661198388,106,12
@@ -3705,16 +3705,16 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 22985,"Smotherman, Austin",21,Colonial Country Club,sg_putt,1.0026869772065792,0.27380389039483516,103,12
 22985,"Smotherman, Austin",928,PGA National  - Champion Course,sg_putt,1.2847936127618325,0.23147668088428233,65,12
 22985,"Smotherman, Austin",752,Sedgefield Country Club,sg_putt,-0.5660851480122088,0.2073471862126644,105,12
-22985,"Smotherman, Austin",98,PGA Riviera Maya,sg_total,0.9504785297068448,0.42133922287215364,11,12
-22985,"Smotherman, Austin",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.8498452942845596,0.40338517729111795,61,12
-22985,"Smotherman, Austin",678,Thornblade Club,sg_total,0.5049841907096495,0.37647661475816235,18,12
-22985,"Smotherman, Austin",91,The Pete Dye Course at French Lick Resort,sg_total,-0.31381898192578095,0.35578726391557947,6,12
-22985,"Smotherman, Austin",807,Lakewood National Golf Club - Commander Course,sg_total,0.5140070003944417,0.3456818801432109,20,12
-22985,"Smotherman, Austin",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.32710300589785507,0.30533913800790735,89,12
-22985,"Smotherman, Austin",244,Puntacana Resort (Corales Golf Course),sg_total,-1.1001769672983328,0.27591320024340477,74,12
-22985,"Smotherman, Austin",60,Texas Rangers Golf Club,sg_total,-1.8567974689453115,0.2542949298354507,12,12
-22985,"Smotherman, Austin",82,The Glen Club,sg_total,1.104358084839125,0.228891509462106,15,12
-22985,"Smotherman, Austin",109,Holston Hills Country Club,sg_total,-6.692142746865893,0.22876693052055141,15,12
+22985,"Smotherman, Austin",98,PGA Riviera Maya,sg_total,0.9504863344480202,0.42133922287215364,11,12
+22985,"Smotherman, Austin",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.849853099025735,0.40338517729111795,61,12
+22985,"Smotherman, Austin",678,Thornblade Club,sg_total,0.5049919954508251,0.37647661475816235,18,12
+22985,"Smotherman, Austin",91,The Pete Dye Course at French Lick Resort,sg_total,-0.3138111771846055,0.35578726391557947,6,12
+22985,"Smotherman, Austin",807,Lakewood National Golf Club - Commander Course,sg_total,0.5140148051356171,0.3456818801432109,20,12
+22985,"Smotherman, Austin",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.3270952011566796,0.30533913800790735,89,12
+22985,"Smotherman, Austin",244,Puntacana Resort (Corales Golf Course),sg_total,-1.1001691625571572,0.27591320024340477,74,12
+22985,"Smotherman, Austin",60,Texas Rangers Golf Club,sg_total,-1.8567896642041362,0.2542949298354507,12,12
+22985,"Smotherman, Austin",82,The Glen Club,sg_total,1.1043658895803006,0.228891509462106,15,12
+22985,"Smotherman, Austin",109,Holston Hills Country Club,sg_total,-6.692134942124718,0.22876693052055141,15,12
 17536,"Spaun, J.J.",12,Harbour Town Golf Links,sg_app,-0.5309319142250954,0.9185976483400276,111,12
 17536,"Spaun, J.J.",921,TPC Craig Ranch,sg_app,0.5050154407359615,0.5485057076776074,69,12
 17536,"Spaun, J.J.",503,TPC River Highlands,sg_app,-0.15864498530118717,0.4620797661198388,106,12
@@ -3776,7 +3776,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17536,"Spaun, J.J.",656,Plantation Course at Kapalua,sg_putt,0.7253815006442033,0.20071736187159786,72,12
 17536,"Spaun, J.J.",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.9070385032615044,0.40338517729111795,61,12
 17536,"Spaun, J.J.",733,El Camaleón Golf Course at Mayakoba,sg_total,0.7187658512735772,0.30533913800790735,89,12
-17536,"Spaun, J.J.",244,Puntacana Resort (Corales Golf Course),sg_total,-0.3286336113545605,0.27591320024340477,74,12
+17536,"Spaun, J.J.",244,Puntacana Resort (Corales Golf Course),sg_total,-0.3286336113545603,0.27591320024340477,74,12
 14636,"Spieth, Jordan",12,Harbour Town Golf Links,sg_app,0.5137315855157241,0.9185976483400276,111,12
 14636,"Spieth, Jordan",921,TPC Craig Ranch,sg_app,0.45813220923556625,0.5485057076776074,69,12
 14636,"Spieth, Jordan",891,Winged Foot GC,sg_app,-0.6999223878041592,0.5342356006223477,48,12
@@ -3850,7 +3850,7 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 14636,"Spieth, Jordan",240,Club de Golf Chapultepec,sg_putt,0.4998034660027059,0.21197090773644714,30,12
 14636,"Spieth, Jordan",752,Sedgefield Country Club,sg_putt,0.20050435648944087,0.2073471862126644,105,12
 14636,"Spieth, Jordan",656,Plantation Course at Kapalua,sg_putt,0.8727828038370807,0.20071736187159786,72,12
-14636,"Spieth, Jordan",242,Nine Bridges,sg_total,1.4116291538961552,0.27673719132496094,32,12
+14636,"Spieth, Jordan",242,Nine Bridges,sg_total,1.4116585864992794,0.27673719132496094,32,12
 25569,"Stevens, Sam",12,Harbour Town Golf Links,sg_app,0.12026525400863056,0.9185976483400276,111,12
 25569,"Stevens, Sam",921,TPC Craig Ranch,sg_app,0.519320588705637,0.5485057076776074,69,12
 25569,"Stevens, Sam",503,TPC River Highlands,sg_app,-0.044546457796756006,0.4620797661198388,106,12
@@ -3886,9 +3886,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 25569,"Stevens, Sam",21,Colonial Country Club,sg_putt,0.08891714031104311,0.27380389039483516,103,12
 25569,"Stevens, Sam",928,PGA National  - Champion Course,sg_putt,-0.34587613264185446,0.23147668088428233,65,12
 25569,"Stevens, Sam",752,Sedgefield Country Club,sg_putt,-0.5196024659712188,0.2073471862126644,105,12
-25569,"Stevens, Sam",890,Tahoe Mountain Club (Old Greenwood),sg_total,-0.08817528688639975,0.40338517729111795,61,12
-25569,"Stevens, Sam",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.19552769491764163,0.30533913800790735,89,12
-25569,"Stevens, Sam",244,Puntacana Resort (Corales Golf Course),sg_total,0.970189772969888,0.27591320024340477,74,12
+25569,"Stevens, Sam",890,Tahoe Mountain Club (Old Greenwood),sg_total,-0.08816945637289345,0.40338517729111795,61,12
+25569,"Stevens, Sam",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.19552186440413533,0.30533913800790735,89,12
+25569,"Stevens, Sam",244,Puntacana Resort (Corales Golf Course),sg_total,0.9701956034833943,0.27591320024340477,74,12
 25569,"Stevens, Samuel",921,TPC Craig Ranch,sg_app,-1.0189918115375216,0.5485057076776074,69,12
 25569,"Stevens, Samuel",514,Oak Hill Country Club,sg_app,-0.8377587111755124,0.3130038900672,58,12
 25569,"Stevens, Samuel",921,TPC Craig Ranch,sg_arg,0.6915214594295853,0.32248355558915465,69,12
@@ -3966,8 +3966,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 17511,"Straka, Sepp",928,PGA National  - Champion Course,sg_putt,-0.6299729495774065,0.23147668088428233,65,12
 17511,"Straka, Sepp",752,Sedgefield Country Club,sg_putt,0.2609253053907979,0.2073471862126644,105,12
 17511,"Straka, Sepp",656,Plantation Course at Kapalua,sg_putt,0.16146197678737473,0.20071736187159786,72,12
-17511,"Straka, Sepp",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.8939096087221015,0.30533913800790735,89,12
-17511,"Straka, Sepp",244,Puntacana Resort (Corales Golf Course),sg_total,1.0262670297081262,0.27591320024340477,74,12
+17511,"Straka, Sepp",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.8938770095077444,0.30533913800790735,89,12
+17511,"Straka, Sepp",244,Puntacana Resort (Corales Golf Course),sg_total,1.0262996289224833,0.27591320024340477,74,12
 13126,"Taylor, Nick",12,Harbour Town Golf Links,sg_app,-0.5505642484318215,0.9185976483400276,111,12
 13126,"Taylor, Nick",2000,Sherwood Country Club,sg_app,-0.7721002405669872,0.5106944991142283,35,12
 13126,"Taylor, Nick",503,TPC River Highlands,sg_app,0.31235150848047566,0.4620797661198388,106,12
@@ -4036,9 +4036,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 13126,"Taylor, Nick",21,Colonial Country Club,sg_putt,-0.7547550900094312,0.27380389039483516,103,12
 13126,"Taylor, Nick",752,Sedgefield Country Club,sg_putt,0.4594065751939052,0.2073471862126644,105,12
 13126,"Taylor, Nick",656,Plantation Course at Kapalua,sg_putt,-0.524214949207406,0.20071736187159786,72,12
-13126,"Taylor, Nick",890,Tahoe Mountain Club (Old Greenwood),sg_total,-1.170238795549458,0.40338517729111795,61,12
-13126,"Taylor, Nick",733,El Camaleón Golf Course at Mayakoba,sg_total,0.2274853099300669,0.30533913800790735,89,12
-13126,"Taylor, Nick",244,Puntacana Resort (Corales Golf Course),sg_total,0.11472131446156444,0.27591320024340477,74,12
+13126,"Taylor, Nick",890,Tahoe Mountain Club (Old Greenwood),sg_total,-1.170188157653323,0.40338517729111795,61,12
+13126,"Taylor, Nick",733,El Camaleón Golf Course at Mayakoba,sg_total,0.23312277280378668,0.30533913800790735,89,12
+13126,"Taylor, Nick",244,Puntacana Resort (Corales Golf Course),sg_total,0.11477195235769938,0.27591320024340477,74,12
 23014,"Theegala, Sahith",12,Harbour Town Golf Links,sg_app,0.11170859432996189,0.9185976483400276,111,12
 23014,"Theegala, Sahith",933,East Lake Golf Club,sg_app,1.3281752091023888,0.698853716848569,19,12
 23014,"Theegala, Sahith",503,TPC River Highlands,sg_app,-0.09430866272989745,0.4620797661198388,106,12
@@ -4096,8 +4096,8 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 23014,"Theegala, Sahith",21,Colonial Country Club,sg_putt,0.20239117466758713,0.27380389039483516,103,12
 23014,"Theegala, Sahith",752,Sedgefield Country Club,sg_putt,-0.826144975539239,0.2073471862126644,105,12
 23014,"Theegala, Sahith",656,Plantation Course at Kapalua,sg_putt,-0.3233925673974567,0.20071736187159786,72,12
-23014,"Theegala, Sahith",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.6295966601105548,0.40338517729111795,61,12
-23014,"Theegala, Sahith",244,Puntacana Resort (Corales Golf Course),sg_total,0.5474452191548653,0.27591320024340477,74,12
+23014,"Theegala, Sahith",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.6299211379554921,0.40338517729111795,61,12
+23014,"Theegala, Sahith",244,Puntacana Resort (Corales Golf Course),sg_total,0.5477696969998026,0.27591320024340477,74,12
 14139,"Thomas, Justin",12,Harbour Town Golf Links,sg_app,0.3880406984970318,0.9185976483400276,111,12
 14139,"Thomas, Justin",933,East Lake Golf Club,sg_app,0.6269120927643628,0.698853716848569,19,12
 14139,"Thomas, Justin",887,Kasumigaseki Country Club,sg_app,-0.21538729195727527,0.6038754910393548,16,12
@@ -4176,9 +4176,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 14139,"Thomas, Justin",240,Club de Golf Chapultepec,sg_putt,0.3568060813219328,0.21197090773644714,30,12
 14139,"Thomas, Justin",752,Sedgefield Country Club,sg_putt,0.9898565492237366,0.2073471862126644,105,12
 14139,"Thomas, Justin",656,Plantation Course at Kapalua,sg_putt,0.31483949190768123,0.20071736187159786,72,12
-14139,"Thomas, Justin",3788,renaissance club,sg_total,1.156877415034676,0.6341906643289803,15,12
-14139,"Thomas, Justin",733,El Camaleón Golf Course at Mayakoba,sg_total,0.6931155661771413,0.30533913800790735,89,12
-14139,"Thomas, Justin",242,Nine Bridges,sg_total,2.9386574861437893,0.27673719132496094,32,12
+14139,"Thomas, Justin",3788,renaissance club,sg_total,1.1571753901393615,0.6341906643289803,15,12
+14139,"Thomas, Justin",733,El Camaleón Golf Course at Mayakoba,sg_total,0.6934135412818268,0.30533913800790735,89,12
+14139,"Thomas, Justin",242,Nine Bridges,sg_total,2.938955461248475,0.27673719132496094,32,12
 26649,"Thorbjornsen, Michael",921,TPC Craig Ranch,sg_app,0.6549981688749282,0.5485057076776074,69,12
 26649,"Thorbjornsen, Michael",503,TPC River Highlands,sg_app,-0.17367404837277212,0.4620797661198388,106,12
 26649,"Thorbjornsen, Michael",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,-0.18744555547656472,0.3542857036129345,42,12
@@ -4238,21 +4238,21 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 23816,"Valimaki, Sami",21,Colonial Country Club,sg_putt,-0.32053774886067415,0.27380389039483516,103,12
 23816,"Valimaki, Sami",928,PGA National  - Champion Course,sg_putt,-0.14543948279878957,0.23147668088428233,65,12
 23816,"Valimaki, Sami",752,Sedgefield Country Club,sg_putt,-0.9518184624997248,0.2073471862126644,105,12
-23816,"Valimaki, Sami",4013,marco simone gc,sg_total,-0.49169472251206275,0.5353749804005323,7,12
-23816,"Valimaki, Sami",4584,crans-sur-sierre gc,sg_total,2.670152005241632,0.5311667632457925,9,12
-23816,"Valimaki, Sami",3881,old course st andrews,sg_total,1.4768824554057747,0.49736623172279193,9,12
-23816,"Valimaki, Sami",4582,furesø golf klub,sg_total,1.433559378601896,0.490625539035993,5,12
-23816,"Valimaki, Sami",4224,crans-sur-sierre gc,sg_total,-0.39728895059766806,0.44256863636278093,5,12
-23816,"Valimaki, Sami",3907,education city gc,sg_total,1.1571641486828057,0.42017361068624604,6,12
-23816,"Valimaki, Sami",3975,kingsbarns golf links,sg_total,0.42288245540577457,0.40252442742361033,9,12
-23816,"Valimaki, Sami",3860,brabazon course at the belfry,sg_total,1.2708699341788918,0.33359815832593986,4,12
-23816,"Valimaki, Sami",3883,real club valderrama,sg_total,1.685745280220309,0.3112939142308682,6,12
-23816,"Valimaki, Sami",3878,wentworth golf club,sg_total,-2.1424452961406377,0.3009569936494542,14,12
-23816,"Valimaki, Sami",3930,wentworth golf club,sg_total,2.5321477414307147,0.2747202434854545,12,12
-23816,"Valimaki, Sami",4225,k club,sg_total,1.1772429416558097,0.26645139761434267,8,12
-23816,"Valimaki, Sami",4012,wentworth golf club,sg_total,-0.15885915750257268,0.2608414612864147,13,12
-23816,"Valimaki, Sami",3999,golfclub münchen eichenried,sg_total,3.2754367107445077,0.24878517953888782,4,12
-23816,"Valimaki, Sami",4015,old course st andrews,sg_total,1.9241081614910704,0.2171814404629489,9,12
+23816,"Valimaki, Sami",4013,marco simone gc,sg_total,-0.4913365263203219,0.5353749804005323,7,12
+23816,"Valimaki, Sami",4584,crans-sur-sierre gc,sg_total,2.670510201433373,0.5311667632457925,9,12
+23816,"Valimaki, Sami",3881,old course st andrews,sg_total,1.4772406515975156,0.49736623172279193,9,12
+23816,"Valimaki, Sami",4582,furesø golf klub,sg_total,1.433917574793637,0.490625539035993,5,12
+23816,"Valimaki, Sami",4224,crans-sur-sierre gc,sg_total,-0.3969307544059272,0.44256863636278093,5,12
+23816,"Valimaki, Sami",3907,education city gc,sg_total,1.1575223448745466,0.42017361068624604,6,12
+23816,"Valimaki, Sami",3975,kingsbarns golf links,sg_total,0.42324065159751545,0.40252442742361033,9,12
+23816,"Valimaki, Sami",3860,brabazon course at the belfry,sg_total,1.2712281303706328,0.33359815832593986,4,12
+23816,"Valimaki, Sami",3883,real club valderrama,sg_total,1.68610347641205,0.3112939142308682,6,12
+23816,"Valimaki, Sami",3878,wentworth golf club,sg_total,-2.142087099948897,0.3009569936494542,14,12
+23816,"Valimaki, Sami",3930,wentworth golf club,sg_total,2.5325059376224557,0.2747202434854545,12,12
+23816,"Valimaki, Sami",4225,k club,sg_total,1.1674640836338,0.26645139761434267,8,12
+23816,"Valimaki, Sami",4012,wentworth golf club,sg_total,-0.15850096131083266,0.2608414612864147,13,12
+23816,"Valimaki, Sami",3999,golfclub münchen eichenried,sg_total,3.2757949069362486,0.24878517953888782,4,12
+23816,"Valimaki, Sami",4015,old course st andrews,sg_total,1.9244663576828114,0.2171814404629489,9,12
 13508,"Vegas, Jhonattan",12,Harbour Town Golf Links,sg_app,0.5104653938100789,0.9185976483400276,111,12
 13508,"Vegas, Jhonattan",887,Kasumigaseki Country Club,sg_app,-0.12979425124507168,0.6038754910393548,16,12
 13508,"Vegas, Jhonattan",921,TPC Craig Ranch,sg_app,-0.2754262191287119,0.5485057076776074,69,12
@@ -4306,12 +4306,12 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 13508,"Vegas, Jhonattan",928,PGA National  - Champion Course,sg_putt,-0.0538517558042989,0.23147668088428233,65,12
 13508,"Vegas, Jhonattan",752,Sedgefield Country Club,sg_putt,-0.6688739894460509,0.2073471862126644,105,12
 13508,"Vegas, Jhonattan",656,Plantation Course at Kapalua,sg_putt,0.27174621906809315,0.20071736187159786,72,12
-13508,"Vegas, Jhonattan",4362,lakes gc,sg_total,0.14843441959570136,0.6116377446036373,5,12
-13508,"Vegas, Jhonattan",4586,wentworth golf club,sg_total,-0.8102175589576024,0.4527820867381119,15,12
-13508,"Vegas, Jhonattan",890,Tahoe Mountain Club (Old Greenwood),sg_total,-1.952160769897607,0.40338517729111795,61,12
-13508,"Vegas, Jhonattan",733,El Camaleón Golf Course at Mayakoba,sg_total,0.2882166608027328,0.30533913800790735,89,12
-13508,"Vegas, Jhonattan",242,Nine Bridges,sg_total,2.1892587163985,0.27673719132496094,32,12
-13508,"Vegas, Jhonattan",244,Puntacana Resort (Corales Golf Course),sg_total,0.9879521756559583,0.27591320024340477,74,12
+13508,"Vegas, Jhonattan",4362,lakes gc,sg_total,0.14869946729390232,0.6116377446036373,5,12
+13508,"Vegas, Jhonattan",4586,wentworth golf club,sg_total,-0.8099525112594015,0.4527820867381119,15,12
+13508,"Vegas, Jhonattan",890,Tahoe Mountain Club (Old Greenwood),sg_total,-1.951895722199406,0.40338517729111795,61,12
+13508,"Vegas, Jhonattan",733,El Camaleón Golf Course at Mayakoba,sg_total,0.28848170850093374,0.30533913800790735,89,12
+13508,"Vegas, Jhonattan",242,Nine Bridges,sg_total,2.189523764096701,0.27673719132496094,32,12
+13508,"Vegas, Jhonattan",244,Puntacana Resort (Corales Golf Course),sg_total,0.9882172233541592,0.27591320024340477,74,12
 24304,"Vilips, Karl",12,Harbour Town Golf Links,sg_app,0.9578646690196669,0.9185976483400276,111,12
 24304,"Vilips, Karl",921,TPC Craig Ranch,sg_app,-0.06822394000111037,0.5485057076776074,69,12
 24304,"Vilips, Karl",776,Sea Island Golf Club (Seaside Course),sg_app,0.21126640109719122,0.21421600599223561,96,12
@@ -4386,46 +4386,46 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 20706,"Wallace, Matt",240,Club de Golf Chapultepec,sg_putt,-0.4528551729500484,0.21197090773644714,30,12
 20706,"Wallace, Matt",752,Sedgefield Country Club,sg_putt,0.9592041463311316,0.2073471862126644,105,12
 20706,"Wallace, Matt",656,Plantation Course at Kapalua,sg_putt,0.49900469485703525,0.20071736187159786,72,12
-20706,"Wallace, Matt",3793,crans-sur-sierre gc,sg_total,-3.581612538517676,0.700902200783588,10,12
-20706,"Wallace, Matt",3788,renaissance club,sg_total,1.164064825722837,0.6341906643289803,15,12
-20706,"Wallace, Matt",3797,old course st andrews,sg_total,1.405819726329743,0.6167219079681248,14,12
-20706,"Wallace, Matt",4583,brabazon course at the belfry,sg_total,0.1078284386697943,0.5366747375739201,9,12
-20706,"Wallace, Matt",4584,crans-sur-sierre gc,sg_total,2.5020456583754136,0.5311667632457925,9,12
-20706,"Wallace, Matt",4582,furesø golf klub,sg_total,-3.1270215186015395,0.490625539035993,5,12
-20706,"Wallace, Matt",3807,jumeirah golf estates,sg_total,-0.1052774320288763,0.48458590095957504,10,12
-20706,"Wallace, Matt",3900,emirates gc,sg_total,-3.5659836485569,0.46628552905862813,11,12
-20706,"Wallace, Matt",4586,wentworth golf club,sg_total,-0.10917244244791763,0.4527820867381119,15,12
-20706,"Wallace, Matt",4224,crans-sur-sierre gc,sg_total,1.1454909138897311,0.44256863636278093,5,12
-20706,"Wallace, Matt",3767,abu dhabi gc,sg_total,2.497713619293841,0.42288439872483724,10,12
-20706,"Wallace, Matt",3798,kingsbarns golf links,sg_total,-1.269680273670257,0.4050476452171268,14,12
-20706,"Wallace, Matt",3801,olgiata gc,sg_total,1.7087876762536347,0.393867411354965,11,12
-20706,"Wallace, Matt",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.8287115759689905,0.30533913800790735,89,12
-20706,"Wallace, Matt",3878,wentworth golf club,sg_total,-2.647454141330408,0.3009569936494542,14,12
-20706,"Wallace, Matt",244,Puntacana Resort (Corales Golf Course),sg_total,2.0897623072671254,0.27591320024340477,74,12
-20706,"Wallace, Matt",3930,wentworth golf club,sg_total,0.8088858321415611,0.2747202434854545,12,12
-20706,"Wallace, Matt",4225,k club,sg_total,-0.2676172484461273,0.26645139761434267,8,12
-20706,"Wallace, Matt",4012,wentworth golf club,sg_total,-1.0233694707862753,0.2608414612864147,13,12
-20706,"Wallace, Matt",3899,abu dhabi gc,sg_total,-1.0925926327443,0.2354546785163034,12,12
-20706,"Wallace, Matt",4015,old course st andrews,sg_total,0.861650909366239,0.2171814404629489,9,12
-16841,"Woo Lee, Min",3793,crans-sur-sierre gc,sg_total,-1.3584423426889423,0.700902200783588,10,12
-16841,"Woo Lee, Min",3792,hills golf & sports club,sg_total,-2.2526882006093687,0.6468878402217493,6,12
-16841,"Woo Lee, Min",3797,old course st andrews,sg_total,-1.396644227072569,0.6167219079681248,14,12
-16841,"Woo Lee, Min",4362,lakes gc,sg_total,0.9335625201794063,0.6116377446036373,5,12
-16841,"Woo Lee, Min",4013,marco simone gc,sg_total,-1.2375622389296823,0.5353749804005323,7,12
-16841,"Woo Lee, Min",3881,old course st andrews,sg_total,-1.1718335530943729,0.49736623172279193,9,12
-16841,"Woo Lee, Min",4586,wentworth golf club,sg_total,0.8111173291892094,0.4527820867381119,15,12
-16841,"Woo Lee, Min",3767,abu dhabi gc,sg_total,-0.851346848380785,0.42288439872483724,10,12
-16841,"Woo Lee, Min",3907,education city gc,sg_total,-1.138595242385592,0.42017361068624604,6,12
-16841,"Woo Lee, Min",3798,kingsbarns golf links,sg_total,-0.6286442270725688,0.4050476452171268,14,12
-16841,"Woo Lee, Min",3975,kingsbarns golf links,sg_total,-0.6258335530943728,0.40252442742361033,9,12
-16841,"Woo Lee, Min",3774,doha gc,sg_total,1.3590760320040411,0.35924298584696057,7,12
-16841,"Woo Lee, Min",3638,saujana g&cc,sg_total,-0.5861737033709584,0.33766572629909486,7,12
-16841,"Woo Lee, Min",3860,brabazon course at the belfry,sg_total,1.6181591951894152,0.33359815832593986,4,12
-16841,"Woo Lee, Min",3883,real club valderrama,sg_total,2.5386511936001432,0.3112939142308682,6,12
-16841,"Woo Lee, Min",3878,wentworth golf club,sg_total,-3.2044076604288962,0.3009569936494542,14,12
-16841,"Woo Lee, Min",3930,wentworth golf club,sg_total,-1.763457392044336,0.2747202434854545,12,12
-16841,"Woo Lee, Min",4225,k club,sg_total,0.8325735205927302,0.26645139761434267,8,12
-16841,"Woo Lee, Min",4012,wentworth golf club,sg_total,0.5658137328477845,0.2608414612864147,13,12
+20706,"Wallace, Matt",3793,crans-sur-sierre gc,sg_total,-3.5818091584935643,0.700902200783588,10,12
+20706,"Wallace, Matt",3788,renaissance club,sg_total,1.1638682057469483,0.6341906643289803,15,12
+20706,"Wallace, Matt",3797,old course st andrews,sg_total,1.4056231063538542,0.6167219079681248,14,12
+20706,"Wallace, Matt",4583,brabazon course at the belfry,sg_total,0.10763181869390571,0.5366747375739201,9,12
+20706,"Wallace, Matt",4584,crans-sur-sierre gc,sg_total,2.5018490383995253,0.5311667632457925,9,12
+20706,"Wallace, Matt",4582,furesø golf klub,sg_total,-3.127218138577428,0.490625539035993,5,12
+20706,"Wallace, Matt",3807,jumeirah golf estates,sg_total,-0.10547405200476488,0.48458590095957504,10,12
+20706,"Wallace, Matt",3900,emirates gc,sg_total,-3.5661802685327877,0.46628552905862813,11,12
+20706,"Wallace, Matt",4586,wentworth golf club,sg_total,-0.10936906242380622,0.4527820867381119,15,12
+20706,"Wallace, Matt",4224,crans-sur-sierre gc,sg_total,1.1452942939138424,0.44256863636278093,5,12
+20706,"Wallace, Matt",3767,abu dhabi gc,sg_total,2.497516999317953,0.42288439872483724,10,12
+20706,"Wallace, Matt",3798,kingsbarns golf links,sg_total,-1.2698768936461458,0.4050476452171268,14,12
+20706,"Wallace, Matt",3801,olgiata gc,sg_total,1.708591056277746,0.393867411354965,11,12
+20706,"Wallace, Matt",733,El Camaleón Golf Course at Mayakoba,sg_total,-0.8289081959448791,0.30533913800790735,89,12
+20706,"Wallace, Matt",3878,wentworth golf club,sg_total,-2.6476507613062963,0.3009569936494542,14,12
+20706,"Wallace, Matt",244,Puntacana Resort (Corales Golf Course),sg_total,2.089565687291237,0.27591320024340477,74,12
+20706,"Wallace, Matt",3930,wentworth golf club,sg_total,0.8086892121656725,0.2747202434854545,12,12
+20706,"Wallace, Matt",4225,k club,sg_total,-0.2678138684220158,0.26645139761434267,8,12
+20706,"Wallace, Matt",4012,wentworth golf club,sg_total,-1.023566090762164,0.2608414612864147,13,12
+20706,"Wallace, Matt",3899,abu dhabi gc,sg_total,-1.0927892527201888,0.2354546785163034,12,12
+20706,"Wallace, Matt",4015,old course st andrews,sg_total,0.8614542893903504,0.2171814404629489,9,12
+16841,"Woo Lee, Min",3793,crans-sur-sierre gc,sg_total,-1.3602177565547424,0.700902200783588,10,12
+16841,"Woo Lee, Min",3792,hills golf & sports club,sg_total,-2.254463614475169,0.6468878402217493,6,12
+16841,"Woo Lee, Min",3797,old course st andrews,sg_total,-1.398419640938369,0.6167219079681248,14,12
+16841,"Woo Lee, Min",4362,lakes gc,sg_total,0.9317871063136063,0.6116377446036373,5,12
+16841,"Woo Lee, Min",4013,marco simone gc,sg_total,-1.2393376527954825,0.5353749804005323,7,12
+16841,"Woo Lee, Min",3881,old course st andrews,sg_total,-1.1736089669601728,0.49736623172279193,9,12
+16841,"Woo Lee, Min",4586,wentworth golf club,sg_total,0.8093419153234094,0.4527820867381119,15,12
+16841,"Woo Lee, Min",3767,abu dhabi gc,sg_total,-0.853122262246585,0.42288439872483724,10,12
+16841,"Woo Lee, Min",3907,education city gc,sg_total,-1.140370656251392,0.42017361068624604,6,12
+16841,"Woo Lee, Min",3798,kingsbarns golf links,sg_total,-0.6304196409383689,0.4050476452171268,14,12
+16841,"Woo Lee, Min",3975,kingsbarns golf links,sg_total,-0.6276089669601728,0.40252442742361033,9,12
+16841,"Woo Lee, Min",3774,doha gc,sg_total,1.357300618138241,0.35924298584696057,7,12
+16841,"Woo Lee, Min",3638,saujana g&cc,sg_total,-0.5879491172367584,0.33766572629909486,7,12
+16841,"Woo Lee, Min",3860,brabazon course at the belfry,sg_total,1.616383781323615,0.33359815832593986,4,12
+16841,"Woo Lee, Min",3883,real club valderrama,sg_total,2.536875779734343,0.3112939142308682,6,12
+16841,"Woo Lee, Min",3878,wentworth golf club,sg_total,-3.2061830742946964,0.3009569936494542,14,12
+16841,"Woo Lee, Min",3930,wentworth golf club,sg_total,-1.7652328059101354,0.2747202434854545,12,12
+16841,"Woo Lee, Min",4225,k club,sg_total,0.8307981067269301,0.26645139761434267,8,12
+16841,"Woo Lee, Min",4012,wentworth golf club,sg_total,0.5640383189819844,0.2608414612864147,13,12
 12577,"Woodland, Gary",12,Harbour Town Golf Links,sg_app,-0.19167539889653895,0.9185976483400276,111,12
 12577,"Woodland, Gary",891,Winged Foot GC,sg_app,-0.7974441603348889,0.5342356006223477,48,12
 12577,"Woodland, Gary",503,TPC River Highlands,sg_app,0.8996470067250383,0.4620797661198388,106,12
@@ -4489,9 +4489,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 12577,"Woodland, Gary",240,Club de Golf Chapultepec,sg_putt,0.325445203910829,0.21197090773644714,30,12
 12577,"Woodland, Gary",752,Sedgefield Country Club,sg_putt,0.8220227062322562,0.2073471862126644,105,12
 12577,"Woodland, Gary",656,Plantation Course at Kapalua,sg_putt,0.6984237914422634,0.20071736187159786,72,12
-12577,"Woodland, Gary",890,Tahoe Mountain Club (Old Greenwood),sg_total,1.2453878926835462,0.40338517729111795,61,12
-12577,"Woodland, Gary",733,El Camaleón Golf Course at Mayakoba,sg_total,-1.3110659298423237,0.30533913800790735,89,12
-12577,"Woodland, Gary",242,Nine Bridges,sg_total,2.32910425032735,0.27673719132496094,32,12
+12577,"Woodland, Gary",890,Tahoe Mountain Club (Old Greenwood),sg_total,1.2454217566549002,0.40338517729111795,61,12
+12577,"Woodland, Gary",733,El Camaleón Golf Course at Mayakoba,sg_total,-1.3110320658709698,0.30533913800790735,89,12
+12577,"Woodland, Gary",242,Nine Bridges,sg_total,2.329138114298704,0.27673719132496094,32,12
 29925,"Yellamaraju, Sudarshan",510,TPC Scottsdale (Stadium Course),sg_ott,-0.66646692790995,0.4070718044672135,103,12
 29925,"Yellamaraju, Sudarshan",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_ott,0.30785750212553603,0.3454008848608041,105,12
 29925,"Yellamaraju, Sudarshan",704,Pete Dye Stadium Course,sg_putt,-0.37210873613342105,0.39790701777580234,100,12
@@ -4500,13 +4500,13 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 29925,"Yellamaraju, Sudarshan",928,PGA National  - Champion Course,sg_putt,-0.24313346061786445,0.23147668088428233,65,12
 29925,"Yellamaraju, Sudarshan",678,Thornblade Club,sg_total,-5.659289845676332,0.37647661475816235,18,12
 29925,"Yellamaraju, Sudarshan",802,Sandals Emerald Bay Golf Club,sg_total,-5.787017761339914,0.3704081274825195,9,12
-29925,"Yellamaraju, Sudarshan",91,The Pete Dye Course at French Lick Resort,sg_total,1.3613693427995985,0.35578726391557947,6,12
-29925,"Yellamaraju, Sudarshan",807,Lakewood National Golf Club - Commander Course,sg_total,-1.033377390372266,0.3456818801432109,20,12
+29925,"Yellamaraju, Sudarshan",91,The Pete Dye Course at French Lick Resort,sg_total,1.3613693427995983,0.35578726391557947,6,12
+29925,"Yellamaraju, Sudarshan",807,Lakewood National Golf Club - Commander Course,sg_total,-1.0333773903722658,0.3456818801432109,20,12
 29925,"Yellamaraju, Sudarshan",99,Ogden Golf & Country Club,sg_total,-4.314788151153515,0.32951704646863544,11,12
-29925,"Yellamaraju, Sudarshan",22,Highland Springs Country Club,sg_total,0.8043825798822812,0.2760067537557183,11,12
+29925,"Yellamaraju, Sudarshan",22,Highland Springs Country Club,sg_total,0.804382579882281,0.2760067537557183,11,12
 29925,"Yellamaraju, Sudarshan",60,Texas Rangers Golf Club,sg_total,-1.3457135406520635,0.2542949298354507,12,12
-29925,"Yellamaraju, Sudarshan",82,The Glen Club,sg_total,1.8763609857042625,0.228891509462106,15,12
-29925,"Yellamaraju, Sudarshan",109,Holston Hills Country Club,sg_total,1.6262701677355758,0.22876693052055141,15,12
+29925,"Yellamaraju, Sudarshan",82,The Glen Club,sg_total,1.8763609857042622,0.228891509462106,15,12
+29925,"Yellamaraju, Sudarshan",109,Holston Hills Country Club,sg_total,1.6262701677355755,0.22876693052055141,15,12
 26651,"Young, Cameron",12,Harbour Town Golf Links,sg_app,-0.5157370554290749,0.9185976483400276,111,12
 26651,"Young, Cameron",503,TPC River Highlands,sg_app,0.17892136236287903,0.4620797661198388,106,12
 26651,"Young, Cameron",885,Royal Portrush Golf Club,sg_app,-0.46321247401788657,0.4456148566669781,43,12

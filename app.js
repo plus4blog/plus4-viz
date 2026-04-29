@@ -63,17 +63,24 @@ function buildEventDropdown(events) {
   const sel = document.getElementById('event-select');
   if (!sel) return;
 
-  const defaultOpt = document.createElement('option');
-  defaultOpt.value = '';
-  defaultOpt.textContent = 'Current Week';
-  sel.appendChild(defaultOpt);
+  // Most recently uploaded last in JSON → reverse so it appears first
+  const sorted = [...events].reverse();
 
-  events.forEach(ev => {
+  sorted.forEach(ev => {
     const opt = document.createElement('option');
     opt.value = ev.prefix;
     opt.textContent = ev.name;
     sel.appendChild(opt);
   });
+
+  const currentOpt = document.createElement('option');
+  currentOpt.value = '';
+  currentOpt.textContent = 'Current Week';
+  sel.appendChild(currentOpt);
+
+  // Default to most recent event
+  activeEvent = sorted[0].prefix;
+  sel.value = activeEvent;
 
   sel.style.display = 'inline-block';
   sel.addEventListener('change', () => {

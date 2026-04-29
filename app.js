@@ -34,8 +34,53 @@ const SKILL_COLORS = {
 };
 
 // ── CSV LOADING ───────────────────────────────────────────────────────────────
-const CSV_URL  = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/main/data/course_skill_lookup.csv';
-const PROJ_URL = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/main/data/player_projections.csv';
+const BASE_DATA_URL = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/main/data';
+const EVENTS_URL    = `${BASE_DATA_URL}/events.json`;
+
+let activeEvent = null; // null = current week (unprefixed files)
+
+function csvUrl()  {
+  const file = activeEvent ? `${activeEvent}_course_skill_lookup.csv` : 'course_skill_lookup.csv';
+  return `${BASE_DATA_URL}/${file}?v=${Date.now()}`;
+}
+function projUrl() {
+  const file = activeEvent ? `${activeEvent}_player_projections.csv` : 'player_projections.csv';
+  return `${BASE_DATA_URL}/${file}?v=${Date.now()}`;
+}
+
+async function loadEvents() {
+  try {
+    const res = await fetch(`${EVENTS_URL}?v=${Date.now()}`);
+    if (res.ok) {
+      const events = await res.json();
+      if (events.length) buildEventDropdown(events);
+    }
+  } catch (e) { /* no manifest — proceed with default */ }
+  loadCSV();
+}
+
+function buildEventDropdown(events) {
+  const sel = document.getElementById('event-select');
+  if (!sel) return;
+
+  const defaultOpt = document.createElement('option');
+  defaultOpt.value = '';
+  defaultOpt.textContent = 'Current Week';
+  sel.appendChild(defaultOpt);
+
+  events.forEach(ev => {
+    const opt = document.createElement('option');
+    opt.value = ev.prefix;
+    opt.textContent = ev.name;
+    sel.appendChild(opt);
+  });
+
+  sel.style.display = 'inline-block';
+  sel.addEventListener('change', () => {
+    activeEvent = sel.value || null;
+    loadCSV();
+  });
+}
 
 function loadCSV() {
   const status = document.getElementById('load-status');
@@ -49,13 +94,13 @@ function loadCSV() {
     status.textContent = `Updated ${new Date().toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'})}`;
   }
 
-  Papa.parse(CSV_URL, {
+  Papa.parse(csvUrl(), {
     download: true, header: true, skipEmptyLines: true, dynamicTyping: true,
     complete: result => { allData = result.data; coursesDone = true; tryProcess(); },
     error: err => { status.textContent = 'Failed to load data'; console.error(err); }
   });
 
-  Papa.parse(PROJ_URL, {
+  Papa.parse(projUrl(), {
     download: true, header: true, skipEmptyLines: true, dynamicTyping: true,
     complete: result => {
       projData = {};
@@ -74,7 +119,7 @@ function loadCSV() {
   });
 }
 
-loadCSV();
+loadEvents();
 
 function processData() {
   if (!allData.length) return;

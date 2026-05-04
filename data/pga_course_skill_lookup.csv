@@ -1124,108 +1124,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 28309,"Coody, Pierceson",925,Dunes Golf and Beach Club,sg_total,-0.12707026674839128,0.3513444245869187,38,872,Quail Hollow Club
 28309,"Coody, Pierceson",765,Port Royal Golf Course,sg_total,0.4714167800310355,0.32495162436893166,84,872,Quail Hollow Club
 28309,"Coody, Pierceson",86,Norwood Hills Country Club,sg_total,-0.38240884160163585,0.31376857343916964,25,872,Quail Hollow Club
-14509,"Dahmen, Joel",872,Quail Hollow Club,sg_app,0.3314431786164567,0.920062946822376,121,872,Quail Hollow Club
-14509,"Dahmen, Joel",21,Colonial Country Club,sg_app,0.018010890158471238,0.6223953064575313,121,872,Quail Hollow Club
-14509,"Dahmen, Joel",874,Hamilton Golf & Country Club,sg_app,0.6879802523588123,0.617319663329318,80,872,Quail Hollow Club
-14509,"Dahmen, Joel",925,Dunes Golf and Beach Club,sg_app,-1.2198226514086512,0.6015151297985153,37,872,Quail Hollow Club
-14509,"Dahmen, Joel",823,Keene Trace Golf Club,sg_app,1.2909287200873738,0.5917232907033739,24,872,Quail Hollow Club
-14509,"Dahmen, Joel",875,ACCORDIA GOLF Narashino Country Club,sg_app,1.562700949500748,0.5717241579650258,25,872,Quail Hollow Club
-14509,"Dahmen, Joel",704,Pete Dye Stadium Course,sg_app,-0.33313639931565364,0.5426825265278356,117,872,Quail Hollow Club
-14509,"Dahmen, Joel",819,Harbor Shores Resort,sg_app,0.6604131734742356,0.49727123414542346,37,872,Quail Hollow Club
-14509,"Dahmen, Joel",6,Waialae Country Club,sg_app,0.0921595927848517,0.48599156854818615,118,872,Quail Hollow Club
-14509,"Dahmen, Joel",8,Trump National Doral - Blue Monster Course,sg_app,-0.7947546196121413,0.4788071130304576,69,872,Quail Hollow Club
-14509,"Dahmen, Joel",654,The Country Club,sg_app,1.7267037491133557,0.45850490494249635,51,872,Quail Hollow Club
-14509,"Dahmen, Joel",884,Keene Trace Golf Club (Champion Trace),sg_app,-1.9346377870662679,0.4489435701980226,67,872,Quail Hollow Club
-14509,"Dahmen, Joel",886,Liberty National Golf Club,sg_app,0.35166719834463034,0.4198105621025466,80,872,Quail Hollow Club
-14509,"Dahmen, Joel",611,Southern Hills Country Club,sg_app,-2.0453376995894934,0.4014007907883803,56,872,Quail Hollow Club
-14509,"Dahmen, Joel",776,Sea Island Golf Club (Seaside Course),sg_app,-0.07421930932281684,0.3822424806337221,116,872,Quail Hollow Club
-14509,"Dahmen, Joel",237,TPC Potomac at Avenel Farm,sg_app,0.9132512902066034,0.36766660294819226,88,872,Quail Hollow Club
-14509,"Dahmen, Joel",9,Arnold Palmer's Bay Hill Club & Lodge,sg_app,0.30460922473719715,0.3537152607827948,123,872,Quail Hollow Club
-14509,"Dahmen, Joel",930,Black Desert Resort,sg_app,0.10542592524090852,0.34382290452324554,46,872,Quail Hollow Club
-14509,"Dahmen, Joel",872,Quail Hollow Club,sg_arg,0.14294954526862272,0.9122278371720759,121,872,Quail Hollow Club
-14509,"Dahmen, Joel",893,Muirfield Village Golf Club,sg_arg,-1.4519132756620454,0.7001805876994075,69,872,Quail Hollow Club
-14509,"Dahmen, Joel",235,Eagle Point Golf Club,sg_arg,-0.9970198832283107,0.6565049672623784,49,872,Quail Hollow Club
-14509,"Dahmen, Joel",925,Dunes Golf and Beach Club,sg_arg,-0.6234419138846624,0.648655717378755,37,872,Quail Hollow Club
-14509,"Dahmen, Joel",819,Harbor Shores Resort,sg_arg,-0.0648833624698581,0.6352496699820284,37,872,Quail Hollow Club
-14509,"Dahmen, Joel",4,Torrey Pines Golf Course (South Course),sg_arg,-0.16536195801394551,0.6102445891378143,125,872,Quail Hollow Club
-14509,"Dahmen, Joel",23,Muirfield Village Golf Club,sg_arg,0.3969182501918973,0.6061392346642107,118,872,Quail Hollow Club
-14509,"Dahmen, Joel",510,TPC Scottsdale (Stadium Course),sg_arg,0.2760029290371444,0.6028982679238515,121,872,Quail Hollow Club
-14509,"Dahmen, Joel",700,TPC Boston,sg_arg,0.25130631665493225,0.5912007341301075,98,872,Quail Hollow Club
-14509,"Dahmen, Joel",12,Harbour Town Golf Links,sg_arg,-0.16327294357010455,0.5139046703346004,122,872,Quail Hollow Club
-14509,"Dahmen, Joel",697,Ocean Course at Kiawah Island,sg_arg,-0.21261740415217215,0.4668332250654862,58,872,Quail Hollow Club
-14509,"Dahmen, Joel",538,TPC Summerlin,sg_arg,0.02820679773428904,0.3375039913709073,118,872,Quail Hollow Club
-14509,"Dahmen, Joel",656,Plantation Course at Kapalua,sg_arg,-0.5505534782668672,0.3149410985734038,96,872,Quail Hollow Club
-14509,"Dahmen, Joel",5,Pebble Beach Golf Links,sg_arg,0.13364166121988516,0.3122666282485893,125,872,Quail Hollow Club
-14509,"Dahmen, Joel",823,Keene Trace Golf Club,sg_arg,-0.17558593623190616,0.3027459941111082,24,872,Quail Hollow Club
-14509,"Dahmen, Joel",872,Quail Hollow Club,sg_ott,-0.2803943223716495,0.8949025247006961,121,872,Quail Hollow Club
-14509,"Dahmen, Joel",873,Ridgewood CC,sg_ott,0.7005994497244681,0.6602322532792273,60,872,Quail Hollow Club
-14509,"Dahmen, Joel",611,Southern Hills Country Club,sg_ott,-0.38821199394861305,0.6586960243416187,56,872,Quail Hollow Club
-14509,"Dahmen, Joel",823,Keene Trace Golf Club,sg_ott,0.49710993700474104,0.6455589408153939,24,872,Quail Hollow Club
-14509,"Dahmen, Joel",928,PGA National  - Champion Course,sg_ott,0.42179762516416763,0.6434003124291379,64,872,Quail Hollow Club
-14509,"Dahmen, Joel",4,Torrey Pines Golf Course (South Course),sg_ott,-0.01037201815916735,0.6298518703927387,125,872,Quail Hollow Club
-14509,"Dahmen, Joel",921,TPC Craig Ranch,sg_ott,-0.4449393251637542,0.6065280779160799,72,872,Quail Hollow Club
-14509,"Dahmen, Joel",8,Trump National Doral - Blue Monster Course,sg_ott,-0.4614992994783971,0.572142325227515,69,872,Quail Hollow Club
-14509,"Dahmen, Joel",897,Memorial Park Golf Course,sg_ott,-0.00017785472632268762,0.5655774571735637,104,872,Quail Hollow Club
-14509,"Dahmen, Joel",32,Glen Abbey GC,sg_ott,-0.43997313674504535,0.55959596734793,83,872,Quail Hollow Club
-14509,"Dahmen, Joel",235,Eagle Point Golf Club,sg_ott,-1.0093210035105025,0.5507062998528859,49,872,Quail Hollow Club
-14509,"Dahmen, Joel",977,The Renaissance Club,sg_ott,-0.03543733268128258,0.5460475754183362,69,872,Quail Hollow Club
-14509,"Dahmen, Joel",666,Pebble Beach Golf Links,sg_ott,-1.1644439943138034,0.5394096093808775,50,872,Quail Hollow Club
-14509,"Dahmen, Joel",669,TPC Deere Run,sg_ott,-0.15394811493603064,0.5261924132879816,114,872,Quail Hollow Club
-14509,"Dahmen, Joel",925,Dunes Golf and Beach Club,sg_ott,-0.31331701435543313,0.5001014530653333,37,872,Quail Hollow Club
-14509,"Dahmen, Joel",880,Bethpage Black,sg_ott,-0.4463488474591528,0.46917130643647176,57,872,Quail Hollow Club
-14509,"Dahmen, Joel",771,The Old White TPC,sg_ott,0.06875904396281193,0.45286357621454815,92,872,Quail Hollow Club
-14509,"Dahmen, Joel",876,Detroit Golf Club,sg_ott,0.03666161292172795,0.41086261397696755,114,872,Quail Hollow Club
-14509,"Dahmen, Joel",2000,Sherwood Country Club,sg_ott,-0.34845988135705525,0.39392468026580385,35,872,Quail Hollow Club
-14509,"Dahmen, Joel",746,The Country Club of Jackson,sg_ott,-0.018382823362775406,0.35782945687924794,109,872,Quail Hollow Club
-14509,"Dahmen, Joel",872,Quail Hollow Club,sg_putt,0.7123357611733456,0.8883921815902325,121,872,Quail Hollow Club
-14509,"Dahmen, Joel",8,Trump National Doral - Blue Monster Course,sg_putt,1.4841645772115297,0.5872808966186444,69,872,Quail Hollow Club
-14509,"Dahmen, Joel",770,TPC San Antonio - The Oaks Course,sg_putt,-0.39631187965527015,0.5750482593087165,125,872,Quail Hollow Club
-14509,"Dahmen, Joel",656,Plantation Course at Kapalua,sg_putt,-0.22025842898866477,0.554686046324924,96,872,Quail Hollow Club
-14509,"Dahmen, Joel",348,Medinah Country Club (No. 3),sg_putt,0.313464704465122,0.5388246787720904,39,872,Quail Hollow Club
-14509,"Dahmen, Joel",503,TPC River Highlands,sg_putt,-0.14642082172606252,0.5283880822013444,125,872,Quail Hollow Club
-14509,"Dahmen, Joel",2000,Sherwood Country Club,sg_putt,0.541061259336757,0.5213146828807105,35,872,Quail Hollow Club
-14509,"Dahmen, Joel",873,Ridgewood CC,sg_putt,-0.8964147767179869,0.5176724628442719,60,872,Quail Hollow Club
-14509,"Dahmen, Joel",875,ACCORDIA GOLF Narashino Country Club,sg_putt,-0.13048688084147786,0.5094589378736416,25,872,Quail Hollow Club
-14509,"Dahmen, Joel",665,Innisbrook Resort and Golf Club - Copperhead Course,sg_putt,-0.3532181196435007,0.5047508103234392,127,872,Quail Hollow Club
-14509,"Dahmen, Joel",237,TPC Potomac at Avenel Farm,sg_putt,-0.3034457919704096,0.49517307438410585,88,872,Quail Hollow Club
-14509,"Dahmen, Joel",925,Dunes Golf and Beach Club,sg_putt,0.7130943014703743,0.44559604935951314,37,872,Quail Hollow Club
-14509,"Dahmen, Joel",884,Keene Trace Golf Club (Champion Trace),sg_putt,1.4058515703271866,0.4307632175149621,67,872,Quail Hollow Club
-14509,"Dahmen, Joel",23,Muirfield Village Golf Club,sg_putt,0.2827859460224769,0.38068330893892144,118,872,Quail Hollow Club
-14509,"Dahmen, Joel",714,TPC Louisiana,sg_putt,0.19504585544479358,0.324017256766705,74,872,Quail Hollow Club
-14509,"Dahmen, Joel",5,Pebble Beach Golf Links,sg_putt,-0.011915987702315459,0.32180988969846575,125,872,Quail Hollow Club
-14509,"Dahmen, Joel",19,TPC Four Seasons Resort,sg_putt,0.9512329090340662,0.3182675794423607,78,872,Quail Hollow Club
-14509,"Dahmen, Joel",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_putt,-0.48762175536080854,0.31468741270576933,124,872,Quail Hollow Club
-14509,"Dahmen, Joel",872,Quail Hollow Club,sg_total,0.6779128671139342,0.9052813347283355,125,872,Quail Hollow Club
-14509,"Dahmen, Joel",819,Harbor Shores Resort,sg_total,-1.3635286542955871,0.7402840023655339,43,872,Quail Hollow Club
-14509,"Dahmen, Joel",802,Sandals Emerald Bay Golf Club,sg_total,1.9808979782590224,0.7307992512043303,49,872,Quail Hollow Club
-14509,"Dahmen, Joel",6,Waialae Country Club,sg_total,-0.4834298950397842,0.6897379545814745,120,872,Quail Hollow Club
-14509,"Dahmen, Joel",2000,Sherwood Country Club,sg_total,1.7723179511661367,0.6463600682308783,47,872,Quail Hollow Club
-14509,"Dahmen, Joel",676,Ohio State University Golf Club - Scarlet Course,sg_total,-0.6918055225375805,0.6061170692411775,76,872,Quail Hollow Club
-14509,"Dahmen, Joel",510,TPC Scottsdale (Stadium Course),sg_total,-0.4316449340524595,0.5737362749140178,128,872,Quail Hollow Club
-14509,"Dahmen, Joel",8,Trump National Doral - Blue Monster Course,sg_total,-0.5499267917394646,0.5716714094440354,70,872,Quail Hollow Club
-14509,"Dahmen, Joel",936,Yokohama Country Club,sg_total,-2.069662249875791,0.5716204129257811,22,872,Quail Hollow Club
-14509,"Dahmen, Joel",714,TPC Louisiana,sg_total,0.11058516287324566,0.5640989022019596,76,872,Quail Hollow Club
-14509,"Dahmen, Joel",874,Hamilton Golf & Country Club,sg_total,2.1555863549348486,0.5616467616258198,81,872,Quail Hollow Club
-14509,"Dahmen, Joel",704,Pete Dye Stadium Course,sg_total,0.7047262511871969,0.5350047899341593,119,872,Quail Hollow Club
-14509,"Dahmen, Joel",19,TPC Four Seasons Resort,sg_total,2.674038165634731,0.525516283128511,81,872,Quail Hollow Club
-14509,"Dahmen, Joel",54,Nashville Golf & Athletic Club,sg_total,0.19508892615950035,0.48330174051040153,35,872,Quail Hollow Club
-14509,"Dahmen, Joel",895,TPC Harding Park,sg_total,2.5185017212938305,0.45489124736806985,64,872,Quail Hollow Club
-14509,"Dahmen, Joel",746,The Country Club of Jackson,sg_total,-0.06690141489522877,0.44607945432133955,112,872,Quail Hollow Club
-14509,"Dahmen, Joel",611,Southern Hills Country Club,sg_total,-1.9688134795181162,0.43627951067250814,68,872,Quail Hollow Club
-14509,"Dahmen, Joel",9,Arnold Palmer's Bay Hill Club & Lodge,sg_total,-1.1005495816905169,0.42455724038203446,125,872,Quail Hollow Club
-14509,"Dahmen, Joel",669,TPC Deere Run,sg_total,-0.3281723960473199,0.42452235003843647,116,872,Quail Hollow Club
-14509,"Dahmen, Joel",771,The Old White TPC,sg_total,0.8564736910318161,0.40327818506595187,94,872,Quail Hollow Club
-14509,"Dahmen, Joel",697,Ocean Course at Kiawah Island,sg_total,0.5480179759633828,0.38221188347296015,76,872,Quail Hollow Club
-14509,"Dahmen, Joel",919,El Cardonal at Diamante,sg_total,1.0656659201589394,0.37274229278719934,58,872,Quail Hollow Club
-14509,"Dahmen, Joel",243,Trinity Forest Golf Club,sg_total,1.3654039498837136,0.36710826662849494,68,872,Quail Hollow Club
-14509,"Dahmen, Joel",891,Winged Foot GC,sg_total,0.22172283060804188,0.35775280146805594,53,872,Quail Hollow Club
-14509,"Dahmen, Joel",503,TPC River Highlands,sg_total,-1.9878392408855663,0.35754653574589,127,872,Quail Hollow Club
-14509,"Dahmen, Joel",977,The Renaissance Club,sg_total,-1.469891046501763,0.3566513479511211,71,872,Quail Hollow Club
-14509,"Dahmen, Joel",348,Medinah Country Club (No. 3),sg_total,1.0807545280131778,0.3527981091186763,39,872,Quail Hollow Club
-14509,"Dahmen, Joel",925,Dunes Golf and Beach Club,sg_total,-1.5037556433162251,0.3513444245869187,38,872,Quail Hollow Club
-14509,"Dahmen, Joel",237,TPC Potomac at Avenel Farm,sg_total,-0.5211857507649593,0.3265659482527747,90,872,Quail Hollow Club
-14509,"Dahmen, Joel",765,Port Royal Golf Course,sg_total,-2.316886717110497,0.32495162436893166,84,872,Quail Hollow Club
-14509,"Dahmen, Joel",823,Keene Trace Golf Club,sg_total,0.7949701137657449,0.3007925893603677,25,872,Quail Hollow Club
 9771,"Day, Jason",872,Quail Hollow Club,sg_app,-0.036300621291564125,0.920062946822376,121,872,Quail Hollow Club
 9771,"Day, Jason",781,Plainfield CC,sg_app,0.6033338573319985,0.7523209294171878,50,872,Quail Hollow Club
 9771,"Day, Jason",527,Saucon Valley CC,sg_app,-0.9385599941762134,0.6722792844717653,40,872,Quail Hollow Club
@@ -2607,85 +2505,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 27774,"Gotterup, Christopher",884,Keene Trace Golf Club (Champion Trace),sg_putt,0.9162311906274866,0.4307632175149621,67,872,Quail Hollow Club
 27774,"Gotterup, Christopher",669,TPC Deere Run,sg_total,1.9818852199999781,0.42452235003843647,116,872,Quail Hollow Club
 27774,"Gotterup, Christopher",503,TPC River Highlands,sg_total,0.7711824909927656,0.35754653574589,127,872,Quail Hollow Club
-23465,"Greyserman, Max",21,Colonial Country Club,sg_app,1.0021562510415505,0.6223953064575313,121,872,Quail Hollow Club
-23465,"Greyserman, Max",874,Hamilton Golf & Country Club,sg_app,-1.4000228883794967,0.617319663329318,80,872,Quail Hollow Club
-23465,"Greyserman, Max",241,Quail Hollow-PGA Championship,sg_app,1.0713412080210662,0.6169517677916049,91,872,Quail Hollow Club
-23465,"Greyserman, Max",925,Dunes Golf and Beach Club,sg_app,0.6212566803888511,0.6015151297985153,37,872,Quail Hollow Club
-23465,"Greyserman, Max",875,ACCORDIA GOLF Narashino Country Club,sg_app,0.8719613335286339,0.5717241579650258,25,872,Quail Hollow Club
-23465,"Greyserman, Max",704,Pete Dye Stadium Course,sg_app,1.7076760257724712,0.5426825265278356,117,872,Quail Hollow Club
-23465,"Greyserman, Max",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,-1.2215708655451063,0.5420823368973716,40,872,Quail Hollow Club
-23465,"Greyserman, Max",406,Castle Pines Golf Club,sg_app,-1.0602708078531748,0.5198098777631185,30,872,Quail Hollow Club
-23465,"Greyserman, Max",8,Trump National Doral - Blue Monster Course,sg_app,0.13330624576987488,0.4788071130304576,69,872,Quail Hollow Club
-23465,"Greyserman, Max",14,Augusta National Golf Club,sg_app,-0.5481683119464692,0.4173558623207546,74,872,Quail Hollow Club
-23465,"Greyserman, Max",885,Royal Portrush Golf Club,sg_app,-0.27097100504983074,0.4126776436462826,47,872,Quail Hollow Club
-23465,"Greyserman, Max",9,Arnold Palmer's Bay Hill Club & Lodge,sg_app,0.33988138090251563,0.3537152607827948,123,872,Quail Hollow Club
-23465,"Greyserman, Max",925,Dunes Golf and Beach Club,sg_arg,-0.5671418314436417,0.648655717378755,37,872,Quail Hollow Club
-23465,"Greyserman, Max",4,Torrey Pines Golf Course (South Course),sg_arg,-0.9851574252444428,0.6102445891378143,125,872,Quail Hollow Club
-23465,"Greyserman, Max",23,Muirfield Village Golf Club,sg_arg,0.12505138650388994,0.6061392346642107,118,872,Quail Hollow Club
-23465,"Greyserman, Max",510,TPC Scottsdale (Stadium Course),sg_arg,-0.2773509450305208,0.6028982679238515,121,872,Quail Hollow Club
-23465,"Greyserman, Max",14,Augusta National Golf Club,sg_arg,-0.4495202522956132,0.5853519373055309,74,872,Quail Hollow Club
-23465,"Greyserman, Max",241,Quail Hollow-PGA Championship,sg_arg,0.6108348699947107,0.5240541438645605,91,872,Quail Hollow Club
-23465,"Greyserman, Max",608,Oakmont Country Club,sg_arg,1.583259683108432,0.5219901179424625,49,872,Quail Hollow Club
-23465,"Greyserman, Max",12,Harbour Town Golf Links,sg_arg,0.291788498285407,0.5139046703346004,122,872,Quail Hollow Club
-23465,"Greyserman, Max",205,Spyglass Hill Golf Course,sg_arg,1.3157679590333007,0.4137024179943825,52,872,Quail Hollow Club
-23465,"Greyserman, Max",656,Plantation Course at Kapalua,sg_arg,0.14814035559464211,0.3149410985734038,96,872,Quail Hollow Club
-23465,"Greyserman, Max",5,Pebble Beach Golf Links,sg_arg,0.05421589795996731,0.3122666282485893,125,872,Quail Hollow Club
-23465,"Greyserman, Max",241,Quail Hollow-PGA Championship,sg_ott,-1.2069987179974841,0.656153746556352,91,872,Quail Hollow Club
-23465,"Greyserman, Max",928,PGA National  - Champion Course,sg_ott,-0.5025393649185311,0.6434003124291379,64,872,Quail Hollow Club
-23465,"Greyserman, Max",4,Torrey Pines Golf Course (South Course),sg_ott,0.28963475352255597,0.6298518703927387,125,872,Quail Hollow Club
-23465,"Greyserman, Max",921,TPC Craig Ranch,sg_ott,-1.4232399599704932,0.6065280779160799,72,872,Quail Hollow Club
-23465,"Greyserman, Max",8,Trump National Doral - Blue Monster Course,sg_ott,0.3281267305090743,0.572142325227515,69,872,Quail Hollow Club
-23465,"Greyserman, Max",897,Memorial Park Golf Course,sg_ott,0.21361143835650223,0.5655774571735637,104,872,Quail Hollow Club
-23465,"Greyserman, Max",977,The Renaissance Club,sg_ott,-0.31411425656145464,0.5460475754183362,69,872,Quail Hollow Club
-23465,"Greyserman, Max",669,TPC Deere Run,sg_ott,1.7122631830515416,0.5261924132879816,114,872,Quail Hollow Club
-23465,"Greyserman, Max",925,Dunes Golf and Beach Club,sg_ott,-0.23771737914308058,0.5001014530653333,37,872,Quail Hollow Club
-23465,"Greyserman, Max",14,Augusta National Golf Club,sg_ott,0.06859976298690326,0.4533727084854188,74,872,Quail Hollow Club
-23465,"Greyserman, Max",608,Oakmont Country Club,sg_ott,1.1449731378674903,0.4392309996093705,49,872,Quail Hollow Club
-23465,"Greyserman, Max",885,Royal Portrush Golf Club,sg_ott,-1.9169401604443306,0.4239504961690022,47,872,Quail Hollow Club
-23465,"Greyserman, Max",876,Detroit Golf Club,sg_ott,0.7469332887403283,0.41086261397696755,114,872,Quail Hollow Club
-23465,"Greyserman, Max",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,-0.06434146344559477,0.7248431519940202,40,872,Quail Hollow Club
-23465,"Greyserman, Max",8,Trump National Doral - Blue Monster Course,sg_putt,-0.4140399034119015,0.5872808966186444,69,872,Quail Hollow Club
-23465,"Greyserman, Max",241,Quail Hollow-PGA Championship,sg_putt,0.7210116119836523,0.5847465657719776,91,872,Quail Hollow Club
-23465,"Greyserman, Max",770,TPC San Antonio - The Oaks Course,sg_putt,-0.5370526534169484,0.5750482593087165,125,872,Quail Hollow Club
-23465,"Greyserman, Max",656,Plantation Course at Kapalua,sg_putt,-0.3657638365642902,0.554686046324924,96,872,Quail Hollow Club
-23465,"Greyserman, Max",503,TPC River Highlands,sg_putt,-1.0721791553937026,0.5283880822013444,125,872,Quail Hollow Club
-23465,"Greyserman, Max",875,ACCORDIA GOLF Narashino Country Club,sg_putt,2.0583083772830975,0.5094589378736416,25,872,Quail Hollow Club
-23465,"Greyserman, Max",665,Innisbrook Resort and Golf Club - Copperhead Course,sg_putt,0.8102102851623916,0.5047508103234392,127,872,Quail Hollow Club
-23465,"Greyserman, Max",925,Dunes Golf and Beach Club,sg_putt,0.4083643434357452,0.44559604935951314,37,872,Quail Hollow Club
-23465,"Greyserman, Max",23,Muirfield Village Golf Club,sg_putt,-1.1872233678936206,0.38068330893892144,118,872,Quail Hollow Club
-23465,"Greyserman, Max",714,TPC Louisiana,sg_putt,0.34672198170566665,0.324017256766705,74,872,Quail Hollow Club
-23465,"Greyserman, Max",5,Pebble Beach Golf Links,sg_putt,-0.9680393148428204,0.32180988969846575,125,872,Quail Hollow Club
-23465,"Greyserman, Max",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_putt,-0.10471393275428353,0.31468741270576933,124,872,Quail Hollow Club
-23465,"Greyserman, Max",802,Sandals Emerald Bay Golf Club,sg_total,0.11506274242422004,0.7307992512043303,49,872,Quail Hollow Club
-23465,"Greyserman, Max",6,Waialae Country Club,sg_total,-0.7867896542119814,0.6897379545814745,120,872,Quail Hollow Club
-23465,"Greyserman, Max",241,Quail Hollow-PGA Championship,sg_total,1.0847535380359907,0.6378878129720091,97,872,Quail Hollow Club
-23465,"Greyserman, Max",71,Lakewood National GC Commander,sg_total,0.23233952313318768,0.6217954150405939,17,872,Quail Hollow Club
-23465,"Greyserman, Max",69,The Grove,sg_total,-0.03113491066478452,0.6137944210511148,27,872,Quail Hollow Club
-23465,"Greyserman, Max",676,Ohio State University Golf Club - Scarlet Course,sg_total,0.830407743683887,0.6061170692411775,76,872,Quail Hollow Club
-23465,"Greyserman, Max",68,Chicago Highlands Club,sg_total,0.9797272697778043,0.5820632311470697,18,872,Quail Hollow Club
-23465,"Greyserman, Max",510,TPC Scottsdale (Stadium Course),sg_total,-0.7155193058650342,0.5737362749140178,128,872,Quail Hollow Club
-23465,"Greyserman, Max",8,Trump National Doral - Blue Monster Course,sg_total,-0.10809329140242363,0.5716714094440354,70,872,Quail Hollow Club
-23465,"Greyserman, Max",936,Yokohama Country Club,sg_total,2.9165019941147974,0.5716204129257811,22,872,Quail Hollow Club
-23465,"Greyserman, Max",714,TPC Louisiana,sg_total,0.02195405260480293,0.5640989022019596,76,872,Quail Hollow Club
-23465,"Greyserman, Max",60,Texas Rangers Golf Club,sg_total,-0.9485739617242728,0.5618046400576869,33,872,Quail Hollow Club
-23465,"Greyserman, Max",874,Hamilton Golf & Country Club,sg_total,-2.1089472940456635,0.5616467616258198,81,872,Quail Hollow Club
-23465,"Greyserman, Max",379,The Philadelphia Cricket Club (Wissahickon Course),sg_total,-1.071321356422292,0.5564752024851274,40,872,Quail Hollow Club
-23465,"Greyserman, Max",808,TPC Colorado,sg_total,0.5730325542478327,0.5433446768748056,28,872,Quail Hollow Club
-23465,"Greyserman, Max",704,Pete Dye Stadium Course,sg_total,-0.047168650743024176,0.5350047899341593,119,872,Quail Hollow Club
-23465,"Greyserman, Max",66,TPC San Antonio-AT&T Canyons,sg_total,0.1999295415925642,0.5307447222101024,18,872,Quail Hollow Club
-23465,"Greyserman, Max",689,El Bosque CC,sg_total,1.107071108366291,0.5261609349173618,89,872,Quail Hollow Club
-23465,"Greyserman, Max",54,Nashville Golf & Athletic Club,sg_total,-1.7357632327226518,0.48330174051040153,35,872,Quail Hollow Club
-23465,"Greyserman, Max",811,Paiute Golf Resort - Sun Mt GC,sg_total,1.6177249083512644,0.48165022852703393,19,872,Quail Hollow Club
-23465,"Greyserman, Max",641,Crestview Country Club,sg_total,-1.3344521801943425,0.44439326222152165,51,872,Quail Hollow Club
-23465,"Greyserman, Max",9,Arnold Palmer's Bay Hill Club & Lodge,sg_total,0.29513443388497823,0.42455724038203446,125,872,Quail Hollow Club
-23465,"Greyserman, Max",669,TPC Deere Run,sg_total,0.9602917769144754,0.42452235003843647,116,872,Quail Hollow Club
-23465,"Greyserman, Max",70,Sandestin Resort - Raven GC,sg_total,-2.094553477562001,0.3757288465345041,22,872,Quail Hollow Club
-23465,"Greyserman, Max",919,El Cardonal at Diamante,sg_total,-0.1285382442121627,0.37274229278719934,58,872,Quail Hollow Club
-23465,"Greyserman, Max",503,TPC River Highlands,sg_total,-0.3736006073235952,0.35754653574589,127,872,Quail Hollow Club
-23465,"Greyserman, Max",977,The Renaissance Club,sg_total,0.31093174705485466,0.3566513479511211,71,872,Quail Hollow Club
-23465,"Greyserman, Max",925,Dunes Golf and Beach Club,sg_total,-0.0319531400443569,0.3513444245869187,38,872,Quail Hollow Club
-23465,"Greyserman, Max",406,Castle Pines Golf Club,sg_total,0.04414145861406776,0.3327750257465021,30,872,Quail Hollow Club
-23465,"Greyserman, Max",86,Norwood Hills Country Club,sg_total,-2.108200743643744,0.31376857343916964,25,872,Quail Hollow Club
 24968,"Griffin, Ben",872,Quail Hollow Club,sg_app,-2.393888192974212,0.920062946822376,121,872,Quail Hollow Club
 24968,"Griffin, Ben",724,Royal Liverpool,sg_app,0.3473227659865483,0.63192765872029,48,872,Quail Hollow Club
 24968,"Griffin, Ben",21,Colonial Country Club,sg_app,0.07555409162896089,0.6223953064575313,121,872,Quail Hollow Club
@@ -2996,135 +2815,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 8825,"Harman, Brian",406,Castle Pines Golf Club,sg_total,0.10162067398401878,0.3327750257465021,30,872,Quail Hollow Club
 8825,"Harman, Brian",237,TPC Potomac at Avenel Farm,sg_total,1.246945613015006,0.3265659482527747,90,872,Quail Hollow Club
 8825,"Harman, Brian",724,Royal Liverpool,sg_total,4.035408788824711,0.31187599467703636,66,872,Quail Hollow Club
-14578,"Henley, Russell",872,Quail Hollow Club,sg_app,0.16710138106034683,0.920062946822376,121,872,Quail Hollow Club
-14578,"Henley, Russell",781,Plainfield CC,sg_app,-0.7430583387209686,0.7523209294171878,50,872,Quail Hollow Club
-14578,"Henley, Russell",724,Royal Liverpool,sg_app,-1.4053221844246393,0.63192765872029,48,872,Quail Hollow Club
-14578,"Henley, Russell",21,Colonial Country Club,sg_app,0.11310498988200268,0.6223953064575313,121,872,Quail Hollow Club
-14578,"Henley, Russell",874,Hamilton Golf & Country Club,sg_app,0.41420278169621133,0.617319663329318,80,872,Quail Hollow Club
-14578,"Henley, Russell",241,Quail Hollow-PGA Championship,sg_app,-2.0904382399636354,0.6169517677916049,91,872,Quail Hollow Club
-14578,"Henley, Russell",704,Pete Dye Stadium Course,sg_app,0.972211323706071,0.5426825265278356,117,872,Quail Hollow Club
-14578,"Henley, Russell",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,-0.09930748066965903,0.5420823368973716,40,872,Quail Hollow Club
-14578,"Henley, Russell",715,Baltusrol GC,sg_app,0.81401224627245,0.5243980510549756,45,872,Quail Hollow Club
-14578,"Henley, Russell",406,Castle Pines Golf Club,sg_app,-0.5771612107893345,0.5198098777631185,30,872,Quail Hollow Club
-14578,"Henley, Russell",671,Valhalla Golf Club,sg_app,0.15685198401215433,0.5189779733169091,81,872,Quail Hollow Club
-14578,"Henley, Russell",6,Waialae Country Club,sg_app,0.2042016786553847,0.48599156854818615,118,872,Quail Hollow Club
-14578,"Henley, Russell",8,Trump National Doral - Blue Monster Course,sg_app,-0.6809145473190568,0.4788071130304576,69,872,Quail Hollow Club
-14578,"Henley, Russell",654,The Country Club,sg_app,-1.2031241409434157,0.45850490494249635,51,872,Quail Hollow Club
-14578,"Henley, Russell",886,Liberty National Golf Club,sg_app,0.7687693279452437,0.4198105621025466,80,872,Quail Hollow Club
-14578,"Henley, Russell",14,Augusta National Golf Club,sg_app,0.5678597771552711,0.4173558623207546,74,872,Quail Hollow Club
-14578,"Henley, Russell",885,Royal Portrush Golf Club,sg_app,0.17271238416278017,0.4126776436462826,47,872,Quail Hollow Club
-14578,"Henley, Russell",611,Southern Hills Country Club,sg_app,-0.891864888288092,0.4014007907883803,56,872,Quail Hollow Club
-14578,"Henley, Russell",776,Sea Island Golf Club (Seaside Course),sg_app,-0.37191089706671643,0.3822424806337221,116,872,Quail Hollow Club
-14578,"Henley, Russell",237,TPC Potomac at Avenel Farm,sg_app,-0.273770752821493,0.36766660294819226,88,872,Quail Hollow Club
-14578,"Henley, Russell",9,Arnold Palmer's Bay Hill Club & Lodge,sg_app,-0.4608418026176165,0.3537152607827948,123,872,Quail Hollow Club
-14578,"Henley, Russell",240,Club de Golf Chapultepec,sg_app,-0.7233375475411539,0.33709668489685685,51,872,Quail Hollow Club
-14578,"Henley, Russell",745,iberostar real club de golf novo sancti petri,sg_app,-0.34059578484950104,0.32247769933561554,47,872,Quail Hollow Club
-14578,"Henley, Russell",872,Quail Hollow Club,sg_arg,0.0717688435547897,0.9122278371720759,121,872,Quail Hollow Club
-14578,"Henley, Russell",893,Muirfield Village Golf Club,sg_arg,0.5357682923128912,0.7001805876994075,69,872,Quail Hollow Club
-14578,"Henley, Russell",4,Torrey Pines Golf Course (South Course),sg_arg,1.7988524106279236,0.6102445891378143,125,872,Quail Hollow Club
-14578,"Henley, Russell",23,Muirfield Village Golf Club,sg_arg,0.06596221075528506,0.6061392346642107,118,872,Quail Hollow Club
-14578,"Henley, Russell",510,TPC Scottsdale (Stadium Course),sg_arg,0.2429754076011384,0.6028982679238515,121,872,Quail Hollow Club
-14578,"Henley, Russell",700,TPC Boston,sg_arg,0.07444618963161863,0.5912007341301075,98,872,Quail Hollow Club
-14578,"Henley, Russell",14,Augusta National Golf Club,sg_arg,0.0639997961608507,0.5853519373055309,74,872,Quail Hollow Club
-14578,"Henley, Russell",744,Torrey Pines (South),sg_arg,0.24321561753799892,0.5527774409476469,48,872,Quail Hollow Club
-14578,"Henley, Russell",241,Quail Hollow-PGA Championship,sg_arg,-0.021639811283206592,0.5240541438645605,91,872,Quail Hollow Club
-14578,"Henley, Russell",608,Oakmont Country Club,sg_arg,0.6141614955059472,0.5219901179424625,49,872,Quail Hollow Club
-14578,"Henley, Russell",12,Harbour Town Golf Links,sg_arg,0.10480936484343546,0.5139046703346004,122,872,Quail Hollow Club
-14578,"Henley, Russell",724,Royal Liverpool,sg_arg,0.5588554227546797,0.4951059771017065,48,872,Quail Hollow Club
-14578,"Henley, Russell",697,Ocean Course at Kiawah Island,sg_arg,-0.7586050944108298,0.4668332250654862,58,872,Quail Hollow Club
-14578,"Henley, Russell",781,Plainfield CC,sg_arg,-0.9194743080378731,0.4661415898331503,50,872,Quail Hollow Club
-14578,"Henley, Russell",688,East Lake Golf Club,sg_arg,-0.20390888654231054,0.4350812991230662,65,872,Quail Hollow Club
-14578,"Henley, Russell",660,Montreux Golf & Country Club,sg_arg,0.8181685821123832,0.4318715915496687,32,872,Quail Hollow Club
-14578,"Henley, Russell",205,Spyglass Hill Golf Course,sg_arg,0.2578784643465959,0.4137024179943825,52,872,Quail Hollow Club
-14578,"Henley, Russell",238,Glen Oaks Club,sg_arg,0.7384646930831107,0.36933007178039906,58,872,Quail Hollow Club
-14578,"Henley, Russell",698,Quail Hollow Club,sg_arg,-0.4702795982652917,0.3562639527728491,74,872,Quail Hollow Club
-14578,"Henley, Russell",538,TPC Summerlin,sg_arg,0.18022276798758008,0.3375039913709073,118,872,Quail Hollow Club
-14578,"Henley, Russell",656,Plantation Course at Kapalua,sg_arg,-0.2312356960431552,0.3149410985734038,96,872,Quail Hollow Club
-14578,"Henley, Russell",5,Pebble Beach Golf Links,sg_arg,-0.2152360680477572,0.3122666282485893,125,872,Quail Hollow Club
-14578,"Henley, Russell",872,Quail Hollow Club,sg_ott,-0.33309113133052975,0.8949025247006961,121,872,Quail Hollow Club
-14578,"Henley, Russell",505,Cherry Hills CC,sg_ott,-0.08015808783707912,0.7318302499638815,25,872,Quail Hollow Club
-14578,"Henley, Russell",762,Liberty National GC,sg_ott,-0.12916011615095663,0.6798662756471131,41,872,Quail Hollow Club
-14578,"Henley, Russell",901,Wilmington Country Club,sg_ott,0.47103265193252547,0.6787089493948868,39,872,Quail Hollow Club
-14578,"Henley, Russell",873,Ridgewood CC,sg_ott,-0.8813605674662691,0.6602322532792273,60,872,Quail Hollow Club
-14578,"Henley, Russell",611,Southern Hills Country Club,sg_ott,-0.36062667893008155,0.6586960243416187,56,872,Quail Hollow Club
-14578,"Henley, Russell",241,Quail Hollow-PGA Championship,sg_ott,-0.9303613486779286,0.656153746556352,91,872,Quail Hollow Club
-14578,"Henley, Russell",928,PGA National  - Champion Course,sg_ott,0.15966432030233604,0.6434003124291379,64,872,Quail Hollow Club
-14578,"Henley, Russell",4,Torrey Pines Golf Course (South Course),sg_ott,0.5037716606957165,0.6298518703927387,125,872,Quail Hollow Club
-14578,"Henley, Russell",698,Quail Hollow Club,sg_ott,-0.4350362325759602,0.6124830423110201,74,872,Quail Hollow Club
-14578,"Henley, Russell",24,Congressional CC (Blue),sg_ott,-0.1739227258762184,0.5996852050767614,63,872,Quail Hollow Club
-14578,"Henley, Russell",8,Trump National Doral - Blue Monster Course,sg_ott,-0.30758669415919976,0.572142325227515,69,872,Quail Hollow Club
-14578,"Henley, Russell",897,Memorial Park Golf Course,sg_ott,0.05245309075932023,0.5655774571735637,104,872,Quail Hollow Club
-14578,"Henley, Russell",669,TPC Deere Run,sg_ott,-0.2755343167250008,0.5261924132879816,114,872,Quail Hollow Club
-14578,"Henley, Russell",706,Whistling Straits,sg_ott,0.18706659538424453,0.5163448894771145,44,872,Quail Hollow Club
-14578,"Henley, Russell",534,Bellerive CC,sg_ott,-0.274909089976201,0.5073675581603451,60,872,Quail Hollow Club
-14578,"Henley, Russell",668,St. Andrews Links (Old Course),sg_ott,0.005657351563007,0.4767220817308716,45,872,Quail Hollow Club
-14578,"Henley, Russell",902,Congaree Golf Club,sg_ott,0.24669241975930384,0.4563478115423086,76,872,Quail Hollow Club
-14578,"Henley, Russell",14,Augusta National Golf Club,sg_ott,0.025538650726747582,0.4533727084854188,74,872,Quail Hollow Club
-14578,"Henley, Russell",771,The Old White TPC,sg_ott,-0.13657495634560546,0.45286357621454815,92,872,Quail Hollow Club
-14578,"Henley, Russell",671,Valhalla Golf Club,sg_ott,-0.08482412886450783,0.44701602973592686,81,872,Quail Hollow Club
-14578,"Henley, Russell",781,Plainfield CC,sg_ott,-1.2412607000966747,0.4440866604949862,50,872,Quail Hollow Club
-14578,"Henley, Russell",608,Oakmont Country Club,sg_ott,-0.793730522610043,0.4392309996093705,49,872,Quail Hollow Club
-14578,"Henley, Russell",724,Royal Liverpool,sg_ott,0.5899860201334559,0.4320033748288793,48,872,Quail Hollow Club
-14578,"Henley, Russell",885,Royal Portrush Golf Club,sg_ott,0.4276022025872263,0.4239504961690022,47,872,Quail Hollow Club
-14578,"Henley, Russell",876,Detroit Golf Club,sg_ott,0.19414052389824715,0.41086261397696755,114,872,Quail Hollow Club
-14578,"Henley, Russell",2000,Sherwood Country Club,sg_ott,0.5686879160261267,0.39392468026580385,35,872,Quail Hollow Club
-14578,"Henley, Russell",789,Conway Farms GC,sg_ott,-0.38408168882524396,0.38893933767332967,55,872,Quail Hollow Club
-14578,"Henley, Russell",744,Torrey Pines (South),sg_ott,-0.3192859745778062,0.3824574454165667,48,872,Quail Hollow Club
-14578,"Henley, Russell",746,The Country Club of Jackson,sg_ott,-0.352687334858423,0.35782945687924794,109,872,Quail Hollow Club
-14578,"Henley, Russell",715,Baltusrol GC,sg_ott,0.4334311385047443,0.35766894514540537,45,872,Quail Hollow Club
-14578,"Henley, Russell",689,El Bosque CC,sg_ott,-0.5165263791014727,0.34609651099813105,58,872,Quail Hollow Club
-14578,"Henley, Russell",872,Quail Hollow Club,sg_putt,-0.04226600610578503,0.8883921815902325,121,872,Quail Hollow Club
-14578,"Henley, Russell",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,-1.0233763105360445,0.7248431519940202,40,872,Quail Hollow Club
-14578,"Henley, Russell",8,Trump National Doral - Blue Monster Course,sg_putt,-0.8345504671086923,0.5872808966186444,69,872,Quail Hollow Club
-14578,"Henley, Russell",241,Quail Hollow-PGA Championship,sg_putt,-1.233452289343559,0.5847465657719776,91,872,Quail Hollow Club
-14578,"Henley, Russell",770,TPC San Antonio - The Oaks Course,sg_putt,-0.5469978177681327,0.5750482593087165,125,872,Quail Hollow Club
-14578,"Henley, Russell",901,Wilmington Country Club,sg_putt,-1.1253673698118405,0.5655175847646542,39,872,Quail Hollow Club
-14578,"Henley, Russell",656,Plantation Course at Kapalua,sg_putt,-0.5170479757312268,0.554686046324924,96,872,Quail Hollow Club
-14578,"Henley, Russell",503,TPC River Highlands,sg_putt,-0.4649946295135806,0.5283880822013444,125,872,Quail Hollow Club
-14578,"Henley, Russell",2000,Sherwood Country Club,sg_putt,-1.275266261183402,0.5213146828807105,35,872,Quail Hollow Club
-14578,"Henley, Russell",24,Congressional CC (Blue),sg_putt,-1.2986553758695538,0.5195278395850674,63,872,Quail Hollow Club
-14578,"Henley, Russell",873,Ridgewood CC,sg_putt,1.2171315932255802,0.5176724628442719,60,872,Quail Hollow Club
-14578,"Henley, Russell",665,Innisbrook Resort and Golf Club - Copperhead Course,sg_putt,-0.21330899528876307,0.5047508103234392,127,872,Quail Hollow Club
-14578,"Henley, Russell",237,TPC Potomac at Avenel Farm,sg_putt,-0.626545217058104,0.49517307438410585,88,872,Quail Hollow Club
-14578,"Henley, Russell",762,Liberty National GC,sg_putt,0.2772628835358336,0.4881088409757601,41,872,Quail Hollow Club
-14578,"Henley, Russell",882,Caves Valley Golf Club,sg_putt,-0.43217324517139644,0.4661843863351652,48,872,Quail Hollow Club
-14578,"Henley, Russell",23,Muirfield Village Golf Club,sg_putt,-0.11952432564949102,0.38068330893892144,118,872,Quail Hollow Club
-14578,"Henley, Russell",745,iberostar real club de golf novo sancti petri,sg_putt,-0.29028318334727643,0.34287665464175,47,872,Quail Hollow Club
-14578,"Henley, Russell",5,Pebble Beach Golf Links,sg_putt,-0.011690907954011148,0.32180988969846575,125,872,Quail Hollow Club
-14578,"Henley, Russell",789,Conway Farms GC,sg_putt,-0.19578149561345576,0.3201446798623855,55,872,Quail Hollow Club
-14578,"Henley, Russell",19,TPC Four Seasons Resort,sg_putt,-0.6238652825496812,0.3182675794423607,78,872,Quail Hollow Club
-14578,"Henley, Russell",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_putt,-0.010065068250414283,0.31468741270576933,124,872,Quail Hollow Club
-14578,"Henley, Russell",872,Quail Hollow Club,sg_total,-0.13393404955894295,0.9052813347283355,125,872,Quail Hollow Club
-14578,"Henley, Russell",6,Waialae Country Club,sg_total,0.10600108876792985,0.6897379545814745,120,872,Quail Hollow Club
-14578,"Henley, Russell",24,Congressional CC (Blue),sg_total,-1.0768911807716148,0.6808906682641906,73,872,Quail Hollow Club
-14578,"Henley, Russell",2000,Sherwood Country Club,sg_total,1.8202859730536922,0.6463600682308783,47,872,Quail Hollow Club
-14578,"Henley, Russell",658,Carnoustie GC,sg_total,-2.4062841921617357,0.6390441717384884,58,872,Quail Hollow Club
-14578,"Henley, Russell",241,Quail Hollow-PGA Championship,sg_total,-4.3223843260973815,0.6378878129720091,97,872,Quail Hollow Club
-14578,"Henley, Russell",232,Albany GC,sg_total,-3.055219732340368,0.6337948769646933,40,872,Quail Hollow Club
-14578,"Henley, Russell",671,Valhalla Golf Club,sg_total,0.5761639723091895,0.5892724203861396,84,872,Quail Hollow Club
-14578,"Henley, Russell",510,TPC Scottsdale (Stadium Course),sg_total,-0.4271822616803459,0.5737362749140178,128,872,Quail Hollow Club
-14578,"Henley, Russell",8,Trump National Doral - Blue Monster Course,sg_total,-1.5217346819939028,0.5716714094440354,70,872,Quail Hollow Club
-14578,"Henley, Russell",874,Hamilton Golf & Country Club,sg_total,-0.9173948190870036,0.5616467616258198,81,872,Quail Hollow Club
-14578,"Henley, Russell",379,The Philadelphia Cricket Club (Wissahickon Course),sg_total,-1.6075234597680712,0.5564752024851274,40,872,Quail Hollow Club
-14578,"Henley, Russell",704,Pete Dye Stadium Course,sg_total,0.27020871516643363,0.5350047899341593,119,872,Quail Hollow Club
-14578,"Henley, Russell",689,El Bosque CC,sg_total,0.10443889330983985,0.5261609349173618,89,872,Quail Hollow Club
-14578,"Henley, Russell",19,TPC Four Seasons Resort,sg_total,-2.2273315575294728,0.525516283128511,81,872,Quail Hollow Club
-14578,"Henley, Russell",763,PGA West (Nicklaus),sg_total,3.245869370671687,0.4697893865377807,59,872,Quail Hollow Club
-14578,"Henley, Russell",715,Baltusrol GC,sg_total,1.3481893191564231,0.4603169899721233,54,872,Quail Hollow Club
-14578,"Henley, Russell",895,TPC Harding Park,sg_total,0.7764087886276465,0.45489124736806985,64,872,Quail Hollow Club
-14578,"Henley, Russell",746,The Country Club of Jackson,sg_total,-2.137055303430654,0.44607945432133955,112,872,Quail Hollow Club
-14578,"Henley, Russell",611,Southern Hills Country Club,sg_total,-0.9438116049233549,0.43627951067250814,68,872,Quail Hollow Club
-14578,"Henley, Russell",9,Arnold Palmer's Bay Hill Club & Lodge,sg_total,1.1304146873117307,0.42455724038203446,125,872,Quail Hollow Club
-14578,"Henley, Russell",669,TPC Deere Run,sg_total,0.009553529714520781,0.42452235003843647,116,872,Quail Hollow Club
-14578,"Henley, Russell",818,Chambers Bay GC,sg_total,1.5439518308296418,0.41071973093757,43,872,Quail Hollow Club
-14578,"Henley, Russell",771,The Old White TPC,sg_total,0.5348682106323444,0.40327818506595187,94,872,Quail Hollow Club
-14578,"Henley, Russell",697,Ocean Course at Kiawah Island,sg_total,-0.6367332129624113,0.38221188347296015,76,872,Quail Hollow Club
-14578,"Henley, Russell",243,Trinity Forest Golf Club,sg_total,0.05838444208955429,0.36710826662849494,68,872,Quail Hollow Club
-14578,"Henley, Russell",503,TPC River Highlands,sg_total,0.32597803940099335,0.35754653574589,127,872,Quail Hollow Club
-14578,"Henley, Russell",406,Castle Pines Golf Club,sg_total,-0.3422343209202323,0.3327750257465021,30,872,Quail Hollow Club
-14578,"Henley, Russell",237,TPC Potomac at Avenel Farm,sg_total,-1.0047266557234948,0.3265659482527747,90,872,Quail Hollow Club
-14578,"Henley, Russell",558,Oak Hill CC,sg_total,-1.0333997792918055,0.31825610649735103,38,872,Quail Hollow Club
-14578,"Henley, Russell",724,Royal Liverpool,sg_total,-2.3679981464779853,0.31187599467703636,66,872,Quail Hollow Club
 22760,"Hisatsune, Ryo",21,Colonial Country Club,sg_app,-0.10833665162929876,0.6223953064575313,121,872,Quail Hollow Club
 22760,"Hisatsune, Ryo",874,Hamilton Golf & Country Club,sg_app,0.8099400730510115,0.617319663329318,80,872,Quail Hollow Club
 22760,"Hisatsune, Ryo",241,Quail Hollow-PGA Championship,sg_app,-0.29583400255923387,0.6169517677916049,91,872,Quail Hollow Club
@@ -4213,6 +3903,70 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 21891,"Kitayama, Kurt",765,Port Royal Golf Course,sg_total,-1.0833714302429804,0.32495162436893166,84,872,Quail Hollow Club
 21891,"Kitayama, Kurt",724,Royal Liverpool,sg_total,-0.5533098124447206,0.31187599467703636,66,872,Quail Hollow Club
 21891,"Kitayama, Kurt",3719,dlf g&cc player course,sg_total,0.38341578541677424,0.30312317414904316,7,872,Quail Hollow Club
+19396,"Knapp, Jake",872,Quail Hollow Club,sg_app,-2.3621292708133215,0.920062946822376,121,872,Quail Hollow Club
+19396,"Knapp, Jake",21,Colonial Country Club,sg_app,0.5676363566610398,0.6223953064575313,121,872,Quail Hollow Club
+19396,"Knapp, Jake",241,Quail Hollow-PGA Championship,sg_app,-0.40816303108535634,0.6169517677916049,91,872,Quail Hollow Club
+19396,"Knapp, Jake",704,Pete Dye Stadium Course,sg_app,-1.9084025586016582,0.5426825265278356,117,872,Quail Hollow Club
+19396,"Knapp, Jake",671,Valhalla Golf Club,sg_app,-0.4211018190918528,0.5189779733169091,81,872,Quail Hollow Club
+19396,"Knapp, Jake",6,Waialae Country Club,sg_app,-0.20910824501421377,0.48599156854818615,118,872,Quail Hollow Club
+19396,"Knapp, Jake",14,Augusta National Golf Club,sg_app,0.19806933740253446,0.4173558623207546,74,872,Quail Hollow Club
+19396,"Knapp, Jake",776,Sea Island Golf Club (Seaside Course),sg_app,-1.2547893919186583,0.3822424806337221,116,872,Quail Hollow Club
+19396,"Knapp, Jake",9,Arnold Palmer's Bay Hill Club & Lodge,sg_app,0.49644395498873567,0.3537152607827948,123,872,Quail Hollow Club
+19396,"Knapp, Jake",872,Quail Hollow Club,sg_arg,0.2942351467020027,0.9122278371720759,121,872,Quail Hollow Club
+19396,"Knapp, Jake",4,Torrey Pines Golf Course (South Course),sg_arg,0.030672956840618493,0.6102445891378143,125,872,Quail Hollow Club
+19396,"Knapp, Jake",23,Muirfield Village Golf Club,sg_arg,-0.6497959041189515,0.6061392346642107,118,872,Quail Hollow Club
+19396,"Knapp, Jake",510,TPC Scottsdale (Stadium Course),sg_arg,0.33594785356703216,0.6028982679238515,121,872,Quail Hollow Club
+19396,"Knapp, Jake",14,Augusta National Golf Club,sg_arg,-0.3091668873408797,0.5853519373055309,74,872,Quail Hollow Club
+19396,"Knapp, Jake",241,Quail Hollow-PGA Championship,sg_arg,0.9388393381826193,0.5240541438645605,91,872,Quail Hollow Club
+19396,"Knapp, Jake",12,Harbour Town Golf Links,sg_arg,-0.5540339739180843,0.5139046703346004,122,872,Quail Hollow Club
+19396,"Knapp, Jake",205,Spyglass Hill Golf Course,sg_arg,-0.5445055150818867,0.4137024179943825,52,872,Quail Hollow Club
+19396,"Knapp, Jake",656,Plantation Course at Kapalua,sg_arg,0.2544559059699454,0.3149410985734038,96,872,Quail Hollow Club
+19396,"Knapp, Jake",5,Pebble Beach Golf Links,sg_arg,0.9552943055130453,0.3122666282485893,125,872,Quail Hollow Club
+19396,"Knapp, Jake",872,Quail Hollow Club,sg_ott,1.112137194952354,0.8949025247006961,121,872,Quail Hollow Club
+19396,"Knapp, Jake",241,Quail Hollow-PGA Championship,sg_ott,-0.21539152093041458,0.656153746556352,91,872,Quail Hollow Club
+19396,"Knapp, Jake",928,PGA National  - Champion Course,sg_ott,0.7706157181909568,0.6434003124291379,64,872,Quail Hollow Club
+19396,"Knapp, Jake",4,Torrey Pines Golf Course (South Course),sg_ott,0.20832801352857494,0.6298518703927387,125,872,Quail Hollow Club
+19396,"Knapp, Jake",921,TPC Craig Ranch,sg_ott,0.34057150418354853,0.6065280779160799,72,872,Quail Hollow Club
+19396,"Knapp, Jake",897,Memorial Park Golf Course,sg_ott,-0.18127484978771197,0.5655774571735637,104,872,Quail Hollow Club
+19396,"Knapp, Jake",977,The Renaissance Club,sg_ott,0.568167298844051,0.5460475754183362,69,872,Quail Hollow Club
+19396,"Knapp, Jake",669,TPC Deere Run,sg_ott,0.33957809268431194,0.5261924132879816,114,872,Quail Hollow Club
+19396,"Knapp, Jake",14,Augusta National Golf Club,sg_ott,0.9750641776026031,0.4533727084854188,74,872,Quail Hollow Club
+19396,"Knapp, Jake",671,Valhalla Golf Club,sg_ott,-0.37808032526352364,0.44701602973592686,81,872,Quail Hollow Club
+19396,"Knapp, Jake",876,Detroit Golf Club,sg_ott,1.2527517321687016,0.41086261397696755,114,872,Quail Hollow Club
+19396,"Knapp, Jake",872,Quail Hollow Club,sg_putt,-0.41497686481036666,0.8883921815902325,121,872,Quail Hollow Club
+19396,"Knapp, Jake",241,Quail Hollow-PGA Championship,sg_putt,-0.03800532178606983,0.5847465657719776,91,872,Quail Hollow Club
+19396,"Knapp, Jake",770,TPC San Antonio - The Oaks Course,sg_putt,-1.6717790173373281,0.5750482593087165,125,872,Quail Hollow Club
+19396,"Knapp, Jake",656,Plantation Course at Kapalua,sg_putt,-0.3051969303650733,0.554686046324924,96,872,Quail Hollow Club
+19396,"Knapp, Jake",503,TPC River Highlands,sg_putt,-0.7470974249374498,0.5283880822013444,125,872,Quail Hollow Club
+19396,"Knapp, Jake",665,Innisbrook Resort and Golf Club - Copperhead Course,sg_putt,0.12533232209778256,0.5047508103234392,127,872,Quail Hollow Club
+19396,"Knapp, Jake",23,Muirfield Village Golf Club,sg_putt,0.140560858762302,0.38068330893892144,118,872,Quail Hollow Club
+19396,"Knapp, Jake",714,TPC Louisiana,sg_putt,0.4451195299686644,0.324017256766705,74,872,Quail Hollow Club
+19396,"Knapp, Jake",5,Pebble Beach Golf Links,sg_putt,0.014103065334126474,0.32180988969846575,125,872,Quail Hollow Club
+19396,"Knapp, Jake",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_putt,1.7732360688697095,0.31468741270576933,124,872,Quail Hollow Club
+19396,"Knapp, Jake",872,Quail Hollow Club,sg_total,-1.4202017645994343,0.9052813347283355,125,872,Quail Hollow Club
+19396,"Knapp, Jake",802,Sandals Emerald Bay Golf Club,sg_total,-9.61509347401427,0.7307992512043303,49,872,Quail Hollow Club
+19396,"Knapp, Jake",6,Waialae Country Club,sg_total,0.1712807752344443,0.6897379545814745,120,872,Quail Hollow Club
+19396,"Knapp, Jake",241,Quail Hollow-PGA Championship,sg_total,0.3316884838020703,0.6378878129720091,97,872,Quail Hollow Club
+19396,"Knapp, Jake",69,The Grove,sg_total,-2.1255900953964777,0.6137944210511148,27,872,Quail Hollow Club
+19396,"Knapp, Jake",676,Ohio State University Golf Club - Scarlet Course,sg_total,1.1345564757284023,0.6061170692411775,76,872,Quail Hollow Club
+19396,"Knapp, Jake",671,Valhalla Golf Club,sg_total,-1.2307011431235297,0.5892724203861396,84,872,Quail Hollow Club
+19396,"Knapp, Jake",68,Chicago Highlands Club,sg_total,-0.10130944676855846,0.5820632311470697,18,872,Quail Hollow Club
+19396,"Knapp, Jake",510,TPC Scottsdale (Stadium Course),sg_total,0.9764859254717723,0.5737362749140178,128,872,Quail Hollow Club
+19396,"Knapp, Jake",714,TPC Louisiana,sg_total,1.1629370699516008,0.5640989022019596,76,872,Quail Hollow Club
+19396,"Knapp, Jake",60,Texas Rangers Golf Club,sg_total,0.33796666405086795,0.5618046400576869,33,872,Quail Hollow Club
+19396,"Knapp, Jake",874,Hamilton Golf & Country Club,sg_total,-2.5731655004617586,0.5616467616258198,81,872,Quail Hollow Club
+19396,"Knapp, Jake",808,TPC Colorado,sg_total,-2.4109065490190917,0.5433446768748056,28,872,Quail Hollow Club
+19396,"Knapp, Jake",704,Pete Dye Stadium Course,sg_total,-2.423934666452002,0.5350047899341593,119,872,Quail Hollow Club
+19396,"Knapp, Jake",66,TPC San Antonio-AT&T Canyons,sg_total,-1.2792493381190275,0.5307447222101024,18,872,Quail Hollow Club
+19396,"Knapp, Jake",689,El Bosque CC,sg_total,3.212713331465386,0.5261609349173618,89,872,Quail Hollow Club
+19396,"Knapp, Jake",811,Paiute Golf Resort - Sun Mt GC,sg_total,-0.27500156930933906,0.48165022852703393,19,872,Quail Hollow Club
+19396,"Knapp, Jake",641,Crestview Country Club,sg_total,0.8713030658450515,0.44439326222152165,51,872,Quail Hollow Club
+19396,"Knapp, Jake",9,Arnold Palmer's Bay Hill Club & Lodge,sg_total,-2.7544212480673402,0.42455724038203446,125,872,Quail Hollow Club
+19396,"Knapp, Jake",669,TPC Deere Run,sg_total,-0.13837595463277597,0.42452235003843647,116,872,Quail Hollow Club
+19396,"Knapp, Jake",818,Chambers Bay GC,sg_total,-1.2904781936131533,0.41071973093757,43,872,Quail Hollow Club
+19396,"Knapp, Jake",70,Sandestin Resort - Raven GC,sg_total,0.5945840115563389,0.3757288465345041,22,872,Quail Hollow Club
+19396,"Knapp, Jake",503,TPC River Highlands,sg_total,-0.9719312054324178,0.35754653574589,127,872,Quail Hollow Club
+19396,"Knapp, Jake",977,The Renaissance Club,sg_total,0.5848315141817709,0.3566513479511211,71,872,Quail Hollow Club
 16841,"Lee, Min Woo",724,Royal Liverpool,sg_app,-0.260445753161744,0.63192765872029,48,872,Quail Hollow Club
 16841,"Lee, Min Woo",21,Colonial Country Club,sg_app,0.5749729654997967,0.6223953064575313,121,872,Quail Hollow Club
 16841,"Lee, Min Woo",241,Quail Hollow-PGA Championship,sg_app,-0.021103221716071596,0.6169517677916049,91,872,Quail Hollow Club
@@ -4377,141 +4131,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 15980,"Lipsky, David",3654,le golf national,sg_total,-0.20535434959478993,0.33675562035074985,16,872,Quail Hollow Club
 15980,"Lipsky, David",237,TPC Potomac at Avenel Farm,sg_total,-1.2901712970779937,0.3265659482527747,90,872,Quail Hollow Club
 15980,"Lipsky, David",765,Port Royal Golf Course,sg_total,0.5069276077178958,0.32495162436893166,84,872,Quail Hollow Club
-13900,"Lowry, Shane",872,Quail Hollow Club,sg_app,-0.1075059920497571,0.920062946822376,121,872,Quail Hollow Club
-13900,"Lowry, Shane",724,Royal Liverpool,sg_app,-0.9368339246026595,0.63192765872029,48,872,Quail Hollow Club
-13900,"Lowry, Shane",21,Colonial Country Club,sg_app,0.48747646274989354,0.6223953064575313,121,872,Quail Hollow Club
-13900,"Lowry, Shane",874,Hamilton Golf & Country Club,sg_app,-0.16190767778494874,0.617319663329318,80,872,Quail Hollow Club
-13900,"Lowry, Shane",241,Quail Hollow-PGA Championship,sg_app,0.1284644015437758,0.6169517677916049,91,872,Quail Hollow Club
-13900,"Lowry, Shane",704,Pete Dye Stadium Course,sg_app,-0.6560960608700274,0.5426825265278356,117,872,Quail Hollow Club
-13900,"Lowry, Shane",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,1.157230062538009,0.5420823368973716,40,872,Quail Hollow Club
-13900,"Lowry, Shane",715,Baltusrol GC,sg_app,-2.4570667286024666,0.5243980510549756,45,872,Quail Hollow Club
-13900,"Lowry, Shane",406,Castle Pines Golf Club,sg_app,-0.4969653158333964,0.5198098777631185,30,872,Quail Hollow Club
-13900,"Lowry, Shane",671,Valhalla Golf Club,sg_app,-0.8168859681740162,0.5189779733169091,81,872,Quail Hollow Club
-13900,"Lowry, Shane",8,Trump National Doral - Blue Monster Course,sg_app,-0.7424642283992627,0.4788071130304576,69,872,Quail Hollow Club
-13900,"Lowry, Shane",654,The Country Club,sg_app,-0.7443836304672277,0.45850490494249635,51,872,Quail Hollow Club
-13900,"Lowry, Shane",886,Liberty National Golf Club,sg_app,0.9037525149315135,0.4198105621025466,80,872,Quail Hollow Club
-13900,"Lowry, Shane",14,Augusta National Golf Club,sg_app,0.23637892434751662,0.4173558623207546,74,872,Quail Hollow Club
-13900,"Lowry, Shane",885,Royal Portrush Golf Club,sg_app,-0.7709532690313324,0.4126776436462826,47,872,Quail Hollow Club
-13900,"Lowry, Shane",611,Southern Hills Country Club,sg_app,-0.6648455358974932,0.4014007907883803,56,872,Quail Hollow Club
-13900,"Lowry, Shane",776,Sea Island Golf Club (Seaside Course),sg_app,-0.8641127271968573,0.3822424806337221,116,872,Quail Hollow Club
-13900,"Lowry, Shane",772,St. George's G&CC,sg_app,0.5125007421749537,0.36998272364791285,53,872,Quail Hollow Club
-13900,"Lowry, Shane",9,Arnold Palmer's Bay Hill Club & Lodge,sg_app,-0.32721648505395146,0.3537152607827948,123,872,Quail Hollow Club
-13900,"Lowry, Shane",240,Club de Golf Chapultepec,sg_app,0.013388109663005479,0.33709668489685685,51,872,Quail Hollow Club
-13900,"Lowry, Shane",872,Quail Hollow Club,sg_arg,-0.3880860942458857,0.9122278371720759,121,872,Quail Hollow Club
-13900,"Lowry, Shane",893,Muirfield Village Golf Club,sg_arg,-0.06664320130374202,0.7001805876994075,69,872,Quail Hollow Club
-13900,"Lowry, Shane",235,Eagle Point Golf Club,sg_arg,-0.21309317983767034,0.6565049672623784,49,872,Quail Hollow Club
-13900,"Lowry, Shane",887,Kasumigaseki Country Club,sg_arg,-0.19519631804181728,0.6217958196794721,17,872,Quail Hollow Club
-13900,"Lowry, Shane",4,Torrey Pines Golf Course (South Course),sg_arg,0.18038340951064866,0.6102445891378143,125,872,Quail Hollow Club
-13900,"Lowry, Shane",23,Muirfield Village Golf Club,sg_arg,-0.14823610107510674,0.6061392346642107,118,872,Quail Hollow Club
-13900,"Lowry, Shane",510,TPC Scottsdale (Stadium Course),sg_arg,-0.2730541432348013,0.6028982679238515,121,872,Quail Hollow Club
-13900,"Lowry, Shane",700,TPC Boston,sg_arg,0.18143821472672236,0.5912007341301075,98,872,Quail Hollow Club
-13900,"Lowry, Shane",14,Augusta National Golf Club,sg_arg,0.22352744846984457,0.5853519373055309,74,872,Quail Hollow Club
-13900,"Lowry, Shane",744,Torrey Pines (South),sg_arg,-0.24075800722070648,0.5527774409476469,48,872,Quail Hollow Club
-13900,"Lowry, Shane",241,Quail Hollow-PGA Championship,sg_arg,-0.5163352904813417,0.5240541438645605,91,872,Quail Hollow Club
-13900,"Lowry, Shane",608,Oakmont Country Club,sg_arg,-2.3944841964920904,0.5219901179424625,49,872,Quail Hollow Club
-13900,"Lowry, Shane",12,Harbour Town Golf Links,sg_arg,-0.0861592711285612,0.5139046703346004,122,872,Quail Hollow Club
-13900,"Lowry, Shane",724,Royal Liverpool,sg_arg,-1.4425528216361563,0.4951059771017065,48,872,Quail Hollow Club
-13900,"Lowry, Shane",697,Ocean Course at Kiawah Island,sg_arg,0.7367255706780862,0.4668332250654862,58,872,Quail Hollow Club
-13900,"Lowry, Shane",688,East Lake Golf Club,sg_arg,-0.16234156212201833,0.4350812991230662,65,872,Quail Hollow Club
-13900,"Lowry, Shane",205,Spyglass Hill Golf Course,sg_arg,-0.8833767960501703,0.4137024179943825,52,872,Quail Hollow Club
-13900,"Lowry, Shane",698,Quail Hollow Club,sg_arg,-1.126346439476288,0.3562639527728491,74,872,Quail Hollow Club
-13900,"Lowry, Shane",898,The Concession Golf Club,sg_arg,0.8923077720573814,0.3475381303524209,27,872,Quail Hollow Club
-13900,"Lowry, Shane",5,Pebble Beach Golf Links,sg_arg,0.17067238220964584,0.3122666282485893,125,872,Quail Hollow Club
-13900,"Lowry, Shane",872,Quail Hollow Club,sg_ott,0.07205195485361644,0.8949025247006961,121,872,Quail Hollow Club
-13900,"Lowry, Shane",901,Wilmington Country Club,sg_ott,-0.09291611324042634,0.6787089493948868,39,872,Quail Hollow Club
-13900,"Lowry, Shane",611,Southern Hills Country Club,sg_ott,0.6771804488312523,0.6586960243416187,56,872,Quail Hollow Club
-13900,"Lowry, Shane",241,Quail Hollow-PGA Championship,sg_ott,0.2799446390720749,0.656153746556352,91,872,Quail Hollow Club
-13900,"Lowry, Shane",928,PGA National  - Champion Course,sg_ott,-0.3174176123975541,0.6434003124291379,64,872,Quail Hollow Club
-13900,"Lowry, Shane",4,Torrey Pines Golf Course (South Course),sg_ott,-0.5292719818546854,0.6298518703927387,125,872,Quail Hollow Club
-13900,"Lowry, Shane",698,Quail Hollow Club,sg_ott,0.32638774317055025,0.6124830423110201,74,872,Quail Hollow Club
-13900,"Lowry, Shane",8,Trump National Doral - Blue Monster Course,sg_ott,0.3217897851257744,0.572142325227515,69,872,Quail Hollow Club
-13900,"Lowry, Shane",897,Memorial Park Golf Course,sg_ott,0.19602368364287995,0.5655774571735637,104,872,Quail Hollow Club
-13900,"Lowry, Shane",32,Glen Abbey GC,sg_ott,0.006020110702832253,0.55959596734793,83,872,Quail Hollow Club
-13900,"Lowry, Shane",235,Eagle Point Golf Club,sg_ott,-0.24046240406678002,0.5507062998528859,49,872,Quail Hollow Club
-13900,"Lowry, Shane",977,The Renaissance Club,sg_ott,-0.8801056618190033,0.5460475754183362,69,872,Quail Hollow Club
-13900,"Lowry, Shane",666,Pebble Beach Golf Links,sg_ott,-0.08807529539478551,0.5394096093808775,50,872,Quail Hollow Club
-13900,"Lowry, Shane",706,Whistling Straits,sg_ott,1.1400225999725764,0.5163448894771145,44,872,Quail Hollow Club
-13900,"Lowry, Shane",534,Bellerive CC,sg_ott,0.5066322301626482,0.5073675581603451,60,872,Quail Hollow Club
-13900,"Lowry, Shane",668,St. Andrews Links (Old Course),sg_ott,0.2733239210941111,0.4767220817308716,45,872,Quail Hollow Club
-13900,"Lowry, Shane",880,Bethpage Black,sg_ott,0.5223998687085862,0.46917130643647176,57,872,Quail Hollow Club
-13900,"Lowry, Shane",902,Congaree Golf Club,sg_ott,0.9219891248951281,0.4563478115423086,76,872,Quail Hollow Club
-13900,"Lowry, Shane",14,Augusta National Golf Club,sg_ott,-0.12399289013426351,0.4533727084854188,74,872,Quail Hollow Club
-13900,"Lowry, Shane",671,Valhalla Golf Club,sg_ott,0.11591960909994434,0.44701602973592686,81,872,Quail Hollow Club
-13900,"Lowry, Shane",608,Oakmont Country Club,sg_ott,0.5446460367576532,0.4392309996093705,49,872,Quail Hollow Club
-13900,"Lowry, Shane",724,Royal Liverpool,sg_ott,0.8938238596740755,0.4320033748288793,48,872,Quail Hollow Club
-13900,"Lowry, Shane",885,Royal Portrush Golf Club,sg_ott,-0.5698218829899039,0.4239504961690022,47,872,Quail Hollow Club
-13900,"Lowry, Shane",744,Torrey Pines (South),sg_ott,-1.0676289315854284,0.3824574454165667,48,872,Quail Hollow Club
-13900,"Lowry, Shane",715,Baltusrol GC,sg_ott,-0.05676479298253825,0.35766894514540537,45,872,Quail Hollow Club
-13900,"Lowry, Shane",872,Quail Hollow Club,sg_putt,-0.7633979060628964,0.8883921815902325,121,872,Quail Hollow Club
-13900,"Lowry, Shane",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,0.15048376042976586,0.7248431519940202,40,872,Quail Hollow Club
-13900,"Lowry, Shane",250,Le Golf National,sg_putt,-0.06944625374616686,0.7171287632266731,19,872,Quail Hollow Club
-13900,"Lowry, Shane",887,Kasumigaseki Country Club,sg_putt,0.250214483818253,0.6374182675616976,17,872,Quail Hollow Club
-13900,"Lowry, Shane",8,Trump National Doral - Blue Monster Course,sg_putt,0.7295903765552716,0.5872808966186444,69,872,Quail Hollow Club
-13900,"Lowry, Shane",241,Quail Hollow-PGA Championship,sg_putt,-0.1801725122584263,0.5847465657719776,91,872,Quail Hollow Club
-13900,"Lowry, Shane",770,TPC San Antonio - The Oaks Course,sg_putt,-0.8441626945496727,0.5750482593087165,125,872,Quail Hollow Club
-13900,"Lowry, Shane",901,Wilmington Country Club,sg_putt,-0.22331348863448428,0.5655175847646542,39,872,Quail Hollow Club
-13900,"Lowry, Shane",348,Medinah Country Club (No. 3),sg_putt,-0.12630128822411538,0.5388246787720904,39,872,Quail Hollow Club
-13900,"Lowry, Shane",898,The Concession Golf Club,sg_putt,-0.8453671345806808,0.5342701137922192,27,872,Quail Hollow Club
-13900,"Lowry, Shane",503,TPC River Highlands,sg_putt,0.10002961370117569,0.5283880822013444,125,872,Quail Hollow Club
-13900,"Lowry, Shane",665,Innisbrook Resort and Golf Club - Copperhead Course,sg_putt,-0.1185716149417746,0.5047508103234392,127,872,Quail Hollow Club
-13900,"Lowry, Shane",882,Caves Valley Golf Club,sg_putt,0.19267671184316398,0.4661843863351652,48,872,Quail Hollow Club
-13900,"Lowry, Shane",23,Muirfield Village Golf Club,sg_putt,-0.21157134638297406,0.38068330893892144,118,872,Quail Hollow Club
-13900,"Lowry, Shane",714,TPC Louisiana,sg_putt,-0.82083451857654,0.324017256766705,74,872,Quail Hollow Club
-13900,"Lowry, Shane",5,Pebble Beach Golf Links,sg_putt,0.9665331283822172,0.32180988969846575,125,872,Quail Hollow Club
-13900,"Lowry, Shane",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_putt,-0.30030119883186657,0.31468741270576933,124,872,Quail Hollow Club
-13900,"Lowry, Shane",872,Quail Hollow Club,sg_total,-1.1140457758249402,0.9052813347283355,125,872,Quail Hollow Club
-13900,"Lowry, Shane",4223,albatross golf resort,sg_total,-2.246523198724692,0.900169449804817,9,872,Quail Hollow Club
-13900,"Lowry, Shane",3540,real club valderrama,sg_total,0.33796210896921464,0.8805886995135424,7,872,Quail Hollow Club
-13900,"Lowry, Shane",4394,royal county down gc,sg_total,-0.06530511632787617,0.8524548971798187,12,872,Quail Hollow Club
-13900,"Lowry, Shane",3535,dom pedro victoria golf course,sg_total,-0.39058231139288435,0.8190637762298443,8,872,Quail Hollow Club
-13900,"Lowry, Shane",4591,club de campo villa de madrid,sg_total,-2.390425282052568,0.8183834563296669,9,872,Quail Hollow Club
-13900,"Lowry, Shane",4186,emirates gc,sg_total,-3.605563670455373,0.8003967757838812,13,872,Quail Hollow Club
-13900,"Lowry, Shane",3618,golf club milano,sg_total,-1.797268373247108,0.7905747512676052,13,872,Quail Hollow Club
-13900,"Lowry, Shane",4396,club de campo villa de madrid,sg_total,-0.3956175519593592,0.7625886087280762,10,872,Quail Hollow Club
-13900,"Lowry, Shane",3974,carnoustie,sg_total,-1.802480317468923,0.7126755356233418,13,872,Quail Hollow Club
-13900,"Lowry, Shane",3524,le golf national,sg_total,-5.186275855581802,0.685942661628333,14,872,Quail Hollow Club
-13900,"Lowry, Shane",4015,old course st andrews,sg_total,-0.20001408553010872,0.6828854619449382,14,872,Quail Hollow Club
-13900,"Lowry, Shane",250,Le Golf National,sg_total,-0.6265642097080473,0.6824665048049973,19,872,Quail Hollow Club
-13900,"Lowry, Shane",24,Congressional CC (Blue),sg_total,0.1660975672789939,0.6808906682641906,73,872,Quail Hollow Club
-13900,"Lowry, Shane",3768,emirates gc,sg_total,0.852176839831986,0.6591261379935424,13,872,Quail Hollow Club
-13900,"Lowry, Shane",658,Carnoustie GC,sg_total,-0.7946968110563557,0.6390441717384884,58,872,Quail Hollow Club
-13900,"Lowry, Shane",241,Quail Hollow-PGA Championship,sg_total,-0.2753011309790263,0.6378878129720091,97,872,Quail Hollow Club
-13900,"Lowry, Shane",232,Albany GC,sg_total,-2.234551631183629,0.6337948769646933,40,872,Quail Hollow Club
-13900,"Lowry, Shane",4226,wentworth golf club,sg_total,0.39417122545542405,0.6316162367562806,16,872,Quail Hollow Club
-13900,"Lowry, Shane",4136,abu dhabi gc,sg_total,-1.8931723183525253,0.618757415859353,15,872,Quail Hollow Club
-13900,"Lowry, Shane",3981,emirates gc,sg_total,0.3735862816917985,0.5902740086292911,15,872,Quail Hollow Club
-13900,"Lowry, Shane",671,Valhalla Golf Club,sg_total,2.1259766444722215,0.5892724203861396,84,872,Quail Hollow Club
-13900,"Lowry, Shane",510,TPC Scottsdale (Stadium Course),sg_total,-1.8188078486451529,0.5737362749140178,128,872,Quail Hollow Club
-13900,"Lowry, Shane",8,Trump National Doral - Blue Monster Course,sg_total,-0.1022950643659288,0.5716714094440354,70,872,Quail Hollow Club
-13900,"Lowry, Shane",4408,yas links,sg_total,0.08435417292596967,0.5655646203978145,9,872,Quail Hollow Club
-13900,"Lowry, Shane",714,TPC Louisiana,sg_total,-0.5134569219900349,0.5640989022019596,76,872,Quail Hollow Club
-13900,"Lowry, Shane",874,Hamilton Golf & Country Club,sg_total,0.07511494046249337,0.5616467616258198,81,872,Quail Hollow Club
-13900,"Lowry, Shane",379,The Philadelphia Cricket Club (Wissahickon Course),sg_total,1.8694499933736306,0.5564752024851274,40,872,Quail Hollow Club
-13900,"Lowry, Shane",3650,wentworth golf club,sg_total,0.868177192170394,0.5371672731589172,16,872,Quail Hollow Club
-13900,"Lowry, Shane",704,Pete Dye Stadium Course,sg_total,-2.735434948920238,0.5350047899341593,119,872,Quail Hollow Club
-13900,"Lowry, Shane",3538,kingsbarns golf links,sg_total,4.625411052996678,0.5305892166322278,13,872,Quail Hollow Club
-13900,"Lowry, Shane",4192,carnoustie,sg_total,-1.2740140855301088,0.5275935925368881,14,872,Quail Hollow Club
-13900,"Lowry, Shane",4592,yas links,sg_total,0.26716780064852397,0.5008409069857486,10,872,Quail Hollow Club
-13900,"Lowry, Shane",3878,wentworth golf club,sg_total,0.6207615075006206,0.47289297927206314,16,872,Quail Hollow Club
-13900,"Lowry, Shane",4409,jumeirah golf estates,sg_total,1.0951538300074464,0.4628965184006278,8,872,Quail Hollow Club
-13900,"Lowry, Shane",715,Baltusrol GC,sg_total,-1.7054925866284718,0.4603169899721233,54,872,Quail Hollow Club
-13900,"Lowry, Shane",895,TPC Harding Park,sg_total,-0.6247540131517362,0.45489124736806985,64,872,Quail Hollow Club
-13900,"Lowry, Shane",611,Southern Hills Country Club,sg_total,0.8858955129766375,0.43627951067250814,68,872,Quail Hollow Club
-13900,"Lowry, Shane",9,Arnold Palmer's Bay Hill Club & Lodge,sg_total,0.16095245725644167,0.42455724038203446,125,872,Quail Hollow Club
-13900,"Lowry, Shane",3796,wentworth golf club,sg_total,1.3543604875720476,0.4109379235841792,20,872,Quail Hollow Club
-13900,"Lowry, Shane",818,Chambers Bay GC,sg_total,2.2190734210556746,0.41071973093757,43,872,Quail Hollow Club
-13900,"Lowry, Shane",697,Ocean Course at Kiawah Island,sg_total,2.2321858222712243,0.38221188347296015,76,872,Quail Hollow Club
-13900,"Lowry, Shane",891,Winged Foot GC,sg_total,-0.03670332480275609,0.35775280146805594,53,872,Quail Hollow Club
-13900,"Lowry, Shane",503,TPC River Highlands,sg_total,0.07669427144213056,0.35754653574589,127,872,Quail Hollow Club
-13900,"Lowry, Shane",977,The Renaissance Club,sg_total,0.2709077847336444,0.3566513479511211,71,872,Quail Hollow Club
-13900,"Lowry, Shane",348,Medinah Country Club (No. 3),sg_total,-0.8747665467958898,0.3527981091186763,39,872,Quail Hollow Club
-13900,"Lowry, Shane",4023,jumeirah golf estates,sg_total,-1.7063716678929282,0.34505152511221615,10,872,Quail Hollow Club
-13900,"Lowry, Shane",3669,old course st andrews,sg_total,-2.9816960355076643,0.3401355939901487,13,872,Quail Hollow Club
-13900,"Lowry, Shane",3654,le golf national,sg_total,0.6621747230551757,0.33675562035074985,16,872,Quail Hollow Club
-13900,"Lowry, Shane",406,Castle Pines Golf Club,sg_total,0.5643966897699079,0.3327750257465021,30,872,Quail Hollow Club
-13900,"Lowry, Shane",887,Kasumigaseki Country Club,sg_total,-0.1531537905793583,0.3182806573340517,18,872,Quail Hollow Club
-13900,"Lowry, Shane",558,Oak Hill CC,sg_total,1.225151508696934,0.31825610649735103,38,872,Quail Hollow Club
-13900,"Lowry, Shane",724,Royal Liverpool,sg_total,-1.5576495775336199,0.31187599467703636,66,872,Quail Hollow Club
 23323,"MacIntyre, Robert",21,Colonial Country Club,sg_app,0.331526951158069,0.6223953064575313,121,872,Quail Hollow Club
 23323,"MacIntyre, Robert",874,Hamilton Golf & Country Club,sg_app,0.2802561473700706,0.617319663329318,80,872,Quail Hollow Club
 23323,"MacIntyre, Robert",241,Quail Hollow-PGA Championship,sg_app,0.2692034246150847,0.6169517677916049,91,872,Quail Hollow Club
@@ -5161,211 +4780,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 18634,"McNealy, Maverick",503,TPC River Highlands,sg_total,0.14809611255239907,0.35754653574589,127,872,Quail Hollow Club
 18634,"McNealy, Maverick",977,The Renaissance Club,sg_total,0.414935810978477,0.3566513479511211,71,872,Quail Hollow Club
 18634,"McNealy, Maverick",765,Port Royal Golf Course,sg_total,0.15595587837755653,0.32495162436893166,84,872,Quail Hollow Club
-17365,"Mitchell, Keith",872,Quail Hollow Club,sg_app,0.010640714488299563,0.920062946822376,121,872,Quail Hollow Club
-17365,"Mitchell, Keith",21,Colonial Country Club,sg_app,-0.16215436200321584,0.6223953064575313,121,872,Quail Hollow Club
-17365,"Mitchell, Keith",874,Hamilton Golf & Country Club,sg_app,0.1457013089467806,0.617319663329318,80,872,Quail Hollow Club
-17365,"Mitchell, Keith",241,Quail Hollow-PGA Championship,sg_app,0.10694506000928464,0.6169517677916049,91,872,Quail Hollow Club
-17365,"Mitchell, Keith",704,Pete Dye Stadium Course,sg_app,0.6018256735466033,0.5426825265278356,117,872,Quail Hollow Club
-17365,"Mitchell, Keith",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,0.22684367244213996,0.5420823368973716,40,872,Quail Hollow Club
-17365,"Mitchell, Keith",671,Valhalla Golf Club,sg_app,-0.16846928028102018,0.5189779733169091,81,872,Quail Hollow Club
-17365,"Mitchell, Keith",6,Waialae Country Club,sg_app,-0.35841757323592405,0.48599156854818615,118,872,Quail Hollow Club
-17365,"Mitchell, Keith",8,Trump National Doral - Blue Monster Course,sg_app,-1.3848043152743856,0.4788071130304576,69,872,Quail Hollow Club
-17365,"Mitchell, Keith",886,Liberty National Golf Club,sg_app,0.493804136113703,0.4198105621025466,80,872,Quail Hollow Club
-17365,"Mitchell, Keith",14,Augusta National Golf Club,sg_app,-1.2203959804291455,0.4173558623207546,74,872,Quail Hollow Club
-17365,"Mitchell, Keith",611,Southern Hills Country Club,sg_app,0.3537596438603896,0.4014007907883803,56,872,Quail Hollow Club
-17365,"Mitchell, Keith",776,Sea Island Golf Club (Seaside Course),sg_app,-0.3200681373384596,0.3822424806337221,116,872,Quail Hollow Club
-17365,"Mitchell, Keith",772,St. George's G&CC,sg_app,0.5446277962045815,0.36998272364791285,53,872,Quail Hollow Club
-17365,"Mitchell, Keith",237,TPC Potomac at Avenel Farm,sg_app,0.6616902528902545,0.36766660294819226,88,872,Quail Hollow Club
-17365,"Mitchell, Keith",9,Arnold Palmer's Bay Hill Club & Lodge,sg_app,0.665454179268815,0.3537152607827948,123,872,Quail Hollow Club
-17365,"Mitchell, Keith",930,Black Desert Resort,sg_app,-1.980301731242572,0.34382290452324554,46,872,Quail Hollow Club
-17365,"Mitchell, Keith",872,Quail Hollow Club,sg_arg,-0.4265689943108806,0.9122278371720759,121,872,Quail Hollow Club
-17365,"Mitchell, Keith",893,Muirfield Village Golf Club,sg_arg,-0.9724993027966027,0.7001805876994075,69,872,Quail Hollow Club
-17365,"Mitchell, Keith",4,Torrey Pines Golf Course (South Course),sg_arg,0.2779495839336344,0.6102445891378143,125,872,Quail Hollow Club
-17365,"Mitchell, Keith",23,Muirfield Village Golf Club,sg_arg,0.3157850881826874,0.6061392346642107,118,872,Quail Hollow Club
-17365,"Mitchell, Keith",510,TPC Scottsdale (Stadium Course),sg_arg,0.049685798546449944,0.6028982679238515,121,872,Quail Hollow Club
-17365,"Mitchell, Keith",700,TPC Boston,sg_arg,0.032721813431414795,0.5912007341301075,98,872,Quail Hollow Club
-17365,"Mitchell, Keith",14,Augusta National Golf Club,sg_arg,-0.5411727449925955,0.5853519373055309,74,872,Quail Hollow Club
-17365,"Mitchell, Keith",241,Quail Hollow-PGA Championship,sg_arg,-0.9413583882816234,0.5240541438645605,91,872,Quail Hollow Club
-17365,"Mitchell, Keith",12,Harbour Town Golf Links,sg_arg,-0.582581873593459,0.5139046703346004,122,872,Quail Hollow Club
-17365,"Mitchell, Keith",205,Spyglass Hill Golf Course,sg_arg,0.3686725523181896,0.4137024179943825,52,872,Quail Hollow Club
-17365,"Mitchell, Keith",538,TPC Summerlin,sg_arg,0.07258959967675273,0.3375039913709073,118,872,Quail Hollow Club
-17365,"Mitchell, Keith",656,Plantation Course at Kapalua,sg_arg,-1.3870085494896298,0.3149410985734038,96,872,Quail Hollow Club
-17365,"Mitchell, Keith",5,Pebble Beach Golf Links,sg_arg,0.41571779844092527,0.3122666282485893,125,872,Quail Hollow Club
-17365,"Mitchell, Keith",872,Quail Hollow Club,sg_ott,0.3613958653339509,0.8949025247006961,121,872,Quail Hollow Club
-17365,"Mitchell, Keith",901,Wilmington Country Club,sg_ott,0.3317105944263893,0.6787089493948868,39,872,Quail Hollow Club
-17365,"Mitchell, Keith",873,Ridgewood CC,sg_ott,-0.16275165885676407,0.6602322532792273,60,872,Quail Hollow Club
-17365,"Mitchell, Keith",611,Southern Hills Country Club,sg_ott,1.0827454217889647,0.6586960243416187,56,872,Quail Hollow Club
-17365,"Mitchell, Keith",241,Quail Hollow-PGA Championship,sg_ott,0.15581971326307986,0.656153746556352,91,872,Quail Hollow Club
-17365,"Mitchell, Keith",928,PGA National  - Champion Course,sg_ott,0.14736804249621227,0.6434003124291379,64,872,Quail Hollow Club
-17365,"Mitchell, Keith",4,Torrey Pines Golf Course (South Course),sg_ott,0.12605393901845818,0.6298518703927387,125,872,Quail Hollow Club
-17365,"Mitchell, Keith",921,TPC Craig Ranch,sg_ott,0.25574821035641665,0.6065280779160799,72,872,Quail Hollow Club
-17365,"Mitchell, Keith",8,Trump National Doral - Blue Monster Course,sg_ott,0.21259215063944814,0.572142325227515,69,872,Quail Hollow Club
-17365,"Mitchell, Keith",897,Memorial Park Golf Course,sg_ott,0.15546657152577703,0.5655774571735637,104,872,Quail Hollow Club
-17365,"Mitchell, Keith",32,Glen Abbey GC,sg_ott,0.09771970978976934,0.55959596734793,83,872,Quail Hollow Club
-17365,"Mitchell, Keith",977,The Renaissance Club,sg_ott,0.2953443857154984,0.5460475754183362,69,872,Quail Hollow Club
-17365,"Mitchell, Keith",666,Pebble Beach Golf Links,sg_ott,0.12174967987341666,0.5394096093808775,50,872,Quail Hollow Club
-17365,"Mitchell, Keith",669,TPC Deere Run,sg_ott,-0.07678772523037276,0.5261924132879816,114,872,Quail Hollow Club
-17365,"Mitchell, Keith",668,St. Andrews Links (Old Course),sg_ott,-0.5584397193678085,0.4767220817308716,45,872,Quail Hollow Club
-17365,"Mitchell, Keith",880,Bethpage Black,sg_ott,0.5780583055318284,0.46917130643647176,57,872,Quail Hollow Club
-17365,"Mitchell, Keith",902,Congaree Golf Club,sg_ott,0.843390875138497,0.4563478115423086,76,872,Quail Hollow Club
-17365,"Mitchell, Keith",14,Augusta National Golf Club,sg_ott,-0.6617792013396094,0.4533727084854188,74,872,Quail Hollow Club
-17365,"Mitchell, Keith",771,The Old White TPC,sg_ott,-0.31766744874911457,0.45286357621454815,92,872,Quail Hollow Club
-17365,"Mitchell, Keith",671,Valhalla Golf Club,sg_ott,0.7962425976827583,0.44701602973592686,81,872,Quail Hollow Club
-17365,"Mitchell, Keith",894,TPC Craig Ranch,sg_ott,-0.6368194755125219,0.41635428844121947,78,872,Quail Hollow Club
-17365,"Mitchell, Keith",876,Detroit Golf Club,sg_ott,-2.1779637569113652,0.41086261397696755,114,872,Quail Hollow Club
-17365,"Mitchell, Keith",746,The Country Club of Jackson,sg_ott,-0.5025727239521297,0.35782945687924794,109,872,Quail Hollow Club
-17365,"Mitchell, Keith",872,Quail Hollow Club,sg_putt,0.7446899445480687,0.8883921815902325,121,872,Quail Hollow Club
-17365,"Mitchell, Keith",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,0.4434703265600256,0.7248431519940202,40,872,Quail Hollow Club
-17365,"Mitchell, Keith",894,TPC Craig Ranch,sg_putt,0.19940255895252618,0.6163500301717286,78,872,Quail Hollow Club
-17365,"Mitchell, Keith",8,Trump National Doral - Blue Monster Course,sg_putt,-0.17668715555532044,0.5872808966186444,69,872,Quail Hollow Club
-17365,"Mitchell, Keith",241,Quail Hollow-PGA Championship,sg_putt,0.4331328321156255,0.5847465657719776,91,872,Quail Hollow Club
-17365,"Mitchell, Keith",770,TPC San Antonio - The Oaks Course,sg_putt,0.4354608388873069,0.5750482593087165,125,872,Quail Hollow Club
-17365,"Mitchell, Keith",901,Wilmington Country Club,sg_putt,-1.3404991733040021,0.5655175847646542,39,872,Quail Hollow Club
-17365,"Mitchell, Keith",656,Plantation Course at Kapalua,sg_putt,-0.1609185198486277,0.554686046324924,96,872,Quail Hollow Club
-17365,"Mitchell, Keith",348,Medinah Country Club (No. 3),sg_putt,-0.5687681723823921,0.5388246787720904,39,872,Quail Hollow Club
-17365,"Mitchell, Keith",503,TPC River Highlands,sg_putt,0.7365540287561684,0.5283880822013444,125,872,Quail Hollow Club
-17365,"Mitchell, Keith",873,Ridgewood CC,sg_putt,-1.9761771485462063,0.5176724628442719,60,872,Quail Hollow Club
-17365,"Mitchell, Keith",665,Innisbrook Resort and Golf Club - Copperhead Course,sg_putt,-0.4523821485072132,0.5047508103234392,127,872,Quail Hollow Club
-17365,"Mitchell, Keith",237,TPC Potomac at Avenel Farm,sg_putt,0.30141222016280755,0.49517307438410585,88,872,Quail Hollow Club
-17365,"Mitchell, Keith",882,Caves Valley Golf Club,sg_putt,-0.2027681615661092,0.4661843863351652,48,872,Quail Hollow Club
-17365,"Mitchell, Keith",23,Muirfield Village Golf Club,sg_putt,0.18701717681268776,0.38068330893892144,118,872,Quail Hollow Club
-17365,"Mitchell, Keith",714,TPC Louisiana,sg_putt,0.010739395007925909,0.324017256766705,74,872,Quail Hollow Club
-17365,"Mitchell, Keith",5,Pebble Beach Golf Links,sg_putt,-0.07534879831219712,0.32180988969846575,125,872,Quail Hollow Club
-17365,"Mitchell, Keith",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_putt,-0.1693083880440346,0.31468741270576933,124,872,Quail Hollow Club
-17365,"Mitchell, Keith",872,Quail Hollow Club,sg_total,0.5627075298486754,0.9052813347283355,125,872,Quail Hollow Club
-17365,"Mitchell, Keith",802,Sandals Emerald Bay Golf Club,sg_total,1.2748379918163333,0.7307992512043303,49,872,Quail Hollow Club
-17365,"Mitchell, Keith",6,Waialae Country Club,sg_total,0.027952297313129704,0.6897379545814745,120,872,Quail Hollow Club
-17365,"Mitchell, Keith",894,TPC Craig Ranch,sg_total,-0.4778640168830032,0.6437079617752429,78,872,Quail Hollow Club
-17365,"Mitchell, Keith",241,Quail Hollow-PGA Championship,sg_total,-0.250884313558106,0.6378878129720091,97,872,Quail Hollow Club
-17365,"Mitchell, Keith",773,Aronimink GC,sg_total,0.028528902666220768,0.6222446853455966,54,872,Quail Hollow Club
-17365,"Mitchell, Keith",676,Ohio State University Golf Club - Scarlet Course,sg_total,2.6983941017614224,0.6061170692411775,76,872,Quail Hollow Club
-17365,"Mitchell, Keith",671,Valhalla Golf Club,sg_total,-0.28235704210213686,0.5892724203861396,84,872,Quail Hollow Club
-17365,"Mitchell, Keith",510,TPC Scottsdale (Stadium Course),sg_total,0.41850804613401604,0.5737362749140178,128,872,Quail Hollow Club
-17365,"Mitchell, Keith",8,Trump National Doral - Blue Monster Course,sg_total,-0.9726441345492567,0.5716714094440354,70,872,Quail Hollow Club
-17365,"Mitchell, Keith",936,Yokohama Country Club,sg_total,1.4787548288951338,0.5716204129257811,22,872,Quail Hollow Club
-17365,"Mitchell, Keith",714,TPC Louisiana,sg_total,0.26864286040395136,0.5640989022019596,76,872,Quail Hollow Club
-17365,"Mitchell, Keith",874,Hamilton Golf & Country Club,sg_total,1.0979269909371971,0.5616467616258198,81,872,Quail Hollow Club
-17365,"Mitchell, Keith",379,The Philadelphia Cricket Club (Wissahickon Course),sg_total,1.5283374787364215,0.5564752024851274,40,872,Quail Hollow Club
-17365,"Mitchell, Keith",704,Pete Dye Stadium Course,sg_total,0.9398383762886935,0.5350047899341593,119,872,Quail Hollow Club
-17365,"Mitchell, Keith",689,El Bosque CC,sg_total,1.9462366642626918,0.5261609349173618,89,872,Quail Hollow Club
-17365,"Mitchell, Keith",54,Nashville Golf & Athletic Club,sg_total,-1.822903174550397,0.48330174051040153,35,872,Quail Hollow Club
-17365,"Mitchell, Keith",895,TPC Harding Park,sg_total,0.614581612912039,0.45489124736806985,64,872,Quail Hollow Club
-17365,"Mitchell, Keith",746,The Country Club of Jackson,sg_total,-0.7190853114523005,0.44607945432133955,112,872,Quail Hollow Club
-17365,"Mitchell, Keith",641,Crestview Country Club,sg_total,0.8596955356519129,0.44439326222152165,51,872,Quail Hollow Club
-17365,"Mitchell, Keith",611,Southern Hills Country Club,sg_total,1.370271173740146,0.43627951067250814,68,872,Quail Hollow Club
-17365,"Mitchell, Keith",9,Arnold Palmer's Bay Hill Club & Lodge,sg_total,0.3824609549940986,0.42455724038203446,125,872,Quail Hollow Club
-17365,"Mitchell, Keith",669,TPC Deere Run,sg_total,-0.05223799040459415,0.42452235003843647,116,872,Quail Hollow Club
-17365,"Mitchell, Keith",771,The Old White TPC,sg_total,0.8650245858761405,0.40327818506595187,94,872,Quail Hollow Club
-17365,"Mitchell, Keith",919,El Cardonal at Diamante,sg_total,-1.7697625402933577,0.37274229278719934,58,872,Quail Hollow Club
-17365,"Mitchell, Keith",243,Trinity Forest Golf Club,sg_total,0.7854102369602574,0.36710826662849494,68,872,Quail Hollow Club
-17365,"Mitchell, Keith",503,TPC River Highlands,sg_total,0.2158521967317374,0.35754653574589,127,872,Quail Hollow Club
-17365,"Mitchell, Keith",977,The Renaissance Club,sg_total,-0.4592431890042437,0.3566513479511211,71,872,Quail Hollow Club
-17365,"Mitchell, Keith",348,Medinah Country Club (No. 3),sg_total,-0.6278209786548398,0.3527981091186763,39,872,Quail Hollow Club
-17365,"Mitchell, Keith",237,TPC Potomac at Avenel Farm,sg_total,-1.0081264958923246,0.3265659482527747,90,872,Quail Hollow Club
-17365,"Mitchell, Keith",765,Port Royal Golf Course,sg_total,-0.8181401771853337,0.32495162436893166,84,872,Quail Hollow Club
-22085,"Morikawa, Collin",872,Quail Hollow Club,sg_app,-0.21675569962388946,0.920062946822376,121,872,Quail Hollow Club
-22085,"Morikawa, Collin",724,Royal Liverpool,sg_app,-1.4502580665363676,0.63192765872029,48,872,Quail Hollow Club
-22085,"Morikawa, Collin",21,Colonial Country Club,sg_app,0.3447656754506639,0.6223953064575313,121,872,Quail Hollow Club
-22085,"Morikawa, Collin",241,Quail Hollow-PGA Championship,sg_app,-1.358531689909987,0.6169517677916049,91,872,Quail Hollow Club
-22085,"Morikawa, Collin",875,ACCORDIA GOLF Narashino Country Club,sg_app,-0.3144706833303922,0.5717241579650258,25,872,Quail Hollow Club
-22085,"Morikawa, Collin",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,-0.7771086941346268,0.5420823368973716,40,872,Quail Hollow Club
-22085,"Morikawa, Collin",406,Castle Pines Golf Club,sg_app,-0.4621780301531421,0.5198098777631185,30,872,Quail Hollow Club
-22085,"Morikawa, Collin",671,Valhalla Golf Club,sg_app,0.19883580728423939,0.5189779733169091,81,872,Quail Hollow Club
-22085,"Morikawa, Collin",6,Waialae Country Club,sg_app,0.1529884157398751,0.48599156854818615,118,872,Quail Hollow Club
-22085,"Morikawa, Collin",8,Trump National Doral - Blue Monster Course,sg_app,-0.7199299568810692,0.4788071130304576,69,872,Quail Hollow Club
-22085,"Morikawa, Collin",654,The Country Club,sg_app,0.1670427728512205,0.45850490494249635,51,872,Quail Hollow Club
-22085,"Morikawa, Collin",886,Liberty National Golf Club,sg_app,-1.030318142169469,0.4198105621025466,80,872,Quail Hollow Club
-22085,"Morikawa, Collin",14,Augusta National Golf Club,sg_app,0.33175684878621203,0.4173558623207546,74,872,Quail Hollow Club
-22085,"Morikawa, Collin",885,Royal Portrush Golf Club,sg_app,-2.691725937944672,0.4126776436462826,47,872,Quail Hollow Club
-22085,"Morikawa, Collin",611,Southern Hills Country Club,sg_app,-0.6454021067617527,0.4014007907883803,56,872,Quail Hollow Club
-22085,"Morikawa, Collin",9,Arnold Palmer's Bay Hill Club & Lodge,sg_app,0.19616562214799999,0.3537152607827948,123,872,Quail Hollow Club
-22085,"Morikawa, Collin",240,Club de Golf Chapultepec,sg_app,-0.9471735369562698,0.33709668489685685,51,872,Quail Hollow Club
-22085,"Morikawa, Collin",872,Quail Hollow Club,sg_arg,-0.3908434484181077,0.9122278371720759,121,872,Quail Hollow Club
-22085,"Morikawa, Collin",893,Muirfield Village Golf Club,sg_arg,0.08999650268532086,0.7001805876994075,69,872,Quail Hollow Club
-22085,"Morikawa, Collin",887,Kasumigaseki Country Club,sg_arg,0.23110730954349618,0.6217958196794721,17,872,Quail Hollow Club
-22085,"Morikawa, Collin",4,Torrey Pines Golf Course (South Course),sg_arg,-0.2913219163765348,0.6102445891378143,125,872,Quail Hollow Club
-22085,"Morikawa, Collin",23,Muirfield Village Golf Club,sg_arg,-0.25449230931573313,0.6061392346642107,118,872,Quail Hollow Club
-22085,"Morikawa, Collin",510,TPC Scottsdale (Stadium Course),sg_arg,0.010414343981925783,0.6028982679238515,121,872,Quail Hollow Club
-22085,"Morikawa, Collin",700,TPC Boston,sg_arg,-0.15635881618328246,0.5912007341301075,98,872,Quail Hollow Club
-22085,"Morikawa, Collin",14,Augusta National Golf Club,sg_arg,0.1317003508848598,0.5853519373055309,74,872,Quail Hollow Club
-22085,"Morikawa, Collin",744,Torrey Pines (South),sg_arg,0.06892269181950772,0.5527774409476469,48,872,Quail Hollow Club
-22085,"Morikawa, Collin",241,Quail Hollow-PGA Championship,sg_arg,0.8143867443944377,0.5240541438645605,91,872,Quail Hollow Club
-22085,"Morikawa, Collin",608,Oakmont Country Club,sg_arg,0.4646647926903798,0.5219901179424625,49,872,Quail Hollow Club
-22085,"Morikawa, Collin",12,Harbour Town Golf Links,sg_arg,-0.16552727844882018,0.5139046703346004,122,872,Quail Hollow Club
-22085,"Morikawa, Collin",724,Royal Liverpool,sg_arg,1.0079390281441671,0.4951059771017065,48,872,Quail Hollow Club
-22085,"Morikawa, Collin",697,Ocean Course at Kiawah Island,sg_arg,-0.1976175541230047,0.4668332250654862,58,872,Quail Hollow Club
-22085,"Morikawa, Collin",688,East Lake Golf Club,sg_arg,-0.1614093120254146,0.4350812991230662,65,872,Quail Hollow Club
-22085,"Morikawa, Collin",660,Montreux Golf & Country Club,sg_arg,0.8277184302088549,0.4318715915496687,32,872,Quail Hollow Club
-22085,"Morikawa, Collin",205,Spyglass Hill Golf Course,sg_arg,-0.47737635650265103,0.4137024179943825,52,872,Quail Hollow Club
-22085,"Morikawa, Collin",898,The Concession Golf Club,sg_arg,0.21132828024529893,0.3475381303524209,27,872,Quail Hollow Club
-22085,"Morikawa, Collin",538,TPC Summerlin,sg_arg,0.06314383048655922,0.3375039913709073,118,872,Quail Hollow Club
-22085,"Morikawa, Collin",656,Plantation Course at Kapalua,sg_arg,0.08728951484971623,0.3149410985734038,96,872,Quail Hollow Club
-22085,"Morikawa, Collin",5,Pebble Beach Golf Links,sg_arg,0.27340945587399973,0.3122666282485893,125,872,Quail Hollow Club
-22085,"Morikawa, Collin",872,Quail Hollow Club,sg_ott,-0.07484943938361036,0.8949025247006961,121,872,Quail Hollow Club
-22085,"Morikawa, Collin",901,Wilmington Country Club,sg_ott,-0.22876566551691394,0.6787089493948868,39,872,Quail Hollow Club
-22085,"Morikawa, Collin",611,Southern Hills Country Club,sg_ott,-0.13902482100335092,0.6586960243416187,56,872,Quail Hollow Club
-22085,"Morikawa, Collin",241,Quail Hollow-PGA Championship,sg_ott,-0.8081789736699923,0.656153746556352,91,872,Quail Hollow Club
-22085,"Morikawa, Collin",4,Torrey Pines Golf Course (South Course),sg_ott,-0.33242288773517503,0.6298518703927387,125,872,Quail Hollow Club
-22085,"Morikawa, Collin",8,Trump National Doral - Blue Monster Course,sg_ott,-0.6572840576842744,0.572142325227515,69,872,Quail Hollow Club
-22085,"Morikawa, Collin",977,The Renaissance Club,sg_ott,-0.395879584061969,0.5460475754183362,69,872,Quail Hollow Club
-22085,"Morikawa, Collin",666,Pebble Beach Golf Links,sg_ott,-0.21350545150555839,0.5394096093808775,50,872,Quail Hollow Club
-22085,"Morikawa, Collin",669,TPC Deere Run,sg_ott,0.10550514262806687,0.5261924132879816,114,872,Quail Hollow Club
-22085,"Morikawa, Collin",668,St. Andrews Links (Old Course),sg_ott,-0.7404915286229128,0.4767220817308716,45,872,Quail Hollow Club
-22085,"Morikawa, Collin",902,Congaree Golf Club,sg_ott,0.4223578136790856,0.4563478115423086,76,872,Quail Hollow Club
-22085,"Morikawa, Collin",14,Augusta National Golf Club,sg_ott,-0.2641590274277487,0.4533727084854188,74,872,Quail Hollow Club
-22085,"Morikawa, Collin",671,Valhalla Golf Club,sg_ott,0.40179910876402863,0.44701602973592686,81,872,Quail Hollow Club
-22085,"Morikawa, Collin",608,Oakmont Country Club,sg_ott,-0.019617817527952237,0.4392309996093705,49,872,Quail Hollow Club
-22085,"Morikawa, Collin",724,Royal Liverpool,sg_ott,0.3047507097699539,0.4320033748288793,48,872,Quail Hollow Club
-22085,"Morikawa, Collin",885,Royal Portrush Golf Club,sg_ott,-1.527693715935634,0.4239504961690022,47,872,Quail Hollow Club
-22085,"Morikawa, Collin",876,Detroit Golf Club,sg_ott,-0.0934338711436164,0.41086261397696755,114,872,Quail Hollow Club
-22085,"Morikawa, Collin",2000,Sherwood Country Club,sg_ott,-0.20658348999238232,0.39392468026580385,35,872,Quail Hollow Club
-22085,"Morikawa, Collin",744,Torrey Pines (South),sg_ott,0.6590719114229485,0.3824574454165667,48,872,Quail Hollow Club
-22085,"Morikawa, Collin",872,Quail Hollow Club,sg_putt,0.12141133579166571,0.8883921815902325,121,872,Quail Hollow Club
-22085,"Morikawa, Collin",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,0.954966849007974,0.7248431519940202,40,872,Quail Hollow Club
-22085,"Morikawa, Collin",250,Le Golf National,sg_putt,-1.421832297524434,0.7171287632266731,19,872,Quail Hollow Club
-22085,"Morikawa, Collin",887,Kasumigaseki Country Club,sg_putt,1.0454890900505323,0.6374182675616976,17,872,Quail Hollow Club
-22085,"Morikawa, Collin",8,Trump National Doral - Blue Monster Course,sg_putt,-1.5725043826462088,0.5872808966186444,69,872,Quail Hollow Club
-22085,"Morikawa, Collin",241,Quail Hollow-PGA Championship,sg_putt,0.389014896286016,0.5847465657719776,91,872,Quail Hollow Club
-22085,"Morikawa, Collin",770,TPC San Antonio - The Oaks Course,sg_putt,-1.2438882367064428,0.5750482593087165,125,872,Quail Hollow Club
-22085,"Morikawa, Collin",901,Wilmington Country Club,sg_putt,-0.6084510656511767,0.5655175847646542,39,872,Quail Hollow Club
-22085,"Morikawa, Collin",656,Plantation Course at Kapalua,sg_putt,0.6306944150668836,0.554686046324924,96,872,Quail Hollow Club
-22085,"Morikawa, Collin",348,Medinah Country Club (No. 3),sg_putt,-1.1389674737044848,0.5388246787720904,39,872,Quail Hollow Club
-22085,"Morikawa, Collin",898,The Concession Golf Club,sg_putt,1.2149624441168674,0.5342701137922192,27,872,Quail Hollow Club
-22085,"Morikawa, Collin",503,TPC River Highlands,sg_putt,-0.04083344647872826,0.5283880822013444,125,872,Quail Hollow Club
-22085,"Morikawa, Collin",2000,Sherwood Country Club,sg_putt,-1.7620398350439135,0.5213146828807105,35,872,Quail Hollow Club
-22085,"Morikawa, Collin",875,ACCORDIA GOLF Narashino Country Club,sg_putt,-0.6292614556221375,0.5094589378736416,25,872,Quail Hollow Club
-22085,"Morikawa, Collin",665,Innisbrook Resort and Golf Club - Copperhead Course,sg_putt,-0.7080460089942568,0.5047508103234392,127,872,Quail Hollow Club
-22085,"Morikawa, Collin",882,Caves Valley Golf Club,sg_putt,-1.2812074085351208,0.4661843863351652,48,872,Quail Hollow Club
-22085,"Morikawa, Collin",23,Muirfield Village Golf Club,sg_putt,0.4634546659509442,0.38068330893892144,118,872,Quail Hollow Club
-22085,"Morikawa, Collin",714,TPC Louisiana,sg_putt,-0.27487011523812216,0.324017256766705,74,872,Quail Hollow Club
-22085,"Morikawa, Collin",5,Pebble Beach Golf Links,sg_putt,0.2952711782016415,0.32180988969846575,125,872,Quail Hollow Club
-22085,"Morikawa, Collin",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_putt,-0.3660825578954407,0.31468741270576933,124,872,Quail Hollow Club
-22085,"Morikawa, Collin",872,Quail Hollow Club,sg_total,-0.6679696122936962,0.9052813347283355,125,872,Quail Hollow Club
-22085,"Morikawa, Collin",6,Waialae Country Club,sg_total,-1.0527439668974137,0.6897379545814745,120,872,Quail Hollow Club
-22085,"Morikawa, Collin",250,Le Golf National,sg_total,-1.2084232674315731,0.6824665048049973,19,872,Quail Hollow Club
-22085,"Morikawa, Collin",2000,Sherwood Country Club,sg_total,-1.265291421069974,0.6463600682308783,47,872,Quail Hollow Club
-22085,"Morikawa, Collin",241,Quail Hollow-PGA Championship,sg_total,-1.077166247698745,0.6378878129720091,97,872,Quail Hollow Club
-22085,"Morikawa, Collin",232,Albany GC,sg_total,0.6438245033392926,0.6337948769646933,40,872,Quail Hollow Club
-22085,"Morikawa, Collin",3981,emirates gc,sg_total,-0.05678704341779536,0.5902740086292911,15,872,Quail Hollow Club
-22085,"Morikawa, Collin",671,Valhalla Golf Club,sg_total,1.7682122640618871,0.5892724203861396,84,872,Quail Hollow Club
-22085,"Morikawa, Collin",510,TPC Scottsdale (Stadium Course),sg_total,-1.252666225933649,0.5737362749140178,128,872,Quail Hollow Club
-22085,"Morikawa, Collin",8,Trump National Doral - Blue Monster Course,sg_total,-2.3747475126240762,0.5716714094440354,70,872,Quail Hollow Club
-22085,"Morikawa, Collin",936,Yokohama Country Club,sg_total,0.29272270986666515,0.5716204129257811,22,872,Quail Hollow Club
-22085,"Morikawa, Collin",714,TPC Louisiana,sg_total,-1.230282407414945,0.5640989022019596,76,872,Quail Hollow Club
-22085,"Morikawa, Collin",874,Hamilton Golf & Country Club,sg_total,1.5588454473643572,0.5616467616258198,81,872,Quail Hollow Club
-22085,"Morikawa, Collin",379,The Philadelphia Cricket Club (Wissahickon Course),sg_total,-0.4738383790919639,0.5564752024851274,40,872,Quail Hollow Club
-22085,"Morikawa, Collin",895,TPC Harding Park,sg_total,2.779414185853125,0.45489124736806985,64,872,Quail Hollow Club
-22085,"Morikawa, Collin",611,Southern Hills Country Club,sg_total,-0.9316609007322552,0.43627951067250814,68,872,Quail Hollow Club
-22085,"Morikawa, Collin",9,Arnold Palmer's Bay Hill Club & Lodge,sg_total,0.6839589059511155,0.42455724038203446,125,872,Quail Hollow Club
-22085,"Morikawa, Collin",669,TPC Deere Run,sg_total,1.7944333255233091,0.42452235003843647,116,872,Quail Hollow Club
-22085,"Morikawa, Collin",697,Ocean Course at Kiawah Island,sg_total,1.3407547900559604,0.38221188347296015,76,872,Quail Hollow Club
-22085,"Morikawa, Collin",891,Winged Foot GC,sg_total,-0.6290589300515171,0.35775280146805594,53,872,Quail Hollow Club
-22085,"Morikawa, Collin",503,TPC River Highlands,sg_total,-0.8360043263798886,0.35754653574589,127,872,Quail Hollow Club
-22085,"Morikawa, Collin",977,The Renaissance Club,sg_total,-1.450746029084356,0.3566513479511211,71,872,Quail Hollow Club
-22085,"Morikawa, Collin",348,Medinah Country Club (No. 3),sg_total,-1.04006475776124,0.3527981091186763,39,872,Quail Hollow Club
-22085,"Morikawa, Collin",406,Castle Pines Golf Club,sg_total,-1.318770931098896,0.3327750257465021,30,872,Quail Hollow Club
-22085,"Morikawa, Collin",887,Kasumigaseki Country Club,sg_total,0.17569038202217171,0.3182806573340517,18,872,Quail Hollow Club
-22085,"Morikawa, Collin",724,Royal Liverpool,sg_total,-1.0956846012565897,0.31187599467703636,66,872,Quail Hollow Club
 10419,"Noren, Alex",872,Quail Hollow Club,sg_app,-0.23698302600998417,0.920062946822376,121,872,Quail Hollow Club
 10419,"Noren, Alex",724,Royal Liverpool,sg_app,-0.4330230143614823,0.63192765872029,48,872,Quail Hollow Club
 10419,"Noren, Alex",21,Colonial Country Club,sg_app,-0.18982475290048254,0.6223953064575313,121,872,Quail Hollow Club
@@ -6368,104 +5782,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 19895,"Schauffele, Xander",237,TPC Potomac at Avenel Farm,sg_total,0.9532897995953995,0.3265659482527747,90,872,Quail Hollow Club
 19895,"Schauffele, Xander",887,Kasumigaseki Country Club,sg_total,0.6988761337394354,0.3182806573340517,18,872,Quail Hollow Club
 19895,"Schauffele, Xander",724,Royal Liverpool,sg_total,0.09889767534897756,0.31187599467703636,66,872,Quail Hollow Club
-18417,"Scheffler, Scottie",724,Royal Liverpool,sg_app,-0.03882524461618095,0.63192765872029,48,872,Quail Hollow Club
-18417,"Scheffler, Scottie",21,Colonial Country Club,sg_app,0.2163127727848361,0.6223953064575313,121,872,Quail Hollow Club
-18417,"Scheffler, Scottie",241,Quail Hollow-PGA Championship,sg_app,-0.0859418000827438,0.6169517677916049,91,872,Quail Hollow Club
-18417,"Scheffler, Scottie",704,Pete Dye Stadium Course,sg_app,-0.4619027102800227,0.5426825265278356,117,872,Quail Hollow Club
-18417,"Scheffler, Scottie",406,Castle Pines Golf Club,sg_app,-2.074673311191511,0.5198098777631185,30,872,Quail Hollow Club
-18417,"Scheffler, Scottie",671,Valhalla Golf Club,sg_app,0.3236795255649435,0.5189779733169091,81,872,Quail Hollow Club
-18417,"Scheffler, Scottie",8,Trump National Doral - Blue Monster Course,sg_app,0.27792151370837825,0.4788071130304576,69,872,Quail Hollow Club
-18417,"Scheffler, Scottie",654,The Country Club,sg_app,1.7304865757076555,0.45850490494249635,51,872,Quail Hollow Club
-18417,"Scheffler, Scottie",886,Liberty National Golf Club,sg_app,0.01090087807846539,0.4198105621025466,80,872,Quail Hollow Club
-18417,"Scheffler, Scottie",14,Augusta National Golf Club,sg_app,0.25061710368246426,0.4173558623207546,74,872,Quail Hollow Club
-18417,"Scheffler, Scottie",885,Royal Portrush Golf Club,sg_app,1.1211925496263968,0.4126776436462826,47,872,Quail Hollow Club
-18417,"Scheffler, Scottie",611,Southern Hills Country Club,sg_app,0.770948846761558,0.4014007907883803,56,872,Quail Hollow Club
-18417,"Scheffler, Scottie",776,Sea Island Golf Club (Seaside Course),sg_app,-0.3273658103170598,0.3822424806337221,116,872,Quail Hollow Club
-18417,"Scheffler, Scottie",772,St. George's G&CC,sg_app,0.23560982554085194,0.36998272364791285,53,872,Quail Hollow Club
-18417,"Scheffler, Scottie",9,Arnold Palmer's Bay Hill Club & Lodge,sg_app,-0.7568324573425599,0.3537152607827948,123,872,Quail Hollow Club
-18417,"Scheffler, Scottie",240,Club de Golf Chapultepec,sg_app,-0.541076832780863,0.33709668489685685,51,872,Quail Hollow Club
-18417,"Scheffler, Scottie",893,Muirfield Village Golf Club,sg_arg,0.27086358827408197,0.7001805876994075,69,872,Quail Hollow Club
-18417,"Scheffler, Scottie",4,Torrey Pines Golf Course (South Course),sg_arg,-0.2805324908957878,0.6102445891378143,125,872,Quail Hollow Club
-18417,"Scheffler, Scottie",23,Muirfield Village Golf Club,sg_arg,0.30391542101746016,0.6061392346642107,118,872,Quail Hollow Club
-18417,"Scheffler, Scottie",510,TPC Scottsdale (Stadium Course),sg_arg,-0.35864342171105146,0.6028982679238515,121,872,Quail Hollow Club
-18417,"Scheffler, Scottie",700,TPC Boston,sg_arg,0.558558257903007,0.5912007341301075,98,872,Quail Hollow Club
-18417,"Scheffler, Scottie",14,Augusta National Golf Club,sg_arg,0.6027432433517663,0.5853519373055309,74,872,Quail Hollow Club
-18417,"Scheffler, Scottie",744,Torrey Pines (South),sg_arg,-0.5709659560002127,0.5527774409476469,48,872,Quail Hollow Club
-18417,"Scheffler, Scottie",241,Quail Hollow-PGA Championship,sg_arg,0.7829432635165047,0.5240541438645605,91,872,Quail Hollow Club
-18417,"Scheffler, Scottie",608,Oakmont Country Club,sg_arg,0.4409165644146801,0.5219901179424625,49,872,Quail Hollow Club
-18417,"Scheffler, Scottie",12,Harbour Town Golf Links,sg_arg,-0.24570824110907707,0.5139046703346004,122,872,Quail Hollow Club
-18417,"Scheffler, Scottie",724,Royal Liverpool,sg_arg,-0.1304106281664162,0.4951059771017065,48,872,Quail Hollow Club
-18417,"Scheffler, Scottie",697,Ocean Course at Kiawah Island,sg_arg,-0.23554148206475986,0.4668332250654862,58,872,Quail Hollow Club
-18417,"Scheffler, Scottie",688,East Lake Golf Club,sg_arg,0.3572017589835287,0.4350812991230662,65,872,Quail Hollow Club
-18417,"Scheffler, Scottie",205,Spyglass Hill Golf Course,sg_arg,1.0716622685214698,0.4137024179943825,52,872,Quail Hollow Club
-18417,"Scheffler, Scottie",898,The Concession Golf Club,sg_arg,0.7959852838224695,0.3475381303524209,27,872,Quail Hollow Club
-18417,"Scheffler, Scottie",538,TPC Summerlin,sg_arg,-1.1808443246670404,0.3375039913709073,118,872,Quail Hollow Club
-18417,"Scheffler, Scottie",656,Plantation Course at Kapalua,sg_arg,0.14516313812839446,0.3149410985734038,96,872,Quail Hollow Club
-18417,"Scheffler, Scottie",5,Pebble Beach Golf Links,sg_arg,-0.5375675834807534,0.3122666282485893,125,872,Quail Hollow Club
-18417,"Scheffler, Scottie",901,Wilmington Country Club,sg_ott,0.18875840394243765,0.6787089493948868,39,872,Quail Hollow Club
-18417,"Scheffler, Scottie",611,Southern Hills Country Club,sg_ott,-0.975042744204745,0.6586960243416187,56,872,Quail Hollow Club
-18417,"Scheffler, Scottie",241,Quail Hollow-PGA Championship,sg_ott,0.23494544395270456,0.656153746556352,91,872,Quail Hollow Club
-18417,"Scheffler, Scottie",4,Torrey Pines Golf Course (South Course),sg_ott,-0.9765684476388349,0.6298518703927387,125,872,Quail Hollow Club
-18417,"Scheffler, Scottie",921,TPC Craig Ranch,sg_ott,0.22324898030368234,0.6065280779160799,72,872,Quail Hollow Club
-18417,"Scheffler, Scottie",8,Trump National Doral - Blue Monster Course,sg_ott,0.03832006694232682,0.572142325227515,69,872,Quail Hollow Club
-18417,"Scheffler, Scottie",897,Memorial Park Golf Course,sg_ott,-0.32053347540710014,0.5655774571735637,104,872,Quail Hollow Club
-18417,"Scheffler, Scottie",977,The Renaissance Club,sg_ott,-0.0917995146753448,0.5460475754183362,69,872,Quail Hollow Club
-18417,"Scheffler, Scottie",666,Pebble Beach Golf Links,sg_ott,0.18921236834569072,0.5394096093808775,50,872,Quail Hollow Club
-18417,"Scheffler, Scottie",668,St. Andrews Links (Old Course),sg_ott,0.17657538095500985,0.4767220817308716,45,872,Quail Hollow Club
-18417,"Scheffler, Scottie",902,Congaree Golf Club,sg_ott,1.0653517351687716,0.4563478115423086,76,872,Quail Hollow Club
-18417,"Scheffler, Scottie",14,Augusta National Golf Club,sg_ott,0.01819036782627787,0.4533727084854188,74,872,Quail Hollow Club
-18417,"Scheffler, Scottie",771,The Old White TPC,sg_ott,0.556885749763477,0.45286357621454815,92,872,Quail Hollow Club
-18417,"Scheffler, Scottie",671,Valhalla Golf Club,sg_ott,-0.09645838926867872,0.44701602973592686,81,872,Quail Hollow Club
-18417,"Scheffler, Scottie",608,Oakmont Country Club,sg_ott,-1.0706398446347276,0.4392309996093705,49,872,Quail Hollow Club
-18417,"Scheffler, Scottie",724,Royal Liverpool,sg_ott,0.3365577868064609,0.4320033748288793,48,872,Quail Hollow Club
-18417,"Scheffler, Scottie",885,Royal Portrush Golf Club,sg_ott,-0.8371968294785651,0.4239504961690022,47,872,Quail Hollow Club
-18417,"Scheffler, Scottie",894,TPC Craig Ranch,sg_ott,-0.08202971181496775,0.41635428844121947,78,872,Quail Hollow Club
-18417,"Scheffler, Scottie",876,Detroit Golf Club,sg_ott,-0.09519057005608839,0.41086261397696755,114,872,Quail Hollow Club
-18417,"Scheffler, Scottie",2000,Sherwood Country Club,sg_ott,1.1159840723178338,0.39392468026580385,35,872,Quail Hollow Club
-18417,"Scheffler, Scottie",744,Torrey Pines (South),sg_ott,-0.6027443808274662,0.3824574454165667,48,872,Quail Hollow Club
-18417,"Scheffler, Scottie",746,The Country Club of Jackson,sg_ott,-0.07397144889581753,0.35782945687924794,109,872,Quail Hollow Club
-18417,"Scheffler, Scottie",250,Le Golf National,sg_putt,-0.41177087527450806,0.7171287632266731,19,872,Quail Hollow Club
-18417,"Scheffler, Scottie",894,TPC Craig Ranch,sg_putt,-0.709026146331268,0.6163500301717286,78,872,Quail Hollow Club
-18417,"Scheffler, Scottie",8,Trump National Doral - Blue Monster Course,sg_putt,-0.5619220429066442,0.5872808966186444,69,872,Quail Hollow Club
-18417,"Scheffler, Scottie",241,Quail Hollow-PGA Championship,sg_putt,0.36988214287127197,0.5847465657719776,91,872,Quail Hollow Club
-18417,"Scheffler, Scottie",770,TPC San Antonio - The Oaks Course,sg_putt,-0.5062125828661933,0.5750482593087165,125,872,Quail Hollow Club
-18417,"Scheffler, Scottie",901,Wilmington Country Club,sg_putt,0.1490774533409987,0.5655175847646542,39,872,Quail Hollow Club
-18417,"Scheffler, Scottie",656,Plantation Course at Kapalua,sg_putt,-0.025842962742771286,0.554686046324924,96,872,Quail Hollow Club
-18417,"Scheffler, Scottie",898,The Concession Golf Club,sg_putt,0.7728654703934454,0.5342701137922192,27,872,Quail Hollow Club
-18417,"Scheffler, Scottie",503,TPC River Highlands,sg_putt,0.33412040956090583,0.5283880822013444,125,872,Quail Hollow Club
-18417,"Scheffler, Scottie",2000,Sherwood Country Club,sg_putt,-1.0945718272811464,0.5213146828807105,35,872,Quail Hollow Club
-18417,"Scheffler, Scottie",665,Innisbrook Resort and Golf Club - Copperhead Course,sg_putt,-0.09942824912221229,0.5047508103234392,127,872,Quail Hollow Club
-18417,"Scheffler, Scottie",882,Caves Valley Golf Club,sg_putt,-0.006250208488069953,0.4661843863351652,48,872,Quail Hollow Club
-18417,"Scheffler, Scottie",23,Muirfield Village Golf Club,sg_putt,-0.36494303779590054,0.38068330893892144,118,872,Quail Hollow Club
-18417,"Scheffler, Scottie",5,Pebble Beach Golf Links,sg_putt,0.4052816891214467,0.32180988969846575,125,872,Quail Hollow Club
-18417,"Scheffler, Scottie",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_putt,0.009987627484691675,0.31468741270576933,124,872,Quail Hollow Club
-18417,"Scheffler, Scottie",802,Sandals Emerald Bay Golf Club,sg_total,-2.5642472381741523,0.7307992512043303,49,872,Quail Hollow Club
-18417,"Scheffler, Scottie",250,Le Golf National,sg_total,0.7596838456348659,0.6824665048049973,19,872,Quail Hollow Club
-18417,"Scheffler, Scottie",2000,Sherwood Country Club,sg_total,0.29611908367506157,0.6463600682308783,47,872,Quail Hollow Club
-18417,"Scheffler, Scottie",894,TPC Craig Ranch,sg_total,-0.7703352885003237,0.6437079617752429,78,872,Quail Hollow Club
-18417,"Scheffler, Scottie",241,Quail Hollow-PGA Championship,sg_total,1.2610561302919203,0.6378878129720091,97,872,Quail Hollow Club
-18417,"Scheffler, Scottie",232,Albany GC,sg_total,0.8339461038214099,0.6337948769646933,40,872,Quail Hollow Club
-18417,"Scheffler, Scottie",676,Ohio State University Golf Club - Scarlet Course,sg_total,2.348649964750122,0.6061170692411775,76,872,Quail Hollow Club
-18417,"Scheffler, Scottie",671,Valhalla Golf Club,sg_total,-0.3127877424942844,0.5892724203861396,84,872,Quail Hollow Club
-18417,"Scheffler, Scottie",510,TPC Scottsdale (Stadium Course),sg_total,0.0020871382924149695,0.5737362749140178,128,872,Quail Hollow Club
-18417,"Scheffler, Scottie",8,Trump National Doral - Blue Monster Course,sg_total,-0.6533689952592608,0.5716714094440354,70,872,Quail Hollow Club
-18417,"Scheffler, Scottie",808,TPC Colorado,sg_total,-0.30660827159780546,0.5433446768748056,28,872,Quail Hollow Club
-18417,"Scheffler, Scottie",704,Pete Dye Stadium Course,sg_total,-0.20333112212301113,0.5350047899341593,119,872,Quail Hollow Club
-18417,"Scheffler, Scottie",19,TPC Four Seasons Resort,sg_total,1.2244969694127872,0.525516283128511,81,872,Quail Hollow Club
-18417,"Scheffler, Scottie",54,Nashville Golf & Athletic Club,sg_total,2.318724919183196,0.48330174051040153,35,872,Quail Hollow Club
-18417,"Scheffler, Scottie",895,TPC Harding Park,sg_total,2.314059101173102,0.45489124736806985,64,872,Quail Hollow Club
-18417,"Scheffler, Scottie",746,The Country Club of Jackson,sg_total,-0.32100669333363546,0.44607945432133955,112,872,Quail Hollow Club
-18417,"Scheffler, Scottie",641,Crestview Country Club,sg_total,0.5168852900669616,0.44439326222152165,51,872,Quail Hollow Club
-18417,"Scheffler, Scottie",611,Southern Hills Country Club,sg_total,-1.8738017202990735,0.43627951067250814,68,872,Quail Hollow Club
-18417,"Scheffler, Scottie",9,Arnold Palmer's Bay Hill Club & Lodge,sg_total,-0.5089177292314799,0.42455724038203446,125,872,Quail Hollow Club
-18417,"Scheffler, Scottie",771,The Old White TPC,sg_total,1.6045579099133072,0.40327818506595187,94,872,Quail Hollow Club
-18417,"Scheffler, Scottie",697,Ocean Course at Kiawah Island,sg_total,1.2609874548783604,0.38221188347296015,76,872,Quail Hollow Club
-18417,"Scheffler, Scottie",243,Trinity Forest Golf Club,sg_total,0.01768107126041163,0.36710826662849494,68,872,Quail Hollow Club
-18417,"Scheffler, Scottie",503,TPC River Highlands,sg_total,-0.0736027803283858,0.35754653574589,127,872,Quail Hollow Club
-18417,"Scheffler, Scottie",977,The Renaissance Club,sg_total,-1.065987117525205,0.3566513479511211,71,872,Quail Hollow Club
-18417,"Scheffler, Scottie",406,Castle Pines Golf Club,sg_total,-3.2229200495679575,0.3327750257465021,30,872,Quail Hollow Club
-18417,"Scheffler, Scottie",765,Port Royal Golf Course,sg_total,1.749810576503127,0.32495162436893166,84,872,Quail Hollow Club
-18417,"Scheffler, Scottie",724,Royal Liverpool,sg_total,-1.1487509673619662,0.31187599467703636,66,872,Quail Hollow Club
 6430,"Scott, Adam",872,Quail Hollow Club,sg_app,0.49098956702973506,0.920062946822376,121,872,Quail Hollow Club
 6430,"Scott, Adam",13,Forest Oaks CC,sg_app,-0.8827349811621592,0.7580266240359902,12,872,Quail Hollow Club
 6430,"Scott, Adam",781,Plainfield CC,sg_app,-0.9244430992190241,0.7523209294171878,50,872,Quail Hollow Club
@@ -6820,179 +6136,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,avg_value,cor_score,shared_pl
 18474,"Smalley, Alex",925,Dunes Golf and Beach Club,sg_total,1.2458057934407942,0.3513444245869187,38,872,Quail Hollow Club
 18474,"Smalley, Alex",237,TPC Potomac at Avenel Farm,sg_total,-2.244615689572483,0.3265659482527747,90,872,Quail Hollow Club
 18474,"Smalley, Alex",765,Port Royal Golf Course,sg_total,0.9288863117058129,0.32495162436893166,84,872,Quail Hollow Club
-18586,"Smith, Jordan",724,Royal Liverpool,sg_app,0.2893905780402015,0.63192765872029,48,872,Quail Hollow Club
-18586,"Smith, Jordan",704,Pete Dye Stadium Course,sg_app,0.5171474851001365,0.5426825265278356,117,872,Quail Hollow Club
-18586,"Smith, Jordan",671,Valhalla Golf Club,sg_app,0.04529531812850349,0.5189779733169091,81,872,Quail Hollow Club
-18586,"Smith, Jordan",6,Waialae Country Club,sg_app,0.04188341434606527,0.48599156854818615,118,872,Quail Hollow Club
-18586,"Smith, Jordan",8,Trump National Doral - Blue Monster Course,sg_app,-0.7714960476541319,0.4788071130304576,69,872,Quail Hollow Club
-18586,"Smith, Jordan",885,Royal Portrush Golf Club,sg_app,0.04449778278720748,0.4126776436462826,47,872,Quail Hollow Club
-18586,"Smith, Jordan",4,Torrey Pines Golf Course (South Course),sg_arg,-0.40268549259703135,0.6102445891378143,125,872,Quail Hollow Club
-18586,"Smith, Jordan",510,TPC Scottsdale (Stadium Course),sg_arg,-0.49619022043716476,0.6028982679238515,121,872,Quail Hollow Club
-18586,"Smith, Jordan",608,Oakmont Country Club,sg_arg,-0.21028594505300247,0.5219901179424625,49,872,Quail Hollow Club
-18586,"Smith, Jordan",12,Harbour Town Golf Links,sg_arg,-0.367212605729072,0.5139046703346004,122,872,Quail Hollow Club
-18586,"Smith, Jordan",724,Royal Liverpool,sg_arg,0.00864014623425341,0.4951059771017065,48,872,Quail Hollow Club
-18586,"Smith, Jordan",928,PGA National  - Champion Course,sg_ott,-0.3841781112720624,0.6434003124291379,64,872,Quail Hollow Club
-18586,"Smith, Jordan",4,Torrey Pines Golf Course (South Course),sg_ott,-0.487431604790851,0.6298518703927387,125,872,Quail Hollow Club
-18586,"Smith, Jordan",8,Trump National Doral - Blue Monster Course,sg_ott,-0.05471310372855831,0.572142325227515,69,872,Quail Hollow Club
-18586,"Smith, Jordan",897,Memorial Park Golf Course,sg_ott,0.006178554709801748,0.5655774571735637,104,872,Quail Hollow Club
-18586,"Smith, Jordan",977,The Renaissance Club,sg_ott,0.28381922735425963,0.5460475754183362,69,872,Quail Hollow Club
-18586,"Smith, Jordan",671,Valhalla Golf Club,sg_ott,0.4960692953320852,0.44701602973592686,81,872,Quail Hollow Club
-18586,"Smith, Jordan",608,Oakmont Country Club,sg_ott,-0.2144281483912405,0.4392309996093705,49,872,Quail Hollow Club
-18586,"Smith, Jordan",724,Royal Liverpool,sg_ott,-0.05075128769653009,0.4320033748288793,48,872,Quail Hollow Club
-18586,"Smith, Jordan",885,Royal Portrush Golf Club,sg_ott,-0.7710290974940693,0.4239504961690022,47,872,Quail Hollow Club
-18586,"Smith, Jordan",8,Trump National Doral - Blue Monster Course,sg_putt,-0.6047327088568409,0.5872808966186444,69,872,Quail Hollow Club
-18586,"Smith, Jordan",770,TPC San Antonio - The Oaks Course,sg_putt,-1.3709169440418738,0.5750482593087165,125,872,Quail Hollow Club
-18586,"Smith, Jordan",665,Innisbrook Resort and Golf Club - Copperhead Course,sg_putt,0.42204828242749387,0.5047508103234392,127,872,Quail Hollow Club
-18586,"Smith, Jordan",714,TPC Louisiana,sg_putt,0.01816296527421342,0.324017256766705,74,872,Quail Hollow Club
-18586,"Smith, Jordan",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_putt,-1.3388151254980305,0.31468741270576933,124,872,Quail Hollow Club
-18586,"Smith, Jordan",3519,barsebäck g&cc,sg_total,0.4019877027394052,0.8799104866155274,11,872,Quail Hollow Club
-18586,"Smith, Jordan",4030,gary player cc,sg_total,-0.04984226999564009,0.8771564641938345,10,872,Quail Hollow Club
-18586,"Smith, Jordan",4584,crans-sur-sierre gc,sg_total,0.3223982723177359,0.8586689682783363,10,872,Quail Hollow Club
-18586,"Smith, Jordan",4394,royal county down gc,sg_total,1.1019538809598497,0.8524548971798187,12,872,Quail Hollow Club
-18586,"Smith, Jordan",3863,green eagle golf courses,sg_total,2.0132854761679733,0.8223742184378505,10,872,Quail Hollow Club
-18586,"Smith, Jordan",4591,club de campo villa de madrid,sg_total,-1.6645575880745673,0.8183834563296669,9,872,Quail Hollow Club
-18586,"Smith, Jordan",3873,torrance course at fairmont st andrews,sg_total,0.6759766807125753,0.8104235297028254,6,872,Quail Hollow Club
-18586,"Smith, Jordan",3733,topwin golf & cc,sg_total,2.2378639904136657,0.8044569319681929,9,872,Quail Hollow Club
-18586,"Smith, Jordan",4565,emirates gc,sg_total,-1.635642785204819,0.8034367647052838,12,872,Quail Hollow Club
-18586,"Smith, Jordan",4186,emirates gc,sg_total,-0.1310984219770821,0.8003967757838812,13,872,Quail Hollow Club
-18586,"Smith, Jordan",3618,golf club milano,sg_total,0.8898195065422885,0.7905747512676052,13,872,Quail Hollow Club
-18586,"Smith, Jordan",3496,abu dhabi gc,sg_total,0.5886428674287201,0.7839161600908624,12,872,Quail Hollow Club
-18586,"Smith, Jordan",4371,emirates gc,sg_total,-1.1638604465531963,0.7800841959298914,12,872,Quail Hollow Club
-18586,"Smith, Jordan",3871,galgorm castle golf club,sg_total,1.1970840647008347,0.7732301304855363,5,872,Quail Hollow Club
-18586,"Smith, Jordan",3640,al mouj golf,sg_total,0.5242039967986774,0.722582511030044,12,872,Quail Hollow Club
-18586,"Smith, Jordan",3974,carnoustie,sg_total,0.8806567722680152,0.7126755356233418,13,872,Quail Hollow Club
-18586,"Smith, Jordan",3506,royal golf dar es salam red course,sg_total,1.1980816427753465,0.706638765640787,9,872,Quail Hollow Club
-18586,"Smith, Jordan",3664,silkeborg ry gc,sg_total,0.5167972232471769,0.6916849640707614,10,872,Quail Hollow Club
-18586,"Smith, Jordan",6,Waialae Country Club,sg_total,-0.9147282351295677,0.6897379545814745,120,872,Quail Hollow Club
-18586,"Smith, Jordan",3524,le golf national,sg_total,0.09710154881613553,0.685942661628333,14,872,Quail Hollow Club
-18586,"Smith, Jordan",4015,old course st andrews,sg_total,1.7659946430639912,0.6828854619449382,14,872,Quail Hollow Club
-18586,"Smith, Jordan",3641,doha gc,sg_total,-0.5339578568428496,0.6826638717411395,9,872,Quail Hollow Club
-18586,"Smith, Jordan",4458,adriatic golf club cervia,sg_total,-2.3626064732935514,0.6819342663104493,6,872,Quail Hollow Club
-18586,"Smith, Jordan",4576,argentario gc,sg_total,-0.04591401655400368,0.6711192425312533,9,872,Quail Hollow Club
-18586,"Smith, Jordan",4393,crans-sur-sierre gc,sg_total,0.5620306830432076,0.6674719609739505,8,872,Quail Hollow Club
-18586,"Smith, Jordan",3768,emirates gc,sg_total,0.42034479003473846,0.6591261379935424,13,872,Quail Hollow Club
-18586,"Smith, Jordan",3990,brabazon course at the belfry,sg_total,0.5114334792632221,0.657631487532166,16,872,Quail Hollow Club
-18586,"Smith, Jordan",4262,st. francis links,sg_total,-0.41275026252417385,0.6480299133641072,8,872,Quail Hollow Club
-18586,"Smith, Jordan",4031,pecanwood g&cc,sg_total,2.014052803349074,0.6422453645036266,10,872,Quail Hollow Club
-18586,"Smith, Jordan",3967,massereene gc,sg_total,1.2537507313675016,0.6412058626156082,5,872,Quail Hollow Club
-18586,"Smith, Jordan",4226,wentworth golf club,sg_total,-2.675662439647665,0.6316162367562806,16,872,Quail Hollow Club
-18586,"Smith, Jordan",4402,le golf national,sg_total,0.595969376908281,0.6301006831434022,9,872,Quail Hollow Club
-18586,"Smith, Jordan",4136,abu dhabi gc,sg_total,-0.5745169738309179,0.618757415859353,15,872,Quail Hollow Club
-18586,"Smith, Jordan",3811,hillside golf club,sg_total,1.0688423313102966,0.6118953785887296,10,872,Quail Hollow Club
-18586,"Smith, Jordan",3663,albatross golf resort,sg_total,-0.017443889548978908,0.6117415069465052,8,872,Quail Hollow Club
-18586,"Smith, Jordan",3637,emirates gc,sg_total,-3.5601383118858028,0.5930824322477887,14,872,Quail Hollow Club
-18586,"Smith, Jordan",4602,carnoustie,sg_total,0.7961674056369512,0.59240200959528,14,872,Quail Hollow Club
-18586,"Smith, Jordan",3981,emirates gc,sg_total,2.0778539027145726,0.5902740086292911,15,872,Quail Hollow Club
-18586,"Smith, Jordan",671,Valhalla Golf Club,sg_total,0.722164415760318,0.5892724203861396,84,872,Quail Hollow Club
-18586,"Smith, Jordan",3522,golfclub münchen eichenried,sg_total,-0.6132106340836848,0.582636532769754,10,872,Quail Hollow Club
-18586,"Smith, Jordan",4659,enhance anting gc,sg_total,2.6707723633632563,0.5788666974888106,8,872,Quail Hollow Club
-18586,"Smith, Jordan",3982,al hamra gc,sg_total,2.722194502654305,0.5784554101448078,18,872,Quail Hollow Club
-18586,"Smith, Jordan",510,TPC Scottsdale (Stadium Course),sg_total,1.5725765795905047,0.5737362749140178,128,872,Quail Hollow Club
-18586,"Smith, Jordan",8,Trump National Doral - Blue Monster Course,sg_total,-0.7248880031420216,0.5716714094440354,70,872,Quail Hollow Club
-18586,"Smith, Jordan",4554,royal queensland gc,sg_total,-0.7047191001657043,0.5709011145918613,6,872,Quail Hollow Club
-18586,"Smith, Jordan",4408,yas links,sg_total,0.5960961972993367,0.5655646203978145,9,872,Quail Hollow Club
-18586,"Smith, Jordan",714,TPC Louisiana,sg_total,0.2514577724635594,0.5640989022019596,76,872,Quail Hollow Club
-18586,"Smith, Jordan",3650,wentworth golf club,sg_total,-1.5863741603908246,0.5371672731589172,16,872,Quail Hollow Club
-18586,"Smith, Jordan",4555,kingston heath gc,sg_total,-1.0040284826645438,0.535346397296655,6,872,Quail Hollow Club
-18586,"Smith, Jordan",704,Pete Dye Stadium Course,sg_total,-0.01945299891043123,0.5350047899341593,119,872,Quail Hollow Club
-18586,"Smith, Jordan",3943,meloneras golf,sg_total,-0.8961755384414768,0.5332228911214358,10,872,Quail Hollow Club
-18586,"Smith, Jordan",3538,kingsbarns golf links,sg_total,0.1837847627507624,0.5305892166322278,13,872,Quail Hollow Club
-18586,"Smith, Jordan",4192,carnoustie,sg_total,-3.323005356936009,0.5275935925368881,14,872,Quail Hollow Club
-18586,"Smith, Jordan",4723,gary player cc,sg_total,0.2688329286915594,0.517945279100239,7,872,Quail Hollow Club
-18586,"Smith, Jordan",4592,yas links,sg_total,0.8070898171763086,0.5008409069857486,10,872,Quail Hollow Club
-18586,"Smith, Jordan",4706,trump international golf links,sg_total,1.0305406750070423,0.4984085267585502,6,872,Quail Hollow Club
-18586,"Smith, Jordan",3925,golf international de pont royal,sg_total,-0.7159162739756493,0.47316429858163006,12,872,Quail Hollow Club
-18586,"Smith, Jordan",3878,wentworth golf club,sg_total,-0.347006799388467,0.47289297927206314,16,872,Quail Hollow Club
-18586,"Smith, Jordan",4094,outeniqua,sg_total,0.0224100018502707,0.47237249984377916,9,872,Quail Hollow Club
-18586,"Smith, Jordan",4409,jumeirah golf estates,sg_total,-0.16885119235615642,0.4628965184006278,8,872,Quail Hollow Club
-18586,"Smith, Jordan",3769,royal greens,sg_total,-0.8847897719285706,0.4479686912234964,11,872,Quail Hollow Club
-18586,"Smith, Jordan",3796,wentworth golf club,sg_total,1.2027021397633868,0.4109379235841792,20,872,Quail Hollow Club
-18586,"Smith, Jordan",3636,abu dhabi gc,sg_total,-0.8458280912341148,0.40411344479538425,14,872,Quail Hollow Club
-18586,"Smith, Jordan",3907,education city gc,sg_total,0.38737302278276564,0.3727855044117608,12,872,Quail Hollow Club
-18586,"Smith, Jordan",4601,old course st andrews,sg_total,4.216167405636952,0.3673871465109049,14,872,Quail Hollow Club
-18586,"Smith, Jordan",977,The Renaissance Club,sg_total,0.10904014843038534,0.3566513479511211,71,872,Quail Hollow Club
-18586,"Smith, Jordan",4032,club at steyn city,sg_total,0.3276587529118149,0.3532234676469385,8,872,Quail Hollow Club
-18586,"Smith, Jordan",4023,jumeirah golf estates,sg_total,-1.524068898529807,0.34505152511221615,10,872,Quail Hollow Club
-18586,"Smith, Jordan",3669,old course st andrews,sg_total,0.15861109385830474,0.3401355939901487,13,872,Quail Hollow Club
-18586,"Smith, Jordan",3654,le golf national,sg_total,1.117404846461066,0.33675562035074985,16,872,Quail Hollow Club
-18586,"Smith, Jordan",724,Royal Liverpool,sg_total,0.43126941693798204,0.31187599467703636,66,872,Quail Hollow Club
-18586,"Smith, Jordan L",658,Carnoustie GC,sg_total,-0.19184508089875413,0.6390441717384884,58,872,Quail Hollow Club
-18586,"Smith, Jordan L",241,Quail Hollow-PGA Championship,sg_total,2.206648274049262,0.6378878129720091,97,872,Quail Hollow Club
-18586,"Smith, Jordan L",977,The Renaissance Club,sg_total,0.9790239732814092,0.3566513479511211,71,872,Quail Hollow Club
-22985,"Smotherman, Austin",872,Quail Hollow Club,sg_app,-1.393639460423901,0.920062946822376,121,872,Quail Hollow Club
-22985,"Smotherman, Austin",21,Colonial Country Club,sg_app,-0.5688011338200956,0.6223953064575313,121,872,Quail Hollow Club
-22985,"Smotherman, Austin",925,Dunes Golf and Beach Club,sg_app,-0.44647609436557767,0.6015151297985153,37,872,Quail Hollow Club
-22985,"Smotherman, Austin",704,Pete Dye Stadium Course,sg_app,1.7165136701035886,0.5426825265278356,117,872,Quail Hollow Club
-22985,"Smotherman, Austin",6,Waialae Country Club,sg_app,-0.17641499746605802,0.48599156854818615,118,872,Quail Hollow Club
-22985,"Smotherman, Austin",8,Trump National Doral - Blue Monster Course,sg_app,0.06662106553135932,0.4788071130304576,69,872,Quail Hollow Club
-22985,"Smotherman, Austin",884,Keene Trace Golf Club (Champion Trace),sg_app,0.21609922412815358,0.4489435701980226,67,872,Quail Hollow Club
-22985,"Smotherman, Austin",776,Sea Island Golf Club (Seaside Course),sg_app,-0.25231312983434595,0.3822424806337221,116,872,Quail Hollow Club
-22985,"Smotherman, Austin",772,St. George's G&CC,sg_app,-0.3442158063090959,0.36998272364791285,53,872,Quail Hollow Club
-22985,"Smotherman, Austin",237,TPC Potomac at Avenel Farm,sg_app,0.262007189042058,0.36766660294819226,88,872,Quail Hollow Club
-22985,"Smotherman, Austin",9,Arnold Palmer's Bay Hill Club & Lodge,sg_app,-0.0859909008527382,0.3537152607827948,123,872,Quail Hollow Club
-22985,"Smotherman, Austin",930,Black Desert Resort,sg_app,1.7123946213104788,0.34382290452324554,46,872,Quail Hollow Club
-22985,"Smotherman, Austin",872,Quail Hollow Club,sg_arg,0.06630216381816062,0.9122278371720759,121,872,Quail Hollow Club
-22985,"Smotherman, Austin",925,Dunes Golf and Beach Club,sg_arg,0.43790254636609116,0.648655717378755,37,872,Quail Hollow Club
-22985,"Smotherman, Austin",4,Torrey Pines Golf Course (South Course),sg_arg,0.039760885875126946,0.6102445891378143,125,872,Quail Hollow Club
-22985,"Smotherman, Austin",510,TPC Scottsdale (Stadium Course),sg_arg,-0.033412004844841345,0.6028982679238515,121,872,Quail Hollow Club
-22985,"Smotherman, Austin",12,Harbour Town Golf Links,sg_arg,-0.4548151020571158,0.5139046703346004,122,872,Quail Hollow Club
-22985,"Smotherman, Austin",538,TPC Summerlin,sg_arg,0.4605214123538017,0.3375039913709073,118,872,Quail Hollow Club
-22985,"Smotherman, Austin",5,Pebble Beach Golf Links,sg_arg,-0.1862529191357544,0.3122666282485893,125,872,Quail Hollow Club
-22985,"Smotherman, Austin",872,Quail Hollow Club,sg_ott,-0.9606100788329032,0.8949025247006961,121,872,Quail Hollow Club
-22985,"Smotherman, Austin",928,PGA National  - Champion Course,sg_ott,0.6582629195840415,0.6434003124291379,64,872,Quail Hollow Club
-22985,"Smotherman, Austin",4,Torrey Pines Golf Course (South Course),sg_ott,0.1068858880436101,0.6298518703927387,125,872,Quail Hollow Club
-22985,"Smotherman, Austin",921,TPC Craig Ranch,sg_ott,0.3263728489168073,0.6065280779160799,72,872,Quail Hollow Club
-22985,"Smotherman, Austin",8,Trump National Doral - Blue Monster Course,sg_ott,0.13456118243128204,0.572142325227515,69,872,Quail Hollow Club
-22985,"Smotherman, Austin",897,Memorial Park Golf Course,sg_ott,-2.476753661282637,0.5655774571735637,104,872,Quail Hollow Club
-22985,"Smotherman, Austin",669,TPC Deere Run,sg_ott,-0.09081602817255816,0.5261924132879816,114,872,Quail Hollow Club
-22985,"Smotherman, Austin",925,Dunes Golf and Beach Club,sg_ott,-0.20179914662685922,0.5001014530653333,37,872,Quail Hollow Club
-22985,"Smotherman, Austin",894,TPC Craig Ranch,sg_ott,0.5684524159508628,0.41635428844121947,78,872,Quail Hollow Club
-22985,"Smotherman, Austin",876,Detroit Golf Club,sg_ott,-0.5815794049233569,0.41086261397696755,114,872,Quail Hollow Club
-22985,"Smotherman, Austin",746,The Country Club of Jackson,sg_ott,0.1334304532522499,0.35782945687924794,109,872,Quail Hollow Club
-22985,"Smotherman, Austin",872,Quail Hollow Club,sg_putt,0.79844162748618,0.8883921815902325,121,872,Quail Hollow Club
-22985,"Smotherman, Austin",894,TPC Craig Ranch,sg_putt,0.3556502943916966,0.6163500301717286,78,872,Quail Hollow Club
-22985,"Smotherman, Austin",8,Trump National Doral - Blue Monster Course,sg_putt,-0.12667921645531824,0.5872808966186444,69,872,Quail Hollow Club
-22985,"Smotherman, Austin",770,TPC San Antonio - The Oaks Course,sg_putt,0.12433418301059987,0.5750482593087165,125,872,Quail Hollow Club
-22985,"Smotherman, Austin",503,TPC River Highlands,sg_putt,-1.147725678887687,0.5283880822013444,125,872,Quail Hollow Club
-22985,"Smotherman, Austin",665,Innisbrook Resort and Golf Club - Copperhead Course,sg_putt,0.11915487486685533,0.5047508103234392,127,872,Quail Hollow Club
-22985,"Smotherman, Austin",237,TPC Potomac at Avenel Farm,sg_putt,0.6385625117937963,0.49517307438410585,88,872,Quail Hollow Club
-22985,"Smotherman, Austin",925,Dunes Golf and Beach Club,sg_putt,-1.7762291925525076,0.44559604935951314,37,872,Quail Hollow Club
-22985,"Smotherman, Austin",884,Keene Trace Golf Club (Champion Trace),sg_putt,0.13997190288227448,0.4307632175149621,67,872,Quail Hollow Club
-22985,"Smotherman, Austin",714,TPC Louisiana,sg_putt,0.29184023827451344,0.324017256766705,74,872,Quail Hollow Club
-22985,"Smotherman, Austin",5,Pebble Beach Golf Links,sg_putt,0.2809795008247652,0.32180988969846575,125,872,Quail Hollow Club
-22985,"Smotherman, Austin",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_putt,0.16285245541126883,0.31468741270576933,124,872,Quail Hollow Club
-22985,"Smotherman, Austin",872,Quail Hollow Club,sg_total,-1.838464423543159,0.9052813347283355,125,872,Quail Hollow Club
-22985,"Smotherman, Austin",680,Carolina Country Club,sg_total,4.402192831166393,0.7666024714000752,26,872,Quail Hollow Club
-22985,"Smotherman, Austin",802,Sandals Emerald Bay Golf Club,sg_total,0.42856543602293684,0.7307992512043303,49,872,Quail Hollow Club
-22985,"Smotherman, Austin",922,Dye's Valley Course,sg_total,2.6179335211846606,0.7005587456267409,28,872,Quail Hollow Club
-22985,"Smotherman, Austin",6,Waialae Country Club,sg_total,-0.7078328191209329,0.6897379545814745,120,872,Quail Hollow Club
-22985,"Smotherman, Austin",91,The Pete Dye Course at French Lick Resort,sg_total,-0.542058955159824,0.6856215710999457,10,872,Quail Hollow Club
-22985,"Smotherman, Austin",93,Vanderbilt Legends Club,sg_total,-1.473960957538272,0.6489259593053124,13,872,Quail Hollow Club
-22985,"Smotherman, Austin",894,TPC Craig Ranch,sg_total,1.2919061276048671,0.6437079617752429,78,872,Quail Hollow Club
-22985,"Smotherman, Austin",71,Lakewood National GC Commander,sg_total,1.02799368643673,0.6217954150405939,17,872,Quail Hollow Club
-22985,"Smotherman, Austin",69,The Grove,sg_total,3.657342448843397,0.6137944210511148,27,872,Quail Hollow Club
-22985,"Smotherman, Austin",676,Ohio State University Golf Club - Scarlet Course,sg_total,-0.8677613747229458,0.6061170692411775,76,872,Quail Hollow Club
-22985,"Smotherman, Austin",68,Chicago Highlands Club,sg_total,-0.03712349458485509,0.5820632311470697,18,872,Quail Hollow Club
-22985,"Smotherman, Austin",510,TPC Scottsdale (Stadium Course),sg_total,-1.53342824438286,0.5737362749140178,128,872,Quail Hollow Club
-22985,"Smotherman, Austin",8,Trump National Doral - Blue Monster Course,sg_total,-0.7389743184153462,0.5716714094440354,70,872,Quail Hollow Club
-22985,"Smotherman, Austin",714,TPC Louisiana,sg_total,0.010631991972329002,0.5640989022019596,76,872,Quail Hollow Club
-22985,"Smotherman, Austin",60,Texas Rangers Golf Club,sg_total,-2.062197476843525,0.5618046400576869,33,872,Quail Hollow Club
-22985,"Smotherman, Austin",808,TPC Colorado,sg_total,-0.03878956744297202,0.5433446768748056,28,872,Quail Hollow Club
-22985,"Smotherman, Austin",704,Pete Dye Stadium Course,sg_total,2.1291846689640295,0.5350047899341593,119,872,Quail Hollow Club
-22985,"Smotherman, Austin",689,El Bosque CC,sg_total,0.9723612195716385,0.5261609349173618,89,872,Quail Hollow Club
-22985,"Smotherman, Austin",19,TPC Four Seasons Resort,sg_total,-3.2333135683209724,0.525516283128511,81,872,Quail Hollow Club
-22985,"Smotherman, Austin",54,Nashville Golf & Athletic Club,sg_total,0.11500850491606518,0.48330174051040153,35,872,Quail Hollow Club
-22985,"Smotherman, Austin",811,Paiute Golf Resort - Sun Mt GC,sg_total,1.8758858443750277,0.48165022852703393,19,872,Quail Hollow Club
-22985,"Smotherman, Austin",746,The Country Club of Jackson,sg_total,-0.010334647414168119,0.44607945432133955,112,872,Quail Hollow Club
-22985,"Smotherman, Austin",641,Crestview Country Club,sg_total,0.3707106679510225,0.44439326222152165,51,872,Quail Hollow Club
-22985,"Smotherman, Austin",9,Arnold Palmer's Bay Hill Club & Lodge,sg_total,0.1135839898029607,0.42455724038203446,125,872,Quail Hollow Club
-22985,"Smotherman, Austin",669,TPC Deere Run,sg_total,-0.2633821531080745,0.42452235003843647,116,872,Quail Hollow Club
-22985,"Smotherman, Austin",70,Sandestin Resort - Raven GC,sg_total,1.969610862662109,0.3757288465345041,22,872,Quail Hollow Club
-22985,"Smotherman, Austin",919,El Cardonal at Diamante,sg_total,0.22632803228618903,0.37274229278719934,58,872,Quail Hollow Club
-22985,"Smotherman, Austin",503,TPC River Highlands,sg_total,-0.9748206028186597,0.35754653574589,127,872,Quail Hollow Club
-22985,"Smotherman, Austin",925,Dunes Golf and Beach Club,sg_total,-2.2246977243845807,0.3513444245869187,38,872,Quail Hollow Club
-22985,"Smotherman, Austin",237,TPC Potomac at Avenel Farm,sg_total,1.5128390074105098,0.3265659482527747,90,872,Quail Hollow Club
-22985,"Smotherman, Austin",765,Port Royal Golf Course,sg_total,-0.2699187644714896,0.32495162436893166,84,872,Quail Hollow Club
 17536,"Spaun, J.J.",872,Quail Hollow Club,sg_app,0.8019000206140927,0.920062946822376,121,872,Quail Hollow Club
 17536,"Spaun, J.J.",21,Colonial Country Club,sg_app,-0.036641459014479516,0.6223953064575313,121,872,Quail Hollow Club
 17536,"Spaun, J.J.",874,Hamilton Golf & Country Club,sg_app,0.0383638187531678,0.617319663329318,80,872,Quail Hollow Club

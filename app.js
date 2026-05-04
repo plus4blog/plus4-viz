@@ -65,10 +65,11 @@ function loadCSV() {
       projData = {};
       result.data.forEach(row => {
         if (row.dg_id) projData[row.dg_id] = {
-          player_name       : row.player_name,
-          course_fit_score  : row.course_fit_score   != null ? parseFloat(row.course_fit_score)   : null,
-          projected_sg_total: row.projected_sg_total != null ? parseFloat(row.projected_sg_total) : null,
-          salary            : row.salary             != null ? parseFloat(row.salary)             : null
+          player_name        : row.player_name,
+          course_fit_score   : row.course_fit_score    != null ? parseFloat(row.course_fit_score)    : null,
+          projected_sg_total : row.projected_sg_total  != null ? parseFloat(row.projected_sg_total)  : null,
+          adjusted_sg_total  : row.adjusted_sg_total   != null ? parseFloat(row.adjusted_sg_total)   : null,
+          salary             : row.salary              != null ? parseFloat(row.salary)              : null
         };
       });
       projDone = true;
@@ -146,10 +147,11 @@ function processData() {
     const hasFit = proj && proj.course_fit_score != null && proj.course_fit_score !== 0;
     return {
       ...p,
-      salary            : proj?.salary             ?? p.salary,
-      projected_sg_total: proj?.projected_sg_total ?? null,
-      course_fit_score  : proj?.course_fit_score   ?? null,
-      proj_rank         : projRankMap[p.dg_id]     ?? null,
+      salary             : proj?.salary              ?? p.salary,
+      projected_sg_total : proj?.projected_sg_total  ?? null,
+      adjusted_sg_total  : proj?.adjusted_sg_total   ?? null,
+      course_fit_score   : proj?.course_fit_score    ?? null,
+      proj_rank          : projRankMap[p.dg_id]      ?? null,
       hasFit
     };
   });
@@ -215,7 +217,7 @@ function renderGrid() {
   const getValue = p => {
     if (sortBy === 'sg_total')   return p.projected_sg_total ?? -Infinity;
     if (sortBy === 'course_fit') return p.course_fit_score   ?? -Infinity;
-    if (sortBy === 'ml')         return p.ml_score           ?? -Infinity;
+    if (sortBy === 'ml')         return p.adjusted_sg_total  ?? -Infinity;
     return p.salary ?? 0;
   };
 
@@ -283,7 +285,10 @@ function buildPlayerTable(sorted) {
     const skillCells = displaySkills.map(skill => {
       const pts = player.courses[skill];
       if (!pts || !pts.length) return `<td class="pt-skill pt-na">—</td>`;
-      const avg   = pts.reduce((a, b) => a + b.value, 0) / pts.length;
+      const wSum = pts.reduce((a, b) => a + (b.cor_score || 0), 0);
+      const avg  = wSum > 0
+        ? pts.reduce((a, b) => a + b.value * (b.cor_score || 0), 0) / wSum
+        : pts.reduce((a, b) => a + b.value, 0) / pts.length;
       const color = valueColor(avg, 1.5);
       const sign  = avg >= 0 ? '+' : '';
       return `<td class="pt-skill" style="color:${color}">${sign}${avg.toFixed(2)}</td>`;
@@ -342,7 +347,10 @@ function buildPlayerCard(player, idx) {
   const skillSummaryHTML = displaySkills.map(skill => {
     const pts = player.courses[skill];
     if (!pts || !pts.length) return '';
-    const avg = pts.reduce((a,b) => a + b.value, 0) / pts.length;
+    const wSum = pts.reduce((a, b) => a + (b.cor_score || 0), 0);
+    const avg  = wSum > 0
+      ? pts.reduce((a, b) => a + b.value * (b.cor_score || 0), 0) / wSum
+      : pts.reduce((a, b) => a + b.value, 0) / pts.length;
     const color = valueColor(avg, 1.5);
     const sign  = avg >= 0 ? '+' : '';
     const t     = Math.max(-1, Math.min(1, avg / 1.5));
@@ -415,18 +423,21 @@ function buildPlayerCard(player, idx) {
   const hasFit    = player.course_fit_score != null && player.course_fit_score !== 0;
   const fitVal    = hasFit ? player.course_fit_score : null;
   const sgVal     = (hasFit && player.projected_sg_total != null) ? player.projected_sg_total : null;
+  const adjVal    = player.adjusted_sg_total;
   const rankStr   = player.proj_rank  != null ? `#${player.proj_rank}` : '—';
   const sgStr     = sgVal  != null ? (sgVal  >= 0 ? '+' : '') + sgVal.toFixed(2)  : 'N/A';
   const fitStr    = fitVal != null ? (fitVal >= 0 ? '+' : '') + fitVal.toFixed(2) : '—';
+  const adjStr    = adjVal != null ? (adjVal >= 0 ? '+' : '') + adjVal.toFixed(2) : '—';
   const sgColor   = sgVal  != null ? valueColor(sgVal,  2.0) : 'var(--muted)';
   const fitColor  = fitVal != null ? valueColor(fitVal, 0.3) : 'var(--muted)';
+  const adjColor  = adjVal != null ? valueColor(adjVal, 2.0) : 'var(--muted)';
 
   const projStatsHTML = `
     <div class="proj-stats">
       <span class="proj-stat"><span class="proj-label">Rank</span><span class="proj-val">${rankStr}</span></span>
       <span class="proj-stat"><span class="proj-label">SG Total</span><span class="proj-val" style="color:${sgColor}">${sgStr}</span></span>
       <span class="proj-stat"><span class="proj-label">Course Fit</span><span class="proj-val" style="color:${fitColor}">${fitStr}</span></span>
-      <span class="proj-stat"><span class="proj-label proj-label-ml">✨ ML</span><span class="proj-val proj-val-ml">—</span></span>
+      <span class="proj-stat"><span class="proj-label proj-label-ml">✨ ML</span><span class="proj-val proj-val-ml" style="color:${adjColor}">${adjStr}</span></span>
     </div>`;
 
   card.innerHTML = `

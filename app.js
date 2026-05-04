@@ -345,7 +345,7 @@ function buildPlayerCard(player, idx) {
     const pts = player.courses[skill] || [];
     if (!pts.length) return '';
     const sorted = [...pts].sort((a, b) =>
-      Math.abs(b.value * b.cor_score) - Math.abs(a.value * a.cor_score)
+      (b.shared_players || 0) - (a.shared_players || 0)
     );
     const skillLabel = (SKILL_LABELS[skill] || skill).toUpperCase();
     const headerRow  = `<tr class="ct-skill-header"><td colspan="4">${skillLabel}</td></tr>`;

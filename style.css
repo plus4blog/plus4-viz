@@ -556,10 +556,39 @@ select:hover, select:focus { border-color: var(--accent); }
   white-space: nowrap;
 }
 
-.ct-course { color: var(--text); font-weight: 500; width: 100%; white-space: normal; text-transform: uppercase; }
-.ct-val    { font-family: 'Archivo Narrow', sans-serif; font-size: 15px; text-align: right; }
-.ct-r      { color: var(--muted); text-align: right; font-size: 12px; }
-.ct-p      { color: var(--muted); text-align: right; font-size: 12px; }
+.ct-course    { color: var(--text); font-weight: 500; width: 100%; white-space: normal; text-transform: uppercase; }
+.ct-val       { font-family: 'Archivo Narrow', sans-serif; font-size: 15px; text-align: right; white-space: nowrap; }
+.ct-cor       { color: var(--muted); text-align: right; font-size: 12px; white-space: nowrap; }
+.ct-contrib   { text-align: right; white-space: nowrap; min-width: 120px; }
+.ct-r         { color: var(--muted); text-align: right; font-size: 12px; }
+.ct-p         { color: var(--muted); text-align: right; font-size: 12px; }
+.ct-skill-col { text-align: center; white-space: nowrap; }
+.ct-skill-badge {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: var(--surface);
+  color: var(--muted);
+  border: 1px solid var(--border);
+}
+.ct-bar-wrap {
+  display: inline-block;
+  width: 48px;
+  height: 6px;
+  background: var(--border);
+  border-radius: 3px;
+  margin-right: 6px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+.ct-bar {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.2s;
+}
 
 .dk-salary {
   font-family: 'IBM Plex Sans', sans-serif;

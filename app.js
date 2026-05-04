@@ -5,7 +5,6 @@ let players      = [];    // [{name, salary, courses, proj_rank, projected_sg_to
 let activeSkill  = null;  // skill shown in global filter (null = all)
 let sortBy       = 'salary';
 let sortDir      = 'desc';
-let chartInstances = {};  // canvasId -> Chart instance
 let searchQuery  = '';    // player name filter
 let viewMode     = 'card'; // 'card' | 'table'
 
@@ -17,13 +16,6 @@ const SKILL_LABELS = {
   sg_total: 'Other Tours'
 };
 
-const SKILL_BOUNDS = {
-  sg_ott  : 2.0,
-  sg_app  : 1.5,
-  sg_arg  : 1.5,
-  sg_putt : 2.0,
-  sg_total: 2.5
-};
 
 const SKILL_COLORS = {
   sg_ott  : 'rgba(204,31,31,0.85)',
@@ -192,24 +184,6 @@ function buildGlobalSkillTabs(skills) {
   });
 }
 
-// ── INTERSECTION OBSERVER (lazy chart rendering) ──────────────────────────────
-let cardObserver = null;
-
-function setupCardObserver() {
-  if (cardObserver) cardObserver.disconnect();
-  cardObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (!entry.isIntersecting) return;
-      const card = entry.target;
-      const pending = card._pendingCharts;
-      if (!pending) return;
-      delete card._pendingCharts;
-      cardObserver.unobserve(card);
-      pending.forEach(({ id, player, skill }) => drawRadar(id, player, skill));
-    });
-  }, { rootMargin: '200px' });
-}
-
 // ── RENDER GRID ───────────────────────────────────────────────────────────────
 function renderGrid() {
   document.getElementById('empty-state').style.display = 'none';
@@ -233,9 +207,6 @@ function renderGrid() {
   document.getElementById('player-count').textContent =
     `${sorted.length} player${sorted.length !== 1 ? 's' : ''} · sorted by ${sortLabel[sortBy]}`;
 
-  Object.values(chartInstances).forEach(c => c.destroy());
-  chartInstances = {};
-
   const grid = document.getElementById('player-grid');
   grid.innerHTML = '';
 
@@ -245,15 +216,11 @@ function renderGrid() {
     return;
   }
 
-  setupCardObserver();
-
   sorted.forEach((player, idx) => {
-    const card = buildPlayerCard(player, idx);
-    grid.appendChild(card);
-    cardObserver.observe(card);
+    grid.appendChild(buildPlayerCard(player, idx));
   });
 
-  setTimeout(reportHeight, 600);
+  setTimeout(reportHeight, 400);
 }
 
 // ── PLAYER TABLE (lightweight view) ──────────────────────────────────────────
@@ -368,56 +335,55 @@ function buildPlayerCard(player, idx) {
       <div class="skill-course-count">${courseCount <= 2 ? '<span class="limited-data-warn" title="Limited data">⚠</span> ' : ''}${courseCount} course${courseCount !== 1 ? 's' : ''}</div>`;
   }).join('');
 
-  const isSingleSkill = displaySkills.length === 1;
+  // Contribution table — all skills combined (or single skill), sorted by |contribution|
+  const showSkillCol = displaySkills.length > 1;
+  const allPts = displaySkills.flatMap(skill =>
+    (player.courses[skill] || []).map(d => ({ ...d, skill }))
+  );
+  const sortedPts = [...allPts].sort((a, b) =>
+    Math.abs(b.value * b.cor_score) - Math.abs(a.value * a.cor_score)
+  );
+  const displayPts = showSkillCol ? sortedPts.slice(0, 15) : sortedPts;
 
-  let bodyContent;
-  if (isSingleSkill) {
-    const skill  = displaySkills[0];
-    const pts    = player.courses[skill] || [];
-    const sorted = [...pts].sort((a, b) => b.shared_players - a.shared_players);
-    const rows   = sorted.map(d => {
-      const sign  = d.value >= 0 ? '+' : '';
-      const color = valueColor(d.value, 1.5);
-      return `<tr>
-        <td class="ct-course">${d.course}</td>
-        <td class="ct-val" style="color:${color}">${sign}${d.value.toFixed(3)}</td>
-        <td class="ct-r">${d.shared_players ?? '—'}</td>
-      </tr>`;
-    }).join('');
+  const skillTh  = showSkillCol ? '<th class="ct-skill-col">Skill</th>' : '';
+  const tableRows = displayPts.map(d => {
+    const contrib     = d.value * d.cor_score;
+    const maxContrib  = sortedPts[0] ? Math.abs(sortedPts[0].value * sortedPts[0].cor_score) : 1;
+    const barPct      = maxContrib > 0 ? Math.abs(contrib) / maxContrib * 100 : 0;
+    const valSign     = d.value  >= 0 ? '+' : '';
+    const contribSign = contrib  >= 0 ? '+' : '';
+    const valColor    = valueColor(d.value,  1.5);
+    const contribColor = valueColor(contrib, 0.4);
+    const skillCell   = showSkillCol
+      ? `<td class="ct-skill-col"><span class="ct-skill-badge">${SKILL_SHORT[d.skill] || d.skill}</span></td>`
+      : '';
+    return `<tr>
+      <td class="ct-course">${d.course}</td>
+      ${skillCell}
+      <td class="ct-val" style="color:${valColor}">${valSign}${d.value.toFixed(3)}</td>
+      <td class="ct-cor">${d.cor_score.toFixed(2)}</td>
+      <td class="ct-contrib">
+        <div class="ct-bar-wrap">
+          <div class="ct-bar" style="width:${barPct.toFixed(1)}%;background:${contribColor};"></div>
+        </div>
+        <span style="color:${contribColor}">${contribSign}${contrib.toFixed(3)}</span>
+      </td>
+    </tr>`;
+  }).join('');
 
-    bodyContent = `
-      <div class="split-body">
-        <div class="split-radar">
-          <div class="radar-skill-label">${SKILL_LABELS[skill] || skill}</div>
-          <div class="radar-single">
-            <canvas id="radar-${idx}-0"></canvas>
-            <div class="no-data" id="nodata-${idx}-0" style="display:none;">No data</div>
-          </div>
-        </div>
-        <div class="split-table">
-          <div class="course-table-wrap">
-            <table class="course-table">
-              <thead><tr>
-                <th>Course</th>
-                <th>Avg Over Exp</th>
-                <th>Events</th>
-              </tr></thead>
-              <tbody>${rows}</tbody>
-            </table>
-          </div>
-        </div>
-      </div>`;
-  } else {
-    const radarSlotsHTML = displaySkills.map((skill, si) => `
-      <div class="radar-slot">
-        <div class="radar-skill-label">${SKILL_LABELS[skill] || skill}</div>
-        <div class="radar-single">
-          <canvas id="radar-${idx}-${si}"></canvas>
-          <div class="no-data" id="nodata-${idx}-${si}" style="display:none;">No data</div>
-        </div>
-      </div>`).join('');
-    bodyContent = `<div class="radar-wrap">${radarSlotsHTML}</div>`;
-  }
+  const bodyContent = `
+    <div class="course-table-wrap">
+      <table class="course-table">
+        <thead><tr>
+          <th class="ct-course">Course</th>
+          ${skillTh}
+          <th class="ct-val">SG vs Exp</th>
+          <th class="ct-cor">COR</th>
+          <th class="ct-contrib">Contribution</th>
+        </tr></thead>
+        <tbody>${tableRows || '<tr><td colspan="5" style="color:var(--muted);text-align:center;padding:12px;">No data</td></tr>'}</tbody>
+      </table>
+    </div>`;
 
   // Projection stats row
   const hasFit    = player.course_fit_score != null && player.course_fit_score !== 0;
@@ -447,17 +413,8 @@ function buildPlayerCard(player, idx) {
       ${projStatsHTML}
       <div class="skill-summary">${skillSummaryHTML}</div>
     </div>
-    <div class="card-body">
-      <div class="card-skill-tabs"></div>
-      ${bodyContent}
-    </div>
+    <div class="card-body">${bodyContent}</div>
   `;
-
-  const pendingCharts = isSingleSkill
-    ? [{ id: `${idx}-0`, player, skill: displaySkills[0] }]
-    : displaySkills.map((skill, si) => ({ id: `${idx}-${si}`, player, skill }));
-
-  card._pendingCharts = pendingCharts;
 
   return card;
 }
@@ -472,140 +429,6 @@ function valueColor(val, bound) {
   return `rgb(${r},${g},${b})`;
 }
 
-// ── RADAR CHART ───────────────────────────────────────────────────────────────
-function drawRadar(canvasId, player, skill) {
-  const noDataEl = document.getElementById(`nodata-${canvasId}`);
-  const canvas   = document.getElementById(`radar-${canvasId}`);
-
-  if (chartInstances[canvasId]) {
-    chartInstances[canvasId].destroy();
-    delete chartInstances[canvasId];
-  }
-
-  const points = player.courses[skill];
-  if (!points || !points.length) {
-    canvas.style.display = 'none';
-    noDataEl.style.display = 'flex';
-    return;
-  }
-
-  canvas.style.display = 'block';
-  noDataEl.style.display = 'none';
-
-  const sorted  = [...points].sort((a, b) => b.shared_players - a.shared_players);
-  const MAX_AXES = 15;
-  const MIN_AXES = 3;
-  const raw     = sorted.slice(0, MAX_AXES);
-
-  // Pad to at least MIN_AXES spokes with empty placeholders
-  const display = raw.length >= MIN_AXES
-    ? raw
-    : [...raw, ...Array(MIN_AXES - raw.length).fill({ course: '', value: 0, cor_score: 0, shared_players: 0 })];
-
-  const labels = display.map(d => d.course ? wrapLabel(d.course, 14) : ['']);
-  const values = display.map(d => d.value);
-
-  const bound  = SKILL_BOUNDS[skill] ?? 1.5;
-  const allVals = values.filter(v => isFinite(v));
-  const avgVal  = allVals.reduce((a, b) => a + b, 0) / allVals.length;
-
-  const colorSolid  = valueColor(avgVal, bound);
-  const colorFill   = colorSolid.replace('rgb(', 'rgba(').replace(')', ',0.25)');
-  const colorBorder = colorSolid.replace('rgb(', 'rgba(').replace(')', ',0.9)');
-
-  const ctx = canvas.getContext('2d');
-
-  chartInstances[canvasId] = new Chart(ctx, {
-    type: 'radar',
-    data: {
-      labels,
-      datasets: [
-        {
-          label: '_baseline',
-          data: values.map(() => 0),
-          backgroundColor: 'transparent',
-          borderColor: 'transparent',
-          pointRadius: 0,
-          fill: false
-        },
-        {
-          label: SKILL_LABELS[skill] || skill,
-          data: values,
-          backgroundColor: colorFill,
-          borderColor: colorBorder,
-          pointBackgroundColor: display.map(d => valueColor(d.value, bound)),
-          pointBorderColor: 'transparent',
-          pointRadius: 4,
-          borderWidth: 1.5,
-          fill: '-1'
-        }
-      ]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      animation: { duration: 300 },
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          backgroundColor: '#ffffff',
-          borderColor: '#e0e0e0',
-          borderWidth: 1,
-          titleColor: '#111111',
-          bodyColor: '#555555',
-          titleFont: { family: 'IBM Plex Sans', size: 11 },
-          bodyFont:  { family: 'IBM Plex Sans', size: 11 },
-          callbacks: {
-            title: items => display[items[0].dataIndex]?.course || '',
-            label: item  => {
-              const d = display[item.dataIndex];
-              if (!d.course) return '';
-              const sign = d.value >= 0 ? '+' : '';
-              return `${sign}${d.value.toFixed(3)}  (r=${d.cor_score.toFixed(2)})`;
-            },
-            filter: item => !!display[item.dataIndex]?.course
-          }
-        }
-      },
-      scales: {
-        r: {
-          min: -bound,
-          max:  bound,
-          ticks: { display: false, stepSize: bound / 2 },
-          grid: { color: 'rgba(200,200,200,0.8)' },
-          angleLines: { color: 'rgba(200,200,200,0.6)' },
-          pointLabels: {
-            font: { family: 'Archivo Narrow', size: 11, lineHeight: 0.9 },
-            color: ctx => ctx.label?.[0] === '' ? 'transparent' : '#999999',
-            padding: 4
-          }
-        }
-      }
-    }
-  });
-}
-
-function truncate(str, n) {
-  return str && str.length > n ? str.slice(0, n - 1) + '…' : str;
-}
-
-function wrapLabel(str, maxChars) {
-  if (!str) return [''];
-  str = str.toUpperCase();
-  const words = str.split(' ');
-  const lines = [];
-  let line = '';
-  for (const word of words) {
-    if (line && (line + ' ' + word).length > maxChars) {
-      lines.push(line);
-      line = word;
-    } else {
-      line = line ? line + ' ' + word : word;
-    }
-  }
-  if (line) lines.push(line);
-  return lines;
-}
 
 // ── SORT / SEARCH / VIEW CONTROLS ────────────────────────────────────────────
 document.getElementById('sort-by-group').addEventListener('click', e => {

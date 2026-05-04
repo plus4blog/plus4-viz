@@ -16,6 +16,14 @@ const SKILL_LABELS = {
   sg_total: 'Other Tours'
 };
 
+const SKILL_SHORT = {
+  sg_ott  : 'OTT',
+  sg_app  : 'APP',
+  sg_arg  : 'ARG',
+  sg_putt : 'PUTT',
+  sg_total: 'TOT'
+};
+
 
 const SKILL_COLORS = {
   sg_ott  : 'rgba(204,31,31,0.85)',
@@ -335,23 +343,24 @@ function buildPlayerCard(player, idx) {
       <div class="skill-course-count">${courseCount <= 2 ? '<span class="limited-data-warn" title="Limited data">⚠</span> ' : ''}${courseCount} course${courseCount !== 1 ? 's' : ''}</div>`;
   }).join('');
 
-  // Contribution table — grouped by skill with section headers
-  const allPts = displaySkills.flatMap(skill =>
-    (player.courses[skill] || []).map(d => ({ ...d, skill }))
-  );
-  const maxContrib = allPts.reduce((m, d) => Math.max(m, Math.abs(d.value * d.cor_score)), 0);
+  // Skill tabs + per-skill tbodies (Power BI-style contribution bars)
+  const tabs = displaySkills.length > 1
+    ? `<div class="card-skill-tabs">${
+        displaySkills.map((skill, i) =>
+          `<button class="card-skill-btn${i === 0 ? ' active' : ''}" data-skill="${skill}" onclick="switchCardSkill(this)">${SKILL_SHORT[skill] || skill.replace('sg_','').toUpperCase()}</button>`
+        ).join('')
+      }</div>`
+    : '';
 
-  const groupedRows = displaySkills.map(skill => {
+  const tbodies = displaySkills.map((skill, i) => {
     const pts = player.courses[skill] || [];
-    if (!pts.length) return '';
-    const sorted = [...pts].sort((a, b) =>
-      (b.shared_players || 0) - (a.shared_players || 0)
-    );
-    const skillLabel = (SKILL_LABELS[skill] || skill).toUpperCase();
-    const headerRow  = `<tr class="ct-skill-header"><td colspan="4">${skillLabel}</td></tr>`;
-    const courseRows = sorted.map(d => {
+    const sorted = [...pts].sort((a, b) => (b.shared_players || 0) - (a.shared_players || 0));
+    const maxC = sorted.reduce((m, d) => Math.max(m, Math.abs(d.value * d.cor_score)), 0);
+    const rows = sorted.map(d => {
       const contrib      = d.value * d.cor_score;
-      const barPct       = maxContrib > 0 ? Math.abs(contrib) / maxContrib * 100 : 0;
+      const barPct       = maxC > 0 ? Math.abs(contrib) / maxC * 100 : 0;
+      const barRgba      = contrib >= 0 ? 'rgba(34,197,94,0.18)' : 'rgba(220,38,38,0.18)';
+      const barBg        = `linear-gradient(to right,${barRgba} ${barPct.toFixed(1)}%,transparent ${barPct.toFixed(1)}%)`;
       const valSign      = d.value  >= 0 ? '+' : '';
       const contribSign  = contrib  >= 0 ? '+' : '';
       const valColor     = valueColor(d.value,  1.5);
@@ -360,18 +369,18 @@ function buildPlayerCard(player, idx) {
         <td class="ct-course">${d.course}</td>
         <td class="ct-val" style="color:${valColor}">${valSign}${d.value.toFixed(3)}</td>
         <td class="ct-cor">${d.cor_score.toFixed(2)}</td>
-        <td class="ct-contrib">
-          <div class="ct-bar-wrap">
-            <div class="ct-bar" style="width:${barPct.toFixed(1)}%;background:${contribColor};"></div>
-          </div>
-          <span style="color:${contribColor}">${contribSign}${contrib.toFixed(3)}</span>
+        <td class="ct-contrib" style="background-image:${barBg}">
+          <span style="color:${contribColor};position:relative;">${contribSign}${contrib.toFixed(3)}</span>
         </td>
       </tr>`;
     }).join('');
-    return headerRow + courseRows;
+    return `<tbody class="card-skill-body" data-skill="${skill}"${i > 0 ? ' style="display:none"' : ''}>
+      ${rows || '<tr><td colspan="4" style="color:var(--muted);text-align:center;padding:12px;">No data</td></tr>'}
+    </tbody>`;
   }).join('');
 
   const bodyContent = `
+    ${tabs}
     <div class="course-table-wrap">
       <table class="course-table">
         <thead><tr>
@@ -380,7 +389,7 @@ function buildPlayerCard(player, idx) {
           <th class="ct-cor">COR</th>
           <th class="ct-contrib">Contribution</th>
         </tr></thead>
-        <tbody>${groupedRows || '<tr><td colspan="4" style="color:var(--muted);text-align:center;padding:12px;">No data</td></tr>'}</tbody>
+        ${tbodies}
       </table>
     </div>`;
 
@@ -441,6 +450,16 @@ document.getElementById('sort-dir-btn').addEventListener('click', () => {
   document.getElementById('sort-dir-btn').textContent = sortDir === 'desc' ? '↓' : '↑';
   if (players.length) renderGrid();
 });
+
+function switchCardSkill(btn) {
+  const card  = btn.closest('.player-card');
+  const skill = btn.dataset.skill;
+  card.querySelectorAll('.card-skill-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  card.querySelectorAll('.card-skill-body').forEach(b => {
+    b.style.display = b.dataset.skill === skill ? '' : 'none';
+  });
+}
 
 function onSearchInput(val) {
   searchQuery = val.trim().toLowerCase();

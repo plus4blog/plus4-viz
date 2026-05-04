@@ -16,14 +16,6 @@ const SKILL_LABELS = {
   sg_total: 'Other Tours'
 };
 
-const SKILL_SHORT = {
-  sg_ott  : 'OTT',
-  sg_app  : 'APP',
-  sg_arg  : 'ARG',
-  sg_putt : 'PUTT',
-  sg_total: 'TOT'
-};
-
 
 const SKILL_COLORS = {
   sg_ott  : 'rgba(204,31,31,0.85)',

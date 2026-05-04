@@ -562,6 +562,18 @@ select:hover, select:focus { border-color: var(--accent); }
 .ct-contrib   { text-align: right; white-space: nowrap; min-width: 120px; }
 .ct-r         { color: var(--muted); text-align: right; font-size: 12px; }
 .ct-p         { color: var(--muted); text-align: right; font-size: 12px; }
+.ct-skill-header td {
+  padding: 8px 10px 3px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--label);
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  text-transform: uppercase;
+}
+.ct-skill-header:first-child td { border-top: none; }
+
 .ct-skill-col { text-align: center; white-space: nowrap; }
 .ct-skill-badge {
   font-family: 'IBM Plex Sans', sans-serif;

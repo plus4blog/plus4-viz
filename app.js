@@ -335,40 +335,40 @@ function buildPlayerCard(player, idx) {
       <div class="skill-course-count">${courseCount <= 2 ? '<span class="limited-data-warn" title="Limited data">⚠</span> ' : ''}${courseCount} course${courseCount !== 1 ? 's' : ''}</div>`;
   }).join('');
 
-  // Contribution table — all skills combined (or single skill), sorted by |contribution|
-  const showSkillCol = displaySkills.length > 1;
+  // Contribution table — grouped by skill with section headers
   const allPts = displaySkills.flatMap(skill =>
     (player.courses[skill] || []).map(d => ({ ...d, skill }))
   );
-  const sortedPts = [...allPts].sort((a, b) =>
-    Math.abs(b.value * b.cor_score) - Math.abs(a.value * a.cor_score)
-  );
-  const displayPts = showSkillCol ? sortedPts.slice(0, 15) : sortedPts;
+  const maxContrib = allPts.reduce((m, d) => Math.max(m, Math.abs(d.value * d.cor_score)), 0);
 
-  const skillTh  = showSkillCol ? '<th class="ct-skill-col">Skill</th>' : '';
-  const tableRows = displayPts.map(d => {
-    const contrib     = d.value * d.cor_score;
-    const maxContrib  = sortedPts[0] ? Math.abs(sortedPts[0].value * sortedPts[0].cor_score) : 1;
-    const barPct      = maxContrib > 0 ? Math.abs(contrib) / maxContrib * 100 : 0;
-    const valSign     = d.value  >= 0 ? '+' : '';
-    const contribSign = contrib  >= 0 ? '+' : '';
-    const valColor    = valueColor(d.value,  1.5);
-    const contribColor = valueColor(contrib, 0.4);
-    const skillCell   = showSkillCol
-      ? `<td class="ct-skill-col"><span class="ct-skill-badge">${SKILL_SHORT[d.skill] || d.skill}</span></td>`
-      : '';
-    return `<tr>
-      <td class="ct-course">${d.course}</td>
-      ${skillCell}
-      <td class="ct-val" style="color:${valColor}">${valSign}${d.value.toFixed(3)}</td>
-      <td class="ct-cor">${d.cor_score.toFixed(2)}</td>
-      <td class="ct-contrib">
-        <div class="ct-bar-wrap">
-          <div class="ct-bar" style="width:${barPct.toFixed(1)}%;background:${contribColor};"></div>
-        </div>
-        <span style="color:${contribColor}">${contribSign}${contrib.toFixed(3)}</span>
-      </td>
-    </tr>`;
+  const groupedRows = displaySkills.map(skill => {
+    const pts = player.courses[skill] || [];
+    if (!pts.length) return '';
+    const sorted = [...pts].sort((a, b) =>
+      Math.abs(b.value * b.cor_score) - Math.abs(a.value * a.cor_score)
+    );
+    const skillLabel = (SKILL_LABELS[skill] || skill).toUpperCase();
+    const headerRow  = `<tr class="ct-skill-header"><td colspan="4">${skillLabel}</td></tr>`;
+    const courseRows = sorted.map(d => {
+      const contrib      = d.value * d.cor_score;
+      const barPct       = maxContrib > 0 ? Math.abs(contrib) / maxContrib * 100 : 0;
+      const valSign      = d.value  >= 0 ? '+' : '';
+      const contribSign  = contrib  >= 0 ? '+' : '';
+      const valColor     = valueColor(d.value,  1.5);
+      const contribColor = valueColor(contrib, 0.4);
+      return `<tr>
+        <td class="ct-course">${d.course}</td>
+        <td class="ct-val" style="color:${valColor}">${valSign}${d.value.toFixed(3)}</td>
+        <td class="ct-cor">${d.cor_score.toFixed(2)}</td>
+        <td class="ct-contrib">
+          <div class="ct-bar-wrap">
+            <div class="ct-bar" style="width:${barPct.toFixed(1)}%;background:${contribColor};"></div>
+          </div>
+          <span style="color:${contribColor}">${contribSign}${contrib.toFixed(3)}</span>
+        </td>
+      </tr>`;
+    }).join('');
+    return headerRow + courseRows;
   }).join('');
 
   const bodyContent = `
@@ -376,12 +376,11 @@ function buildPlayerCard(player, idx) {
       <table class="course-table">
         <thead><tr>
           <th class="ct-course">Course</th>
-          ${skillTh}
           <th class="ct-val">SG vs Exp</th>
           <th class="ct-cor">COR</th>
           <th class="ct-contrib">Contribution</th>
         </tr></thead>
-        <tbody>${tableRows || '<tr><td colspan="5" style="color:var(--muted);text-align:center;padding:12px;">No data</td></tr>'}</tbody>
+        <tbody>${groupedRows || '<tr><td colspan="4" style="color:var(--muted);text-align:center;padding:12px;">No data</td></tr>'}</tbody>
       </table>
     </div>`;
 
@@ -389,21 +388,18 @@ function buildPlayerCard(player, idx) {
   const hasFit    = player.course_fit_score != null && player.course_fit_score !== 0;
   const fitVal    = hasFit ? player.course_fit_score : null;
   const sgVal     = (hasFit && player.projected_sg_total != null) ? player.projected_sg_total : null;
-  const adjVal    = player.adjusted_sg_total;
   const rankStr   = player.proj_rank  != null ? `#${player.proj_rank}` : '—';
   const sgStr     = sgVal  != null ? (sgVal  >= 0 ? '+' : '') + sgVal.toFixed(2)  : 'N/A';
   const fitStr    = fitVal != null ? (fitVal >= 0 ? '+' : '') + fitVal.toFixed(2) : '—';
-  const adjStr    = adjVal != null ? (adjVal >= 0 ? '+' : '') + adjVal.toFixed(2) : '—';
   const sgColor   = sgVal  != null ? valueColor(sgVal,  2.0) : 'var(--muted)';
   const fitColor  = fitVal != null ? valueColor(fitVal, 0.3) : 'var(--muted)';
-  const adjColor  = adjVal != null ? valueColor(adjVal, 2.0) : 'var(--muted)';
 
   const projStatsHTML = `
     <div class="proj-stats">
       <span class="proj-stat"><span class="proj-label">Rank</span><span class="proj-val">${rankStr}</span></span>
       <span class="proj-stat"><span class="proj-label">SG Total</span><span class="proj-val" style="color:${sgColor}">${sgStr}</span></span>
       <span class="proj-stat"><span class="proj-label">Course Fit</span><span class="proj-val" style="color:${fitColor}">${fitStr}</span></span>
-      <span class="proj-stat"><span class="proj-label proj-label-ml">✨ ML</span><span class="proj-val proj-val-ml" style="color:${adjColor}">${adjStr}</span></span>
+      <span class="proj-stat"><span class="proj-label proj-label-ml">✨ ML</span><span class="proj-val proj-val-ml" style="color:var(--muted)">—</span></span>
     </div>`;
 
   card.innerHTML = `

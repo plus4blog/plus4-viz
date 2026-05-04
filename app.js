@@ -35,59 +35,11 @@ const SKILL_COLORS = {
 
 // ── CSV LOADING ───────────────────────────────────────────────────────────────
 const BASE_DATA_URL = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/main/data';
-const EVENTS_URL    = `${BASE_DATA_URL}/events.json`;
 
-let activeEvent = null; // null = current week (unprefixed files)
+let activeTour = 'pga'; // 'pga' | 'euro' | 'alt'
 
-function csvUrl()  {
-  const file = activeEvent ? `${activeEvent}_course_skill_lookup.csv` : 'course_skill_lookup.csv';
-  return `${BASE_DATA_URL}/${file}?v=${Date.now()}`;
-}
-function projUrl() {
-  const file = activeEvent ? `${activeEvent}_player_projections.csv` : 'player_projections.csv';
-  return `${BASE_DATA_URL}/${file}?v=${Date.now()}`;
-}
-
-async function loadEvents() {
-  try {
-    const res = await fetch(`${EVENTS_URL}?v=${Date.now()}`);
-    if (res.ok) {
-      const events = await res.json();
-      if (events.length) buildEventDropdown(events);
-    }
-  } catch (e) { /* no manifest — proceed with default */ }
-  loadCSV();
-}
-
-function buildEventDropdown(events) {
-  const sel = document.getElementById('event-select');
-  if (!sel) return;
-
-  // Most recently uploaded last in JSON → reverse so it appears first
-  const sorted = [...events].reverse();
-
-  sorted.forEach(ev => {
-    const opt = document.createElement('option');
-    opt.value = ev.prefix;
-    opt.textContent = ev.name;
-    sel.appendChild(opt);
-  });
-
-  const currentOpt = document.createElement('option');
-  currentOpt.value = '';
-  currentOpt.textContent = 'Current Week';
-  sel.appendChild(currentOpt);
-
-  // Default to most recent event
-  activeEvent = sorted[0].prefix;
-  sel.value = activeEvent;
-
-  sel.style.display = 'inline-block';
-  sel.addEventListener('change', () => {
-    activeEvent = sel.value || null;
-    loadCSV();
-  });
-}
+function csvUrl()  { return `${BASE_DATA_URL}/${activeTour}_course_skill_lookup.csv?v=${Date.now()}`; }
+function projUrl() { return `${BASE_DATA_URL}/${activeTour}_player_projections.csv?v=${Date.now()}`; }
 
 function loadCSV() {
   const status = document.getElementById('load-status');
@@ -126,7 +78,17 @@ function loadCSV() {
   });
 }
 
-loadEvents();
+loadCSV();
+
+// ── TOUR TOGGLE ───────────────────────────────────────────────────────────────
+document.getElementById('tour-toggle').addEventListener('click', e => {
+  const btn = e.target.closest('.tour-btn');
+  if (!btn) return;
+  activeTour = btn.dataset.tour;
+  document.querySelectorAll('#tour-toggle .tour-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  loadCSV();
+});
 
 function processData() {
   if (!allData.length) return;

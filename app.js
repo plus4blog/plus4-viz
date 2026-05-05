@@ -57,11 +57,10 @@ function loadCSV() {
       projData = {};
       result.data.forEach(row => {
         if (row.dg_id) projData[row.dg_id] = {
-          player_name        : row.player_name,
-          course_fit_score   : row.course_fit_score    != null ? parseFloat(row.course_fit_score)    : null,
-          projected_sg_total : row.projected_sg_total  != null ? parseFloat(row.projected_sg_total)  : null,
-          adjusted_sg_total  : row.adjusted_sg_total   != null ? parseFloat(row.adjusted_sg_total)   : null,
-          salary             : row.salary              != null ? parseFloat(row.salary)              : null
+          player_name         : row.player_name,
+          adjusted_course_fit : row.adjusted_course_fit != null ? parseFloat(row.adjusted_course_fit) : null,
+          adjusted_sg_total   : row.adjusted_sg_total   != null ? parseFloat(row.adjusted_sg_total)   : null,
+          salary              : row.salary              != null ? parseFloat(row.salary)              : null
         };
       });
       projDone = true;
@@ -120,30 +119,29 @@ function processData() {
       playerMap[row.dg_id].courses[skill] = [];
     }
     playerMap[row.dg_id].courses[skill].push({
-      course       : row.course_name_b || 'Unknown',
-      value        : parseFloat(row.avg_value) || 0,
-      cor_score    : parseFloat(row.cor_score) || 0,
-      shared_players: parseInt(row.shared_players) || 0
+      course           : row.course_name_b || 'Unknown',
+      contribution     : parseFloat(row.contribution)     || 0,
+      cor_score        : parseFloat(row.cor_score)        || 0,
+      effective_events : parseFloat(row.effective_events) || 0
     });
   });
 
-  // Merge projection data and compute ranks by projected_sg_total
+  // Merge projection data and compute ranks by adjusted_sg_total
   const projRankMap = {};
   Object.entries(projData)
-    .filter(([, v]) => v.projected_sg_total != null)
-    .sort(([, a], [, b]) => b.projected_sg_total - a.projected_sg_total)
+    .filter(([, v]) => v.adjusted_sg_total != null)
+    .sort(([, a], [, b]) => b.adjusted_sg_total - a.adjusted_sg_total)
     .forEach(([dg_id], i) => { projRankMap[dg_id] = i + 1; });
 
   players = Object.values(playerMap).map(p => {
     const proj = projData[p.dg_id] || null;
-    const hasFit = proj && proj.course_fit_score != null && proj.course_fit_score !== 0;
+    const hasFit = proj && proj.adjusted_course_fit != null && proj.adjusted_course_fit !== 0;
     return {
       ...p,
-      salary             : proj?.salary              ?? p.salary,
-      projected_sg_total : proj?.projected_sg_total  ?? null,
-      adjusted_sg_total  : proj?.adjusted_sg_total   ?? null,
-      course_fit_score   : proj?.course_fit_score    ?? null,
-      proj_rank          : projRankMap[p.dg_id]      ?? null,
+      salary              : proj?.salary              ?? p.salary,
+      adjusted_sg_total   : proj?.adjusted_sg_total   ?? null,
+      adjusted_course_fit : proj?.adjusted_course_fit ?? null,
+      proj_rank           : projRankMap[p.dg_id]      ?? null,
       hasFit
     };
   });
@@ -189,9 +187,9 @@ function renderGrid() {
   document.getElementById('empty-state').style.display = 'none';
 
   const getValue = p => {
-    if (sortBy === 'sg_total')   return p.projected_sg_total ?? -Infinity;
-    if (sortBy === 'course_fit') return p.course_fit_score   ?? -Infinity;
-    if (sortBy === 'ml')         return p.adjusted_sg_total  ?? -Infinity;
+    if (sortBy === 'sg_total')   return p.adjusted_sg_total   ?? -Infinity;
+    if (sortBy === 'course_fit') return p.adjusted_course_fit ?? -Infinity;
+    if (sortBy === 'ml')         return -Infinity;
     return p.salary ?? 0;
   };
 
@@ -242,8 +240,8 @@ function buildPlayerTable(sorted) {
   const rows = sorted.map(player => {
     const salaryStr = player.salary ? '$' + Number(player.salary).toLocaleString() : '—';
     const rankStr   = player.proj_rank != null ? `#${player.proj_rank}` : '—';
-    const sgVal     = player.projected_sg_total;
-    const fitVal    = player.course_fit_score;
+    const sgVal     = player.adjusted_sg_total;
+    const fitVal    = player.adjusted_course_fit;
     const sgStr     = sgVal  != null ? (sgVal  >= 0 ? '+' : '') + sgVal.toFixed(2)  : '—';
     const fitStr    = fitVal != null ? (fitVal >= 0 ? '+' : '') + fitVal.toFixed(3) : '—';
     const sgColor   = sgVal  != null ? valueColor(sgVal,  2.0) : 'var(--muted)';
@@ -252,13 +250,10 @@ function buildPlayerTable(sorted) {
     const skillCells = displaySkills.map(skill => {
       const pts = player.courses[skill];
       if (!pts || !pts.length) return `<td class="pt-skill pt-na">—</td>`;
-      const wSum = pts.reduce((a, b) => a + (b.cor_score || 0), 0);
-      const avg  = wSum > 0
-        ? pts.reduce((a, b) => a + b.value * (b.cor_score || 0), 0) / wSum
-        : pts.reduce((a, b) => a + b.value, 0) / pts.length;
-      const color = valueColor(avg, 1.5);
-      const sign  = avg >= 0 ? '+' : '';
-      return `<td class="pt-skill" style="color:${color}">${sign}${avg.toFixed(2)}</td>`;
+      const total = pts.reduce((a, b) => a + (b.contribution || 0), 0);
+      const color = valueColor(total, 0.5);
+      const sign  = total >= 0 ? '+' : '';
+      return `<td class="pt-skill" style="color:${color}">${sign}${total.toFixed(3)}</td>`;
     }).join('');
 
     return `<tr class="pt-row">
@@ -314,15 +309,12 @@ function buildPlayerCard(player, idx) {
   const skillSummaryHTML = displaySkills.map(skill => {
     const pts = player.courses[skill];
     if (!pts || !pts.length) return '';
-    const wSum = pts.reduce((a, b) => a + (b.cor_score || 0), 0);
-    const avg  = wSum > 0
-      ? pts.reduce((a, b) => a + b.value * (b.cor_score || 0), 0) / wSum
-      : pts.reduce((a, b) => a + b.value, 0) / pts.length;
-    const color = valueColor(avg, 1.5);
-    const sign  = avg >= 0 ? '+' : '';
-    const t     = Math.max(-1, Math.min(1, avg / 1.5));
+    const total = pts.reduce((a, b) => a + (b.contribution || 0), 0);
+    const color = valueColor(total, 0.5);
+    const sign  = total >= 0 ? '+' : '';
+    const t     = Math.max(-1, Math.min(1, total / 0.5));
     const pct   = Math.abs(t) * 50;
-    const barLeft = avg >= 0 ? '50%' : `${50 - pct}%`;
+    const barLeft = total >= 0 ? '50%' : `${50 - pct}%`;
     const courseCount = pts.length;
     return `
       <div class="skill-summary-row">
@@ -330,7 +322,7 @@ function buildPlayerCard(player, idx) {
         <div class="skill-bar-wrap">
           <div class="skill-bar" style="width:${pct}%;left:${barLeft};background:${color};"></div>
         </div>
-        <span class="skill-summary-val" style="color:${color}">${sign}${avg.toFixed(2)}</span>
+        <span class="skill-summary-val" style="color:${color}">${sign}${total.toFixed(3)}</span>
       </div>
       <div class="skill-course-count">${courseCount <= 2 ? '<span class="limited-data-warn" title="Limited data">⚠</span> ' : ''}${courseCount} course${courseCount !== 1 ? 's' : ''}</div>`;
   }).join('');
@@ -346,21 +338,20 @@ function buildPlayerCard(player, idx) {
 
   const tbodies = displaySkills.map((skill, i) => {
     const pts = player.courses[skill] || [];
-    const sorted = [...pts].sort((a, b) => (b.shared_players || 0) - (a.shared_players || 0));
-    const maxC = sorted.reduce((m, d) => Math.max(m, Math.abs(d.value * d.cor_score)), 0);
+    const sorted = [...pts].sort((a, b) => (b.effective_events || 0) - (a.effective_events || 0));
+    const maxC = sorted.reduce((m, d) => Math.max(m, Math.abs(d.contribution)), 0);
     const rows = sorted.map(d => {
-      const contrib      = d.value * d.cor_score;
+      const contrib      = d.contribution;
       const barPct       = maxC > 0 ? Math.abs(contrib) / maxC * 100 : 0;
       const barRgba      = contrib >= 0 ? 'rgba(34,197,94,0.18)' : 'rgba(220,38,38,0.18)';
       const barBg        = `linear-gradient(to right,${barRgba} ${barPct.toFixed(1)}%,transparent ${barPct.toFixed(1)}%)`;
-      const valSign      = d.value  >= 0 ? '+' : '';
-      const contribSign  = contrib  >= 0 ? '+' : '';
-      const valColor     = valueColor(d.value,  1.5);
-      const contribColor = valueColor(contrib, 0.4);
+      const contribSign  = contrib >= 0 ? '+' : '';
+      const contribColor = valueColor(contrib, 0.3);
+      const effStr       = d.effective_events > 0 ? d.effective_events.toFixed(1) : '—';
       return `<tr>
         <td class="ct-course">${d.course}</td>
-        <td class="ct-val" style="color:${valColor}">${valSign}${d.value.toFixed(3)}</td>
         <td class="ct-cor">${d.cor_score.toFixed(2)}</td>
+        <td class="ct-eff">${effStr}</td>
         <td class="ct-contrib" style="background-image:${barBg}">
           <span style="color:${contribColor};position:relative;">${contribSign}${contrib.toFixed(3)}</span>
         </td>
@@ -377,8 +368,8 @@ function buildPlayerCard(player, idx) {
       <table class="course-table">
         <thead><tr>
           <th class="ct-course">Course</th>
-          <th class="ct-val">SG vs Exp</th>
           <th class="ct-cor">COR</th>
+          <th class="ct-eff">Eff Ev</th>
           <th class="ct-contrib">Contribution</th>
         </tr></thead>
         ${tbodies}
@@ -386,11 +377,10 @@ function buildPlayerCard(player, idx) {
     </div>`;
 
   // Projection stats row
-  const hasFit    = player.course_fit_score != null && player.course_fit_score !== 0;
-  const fitVal    = hasFit ? player.course_fit_score : null;
-  const sgVal     = (hasFit && player.projected_sg_total != null) ? player.projected_sg_total : null;
+  const fitVal    = player.adjusted_course_fit ?? null;
+  const sgVal     = player.adjusted_sg_total   ?? null;
   const rankStr   = player.proj_rank  != null ? `#${player.proj_rank}` : '—';
-  const sgStr     = sgVal  != null ? (sgVal  >= 0 ? '+' : '') + sgVal.toFixed(2)  : 'N/A';
+  const sgStr     = sgVal  != null ? (sgVal  >= 0 ? '+' : '') + sgVal.toFixed(2)  : '—';
   const fitStr    = fitVal != null ? (fitVal >= 0 ? '+' : '') + fitVal.toFixed(2) : '—';
   const sgColor   = sgVal  != null ? valueColor(sgVal,  2.0) : 'var(--muted)';
   const fitColor  = fitVal != null ? valueColor(fitVal, 0.3) : 'var(--muted)';
@@ -467,7 +457,7 @@ function setViewMode(mode) {
 
 // ── COURSE BREAKDOWN ──────────────────────────────────────────────────────────
 let breakdownSkill = null;
-let breakdownSort  = 'shared_players';
+let breakdownSort  = 'effective_events';
 
 function buildBreakdown() {
   if (!allData.length) return;
@@ -480,13 +470,13 @@ function buildBreakdown() {
     if (!course || !skill) return;
     const key = `${course}||${skill}`;
     if (!keyMap[key]) {
-      keyMap[key] = { course, skill, cor_vals: [], shared_players: null };
+      keyMap[key] = { course, skill, cor_vals: [], effective_events: null };
     }
     const cor = parseFloat(row.cor_score);
-    const s   = parseInt(row.shared_players);
+    const ev  = parseFloat(row.effective_events);
     if (isFinite(cor)) keyMap[key].cor_vals.push(cor);
-    if (!isNaN(s) && (keyMap[key].shared_players === null || s > keyMap[key].shared_players))
-      keyMap[key].shared_players = s;
+    if (isFinite(ev) && (keyMap[key].effective_events === null || ev > keyMap[key].effective_events))
+      keyMap[key].effective_events = ev;
   });
 
   let rows = Object.values(keyMap).map(d => ({
@@ -546,8 +536,8 @@ function renderBreakdownRows(allRows) {
     : allRows;
 
   const sorted = [...filtered].sort((a, b) => {
-    if (breakdownSort === 'cor')            return Math.abs(b.cor_score) - Math.abs(a.cor_score);
-    if (breakdownSort === 'shared_players') return (b.shared_players ?? 0) - (a.shared_players ?? 0);
+    if (breakdownSort === 'cor')              return Math.abs(b.cor_score) - Math.abs(a.cor_score);
+    if (breakdownSort === 'effective_events') return (b.effective_events ?? 0) - (a.effective_events ?? 0);
     return 0;
   });
 
@@ -568,7 +558,7 @@ function renderBreakdownRows(allRows) {
         </span>
       </td>
       <td class="bd-cor" style="color:${corColor};font-variant-numeric:tabular-nums;">${corSign}${cor.toFixed(3)}</td>
-      <td class="bd-events">${d.shared_players ?? '—'}</td>
+      <td class="bd-events">${d.effective_events != null ? d.effective_events.toFixed(1) : '—'}</td>
     </tr>`;
   }).join('');
 

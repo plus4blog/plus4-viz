@@ -58,9 +58,9 @@ function loadCSV() {
       result.data.forEach(row => {
         if (row.dg_id) projData[row.dg_id] = {
           player_name         : row.player_name,
-          adjusted_course_fit : row.adjusted_course_fit != null ? parseFloat(row.adjusted_course_fit) : null,
-          adjusted_sg_total   : row.adjusted_sg_total   != null ? parseFloat(row.adjusted_sg_total)   : null,
-          salary              : row.salary              != null ? parseFloat(row.salary)              : null
+          adjusted_course_fit : parseFloat(row.adjusted_course_fit ?? row.course_fit_score)    || null,
+          adjusted_sg_total   : parseFloat(row.adjusted_sg_total   ?? row.projected_sg_total)  || null,
+          salary              : row.salary != null ? parseFloat(row.salary) : null
         };
       });
       projDone = true;
@@ -118,11 +118,16 @@ function processData() {
     if (!playerMap[row.dg_id].courses[skill]) {
       playerMap[row.dg_id].courses[skill] = [];
     }
+    const cor  = parseFloat(row.cor_score)    || 0;
+    const eff  = parseFloat(row.effective_events) || parseFloat(row.shared_players) || 0;
+    const contrib = row.contribution != null
+      ? parseFloat(row.contribution)
+      : (parseFloat(row.avg_value) || 0) * cor;
     playerMap[row.dg_id].courses[skill].push({
       course           : row.course_name_b || 'Unknown',
-      contribution     : parseFloat(row.contribution)     || 0,
-      cor_score        : parseFloat(row.cor_score)        || 0,
-      effective_events : parseFloat(row.effective_events) || 0
+      contribution     : contrib,
+      cor_score        : cor,
+      effective_events : eff
     });
   });
 
@@ -473,7 +478,7 @@ function buildBreakdown() {
       keyMap[key] = { course, skill, cor_vals: [], effective_events: null };
     }
     const cor = parseFloat(row.cor_score);
-    const ev  = parseFloat(row.effective_events);
+    const ev  = parseFloat(row.effective_events ?? row.shared_players);
     if (isFinite(cor)) keyMap[key].cor_vals.push(cor);
     if (isFinite(ev) && (keyMap[key].effective_events === null || ev > keyMap[key].effective_events))
       keyMap[key].effective_events = ev;

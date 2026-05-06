@@ -481,6 +481,7 @@ select:hover, select:focus { border-color: var(--accent); }
 
 .course-table {
   width: 100%;
+  table-layout: fixed;
   border-collapse: collapse;
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 13px;
@@ -513,7 +514,7 @@ select:hover, select:focus { border-color: var(--accent); }
   white-space: nowrap;
 }
 
-.ct-course  { color: var(--text); font-weight: 500; width: 100%; white-space: normal; text-transform: uppercase; }
+.ct-course  { color: var(--text); font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-transform: uppercase; }
 .ct-eff     { color: var(--muted); text-align: right; font-size: 12px; white-space: nowrap; }
 .ct-last    { color: var(--muted); text-align: right; font-size: 12px; white-space: nowrap; }
 .ct-contrib { text-align: right; white-space: nowrap; min-width: 90px; position: relative; }

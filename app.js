@@ -387,11 +387,7 @@ function fmtLastPlayed(dateStr) {
   if (!dateStr) return '—';
   const d = new Date(dateStr);
   if (isNaN(d)) return dateStr;
-  const now    = new Date();
-  const months = (now.getFullYear() - d.getFullYear()) * 12 + (now.getMonth() - d.getMonth());
-  if (months < 2)  return 'Recent';
-  if (months < 12) return `${months}mo`;
-  return `${Math.round(months / 12)}y`;
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 }
 
 function valueColor(val, bound) {
@@ -473,8 +469,8 @@ function buildBreakdown() {
     course           : d.course,
     skill            : d.skill,
     last_played      : d.last_played,
-    effective_events : d.eff_vals.length      ? d.eff_vals.reduce((a,b) => a+b, 0)      / d.eff_vals.length      : 0,
-    contribution     : d.contrib_vals.length  ? d.contrib_vals.reduce((a,b) => a+b, 0)  / d.contrib_vals.length  : 0
+    effective_events : d.eff_vals.reduce((a,b) => a+b, 0),
+    contribution     : d.contrib_vals.reduce((a,b) => a+b, 0)
   }));
 
   const skills  = [...new Set(breakdownRows.map(r => r.skill))];

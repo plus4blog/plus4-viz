@@ -127,7 +127,8 @@ function processData() {
       course           : row.course_name_b || 'Unknown',
       contribution     : contrib,
       cor_score        : cor,
-      effective_events : eff
+      effective_events : eff,
+      last_played      : row.last_played || null
     });
   });
 
@@ -353,10 +354,12 @@ function buildPlayerCard(player, idx) {
       const contribSign  = contrib >= 0 ? '+' : '';
       const contribColor = valueColor(contrib, 0.3);
       const effStr       = d.effective_events > 0 ? d.effective_events.toFixed(1) : '—';
+      const lastStr      = fmtLastPlayed(d.last_played);
       return `<tr>
         <td class="ct-course">${d.course}</td>
         <td class="ct-cor">${d.cor_score.toFixed(2)}</td>
         <td class="ct-eff">${effStr}</td>
+        <td class="ct-last">${lastStr}</td>
         <td class="ct-contrib" style="background-image:${barBg}">
           <span style="color:${contribColor};position:relative;">${contribSign}${contrib.toFixed(3)}</span>
         </td>
@@ -375,6 +378,7 @@ function buildPlayerCard(player, idx) {
           <th class="ct-course">Course</th>
           <th class="ct-cor">COR</th>
           <th class="ct-eff">Eff Ev</th>
+          <th class="ct-last">Last</th>
           <th class="ct-contrib">Contribution</th>
         </tr></thead>
         ${tbodies}
@@ -411,7 +415,19 @@ function buildPlayerCard(player, idx) {
   return card;
 }
 
-// ── COLOR HELPER ──────────────────────────────────────────────────────────────
+// ── HELPERS ───────────────────────────────────────────────────────────────────
+function fmtLastPlayed(dateStr) {
+  if (!dateStr) return '—';
+  const d = new Date(dateStr);
+  if (isNaN(d)) return dateStr;
+  const now = new Date();
+  const months = (now.getFullYear() - d.getFullYear()) * 12 + (now.getMonth() - d.getMonth());
+  if (months < 2)  return 'Recent';
+  if (months < 12) return `${months}mo`;
+  const yrs = Math.round(months / 12);
+  return `${yrs}y`;
+}
+
 function valueColor(val, bound) {
   const t = Math.max(-1, Math.min(1, val / (bound || 1)));
   function lerp(a, b, x) { return Math.round(a + (b - a) * x); }

@@ -560,6 +560,7 @@ select:hover, select:focus { border-color: var(--accent); }
 .ct-val       { font-family: 'Archivo Narrow', sans-serif; font-size: 15px; text-align: right; white-space: nowrap; }
 .ct-cor       { color: var(--muted); text-align: right; font-size: 12px; white-space: nowrap; }
 .ct-eff       { color: var(--muted); text-align: right; font-size: 12px; white-space: nowrap; }
+.ct-last      { color: var(--muted); text-align: right; font-size: 12px; white-space: nowrap; }
 .ct-contrib   { text-align: right; white-space: nowrap; min-width: 90px; position: relative; }
 .ct-r         { color: var(--muted); text-align: right; font-size: 12px; }
 .ct-p         { color: var(--muted); text-align: right; font-size: 12px; }

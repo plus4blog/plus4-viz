@@ -118,15 +118,11 @@ function processData() {
     if (!playerMap[row.dg_id].courses[skill]) {
       playerMap[row.dg_id].courses[skill] = [];
     }
-    const cor  = parseFloat(row.cor_score)    || 0;
-    const eff  = parseFloat(row.effective_events) || parseFloat(row.shared_players) || 0;
-    const contrib = row.contribution != null
-      ? parseFloat(row.contribution)
-      : (parseFloat(row.avg_value) || 0) * cor;
+    const contrib = parseFloat(row.contribution) || 0;
+    const eff     = parseFloat(row.effective_events) || 0;
     playerMap[row.dg_id].courses[skill].push({
       course           : row.course_name_b || 'Unknown',
       contribution     : contrib,
-      cor_score        : cor,
       effective_events : eff,
       last_played      : row.last_played || null
     });
@@ -344,8 +340,8 @@ function buildPlayerCard(player, idx) {
 
   const tbodies = displaySkills.map((skill, i) => {
     const pts = player.courses[skill] || [];
-    const sorted = [...pts].sort((a, b) => (b.effective_events || 0) - (a.effective_events || 0));
-    const maxC = sorted.reduce((m, d) => Math.max(m, Math.abs(d.contribution)), 0);
+    const sorted = [...pts].sort((a, b) => Math.abs(b.contribution) - Math.abs(a.contribution));
+    const maxC = sorted.length ? Math.abs(sorted[0].contribution) : 0;
     const rows = sorted.map(d => {
       const contrib      = d.contribution;
       const barPct       = maxC > 0 ? Math.abs(contrib) / maxC * 100 : 0;
@@ -357,7 +353,6 @@ function buildPlayerCard(player, idx) {
       const lastStr      = fmtLastPlayed(d.last_played);
       return `<tr>
         <td class="ct-course">${d.course}</td>
-        <td class="ct-cor">${d.cor_score.toFixed(2)}</td>
         <td class="ct-eff">${effStr}</td>
         <td class="ct-last">${lastStr}</td>
         <td class="ct-contrib" style="background-image:${barBg}">
@@ -376,7 +371,6 @@ function buildPlayerCard(player, idx) {
       <table class="course-table">
         <thead><tr>
           <th class="ct-course">Course</th>
-          <th class="ct-cor">COR</th>
           <th class="ct-eff">Eff Ev</th>
           <th class="ct-last">Last</th>
           <th class="ct-contrib">Contribution</th>
@@ -478,7 +472,7 @@ function setViewMode(mode) {
 
 // ── COURSE BREAKDOWN ──────────────────────────────────────────────────────────
 let breakdownSkill = null;
-let breakdownSort  = 'effective_events';
+let breakdownSort  = 'last_played';
 
 function buildBreakdown() {
   if (!allData.length) return;
@@ -491,18 +485,23 @@ function buildBreakdown() {
     if (!course || !skill) return;
     const key = `${course}||${skill}`;
     if (!keyMap[key]) {
-      keyMap[key] = { course, skill, cor_vals: [], effective_events: null };
+      keyMap[key] = { course, skill, last_played: null, eff_vals: [], contrib_vals: [] };
     }
-    const cor = parseFloat(row.cor_score);
-    const ev  = parseFloat(row.effective_events ?? row.shared_players);
-    if (isFinite(cor)) keyMap[key].cor_vals.push(cor);
-    if (isFinite(ev) && (keyMap[key].effective_events === null || ev > keyMap[key].effective_events))
-      keyMap[key].effective_events = ev;
+    const ev     = parseFloat(row.effective_events);
+    const c      = parseFloat(row.contribution);
+    const lp     = row.last_played || null;
+    if (isFinite(ev))  keyMap[key].eff_vals.push(ev);
+    if (isFinite(c))   keyMap[key].contrib_vals.push(c);
+    if (lp && (!keyMap[key].last_played || lp > keyMap[key].last_played))
+      keyMap[key].last_played = lp;
   });
 
   let rows = Object.values(keyMap).map(d => ({
-    ...d,
-    cor_score: d.cor_vals.length ? d.cor_vals.reduce((a, b) => a + b, 0) / d.cor_vals.length : 0
+    course       : d.course,
+    skill        : d.skill,
+    last_played  : d.last_played,
+    effective_events: d.eff_vals.length ? d.eff_vals.reduce((a, b) => a + b, 0) / d.eff_vals.length : 0,
+    contribution : d.contrib_vals.length ? d.contrib_vals.reduce((a, b) => a + b, 0) / d.contrib_vals.length : 0
   }));
 
   // Build skill tabs
@@ -557,8 +556,9 @@ function renderBreakdownRows(allRows) {
     : allRows;
 
   const sorted = [...filtered].sort((a, b) => {
-    if (breakdownSort === 'cor')              return Math.abs(b.cor_score) - Math.abs(a.cor_score);
+    if (breakdownSort === 'last_played')      return (b.last_played || '') > (a.last_played || '') ? 1 : -1;
     if (breakdownSort === 'effective_events') return (b.effective_events ?? 0) - (a.effective_events ?? 0);
+    if (breakdownSort === 'contribution')     return Math.abs(b.contribution ?? 0) - Math.abs(a.contribution ?? 0);
     return 0;
   });
 
@@ -567,10 +567,9 @@ function renderBreakdownRows(allRows) {
 
   const tbody = document.getElementById('breakdown-tbody');
   tbody.innerHTML = visible.map(d => {
-    const cor     = d.cor_score;
-    const corSign = cor >= 0 ? '+' : '';
-    const corColor = valueColor(cor, 0.8);
     const skillBadgeColor = SKILL_COLORS[d.skill] || 'rgba(100,100,100,0.2)';
+    const contribSign  = (d.contribution ?? 0) >= 0 ? '+' : '';
+    const contribColor = valueColor(d.contribution ?? 0, 0.3);
     return `<tr>
       <td class="bd-course">${d.course}</td>
       <td class="bd-skill">
@@ -578,8 +577,9 @@ function renderBreakdownRows(allRows) {
           ${SKILL_LABELS[d.skill] || d.skill}
         </span>
       </td>
-      <td class="bd-cor" style="color:${corColor};font-variant-numeric:tabular-nums;">${corSign}${cor.toFixed(3)}</td>
       <td class="bd-events">${d.effective_events != null ? d.effective_events.toFixed(1) : '—'}</td>
+      <td class="bd-last">${fmtLastPlayed(d.last_played)}</td>
+      <td class="bd-cor" style="color:${contribColor};font-variant-numeric:tabular-nums;">${contribSign}${(d.contribution ?? 0).toFixed(3)}</td>
     </tr>`;
   }).join('');
 

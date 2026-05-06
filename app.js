@@ -1,12 +1,13 @@
 // ── STATE ─────────────────────────────────────────────────────────────────────
-let allData      = [];    // raw parsed rows
-let projData     = {};    // player_name -> {course_fit_score, projected_sg_total}
-let players      = [];    // [{name, salary, courses, proj_rank, projected_sg_total, course_fit_score}]
-let activeSkill  = null;  // skill shown in global filter (null = all)
+let allData      = [];   // raw parsed rows from CSL CSV
+let projData     = {};   // dg_id -> {adjusted_course_fit, adjusted_sg_total, salary}
+let players      = [];   // [{name, salary, courses, proj_rank, adjusted_sg_total, adjusted_course_fit}]
+let activeSkill  = null; // global skill filter (null = all)
 let sortBy       = 'salary';
 let sortDir      = 'desc';
-let searchQuery  = '';    // player name filter
-let viewMode     = 'card'; // 'card' | 'table'
+let searchQuery  = '';
+let viewMode     = 'card';
+let breakdownRows = [];  // cached for sort/filter without re-aggregating
 
 const SKILL_LABELS = {
   sg_ott  : 'Off the Tee',
@@ -15,7 +16,6 @@ const SKILL_LABELS = {
   sg_putt : 'Putting',
   sg_total: 'Other Tours'
 };
-
 
 const SKILL_COLORS = {
   sg_ott  : 'rgba(204,31,31,0.85)',
@@ -28,7 +28,7 @@ const SKILL_COLORS = {
 // ── CSV LOADING ───────────────────────────────────────────────────────────────
 const BASE_DATA_URL = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/main/data';
 
-let activeTour = 'pga'; // 'pga' | 'euro' | 'alt'
+let activeTour = 'pga';
 
 function csvUrl()  { return `${BASE_DATA_URL}/${activeTour}_course_skill_lookup.csv?v=${Date.now()}`; }
 function projUrl() { return `${BASE_DATA_URL}/${activeTour}_player_projections.csv?v=${Date.now()}`; }
@@ -58,9 +58,9 @@ function loadCSV() {
       result.data.forEach(row => {
         if (row.dg_id) projData[row.dg_id] = {
           player_name         : row.player_name,
-          adjusted_course_fit : parseFloat(row.adjusted_course_fit ?? row.course_fit_score)    || null,
-          adjusted_sg_total   : parseFloat(row.adjusted_sg_total   ?? row.projected_sg_total)  || null,
-          salary              : row.salary != null ? parseFloat(row.salary) : null
+          adjusted_course_fit : row.adjusted_course_fit != null ? parseFloat(row.adjusted_course_fit) : null,
+          adjusted_sg_total   : row.adjusted_sg_total   != null ? parseFloat(row.adjusted_sg_total)   : null,
+          salary              : row.salary              != null ? parseFloat(row.salary)              : null
         };
       });
       projDone = true;
@@ -74,10 +74,10 @@ loadCSV();
 
 // ── TOUR TOGGLE ───────────────────────────────────────────────────────────────
 document.getElementById('tour-toggle').addEventListener('click', e => {
-  const btn = e.target.closest('.tour-btn');
-  if (!btn) return;
+  const btn = e.target.closest('.sort-btn');
+  if (!btn || !btn.dataset.tour) return;
   activeTour = btn.dataset.tour;
-  document.querySelectorAll('#tour-toggle .tour-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('#tour-toggle .sort-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   loadCSV();
 });
@@ -102,33 +102,22 @@ function processData() {
 
   buildGlobalSkillTabs(skills);
 
-  // Group by player
   const playerMap = {};
   allData.forEach(row => {
     if (!row.dg_id) return;
     if (!playerMap[row.dg_id]) {
-      playerMap[row.dg_id] = {
-        dg_id : row.dg_id,
-        name  : row.player_name,
-        salary: row.salary || 0,
-        courses: {}
-      };
+      playerMap[row.dg_id] = { dg_id: row.dg_id, name: row.player_name, salary: row.salary || 0, courses: {} };
     }
     const skill = row.skill;
-    if (!playerMap[row.dg_id].courses[skill]) {
-      playerMap[row.dg_id].courses[skill] = [];
-    }
-    const contrib = parseFloat(row.contribution) || 0;
-    const eff     = parseFloat(row.effective_events) || 0;
+    if (!playerMap[row.dg_id].courses[skill]) playerMap[row.dg_id].courses[skill] = [];
     playerMap[row.dg_id].courses[skill].push({
       course           : row.course_name_b || 'Unknown',
-      contribution     : contrib,
-      effective_events : eff,
+      contribution     : parseFloat(row.contribution)     || 0,
+      effective_events : parseFloat(row.effective_events) || 0,
       last_played      : row.last_played || null
     });
   });
 
-  // Merge projection data and compute ranks by adjusted_sg_total
   const projRankMap = {};
   Object.entries(projData)
     .filter(([, v]) => v.adjusted_sg_total != null)
@@ -137,14 +126,12 @@ function processData() {
 
   players = Object.values(playerMap).map(p => {
     const proj = projData[p.dg_id] || null;
-    const hasFit = proj && proj.adjusted_course_fit != null && proj.adjusted_course_fit !== 0;
     return {
       ...p,
       salary              : proj?.salary              ?? p.salary,
       adjusted_sg_total   : proj?.adjusted_sg_total   ?? null,
       adjusted_course_fit : proj?.adjusted_course_fit ?? null,
-      proj_rank           : projRankMap[p.dg_id]      ?? null,
-      hasFit
+      proj_rank           : projRankMap[p.dg_id]      ?? null
     };
   });
 
@@ -167,9 +154,8 @@ function buildGlobalSkillTabs(skills) {
   };
   container.appendChild(allBtn);
 
-  const order = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
+  const order   = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
   const ordered = [...order.filter(s => skills.includes(s)), ...skills.filter(s => !order.includes(s))];
-
   ordered.forEach(skill => {
     const btn = document.createElement('button');
     btn.className = 'skill-tab';
@@ -203,7 +189,7 @@ function renderGrid() {
     sortDir === 'desc' ? getValue(b) - getValue(a) : getValue(a) - getValue(b)
   );
 
-  const sortLabel = { salary: 'DraftKings salary', sg_total: 'projected SG Total', course_fit: 'Course Fit score', ml: '✨ ML score' };
+  const sortLabel = { salary: 'DraftKings salary', sg_total: 'SG Total', course_fit: 'Course Fit', ml: '✨ ML score' };
   document.getElementById('player-count').textContent =
     `${sorted.length} player${sorted.length !== 1 ? 's' : ''} · sorted by ${sortLabel[sortBy]}`;
 
@@ -216,14 +202,11 @@ function renderGrid() {
     return;
   }
 
-  sorted.forEach((player, idx) => {
-    grid.appendChild(buildPlayerCard(player, idx));
-  });
-
+  sorted.forEach((player, idx) => grid.appendChild(buildPlayerCard(player, idx)));
   setTimeout(reportHeight, 400);
 }
 
-// ── PLAYER TABLE (lightweight view) ──────────────────────────────────────────
+// ── PLAYER TABLE ──────────────────────────────────────────────────────────────
 const SKILL_ORDER = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
 const SKILL_SHORT = { sg_ott:'OTT', sg_app:'APP', sg_arg:'ARG', sg_putt:'PUTT', sg_total:'OTR' };
 
@@ -233,8 +216,7 @@ function buildPlayerTable(sorted) {
     ? (allSkills.includes(activeSkill) ? [activeSkill] : [])
     : [...SKILL_ORDER.filter(s => allSkills.includes(s)), ...allSkills.filter(s => !SKILL_ORDER.includes(s))];
 
-  const skillSubHeaders = displaySkills.map(s =>
-    `<th class="pt-skill pt-skill-sub">${SKILL_SHORT[s] || s}</th>`).join('');
+  const skillSubHeaders  = displaySkills.map(s => `<th class="pt-skill pt-skill-sub">${SKILL_SHORT[s] || s}</th>`).join('');
   const skillGroupHeader = displaySkills.length
     ? `<th class="pt-skill-group" colspan="${displaySkills.length}">Course Fit Components</th>`
     : '';
@@ -281,9 +263,7 @@ function buildPlayerTable(sorted) {
           <th class="pt-fit" rowspan="2">Course Fit</th>
           ${skillGroupHeader}
         </tr>
-        <tr>
-          ${skillSubHeaders}
-        </tr>
+        <tr>${skillSubHeaders}</tr>
       </thead>
       <tbody>${rows}</tbody>
     </table>`;
@@ -296,18 +276,16 @@ function buildPlayerCard(player, idx) {
   card.className = 'player-card';
   card.style.animationDelay = `${Math.min(idx * 30, 400)}ms`;
 
-  const skills = Object.keys(player.courses);
-  const order  = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
+  const skills        = Object.keys(player.courses);
+  const order         = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
   const orderedSkills = [...order.filter(s => skills.includes(s)), ...skills.filter(s => !order.includes(s))];
-
   const displaySkills = activeSkill
     ? (orderedSkills.includes(activeSkill) ? [activeSkill] : [])
     : orderedSkills;
 
-  const salaryStr = player.salary
-    ? '$' + Number(player.salary).toLocaleString()
-    : '—';
+  const salaryStr = player.salary ? '$' + Number(player.salary).toLocaleString() : '—';
 
+  // Skill summary bars — total contribution per skill
   const skillSummaryHTML = displaySkills.map(skill => {
     const pts = player.courses[skill];
     if (!pts || !pts.length) return '';
@@ -317,7 +295,7 @@ function buildPlayerCard(player, idx) {
     const t     = Math.max(-1, Math.min(1, total / 0.5));
     const pct   = Math.abs(t) * 50;
     const barLeft = total >= 0 ? '50%' : `${50 - pct}%`;
-    const courseCount = pts.length;
+    const n = pts.length;
     return `
       <div class="skill-summary-row">
         <span class="skill-summary-name">${SKILL_LABELS[skill] || skill}</span>
@@ -326,10 +304,10 @@ function buildPlayerCard(player, idx) {
         </div>
         <span class="skill-summary-val" style="color:${color}">${sign}${total.toFixed(3)}</span>
       </div>
-      <div class="skill-course-count">${courseCount <= 2 ? '<span class="limited-data-warn" title="Limited data">⚠</span> ' : ''}${courseCount} course${courseCount !== 1 ? 's' : ''}</div>`;
+      <div class="skill-course-count">${n <= 2 ? '<span class="limited-data-warn" title="Limited data">⚠</span> ' : ''}${n} course${n !== 1 ? 's' : ''}</div>`;
   }).join('');
 
-  // Skill tabs + per-skill tbodies (Power BI-style contribution bars)
+  // Skill tabs (hidden when only one skill shown)
   const tabs = displaySkills.length > 1
     ? `<div class="card-skill-tabs">${
         displaySkills.map((skill, i) =>
@@ -338,23 +316,22 @@ function buildPlayerCard(player, idx) {
       }</div>`
     : '';
 
+  // Per-skill tbodies — sorted by |contribution| desc, Power BI bar on contribution cell
   const tbodies = displaySkills.map((skill, i) => {
-    const pts = player.courses[skill] || [];
+    const pts    = player.courses[skill] || [];
     const sorted = [...pts].sort((a, b) => Math.abs(b.contribution) - Math.abs(a.contribution));
-    const maxC = sorted.length ? Math.abs(sorted[0].contribution) : 0;
-    const rows = sorted.map(d => {
+    const maxC   = sorted.length ? Math.abs(sorted[0].contribution) : 0;
+    const rows   = sorted.map(d => {
       const contrib      = d.contribution;
       const barPct       = maxC > 0 ? Math.abs(contrib) / maxC * 100 : 0;
       const barRgba      = contrib >= 0 ? 'rgba(34,197,94,0.18)' : 'rgba(220,38,38,0.18)';
       const barBg        = `linear-gradient(to right,${barRgba} ${barPct.toFixed(1)}%,transparent ${barPct.toFixed(1)}%)`;
       const contribSign  = contrib >= 0 ? '+' : '';
       const contribColor = valueColor(contrib, 0.3);
-      const effStr       = d.effective_events > 0 ? d.effective_events.toFixed(1) : '—';
-      const lastStr      = fmtLastPlayed(d.last_played);
       return `<tr>
         <td class="ct-course">${d.course}</td>
-        <td class="ct-eff">${effStr}</td>
-        <td class="ct-last">${lastStr}</td>
+        <td class="ct-eff">${d.effective_events > 0 ? d.effective_events.toFixed(1) : '—'}</td>
+        <td class="ct-last">${fmtLastPlayed(d.last_played)}</td>
         <td class="ct-contrib" style="background-image:${barBg}">
           <span style="color:${contribColor};position:relative;">${contribSign}${contrib.toFixed(3)}</span>
         </td>
@@ -379,28 +356,24 @@ function buildPlayerCard(player, idx) {
       </table>
     </div>`;
 
-  // Projection stats row
-  const fitVal    = player.adjusted_course_fit ?? null;
-  const sgVal     = player.adjusted_sg_total   ?? null;
-  const rankStr   = player.proj_rank  != null ? `#${player.proj_rank}` : '—';
-  const sgStr     = sgVal  != null ? (sgVal  >= 0 ? '+' : '') + sgVal.toFixed(2)  : '—';
-  const fitStr    = fitVal != null ? (fitVal >= 0 ? '+' : '') + fitVal.toFixed(2) : '—';
-  const sgColor   = sgVal  != null ? valueColor(sgVal,  2.0) : 'var(--muted)';
-  const fitColor  = fitVal != null ? valueColor(fitVal, 0.3) : 'var(--muted)';
-
-  const projStatsHTML = `
-    <div class="proj-stats">
-      <span class="proj-stat"><span class="proj-label">Rank</span><span class="proj-val">${rankStr}</span></span>
-      <span class="proj-stat"><span class="proj-label">SG Total</span><span class="proj-val" style="color:${sgColor}">${sgStr}</span></span>
-      <span class="proj-stat"><span class="proj-label">Course Fit</span><span class="proj-val" style="color:${fitColor}">${fitStr}</span></span>
-      <span class="proj-stat"><span class="proj-label proj-label-ml">✨ ML</span><span class="proj-val proj-val-ml" style="color:var(--muted)">—</span></span>
-    </div>`;
+  const fitVal  = player.adjusted_course_fit ?? null;
+  const sgVal   = player.adjusted_sg_total   ?? null;
+  const rankStr = player.proj_rank != null ? `#${player.proj_rank}` : '—';
+  const sgStr   = sgVal  != null ? (sgVal  >= 0 ? '+' : '') + sgVal.toFixed(2)  : '—';
+  const fitStr  = fitVal != null ? (fitVal >= 0 ? '+' : '') + fitVal.toFixed(2) : '—';
+  const sgColor  = sgVal  != null ? valueColor(sgVal,  2.0) : 'var(--muted)';
+  const fitColor = fitVal != null ? valueColor(fitVal, 0.3) : 'var(--muted)';
 
   card.innerHTML = `
     <div class="card-header">
       <div class="player-name">${player.name}</div>
       <div class="dk-salary">${salaryStr}</div>
-      ${projStatsHTML}
+      <div class="proj-stats">
+        <span class="proj-stat"><span class="proj-label">Rank</span><span class="proj-val">${rankStr}</span></span>
+        <span class="proj-stat"><span class="proj-label">SG Total</span><span class="proj-val" style="color:${sgColor}">${sgStr}</span></span>
+        <span class="proj-stat"><span class="proj-label">Course Fit</span><span class="proj-val" style="color:${fitColor}">${fitStr}</span></span>
+        <span class="proj-stat"><span class="proj-label proj-label-ml">✨ ML</span><span class="proj-val proj-val-ml" style="color:var(--muted)">—</span></span>
+      </div>
       <div class="skill-summary">${skillSummaryHTML}</div>
     </div>
     <div class="card-body">${bodyContent}</div>
@@ -414,12 +387,11 @@ function fmtLastPlayed(dateStr) {
   if (!dateStr) return '—';
   const d = new Date(dateStr);
   if (isNaN(d)) return dateStr;
-  const now = new Date();
+  const now    = new Date();
   const months = (now.getFullYear() - d.getFullYear()) * 12 + (now.getMonth() - d.getMonth());
   if (months < 2)  return 'Recent';
   if (months < 12) return `${months}mo`;
-  const yrs = Math.round(months / 12);
-  return `${yrs}y`;
+  return `${Math.round(months / 12)}y`;
 }
 
 function valueColor(val, bound) {
@@ -430,7 +402,6 @@ function valueColor(val, bound) {
   else        { const x = t;     r = lerp(160,34,x);  g = lerp(160,197,x); b = lerp(160,94,x); }
   return `rgb(${r},${g},${b})`;
 }
-
 
 // ── SORT / SEARCH / VIEW CONTROLS ────────────────────────────────────────────
 document.getElementById('sort-by-group').addEventListener('click', e => {
@@ -471,44 +442,46 @@ function setViewMode(mode) {
 }
 
 // ── COURSE BREAKDOWN ──────────────────────────────────────────────────────────
-let breakdownSkill = null;
-let breakdownSort  = 'last_played';
+let breakdownSkill  = null;
+let breakdownSort   = 'last_played';
+let breakdownShowAll = false;
+
+document.getElementById('breakdown-sort').addEventListener('change', e => {
+  breakdownSort = e.target.value;
+  renderBreakdown(breakdownRows);
+});
 
 function buildBreakdown() {
   if (!allData.length) return;
 
-  // Aggregate by (course_name_b, skill)
   const keyMap = {};
   allData.forEach(row => {
     const course = row.course_name_b;
     const skill  = row.skill;
     if (!course || !skill) return;
     const key = `${course}||${skill}`;
-    if (!keyMap[key]) {
-      keyMap[key] = { course, skill, last_played: null, eff_vals: [], contrib_vals: [] };
-    }
-    const ev     = parseFloat(row.effective_events);
-    const c      = parseFloat(row.contribution);
-    const lp     = row.last_played || null;
-    if (isFinite(ev))  keyMap[key].eff_vals.push(ev);
-    if (isFinite(c))   keyMap[key].contrib_vals.push(c);
-    if (lp && (!keyMap[key].last_played || lp > keyMap[key].last_played))
-      keyMap[key].last_played = lp;
+    if (!keyMap[key]) keyMap[key] = { course, skill, last_played: null, eff_vals: [], contrib_vals: [] };
+    const ev = parseFloat(row.effective_events);
+    const c  = parseFloat(row.contribution);
+    const lp = row.last_played || null;
+    if (isFinite(ev)) keyMap[key].eff_vals.push(ev);
+    if (isFinite(c))  keyMap[key].contrib_vals.push(c);
+    if (lp && (!keyMap[key].last_played || lp > keyMap[key].last_played)) keyMap[key].last_played = lp;
   });
 
-  let rows = Object.values(keyMap).map(d => ({
-    course       : d.course,
-    skill        : d.skill,
-    last_played  : d.last_played,
-    effective_events: d.eff_vals.length ? d.eff_vals.reduce((a, b) => a + b, 0) / d.eff_vals.length : 0,
-    contribution : d.contrib_vals.length ? d.contrib_vals.reduce((a, b) => a + b, 0) / d.contrib_vals.length : 0
+  breakdownRows = Object.values(keyMap).map(d => ({
+    course           : d.course,
+    skill            : d.skill,
+    last_played      : d.last_played,
+    effective_events : d.eff_vals.length      ? d.eff_vals.reduce((a,b) => a+b, 0)      / d.eff_vals.length      : 0,
+    contribution     : d.contrib_vals.length  ? d.contrib_vals.reduce((a,b) => a+b, 0)  / d.contrib_vals.length  : 0
   }));
 
-  // Build skill tabs
-  const skills = [...new Set(rows.map(r => r.skill))];
-  const order  = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
+  const skills  = [...new Set(breakdownRows.map(r => r.skill))];
+  const order   = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
   const ordered = [...order.filter(s => skills.includes(s)), ...skills.filter(s => !order.includes(s))];
-  const tabsEl = document.getElementById('breakdown-skill-tabs');
+  const tabsEl  = document.getElementById('breakdown-skill-tabs');
+
   if (!tabsEl.childElementCount) {
     const allBtn = document.createElement('button');
     allBtn.className = 'skill-tab active';
@@ -517,7 +490,7 @@ function buildBreakdown() {
       breakdownSkill = null;
       tabsEl.querySelectorAll('.skill-tab').forEach(b => b.classList.remove('active'));
       allBtn.classList.add('active');
-      renderBreakdown(rows);
+      renderBreakdown(breakdownRows);
     };
     tabsEl.appendChild(allBtn);
     ordered.forEach(skill => {
@@ -528,32 +501,24 @@ function buildBreakdown() {
         breakdownSkill = skill;
         tabsEl.querySelectorAll('.skill-tab').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        renderBreakdown(rows);
+        renderBreakdown(breakdownRows);
       };
       tabsEl.appendChild(btn);
     });
   }
 
-  document.getElementById('breakdown-sort').addEventListener('change', e => {
-    breakdownSort = e.target.value;
-    renderBreakdown(rows);
-  });
-
-  renderBreakdownRows(rows);
+  renderBreakdownRows(breakdownRows);
 }
 
 const BREAKDOWN_PAGE_SIZE = 15;
-let breakdownShowAll = false;
 
-function renderBreakdown(allRows) {
+function renderBreakdown(rows) {
   breakdownShowAll = false;
-  renderBreakdownRows(allRows);
+  renderBreakdownRows(rows);
 }
 
-function renderBreakdownRows(allRows) {
-  const filtered = breakdownSkill
-    ? allRows.filter(r => r.skill === breakdownSkill)
-    : allRows;
+function renderBreakdownRows(rows) {
+  const filtered = breakdownSkill ? rows.filter(r => r.skill === breakdownSkill) : rows;
 
   const sorted = [...filtered].sort((a, b) => {
     if (breakdownSort === 'last_played')      return (b.last_played || '') > (a.last_played || '') ? 1 : -1;
@@ -565,11 +530,10 @@ function renderBreakdownRows(allRows) {
   const remaining = sorted.length - BREAKDOWN_PAGE_SIZE;
   const visible   = breakdownShowAll ? sorted : sorted.slice(0, BREAKDOWN_PAGE_SIZE);
 
-  const tbody = document.getElementById('breakdown-tbody');
-  tbody.innerHTML = visible.map(d => {
+  document.getElementById('breakdown-tbody').innerHTML = visible.map(d => {
     const skillBadgeColor = SKILL_COLORS[d.skill] || 'rgba(100,100,100,0.2)';
-    const contribSign  = (d.contribution ?? 0) >= 0 ? '+' : '';
-    const contribColor = valueColor(d.contribution ?? 0, 0.3);
+    const contribSign     = (d.contribution ?? 0) >= 0 ? '+' : '';
+    const contribColor    = valueColor(d.contribution ?? 0, 0.3);
     return `<tr>
       <td class="bd-course">${d.course}</td>
       <td class="bd-skill">
@@ -588,19 +552,15 @@ function renderBreakdownRows(allRows) {
 
   if (!breakdownShowAll && remaining > 0) {
     const btn = document.createElement('button');
-    btn.id = 'bd-show-more';
+    btn.id        = 'bd-show-more';
     btn.className = 'bd-show-more-btn';
     btn.textContent = `Show ${remaining} more`;
-    btn.onclick = () => {
-      breakdownShowAll = true;
-      renderBreakdownRows(allRows);
-    };
+    btn.onclick = () => { breakdownShowAll = true; renderBreakdownRows(rows); };
     document.getElementById('breakdown-table').after(btn);
   }
 }
 
 // ── IFRAME HEIGHT REPORTING ───────────────────────────────────────────────────
 function reportHeight() {
-  const h = document.documentElement.scrollHeight;
-  window.parent.postMessage({ type: 'plus4-resize', height: h }, '*');
+  window.parent.postMessage({ type: 'plus4-resize', height: document.documentElement.scrollHeight }, '*');
 }

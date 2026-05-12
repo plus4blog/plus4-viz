@@ -85,10 +85,8 @@ document.getElementById('tour-toggle').addEventListener('click', e => {
 function processData() {
   if (!allData.length) return;
 
-  const targetNum = allData[0]?.target_course_num;
-  const targetRow = allData.find(r => r.course_num_b === targetNum && r.course_name_b);
-  document.getElementById('course-title').textContent =
-    targetRow?.course_name_b || targetNum || 'Weekly Course';
+  const targetName = allData[0]?.target_course_name;
+  document.getElementById('course-title').textContent = targetName || 'Weekly Course';
 
   const uniqueCourses = [...new Set(allData.map(r => r.course_name_b).filter(Boolean))];
   const uniquePlayers = [...new Set(allData.map(r => r.player_name).filter(Boolean))];

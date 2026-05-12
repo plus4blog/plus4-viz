@@ -439,7 +439,7 @@ function setViewMode(mode) {
 
 // ── COURSE BREAKDOWN ──────────────────────────────────────────────────────────
 let breakdownSkill  = null;
-let breakdownSort   = 'last_played';
+let breakdownSort   = 'contribution';
 let breakdownShowAll = false;
 
 document.getElementById('breakdown-sort').addEventListener('change', e => {
@@ -470,7 +470,7 @@ function buildBreakdown() {
     skill            : d.skill,
     last_played      : d.last_played,
     effective_events : d.eff_vals.reduce((a,b) => a + Math.abs(b), 0),
-    contribution     : d.contrib_vals.reduce((a,b) => a+b, 0)
+    contribution     : d.contrib_vals.reduce((a,b) => a + Math.abs(b), 0)
   }));
 
   const skills  = [...new Set(breakdownRows.map(r => r.skill))];
@@ -519,7 +519,7 @@ function renderBreakdownRows(rows) {
   const sorted = [...filtered].sort((a, b) => {
     if (breakdownSort === 'last_played')      return (b.last_played || '') > (a.last_played || '') ? 1 : -1;
     if (breakdownSort === 'effective_events') return (b.effective_events ?? 0) - (a.effective_events ?? 0);
-    if (breakdownSort === 'contribution')     return Math.abs(b.contribution ?? 0) - Math.abs(a.contribution ?? 0);
+    if (breakdownSort === 'contribution')     return (b.contribution ?? 0) - (a.contribution ?? 0);
     return 0;
   });
 
@@ -528,8 +528,10 @@ function renderBreakdownRows(rows) {
 
   document.getElementById('breakdown-tbody').innerHTML = visible.map(d => {
     const skillBadgeColor = SKILL_COLORS[d.skill] || 'rgba(100,100,100,0.2)';
-    const contribSign     = (d.contribution ?? 0) >= 0 ? '+' : '';
-    const contribColor    = valueColor(d.contribution ?? 0, 0.3);
+    const contrib         = d.contribution ?? 0;
+    const maxContrib      = sorted.length ? (sorted[0].contribution ?? 0) : 1;
+    const barPct          = maxContrib > 0 ? Math.min(100, (contrib / maxContrib) * 100) : 0;
+    const barBg           = `linear-gradient(to right,rgba(234,179,8,0.35) ${barPct.toFixed(1)}%,transparent ${barPct.toFixed(1)}%)`;
     return `<tr>
       <td class="bd-course">${d.course}</td>
       <td class="bd-skill">
@@ -539,7 +541,7 @@ function renderBreakdownRows(rows) {
       </td>
       <td class="bd-events">${d.effective_events != null ? d.effective_events.toFixed(1) : '—'}</td>
       <td class="bd-last">${fmtLastPlayed(d.last_played)}</td>
-      <td class="bd-cor" style="color:${contribColor};font-variant-numeric:tabular-nums;">${contribSign}${(d.contribution ?? 0).toFixed(3)}</td>
+      <td class="bd-cor" style="background-image:${barBg};font-variant-numeric:tabular-nums;">${contrib.toFixed(3)}</td>
     </tr>`;
   }).join('');
 

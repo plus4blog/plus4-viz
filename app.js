@@ -469,7 +469,7 @@ function buildBreakdown() {
     course           : d.course,
     skill            : d.skill,
     last_played      : d.last_played,
-    effective_events : d.eff_vals.reduce((a,b) => a+b, 0),
+    effective_events : d.eff_vals.reduce((a,b) => a + Math.abs(b), 0),
     contribution     : d.contrib_vals.reduce((a,b) => a+b, 0)
   }));
 

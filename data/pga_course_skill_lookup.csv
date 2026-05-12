@@ -4794,51 +4794,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 21891,"Kitayama, Kurt",790,Pumpkin Ridge GC - W. Hollow,sg_total,0.15710312856461908,2017-08-27,-0.0040383236294139774,773,Aronimink GC
 21891,"Kitayama, Kurt",3878,wentworth golf club,sg_total,0.5120910593618263,2021-09-12,-0.004274405704338341,773,Aronimink GC
 21891,"Kitayama, Kurt",3807,jumeirah golf estates,sg_total,1.2100256305775887,2019-11-24,-0.013636643334974628,773,Aronimink GC
-19396,"Knapp, Jake",978,Vidanta Vallarta,sg_app,4.903768450050659,2025-02-23,0.1263943149058225,773,Aronimink GC
-19396,"Knapp, Jake",510,TPC Scottsdale (Stadium Course),sg_app,8.56235386052522,2026-02-08,0.11996115187591945,773,Aronimink GC
-19396,"Knapp, Jake",205,Spyglass Hill Golf Course,sg_app,1.6234193106524317,2026-02-15,0.04450819750378604,773,Aronimink GC
-19396,"Knapp, Jake",752,Sedgefield Country Club,sg_app,1.596074505464597,2025-08-03,-0.04804654247053505,773,Aronimink GC
-19396,"Knapp, Jake",770,TPC San Antonio - The Oaks Course,sg_app,1.451136700299543,2025-04-06,-0.060663004208933814,773,Aronimink GC
-19396,"Knapp, Jake",977,The Renaissance Club,sg_app,3.1389688715077195,2025-07-13,-0.1345934956157202,773,Aronimink GC
-19396,"Knapp, Jake",931,Tahoe Mountain Club (Old Greenwood),sg_arg,2.3591334304514016,2024-07-21,0.03887599331219063,773,Aronimink GC
-19396,"Knapp, Jake",241,Quail Hollow-PGA Championship,sg_arg,1.500723283001069,2025-05-18,0.01741818677603099,773,Aronimink GC
-19396,"Knapp, Jake",6,Waialae Country Club,sg_arg,3.6513405024648913,2026-01-18,0.012958166545149486,773,Aronimink GC
-19396,"Knapp, Jake",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_arg,6.896167715055248,2026-03-15,0.0024343462425122165,773,Aronimink GC
-19396,"Knapp, Jake",770,TPC San Antonio - The Oaks Course,sg_arg,1.451136700299543,2025-04-06,0.0014307738846055676,773,Aronimink GC
-19396,"Knapp, Jake",921,TPC Craig Ranch,sg_arg,5.18621415435425,2025-05-04,-0.0023645750026883056,773,Aronimink GC
-19396,"Knapp, Jake",9,Arnold Palmer's Bay Hill Club & Lodge,sg_arg,2.12101418007211,2024-03-10,-0.002428352474443002,773,Aronimink GC
-19396,"Knapp, Jake",704,Pete Dye Stadium Course,sg_arg,0.6822221097764329,2025-01-19,-0.004464868203895172,773,Aronimink GC
-19396,"Knapp, Jake",513,TPC Southwind,sg_arg,5.6226495146141735,2025-08-10,-0.014831992119947814,773,Aronimink GC
-19396,"Knapp, Jake",752,Sedgefield Country Club,sg_arg,1.596074505464597,2025-08-03,-0.021369058506936968,773,Aronimink GC
-19396,"Knapp, Jake",876,Detroit Golf Club,sg_ott,5.423839616500148,2025-06-29,0.1228108982847334,773,Aronimink GC
-19396,"Knapp, Jake",14,Augusta National Golf Club,sg_ott,6.086384668414443,2026-04-12,0.11167536372304417,773,Aronimink GC
-19396,"Knapp, Jake",977,The Renaissance Club,sg_ott,3.1389688715077195,2025-07-13,0.021762985260873117,773,Aronimink GC
-19396,"Knapp, Jake",513,TPC Southwind,sg_ott,5.6226495146141735,2025-08-10,0.01864968189228503,773,Aronimink GC
-19396,"Knapp, Jake",4,Torrey Pines Golf Course (South Course),sg_ott,6.362831972208003,2026-02-01,0.01021855243785198,773,Aronimink GC
-19396,"Knapp, Jake",6,Waialae Country Club,sg_ott,3.6513405024648913,2026-01-18,0.003274283332966077,773,Aronimink GC
-19396,"Knapp, Jake",671,Valhalla Golf Club,sg_ott,1.1215898420083854,2024-05-19,-0.0034323622604628653,773,Aronimink GC
-19396,"Knapp, Jake",241,Quail Hollow-PGA Championship,sg_ott,1.500723283001069,2025-05-18,-0.004539192692252398,773,Aronimink GC
-19396,"Knapp, Jake",21,Colonial Country Club,sg_ott,1.5091509087136865,2025-05-25,-0.014857087915034772,773,Aronimink GC
-19396,"Knapp, Jake",897,Memorial Park Golf Course,sg_ott,7.826189459844482,2026-03-29,-0.019628975004392188,773,Aronimink GC
-19396,"Knapp, Jake",931,Tahoe Mountain Club (Old Greenwood),sg_ott,2.3591334304514016,2024-07-21,-0.0712106171125285,773,Aronimink GC
-19396,"Knapp, Jake",656,Plantation Course at Kapalua,sg_ott,2.698495407273835,2025-01-05,-0.07252439722908649,773,Aronimink GC
-19396,"Knapp, Jake",205,Spyglass Hill Golf Course,sg_putt,1.6234193106524317,2026-02-15,0.010472081007316334,773,Aronimink GC
-19396,"Knapp, Jake",665,Innisbrook Resort and Golf Club - Copperhead Course,sg_putt,1.4349746457088866,2025-03-23,0.0024765700409672556,773,Aronimink GC
-19396,"Knapp, Jake",9,Arnold Palmer's Bay Hill Club & Lodge,sg_putt,2.12101418007211,2024-03-10,-0.0033331615382303182,773,Aronimink GC
-19396,"Knapp, Jake",935,TPC Toronto at Osprey Valley (North Course),sg_putt,3.052296814405344,2025-06-08,-0.010302462402893732,773,Aronimink GC
-19396,"Knapp, Jake",503,TPC River Highlands,sg_putt,2.3068763064246633,2024-06-23,-0.024839263114216997,773,Aronimink GC
-19396,"Knapp, Jake",770,TPC San Antonio - The Oaks Course,sg_putt,1.451136700299543,2025-04-06,-0.03201002945785593,773,Aronimink GC
-19396,"Knapp, Jake",641,Crestview Country Club,sg_total,3.4461323366190104,2023-06-18,0.010350341873375002,773,Aronimink GC
-19396,"Knapp, Jake",810,Blue Hills Country Club,sg_total,1.6764766535517248,2023-05-21,0.009009696102063562,773,Aronimink GC
-19396,"Knapp, Jake",659,Club de Golf de Panama,sg_total,1.5414050353892137,2023-02-05,0.0073157650024479525,773,Aronimink GC
-19396,"Knapp, Jake",800,The Abaco Club on Winding Bay,sg_total,1.5279001795945089,2023-01-25,0.006991791270233759,773,Aronimink GC
-19396,"Knapp, Jake",798,Panther Lake Course,sg_total,0.7827783986033585,2020-10-11,0.006895735771275979,773,Aronimink GC
-19396,"Knapp, Jake",790,Pumpkin Ridge GC - W. Hollow,sg_total,0.7443040644370232,2020-08-09,0.0018101921881270942,773,Aronimink GC
-19396,"Knapp, Jake",82,Greystone Golf & Country Club,sg_total,2.7147028775230635,2023-07-30,0.0003510230207082825,773,Aronimink GC
-19396,"Knapp, Jake",100,Omni Tucson National,sg_total,0.0414859692198132,2015-06-21,-0.0005164834372527418,773,Aronimink GC
-19396,"Knapp, Jake",84,Landings Club-Magnolia Course,sg_total,0.717162504194314,2022-11-07,-0.0007444936170010425,773,Aronimink GC
-19396,"Knapp, Jake",646,The CC at Wakefield Plantation,sg_total,0.47347658454369007,2021-06-06,-0.003344771455210412,773,Aronimink GC
-19396,"Knapp, Jake",69,The Grove,sg_total,1.384949185287756,2023-09-17,-0.009897392606978375,773,Aronimink GC
 16243,"Koepka, Brooks",880,Bethpage Black,sg_app,0.5201148435137036,2019-05-19,0.0309588447408969,773,Aronimink GC
 16243,"Koepka, Brooks",36,Le Triomphe G&CC,sg_app,0.8949637956939548,2018-08-05,0.016624444212385205,773,Aronimink GC
 16243,"Koepka, Brooks",510,TPC Scottsdale (Stadium Course),sg_app,5.649583572213027,2026-02-08,0.016237146161464797,773,Aronimink GC

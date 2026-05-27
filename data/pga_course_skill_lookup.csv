@@ -1570,6 +1570,66 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 11676,"Finau, Tony",3797,old course st andrews,sg_total,0.3644912186058139,2019-09-29,-0.0011514832223370659,21,Colonial CC
 11676,"Finau, Tony",3669,old course st andrews,sg_total,0.28389443449688334,2018-10-07,-0.00299171183335545,21,Colonial CC
 11676,"Finau, Tony",4602,carnoustie,sg_total,0.8489117872605549,2025-10-05,-0.013708682570988623,21,Colonial CC
+25094,"Fishburn, Patrick",752,Sedgefield Country Club,sg_app,4.514501042615919,2025-08-03,0.03194822263455256,21,Colonial CC
+25094,"Fishburn, Patrick",776,Sea Island Golf Club (Seaside Course),sg_app,4.6783851204464675,2025-11-23,0.016131008644352643,21,Colonial CC
+25094,"Fishburn, Patrick",241,Quail Hollow-PGA Championship,sg_app,1.5393298826071278,2025-05-18,0.015528103002779119,21,Colonial CC
+25094,"Fishburn, Patrick",926,Silverado Resort (North Course),sg_app,5.939560038868524,2025-09-14,0.001943188805986992,21,Colonial CC
+25094,"Fishburn, Patrick",714,TPC Louisiana,sg_app,3.473934740557218,2026-04-26,-0.010981622032846378,21,Colonial CC
+25094,"Fishburn, Patrick",921,TPC Craig Ranch,sg_app,2.7057736601225137,2025-05-04,-0.012468442592096455,21,Colonial CC
+25094,"Fishburn, Patrick",875,ACCORDIA GOLF Narashino Country Club,sg_app,2.6708435560775508,2024-10-27,-0.020167420320760895,21,Colonial CC
+25094,"Fishburn, Patrick",930,Black Desert Resort,sg_app,3.04536448718896,2025-10-26,-0.02470962518486893,21,Colonial CC
+25094,"Fishburn, Patrick",928,PGA National  - Champion Course,sg_app,6.680782110471563,2026-03-01,-0.04452813937798147,21,Colonial CC
+25094,"Fishburn, Patrick",21,Colonial Country Club,sg_app,1.5468911089075912,2025-05-25,-0.07691476103500623,21,Colonial CC
+25094,"Fishburn, Patrick",876,Detroit Golf Club,sg_arg,4.04263462387544,2025-06-29,0.013456568362245973,21,Colonial CC
+25094,"Fishburn, Patrick",776,Sea Island Golf Club (Seaside Course),sg_arg,4.6783851204464675,2025-11-23,0.00941951999454739,21,Colonial CC
+25094,"Fishburn, Patrick",934,Hurstbourne Country Club,sg_arg,3.2017398370079815,2025-07-13,0.0024165510697852425,21,Colonial CC
+25094,"Fishburn, Patrick",931,Tahoe Mountain Club (Old Greenwood),sg_arg,2.4937668564699567,2024-07-21,-0.0008227699862802702,21,Colonial CC
+25094,"Fishburn, Patrick",935,TPC Toronto at Osprey Valley (North Course),sg_arg,3.1242503334703864,2025-06-08,-0.00373125478953747,21,Colonial CC
+25094,"Fishburn, Patrick",4,Torrey Pines Golf Course (South Course),sg_arg,1.6337849212364,2026-02-01,-0.0047880950045336755,21,Colonial CC
+25094,"Fishburn, Patrick",21,Colonial Country Club,sg_arg,1.5468911089075912,2025-05-25,-0.006278998611939721,21,Colonial CC
+25094,"Fishburn, Patrick",930,Black Desert Resort,sg_arg,3.04536448718896,2025-10-26,-0.019939032685301488,21,Colonial CC
+25094,"Fishburn, Patrick",921,TPC Craig Ranch,sg_ott,2.7057736601225137,2025-05-04,0.023372623492385593,21,Colonial CC
+25094,"Fishburn, Patrick",876,Detroit Golf Club,sg_ott,4.04263462387544,2025-06-29,0.014666935683161237,21,Colonial CC
+25094,"Fishburn, Patrick",21,Colonial Country Club,sg_ott,1.5468911089075912,2025-05-25,0.012545535953286885,21,Colonial CC
+25094,"Fishburn, Patrick",874,Hamilton Golf & Country Club,sg_ott,1.204840484967921,2024-06-02,0.0116115183824077,21,Colonial CC
+25094,"Fishburn, Patrick",875,ACCORDIA GOLF Narashino Country Club,sg_ott,2.6708435560775508,2024-10-27,0.005092848295316958,21,Colonial CC
+25094,"Fishburn, Patrick",241,Quail Hollow-PGA Championship,sg_ott,1.5393298826071278,2025-05-18,0.004586753638281147,21,Colonial CC
+25094,"Fishburn, Patrick",925,Dunes Golf and Beach Club,sg_ott,7.859005458184307,2026-05-10,0.004063288881072031,21,Colonial CC
+25094,"Fishburn, Patrick",746,The Country Club of Jackson,sg_ott,6.027516467319323,2025-10-05,-0.00135892945045057,21,Colonial CC
+25094,"Fishburn, Patrick",669,TPC Deere Run,sg_ott,4.4208133368559475,2025-07-06,-0.007225121643228667,21,Colonial CC
+25094,"Fishburn, Patrick",926,Silverado Resort (North Course),sg_ott,5.939560038868524,2025-09-14,-0.01024256090306419,21,Colonial CC
+25094,"Fishburn, Patrick",704,Pete Dye Stadium Course,sg_ott,1.62629448793232,2026-01-25,-0.014733277988757891,21,Colonial CC
+25094,"Fishburn, Patrick",6,Waialae Country Club,sg_ott,2.8187523588748538,2025-01-12,-0.015947241276972265,21,Colonial CC
+25094,"Fishburn, Patrick",752,Sedgefield Country Club,sg_putt,4.514501042615919,2025-08-03,0.027294608103344428,21,Colonial CC
+25094,"Fishburn, Patrick",931,Tahoe Mountain Club (Old Greenwood),sg_putt,2.4937668564699567,2024-07-21,0.026517723155850458,21,Colonial CC
+25094,"Fishburn, Patrick",6,Waialae Country Club,sg_putt,2.8187523588748538,2025-01-12,0.01777344682363971,21,Colonial CC
+25094,"Fishburn, Patrick",21,Colonial Country Club,sg_putt,1.5468911089075912,2025-05-25,0.012066399370206564,21,Colonial CC
+25094,"Fishburn, Patrick",874,Hamilton Golf & Country Club,sg_putt,1.204840484967921,2024-06-02,1.0553067261420494e-05,21,Colonial CC
+25094,"Fishburn, Patrick",944,TPC Craig Ranch,sg_putt,3.99160881382924,2026-05-24,-0.01042228575966891,21,Colonial CC
+25094,"Fishburn, Patrick",241,Quail Hollow-PGA Championship,sg_putt,1.5393298826071278,2025-05-18,-0.019730755205809462,21,Colonial CC
+25094,"Fishburn, Patrick",876,Detroit Golf Club,sg_putt,4.04263462387544,2025-06-29,-0.04434177170145498,21,Colonial CC
+25094,"Fishburn, Patrick",82,Greystone Golf & Country Club,sg_total,3.7790898003291247,2023-07-30,0.012815591491792682,21,Colonial CC
+25094,"Fishburn, Patrick",62,The Ledges,sg_total,3.874226412962674,2023-04-30,0.009363032955427219,21,Colonial CC
+25094,"Fishburn, Patrick",811,Paiute Golf Resort - Sun Mt GC,sg_total,1.084147930675981,2021-04-18,0.006417048639626862,21,Colonial CC
+25094,"Fishburn, Patrick",680,Carolina Country Club,sg_total,1.6657706722197183,2023-06-11,0.004810152942784974,21,Colonial CC
+25094,"Fishburn, Patrick",889,Sea Island Golf Club (Plantation Course),sg_total,1.559461706815489,2025-11-23,0.0026661210420518707,21,Colonial CC
+25094,"Fishburn, Patrick",66,TPC San Antonio-AT&T Canyons,sg_total,0.8911828632166947,2020-07-12,0.0022878950363620513,21,Colonial CC
+25094,"Fishburn, Patrick",777,Victoria National Golf Club,sg_total,5.2395949946492,2023-10-08,0.0020004473952827877,21,Colonial CC
+25094,"Fishburn, Patrick",85,Jimmie Austin OU Golf Club,sg_total,1.895332644491981,2023-06-25,0.00176037353535778,21,Colonial CC
+25094,"Fishburn, Patrick",919,El Cardonal at Diamante,sg_total,4.437080495238032,2025-11-09,0.0011910059573838306,21,Colonial CC
+25094,"Fishburn, Patrick",70,Sandestin Resort - Raven GC,sg_total,0.5367875860448027,2021-04-04,0.0006072759473437035,21,Colonial CC
+25094,"Fishburn, Patrick",807,Lakewood National Golf Club - Commander Course,sg_total,2.8880851930309444,2023-04-23,0.00045902054727751457,21,Colonial CC
+25094,"Fishburn, Patrick",735,Fundadores Course,sg_total,2.3702193628406962,2023-02-12,0.0002431484220002185,21,Colonial CC
+25094,"Fishburn, Patrick",809,Country Club de Bogota-Pacos,sg_total,0.6317381078179711,2023-02-12,-3.870021715758682e-05,21,Colonial CC
+25094,"Fishburn, Patrick",71,Lakewood National GC Commander,sg_total,0.5212357629955859,2021-02-21,-0.0004171185437028923,21,Colonial CC
+25094,"Fishburn, Patrick",646,The CC at Wakefield Plantation,sg_total,0.5609896519003164,2021-06-06,-0.001136007508517253,21,Colonial CC
+25094,"Fishburn, Patrick",59,Falmouth Country Club,sg_total,1.8731033748208832,2022-06-26,-0.0020457162620525302,21,Colonial CC
+25094,"Fishburn, Patrick",67,The King & Bear Course at WGV,sg_total,0.4387818915983331,2020-06-20,-0.0033653221595085886,21,Colonial CC
+25094,"Fishburn, Patrick",800,The Abaco Club on Winding Bay,sg_total,1.5134440515723828,2023-01-25,-0.004288463753080761,21,Colonial CC
+25094,"Fishburn, Patrick",90,TPC Colorado,sg_total,0.9616999113540048,2023-07-16,-0.006947749787195542,21,Colonial CC
+25094,"Fishburn, Patrick",65,TPC San Antonio-AT&T Oaks,sg_total,0.4474668512454743,2020-07-18,-0.009004875292814398,21,Colonial CC
+25094,"Fishburn, Patrick",55,Panther Creek Country Club,sg_total,4.732294914695899,2023-07-02,-0.009176137134491131,21,Colonial CC
+25094,"Fishburn, Patrick",659,Club de Golf de Panama,sg_total,2.3213419387532577,2023-02-05,-0.01926535563428106,21,Colonial CC
 26657,"Fisk, Steven",21,Colonial Country Club,sg_app,3.0937822178151824,2025-05-25,0.0953547200021678,21,Colonial CC
 26657,"Fisk, Steven",928,PGA National  - Champion Course,sg_app,5.222225708844302,2026-03-01,0.03977386481530337,21,Colonial CC
 26657,"Fisk, Steven",926,Silverado Resort (North Course),sg_app,3.34609622750957,2025-09-14,0.013677739971630083,21,Colonial CC

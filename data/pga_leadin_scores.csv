@@ -1,128 +1,128 @@
 rank,player_name,dg_id,lead_in_z,lead_in_raw,predictors_found,top_course,tournament,as_of_date
-1,"Crowe, Trace",27780,4.382,1.1542,3,Lakewood National Golf Club - Commander Course,Charles Schwab Challenge,2026-05-28
-2,"Smalley, Alex",18474,2.431,0.67,3,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-3,"Novak, Andrew",23475,1.975,0.5568,4,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-4,"Echavarria, Nico",22833,1.954,0.5516,3,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-5,"Springer, Hayden",21995,1.673,0.482,3,Lakewood National Golf Club - Commander Course,Charles Schwab Challenge,2026-05-28
-6,"Horschel, Billy",11276,1.397,0.4135,4,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-7,"Spaun, J.J.",17536,1.378,0.4088,3,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-8,"Bauchou, Zach",19846,1.205,0.3658,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-9,"Stanger, Jimmy",23048,1.203,0.3655,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-10,"Hisatsune, Ryo",22760,1.187,0.3614,3,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-11,"Dunlap, Nick",28270,1.178,0.3592,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-12,"McCarty, Matt",28635,1.156,0.3536,4,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-13,"Hall, Harry",27194,1.144,0.3507,3,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-14,"Fowler, Rickie",12965,1.129,0.347,3,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-15,"Dou, Zecheng",16757,0.98,0.3101,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-16,"Lipsky, David",15980,0.969,0.3074,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-17,"Meissner, Mac",28159,0.925,0.2965,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-18,"Hoge, Tom",15575,0.921,0.2955,4,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-19,"Ventura, Kris",15651,0.898,0.2897,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-20,"Rozo, Marcelo",16591,0.857,0.2796,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-21,"Blair, Zac",17639,0.821,0.2707,3,Lakewood National Golf Club - Commander Course,Charles Schwab Challenge,2026-05-28
-22,"Pavon, Matthieu",19960,0.813,0.2687,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-23,"Whaley, Vince",25908,0.777,0.2598,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-24,"Lebioda, Hank",21943,0.764,0.2564,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-25,"Im, Sungjae",17488,0.715,0.2442,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-26,"Skinns, David",10873,0.699,0.2403,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-27,"Kang, Jeffrey",21889,0.68,0.2355,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-28,"Cole, Eric",21756,0.636,0.2246,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-29,"Brown, Dan",20766,0.63,0.2233,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-30,"Blanchet, Chandler",24956,0.612,0.2189,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-31,"Eckroat, Austin",26653,0.598,0.2152,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-32,"Smotherman, Austin",22985,0.547,0.2025,3,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-33,"Woodland, Gary",12577,0.546,0.2025,1,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-34,"Hardy, Nick",19865,0.527,0.1975,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-35,"Yellamaraju, Sudarshan",29925,0.511,0.1936,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-36,"Aberg, Ludvig",23950,0.509,0.1931,3,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-37,"Harman, Brian",8825,0.504,0.1919,3,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-38,"Coody, Pierceson",28309,0.477,0.1854,3,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-39,"Ryder, Sam",16715,0.452,0.1791,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-40,"Griffin, Lanto",15330,0.445,0.1774,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-41,"Riley, Davis",19872,0.436,0.1751,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-42,"Svensson, Adam",13997,0.403,0.1668,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-43,"Hoffman, Charley",5768,0.401,0.1665,1,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-44,"Hughes, Mackenzie",15556,0.397,0.1654,3,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-45,"Henley, Russell",14578,0.383,0.162,2,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-46,"McGreevy, Max",23505,0.349,0.1535,3,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-47,"Mouw, William",29770,0.338,0.1507,1,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-48,"Thompson, Davis",27364,0.326,0.1479,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-49,"Greyserman, Max",23465,0.288,0.1384,4,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-50,"Smith, Jordan",18586,0.284,0.1374,1,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-51,"Poston, J.T.",21554,0.274,0.1349,3,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-52,"Putnam, Andrew",14704,0.235,0.1253,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-53,"Vilips, Karl",24304,0.23,0.1239,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-54,"Davis, Cam",17786,0.228,0.1236,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-55,"Van Rooyen, Erik",17550,0.214,0.1199,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-56,"Hodges, Lee",25157,0.212,0.1195,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-57,"Dumont De Chassart, Adrien",22002,0.15,0.1041,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
-58,"Mitchell, Keith",17365,0.052,0.0798,3,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-59,"Nyholm, Pontus",25475,0.05,0.0793,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-60,"Fishburn, Patrick",25094,0.044,0.0778,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-61,"Palmer, Ryan",7820,0.041,0.0772,1,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-62,"Garnett, Brice",11451,0.029,0.0741,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-63,"Bhatia, Akshay",26096,0.011,0.0695,3,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-64,"Ramey, Chad",19840,-0.002,0.0663,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-65,"Suber, Jackson",29279,-0.005,0.0656,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-66,"Lamprecht, Christo",24343,-0.006,0.0654,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-67,"Hubbard, Mark",16333,-0.016,0.0629,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-68,"Jaeger, Stephan",16394,-0.024,0.0609,3,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
-69,"Peterson, Paul",16341,-0.026,0.0606,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
-70,"Snedeker, Brandt",8820,-0.027,0.0602,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-71,"Simpson, Webb",11049,-0.033,0.0587,1,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-72,"Neergaard-Petersen, Rasmus",23841,-0.036,0.0579,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-73,"Ghim, Doug",24550,-0.039,0.0572,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-74,"Ewart, A.J.",21883,-0.043,0.0564,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
-75,"Moore, Taylor",21944,-0.074,0.0487,3,Arnold Palmer's Bay Hill Club & Lodge,Charles Schwab Challenge,2026-05-28
-76,"Roy, Kevin",18424,-0.15,0.0297,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-77,"Brennan, Michael",29197,-0.158,0.0277,1,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-78,"Streelman, Kevin",8480,-0.212,0.0142,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-79,"Hojgaard, Rasmus",23838,-0.226,0.0108,1,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
-80,"Gerard, Ryan",29767,-0.233,0.0092,4,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-81,"Tosti, Alejandro",17032,-0.248,0.0054,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-82,"Kanaya, Takumi",19729,-0.251,0.0047,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-83,"Finau, Tony",11676,-0.278,-0.0021,3,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-84,"Chatfield, Davis",30620,-0.287,-0.0044,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-85,"Wu, Dylan",25002,-0.323,-0.0132,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-86,"Hoey, Rico",23504,-0.356,-0.0215,3,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-87,"Higgo, Garrick",24342,-0.376,-0.0264,3,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-88,"Hirata, Kensei",20954,-0.376,-0.0264,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-89,"Kim, Tom",24766,-0.411,-0.035,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-90,"Power, Seamus",10104,-0.426,-0.0388,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-91,"Kuchar, Matt",6169,-0.451,-0.045,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
-92,"Thomas, Justin",14139,-0.468,-0.0492,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-93,"Phillips, Chandler",27164,-0.498,-0.0567,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
-94,"Keefer, Johnny",32457,-0.513,-0.0605,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-95,"Clanton, Luke",32330,-0.517,-0.0613,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-96,"MacIntyre, Robert",23323,-0.519,-0.0619,3,Arnold Palmer's Bay Hill Club & Lodge,Charles Schwab Challenge,2026-05-28
-97,"Homa, Max",17538,-0.539,-0.0667,1,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-98,"Bradley, Keegan",13872,-0.563,-0.0728,3,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-99,"Hossler, Beau",15470,-0.598,-0.0815,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-100,"Villegas, Camilo",9171,-0.606,-0.0834,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-101,"Castillo, Ricky",27819,-0.703,-0.1076,1,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-102,"Campbell, Brian",18628,-0.736,-0.1158,3,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-103,"Walker, Danny",25003,-0.801,-0.1319,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-104,"Bezuidenhout, Christiaan",18103,-0.802,-0.1321,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-105,"VanDerLaan, John",25319,-0.839,-0.1412,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
-106,"Fisk, Steven",26657,-0.871,-0.1491,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
-107,"Stevens, Sam",25569,-0.872,-0.1495,4,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-108,"Dahmen, Joel",14509,-0.903,-0.1572,3,Arnold Palmer's Bay Hill Club & Lodge,Charles Schwab Challenge,2026-05-28
-109,"Glover, Lucas",7399,-0.915,-0.16,3,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-110,"Grillo, Emiliano",12808,-0.945,-0.1675,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
-111,"Li, Haotong",15310,-0.998,-0.1806,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-112,"Kirk, Chris",12423,-1.041,-0.1915,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-113,"Parry, John",13764,-1.151,-0.2186,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
-114,"Highsmith, Joe",28469,-1.17,-0.2235,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
-115,"Shipley, Neal",32055,-1.19,-0.2283,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
-116,"Nakajima, Keita",21074,-1.23,-0.2382,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
-117,"Rodgers, Patrick",16283,-1.248,-0.2427,3,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
-118,"Kizzire, Patton",13470,-1.64,-0.34,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
-119,"Theegala, Sahith",23014,-1.749,-0.367,4,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-120,"Schenk, Adam",19477,-1.789,-0.3768,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-121,"Kohles, Ben",16395,-1.854,-0.3931,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-122,"Matsuyama, Hideki",13562,-1.964,-0.4202,3,Pebble Beach Golf Links,Charles Schwab Challenge,2026-05-28
-123,"Yu, Kevin",17881,-2.005,-0.4304,3,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
-124,"Griffin, Ben",24968,-2.143,-0.4648,4,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-125,"Martin, Ben",14007,-2.154,-0.4675,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-126,"Thorbjornsen, Michael",26649,-2.466,-0.5449,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
-127,"Kim, Michael",17543,-2.488,-0.5504,3,Arnold Palmer's Bay Hill Club & Lodge,Charles Schwab Challenge,2026-05-28
+1,"Crowe, Trace",27780,5.382,1.1542,3,Lakewood National Golf Club - Commander Course,Charles Schwab Challenge,2026-05-28
+2,"Springer, Hayden",21995,2.059,0.482,3,Lakewood National Golf Club - Commander Course,Charles Schwab Challenge,2026-05-28
+3,"Bauchou, Zach",19846,1.484,0.3658,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+4,"Stanger, Jimmy",23048,1.483,0.3655,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+5,"Dunlap, Nick",28270,1.452,0.3592,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+6,"Smalley, Alex",18474,1.439,0.3566,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+7,"Fowler, Rickie",12965,1.262,0.3208,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+8,"McCarty, Matt",28635,1.223,0.313,3,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+9,"Dou, Zecheng",16757,1.209,0.3101,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+10,"Lipsky, David",15980,1.196,0.3074,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+11,"Meissner, Mac",28159,1.142,0.2965,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+12,"Ventura, Kris",15651,1.108,0.2897,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+13,"Rozo, Marcelo",16591,1.058,0.2796,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+14,"Blair, Zac",17639,1.014,0.2707,3,Lakewood National Golf Club - Commander Course,Charles Schwab Challenge,2026-05-28
+15,"Pavon, Matthieu",19960,1.004,0.2687,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+16,"Whaley, Vince",25908,0.96,0.2598,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+17,"Lebioda, Hank",21943,0.943,0.2564,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+18,"Hall, Harry",27194,0.93,0.2536,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+19,"Im, Sungjae",17488,0.883,0.2442,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+20,"Horschel, Billy",11276,0.865,0.2405,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+21,"Skinns, David",10873,0.864,0.2403,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+22,"Kang, Jeffrey",21889,0.84,0.2355,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+23,"Novak, Andrew",23475,0.823,0.232,3,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+24,"Spaun, J.J.",17536,0.805,0.2285,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+25,"Cole, Eric",21756,0.787,0.2246,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+26,"Brown, Dan",20766,0.78,0.2233,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+27,"Echavarria, Nico",22833,0.772,0.2216,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+28,"Blanchet, Chandler",24956,0.758,0.2189,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+29,"Eckroat, Austin",26653,0.74,0.2152,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+30,"Aberg, Ludvig",23950,0.718,0.2107,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+31,"Smotherman, Austin",22985,0.677,0.2025,3,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+32,"Woodland, Gary",12577,0.677,0.2025,1,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+33,"Hardy, Nick",19865,0.653,0.1975,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+34,"Yellamaraju, Sudarshan",29925,0.633,0.1936,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+35,"Ryder, Sam",16715,0.561,0.1791,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+36,"Griffin, Lanto",15330,0.553,0.1774,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+37,"Riley, Davis",19872,0.542,0.1751,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+38,"Svensson, Adam",13997,0.501,0.1668,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+39,"Hoffman, Charley",5768,0.499,0.1665,1,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+40,"Mouw, William",29770,0.421,0.1507,1,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+41,"Thompson, Davis",27364,0.407,0.1479,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+42,"Smith, Jordan",18586,0.355,0.1374,1,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+43,"Putnam, Andrew",14704,0.296,0.1253,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+44,"Vilips, Karl",24304,0.289,0.1239,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+45,"Davis, Cam",17786,0.287,0.1236,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+46,"Van Rooyen, Erik",17550,0.269,0.1199,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+47,"Hodges, Lee",25157,0.267,0.1195,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+48,"Schenk, Adam",19477,0.228,0.1117,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+49,"Dumont De Chassart, Adrien",22002,0.19,0.1041,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
+50,"Poston, J.T.",21554,0.152,0.0962,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+51,"Greyserman, Max",23465,0.101,0.086,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+52,"Mitchell, Keith",17365,0.075,0.0808,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+53,"Nyholm, Pontus",25475,0.068,0.0793,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+54,"Rodgers, Patrick",16283,0.061,0.0779,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+55,"Fishburn, Patrick",25094,0.061,0.0778,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+56,"Palmer, Ryan",7820,0.058,0.0772,1,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+57,"Garnett, Brice",11451,0.042,0.0741,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+58,"Ramey, Chad",19840,0.004,0.0663,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+59,"Suber, Jackson",29279,0.0,0.0656,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+60,"Lamprecht, Christo",24343,-0.001,0.0654,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+61,"Thorbjornsen, Michael",26649,-0.004,0.0647,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+62,"Bradley, Keegan",13872,-0.006,0.0644,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+63,"Hubbard, Mark",16333,-0.013,0.0629,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+64,"Peterson, Paul",16341,-0.025,0.0606,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
+65,"Snedeker, Brandt",8820,-0.026,0.0602,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+66,"Simpson, Webb",11049,-0.034,0.0587,1,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+67,"Neergaard-Petersen, Rasmus",23841,-0.038,0.0579,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+68,"Ghim, Doug",24550,-0.041,0.0572,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+69,"Ewart, A.J.",21883,-0.045,0.0564,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
+70,"Coody, Pierceson",28309,-0.061,0.0532,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+71,"Campbell, Brian",18628,-0.079,0.0496,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+72,"Moore, Taylor",21944,-0.084,0.0487,3,Arnold Palmer's Bay Hill Club & Lodge,Charles Schwab Challenge,2026-05-28
+73,"Kim, Michael",17543,-0.095,0.0464,2,Arnold Palmer's Bay Hill Club & Lodge,Charles Schwab Challenge,2026-05-28
+74,"Finau, Tony",11676,-0.134,0.0385,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+75,"Roy, Kevin",18424,-0.177,0.0297,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+76,"Jaeger, Stephan",16394,-0.186,0.0279,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
+77,"Brennan, Michael",29197,-0.187,0.0277,1,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+78,"Kirk, Chris",12423,-0.196,0.0258,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+79,"Henley, Russell",14578,-0.197,0.0257,1,Arnold Palmer's Bay Hill Club & Lodge,Charles Schwab Challenge,2026-05-28
+80,"Streelman, Kevin",8480,-0.254,0.0142,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+81,"Hojgaard, Rasmus",23838,-0.271,0.0108,1,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
+82,"Hisatsune, Ryo",22760,-0.272,0.0106,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+83,"Hughes, Mackenzie",15556,-0.292,0.0065,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+84,"Tosti, Alejandro",17032,-0.297,0.0054,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+85,"Kanaya, Takumi",19729,-0.301,0.0047,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+86,"Chatfield, Davis",30620,-0.346,-0.0044,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+87,"Harman, Brian",8825,-0.369,-0.0091,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+88,"Grillo, Emiliano",12808,-0.37,-0.0094,1,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
+89,"Fisk, Steven",26657,-0.381,-0.0115,1,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
+90,"Wu, Dylan",25002,-0.389,-0.0132,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+91,"Highsmith, Joe",28469,-0.392,-0.0137,1,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
+92,"McGreevy, Max",23505,-0.429,-0.0213,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
+93,"Hoge, Tom",15575,-0.452,-0.0259,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+94,"Hirata, Kensei",20954,-0.455,-0.0264,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+95,"Glover, Lucas",7399,-0.485,-0.0325,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+96,"Kim, Tom",24766,-0.497,-0.035,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+97,"Power, Seamus",10104,-0.516,-0.0388,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+98,"Kuchar, Matt",6169,-0.547,-0.045,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
+99,"Thomas, Justin",14139,-0.567,-0.0492,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+100,"Phillips, Chandler",27164,-0.604,-0.0567,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
+101,"Keefer, Johnny",32457,-0.623,-0.0605,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+102,"Clanton, Luke",32330,-0.627,-0.0613,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+103,"Homa, Max",17538,-0.654,-0.0667,1,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+104,"Hoey, Rico",23504,-0.72,-0.08,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+105,"Hossler, Beau",15470,-0.727,-0.0815,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+106,"Villegas, Camilo",9171,-0.737,-0.0834,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+107,"Higgo, Garrick",24342,-0.767,-0.0896,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+108,"MacIntyre, Robert",23323,-0.815,-0.0993,2,Arnold Palmer's Bay Hill Club & Lodge,Charles Schwab Challenge,2026-05-28
+109,"Bhatia, Akshay",26096,-0.822,-0.1008,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+110,"Castillo, Ricky",27819,-0.856,-0.1076,1,Quail Hollow Club,Charles Schwab Challenge,2026-05-28
+111,"Walker, Danny",25003,-0.976,-0.1319,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+112,"Bezuidenhout, Christiaan",18103,-0.977,-0.1321,2,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+113,"VanDerLaan, John",25319,-1.022,-0.1412,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
+114,"Dahmen, Joel",14509,-1.101,-0.1572,3,Arnold Palmer's Bay Hill Club & Lodge,Charles Schwab Challenge,2026-05-28
+115,"Li, Haotong",15310,-1.217,-0.1806,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+116,"Gerard, Ryan",29767,-1.337,-0.2048,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+117,"Parry, John",13764,-1.405,-0.2186,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
+118,"Shipley, Neal",32055,-1.453,-0.2283,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
+119,"Nakajima, Keita",21074,-1.502,-0.2382,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
+120,"Stevens, Sam",25569,-1.574,-0.2529,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+121,"Yu, Kevin",17881,-1.703,-0.2789,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
+122,"Theegala, Sahith",23014,-1.851,-0.3088,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+123,"Griffin, Ben",24968,-1.971,-0.3331,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+124,"Kizzire, Patton",13470,-2.005,-0.34,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-28
+125,"Kohles, Ben",16395,-2.267,-0.3931,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28
+126,"Matsuyama, Hideki",13562,-2.456,-0.4312,2,Arnold Palmer's Bay Hill Club & Lodge,Charles Schwab Challenge,2026-05-28
+127,"Martin, Ben",14007,-2.636,-0.4675,3,TPC Louisiana,Charles Schwab Challenge,2026-05-28

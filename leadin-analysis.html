@@ -122,10 +122,8 @@
   .li-player-table tr:hover td { background: rgba(0,0,0,0.02); }
   .li-player-name { font-family: 'Archivo Narrow', sans-serif; font-size: 14px; font-weight: 700; }
   .li-rank { font-size: 13px; color: var(--muted); font-weight: 400; }
-  .li-z-pos { color: rgb(34,197,94); font-weight: 700; }
-  .li-z-neg { color: rgb(220,38,38); font-weight: 700; }
-  .li-z-neu { color: var(--muted); font-weight: 400; }
   .li-top-course { font-size: 11px; color: var(--label); max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .li-z-bar { min-width: 120px; }
 
   /* ── SEARCH / CONTROLS ───────────────────────────────── */
   .li-toolbar {
@@ -187,6 +185,7 @@
     <p class="li-section-desc">
       The courses below have historically predicted performance at this week's venue. A higher Signal Score means the correlation is stronger and more consistent across years. Use the skill tabs to isolate a single category.
     </p>
+    <!-- Analysis covers player results from the 150 days preceding the event date. -->
 
     <div class="li-toolbar">
       <div class="li-skill-tabs" id="course-skill-tabs"></div>
@@ -203,6 +202,7 @@
             <th data-col="years_observed">Yrs Obs</th>
             <th data-col="pct_years_positive">% Positive</th>
             <th data-col="avg_shared_players">Shared</th>
+            <th data-col="last_played">Last Played</th>
           </tr>
         </thead>
         <tbody id="course-tbody"></tbody>
@@ -220,6 +220,7 @@
 
     <div class="li-toolbar">
       <input type="search" class="li-search" id="player-search" placeholder="Search players…" oninput="onPlayerSearch(this.value)">
+      <div class="li-skill-tabs" id="player-skill-tabs"></div>
     </div>
 
     <div class="li-table-wrap">
@@ -260,10 +261,11 @@ const SKILL_COLORS = {
 const SKILL_ORDER = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
 
 // ── State ─────────────────────────────────────────────────────
-let courseRows    = [];
-let playerRows    = [];
-let activeSkill   = null;
-let playerSearch  = '';
+let courseRows      = [];
+let playerRows      = [];
+let activeSkill     = null;
+let activeSkillP    = null; // skill filter for player table
+let playerSearch    = '';
 
 let courseSortCol = 'avg_weighted_score';
 let courseSortDir = -1;
@@ -285,6 +287,7 @@ Papa.parse(`data/pga_leadin_course_summary.csv?v=${_cv}`, {
       years_strong       : parseInt(r.years_strong)          || 0,
       pct_years_positive : parseFloat(r.pct_years_positive)  || 0,
       avg_shared_players : parseFloat(r.avg_shared_players)  || 0,
+      last_played        : r.last_played || null,
       tournament         : r.tournament || '',
       as_of_date         : r.as_of_date || '',
     }));
@@ -305,6 +308,7 @@ Papa.parse(`data/pga_leadin_scores.csv?v=${_cv}`, {
       lead_in_raw     : parseFloat(r.lead_in_raw)     || 0,
       predictors_found: parseInt(r.predictors_found)  || 0,
       top_course      : r.top_course || '—',
+      top_skill       : (r.top_skill || '').trim() || null,
       tournament      : r.tournament || '',
       as_of_date      : r.as_of_date || '',
     }));
@@ -320,6 +324,7 @@ function tryRender() {
     renderCourseTable();
   }
   if (playersDone) {
+    buildPlayerSkillTabs();
     renderPlayerTable();
   }
   if (coursesDone && playersDone) {
@@ -376,6 +381,40 @@ function buildCourseSkillTabs() {
   });
 }
 
+// ── Player Skill Tabs (filter player table by top-course skill) ──
+function buildPlayerSkillTabs() {
+  const tabsEl = document.getElementById('player-skill-tabs');
+  if (tabsEl.childElementCount) return;
+
+  const skills  = [...new Set(playerRows.map(r => r.top_skill).filter(Boolean))];
+  if (!skills.length) return;
+  const ordered = [...SKILL_ORDER.filter(s => skills.includes(s)), ...skills.filter(s => !SKILL_ORDER.includes(s))];
+
+  const allBtn = document.createElement('button');
+  allBtn.className = 'skill-tab active';
+  allBtn.textContent = 'All';
+  allBtn.onclick = () => {
+    activeSkillP = null;
+    tabsEl.querySelectorAll('.skill-tab').forEach(b => b.classList.remove('active'));
+    allBtn.classList.add('active');
+    renderPlayerTable();
+  };
+  tabsEl.appendChild(allBtn);
+
+  ordered.forEach(skill => {
+    const btn = document.createElement('button');
+    btn.className = 'skill-tab';
+    btn.textContent = SKILL_LABELS[skill] || skill;
+    btn.onclick = () => {
+      activeSkillP = skill;
+      tabsEl.querySelectorAll('#player-skill-tabs .skill-tab').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderPlayerTable();
+    };
+    tabsEl.appendChild(btn);
+  });
+}
+
 // ── Course Table ──────────────────────────────────────────────
 function renderCourseTable() {
   const filtered = activeSkill ? courseRows.filter(r => r.skill === activeSkill) : courseRows;
@@ -395,6 +434,7 @@ function renderCourseTable() {
     const barPct     = maxWtd > 0 ? Math.min(100, Math.abs(wtd) / maxWtd * 100) : 0;
     const barBg      = `linear-gradient(to right,rgba(234,179,8,0.35) ${barPct.toFixed(1)}%,transparent ${barPct.toFixed(1)}%)`;
     const pctStr     = (r.pct_years_positive * 100).toFixed(0) + '%';
+    const lastPlayed = r.last_played ? fmtDate(r.last_played) : '—';
     return `<tr>
       <td style="font-weight:500;max-width:220px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" title="${r.course}">${r.course}</td>
       <td>
@@ -407,6 +447,7 @@ function renderCourseTable() {
       <td style="color:var(--muted);">${r.years_observed}</td>
       <td>${pctStr}</td>
       <td style="color:var(--muted);">${r.avg_shared_players.toFixed(1)}</td>
+      <td style="color:var(--muted);font-variant-numeric:tabular-nums;">${lastPlayed}</td>
     </tr>`;
   }).join('');
 
@@ -436,10 +477,23 @@ function onPlayerSearch(val) {
   renderPlayerTable();
 }
 
+function zColor(z) {
+  const t = Math.max(-1, Math.min(1, z / 2.5));
+  function lerp(a, b, x) { return Math.round(a + (b - a) * x); }
+  let r, g, b;
+  if (t < 0) { const x = t + 1; r = lerp(220,160,x); g = lerp(38,160,x); b = lerp(38,160,x); }
+  else        { const x = t;     r = lerp(160,34,x);  g = lerp(160,197,x); b = lerp(160,94,x); }
+  return `rgb(${r},${g},${b})`;
+}
+
 function renderPlayerTable() {
-  const filtered = playerSearch
+  let filtered = playerSearch
     ? playerRows.filter(r => r.player_name.toLowerCase().includes(playerSearch))
     : playerRows;
+
+  if (activeSkillP) {
+    filtered = filtered.filter(r => r.top_skill === activeSkillP);
+  }
 
   const sorted = [...filtered].sort((a, b) => {
     const av = a[playerSortCol] ?? (playerSortDir === -1 ? -Infinity : Infinity);
@@ -448,15 +502,23 @@ function renderPlayerTable() {
     return (bv - av) * -playerSortDir;
   });
 
+  const maxZ = sorted.length ? Math.max(...sorted.map(r => Math.abs(r.lead_in_z))) : 1;
+
   document.getElementById('player-tbody').innerHTML = sorted.map(r => {
-    const zCls  = r.lead_in_z > 0.5 ? 'li-z-pos' : r.lead_in_z < -0.5 ? 'li-z-neg' : 'li-z-neu';
-    const zSign = r.lead_in_z >= 0 ? '+' : '';
-    const rSign = r.lead_in_raw >= 0 ? '+' : '';
+    const zSign  = r.lead_in_z >= 0 ? '+' : '';
+    const color  = zColor(r.lead_in_z);
+    const barPct = maxZ > 0 ? Math.min(100, Math.abs(r.lead_in_z) / maxZ * 100) : 0;
+    const barRgba = r.lead_in_z >= 0 ? 'rgba(34,197,94,0.18)' : 'rgba(220,38,38,0.18)';
+    const barBg   = `linear-gradient(to right,${barRgba} ${barPct.toFixed(1)}%,transparent ${barPct.toFixed(1)}%)`;
+    const rSign2  = r.lead_in_raw >= 0 ? '+' : '';
+    const rColor  = zColor(r.lead_in_z * 0.8);
     return `<tr>
       <td class="li-rank">#${r.rank}</td>
       <td><span class="li-player-name">${r.player_name.replace(/,\s*/, ', ')}</span></td>
-      <td class="${zCls}" style="text-align:right;">${zSign}${r.lead_in_z.toFixed(2)}</td>
-      <td style="text-align:right;color:var(--label);">${rSign}${r.lead_in_raw.toFixed(3)}</td>
+      <td class="li-z-bar" style="background-image:${barBg};text-align:right;font-variant-numeric:tabular-nums;">
+        <span style="color:${color};font-weight:700;position:relative;">${zSign}${r.lead_in_z.toFixed(2)}</span>
+      </td>
+      <td style="text-align:right;color:${rColor};font-variant-numeric:tabular-nums;">${rSign2}${r.lead_in_raw.toFixed(3)}</td>
       <td style="text-align:right;color:var(--muted);">${r.predictors_found}</td>
       <td><span class="li-top-course" title="${r.top_course}">${r.top_course}</span></td>
     </tr>`;

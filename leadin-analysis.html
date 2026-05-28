@@ -185,7 +185,7 @@
   <div style="margin-bottom:40px;">
     <div class="li-section-title">Course Signals</div>
     <p class="li-section-desc">
-      The courses below have historically predicted performance at this week's venue. A higher weighted score means the correlation is stronger and more consistent across years. Use the skill tabs to isolate a single category.
+      The courses below have historically predicted performance at this week's venue. A higher Signal Score means the correlation is stronger and more consistent across years. Use the skill tabs to isolate a single category.
     </p>
 
     <div class="li-toolbar">
@@ -198,8 +198,7 @@
           <tr>
             <th data-col="course">Course</th>
             <th data-col="skill">Skill</th>
-            <th data-col="avg_weighted_score" class="sort-active">Wtd Score ↓</th>
-            <th data-col="avg_r">Avg R</th>
+            <th data-col="avg_weighted_score" class="sort-active">Signal Score ↓</th>
             <th data-col="years_strong">Yrs Strong</th>
             <th data-col="years_observed">Yrs Obs</th>
             <th data-col="pct_years_positive">% Positive</th>
@@ -267,7 +266,7 @@ let activeSkill   = null;
 let playerSearch  = '';
 
 let courseSortCol = 'avg_weighted_score';
-let courseSortDir = -1; // -1 = desc
+let courseSortDir = -1;
 let playerSortCol = 'lead_in_z';
 let playerSortDir = -1;
 
@@ -281,9 +280,7 @@ Papa.parse(`data/pga_leadin_course_summary.csv?v=${_cv}`, {
     courseRows = data.map(r => ({
       course             : r.predictor_course_name || '',
       skill              : (r.predictor_skill || '').trim(),
-      avg_r              : parseFloat(r.avg_r)              || 0,
       avg_weighted_score : parseFloat(r.avg_weighted_score) || 0,
-      avg_r_squared      : parseFloat(r.avg_r_squared)      || 0,
       years_observed     : parseInt(r.years_observed)        || 0,
       years_strong       : parseInt(r.years_strong)          || 0,
       pct_years_positive : parseFloat(r.pct_years_positive)  || 0,
@@ -397,7 +394,6 @@ function renderCourseTable() {
     const wtd        = r.avg_weighted_score;
     const barPct     = maxWtd > 0 ? Math.min(100, Math.abs(wtd) / maxWtd * 100) : 0;
     const barBg      = `linear-gradient(to right,rgba(234,179,8,0.35) ${barPct.toFixed(1)}%,transparent ${barPct.toFixed(1)}%)`;
-    const rColor     = r.avg_r >= 0.15 ? 'rgb(34,197,94)' : r.avg_r >= 0.05 ? 'var(--text)' : 'var(--muted)';
     const pctStr     = (r.pct_years_positive * 100).toFixed(0) + '%';
     return `<tr>
       <td style="font-weight:500;max-width:220px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" title="${r.course}">${r.course}</td>
@@ -407,7 +403,6 @@ function renderCourseTable() {
         </span>
       </td>
       <td class="li-bar-td" style="background-image:${barBg};font-variant-numeric:tabular-nums;">${wtd.toFixed(3)}</td>
-      <td style="color:${rColor};font-weight:600;">${r.avg_r >= 0 ? '+' : ''}${r.avg_r.toFixed(3)}</td>
       <td>${r.years_strong}</td>
       <td style="color:var(--muted);">${r.years_observed}</td>
       <td>${pctStr}</td>
@@ -419,7 +414,6 @@ function renderCourseTable() {
     `${sorted.length} course-skill pair${sorted.length !== 1 ? 's' : ''}` +
     (courseRows[0]?.tournament ? ` · ${courseRows[0].tournament}` : '');
 
-  // Update sort headers
   document.querySelectorAll('#course-table th[data-col]').forEach(th => {
     const active = th.dataset.col === courseSortCol;
     th.classList.toggle('sort-active', active);
@@ -427,7 +421,6 @@ function renderCourseTable() {
   });
 }
 
-// Course table sort
 document.getElementById('course-table').addEventListener('click', e => {
   const th = e.target.closest('th[data-col]');
   if (!th) return;
@@ -473,7 +466,6 @@ function renderPlayerTable() {
     `${sorted.length} player${sorted.length !== 1 ? 's' : ''}` +
     (playerRows[0]?.as_of_date ? ` · updated ${fmtDate(playerRows[0].as_of_date)}` : '');
 
-  // Update sort headers
   document.querySelectorAll('#player-table th[data-col]').forEach(th => {
     const active = th.dataset.col === playerSortCol;
     th.classList.toggle('sort-active', active);
@@ -481,7 +473,6 @@ function renderPlayerTable() {
   });
 }
 
-// Player table sort
 document.getElementById('player-table').addEventListener('click', e => {
   const th = e.target.closest('th[data-col]');
   if (!th) return;

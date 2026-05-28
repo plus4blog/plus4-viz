@@ -128,12 +128,12 @@
         <tr>
           <th data-col="course"             class="bd-course">Course</th>
           <th data-col="skill"              class="bd-skill">Skill</th>
-          <th data-col="avg_weighted_score" class="li-bar sort-active">Signal Score ↓</th>
+          <th data-col="avg_weighted_score" class="li-bar">Signal Score</th>
           <th data-col="years_strong"       class="li-num">Yrs Strong</th>
           <th data-col="years_observed"     class="li-num">Yrs Obs</th>
           <th data-col="pct_years_positive" class="li-num">% Positive</th>
           <th data-col="avg_shared_players" class="li-num">Shared</th>
-          <th data-col="last_played"        class="bd-last">Last Played</th>
+          <th data-col="last_played"        class="bd-last sort-active">Last Played ↓</th>
         </tr>
       </thead>
       <tbody id="course-tbody"></tbody>
@@ -185,7 +185,7 @@ const SKILL_COLORS = {
 const SKILL_ORDER = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
 const SKILL_SHORT = { sg_ott:'OTT', sg_app:'APP', sg_arg:'ARG', sg_putt:'PUTT', sg_total:'OTR' };
 
-// ── State ─────────────────────────────────────────────────────
+// ── State ───────────────────────────────────────────────────────────────
 let courseRows        = [];
 let playerRows        = [];
 let activeSkill       = null;
@@ -196,12 +196,12 @@ let courseShowAll     = false;
 
 const COURSE_PAGE_SIZE = 10;
 
-let courseSortCol = 'avg_weighted_score';
+let courseSortCol = 'last_played';
 let courseSortDir = -1;
 let playerSortCol = 'lead_in_z';
 let playerSortDir = -1;
 
-// ── Tour / Load ───────────────────────────────────────────────
+// ── Tour / Load ───────────────────────────────────────────────────────────────
 let activeTour = 'pga';
 
 document.getElementById('li-tour-toggle').addEventListener('click', e => {
@@ -320,7 +320,7 @@ function fmtDate(str) {
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 }
 
-// ── Course Skill Tabs ─────────────────────────────────────────
+// ── Course Skill Tabs ───────────────────────────────────────────────────────────────
 function buildCourseSkillTabs() {
   const tabsEl = document.getElementById('course-skill-tabs');
   if (tabsEl.childElementCount) return;
@@ -350,7 +350,7 @@ function buildCourseSkillTabs() {
   });
 }
 
-// ── Player Skill Tabs ─────────────────────────────────────────
+// ── Player Skill Tabs ───────────────────────────────────────────────────────────────
 function buildPlayerSkillTabs() {
   const tabsEl = document.getElementById('player-skill-tabs');
   if (tabsEl.childElementCount) return;
@@ -381,7 +381,7 @@ function buildPlayerSkillTabs() {
   });
 }
 
-// ── Course Table (paginated) ──────────────────────────────────────────
+// ── Course Table (paginated) ──────────────────────────────────────────────────────────
 function renderCourseTable() {
   const filtered = activeSkill ? courseRows.filter(r => r.skill === activeSkill) : courseRows;
   const sorted = [...filtered].sort((a, b) => {
@@ -446,7 +446,7 @@ document.getElementById('course-table').addEventListener('click', e => {
   renderCourseTable();
 });
 
-// ── Player Table (dynamic, with per-skill columns) ────────────────────
+// ── Player Table (dynamic, with per-skill columns) ────────────────────────────────────
 function onPlayerSearch(val) {
   playerSearch = val.trim().toLowerCase();
   renderPlayerTable();
@@ -555,7 +555,7 @@ function renderPlayerTable() {
   });
 }
 
-// ── Callout toggles ───────────────────────────────────────────────
+// ── Callout toggles ────────────────────────────────────────────────────────────────
 function toggleCallout(id) {
   const body    = document.getElementById(id + '-body');
   const chevron = document.getElementById(id + '-chevron');
@@ -566,7 +566,7 @@ function toggleCallout(id) {
   btn.setAttribute('aria-expanded', String(!open));
 }
 
-// ── iframe height ───────────────────────────────────────────────
+// ── iframe height ───────────────────────────────────────────────────────────────
 function notifyHeight() {
   window.parent.postMessage({ type: 'plus4-resize', height: document.documentElement.scrollHeight }, '*');
 }

@@ -250,10 +250,12 @@ function buildPlayerTable(sorted) {
     const liVal     = player.lead_in_z;
     const sgStr     = sgVal  != null ? (sgVal  >= 0 ? '+' : '') + sgVal.toFixed(2)  : '—';
     const fitStr    = fitVal != null ? (fitVal >= 0 ? '+' : '') + fitVal.toFixed(3) : '—';
-    const liStr     = liVal  != null ? liVal.toFixed(2) : '—';
+    const liScore   = liVal  != null ? Math.round(liVal * 100) : null;
+    const liStr     = liScore != null ? String(liScore) : '—';
     const sgColor   = sgVal  != null ? valueColor(sgVal,  2.0) : 'var(--muted)';
     const fitColor  = fitVal != null ? valueColor(fitVal, 0.3) : 'var(--muted)';
     const liColor   = liVal  != null ? valueColor(liVal,  2.0) : 'var(--muted)';
+    const liBg      = liVal  != null ? liColor.replace('rgb(','rgba(').replace(')',',0.12)') : 'rgba(128,128,128,0.08)';
 
     const skillCells = displaySkills.map(skill => {
       const pts = player.courses[skill];
@@ -270,7 +272,7 @@ function buildPlayerTable(sorted) {
       <td class="pt-rank">${rankStr}</td>
       <td class="pt-sg" style="color:${sgColor}">${sgStr}</td>
       <td class="pt-fit" style="color:${fitColor}">${fitStr}</td>
-      <td class="pt-leadin" style="color:${liColor}">${liStr}</td>
+      <td class="pt-leadin"><span style="display:inline-block;padding:1px 7px;border-radius:999px;background:${liBg};color:${liColor};font-weight:700;">${liStr}</span></td>
       ${skillCells}
     </tr>`;
   }).join('');
@@ -385,10 +387,12 @@ function buildPlayerCard(player, idx) {
   const rankStr   = player.proj_rank != null ? `#${player.proj_rank}` : '—';
   const sgStr     = sgVal  != null ? (sgVal  >= 0 ? '+' : '') + sgVal.toFixed(2)  : '—';
   const fitStr    = fitVal != null ? (fitVal >= 0 ? '+' : '') + fitVal.toFixed(2) : '—';
-  const liStr     = liVal  != null ? liVal.toFixed(2) : '—';
+  const liScore   = liVal  != null ? Math.round(liVal * 100) : null;
+  const liStr     = liScore != null ? String(liScore) : '—';
   const sgColor   = sgVal  != null ? valueColor(sgVal,  2.0) : 'var(--muted)';
   const fitColor  = fitVal != null ? valueColor(fitVal, 0.3) : 'var(--muted)';
   const liColor   = liVal  != null ? valueColor(liVal,  2.0) : 'var(--muted)';
+  const liBg      = liVal  != null ? liColor.replace('rgb(','rgba(').replace(')',',0.12)') : 'rgba(128,128,128,0.08)';
 
   card.innerHTML = `
     <div class="card-header">
@@ -398,7 +402,7 @@ function buildPlayerCard(player, idx) {
         <span class="proj-stat"><span class="proj-label">Rank</span><span class="proj-val">${rankStr}</span></span>
         <span class="proj-stat"><span class="proj-label">SG Total</span><span class="proj-val" style="color:${sgColor}">${sgStr}</span></span>
         <span class="proj-stat"><span class="proj-label">Course Fit</span><span class="proj-val" style="color:${fitColor}">${fitStr}</span></span>
-        <span class="proj-stat"><span class="proj-label">Lead-In</span><span class="proj-val" style="color:${liColor}">${liStr}</span></span>
+        <span class="proj-stat"><span class="proj-label">Lead-In</span><span class="proj-val" style="display:inline-block;padding:2px 9px;border-radius:999px;background:${liBg};color:${liColor};font-weight:700;">${liStr}</span></span>
       </div>
       <div class="skill-summary">${skillSummaryHTML}</div>
     </div>

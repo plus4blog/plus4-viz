@@ -1,6 +1,7 @@
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let allData      = [];   // raw parsed rows from CSL CSV
 let projData     = {};   // dg_id -> {adjusted_course_fit, adjusted_sg_total, salary}
+let leadinData   = {};   // dg_id -> {lead_in_z, lead_in_raw, predictors_found, top_course}
 let players      = [];   // [{name, salary, courses, proj_rank, adjusted_sg_total, adjusted_course_fit}]
 let activeSkill  = null; // global skill filter (null = all)
 let sortBy       = 'salary';
@@ -30,17 +31,18 @@ const BASE_DATA_URL = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/mai
 
 let activeTour = 'pga';
 
-function csvUrl()  { return `${BASE_DATA_URL}/${activeTour}_course_skill_lookup.csv?v=${Date.now()}`; }
-function projUrl() { return `${BASE_DATA_URL}/${activeTour}_player_projections.csv?v=${Date.now()}`; }
+function csvUrl()    { return `${BASE_DATA_URL}/${activeTour}_course_skill_lookup.csv?v=${Date.now()}`; }
+function projUrl()   { return `${BASE_DATA_URL}/${activeTour}_player_projections.csv?v=${Date.now()}`; }
+function leadinUrl() { return `${BASE_DATA_URL}/pga_leadin_scores.csv?v=${Date.now()}`; }
 
 function loadCSV() {
   const status = document.getElementById('load-status');
   status.textContent = 'Loading data...';
 
-  let coursesDone = false, projDone = false;
+  let coursesDone = false, projDone = false, leadinDone = false;
 
   function tryProcess() {
-    if (!coursesDone || !projDone) return;
+    if (!coursesDone || !projDone || !leadinDone) return;
     processData();
     status.textContent = `Updated ${new Date().toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'})}`;
   }
@@ -67,6 +69,24 @@ function loadCSV() {
       tryProcess();
     },
     error: err => { projDone = true; tryProcess(); console.error('Projections fetch error:', err); }
+  });
+
+  Papa.parse(leadinUrl(), {
+    download: true, header: true, skipEmptyLines: true, dynamicTyping: true,
+    complete: result => {
+      leadinData = {};
+      result.data.forEach(row => {
+        if (row.dg_id) leadinData[row.dg_id] = {
+          lead_in_z       : row.lead_in_z       != null ? parseFloat(row.lead_in_z)       : null,
+          lead_in_raw     : row.lead_in_raw     != null ? parseFloat(row.lead_in_raw)     : null,
+          predictors_found: row.predictors_found != null ? parseInt(row.predictors_found) : null,
+          top_course      : row.top_course || null
+        };
+      });
+      leadinDone = true;
+      tryProcess();
+    },
+    error: err => { leadinDone = true; tryProcess(); console.error('Lead-in fetch error:', err); }
   });
 }
 
@@ -123,13 +143,16 @@ function processData() {
     .forEach(([dg_id], i) => { projRankMap[dg_id] = i + 1; });
 
   players = Object.values(playerMap).map(p => {
-    const proj = projData[p.dg_id] || null;
+    const proj   = projData[p.dg_id]   || null;
+    const leadin = leadinData[p.dg_id] || null;
     return {
       ...p,
       salary              : proj?.salary              ?? p.salary,
       adjusted_sg_total   : proj?.adjusted_sg_total   ?? null,
       adjusted_course_fit : proj?.adjusted_course_fit ?? null,
-      proj_rank           : projRankMap[p.dg_id]      ?? null
+      proj_rank           : projRankMap[p.dg_id]      ?? null,
+      lead_in_z           : leadin?.lead_in_z         ?? null,
+      top_course          : leadin?.top_course        ?? null
     };
   });
 
@@ -175,6 +198,7 @@ function renderGrid() {
   const getValue = p => {
     if (sortBy === 'sg_total')   return p.adjusted_sg_total   ?? -Infinity;
     if (sortBy === 'course_fit') return p.adjusted_course_fit ?? -Infinity;
+    if (sortBy === 'lead_in')    return p.lead_in_z           ?? -Infinity;
     if (sortBy === 'ml')         return -Infinity;
     return p.salary ?? 0;
   };
@@ -187,7 +211,7 @@ function renderGrid() {
     sortDir === 'desc' ? getValue(b) - getValue(a) : getValue(a) - getValue(b)
   );
 
-  const sortLabel = { salary: 'DraftKings salary', sg_total: 'SG Total', course_fit: 'Course Fit', ml: '✨ ML score' };
+  const sortLabel = { salary: 'DraftKings salary', sg_total: 'SG Total', course_fit: 'Course Fit', lead_in: 'Lead-In Z', ml: '✨ ML score' };
   document.getElementById('player-count').textContent =
     `${sorted.length} player${sorted.length !== 1 ? 's' : ''} · sorted by ${sortLabel[sortBy]}`;
 
@@ -224,10 +248,13 @@ function buildPlayerTable(sorted) {
     const rankStr   = player.proj_rank != null ? `#${player.proj_rank}` : '—';
     const sgVal     = player.adjusted_sg_total;
     const fitVal    = player.adjusted_course_fit;
+    const liVal     = player.lead_in_z;
     const sgStr     = sgVal  != null ? (sgVal  >= 0 ? '+' : '') + sgVal.toFixed(2)  : '—';
     const fitStr    = fitVal != null ? (fitVal >= 0 ? '+' : '') + fitVal.toFixed(3) : '—';
+    const liStr     = liVal  != null ? (liVal  >= 0 ? '+' : '') + liVal.toFixed(2)  : '—';
     const sgColor   = sgVal  != null ? valueColor(sgVal,  2.0) : 'var(--muted)';
     const fitColor  = fitVal != null ? valueColor(fitVal, 0.3) : 'var(--muted)';
+    const liColor   = liVal  != null ? valueColor(liVal,  2.0) : 'var(--muted)';
 
     const skillCells = displaySkills.map(skill => {
       const pts = player.courses[skill];
@@ -244,6 +271,7 @@ function buildPlayerTable(sorted) {
       <td class="pt-rank">${rankStr}</td>
       <td class="pt-sg" style="color:${sgColor}">${sgStr}</td>
       <td class="pt-fit" style="color:${fitColor}">${fitStr}</td>
+      <td class="pt-leadin" style="color:${liColor}">${liStr}</td>
       ${skillCells}
     </tr>`;
   }).join('');
@@ -259,6 +287,7 @@ function buildPlayerTable(sorted) {
           <th class="pt-rank" rowspan="2">Rank</th>
           <th class="pt-sg" rowspan="2">SG Tot</th>
           <th class="pt-fit" rowspan="2">Course Fit</th>
+          <th class="pt-leadin" rowspan="2">Lead-In Z</th>
           ${skillGroupHeader}
         </tr>
         <tr>${skillSubHeaders}</tr>
@@ -354,13 +383,16 @@ function buildPlayerCard(player, idx) {
       </table>
     </div>`;
 
-  const fitVal  = player.adjusted_course_fit ?? null;
-  const sgVal   = player.adjusted_sg_total   ?? null;
-  const rankStr = player.proj_rank != null ? `#${player.proj_rank}` : '—';
-  const sgStr   = sgVal  != null ? (sgVal  >= 0 ? '+' : '') + sgVal.toFixed(2)  : '—';
-  const fitStr  = fitVal != null ? (fitVal >= 0 ? '+' : '') + fitVal.toFixed(2) : '—';
-  const sgColor  = sgVal  != null ? valueColor(sgVal,  2.0) : 'var(--muted)';
-  const fitColor = fitVal != null ? valueColor(fitVal, 0.3) : 'var(--muted)';
+  const fitVal    = player.adjusted_course_fit ?? null;
+  const sgVal     = player.adjusted_sg_total   ?? null;
+  const liVal     = player.lead_in_z           ?? null;
+  const rankStr   = player.proj_rank != null ? `#${player.proj_rank}` : '—';
+  const sgStr     = sgVal  != null ? (sgVal  >= 0 ? '+' : '') + sgVal.toFixed(2)  : '—';
+  const fitStr    = fitVal != null ? (fitVal >= 0 ? '+' : '') + fitVal.toFixed(2) : '—';
+  const liStr     = liVal  != null ? (liVal  >= 0 ? '+' : '') + liVal.toFixed(2)  : '—';
+  const sgColor   = sgVal  != null ? valueColor(sgVal,  2.0) : 'var(--muted)';
+  const fitColor  = fitVal != null ? valueColor(fitVal, 0.3) : 'var(--muted)';
+  const liColor   = liVal  != null ? valueColor(liVal,  2.0) : 'var(--muted)';
 
   card.innerHTML = `
     <div class="card-header">
@@ -370,6 +402,7 @@ function buildPlayerCard(player, idx) {
         <span class="proj-stat"><span class="proj-label">Rank</span><span class="proj-val">${rankStr}</span></span>
         <span class="proj-stat"><span class="proj-label">SG Total</span><span class="proj-val" style="color:${sgColor}">${sgStr}</span></span>
         <span class="proj-stat"><span class="proj-label">Course Fit</span><span class="proj-val" style="color:${fitColor}">${fitStr}</span></span>
+        <span class="proj-stat"><span class="proj-label">Lead-In Z</span><span class="proj-val" style="color:${liColor}">${liStr}</span></span>
         <span class="proj-stat"><span class="proj-label proj-label-ml">✨ ML</span><span class="proj-val proj-val-ml" style="color:var(--muted)">—</span></span>
       </div>
       <div class="skill-summary">${skillSummaryHTML}</div>

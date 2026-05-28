@@ -7,10 +7,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 <link rel="stylesheet" href="style.css">
 <style>
-  #course-table th[data-col], #player-table th[data-col] {
-    cursor: pointer; user-select: none;
-  }
-  #course-table th[data-col]:hover, #player-table th[data-col]:hover { color: var(--accent-2); }
+  #course-table th[data-col] { cursor: pointer; user-select: none; }
+  #course-table th[data-col]:hover { color: var(--accent-2); }
   .breakdown-table th.sort-active { color: var(--accent-2) !important; }
   .li-num {
     text-align: right;
@@ -36,7 +34,7 @@
   .li-top-course {
     font-size: 12px;
     color: var(--label);
-    max-width: 240px;
+    max-width: 200px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -52,7 +50,29 @@
     padding-top: 8px;
     padding-bottom: 4px;
   }
-  @media (max-width: 640px) { .li-top-course { max-width: 140px; } }
+  .li-skill-group {
+    text-align: center;
+    font-size: 11px;
+    color: var(--muted);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    padding-bottom: 2px;
+  }
+  .li-skill-cell {
+    text-align: right;
+    white-space: nowrap;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 13px;
+    font-variant-numeric: tabular-nums;
+    min-width: 44px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .li-skill-cell:hover { color: var(--accent-2) !important; }
+  @media (max-width: 640px) {
+    .li-top-course { max-width: 120px; }
+    .li-skill-cell, .li-skill-group { display: none; }
+  }
 </style>
 </head>
 <body>
@@ -61,7 +81,7 @@
 <div class="header">
   <div class="header-inner">
     <div>
-      <div class="course-label">Lead-In Analysis</div>
+      <div class="course-label">This Week's Course</div>
       <div class="course-name" id="page-title">—</div>
       <div class="course-meta" id="page-meta"></div>
     </div>
@@ -101,7 +121,7 @@
   </div>
 </div>
 
-<div class="breakdown-wrap">
+<div class="breakdown-wrap" style="padding-top:8px;">
   <div class="breakdown-table-wrap">
     <table class="breakdown-table" id="course-table">
       <thead>
@@ -123,7 +143,7 @@
 </div>
 
 <!-- PLAYER RANKINGS SECTION -->
-<div class="intro-callout">
+<div class="intro-callout" style="margin-top:16px;">
   <div class="intro-callout-inner">
     <div class="breakdown-header">
       <div class="breakdown-title">Player Lead-In Rankings</div>
@@ -137,27 +157,13 @@
       <svg class="callout-chevron" id="rankings-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </button>
     <div class="callout-body" id="rankings-body" style="display:none;">
-      <p>Each player's lead-in score measures how much they've been outperforming their own baseline at courses that historically predict this week's venue. A higher Z-score means stronger relative form — the bar fill scales to the field leader. The top course shown is the single biggest predictor driving that player's score.</p>
+      <p>Each player's lead-in score measures how much they've been outperforming their own baseline at courses that historically predict this week's venue. A higher Z-score means stronger relative form — the bar fill scales to the field leader. Per-skill columns show which components are driving each player's score.</p>
     </div>
   </div>
 </div>
 
-<div class="breakdown-wrap">
-  <div class="breakdown-table-wrap">
-    <table class="breakdown-table" id="player-table">
-      <thead>
-        <tr>
-          <th data-col="rank"             class="li-rank-cell">Rank</th>
-          <th data-col="player_name">Player</th>
-          <th data-col="lead_in_z"        class="li-bar sort-active">Lead-In Z ↓</th>
-          <th data-col="lead_in_raw"      class="li-num">Raw Score</th>
-          <th data-col="predictors_found" class="li-num">Predictors</th>
-          <th data-col="top_course">Top Course</th>
-        </tr>
-      </thead>
-      <tbody id="player-tbody"></tbody>
-    </table>
-  </div>
+<div class="breakdown-wrap" style="padding-top:8px;">
+  <div class="breakdown-table-wrap" id="player-table-wrap"></div>
   <div class="li-meta" id="player-meta"></div>
 </div>
 
@@ -177,17 +183,25 @@ const SKILL_COLORS = {
   sg_total: 'rgba(249,115,22,0.7)'
 };
 const SKILL_ORDER = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
+const SKILL_SHORT = { sg_ott:'OTT', sg_app:'APP', sg_arg:'ARG', sg_putt:'PUTT', sg_total:'OTR' };
 
-let courseRows   = [];
-let playerRows   = [];
-let activeSkill  = null;
-let activeSkillP = null;
-let playerSearch = '';
+// ── State ─────────────────────────────────────────────────────
+let courseRows        = [];
+let playerRows        = [];
+let activeSkill       = null;
+let activeSkillP      = null;
+let playerSearch      = '';
+let availableSkillCols = [];
+let courseShowAll     = false;
+
+const COURSE_PAGE_SIZE = 10;
+
 let courseSortCol = 'avg_weighted_score';
 let courseSortDir = -1;
 let playerSortCol = 'lead_in_z';
 let playerSortDir = -1;
 
+// ── Tour / Load ───────────────────────────────────────────────
 let activeTour = 'pga';
 
 document.getElementById('li-tour-toggle').addEventListener('click', e => {
@@ -198,6 +212,8 @@ document.getElementById('li-tour-toggle').addEventListener('click', e => {
   btn.classList.add('active');
   coursesDone = false; playersDone = false;
   courseRows = []; playerRows = [];
+  availableSkillCols = [];
+  courseShowAll = false;
   document.getElementById('course-skill-tabs').innerHTML = '';
   document.getElementById('player-skill-tabs').innerHTML = '';
   activeSkill = null; activeSkillP = null;
@@ -234,18 +250,35 @@ function loadData() {
   Papa.parse(`data/${activeTour}_leadin_scores.csv?v=${cv}`, {
     download: true, header: true, skipEmptyLines: true, dynamicTyping: true,
     complete({ data }) {
-      playerRows = data.map(r => ({
-        rank            : parseInt(r.rank)              || 0,
-        player_name     : r.player_name || '',
-        dg_id           : r.dg_id,
-        lead_in_z       : parseFloat(r.lead_in_z)       || 0,
-        lead_in_raw     : parseFloat(r.lead_in_raw)     || 0,
-        predictors_found: parseInt(r.predictors_found)  || 0,
-        top_course      : r.top_course || '—',
-        top_skill       : (r.top_skill || '').trim() || null,
-        tournament      : r.tournament || '',
-        as_of_date      : r.as_of_date || '',
-      }));
+      // Detect per-skill Z-score columns (e.g. lead_in_z_sg_ott)
+      if (data.length > 0) {
+        const sample = data[0];
+        availableSkillCols = SKILL_ORDER.filter(s => {
+          const k = `lead_in_z_${s}`;
+          return k in sample && sample[k] !== '' && sample[k] != null;
+        });
+      }
+
+      playerRows = data.map(r => {
+        const skillScores = {};
+        availableSkillCols.forEach(s => {
+          const v = parseFloat(r[`lead_in_z_${s}`]);
+          skillScores[s] = isNaN(v) ? null : v;
+        });
+        return {
+          rank            : parseInt(r.rank)              || 0,
+          player_name     : r.player_name || '',
+          dg_id           : r.dg_id,
+          lead_in_z       : parseFloat(r.lead_in_z)       || 0,
+          lead_in_raw     : parseFloat(r.lead_in_raw)     || 0,
+          predictors_found: parseInt(r.predictors_found)  || 0,
+          top_course      : r.top_course || '—',
+          top_skill       : (r.top_skill || '').trim() || null,
+          tournament      : r.tournament || '',
+          as_of_date      : r.as_of_date || '',
+          skill_scores    : skillScores,
+        };
+      });
       playersDone = true;
       tryRender();
     },
@@ -287,6 +320,7 @@ function fmtDate(str) {
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 }
 
+// ── Course Skill Tabs ─────────────────────────────────────────
 function buildCourseSkillTabs() {
   const tabsEl = document.getElementById('course-skill-tabs');
   if (tabsEl.childElementCount) return;
@@ -296,7 +330,7 @@ function buildCourseSkillTabs() {
   allBtn.className = 'skill-tab active';
   allBtn.textContent = 'All';
   allBtn.onclick = () => {
-    activeSkill = null;
+    activeSkill = null; courseShowAll = false;
     tabsEl.querySelectorAll('.skill-tab').forEach(b => b.classList.remove('active'));
     allBtn.classList.add('active');
     renderCourseTable();
@@ -307,7 +341,7 @@ function buildCourseSkillTabs() {
     btn.className = 'skill-tab';
     btn.textContent = SKILL_LABELS[skill] || skill;
     btn.onclick = () => {
-      activeSkill = skill;
+      activeSkill = skill; courseShowAll = false;
       tabsEl.querySelectorAll('.skill-tab').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       renderCourseTable();
@@ -316,6 +350,7 @@ function buildCourseSkillTabs() {
   });
 }
 
+// ── Player Skill Tabs ─────────────────────────────────────────
 function buildPlayerSkillTabs() {
   const tabsEl = document.getElementById('player-skill-tabs');
   if (tabsEl.childElementCount) return;
@@ -346,6 +381,7 @@ function buildPlayerSkillTabs() {
   });
 }
 
+// ── Course Table (paginated) ──────────────────────────────────────────
 function renderCourseTable() {
   const filtered = activeSkill ? courseRows.filter(r => r.skill === activeSkill) : courseRows;
   const sorted = [...filtered].sort((a, b) => {
@@ -354,8 +390,12 @@ function renderCourseTable() {
     if (typeof av === 'string') return av.localeCompare(bv) * courseSortDir;
     return (bv - av) * -courseSortDir;
   });
-  const maxWtd = sorted.length ? Math.max(...sorted.map(r => Math.abs(r.avg_weighted_score))) : 1;
-  document.getElementById('course-tbody').innerHTML = sorted.map(r => {
+
+  const maxWtd    = sorted.length ? Math.max(...sorted.map(r => Math.abs(r.avg_weighted_score))) : 1;
+  const visible   = courseShowAll ? sorted : sorted.slice(0, COURSE_PAGE_SIZE);
+  const remaining = sorted.length - COURSE_PAGE_SIZE;
+
+  document.getElementById('course-tbody').innerHTML = visible.map(r => {
     const skillColor = SKILL_COLORS[r.skill] || 'rgba(100,100,100,0.5)';
     const wtd        = r.avg_weighted_score;
     const barPct     = maxWtd > 0 ? Math.min(100, Math.abs(wtd) / maxWtd * 100) : 0;
@@ -373,10 +413,27 @@ function renderCourseTable() {
       <td class="bd-last">${lastPlayed}</td>
     </tr>`;
   }).join('');
+
+  const existingBtn = document.getElementById('cs-show-more');
+  if (existingBtn) existingBtn.remove();
+  if (!courseShowAll && remaining > 0) {
+    const btn = document.createElement('button');
+    btn.id = 'cs-show-more';
+    btn.className = 'bd-show-more-btn';
+    btn.textContent = `Show ${remaining} more`;
+    btn.onclick = () => { courseShowAll = true; renderCourseTable(); };
+    document.getElementById('course-table').after(btn);
+  }
+
   document.getElementById('course-meta').textContent =
     `${sorted.length} course-skill pair${sorted.length !== 1 ? 's' : ''}` +
     (courseRows[0]?.tournament ? ` · ${courseRows[0].tournament}` : '');
-  updateSortHeaders('#course-table', courseSortCol, courseSortDir);
+
+  document.querySelectorAll('#course-table th[data-col]').forEach(th => {
+    const active = th.dataset.col === courseSortCol;
+    th.classList.toggle('sort-active', active);
+    th.textContent = th.textContent.replace(/ [↑↓]$/, '') + (active ? (courseSortDir === -1 ? ' ↓' : ' ↑') : '');
+  });
 }
 
 document.getElementById('course-table').addEventListener('click', e => {
@@ -384,10 +441,12 @@ document.getElementById('course-table').addEventListener('click', e => {
   if (!th) return;
   const col = th.dataset.col;
   if (col === courseSortCol) courseSortDir *= -1;
-  else { courseSortCol = col; courseSortDir = -1; }
+  else { courseSortCol = col; courseSortDir = col === 'course' || col === 'skill' ? 1 : -1; }
+  courseShowAll = false;
   renderCourseTable();
 });
 
+// ── Player Table (dynamic, with per-skill columns) ────────────────────
 function onPlayerSearch(val) {
   playerSearch = val.trim().toLowerCase();
   renderPlayerTable();
@@ -402,19 +461,60 @@ function zColor(z) {
   return `rgb(${r},${g},${b})`;
 }
 
+function sortPlayerTable(col) {
+  if (col === playerSortCol) playerSortDir *= -1;
+  else { playerSortCol = col; playerSortDir = col === 'player_name' || col === 'top_course' ? 1 : -1; }
+  renderPlayerTable();
+}
+
 function renderPlayerTable() {
   let filtered = playerSearch
     ? playerRows.filter(r => r.player_name.toLowerCase().includes(playerSearch))
     : playerRows;
   if (activeSkillP) filtered = filtered.filter(r => r.top_skill === activeSkillP);
+
   const sorted = [...filtered].sort((a, b) => {
-    const av = a[playerSortCol] ?? (playerSortDir === -1 ? -Infinity : Infinity);
-    const bv = b[playerSortCol] ?? (playerSortDir === -1 ? -Infinity : Infinity);
+    let av, bv;
+    if (playerSortCol.startsWith('sk:')) {
+      const sk = playerSortCol.slice(3);
+      av = a.skill_scores?.[sk] ?? (playerSortDir === -1 ? -Infinity : Infinity);
+      bv = b.skill_scores?.[sk] ?? (playerSortDir === -1 ? -Infinity : Infinity);
+    } else {
+      av = a[playerSortCol] ?? (playerSortDir === -1 ? -Infinity : Infinity);
+      bv = b[playerSortCol] ?? (playerSortDir === -1 ? -Infinity : Infinity);
+    }
     if (typeof av === 'string') return av.localeCompare(bv) * playerSortDir;
     return (bv - av) * -playerSortDir;
   });
-  const maxZ = sorted.length ? Math.max(...sorted.map(r => Math.abs(r.lead_in_z))) : 1;
-  document.getElementById('player-tbody').innerHTML = sorted.map(r => {
+
+  const maxZ  = sorted.length ? Math.max(...sorted.map(r => Math.abs(r.lead_in_z))) : 1;
+  const hasSk = availableSkillCols.length > 0;
+  const rs    = hasSk ? ' rowspan="2"' : '';
+
+  const skillGroupTh = hasSk
+    ? `<th class="li-skill-group" colspan="${availableSkillCols.length}">Lead-In by Skill</th>`
+    : '';
+  const skillSubThs = hasSk
+    ? availableSkillCols.map(s => {
+        const active = playerSortCol === `sk:${s}`;
+        return `<th class="li-skill-cell${active ? ' sort-active' : ''}" data-sk="${s}" onclick="sortPlayerTable('sk:${s}')">${SKILL_SHORT[s] || s}</th>`;
+      }).join('')
+    : '';
+
+  const thead = `<thead>
+    <tr>
+      <th class="li-rank-cell"${rs} data-col="rank" onclick="sortPlayerTable('rank')">Rank</th>
+      <th${rs} data-col="player_name" onclick="sortPlayerTable('player_name')">Player</th>
+      <th class="li-bar"${rs} data-col="lead_in_z" onclick="sortPlayerTable('lead_in_z')">Lead-In Z</th>
+      <th class="li-num"${rs} data-col="lead_in_raw" onclick="sortPlayerTable('lead_in_raw')">Raw Score</th>
+      <th class="li-num"${rs} data-col="predictors_found" onclick="sortPlayerTable('predictors_found')">Predictors</th>
+      <th${rs} data-col="top_course" onclick="sortPlayerTable('top_course')">Top Course</th>
+      ${skillGroupTh}
+    </tr>
+    ${hasSk ? `<tr>${skillSubThs}</tr>` : ''}
+  </thead>`;
+
+  const tbody = sorted.map(r => {
     const zSign   = r.lead_in_z  >= 0 ? '+' : '';
     const rSign   = r.lead_in_raw >= 0 ? '+' : '';
     const color   = zColor(r.lead_in_z);
@@ -422,6 +522,14 @@ function renderPlayerTable() {
     const barPct  = maxZ > 0 ? Math.min(100, Math.abs(r.lead_in_z) / maxZ * 100) : 0;
     const barRgba = r.lead_in_z >= 0 ? 'rgba(34,197,94,0.18)' : 'rgba(220,38,38,0.18)';
     const barBg   = `linear-gradient(to right,${barRgba} ${barPct.toFixed(1)}%,transparent ${barPct.toFixed(1)}%)`;
+
+    const skillCells = hasSk ? availableSkillCols.map(s => {
+      const v = r.skill_scores?.[s];
+      if (v == null) return `<td class="li-skill-cell" style="color:var(--muted);">—</td>`;
+      const sign = v >= 0 ? '+' : '';
+      return `<td class="li-skill-cell" style="color:${zColor(v)};"><span style="position:relative">${sign}${v.toFixed(2)}</span></td>`;
+    }).join('') : '';
+
     return `<tr>
       <td class="li-rank-cell">#${r.rank}</td>
       <td><span class="li-player-name">${r.player_name.replace(/,\s*/, ', ')}</span></td>
@@ -429,31 +537,25 @@ function renderPlayerTable() {
       <td class="li-num" style="color:${rColor};">${rSign}${r.lead_in_raw.toFixed(3)}</td>
       <td class="li-num" style="color:var(--muted);">${r.predictors_found}</td>
       <td><span class="li-top-course" title="${r.top_course}">${r.top_course}</span></td>
+      ${skillCells}
     </tr>`;
   }).join('');
+
+  document.getElementById('player-table-wrap').innerHTML =
+    `<table class="breakdown-table" id="player-table">${thead}<tbody>${tbody}</tbody></table>`;
+
   document.getElementById('player-meta').textContent =
     `${sorted.length} player${sorted.length !== 1 ? 's' : ''}` +
     (playerRows[0]?.as_of_date ? ` · updated ${fmtDate(playerRows[0].as_of_date)}` : '');
-  updateSortHeaders('#player-table', playerSortCol, playerSortDir);
-}
 
-document.getElementById('player-table').addEventListener('click', e => {
-  const th = e.target.closest('th[data-col]');
-  if (!th) return;
-  const col = th.dataset.col;
-  if (col === playerSortCol) playerSortDir *= -1;
-  else { playerSortCol = col; playerSortDir = col === 'player_name' || col === 'top_course' ? 1 : -1; }
-  renderPlayerTable();
-});
-
-function updateSortHeaders(tableSelector, sortCol, sortDir) {
-  document.querySelectorAll(`${tableSelector} th[data-col]`).forEach(th => {
-    const active = th.dataset.col === sortCol;
+  document.querySelectorAll('#player-table th[data-col]').forEach(th => {
+    const active = th.dataset.col === playerSortCol;
     th.classList.toggle('sort-active', active);
-    th.textContent = th.textContent.replace(/ [↑↓]$/, '') + (active ? (sortDir === -1 ? ' ↓' : ' ↑') : '');
+    th.textContent = th.textContent.replace(/ [↑↓]$/, '') + (active ? (playerSortDir === -1 ? ' ↓' : ' ↑') : '');
   });
 }
 
+// ── Callout toggles ───────────────────────────────────────────────
 function toggleCallout(id) {
   const body    = document.getElementById(id + '-body');
   const chevron = document.getElementById(id + '-chevron');
@@ -464,6 +566,7 @@ function toggleCallout(id) {
   btn.setAttribute('aria-expanded', String(!open));
 }
 
+// ── iframe height ───────────────────────────────────────────────
 function notifyHeight() {
   window.parent.postMessage({ type: 'plus4-resize', height: document.documentElement.scrollHeight }, '*');
 }

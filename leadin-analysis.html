@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>plus4.blog · Lead-In Analysis</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<style>
+  /* ── HEADER ──────────────────────────────────────────── */
+  .li-header-label {
+    color: rgba(255,255,255,0.8);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .li-header-title {
+    color: #fff;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: clamp(28px, 5vw, 52px);
+    letter-spacing: 0.03em;
+    line-height: 1;
+  }
+  .li-header-sub {
+    color: rgba(255,255,255,0.7);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    margin-top: 8px;
+  }
+
+  /* ── WRAP ────────────────────────────────────────────── */
+  .li-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 28px 32px 56px;
+  }
+
+  /* ── SECTION TITLE ───────────────────────────────────── */
+  .li-section-title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+  .li-section-desc {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--label);
+    margin-bottom: 16px;
+  }
+
+  /* ── COURSE SIGNALS TABLE ────────────────────────────── */
+  .li-table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; }
+  .li-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+  }
+  .li-table th {
+    background: var(--surface);
+    border-bottom: 2px solid var(--border);
+    padding: 8px 10px;
+    text-align: left;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+  }
+  .li-table th:hover { color: var(--accent); }
+  .li-table th.sort-active { color: var(--accent); }
+  .li-table th:not(:first-child):not(:nth-child(2)) { text-align: right; }
+  .li-table td {
+    padding: 7px 10px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+    vertical-align: middle;
+  }
+  .li-table td:not(:first-child):not(:nth-child(2)) { text-align: right; font-variant-numeric: tabular-nums; }
+  .li-table tr:last-child td { border-bottom: none; }
+  .li-table tr:hover td { background: rgba(0,0,0,0.02); }
+
+  /* bar cell */
+  .li-bar-td { position: relative; min-width: 100px; }
+
+  /* ── PLAYER TABLE ────────────────────────────────────── */
+  .li-player-table { width: 100%; border-collapse: collapse; font-family: 'IBM Plex Sans', sans-serif; font-size: 12px; }
+  .li-player-table th {
+    background: var(--surface);
+    border-bottom: 2px solid var(--border);
+    padding: 8px 10px;
+    text-align: left;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+  }
+  .li-player-table th:hover { color: var(--accent); }
+  .li-player-table th.sort-active { color: var(--accent); }
+  .li-player-table th:not(:first-child):not(:nth-child(2)):not(:last-child) { text-align: right; }
+  .li-player-table td {
+    padding: 7px 10px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+    vertical-align: middle;
+  }
+  .li-player-table tr:last-child td { border-bottom: none; }
+  .li-player-table tr:hover td { background: rgba(0,0,0,0.02); }
+  .li-player-name { font-family: 'Archivo Narrow', sans-serif; font-size: 14px; font-weight: 700; }
+  .li-rank { font-size: 13px; color: var(--muted); font-weight: 400; }
+  .li-z-pos { color: rgb(34,197,94); font-weight: 700; }
+  .li-z-neg { color: rgb(220,38,38); font-weight: 700; }
+  .li-z-neu { color: var(--muted); font-weight: 400; }
+  .li-top-course { font-size: 11px; color: var(--label); max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+  /* ── SEARCH / CONTROLS ───────────────────────────────── */
+  .li-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+  }
+  .li-search {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    padding: 6px 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--card);
+    color: var(--text);
+    outline: none;
+    width: 200px;
+  }
+  .li-search:focus { border-color: var(--accent); }
+  .li-skill-tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+
+  /* ── META ────────────────────────────────────────────── */
+  .li-meta {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 11px;
+    color: var(--muted);
+    font-style: italic;
+    text-align: right;
+    padding-top: 8px;
+  }
+
+  @media (max-width: 640px) {
+    .li-wrap { padding: 16px 16px 40px; }
+    .li-top-course { max-width: 130px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-inner">
+    <div>
+      <div class="li-header-label">plus4.blog</div>
+      <div class="li-header-title" id="page-title">Lead-In Analysis</div>
+      <div class="li-header-sub" id="page-sub">Which players are arriving in form — at the courses that matter.</div>
+    </div>
+  </div>
+</div>
+
+<!-- CONTENT -->
+<div class="li-wrap">
+
+  <!-- COURSE SIGNALS -->
+  <div style="margin-bottom:40px;">
+    <div class="li-section-title">Course Signals</div>
+    <p class="li-section-desc">
+      The courses below have historically predicted performance at this week's venue. A higher weighted score means the correlation is stronger and more consistent across years. Use the skill tabs to isolate a single category.
+    </p>
+
+    <div class="li-toolbar">
+      <div class="li-skill-tabs" id="course-skill-tabs"></div>
+    </div>
+
+    <div class="li-table-wrap">
+      <table class="li-table" id="course-table">
+        <thead>
+          <tr>
+            <th data-col="course">Course</th>
+            <th data-col="skill">Skill</th>
+            <th data-col="avg_weighted_score" class="sort-active">Wtd Score ↓</th>
+            <th data-col="avg_r">Avg R</th>
+            <th data-col="years_strong">Yrs Strong</th>
+            <th data-col="years_observed">Yrs Obs</th>
+            <th data-col="pct_years_positive">% Positive</th>
+            <th data-col="avg_shared_players">Shared</th>
+          </tr>
+        </thead>
+        <tbody id="course-tbody"></tbody>
+      </table>
+    </div>
+    <div class="li-meta" id="course-meta"></div>
+  </div>
+
+  <!-- PLAYER RANKINGS -->
+  <div>
+    <div class="li-section-title">Player Lead-In Rankings</div>
+    <p class="li-section-desc">
+      Each player's lead-in score measures how much they've been outperforming their own baseline at courses that historically predict this week's venue. A higher Z-score means stronger relative form. The top course shown is the single biggest predictor driving their score.
+    </p>
+
+    <div class="li-toolbar">
+      <input type="search" class="li-search" id="player-search" placeholder="Search players…" oninput="onPlayerSearch(this.value)">
+    </div>
+
+    <div class="li-table-wrap">
+      <table class="li-player-table" id="player-table">
+        <thead>
+          <tr>
+            <th data-col="rank">Rank</th>
+            <th data-col="name">Player</th>
+            <th data-col="lead_in_z" class="sort-active">Lead-In Z ↓</th>
+            <th data-col="lead_in_raw">Raw Score</th>
+            <th data-col="predictors_found">Predictors</th>
+            <th data-col="top_course">Top Course</th>
+          </tr>
+        </thead>
+        <tbody id="player-tbody"></tbody>
+      </table>
+    </div>
+    <div class="li-meta" id="player-meta"></div>
+  </div>
+
+</div>
+
+<script>
+const SKILL_LABELS = {
+  sg_ott  : 'Off the Tee',
+  sg_app  : 'Approach',
+  sg_arg  : 'Around Green',
+  sg_putt : 'Putting',
+  sg_total: 'Total SG'
+};
+const SKILL_COLORS = {
+  sg_ott  : 'rgba(204,31,31,0.85)',
+  sg_app  : 'rgba(240,180,41,0.7)',
+  sg_arg  : 'rgba(34,197,94,0.7)',
+  sg_putt : 'rgba(168,85,247,0.7)',
+  sg_total: 'rgba(249,115,22,0.7)'
+};
+const SKILL_ORDER = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
+
+// ── State ─────────────────────────────────────────────────────
+let courseRows    = [];
+let playerRows    = [];
+let activeSkill   = null;
+let playerSearch  = '';
+
+let courseSortCol = 'avg_weighted_score';
+let courseSortDir = -1; // -1 = desc
+let playerSortCol = 'lead_in_z';
+let playerSortDir = -1;
+
+// ── Load ──────────────────────────────────────────────────────
+const _cv = Date.now();
+let coursesDone = false, playersDone = false;
+
+Papa.parse(`data/pga_leadin_course_summary.csv?v=${_cv}`, {
+  download: true, header: true, skipEmptyLines: true, dynamicTyping: true,
+  complete({ data }) {
+    courseRows = data.map(r => ({
+      course             : r.predictor_course_name || '',
+      skill              : (r.predictor_skill || '').trim(),
+      avg_r              : parseFloat(r.avg_r)              || 0,
+      avg_weighted_score : parseFloat(r.avg_weighted_score) || 0,
+      avg_r_squared      : parseFloat(r.avg_r_squared)      || 0,
+      years_observed     : parseInt(r.years_observed)        || 0,
+      years_strong       : parseInt(r.years_strong)          || 0,
+      pct_years_positive : parseFloat(r.pct_years_positive)  || 0,
+      avg_shared_players : parseFloat(r.avg_shared_players)  || 0,
+      tournament         : r.tournament || '',
+      as_of_date         : r.as_of_date || '',
+    }));
+    coursesDone = true;
+    tryRender();
+  },
+  error: err => console.error('Course summary load error:', err)
+});
+
+Papa.parse(`data/pga_leadin_scores.csv?v=${_cv}`, {
+  download: true, header: true, skipEmptyLines: true, dynamicTyping: true,
+  complete({ data }) {
+    playerRows = data.map(r => ({
+      rank            : parseInt(r.rank)              || 0,
+      player_name     : r.player_name || '',
+      dg_id           : r.dg_id,
+      lead_in_z       : parseFloat(r.lead_in_z)       || 0,
+      lead_in_raw     : parseFloat(r.lead_in_raw)     || 0,
+      predictors_found: parseInt(r.predictors_found)  || 0,
+      top_course      : r.top_course || '—',
+      tournament      : r.tournament || '',
+      as_of_date      : r.as_of_date || '',
+    }));
+    playersDone = true;
+    tryRender();
+  },
+  error: err => console.error('Player scores load error:', err)
+});
+
+function tryRender() {
+  if (coursesDone) {
+    buildCourseSkillTabs();
+    renderCourseTable();
+  }
+  if (playersDone) {
+    renderPlayerTable();
+  }
+  if (coursesDone && playersDone) {
+    const tournament = courseRows[0]?.tournament || playerRows[0]?.tournament || '';
+    const asOf       = courseRows[0]?.as_of_date || playerRows[0]?.as_of_date || '';
+    if (tournament) {
+      document.getElementById('page-title').textContent = tournament + ' · Lead-In Analysis';
+      document.title = `plus4.blog · ${tournament} Lead-In Analysis`;
+    }
+    if (asOf) {
+      document.getElementById('page-sub').textContent =
+        `Which players are arriving in form — at the courses that matter · as of ${fmtDate(asOf)}`;
+    }
+  }
+}
+
+function fmtDate(str) {
+  if (!str) return '';
+  const d = new Date(str);
+  if (isNaN(d)) return str;
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+// ── Course Skill Tabs ─────────────────────────────────────────
+function buildCourseSkillTabs() {
+  const tabsEl = document.getElementById('course-skill-tabs');
+  if (tabsEl.childElementCount) return;
+
+  const skills  = [...new Set(courseRows.map(r => r.skill))];
+  const ordered = [...SKILL_ORDER.filter(s => skills.includes(s)), ...skills.filter(s => !SKILL_ORDER.includes(s))];
+
+  const allBtn = document.createElement('button');
+  allBtn.className = 'skill-tab active';
+  allBtn.textContent = 'All';
+  allBtn.onclick = () => {
+    activeSkill = null;
+    tabsEl.querySelectorAll('.skill-tab').forEach(b => b.classList.remove('active'));
+    allBtn.classList.add('active');
+    renderCourseTable();
+  };
+  tabsEl.appendChild(allBtn);
+
+  ordered.forEach(skill => {
+    const btn = document.createElement('button');
+    btn.className = 'skill-tab';
+    btn.textContent = SKILL_LABELS[skill] || skill;
+    btn.onclick = () => {
+      activeSkill = skill;
+      tabsEl.querySelectorAll('.skill-tab').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderCourseTable();
+    };
+    tabsEl.appendChild(btn);
+  });
+}
+
+// ── Course Table ──────────────────────────────────────────────
+function renderCourseTable() {
+  const filtered = activeSkill ? courseRows.filter(r => r.skill === activeSkill) : courseRows;
+
+  const sorted = [...filtered].sort((a, b) => {
+    const av = a[courseSortCol] ?? 0;
+    const bv = b[courseSortCol] ?? 0;
+    if (typeof av === 'string') return av.localeCompare(bv) * courseSortDir;
+    return (bv - av) * -courseSortDir;
+  });
+
+  const maxWtd = sorted.length ? Math.max(...sorted.map(r => Math.abs(r.avg_weighted_score))) : 1;
+
+  document.getElementById('course-tbody').innerHTML = sorted.map(r => {
+    const skillColor = SKILL_COLORS[r.skill] || 'rgba(100,100,100,0.5)';
+    const wtd        = r.avg_weighted_score;
+    const barPct     = maxWtd > 0 ? Math.min(100, Math.abs(wtd) / maxWtd * 100) : 0;
+    const barBg      = `linear-gradient(to right,rgba(234,179,8,0.35) ${barPct.toFixed(1)}%,transparent ${barPct.toFixed(1)}%)`;
+    const rColor     = r.avg_r >= 0.15 ? 'rgb(34,197,94)' : r.avg_r >= 0.05 ? 'var(--text)' : 'var(--muted)';
+    const pctStr     = (r.pct_years_positive * 100).toFixed(0) + '%';
+    return `<tr>
+      <td style="font-weight:500;max-width:220px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" title="${r.course}">${r.course}</td>
+      <td>
+        <span class="skill-badge" style="border-color:${skillColor};color:${skillColor.replace(/,[^,)]+\)$/,',1)')}">
+          ${SKILL_LABELS[r.skill] || r.skill}
+        </span>
+      </td>
+      <td class="li-bar-td" style="background-image:${barBg};font-variant-numeric:tabular-nums;">${wtd.toFixed(3)}</td>
+      <td style="color:${rColor};font-weight:600;">${r.avg_r >= 0 ? '+' : ''}${r.avg_r.toFixed(3)}</td>
+      <td>${r.years_strong}</td>
+      <td style="color:var(--muted);">${r.years_observed}</td>
+      <td>${pctStr}</td>
+      <td style="color:var(--muted);">${r.avg_shared_players.toFixed(1)}</td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('course-meta').textContent =
+    `${sorted.length} course-skill pair${sorted.length !== 1 ? 's' : ''}` +
+    (courseRows[0]?.tournament ? ` · ${courseRows[0].tournament}` : '');
+
+  // Update sort headers
+  document.querySelectorAll('#course-table th[data-col]').forEach(th => {
+    const active = th.dataset.col === courseSortCol;
+    th.classList.toggle('sort-active', active);
+    th.textContent = th.textContent.replace(/ [↑↓]$/, '') + (active ? (courseSortDir === -1 ? ' ↓' : ' ↑') : '');
+  });
+}
+
+// Course table sort
+document.getElementById('course-table').addEventListener('click', e => {
+  const th = e.target.closest('th[data-col]');
+  if (!th) return;
+  const col = th.dataset.col;
+  if (col === courseSortCol) courseSortDir *= -1;
+  else { courseSortCol = col; courseSortDir = -1; }
+  renderCourseTable();
+});
+
+// ── Player Table ──────────────────────────────────────────────
+function onPlayerSearch(val) {
+  playerSearch = val.trim().toLowerCase();
+  renderPlayerTable();
+}
+
+function renderPlayerTable() {
+  const filtered = playerSearch
+    ? playerRows.filter(r => r.player_name.toLowerCase().includes(playerSearch))
+    : playerRows;
+
+  const sorted = [...filtered].sort((a, b) => {
+    const av = a[playerSortCol] ?? (playerSortDir === -1 ? -Infinity : Infinity);
+    const bv = b[playerSortCol] ?? (playerSortDir === -1 ? -Infinity : Infinity);
+    if (typeof av === 'string') return av.localeCompare(bv) * playerSortDir;
+    return (bv - av) * -playerSortDir;
+  });
+
+  document.getElementById('player-tbody').innerHTML = sorted.map(r => {
+    const zCls  = r.lead_in_z > 0.5 ? 'li-z-pos' : r.lead_in_z < -0.5 ? 'li-z-neg' : 'li-z-neu';
+    const zSign = r.lead_in_z >= 0 ? '+' : '';
+    const rSign = r.lead_in_raw >= 0 ? '+' : '';
+    return `<tr>
+      <td class="li-rank">#${r.rank}</td>
+      <td><span class="li-player-name">${r.player_name.replace(/,\s*/, ', ')}</span></td>
+      <td class="${zCls}" style="text-align:right;">${zSign}${r.lead_in_z.toFixed(2)}</td>
+      <td style="text-align:right;color:var(--label);">${rSign}${r.lead_in_raw.toFixed(3)}</td>
+      <td style="text-align:right;color:var(--muted);">${r.predictors_found}</td>
+      <td><span class="li-top-course" title="${r.top_course}">${r.top_course}</span></td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('player-meta').textContent =
+    `${sorted.length} player${sorted.length !== 1 ? 's' : ''}` +
+    (playerRows[0]?.as_of_date ? ` · updated ${fmtDate(playerRows[0].as_of_date)}` : '');
+
+  // Update sort headers
+  document.querySelectorAll('#player-table th[data-col]').forEach(th => {
+    const active = th.dataset.col === playerSortCol;
+    th.classList.toggle('sort-active', active);
+    th.textContent = th.textContent.replace(/ [↑↓]$/, '') + (active ? (playerSortDir === -1 ? ' ↓' : ' ↑') : '');
+  });
+}
+
+// Player table sort
+document.getElementById('player-table').addEventListener('click', e => {
+  const th = e.target.closest('th[data-col]');
+  if (!th) return;
+  const col = th.dataset.col;
+  if (col === playerSortCol) playerSortDir *= -1;
+  else { playerSortCol = col; playerSortDir = col === 'name' || col === 'top_course' ? 1 : -1; }
+  renderPlayerTable();
+});
+
+// ── iframe height ─────────────────────────────────────────────
+function notifyHeight() {
+  window.parent.postMessage({ type: 'plus4-resize', height: document.documentElement.scrollHeight }, '*');
+}
+new ResizeObserver(notifyHeight).observe(document.body);
+window.addEventListener('load', notifyHeight);
+</script>
+</body>
+</html>

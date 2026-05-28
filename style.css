@@ -97,6 +97,35 @@ body {
 
 .meta-pill span { color: #ffffff; font-weight: 600; }
 
+/* ── PAGE NAV ────────────────────────────────────────────────── */
+.page-nav {
+  background: var(--accent);
+  border-bottom: 1px solid rgba(0,0,0,0.18);
+}
+.page-nav-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  gap: 0;
+}
+.page-nav-tab {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+  padding: 9px 16px 9px 0;
+  margin-right: 24px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+.page-nav-tab:hover { color: rgba(255,255,255,0.85); }
+.page-nav-tab.active { color: #fff; border-bottom-color: var(--gold); }
+
 /* ── INTRO CALLOUT ───────────────────────────────────────────── */
 .intro-callout {
   background: var(--surface);
@@ -851,6 +880,7 @@ select:hover, select:focus { border-color: var(--accent); }
 .player-table thead th.pt-skill,
 .player-table thead th.pt-sg,
 .player-table thead th.pt-fit,
+.player-table thead th.pt-leadin,
 .player-table thead th.pt-rank,
 .player-table thead th.pt-salary { text-align: right; }
 
@@ -882,11 +912,12 @@ select:hover, select:focus { border-color: var(--accent); }
 .pt-name { font-weight: 500; }
 .pt-salary { text-align: right; color: var(--muted); }
 .pt-rank   { text-align: right; color: var(--muted); }
-.pt-sg, .pt-fit, .pt-skill { text-align: right; font-variant-numeric: tabular-nums; }
+.pt-sg, .pt-fit, .pt-leadin, .pt-skill { text-align: right; font-variant-numeric: tabular-nums; }
 .pt-na { color: var(--muted) !important; }
 
 /* ── MOBILE ──────────────────────────────────────────────────── */
 @media (max-width: 600px) {
+  .page-nav-inner { padding: 0 16px; }
   .header { padding: 18px 16px 14px; }
   .controls { padding: 10px 16px; }
   .grid-wrap { padding: 16px; }

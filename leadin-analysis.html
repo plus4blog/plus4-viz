@@ -373,19 +373,17 @@ function buildPlayerSkillTabs() {
 function renderCourseTable() {
   const map = {};
   courseRows.forEach(r => {
-    if (!map[r.course]) map[r.course] = { course: r.course, last_played: null, yrs_max: 0, pct_sum: 0, pct_n: 0, skills: {} };
+    if (!map[r.course]) map[r.course] = { course: r.course, last_played: null, yrs_max: 0, skills: {} };
     const c = map[r.course];
     c.skills[r.skill] = r.avg_weighted_score;
     if (r.last_played && (!c.last_played || r.last_played > c.last_played)) c.last_played = r.last_played;
     if (r.years_observed > c.yrs_max) c.yrs_max = r.years_observed;
-    c.pct_sum += r.pct_years_positive; c.pct_n++;
   });
   let pivoted = Object.values(map).map(c => ({
-    course             : c.course,
-    last_played        : c.last_played,
-    years_observed     : c.yrs_max,
-    pct_years_positive : c.pct_n > 0 ? c.pct_sum / c.pct_n : 0,
-    skills             : c.skills,
+    course         : c.course,
+    last_played    : c.last_played,
+    years_observed : c.yrs_max,
+    skills         : c.skills,
   }));
 
   const allSkills     = [...new Set(courseRows.map(r => r.skill))];
@@ -416,7 +414,6 @@ function renderCourseTable() {
   const remaining = sorted.length - COURSE_PAGE_SIZE;
 
   document.getElementById('course-tbody').innerHTML = visible.map(r => {
-    const pctStr     = (r.pct_years_positive * 100).toFixed(0) + '%';
     const lastPlayed = r.last_played ? fmtDate(r.last_played) : '—';
     const skillCells = displaySkills.map(s => {
       const v = r.skills[s];
@@ -430,7 +427,6 @@ function renderCourseTable() {
     return `<tr>
       <td class="bd-course" title="${r.course}">${r.course}</td>
       <td class="li-num" style="color:var(--muted);">${r.years_observed}</td>
-      <td class="li-num">${pctStr}</td>
       <td class="bd-last">${lastPlayed}</td>
       ${skillCells}
     </tr>`;
@@ -459,7 +455,6 @@ function renderCourseTable() {
   document.getElementById('course-thead-row').innerHTML =
     mkTh('bd-course', 'course', 'Course') +
     mkTh('li-num', 'years_observed', 'Yrs Obs') +
-    mkTh('li-num', 'pct_years_positive', '% Pos') +
     mkTh('bd-last', 'last_played', 'Last Played') +
     displaySkills.map(s => mkTh('li-num', `sk:${s}`, SKILL_SHORT[s] || s)).join('');
 }

@@ -349,7 +349,7 @@ select:hover, select:focus { border-color: var(--accent); }
   gap: 16px;
 }
 
-/* ── PLAYER CARD ───────────────────────────────────────────────────────────────────────────
+/* ── PLAYER CARD ─────────────────────────────────────────────────────────────────────────── */
 .player-card {
   background: var(--card);
   border: 1px solid var(--border);
@@ -503,7 +503,7 @@ select:hover, select:focus { border-color: var(--accent); }
   font-style: normal;
 }
 
-/* ── COURSE TABLE ───────────────────────────────────────────────────────────────────────
+/* ── COURSE TABLE ────────────────────────────────────────────────────────────────────────── */
 .course-table-wrap {
   width: 100%;
   max-height: 220px;

@@ -124,18 +124,7 @@
 <div class="breakdown-wrap" style="padding-top:8px;">
   <div class="breakdown-table-wrap">
     <table class="breakdown-table" id="course-table">
-      <thead>
-        <tr>
-          <th data-col="course"             class="bd-course">Course</th>
-          <th data-col="skill"              class="bd-skill">Skill</th>
-          <th data-col="avg_weighted_score" class="li-bar">Signal Score</th>
-          <th data-col="years_strong"       class="li-num">Yrs Strong</th>
-          <th data-col="years_observed"     class="li-num">Yrs Obs</th>
-          <th data-col="pct_years_positive" class="li-num">% Positive</th>
-          <th data-col="avg_shared_players" class="li-num">Shared</th>
-          <th data-col="last_played"        class="bd-last sort-active">Last Played ↓</th>
-        </tr>
-      </thead>
+      <thead><tr id="course-thead-row"></tr></thead>
       <tbody id="course-tbody"></tbody>
     </table>
   </div>
@@ -185,7 +174,7 @@ const SKILL_COLORS = {
 const SKILL_ORDER = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
 const SKILL_SHORT = { sg_ott:'OTT', sg_app:'APP', sg_arg:'ARG', sg_putt:'PUTT', sg_total:'OTR' };
 
-// ── State ───────────────────────────────────────────────────────────────
+// ── State ───────────────────────────────────────────────────────────────────
 let courseRows        = [];
 let playerRows        = [];
 let activeSkill       = null;
@@ -250,7 +239,6 @@ function loadData() {
   Papa.parse(`data/${activeTour}_leadin_scores.csv?v=${cv}`, {
     download: true, header: true, skipEmptyLines: true, dynamicTyping: true,
     complete({ data }) {
-      // Detect per-skill Z-score columns (e.g. lead_in_z_sg_ott)
       if (data.length > 0) {
         const sample = data[0];
         availableSkillCols = SKILL_ORDER.filter(s => {
@@ -381,35 +369,72 @@ function buildPlayerSkillTabs() {
   });
 }
 
-// ── Course Table (paginated) ──────────────────────────────────────────────────────────
+// ── Course Table (pivoted, paginated) ────────────────────────────────────────────────
 function renderCourseTable() {
-  const filtered = activeSkill ? courseRows.filter(r => r.skill === activeSkill) : courseRows;
-  const sorted = [...filtered].sort((a, b) => {
-    const av = a[courseSortCol] ?? 0;
-    const bv = b[courseSortCol] ?? 0;
-    if (typeof av === 'string') return av.localeCompare(bv) * courseSortDir;
+  // Pivot: aggregate course rows into one object per course
+  const map = {};
+  courseRows.forEach(r => {
+    if (!map[r.course]) map[r.course] = { course: r.course, last_played: null, yrs_max: 0, pct_sum: 0, pct_n: 0, skills: {} };
+    const c = map[r.course];
+    c.skills[r.skill] = r.avg_weighted_score;
+    if (r.last_played && (!c.last_played || r.last_played > c.last_played)) c.last_played = r.last_played;
+    if (r.years_observed > c.yrs_max) c.yrs_max = r.years_observed;
+    c.pct_sum += r.pct_years_positive; c.pct_n++;
+  });
+  let pivoted = Object.values(map).map(c => ({
+    course             : c.course,
+    last_played        : c.last_played,
+    years_observed     : c.yrs_max,
+    pct_years_positive : c.pct_n > 0 ? c.pct_sum / c.pct_n : 0,
+    skills             : c.skills,
+  }));
+
+  // Detect skill columns present in data
+  const allSkills     = [...new Set(courseRows.map(r => r.skill))];
+  const displaySkills = [...SKILL_ORDER.filter(s => allSkills.includes(s)), ...allSkills.filter(s => !SKILL_ORDER.includes(s))];
+
+  // Filter by active skill tab (only keep courses that have that skill)
+  if (activeSkill) pivoted = pivoted.filter(r => r.skills[activeSkill] != null);
+
+  // Sort
+  const sorted = [...pivoted].sort((a, b) => {
+    let av, bv;
+    if (courseSortCol.startsWith('sk:')) {
+      const sk = courseSortCol.slice(3);
+      av = a.skills[sk] ?? (courseSortDir === -1 ? -Infinity : Infinity);
+      bv = b.skills[sk] ?? (courseSortDir === -1 ? -Infinity : Infinity);
+    } else {
+      av = a[courseSortCol] ?? '';
+      bv = b[courseSortCol] ?? '';
+    }
+    if (typeof av === 'string' && typeof bv === 'string') return av.localeCompare(bv) * courseSortDir;
     return (bv - av) * -courseSortDir;
   });
 
-  const maxWtd    = sorted.length ? Math.max(...sorted.map(r => Math.abs(r.avg_weighted_score))) : 1;
+  // Color scale relative to field max across all skill columns
+  const maxWtd = displaySkills.reduce((mx, s) => {
+    sorted.forEach(r => { const v = r.skills[s]; if (v != null) mx = Math.max(mx, Math.abs(v)); });
+    return mx;
+  }, 0) || 1;
+
   const visible   = courseShowAll ? sorted : sorted.slice(0, COURSE_PAGE_SIZE);
   const remaining = sorted.length - COURSE_PAGE_SIZE;
 
   document.getElementById('course-tbody').innerHTML = visible.map(r => {
-    const skillColor = SKILL_COLORS[r.skill] || 'rgba(100,100,100,0.5)';
-    const wtd        = r.avg_weighted_score;
-    const barPct     = maxWtd > 0 ? Math.min(100, Math.abs(wtd) / maxWtd * 100) : 0;
-    const barBg      = `linear-gradient(to right,rgba(234,179,8,0.35) ${barPct.toFixed(1)}%,transparent ${barPct.toFixed(1)}%)`;
     const pctStr     = (r.pct_years_positive * 100).toFixed(0) + '%';
     const lastPlayed = r.last_played ? fmtDate(r.last_played) : '—';
+    const skillCells = displaySkills.map(s => {
+      const v = r.skills[s];
+      if (v == null) return `<td class="li-num" style="color:var(--muted);">—</td>`;
+      const color = zColor((v / maxWtd) * 2.5);
+      const sign  = v >= 0 ? '+' : '';
+      return `<td class="li-num" style="color:${color};font-weight:600;">${sign}${v.toFixed(3)}</td>`;
+    }).join('');
     return `<tr>
       <td class="bd-course" title="${r.course}">${r.course}</td>
-      <td class="bd-skill"><span class="skill-badge" style="border-color:${skillColor};color:${skillColor.replace(/,[^,)]+\)$/,',1)')}">${SKILL_LABELS[r.skill] || r.skill}</span></td>
-      <td class="li-bar" style="background-image:${barBg};">${wtd.toFixed(3)}</td>
-      <td class="li-num">${r.years_strong}</td>
+      ${skillCells}
       <td class="li-num" style="color:var(--muted);">${r.years_observed}</td>
       <td class="li-num">${pctStr}</td>
-      <td class="li-num" style="color:var(--muted);">${r.avg_shared_players.toFixed(1)}</td>
       <td class="bd-last">${lastPlayed}</td>
     </tr>`;
   }).join('');
@@ -426,14 +451,21 @@ function renderCourseTable() {
   }
 
   document.getElementById('course-meta').textContent =
-    `${sorted.length} course-skill pair${sorted.length !== 1 ? 's' : ''}` +
+    `${sorted.length} course${sorted.length !== 1 ? 's' : ''}` +
     (courseRows[0]?.tournament ? ` · ${courseRows[0].tournament}` : '');
 
-  document.querySelectorAll('#course-table th[data-col]').forEach(th => {
-    const active = th.dataset.col === courseSortCol;
-    th.classList.toggle('sort-active', active);
-    th.textContent = th.textContent.replace(/ [↑↓]$/, '') + (active ? (courseSortDir === -1 ? ' ↓' : ' ↑') : '');
-  });
+  // Rebuild thead dynamically
+  const mkTh = (cls, col, label) => {
+    const active = courseSortCol === col;
+    const arrow  = active ? (courseSortDir === -1 ? ' ↓' : ' ↑') : '';
+    return `<th class="${cls}${active ? ' sort-active' : ''}" data-col="${col}">${label}${arrow}</th>`;
+  };
+  document.getElementById('course-thead-row').innerHTML =
+    mkTh('bd-course', 'course', 'Course') +
+    displaySkills.map(s => mkTh('li-num', `sk:${s}`, SKILL_SHORT[s] || s)).join('') +
+    mkTh('li-num', 'years_observed', 'Yrs Obs') +
+    mkTh('li-num', 'pct_years_positive', '% Pos') +
+    mkTh('bd-last', 'last_played', 'Last Played');
 }
 
 document.getElementById('course-table').addEventListener('click', e => {
@@ -441,7 +473,7 @@ document.getElementById('course-table').addEventListener('click', e => {
   if (!th) return;
   const col = th.dataset.col;
   if (col === courseSortCol) courseSortDir *= -1;
-  else { courseSortCol = col; courseSortDir = col === 'course' || col === 'skill' ? 1 : -1; }
+  else { courseSortCol = col; courseSortDir = col === 'course' ? 1 : -1; }
   courseShowAll = false;
   renderCourseTable();
 });

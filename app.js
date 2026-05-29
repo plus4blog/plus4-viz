@@ -247,15 +247,6 @@ function buildPlayerTable(sorted) {
     ? `<th class="pt-skill-group" colspan="${displaySkills.length}">Course Fit Components</th>`
     : '';
 
-  const maxAbsPerSkill = {};
-  displaySkills.forEach(skill => {
-    maxAbsPerSkill[skill] = sorted.reduce((mx, p) => {
-      const pts = p.courses[skill];
-      if (!pts || !pts.length) return mx;
-      return Math.max(mx, Math.abs(pts.reduce((a, b) => a + (b.contribution || 0), 0)));
-    }, 0.001);
-  });
-
   const rows = sorted.map(player => {
     const salaryStr = player.salary ? '$' + Number(player.salary).toLocaleString() : '—';
     const rankStr   = player.proj_rank != null ? `#${player.proj_rank}` : '—';
@@ -274,13 +265,11 @@ function buildPlayerTable(sorted) {
     const skillCells = displaySkills.map(skill => {
       const pts = player.courses[skill];
       if (!pts || !pts.length) return `<td class="pt-skill pt-na">—</td>`;
-      const total  = pts.reduce((a, b) => a + (b.contribution || 0), 0);
-      const color  = valueColor(total, 0.5);
-      const sign   = total >= 0 ? '+' : '';
-      const barPct = Math.min(100, Math.abs(total) / maxAbsPerSkill[skill] * 100);
-      const barBg  = color.replace('rgb(', 'rgba(').replace(')', ',0.18)');
-      const bgImg  = `linear-gradient(to right,${barBg} ${barPct.toFixed(1)}%,transparent ${barPct.toFixed(1)}%)`;
-      return `<td class="pt-skill" style="color:${color};background-image:${bgImg}">${sign}${total.toFixed(3)}</td>`;
+      const total   = pts.reduce((a, b) => a + (b.contribution || 0), 0);
+      const color   = valueColor(total, 0.5);
+      const sign    = total >= 0 ? '+' : '';
+      const bgColor = color.replace('rgb(', 'rgba(').replace(')', ',0.18)');
+      return `<td class="pt-skill" style="color:${color};background-color:${bgColor}">${sign}${total.toFixed(3)}</td>`;
     }).join('');
 
     return `<tr class="pt-row">

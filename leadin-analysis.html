@@ -85,6 +85,11 @@
       <div class="course-name" id="page-title">—</div>
       <div class="course-meta" id="page-meta"></div>
     </div>
+    <div class="header-tour sort-btn-group" id="li-tour-toggle">
+      <button class="sort-btn" data-tour="pga">PGA</button>
+      <button class="sort-btn" data-tour="euro">Euro</button>
+      <button class="sort-btn" data-tour="opp">Opp</button>
+    </div>
   </div>
 </div>
 
@@ -102,11 +107,6 @@
     <div class="breakdown-header" style="border-top:none;padding-top:16px;">
       <div class="breakdown-title">Course Signals</div>
       <div class="breakdown-controls">
-        <div class="sort-btn-group" id="li-tour-toggle" style="margin-right:12px;">
-          <button class="sort-btn active" data-tour="pga">PGA</button>
-          <button class="sort-btn" data-tour="euro">Euro</button>
-          <button class="sort-btn" data-tour="opp">Opp</button>
-        </div>
         <span class="ctrl-label">Skill</span>
         <div class="skill-tabs" id="course-skill-tabs"></div>
       </div>
@@ -191,12 +191,16 @@ let playerSortCol = 'lead_in_z';
 let playerSortDir = -1;
 
 // ── Tour / Load ───────────────────────────────────────────────────────────────
-let activeTour = 'pga';
+let activeTour = localStorage.getItem('plus4_tour') || 'pga';
+document.querySelectorAll('#li-tour-toggle .sort-btn').forEach(b => {
+  b.classList.toggle('active', b.dataset.tour === activeTour);
+});
 
 document.getElementById('li-tour-toggle').addEventListener('click', e => {
   const btn = e.target.closest('.sort-btn');
   if (!btn) return;
   activeTour = btn.dataset.tour;
+  localStorage.setItem('plus4_tour', activeTour);
   document.querySelectorAll('#li-tour-toggle .sort-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   coursesDone = false; playersDone = false;
@@ -373,17 +377,19 @@ function buildPlayerSkillTabs() {
 function renderCourseTable() {
   const map = {};
   courseRows.forEach(r => {
-    if (!map[r.course]) map[r.course] = { course: r.course, last_played: null, yrs_max: 0, skills: {} };
+    if (!map[r.course]) map[r.course] = { course: r.course, last_played: null, yrs_max: 0, pct_sum: 0, pct_n: 0, skills: {} };
     const c = map[r.course];
     c.skills[r.skill] = r.avg_weighted_score;
     if (r.last_played && (!c.last_played || r.last_played > c.last_played)) c.last_played = r.last_played;
     if (r.years_observed > c.yrs_max) c.yrs_max = r.years_observed;
+    c.pct_sum += r.pct_years_positive; c.pct_n++;
   });
   let pivoted = Object.values(map).map(c => ({
-    course         : c.course,
-    last_played    : c.last_played,
-    years_observed : c.yrs_max,
-    skills         : c.skills,
+    course             : c.course,
+    last_played        : c.last_played,
+    years_observed     : c.yrs_max,
+    pct_years_positive : c.pct_n > 0 ? c.pct_sum / c.pct_n : 0,
+    skills             : c.skills,
   }));
 
   const allSkills     = [...new Set(courseRows.map(r => r.skill))];

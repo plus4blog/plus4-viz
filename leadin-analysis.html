@@ -371,7 +371,6 @@ function buildPlayerSkillTabs() {
 
 // ── Course Table (pivoted, paginated) ────────────────────────────────────────────────
 function renderCourseTable() {
-  // Pivot: aggregate course rows into one object per course
   const map = {};
   courseRows.forEach(r => {
     if (!map[r.course]) map[r.course] = { course: r.course, last_played: null, yrs_max: 0, pct_sum: 0, pct_n: 0, skills: {} };
@@ -389,14 +388,11 @@ function renderCourseTable() {
     skills             : c.skills,
   }));
 
-  // Detect skill columns present in data
   const allSkills     = [...new Set(courseRows.map(r => r.skill))];
   const displaySkills = [...SKILL_ORDER.filter(s => allSkills.includes(s)), ...allSkills.filter(s => !SKILL_ORDER.includes(s))];
 
-  // Filter by active skill tab (only keep courses that have that skill)
   if (activeSkill) pivoted = pivoted.filter(r => r.skills[activeSkill] != null);
 
-  // Sort
   const sorted = [...pivoted].sort((a, b) => {
     let av, bv;
     if (courseSortCol.startsWith('sk:')) {
@@ -411,7 +407,6 @@ function renderCourseTable() {
     return (bv - av) * -courseSortDir;
   });
 
-  // Color scale relative to field max across all skill columns
   const maxWtd = displaySkills.reduce((mx, s) => {
     sorted.forEach(r => { const v = r.skills[s]; if (v != null) mx = Math.max(mx, Math.abs(v)); });
     return mx;
@@ -426,16 +421,18 @@ function renderCourseTable() {
     const skillCells = displaySkills.map(s => {
       const v = r.skills[s];
       if (v == null) return `<td class="li-num" style="color:var(--muted);">—</td>`;
+      const alpha = (Math.abs(v) / maxWtd * 0.38).toFixed(2);
+      const bg    = v >= 0 ? `rgba(34,197,94,${alpha})` : `rgba(220,38,38,${alpha})`;
       const color = zColor((v / maxWtd) * 2.5);
       const sign  = v >= 0 ? '+' : '';
-      return `<td class="li-num" style="color:${color};font-weight:600;">${sign}${v.toFixed(3)}</td>`;
+      return `<td class="li-num" style="background:${bg};color:${color};font-weight:600;">${sign}${v.toFixed(3)}</td>`;
     }).join('');
     return `<tr>
       <td class="bd-course" title="${r.course}">${r.course}</td>
-      ${skillCells}
       <td class="li-num" style="color:var(--muted);">${r.years_observed}</td>
       <td class="li-num">${pctStr}</td>
       <td class="bd-last">${lastPlayed}</td>
+      ${skillCells}
     </tr>`;
   }).join('');
 
@@ -454,7 +451,6 @@ function renderCourseTable() {
     `${sorted.length} course${sorted.length !== 1 ? 's' : ''}` +
     (courseRows[0]?.tournament ? ` · ${courseRows[0].tournament}` : '');
 
-  // Rebuild thead dynamically
   const mkTh = (cls, col, label) => {
     const active = courseSortCol === col;
     const arrow  = active ? (courseSortDir === -1 ? ' ↓' : ' ↑') : '';
@@ -462,10 +458,10 @@ function renderCourseTable() {
   };
   document.getElementById('course-thead-row').innerHTML =
     mkTh('bd-course', 'course', 'Course') +
-    displaySkills.map(s => mkTh('li-num', `sk:${s}`, SKILL_SHORT[s] || s)).join('') +
     mkTh('li-num', 'years_observed', 'Yrs Obs') +
     mkTh('li-num', 'pct_years_positive', '% Pos') +
-    mkTh('bd-last', 'last_played', 'Last Played');
+    mkTh('bd-last', 'last_played', 'Last Played') +
+    displaySkills.map(s => mkTh('li-num', `sk:${s}`, SKILL_SHORT[s] || s)).join('');
 }
 
 document.getElementById('course-table').addEventListener('click', e => {

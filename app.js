@@ -1,4 +1,4 @@
-// ── STATE ─────────────────────────────────────────────────────────────────────────────────
+// ── STATE ───────────────────────────────────────────────────────────────────────────────
 let allData      = [];   // raw parsed rows from CSL CSV
 let projData     = {};   // dg_id -> {adjusted_course_fit, adjusted_sg_total, salary}
 let leadinData   = {};   // dg_id -> {lead_in_z, lead_in_raw, predictors_found, top_course}
@@ -26,7 +26,7 @@ const SKILL_COLORS = {
   sg_total: 'rgba(249,115,22,0.7)'
 };
 
-// ── CSV LOADING ─────────────────────────────────────────────────────────────────────────
+// ── CSV LOADING ───────────────────────────────────────────────────────────────────
 const BASE_DATA_URL = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/main/data';
 
 let activeTour = localStorage.getItem('plus4_tour') || 'pga';
@@ -96,7 +96,7 @@ function loadCSV() {
 
 loadCSV();
 
-// ── TOUR TOGGLE ─────────────────────────────────────────────────────────────────────────
+// ── TOUR TOGGLE ───────────────────────────────────────────────────────────────────
 document.getElementById('tour-toggle').addEventListener('click', e => {
   const btn = e.target.closest('.sort-btn');
   if (!btn || !btn.dataset.tour) return;
@@ -232,7 +232,7 @@ function renderGrid() {
   setTimeout(reportHeight, 400);
 }
 
-// ── PLAYER TABLE ────────────────────────────────────────────────────────────────────────────
+// ── PLAYER TABLE ─────────────────────────────────────────────────────────────────────────────────
 const SKILL_ORDER = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
 const SKILL_SHORT = { sg_ott:'OTT', sg_app:'APP', sg_arg:'ARG', sg_putt:'PUTT', sg_total:'OTR' };
 
@@ -246,6 +246,15 @@ function buildPlayerTable(sorted) {
   const skillGroupHeader = displaySkills.length
     ? `<th class="pt-skill-group" colspan="${displaySkills.length}">Course Fit Components</th>`
     : '';
+
+  const maxAbsPerSkill = {};
+  displaySkills.forEach(skill => {
+    maxAbsPerSkill[skill] = sorted.reduce((mx, p) => {
+      const pts = p.courses[skill];
+      if (!pts || !pts.length) return mx;
+      return Math.max(mx, Math.abs(pts.reduce((a, b) => a + (b.contribution || 0), 0)));
+    }, 0.001);
+  });
 
   const rows = sorted.map(player => {
     const salaryStr = player.salary ? '$' + Number(player.salary).toLocaleString() : '—';
@@ -265,10 +274,13 @@ function buildPlayerTable(sorted) {
     const skillCells = displaySkills.map(skill => {
       const pts = player.courses[skill];
       if (!pts || !pts.length) return `<td class="pt-skill pt-na">—</td>`;
-      const total = pts.reduce((a, b) => a + (b.contribution || 0), 0);
-      const color = valueColor(total, 0.5);
-      const sign  = total >= 0 ? '+' : '';
-      return `<td class="pt-skill" style="color:${color}">${sign}${total.toFixed(3)}</td>`;
+      const total  = pts.reduce((a, b) => a + (b.contribution || 0), 0);
+      const color  = valueColor(total, 0.5);
+      const sign   = total >= 0 ? '+' : '';
+      const barPct = Math.min(100, Math.abs(total) / maxAbsPerSkill[skill] * 100);
+      const barBg  = color.replace('rgb(', 'rgba(').replace(')', ',0.18)');
+      const bgImg  = `linear-gradient(to right,${barBg} ${barPct.toFixed(1)}%,transparent ${barPct.toFixed(1)}%)`;
+      return `<td class="pt-skill" style="color:${color};background-image:${bgImg}">${sign}${total.toFixed(3)}</td>`;
     }).join('');
 
     return `<tr class="pt-row">
@@ -303,7 +315,7 @@ function buildPlayerTable(sorted) {
   return wrap;
 }
 
-// ── PLAYER CARD ────────────────────────────────────────────────────────────────────────────
+// ── PLAYER CARD ──────────────────────────────────────────────────────────────────────────────────
 function buildPlayerCard(player, idx) {
   const card = document.createElement('div');
   card.className = 'player-card';
@@ -417,7 +429,7 @@ function buildPlayerCard(player, idx) {
   return card;
 }
 
-// ── HELPERS ───────────────────────────────────────────────────────────────────────────────
+// ── HELPERS ───────────────────────────────────────────────────────────────────────────────────
 function fmtLastPlayed(dateStr) {
   if (!dateStr) return '—';
   const d = new Date(dateStr);
@@ -434,7 +446,7 @@ function valueColor(val, bound) {
   return `rgb(${r},${g},${b})`;
 }
 
-// ── SORT / SEARCH / VIEW CONTROLS ─────────────────────────────────────────────────────────
+// ── SORT / SEARCH / VIEW CONTROLS ────────────────────────────────────────────────────────────────
 document.getElementById('sort-by-group').addEventListener('click', e => {
   const btn = e.target.closest('.sort-btn');
   if (!btn) return;
@@ -472,7 +484,7 @@ function setViewMode(mode) {
   if (players.length) renderGrid();
 }
 
-// ── COURSE BREAKDOWN ──────────────────────────────────────────────────────────────────────────
+// ── COURSE BREAKDOWN ──────────────────────────────────────────────────────────────────────────────────
 let breakdownSkill  = null;
 let breakdownSort   = 'contribution';
 let breakdownShowAll = false;
@@ -593,7 +605,7 @@ function renderBreakdownRows(rows) {
   }
 }
 
-// ── IFRAME HEIGHT REPORTING ────────────────────────────────────────────────────────────────────
+// ── IFRAME HEIGHT REPORTING ──────────────────────────────────────────────────────────────────
 function reportHeight() {
   window.parent.postMessage({ type: 'plus4-resize', height: document.documentElement.scrollHeight }, '*');
 }

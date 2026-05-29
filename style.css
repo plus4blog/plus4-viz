@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
 
 :root {
-  /* ── Surfaces ──────────────────────────────── */
+  /* ── Surfaces ───────────────────────────── */
   --bg:             #FFFFFF;   /* Base – page background          */
   --surface:        #F7F6F1;   /* Accent 3 – controls bar, sidebars */
   --card:           #FFFFFF;   /* Base – player card background   */
   --border:         #e0e0e0;   /* dividers & outlines             */
 
-  /* ── Brand / Accents ───────────────────────── */
+  /* ── Brand / Accents ───────────────────── */
   --accent:         #002B6A;   /* Accent 1 – navy (header, buttons) */
   --accent-2:       #007FE6;   /* Accent 2 – sky blue (links, highlights) */
   --gold:           #FFCD58;   /* Accent 4 – yellow gold (salary) */
   --filter-active:  #007FE6;   /* Accent 2 – active skill-filter tab */
 
-  /* ── Data Colors ───────────────────────────── */
+  /* ── Data Colors ─────────────────────── */
   --positive:       #22c55e;   /* positive strokes-gained  */
   --negative:       #ef4444;   /* negative strokes-gained  */
 
-  /* ── Typography ────────────────────────────── */
+  /* ── Typography ──────────────────────── */
   --text:           #11181F;   /* Contrast – body copy  */
   --muted:          #6b7c93;   /* muted labels, hints   */
   --label:          #3a4a5c;   /* section labels        */
@@ -32,7 +32,7 @@ body {
   overflow-x: hidden;
 }
 
-/* ── HEADER ─────────────────────────────────────────────────── */
+/* ── HEADER ──────────────────────────────────────────────────────────────── */
 .header {
   background: linear-gradient(135deg, #001540 0%, #002B6A 55%, #007FE6 100%);
   border-bottom: 1px solid var(--border);
@@ -97,7 +97,7 @@ body {
 
 .meta-pill span { color: #ffffff; font-weight: 600; }
 
-/* ── PAGE NAV ────────────────────────────────────────────────── */
+/* ── PAGE NAV ──────────────────────────────────────────────────────────────── */
 .page-nav {
   background: var(--accent);
   border-bottom: 1px solid rgba(0,0,0,0.18);
@@ -126,7 +126,7 @@ body {
 .page-nav-tab:hover { color: rgba(255,255,255,0.85); }
 .page-nav-tab.active { color: #fff; border-bottom-color: var(--gold); }
 
-/* ── INTRO CALLOUT ───────────────────────────────────────────── */
+/* ── INTRO CALLOUT ──────────────────────────────────────────────────────────── */
 .intro-callout {
   background: var(--surface);
   border-bottom: 1px solid var(--border);
@@ -197,7 +197,7 @@ body {
   font-weight: 600;
 }
 
-/* ── CONTROLS ────────────────────────────────────────────────── */
+/* ── CONTROLS ───────────────────────────────────────────────────────────────────── */
 .controls {
   background: var(--surface);
   border-bottom: 1px solid var(--border);
@@ -270,6 +270,10 @@ select:hover, select:focus { border-color: var(--accent); }
 .sort-btn:hover { border-color: var(--accent); color: var(--accent); }
 .sort-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
 
+.header-tour .sort-btn { border-color: rgba(255,255,255,0.28); color: rgba(255,255,255,0.6); }
+.header-tour .sort-btn:hover { border-color: rgba(255,255,255,0.75); color: #fff; background: rgba(255,255,255,0.08); }
+.header-tour .sort-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
 .sort-dir-btn {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 14px;
@@ -332,7 +336,7 @@ select:hover, select:focus { border-color: var(--accent); }
 
 .file-label:hover { opacity: 0.85; }
 
-/* ── GRID ────────────────────────────────────────────────────── */
+/* ── GRID ─────────────────────────────────────────────────────────────────────────────── */
 .grid-wrap {
   max-width: 1400px;
   margin: 0 auto;
@@ -345,7 +349,7 @@ select:hover, select:focus { border-color: var(--accent); }
   gap: 16px;
 }
 
-/* ── PLAYER CARD ─────────────────────────────────────────────── */
+/* ── PLAYER CARD ───────────────────────────────────────────────────────────────────────────
 .player-card {
   background: var(--card);
   border: 1px solid var(--border);
@@ -499,7 +503,7 @@ select:hover, select:focus { border-color: var(--accent); }
   font-style: normal;
 }
 
-/* ── COURSE TABLE ───────────────────────────────────────────── */
+/* ── COURSE TABLE ───────────────────────────────────────────────────────────────────────
 .course-table-wrap {
   width: 100%;
   max-height: 220px;
@@ -564,7 +568,7 @@ select:hover, select:focus { border-color: var(--accent); }
   flex: 1;
 }
 
-/* ── SKILL TABS ON CARD ─────────────────────────────────────── */
+/* ── SKILL TABS ON CARD ─────────────────────────────────────────────────────────────────── */
 .card-skill-tabs {
   display: flex;
   gap: 4px;
@@ -591,7 +595,7 @@ select:hover, select:focus { border-color: var(--accent); }
 .card-skill-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
 
 
-/* ── EMPTY / LOADING STATES ──────────────────────────────────── */
+/* ── EMPTY / LOADING STATES ───────────────────────────────────────────────────────────── */
 .state-msg {
   text-align: center;
   padding: 80px 32px;
@@ -681,7 +685,7 @@ select:hover, select:focus { border-color: var(--accent); }
   margin-right: auto;
 }
 
-/* ── COURSE BREAKDOWN SECTION ────────────────────────────────── */
+/* ── COURSE BREAKDOWN SECTION ──────────────────────────────────────────────────────────── */
 .breakdown-wrap {
   max-width: 1400px;
   margin: 0 auto;
@@ -797,10 +801,10 @@ select:hover, select:focus { border-color: var(--accent); }
 }
 
 
-/* ── EMBED MODE ──────────────────────────────────────────────── */
+/* ── EMBED MODE ──────────────────────────────────────────────────────────────────────── */
 /* header always visible */
 
-/* ── PLAYER TOOLBAR (search + view toggle) ──────────────────── */
+/* ── PLAYER TOOLBAR (search + view toggle) ──────────────────────────────────────────── */
 .player-toolbar {
   display: flex;
   align-items: center;
@@ -853,7 +857,7 @@ select:hover, select:focus { border-color: var(--accent); }
 }
 .view-btn:not(.active):hover { background: var(--border); color: var(--text); }
 
-/* ── PLAYER TABLE VIEW ───────────────────────────────────────── */
+/* ── PLAYER TABLE VIEW ─────────────────────────────────────────────────────────────────────── */
 .player-table-wrap {
   overflow-x: auto;
   border: 1px solid var(--border);
@@ -915,7 +919,7 @@ select:hover, select:focus { border-color: var(--accent); }
 .pt-sg, .pt-fit, .pt-leadin, .pt-skill { text-align: right; font-variant-numeric: tabular-nums; }
 .pt-na { color: var(--muted) !important; }
 
-/* ── MOBILE ──────────────────────────────────────────────────── */
+/* ── MOBILE ─────────────────────────────────────────────────────────────────────────────── */
 @media (max-width: 600px) {
   .page-nav-inner { padding: 0 16px; }
   .header { padding: 18px 16px 14px; }

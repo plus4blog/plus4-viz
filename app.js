@@ -1,4 +1,4 @@
-// ── STATE ─────────────────────────────────────────────────────────────────────
+// ── STATE ─────────────────────────────────────────────────────────────────────────────────
 let allData      = [];   // raw parsed rows from CSL CSV
 let projData     = {};   // dg_id -> {adjusted_course_fit, adjusted_sg_total, salary}
 let leadinData   = {};   // dg_id -> {lead_in_z, lead_in_raw, predictors_found, top_course}
@@ -26,14 +26,18 @@ const SKILL_COLORS = {
   sg_total: 'rgba(249,115,22,0.7)'
 };
 
-// ── CSV LOADING ───────────────────────────────────────────────────────────────
+// ── CSV LOADING ─────────────────────────────────────────────────────────────────────────
 const BASE_DATA_URL = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/main/data';
 
-let activeTour = 'pga';
+let activeTour = localStorage.getItem('plus4_tour') || 'pga';
 
 function csvUrl()    { return `${BASE_DATA_URL}/${activeTour}_course_skill_lookup.csv?v=${Date.now()}`; }
 function projUrl()   { return `${BASE_DATA_URL}/${activeTour}_player_projections.csv?v=${Date.now()}`; }
 function leadinUrl() { return `${BASE_DATA_URL}/${activeTour}_leadin_scores.csv?v=${Date.now()}`; }
+
+document.querySelectorAll('#tour-toggle .sort-btn').forEach(b => {
+  b.classList.toggle('active', b.dataset.tour === activeTour);
+});
 
 function loadCSV() {
   const status = document.getElementById('load-status');
@@ -92,11 +96,12 @@ function loadCSV() {
 
 loadCSV();
 
-// ── TOUR TOGGLE ───────────────────────────────────────────────────────────────
+// ── TOUR TOGGLE ─────────────────────────────────────────────────────────────────────────
 document.getElementById('tour-toggle').addEventListener('click', e => {
   const btn = e.target.closest('.sort-btn');
   if (!btn || !btn.dataset.tour) return;
   activeTour = btn.dataset.tour;
+  localStorage.setItem('plus4_tour', activeTour);
   document.querySelectorAll('#tour-toggle .sort-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   loadCSV();
@@ -191,7 +196,7 @@ function buildGlobalSkillTabs(skills) {
   });
 }
 
-// ── RENDER GRID ───────────────────────────────────────────────────────────────
+// ── RENDER GRID ─────────────────────────────────────────────────────────────────────────────
 function renderGrid() {
   document.getElementById('empty-state').style.display = 'none';
 
@@ -227,7 +232,7 @@ function renderGrid() {
   setTimeout(reportHeight, 400);
 }
 
-// ── PLAYER TABLE ──────────────────────────────────────────────────────────────
+// ── PLAYER TABLE ────────────────────────────────────────────────────────────────────────────
 const SKILL_ORDER = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
 const SKILL_SHORT = { sg_ott:'OTT', sg_app:'APP', sg_arg:'ARG', sg_putt:'PUTT', sg_total:'OTR' };
 
@@ -298,7 +303,7 @@ function buildPlayerTable(sorted) {
   return wrap;
 }
 
-// ── PLAYER CARD ───────────────────────────────────────────────────────────────
+// ── PLAYER CARD ────────────────────────────────────────────────────────────────────────────
 function buildPlayerCard(player, idx) {
   const card = document.createElement('div');
   card.className = 'player-card';
@@ -412,7 +417,7 @@ function buildPlayerCard(player, idx) {
   return card;
 }
 
-// ── HELPERS ───────────────────────────────────────────────────────────────────
+// ── HELPERS ───────────────────────────────────────────────────────────────────────────────
 function fmtLastPlayed(dateStr) {
   if (!dateStr) return '—';
   const d = new Date(dateStr);
@@ -429,7 +434,7 @@ function valueColor(val, bound) {
   return `rgb(${r},${g},${b})`;
 }
 
-// ── SORT / SEARCH / VIEW CONTROLS ────────────────────────────────────────────
+// ── SORT / SEARCH / VIEW CONTROLS ─────────────────────────────────────────────────────────
 document.getElementById('sort-by-group').addEventListener('click', e => {
   const btn = e.target.closest('.sort-btn');
   if (!btn) return;
@@ -467,7 +472,7 @@ function setViewMode(mode) {
   if (players.length) renderGrid();
 }
 
-// ── COURSE BREAKDOWN ──────────────────────────────────────────────────────────
+// ── COURSE BREAKDOWN ──────────────────────────────────────────────────────────────────────────
 let breakdownSkill  = null;
 let breakdownSort   = 'contribution';
 let breakdownShowAll = false;
@@ -588,7 +593,7 @@ function renderBreakdownRows(rows) {
   }
 }
 
-// ── IFRAME HEIGHT REPORTING ───────────────────────────────────────────────────
+// ── IFRAME HEIGHT REPORTING ────────────────────────────────────────────────────────────────────
 function reportHeight() {
   window.parent.postMessage({ type: 'plus4-resize', height: document.documentElement.scrollHeight }, '*');
 }

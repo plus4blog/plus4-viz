@@ -223,16 +223,17 @@ function loadData() {
     download: true, header: true, skipEmptyLines: true, dynamicTyping: true,
     complete({ data }) {
       courseRows = data.map(r => ({
-        course             : r.predictor_course_name || '',
-        skill              : (r.predictor_skill || '').trim(),
-        avg_weighted_score : parseFloat(r.avg_weighted_score) || 0,
-        years_observed     : parseInt(r.years_observed)        || 0,
-        years_strong       : parseInt(r.years_strong)          || 0,
-        pct_years_positive : parseFloat(r.pct_years_positive)  || 0,
-        avg_shared_players : parseFloat(r.avg_shared_players)  || 0,
-        last_played        : r.last_played || null,
-        tournament         : r.tournament  || '',
-        as_of_date         : r.as_of_date  || '',
+        course               : r.predictor_course_name || '',
+        skill                : (r.predictor_skill || '').trim(),
+        avg_weighted_score   : parseFloat(r.avg_weighted_score) || 0,
+        years_observed       : parseInt(r.years_observed)        || 0,
+        years_strong         : parseInt(r.years_strong)          || 0,
+        pct_years_positive   : parseFloat(r.pct_years_positive)  || 0,
+        avg_shared_players   : parseFloat(r.avg_shared_players)  || 0,
+        last_played          : r.last_played || null,
+        tournament           : r.tournament  || '',
+        target_course_name   : r.target_course_name || '',
+        as_of_date           : r.as_of_date  || '',
       }));
       coursesDone = true;
       tryRender();
@@ -290,15 +291,13 @@ function tryRender() {
     renderPlayerTable();
   }
   if (coursesDone && playersDone) {
+    const courseName    = courseRows[0]?.target_course_name || '';
     const tournament    = courseRows[0]?.tournament || playerRows[0]?.tournament || '';
     const asOf          = courseRows[0]?.as_of_date || playerRows[0]?.as_of_date || '';
     const uniqueCourses = [...new Set(courseRows.map(r => r.course).filter(Boolean))];
-    if (tournament) {
-      document.getElementById('page-title').textContent = tournament;
-      document.title = `plus4.blog · ${tournament} Lead-In Analysis`;
-    }
+    if (courseName) document.getElementById('page-title').textContent = courseName;
     document.getElementById('page-meta').innerHTML =
-      `<div class="meta-pill">PGA Tour</div>` +
+      (tournament ? `<div class="meta-pill">${tournament}</div>` : '') +
       `<div class="meta-pill">Players: <span>${playerRows.length}</span></div>` +
       `<div class="meta-pill">Predictors: <span>${uniqueCourses.length}</span></div>` +
       (asOf ? `<div class="meta-pill">Updated: <span>${fmtDate(asOf)}</span></div>` : '');

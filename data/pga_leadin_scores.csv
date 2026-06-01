@@ -1,128 +1,72 @@
 rank,player_name,dg_id,lead_in_z,lead_in_raw,predictors_found,top_course,tournament,as_of_date
-1,"Bauchou, Zach",19846,1.896,0.3662,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-2,"Stanger, Jimmy",23048,1.893,0.3657,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-3,"Dunlap, Nick",28270,1.856,0.3596,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-4,"Smalley, Alex",18474,1.839,0.3568,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-5,"Fowler, Rickie",12965,1.617,0.3208,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-6,"McCarty, Matt",28635,1.569,0.3131,3,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-7,"Dou, Zecheng",16757,1.552,0.3103,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-8,"Lipsky, David",15980,1.535,0.3076,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-9,"Meissner, Mac",28159,1.469,0.2968,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-10,"Ventura, Kris",15651,1.427,0.29,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-11,"Rozo, Marcelo",16591,1.364,0.2798,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-12,"Pavon, Matthieu",19960,1.296,0.2689,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-13,"Whaley, Vince",25908,1.243,0.2602,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-14,"Lebioda, Hank",21943,1.22,0.2566,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-15,"Crowe, Trace",27780,1.204,0.2539,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-16,"Hall, Harry",27194,1.202,0.2536,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-17,"Im, Sungjae",17488,1.144,0.2442,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-18,"Horschel, Billy",11276,1.123,0.2408,3,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-19,"Kang, Jeffrey",21889,1.092,0.2358,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-20,"Novak, Andrew",23475,1.07,0.2321,3,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-21,"Spaun, J.J.",17536,1.047,0.2285,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-22,"Cole, Eric",21756,1.025,0.2249,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-23,"Brown, Dan",20766,1.017,0.2236,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-24,"Echavarria, Nico",22833,1.005,0.2216,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-25,"Blanchet, Chandler",24956,0.989,0.2191,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-26,"Eckroat, Austin",26653,0.967,0.2155,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-27,"Aberg, Ludvig",23950,0.938,0.2107,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-28,"Smotherman, Austin",22985,0.887,0.2026,3,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-29,"Woodland, Gary",12577,0.887,0.2025,1,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-30,"Hardy, Nick",19865,0.857,0.1977,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-31,"Yellamaraju, Sudarshan",29925,0.832,0.1936,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-32,"Ryder, Sam",16715,0.744,0.1793,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-33,"Griffin, Lanto",15330,0.734,0.1777,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-34,"Riley, Davis",19872,0.719,0.1754,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-35,"Svensson, Adam",13997,0.668,0.167,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-36,"Hoffman, Charley",5768,0.666,0.1667,1,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-37,"Mouw, William",29770,0.568,0.1509,1,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-38,"Thompson, Davis",27364,0.551,0.1481,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-39,"Skinns, David",10873,0.518,0.1427,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-40,"Smith, Jordan",18586,0.487,0.1378,1,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-41,"Putnam, Andrew",14704,0.411,0.1254,3,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-42,"Vilips, Karl",24304,0.403,0.1241,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-43,"Davis, Cam",17786,0.401,0.1238,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-44,"Van Rooyen, Erik",17550,0.38,0.1203,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-45,"Hodges, Lee",25157,0.376,0.1196,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-46,"Schenk, Adam",19477,0.328,0.112,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-47,"Dumont De Chassart, Adrien",22002,0.279,0.104,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-48,"Springer, Hayden",21995,0.265,0.1016,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-49,"Poston, J.T.",21554,0.231,0.0962,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-50,"Greyserman, Max",23465,0.169,0.0861,3,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-51,"Mitchell, Keith",17365,0.137,0.0809,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-52,"Nyholm, Pontus",25475,0.128,0.0795,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-53,"Fishburn, Patrick",25094,0.119,0.0781,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-54,"Rodgers, Patrick",16283,0.118,0.0779,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-55,"Palmer, Ryan",7820,0.115,0.0774,1,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-56,"Garnett, Brice",11451,0.096,0.0743,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-57,"Ramey, Chad",19840,0.047,0.0664,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-58,"Suber, Jackson",29279,0.044,0.0658,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-59,"Lamprecht, Christo",24343,0.042,0.0655,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-60,"Thorbjornsen, Michael",26649,0.037,0.0648,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-61,"Bradley, Keegan",13872,0.035,0.0644,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-62,"Hubbard, Mark",16333,0.026,0.0629,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-63,"Peterson, Paul",16341,0.011,0.0606,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-64,"Snedeker, Brandt",8820,0.009,0.0603,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-65,"Simpson, Webb",11049,-0.0,0.0587,1,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-66,"Neergaard-Petersen, Rasmus",23841,-0.004,0.0581,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-67,"Ghim, Doug",24550,-0.009,0.0572,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-68,"Ewart, A.J.",21883,-0.015,0.0563,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-69,"Coody, Pierceson",28309,-0.034,0.0532,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-70,"Campbell, Brian",18628,-0.056,0.0496,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-71,"Moore, Taylor",21944,-0.062,0.0487,3,Arnold Palmer's Bay Hill Club & Lodge,Charles Schwab Challenge,2026-05-29
-72,"Kim, Michael",17543,-0.076,0.0464,2,Arnold Palmer's Bay Hill Club & Lodge,Charles Schwab Challenge,2026-05-29
-73,"Kohles, Ben",16395,-0.091,0.044,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-74,"Finau, Tony",11676,-0.126,0.0384,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-75,"Roy, Kevin",18424,-0.178,0.0298,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-76,"Jaeger, Stephan",16394,-0.191,0.0278,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-77,"Brennan, Michael",29197,-0.191,0.0278,1,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-78,"Kirk, Chris",12423,-0.204,0.0257,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-79,"Henley, Russell",14578,-0.204,0.0257,1,Arnold Palmer's Bay Hill Club & Lodge,Charles Schwab Challenge,2026-05-29
-80,"Streelman, Kevin",8480,-0.274,0.0144,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-81,"Hojgaard, Rasmus",23838,-0.296,0.0108,1,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-82,"Hisatsune, Ryo",22760,-0.296,0.0108,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-83,"Hughes, Mackenzie",15556,-0.32,0.0068,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-84,"Tosti, Alejandro",17032,-0.328,0.0055,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-85,"Kanaya, Takumi",19729,-0.334,0.0046,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-86,"Chatfield, Davis",30620,-0.389,-0.0043,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-87,"Martin, Ben",14007,-0.404,-0.0068,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-88,"Harman, Brian",8825,-0.418,-0.0091,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-89,"Grillo, Emiliano",12808,-0.42,-0.0094,1,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-90,"Fisk, Steven",26657,-0.433,-0.0115,1,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-91,"Wu, Dylan",25002,-0.444,-0.0132,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-92,"Highsmith, Joe",28469,-0.447,-0.0137,1,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-93,"McGreevy, Max",23505,-0.494,-0.0214,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-94,"Hoge, Tom",15575,-0.52,-0.0256,3,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-95,"Hirata, Kensei",20954,-0.525,-0.0263,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-96,"Glover, Lucas",7399,-0.563,-0.0325,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-97,"Kim, Tom",24766,-0.578,-0.035,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-98,"Power, Seamus",10104,-0.602,-0.0388,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-99,"Kuchar, Matt",6169,-0.642,-0.0453,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-100,"Thomas, Justin",14139,-0.666,-0.0492,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-101,"Phillips, Chandler",27164,-0.713,-0.0568,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-102,"Keefer, Johnny",32457,-0.736,-0.0606,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-103,"Clanton, Luke",32330,-0.741,-0.0614,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-104,"Homa, Max",17538,-0.773,-0.0665,1,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-105,"Hoey, Rico",23504,-0.856,-0.08,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-106,"Hossler, Beau",15470,-0.866,-0.0817,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-107,"Villegas, Camilo",9171,-0.877,-0.0835,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-108,"Higgo, Garrick",24342,-0.916,-0.0897,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-109,"MacIntyre, Robert",23323,-0.975,-0.0993,2,Arnold Palmer's Bay Hill Club & Lodge,Charles Schwab Challenge,2026-05-29
-110,"Bhatia, Akshay",26096,-0.984,-0.1008,2,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-111,"Castillo, Ricky",27819,-1.026,-0.1076,1,Quail Hollow Club,Charles Schwab Challenge,2026-05-29
-112,"Blair, Zac",17639,-1.109,-0.121,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-113,"Walker, Danny",25003,-1.177,-0.132,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-114,"Bezuidenhout, Christiaan",18103,-1.177,-0.1321,2,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-115,"VanDerLaan, John",25319,-1.235,-0.1414,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-116,"Dahmen, Joel",14509,-1.333,-0.1573,3,Arnold Palmer's Bay Hill Club & Lodge,Charles Schwab Challenge,2026-05-29
-117,"Li, Haotong",15310,-1.478,-0.1809,3,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-118,"Gerard, Ryan",29767,-1.626,-0.2048,3,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-119,"Parry, John",13764,-1.712,-0.2187,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-120,"Shipley, Neal",32055,-1.772,-0.2285,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-121,"Nakajima, Keita",21074,-1.833,-0.2384,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-122,"Stevens, Sam",25569,-1.922,-0.2529,3,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-123,"Yu, Kevin",17881,-2.085,-0.2793,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-124,"Theegala, Sahith",23014,-2.267,-0.3088,3,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-125,"Griffin, Ben",24968,-2.418,-0.3332,3,TPC Louisiana,Charles Schwab Challenge,2026-05-29
-126,"Kizzire, Patton",13470,-2.463,-0.3406,2,Dunes Golf and Beach Club,Charles Schwab Challenge,2026-05-29
-127,"Matsuyama, Hideki",13562,-3.022,-0.4312,2,Arnold Palmer's Bay Hill Club & Lodge,Charles Schwab Challenge,2026-05-29
+1,"Reitan, Kristoffer",21407,2.157,0.7839,5,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+2,"Smalley, Alex",18474,2.037,0.7452,5,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+3,"Young, Cameron",26651,2.028,0.7425,2,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+4,"Fitzpatrick, Alex",25362,1.543,0.5858,2,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+5,"Spaun, J.J.",17536,1.483,0.5664,3,TPC San Antonio - The Oaks Course,The Memorial,2026-06-01
+6,"Kim, Michael",17543,1.432,0.5499,3,TPC San Antonio - The Oaks Course,The Memorial,2026-06-01
+7,"Griffin, Ben",24968,1.255,0.4928,4,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+8,"Hojgaard, Nicolai",23602,1.201,0.4754,4,Memorial Park Golf Course,The Memorial,2026-06-01
+9,"Meissner, Mac",28159,1.085,0.4378,4,PGA National  - Champion Course,The Memorial,2026-06-01
+10,"Stevens, Sam",25569,0.974,0.4019,4,Memorial Park Golf Course,The Memorial,2026-06-01
+11,"Scott, Adam",6430,0.963,0.3986,2,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+12,"McCarty, Matt",28635,0.924,0.386,4,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+13,"Lee, Min Woo",16841,0.919,0.3842,3,Memorial Park Golf Course,The Memorial,2026-06-01
+14,"Kim, Si Woo",14609,0.863,0.3663,3,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+15,"Kitayama, Kurt",21891,0.766,0.335,3,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+16,"Hoge, Tom",15575,0.76,0.3329,5,TPC Louisiana,The Memorial,2026-06-01
+17,"Taylor, Nick",13126,0.732,0.3238,3,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+18,"Woodland, Gary",12577,0.565,0.2699,4,Memorial Park Golf Course,The Memorial,2026-06-01
+19,"Poston, J.T.",21554,0.527,0.2577,4,Memorial Park Golf Course,The Memorial,2026-06-01
+20,"Lowry, Shane",13900,0.465,0.2378,5,TPC Louisiana,The Memorial,2026-06-01
+21,"Noren, Alex",10419,0.38,0.2103,3,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+22,"Horschel, Billy",11276,0.376,0.2089,5,TPC Louisiana,The Memorial,2026-06-01
+23,"MacIntyre, Robert",23323,0.33,0.1941,2,TPC San Antonio - The Oaks Course,The Memorial,2026-06-01
+24,"Bhatia, Akshay",26096,0.329,0.1937,2,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+25,"Knapp, Jake",19396,0.322,0.1916,2,Memorial Park Golf Course,The Memorial,2026-06-01
+26,"Clark, Wyndham",23604,0.303,0.1852,3,Memorial Park Golf Course,The Memorial,2026-06-01
+27,"Gotterup, Chris",27774,0.295,0.183,3,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+28,"Echavarria, Nico",22833,0.22,0.1585,4,PGA National  - Champion Course,The Memorial,2026-06-01
+29,"Campbell, Brian",18628,0.17,0.1424,3,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+30,"Cauley, Bud",14502,0.155,0.1375,3,TPC San Antonio - The Oaks Course,The Memorial,2026-06-01
+31,"Berger, Daniel",17606,0.092,0.1172,3,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+32,"Thomas, Justin",14139,0.047,0.1028,2,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+33,"Aberg, Ludvig",23950,0.035,0.099,2,TPC San Antonio - The Oaks Course,The Memorial,2026-06-01
+34,"McCarthy, Denny",19870,-0.013,0.0835,4,Memorial Park Golf Course,The Memorial,2026-06-01
+35,"Cole, Eric",21756,-0.071,0.0648,4,TPC San Antonio - The Oaks Course,The Memorial,2026-06-01
+36,"Fitzpatrick, Matt",17646,-0.077,0.0629,2,Harbour Town Golf Links,The Memorial,2026-06-01
+37,"Schauffele, Xander",19895,-0.126,0.047,1,Harbour Town Golf Links,The Memorial,2026-06-01
+38,"Snedeker, Brandt",8820,-0.137,0.0433,3,TPC Louisiana,The Memorial,2026-06-01
+39,"Cantlay, Patrick",15466,-0.146,0.0404,1,Harbour Town Golf Links,The Memorial,2026-06-01
+40,"McNealy, Maverick",18634,-0.169,0.0331,3,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+41,"Straka, Sepp",17511,-0.17,0.0325,3,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+42,"Hall, Harry",27194,-0.17,0.0326,3,Memorial Park Golf Course,The Memorial,2026-06-01
+43,"Novak, Andrew",23475,-0.177,0.0305,4,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+44,"Theegala, Sahith",23014,-0.186,0.0274,4,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+45,"Rai, Aaron",18554,-0.226,0.0147,2,PGA National  - Champion Course,The Memorial,2026-06-01
+46,"Day, Jason",9771,-0.242,0.0093,3,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+47,"Spieth, Jordan",14636,-0.342,-0.023,3,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+48,"Gerard, Ryan",29767,-0.363,-0.0296,5,TPC Louisiana,The Memorial,2026-06-01
+49,"Hubbard, Mark",16333,-0.366,-0.0306,4,TPC Louisiana,The Memorial,2026-06-01
+50,"Conners, Corey",17576,-0.389,-0.0381,2,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+51,"Harman, Brian",8825,-0.411,-0.0453,3,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+52,"Vegas, Jhonattan",13508,-0.425,-0.0496,4,Memorial Park Golf Course,The Memorial,2026-06-01
+53,"Hisatsune, Ryo",22760,-0.436,-0.0533,3,TPC San Antonio - The Oaks Course,The Memorial,2026-06-01
+54,"Coody, Pierceson",28309,-0.438,-0.0538,3,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+55,"Fleetwood, Tommy",12294,-0.448,-0.0572,3,TPC San Antonio - The Oaks Course,The Memorial,2026-06-01
+56,"Bradley, Keegan",13872,-0.61,-0.1095,2,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+57,"English, Harris",14577,-0.621,-0.1129,3,Memorial Park Golf Course,The Memorial,2026-06-01
+58,"Scheffler, Scottie",18417,-0.625,-0.1142,2,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+59,"Burns, Sam",19483,-0.649,-0.1221,3,Memorial Park Golf Course,The Memorial,2026-06-01
+60,"Finau, Tony",11676,-0.654,-0.1236,4,Memorial Park Golf Course,The Memorial,2026-06-01
+61,"Kuchar, Matt",6169,-0.769,-0.1606,4,TPC Louisiana,The Memorial,2026-06-01
+62,"Fox, Ryan",11889,-0.856,-0.1887,3,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+63,"Matsuyama, Hideki",13562,-1.082,-0.2617,2,TPC San Antonio - The Oaks Course,The Memorial,2026-06-01
+64,"Im, Sungjae",17488,-1.111,-0.2711,3,Memorial Park Golf Course,The Memorial,2026-06-01
+65,"Bridgeman, Jacob",29433,-1.281,-0.3259,2,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+66,"Rose, Justin",6093,-1.288,-0.3282,1,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+67,"Fowler, Rickie",12965,-1.43,-0.3742,4,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+68,"Henley, Russell",14578,-1.527,-0.4054,3,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+69,"Glover, Lucas",7399,-1.705,-0.4629,4,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+70,"Pendrith, Taylor",17780,-1.89,-0.5227,4,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01
+71,"Rodgers, Patrick",16283,-4.105,-1.2377,4,Trump National Doral - Blue Monster Course,The Memorial,2026-06-01

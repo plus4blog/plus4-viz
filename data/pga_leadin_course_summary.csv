@@ -2,30 +2,30 @@ predictor_course_name,predictor_skill,avg_r,avg_weighted_score,avg_r_squared,yea
 The Classic Club,sg_app,0.5614,0.516,0.3201,2,2,1.0,11.0,0.0,2008-01-20,The Memorial,2026-06-02
 TPC Southwind,sg_ott,0.3146,0.2836,0.1042,2,2,1.0,30.0,0.0,2005-05-29,The Memorial,2026-06-02
 TPC Craig Ranch,sg_total,0.259,0.23,0.0879,3,2,1.0,30.0,0.0,2025-05-04,The Memorial,2026-06-02
-TPC Craig Ranch,sg_app,0.2327,0.2067,0.0904,3,2,0.667,22.6667,0.0,2025-05-04,The Memorial,2026-06-02
+TPC Craig Ranch,sg_app,0.2328,0.2067,0.0904,3,2,0.667,22.6667,0.0,2025-05-04,The Memorial,2026-06-02
 Cottonwood Valley GC,sg_app,0.2325,0.1862,0.0787,3,1,1.0,25.6667,0.0,2007-04-29,The Memorial,2026-06-02
-TPC Craig Ranch,sg_putt,0.2327,0.1779,0.0754,3,1,1.0,22.6667,0.0,2025-05-04,The Memorial,2026-06-02
+TPC Craig Ranch,sg_putt,0.2327,0.1778,0.0754,3,1,1.0,22.6667,0.0,2025-05-04,The Memorial,2026-06-02
 The Classic Club,sg_arg,0.2761,0.1701,0.0852,2,1,1.0,11.0,0.0,2008-01-20,The Memorial,2026-06-02
 TPC Southwind,sg_app,0.196,0.1584,0.0543,2,1,1.0,30.0,0.0,2005-05-29,The Memorial,2026-06-02
 El Camaleón Golf Course at Mayakoba,sg_total,0.1847,0.1461,0.0485,6,3,1.0,30.3333,0.0,2012-02-26,The Memorial,2026-06-02
 Trump National Doral - Blue Monster Course,sg_total,0.1683,0.1415,0.0496,10,5,0.9,35.4,0.0,2016-03-06,The Memorial,2026-06-02
 Silver Rock,sg_app,0.1594,0.1387,0.111,4,1,0.75,16.25,0.0,2011-01-23,The Memorial,2026-06-02
-Trump National Doral - Blue Monster Course,sg_arg,0.155,0.1346,0.051,10,5,0.8,34.4,0.0,2016-03-06,The Memorial,2026-06-02
-PGA National  - Champion Course,sg_ott,0.1271,0.133,0.0481,2,1,0.5,30.5,0.0,2025-03-02,The Memorial,2026-06-02
+Trump National Doral - Blue Monster Course,sg_arg,0.1546,0.1343,0.0508,10,5,0.8,34.5,0.0,2016-03-06,The Memorial,2026-06-02
+PGA National  - Champion Course,sg_ott,0.1271,0.1331,0.0482,2,1,0.5,30.5,0.0,2025-03-02,The Memorial,2026-06-02
 Cottonwood Valley GC,sg_total,0.1377,0.1259,0.045,3,2,0.667,26.3333,0.0,2007-04-29,The Memorial,2026-06-02
 TPC Louisiana,sg_ott,0.1793,0.1213,0.0378,2,1,1.0,33.5,0.0,2025-04-27,The Memorial,2026-06-02
 PGA West (Nicklaus),sg_arg,0.1426,0.1193,0.0528,7,3,0.714,19.7143,0.0,2015-01-25,The Memorial,2026-06-02
 Trinity Forest Golf Club,sg_ott,0.1593,0.1178,0.0295,2,1,1.0,44.0,0.0,2019-05-12,The Memorial,2026-06-02
 TPC San Antonio - The Oaks Course,sg_ott,0.1407,0.1162,0.0328,15,6,0.867,55.5333,0.0,2025-04-06,The Memorial,2026-06-02
-Memorial Park Golf Course,sg_app,0.1798,0.1147,0.0345,2,1,1.0,26.0,0.0,2025-03-30,The Memorial,2026-06-02
-Trump National Doral - Blue Monster Course,sg_ott,0.1204,0.106,0.0346,10,5,0.7,34.4,0.0,2016-03-06,The Memorial,2026-06-02
+Memorial Park Golf Course,sg_app,0.1798,0.1146,0.0345,2,1,1.0,26.0,0.0,2025-03-30,The Memorial,2026-06-02
+Trump National Doral - Blue Monster Course,sg_ott,0.1204,0.106,0.0346,10,5,0.7,34.5,0.0,2016-03-06,The Memorial,2026-06-02
 Hualalai Golf Course,sg_app,0.1219,0.1053,0.0549,10,3,0.6,20.3,0.0,2015-01-25,The Memorial,2026-06-02
 Redstone GC (Fall Creek),sg_putt,0.0817,0.0953,0.0343,2,1,0.5,53.0,0.0,2005-04-24,The Memorial,2026-06-02
 Nicklaus Tournament Course,sg_ott,0.1104,0.0929,0.0866,9,3,0.667,18.4444,0.0,2025-01-19,The Memorial,2026-06-02
 TPC San Antonio - The Oaks Course,sg_total,0.1057,0.0902,0.0322,15,4,0.8,58.7333,0.0,2025-04-06,The Memorial,2026-06-02
 Plantation Course at Kapalua,sg_putt,0.1102,0.088,0.0597,18,9,0.667,24.0556,0.0,2025-01-05,The Memorial,2026-06-02
 Redstone GC (Fall Creek),sg_arg,0.1281,0.0827,0.0167,2,1,1.0,53.0,0.0,2005-04-24,The Memorial,2026-06-02
-Memorial Park Golf Course,sg_total,0.1148,0.0826,0.0242,2,1,1.0,32.0,0.0,2025-03-30,The Memorial,2026-06-02
+Memorial Park Golf Course,sg_total,0.1147,0.0826,0.0242,2,1,1.0,32.0,0.0,2025-03-30,The Memorial,2026-06-02
 Augusta National Golf Club,sg_arg,0.0927,0.0821,0.0316,5,1,0.6,42.6,0.0,2025-04-13,The Memorial,2026-06-02
 Pete Dye Stadium Course,sg_arg,0.09,0.0798,0.0403,9,3,0.667,23.6667,0.0,2025-01-19,The Memorial,2026-06-02
 TPC Louisiana,sg_app,0.1322,0.077,0.0187,2,1,1.0,33.5,0.0,2025-04-27,The Memorial,2026-06-02
@@ -33,8 +33,8 @@ Harbour Town Golf Links,sg_ott,0.0888,0.0754,0.0263,21,9,0.762,70.5714,0.0,2025-
 Bermuda Dunes CC,sg_ott,0.1776,0.0752,0.032,3,1,1.0,11.6667,0.0,2009-01-25,The Memorial,2026-06-02
 Monterey Peninsula CC,sg_putt,0.1099,0.075,0.0353,11,3,0.818,17.4545,0.0,2023-02-05,The Memorial,2026-06-02
 Pete Dye Stadium Course,sg_total,0.0785,0.0749,0.054,9,3,0.556,26.3333,0.0,2025-01-19,The Memorial,2026-06-02
-La Quinta Country Club,sg_total,0.0751,0.0744,0.0739,18,6,0.5,19.4444,0.0,2025-01-19,The Memorial,2026-06-02
-Trump National Doral - Blue Monster Course,sg_putt,0.0832,0.0736,0.0267,10,3,0.6,34.4,0.0,2016-03-06,The Memorial,2026-06-02
+La Quinta Country Club,sg_total,0.0751,0.0743,0.0739,18,6,0.5,19.4444,0.0,2025-01-19,The Memorial,2026-06-02
+Trump National Doral - Blue Monster Course,sg_putt,0.0833,0.0737,0.0267,10,3,0.6,34.5,0.0,2016-03-06,The Memorial,2026-06-02
 Spyglass Hill Golf Course,sg_total,0.0812,0.0721,0.0756,20,7,0.6,18.9,0.0,2025-02-02,The Memorial,2026-06-02
 Torrey Pines Golf Course (South Course),sg_putt,0.0738,0.0697,0.0263,20,7,0.6,40.2,0.0,2025-02-16,The Memorial,2026-06-02
 Plantation Course at Kapalua,sg_ott,0.0899,0.069,0.0316,18,5,0.722,24.0556,0.0,2025-01-05,The Memorial,2026-06-02
@@ -47,33 +47,33 @@ Colonial Country Club,sg_arg,0.0644,0.0606,0.0213,20,7,0.65,69.65,0.0,2025-05-25
 Quail Hollow Club,sg_ott,0.0504,0.0602,0.0374,5,1,0.4,67.0,0.0,2024-05-12,The Memorial,2026-06-02
 Torrey Pines Golf Course (North Course),sg_app,0.0457,0.0594,0.0715,20,8,0.5,23.6,0.0,2025-01-25,The Memorial,2026-06-02
 PGA West (Nicklaus),sg_putt,0.0772,0.0588,0.0306,7,2,0.571,19.7143,0.0,2015-01-25,The Memorial,2026-06-02
-La Quinta Country Club,sg_arg,0.0683,0.058,0.0796,17,6,0.529,17.7059,0.0,2025-01-19,The Memorial,2026-06-02
-PGA National  - Champion Course,sg_total,0.0893,0.0571,0.0139,2,1,1.0,39.5,0.0,2025-03-02,The Memorial,2026-06-02
-Nicklaus Tournament Course,sg_total,0.0424,0.0562,0.0932,9,3,0.444,19.7778,0.0,2025-01-19,The Memorial,2026-06-02
+La Quinta Country Club,sg_arg,0.0683,0.0581,0.0797,17,6,0.529,17.7059,0.0,2025-01-19,The Memorial,2026-06-02
+PGA National  - Champion Course,sg_total,0.0893,0.0572,0.0139,2,1,1.0,39.5,0.0,2025-03-02,The Memorial,2026-06-02
+Nicklaus Tournament Course,sg_total,0.0425,0.0562,0.0932,9,3,0.444,19.7778,0.0,2025-01-19,The Memorial,2026-06-02
 TPC Four Seasons Resort,sg_ott,0.054,0.0551,0.0254,13,4,0.615,53.4615,0.0,2017-05-21,The Memorial,2026-06-02
 TPC San Antonio - The Oaks Course,sg_app,0.0715,0.0546,0.0155,15,3,0.8,55.5333,0.0,2025-04-06,The Memorial,2026-06-02
-TPC Craig Ranch,sg_arg,0.0632,0.0529,0.0116,2,1,0.5,50.0,0.0,2025-05-04,The Memorial,2026-06-02
 Cottonwood Valley GC,sg_arg,0.1023,0.0529,0.0161,3,1,1.0,25.6667,0.0,2007-04-29,The Memorial,2026-06-02
+TPC Craig Ranch,sg_arg,0.0632,0.0529,0.0116,2,1,0.5,50.0,0.0,2025-05-04,The Memorial,2026-06-02
 Quail Hollow Club,sg_app,0.052,0.052,0.0144,5,1,0.4,67.0,0.0,2024-05-12,The Memorial,2026-06-02
 Club de Golf Chapultepec,sg_putt,0.0503,0.0512,0.0362,4,1,0.5,38.25,0.0,2020-02-23,The Memorial,2026-06-02
 Vidanta Vallarta,sg_app,0.0398,0.0478,0.0232,4,1,0.75,23.75,0.0,2025-02-23,The Memorial,2026-06-02
 Torrey Pines Golf Course (North Course),sg_arg,0.0712,0.0477,0.0454,20,7,0.6,23.6,0.0,2025-01-25,The Memorial,2026-06-02
 Hualalai Golf Course,sg_total,0.0645,0.0469,0.0525,11,3,0.636,20.6364,0.0,2015-01-25,The Memorial,2026-06-02
 Club de Golf Chapultepec,sg_total,0.0347,0.0466,0.0317,4,1,0.5,40.5,0.0,2020-02-23,The Memorial,2026-06-02
-TPC Louisiana,sg_total,0.083,0.0462,0.012,2,0,1.0,46.0,0.0,2025-04-27,The Memorial,2026-06-02
+TPC Louisiana,sg_total,0.083,0.0463,0.012,2,0,1.0,46.0,0.0,2025-04-27,The Memorial,2026-06-02
 Plantation Course at Kapalua,sg_total,0.0594,0.0458,0.0382,19,5,0.684,25.2105,0.0,2025-01-05,The Memorial,2026-06-02
 Pebble Beach Golf Links,sg_ott,0.0382,0.0456,0.0384,19,4,0.474,25.6316,0.0,2025-02-02,The Memorial,2026-06-02
 CC at Mirasol (Sunset),sg_total,0.0764,0.045,0.0092,2,0,1.0,54.0,0.0,2005-03-13,The Memorial,2026-06-02
+Golf Club of Houston,sg_ott,0.0661,0.045,0.0107,12,2,0.75,70.0,0.0,2018-04-01,The Memorial,2026-06-02
 Augusta National Golf Club,sg_total,0.0503,0.0449,0.0222,20,6,0.55,48.75,0.0,2025-04-13,The Memorial,2026-06-02
 Colonial Country Club,sg_total,0.0582,0.0444,0.0192,21,5,0.762,72.7619,0.0,2025-05-25,The Memorial,2026-06-02
-Golf Club of Houston,sg_ott,0.0655,0.0443,0.0106,12,2,0.75,69.9167,0.0,2018-04-01,The Memorial,2026-06-02
 Harbour Town Golf Links,sg_total,0.0499,0.044,0.0158,21,4,0.571,74.1905,0.0,2025-04-20,The Memorial,2026-06-02
 Quail Hollow Club,sg_total,0.0412,0.0438,0.0378,5,2,0.6,74.6,0.0,2024-05-12,The Memorial,2026-06-02
 TPC Four Seasons Resort,sg_app,0.0485,0.0416,0.0243,13,5,0.538,53.4615,0.0,2017-05-21,The Memorial,2026-06-02
 Hualalai Golf Course,sg_putt,0.0594,0.038,0.0506,10,3,0.7,20.3,0.0,2015-01-25,The Memorial,2026-06-02
 The Riviera Country Club,sg_arg,0.032,0.0377,0.0171,19,4,0.474,77.1579,0.0,2024-02-18,The Memorial,2026-06-02
 Colonial Country Club,sg_app,0.0489,0.0374,0.0095,20,5,0.65,69.65,0.0,2025-05-25,The Memorial,2026-06-02
-TPC Craig Ranch,sg_ott,0.0533,0.0361,0.1164,3,2,0.667,22.6667,0.0,2025-05-04,The Memorial,2026-06-02
+TPC Craig Ranch,sg_ott,0.0533,0.036,0.1164,3,2,0.667,22.6667,0.0,2025-05-04,The Memorial,2026-06-02
 Nicklaus Tournament Course,sg_arg,0.0623,0.0343,0.0559,9,3,0.667,18.4444,0.0,2025-01-19,The Memorial,2026-06-02
 Redstone GC (Fall Creek),sg_total,0.0408,0.0342,0.0091,2,0,0.5,53.5,0.0,2005-04-24,The Memorial,2026-06-02
 Torrey Pines Golf Course (North Course),sg_total,0.0424,0.0327,0.0415,20,4,0.6,26.1,0.0,2025-01-25,The Memorial,2026-06-02
@@ -93,12 +93,12 @@ Vidanta Vallarta,sg_putt,0.0208,0.0214,0.0147,4,1,0.75,23.75,0.0,2025-02-23,The 
 TPC Louisiana,sg_arg,0.0119,0.0205,0.0146,2,0,0.5,33.5,0.0,2025-04-27,The Memorial,2026-06-02
 Club de Golf Chapultepec,sg_ott,0.0272,0.0203,0.0119,4,1,0.5,38.25,0.0,2020-02-23,The Memorial,2026-06-02
 Trinity Forest Golf Club,sg_app,0.0222,0.0193,0.0092,2,0,0.5,44.0,0.0,2019-05-12,The Memorial,2026-06-02
-Pete Dye Stadium Course,sg_ott,0.0262,0.0179,0.0566,9,2,0.556,23.6667,0.0,2025-01-19,The Memorial,2026-06-02
 Arnold Palmer's Bay Hill Club & Lodge,sg_arg,0.0114,0.0179,0.0135,21,3,0.429,71.8095,0.0,2025-03-09,The Memorial,2026-06-02
+Pete Dye Stadium Course,sg_ott,0.0262,0.0179,0.0566,9,2,0.556,23.6667,0.0,2025-01-19,The Memorial,2026-06-02
 Innisbrook Resort and Golf Club - Copperhead Course,sg_app,0.0108,0.017,0.0116,18,2,0.444,68.7222,0.0,2025-03-23,The Memorial,2026-06-02
 La Quinta Country Club,sg_app,0.0188,0.0168,0.0786,17,4,0.471,17.7059,0.0,2025-01-19,The Memorial,2026-06-02
 Spyglass Hill Golf Course,sg_app,0.0141,0.0162,0.0747,19,4,0.526,17.9474,0.0,2025-02-02,The Memorial,2026-06-02
-Golf Club of Houston,sg_app,0.0076,0.0159,0.0151,12,3,0.417,69.9167,0.0,2018-04-01,The Memorial,2026-06-02
+Golf Club of Houston,sg_app,0.0074,0.0157,0.0151,12,3,0.417,70.0,0.0,2018-04-01,The Memorial,2026-06-02
 PGA National Resort (The Champion),sg_app,0.0205,0.0156,0.0154,17,2,0.647,66.8235,0.0,2023-02-26,The Memorial,2026-06-02
 Pebble Beach Golf Links,sg_app,0.0106,0.0147,0.0528,19,5,0.474,25.6316,0.0,2025-02-02,The Memorial,2026-06-02
 Golf Club of Houston,sg_total,0.0047,0.0135,0.0123,12,3,0.417,70.3333,0.0,2018-04-01,The Memorial,2026-06-02
@@ -112,8 +112,8 @@ PGA National Resort (The Champion),sg_total,0.0227,0.0099,0.0151,17,3,0.647,69.6
 The Riviera Country Club,sg_ott,0.0134,0.0088,0.014,19,4,0.632,77.1579,0.0,2024-02-18,The Memorial,2026-06-02
 Colonial Country Club,sg_putt,0.0077,0.0084,0.0247,20,4,0.5,69.65,0.0,2025-05-25,The Memorial,2026-06-02
 Augusta National Golf Club,sg_putt,-0.019,0.0082,0.0277,5,1,0.2,42.6,0.0,2025-04-13,The Memorial,2026-06-02
-Waialae Country Club,sg_putt,0.0076,0.0076,0.0199,19,3,0.526,57.8421,0.0,2025-01-12,The Memorial,2026-06-02
-Trump National Doral - Blue Monster Course,sg_app,0.0203,0.0075,0.0421,10,4,0.6,34.4,0.0,2016-03-06,The Memorial,2026-06-02
+Trump National Doral - Blue Monster Course,sg_app,0.0207,0.0077,0.042,10,4,0.6,34.5,0.0,2016-03-06,The Memorial,2026-06-02
+Waialae Country Club,sg_putt,0.0076,0.0077,0.0199,19,3,0.526,57.8947,0.0,2025-01-12,The Memorial,2026-06-02
 TPC San Antonio - The Oaks Course,sg_arg,0.0127,0.007,0.0149,15,3,0.6,55.5333,0.0,2025-04-06,The Memorial,2026-06-02
 Torrey Pines Golf Course (South Course),sg_total,0.0013,0.0062,0.0242,20,4,0.45,44.0,0.0,2025-02-16,The Memorial,2026-06-02
 Memorial Park Golf Course,sg_arg,0.0135,0.006,0.004,2,0,0.5,26.0,0.0,2025-03-30,The Memorial,2026-06-02
@@ -124,20 +124,20 @@ Quail Hollow Club,sg_app,0.0137,0.0031,0.0165,12,1,0.583,83.3333,0.0,2024-05-12,
 The Riviera Country Club,sg_app,-0.007,0.0031,0.0124,19,2,0.421,77.1579,0.0,2024-02-18,The Memorial,2026-06-02
 Quail Hollow Club,sg_putt,0.0171,0.0029,0.0268,12,3,0.667,83.3333,0.0,2024-05-12,The Memorial,2026-06-02
 Arnold Palmer's Bay Hill Club & Lodge,sg_putt,0.0049,0.0025,0.0108,21,3,0.524,71.8095,0.0,2025-03-09,The Memorial,2026-06-02
-Innisbrook Resort and Golf Club - Copperhead Course,sg_total,0.0115,0.0021,0.0148,18,3,0.611,70.8333,0.0,2025-03-23,The Memorial,2026-06-02
 TPC Four Seasons Resort,sg_putt,0.0095,0.0021,0.0188,13,2,0.538,53.4615,0.0,2017-05-21,The Memorial,2026-06-02
+Innisbrook Resort and Golf Club - Copperhead Course,sg_total,0.0115,0.0021,0.0148,18,3,0.611,70.8333,0.0,2025-03-23,The Memorial,2026-06-02
 Redstone GC (Fall Creek),sg_ott,0.0017,0.0016,0.0057,2,0,0.5,53.0,0.0,2005-04-24,The Memorial,2026-06-02
 Club de Golf Chapultepec,sg_app,0.0183,-0.0009,0.011,4,0,0.75,38.25,0.0,2020-02-23,The Memorial,2026-06-02
-Waialae Country Club,sg_ott,0.0028,-0.002,0.035,19,6,0.526,57.8421,0.0,2025-01-12,The Memorial,2026-06-02
-Golf Club of Houston,sg_putt,-0.0133,-0.0021,0.0072,12,1,0.25,69.9167,0.0,2018-04-01,The Memorial,2026-06-02
-Augusta National Golf Club,sg_ott,-0.0061,-0.0022,0.0117,5,1,0.4,42.6,0.0,2025-04-13,The Memorial,2026-06-02
-Innisbrook Resort and Golf Club - Copperhead Course,sg_putt,0.0051,-0.0023,0.0097,18,1,0.667,68.7222,0.0,2025-03-23,The Memorial,2026-06-02
+Golf Club of Houston,sg_putt,-0.0128,-0.0016,0.0073,12,1,0.25,70.0,0.0,2018-04-01,The Memorial,2026-06-02
+Waialae Country Club,sg_ott,0.0028,-0.0019,0.035,19,6,0.526,57.8947,0.0,2025-01-12,The Memorial,2026-06-02
+Augusta National Golf Club,sg_ott,-0.0061,-0.0021,0.0117,5,1,0.4,42.6,0.0,2025-04-13,The Memorial,2026-06-02
 The Riviera Country Club,sg_total,-0.0023,-0.0023,0.0065,19,1,0.474,80.1579,0.0,2024-02-18,The Memorial,2026-06-02
+Innisbrook Resort and Golf Club - Copperhead Course,sg_putt,0.0051,-0.0023,0.0097,18,1,0.667,68.7222,0.0,2025-03-23,The Memorial,2026-06-02
 Augusta National Golf Club,sg_app,-0.0072,-0.0023,0.0403,5,1,0.4,42.6,0.0,2025-04-13,The Memorial,2026-06-02
 Arnold Palmer's Bay Hill Club & Lodge,sg_ott,-0.0065,-0.0026,0.0161,21,2,0.476,71.8095,0.0,2025-03-09,The Memorial,2026-06-02
 PGA National Resort (The Champion),sg_arg,-0.0017,-0.0036,0.0056,17,0,0.471,66.8235,0.0,2023-02-26,The Memorial,2026-06-02
 La Quinta Country Club,sg_putt,-0.0119,-0.0042,0.0832,17,5,0.471,17.7059,0.0,2025-01-19,The Memorial,2026-06-02
-Waialae Country Club,sg_arg,-0.0069,-0.0045,0.0112,19,2,0.474,57.8421,0.0,2025-01-12,The Memorial,2026-06-02
+Waialae Country Club,sg_arg,-0.0067,-0.0043,0.0111,19,2,0.474,57.8947,0.0,2025-01-12,The Memorial,2026-06-02
 Innisbrook Resort and Golf Club - Copperhead Course,sg_arg,-0.0023,-0.0061,0.0202,18,2,0.556,68.7222,0.0,2025-03-23,The Memorial,2026-06-02
 PGA National Resort (The Champion),sg_putt,0.0014,-0.0066,0.0203,17,3,0.647,66.8235,0.0,2023-02-26,The Memorial,2026-06-02
 Colonial Country Club,sg_ott,-0.0083,-0.0073,0.0132,20,1,0.45,69.65,0.0,2025-05-25,The Memorial,2026-06-02
@@ -146,7 +146,7 @@ Trinity Forest Golf Club,sg_arg,-0.0434,-0.0096,0.0019,2,0,0.0,44.0,0.0,2019-05-
 Quail Hollow Club,sg_ott,-0.0109,-0.0102,0.0162,12,3,0.5,83.3333,0.0,2024-05-12,The Memorial,2026-06-02
 TPC Sawgrass - THE PLAYERS Stadium Course,sg_app,-0.0166,-0.011,0.0057,21,1,0.333,86.5714,0.0,2025-03-16,The Memorial,2026-06-02
 TPC Scottsdale (Stadium Course),sg_putt,-0.0024,-0.0112,0.0377,20,3,0.7,68.5,0.0,2025-02-09,The Memorial,2026-06-02
-Waialae Country Club,sg_total,-0.0198,-0.0113,0.0133,20,1,0.35,62.8,0.0,2025-01-12,The Memorial,2026-06-02
+Waialae Country Club,sg_total,-0.0197,-0.0113,0.0133,20,1,0.35,62.8,0.0,2025-01-12,The Memorial,2026-06-02
 TPC Sawgrass - THE PLAYERS Stadium Course,sg_ott,-0.0047,-0.0115,0.0103,21,1,0.619,86.5714,0.0,2025-03-16,The Memorial,2026-06-02
 Cottonwood Valley GC,sg_ott,-0.0548,-0.012,0.0033,3,0,0.0,25.6667,0.0,2007-04-29,The Memorial,2026-06-02
 Quail Hollow Club,sg_total,-0.0026,-0.0126,0.0202,12,2,0.583,83.5,0.0,2024-05-12,The Memorial,2026-06-02
@@ -159,13 +159,13 @@ TPC Craig Ranch,sg_total,-0.0184,-0.0222,0.0125,2,0,0.5,55.5,0.0,2025-05-04,The 
 The Riviera Country Club,sg_putt,-0.0369,-0.023,0.0081,19,0,0.316,77.1579,0.0,2024-02-18,The Memorial,2026-06-02
 Grand Reserve Golf Club,sg_total,-0.0212,-0.0234,0.0504,15,4,0.467,24.2667,0.0,2023-03-05,The Memorial,2026-06-02
 TPC Sawgrass - THE PLAYERS Stadium Course,sg_total,-0.0357,-0.0237,0.0085,21,0,0.238,90.3333,0.0,2025-03-16,The Memorial,2026-06-02
-Waialae Country Club,sg_app,-0.0297,-0.0242,0.0146,19,1,0.368,57.8421,0.0,2025-01-12,The Memorial,2026-06-02
+Waialae Country Club,sg_app,-0.0296,-0.0242,0.0146,19,1,0.368,57.8947,0.0,2025-01-12,The Memorial,2026-06-02
 Harbour Town Golf Links,sg_arg,-0.0318,-0.0261,0.0196,21,2,0.429,70.5714,0.0,2025-04-20,The Memorial,2026-06-02
 Nicklaus Tournament Course,sg_app,-0.0338,-0.0268,0.0886,9,3,0.444,18.4444,0.0,2025-01-19,The Memorial,2026-06-02
 Quail Hollow Club,sg_arg,-0.0288,-0.0275,0.0135,5,0,0.4,67.0,0.0,2024-05-12,The Memorial,2026-06-02
-Memorial Park Golf Course,sg_ott,-0.0329,-0.0296,0.021,2,0,0.5,26.0,0.0,2025-03-30,The Memorial,2026-06-02
+Memorial Park Golf Course,sg_ott,-0.033,-0.0297,0.021,2,0,0.5,26.0,0.0,2025-03-30,The Memorial,2026-06-02
 Torrey Pines Golf Course (South Course),sg_arg,-0.037,-0.0305,0.0365,20,4,0.4,40.2,0.0,2025-02-16,The Memorial,2026-06-02
-Golf Club of Houston,sg_arg,-0.03,-0.0307,0.0137,12,0,0.5,69.9167,0.0,2018-04-01,The Memorial,2026-06-02
+Golf Club of Houston,sg_arg,-0.0319,-0.0309,0.0137,12,0,0.417,70.0,0.0,2018-04-01,The Memorial,2026-06-02
 PGA West (Nicklaus),sg_app,-0.0083,-0.0329,0.0912,7,3,0.571,19.7143,0.0,2015-01-25,The Memorial,2026-06-02
 Pete Dye Stadium Course,sg_app,-0.0653,-0.0343,0.11,9,1,0.333,23.6667,0.0,2025-01-19,The Memorial,2026-06-02
 Quail Hollow Club,sg_arg,-0.0428,-0.0351,0.0084,12,0,0.333,83.3333,0.0,2024-05-12,The Memorial,2026-06-02

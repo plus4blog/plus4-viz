@@ -3366,68 +3366,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 21891,"Kitayama, Kurt",936,Yokohama Country Club,sg_total,0.8495062335435631,2025-10-12,-0.003629369320683798,23,Muirfield Village GC
 21891,"Kitayama, Kurt",3803,real club valderrama,sg_total,0.17028189659297988,2019-06-30,-0.003676799661487824,23,Muirfield Village GC
 21891,"Kitayama, Kurt",3867,mount juliet estate,sg_total,0.28484787874582385,2021-07-04,-0.003784204424189058,23,Muirfield Village GC
-19396,"Knapp, Jake",104,Torrey Pines Golf Course (North Course),sg_app,0.5488665200017855,2024-01-27,0.01814983865939145,23,Muirfield Village GC
-19396,"Knapp, Jake",12,Harbour Town Golf Links,sg_app,1.5521846872681302,2026-04-19,0.015995544621708706,23,Muirfield Village GC
-19396,"Knapp, Jake",5,Pebble Beach Golf Links,sg_app,1.6399625622261695,2026-02-15,0.013703069228142758,23,Muirfield Village GC
-19396,"Knapp, Jake",939,Torrey Pines Golf Course (South Course),sg_app,0.7191394429067592,2025-02-16,0.00968534789677762,23,Muirfield Village GC
-19396,"Knapp, Jake",921,TPC Craig Ranch,sg_app,1.3472166211489203,2025-05-04,0.008832836435583217,23,Muirfield Village GC
-19396,"Knapp, Jake",928,PGA National  - Champion Course,sg_app,1.2890953612001137,2025-03-02,0.008261441270763673,23,Muirfield Village GC
-19396,"Knapp, Jake",935,TPC Toronto at Osprey Valley (North Course),sg_app,0.7777889998549955,2025-06-08,-0.00032256921388779526,23,Muirfield Village GC
-19396,"Knapp, Jake",6,Waialae Country Club,sg_app,1.45372222633562,2026-01-18,-0.0005362786678334106,23,Muirfield Village GC
-19396,"Knapp, Jake",931,Tahoe Mountain Club (Old Greenwood),sg_app,0.6208287499839322,2024-07-21,-0.0009362088393408673,23,Muirfield Village GC
-19396,"Knapp, Jake",233,Nicklaus Tournament Course,sg_app,0.5465661148501909,2024-01-21,-0.0026195873200890573,23,Muirfield Village GC
-19396,"Knapp, Jake",23,Muirfield Village Golf Club,sg_app,0.6028420842811031,2024-06-09,-0.004450849400133041,23,Muirfield Village GC
-19396,"Knapp, Jake",528,Pinehurst Resort & Country Club (Course No. 2),sg_app,0.6058032594484248,2024-06-16,-0.006973800596954052,23,Muirfield Village GC
-19396,"Knapp, Jake",665,Innisbrook Resort and Golf Club - Copperhead Course,sg_app,0.7369759644582341,2025-03-23,-0.015035893080776826,23,Muirfield Village GC
-19396,"Knapp, Jake",977,The Renaissance Club,sg_app,0.7970801823860759,2025-07-13,-0.016161639388220708,23,Muirfield Village GC
-19396,"Knapp, Jake",883,TPC Twin Cities,sg_arg,1.428808245401239,2025-07-27,0.006196464816261597,23,Muirfield Village GC
-19396,"Knapp, Jake",935,TPC Toronto at Osprey Valley (North Course),sg_arg,0.7777889998549955,2025-06-08,0.004759388693662907,23,Muirfield Village GC
-19396,"Knapp, Jake",104,Torrey Pines Golf Course (North Course),sg_arg,0.5488665200017855,2024-01-27,0.003723219829742828,23,Muirfield Village GC
-19396,"Knapp, Jake",939,Torrey Pines Golf Course (South Course),sg_arg,0.7191394429067592,2025-02-16,0.0028384572554117655,23,Muirfield Village GC
-19396,"Knapp, Jake",872,Quail Hollow Club,sg_arg,0.5911414205090113,2024-05-12,0.0013151319554963582,23,Muirfield Village GC
-19396,"Knapp, Jake",776,Sea Island Golf Club (Seaside Course),sg_arg,0.6780732218798831,2024-11-24,0.0003275660467723013,23,Muirfield Village GC
-19396,"Knapp, Jake",9,Arnold Palmer's Bay Hill Club & Lodge,sg_arg,0.5656385550985399,2024-03-10,-0.00011452452224301247,23,Muirfield Village GC
-19396,"Knapp, Jake",978,Vidanta Vallarta,sg_arg,1.2827942442741815,2025-02-23,-0.0016951866003895991,23,Muirfield Village GC
-19396,"Knapp, Jake",23,Muirfield Village Golf Club,sg_arg,0.6028420842811031,2024-06-09,-0.004129098752120968,23,Muirfield Village GC
-19396,"Knapp, Jake",528,Pinehurst Resort & Country Club (Course No. 2),sg_arg,0.6058032594484248,2024-06-16,-0.004481132848506171,23,Muirfield Village GC
-19396,"Knapp, Jake",671,Valhalla Golf Club,sg_arg,0.5940451217276712,2024-05-19,-0.006987119690199291,23,Muirfield Village GC
-19396,"Knapp, Jake",876,Detroit Golf Club,sg_ott,1.4010762649868842,2025-06-29,0.02210972021490545,23,Muirfield Village GC
-19396,"Knapp, Jake",752,Sedgefield Country Club,sg_ott,0.8088838051414319,2025-08-03,0.012785100921383873,23,Muirfield Village GC
-19396,"Knapp, Jake",977,The Renaissance Club,sg_ott,0.7970801823860759,2025-07-13,0.005126129734876619,23,Muirfield Village GC
-19396,"Knapp, Jake",669,TPC Deere Run,sg_ott,1.407958386112105,2025-07-06,0.004246094799210592,23,Muirfield Village GC
-19396,"Knapp, Jake",5,Pebble Beach Golf Links,sg_ott,1.6399625622261695,2026-02-15,0.0009033122601284175,23,Muirfield Village GC
-19396,"Knapp, Jake",908,Oakdale Golf & Country Club,sg_ott,0.46724571657369457,2023-06-11,5.084965545909611e-05,23,Muirfield Village GC
-19396,"Knapp, Jake",935,TPC Toronto at Osprey Valley (North Course),sg_ott,0.7777889998549955,2025-06-08,-0.0007407256459328292,23,Muirfield Village GC
-19396,"Knapp, Jake",528,Pinehurst Resort & Country Club (Course No. 2),sg_ott,0.6058032594484248,2024-06-16,-0.003179338066568124,23,Muirfield Village GC
-19396,"Knapp, Jake",23,Muirfield Village Golf Club,sg_ott,0.6028420842811031,2024-06-09,-0.009225511411345918,23,Muirfield Village GC
-19396,"Knapp, Jake",12,Harbour Town Golf Links,sg_ott,1.5521846872681302,2026-04-19,-0.010948712531998464,23,Muirfield Village GC
-19396,"Knapp, Jake",931,Tahoe Mountain Club (Old Greenwood),sg_ott,0.6208287499839322,2024-07-21,-0.015994558093907266,23,Muirfield Village GC
-19396,"Knapp, Jake",656,Plantation Course at Kapalua,sg_ott,0.6983045174081939,2025-01-05,-0.01815456232328843,23,Muirfield Village GC
-19396,"Knapp, Jake",4,Torrey Pines Golf Course (South Course),sg_putt,1.6823804040301382,2026-02-01,0.02084347032612207,23,Muirfield Village GC
-19396,"Knapp, Jake",671,Valhalla Golf Club,sg_putt,0.5940451217276712,2024-05-19,0.007356941677375852,23,Muirfield Village GC
-19396,"Knapp, Jake",978,Vidanta Vallarta,sg_putt,1.2827942442741815,2025-02-23,0.003570617862119285,23,Muirfield Village GC
-19396,"Knapp, Jake",23,Muirfield Village Golf Club,sg_putt,0.6028420842811031,2024-06-09,0.0011791332194253186,23,Muirfield Village GC
-19396,"Knapp, Jake",5,Pebble Beach Golf Links,sg_putt,1.6399625622261695,2026-02-15,0.0006647638506085662,23,Muirfield Village GC
-19396,"Knapp, Jake",874,Hamilton Golf & Country Club,sg_putt,0.1677970610001859,2019-06-09,0.0002419934331490561,23,Muirfield Village GC
-19396,"Knapp, Jake",752,Sedgefield Country Club,sg_putt,0.8088838051414319,2025-08-03,-0.00033803618110043586,23,Muirfield Village GC
-19396,"Knapp, Jake",528,Pinehurst Resort & Country Club (Course No. 2),sg_putt,0.6058032594484248,2024-06-16,-0.0020709823844895325,23,Muirfield Village GC
-19396,"Knapp, Jake",935,TPC Toronto at Osprey Valley (North Course),sg_putt,0.7777889998549955,2025-06-08,-0.002455755086474263,23,Muirfield Village GC
-19396,"Knapp, Jake",921,TPC Craig Ranch,sg_putt,1.3472166211489203,2025-05-04,-0.0035715042714160763,23,Muirfield Village GC
-19396,"Knapp, Jake",641,Crestview Country Club,sg_total,0.9857592837497482,2023-06-18,0.004630350609426515,23,Muirfield Village GC
-19396,"Knapp, Jake",22,Highland Springs Country Club,sg_total,0.7702527387943008,2023-07-23,0.0030717677538169286,23,Muirfield Village GC
-19396,"Knapp, Jake",65,TPC San Antonio-AT&T Oaks,sg_total,0.22279571580417368,2020-07-18,0.0018538911819362134,23,Muirfield Village GC
-19396,"Knapp, Jake",659,Club de Golf de Panama,sg_total,0.4277997785424706,2023-02-05,0.0014302814700935607,23,Muirfield Village GC
-19396,"Knapp, Jake",70,Sandestin Resort - Raven GC,sg_total,0.2672689030143121,2021-04-04,0.0007247365113689703,23,Muirfield Village GC
-19396,"Knapp, Jake",82,Greystone Golf & Country Club,sg_total,0.7615041710234678,2023-07-30,0.00054436512793022,23,Muirfield Village GC
-19396,"Knapp, Jake",90,TPC Colorado,sg_total,0.47883462102846197,2023-07-16,0.0005416694157134166,23,Muirfield Village GC
-19396,"Knapp, Jake",57,The Cliffs Valley,sg_total,0.2806912410655934,2021-06-13,0.0005351213403988346,23,Muirfield Village GC
-19396,"Knapp, Jake",790,Pumpkin Ridge GC - W. Hollow,sg_total,0.22625332508540882,2020-08-09,0.00035250721628332535,23,Muirfield Village GC
-19396,"Knapp, Jake",811,Paiute Golf Resort - Sun Mt GC,sg_total,0.26990101454471904,2021-04-18,-0.00017554849518842608,23,Muirfield Village GC
-19396,"Knapp, Jake",818,Chambers Bay GC,sg_total,0.06085264457099787,2015-06-21,-0.00038739626007999506,23,Muirfield Village GC
-19396,"Knapp, Jake",64,Royal Blue Golf Club,sg_total,0.1966951914493634,2020-01-22,-0.0006847807968870121,23,Muirfield Village GC
-19396,"Knapp, Jake",646,The CC at Wakefield Plantation,sg_total,0.2793192181856159,2021-06-06,-0.0011291765974435577,23,Muirfield Village GC
-19396,"Knapp, Jake",66,TPC San Antonio-AT&T Canyons,sg_total,0.22186193610781427,2020-07-12,-0.0014936239879430365,23,Muirfield Village GC
-19396,"Knapp, Jake",808,TPC Colorado,sg_total,0.5068700401187549,2021-07-11,-0.004755048488092488,23,Muirfield Village GC
 6169,"Kuchar, Matt",875,ACCORDIA GOLF Narashino Country Club,sg_app,0.6649123842593032,2024-10-27,0.007499007032736815,23,Muirfield Village GC
 6169,"Kuchar, Matt",926,Silverado Resort (North Course),sg_app,1.979090319849397,2025-09-14,0.006804584265075531,23,Muirfield Village GC
 6169,"Kuchar, Matt",528,Pinehurst Resort & Country Club (Course No. 2),sg_app,0.6058032594484248,2024-06-16,0.006296295990288625,23,Muirfield Village GC

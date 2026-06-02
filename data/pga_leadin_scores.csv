@@ -1,73 +1,73 @@
 rank,player_name,dg_id,lead_in_z,lead_in_raw,predictors_found,top_course,tournament,as_of_date
-1,"Smalley, Alex",18474,1.94,0.8307,7,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-2,"Young, Cameron",26651,1.802,0.7781,4,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-3,"Hojgaard, Nicolai",23602,1.794,0.7749,6,Memorial Park Golf Course,The Memorial,2026-06-02
-4,"Reitan, Kristoffer",21407,1.694,0.737,7,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-5,"Woodland, Gary",12577,1.334,0.5996,7,Memorial Park Golf Course,The Memorial,2026-06-02
-6,"Spaun, J.J.",17536,1.333,0.5991,5,TPC San Antonio - The Oaks Course,The Memorial,2026-06-02
-7,"Stevens, Sam",25569,1.326,0.5966,7,Memorial Park Golf Course,The Memorial,2026-06-02
-8,"Fitzpatrick, Alex",25362,1.302,0.5874,3,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-9,"Griffin, Ben",24968,1.158,0.5327,7,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-10,"Lee, Min Woo",16841,1.023,0.4811,6,Memorial Park Golf Course,The Memorial,2026-06-02
-11,"Scott, Adam",6430,1.014,0.4777,5,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-12,"McCarty, Matt",28635,0.885,0.4287,7,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-13,"Meissner, Mac",28159,0.876,0.425,5,PGA National  - Champion Course,The Memorial,2026-06-02
-14,"Kim, Michael",17543,0.864,0.4206,6,TPC San Antonio - The Oaks Course,The Memorial,2026-06-02
-15,"Taylor, Nick",13126,0.835,0.4096,6,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-16,"Lowry, Shane",13900,0.703,0.3591,6,TPC Louisiana,The Memorial,2026-06-02
-17,"Gotterup, Chris",27774,0.661,0.3433,5,Memorial Park Golf Course,The Memorial,2026-06-02
-18,"Knapp, Jake",19396,0.633,0.3325,3,Memorial Park Golf Course,The Memorial,2026-06-02
-19,"Kim, Si Woo",14609,0.505,0.2837,6,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-20,"Cauley, Bud",14502,0.47,0.2705,5,Pete Dye Stadium Course,The Memorial,2026-06-02
-21,"Berger, Daniel",17606,0.366,0.2307,6,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-22,"Day, Jason",9771,0.32,0.2134,6,Memorial Park Golf Course,The Memorial,2026-06-02
-23,"Poston, J.T.",21554,0.208,0.1705,6,Memorial Park Golf Course,The Memorial,2026-06-02
-24,"Horschel, Billy",11276,0.176,0.1585,6,Pete Dye Stadium Course,The Memorial,2026-06-02
-25,"Echavarria, Nico",22833,0.16,0.1522,7,PGA National  - Champion Course,The Memorial,2026-06-02
-26,"Theegala, Sahith",23014,0.152,0.1491,6,Memorial Park Golf Course,The Memorial,2026-06-02
-27,"Cantlay, Patrick",15466,0.139,0.1443,4,Augusta National Golf Club,The Memorial,2026-06-02
-28,"MacIntyre, Robert",23323,0.128,0.14,5,TPC San Antonio - The Oaks Course,The Memorial,2026-06-02
-29,"Hoge, Tom",15575,0.098,0.1287,7,TPC Louisiana,The Memorial,2026-06-02
-30,"Bhatia, Akshay",26096,0.088,0.1247,5,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-31,"Noren, Alex",10419,0.084,0.1233,6,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-32,"Thomas, Justin",14139,0.067,0.117,4,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-33,"McCarthy, Denny",19870,0.062,0.115,6,Memorial Park Golf Course,The Memorial,2026-06-02
-34,"Clark, Wyndham",23604,0.062,0.1148,5,Memorial Park Golf Course,The Memorial,2026-06-02
-35,"Campbell, Brian",18628,0.061,0.1145,6,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-36,"Vegas, Jhonattan",13508,0.035,0.1048,6,Memorial Park Golf Course,The Memorial,2026-06-02
-37,"Aberg, Ludvig",23950,0.026,0.1014,4,TPC San Antonio - The Oaks Course,The Memorial,2026-06-02
-38,"McIlroy, Rory",10091,-0.003,0.0902,2,Augusta National Golf Club,The Memorial,2026-06-02
-39,"McNealy, Maverick",18634,-0.017,0.0848,5,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-40,"Kitayama, Kurt",21891,-0.032,0.079,6,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-41,"Spieth, Jordan",14636,-0.062,0.0678,5,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-42,"Cole, Eric",21756,-0.084,0.0594,5,TPC San Antonio - The Oaks Course,The Memorial,2026-06-02
-43,"Snedeker, Brandt",8820,-0.104,0.0515,4,TPC Louisiana,The Memorial,2026-06-02
-44,"Novak, Andrew",23475,-0.121,0.0451,7,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-45,"Rai, Aaron",18554,-0.129,0.042,3,PGA National  - Champion Course,The Memorial,2026-06-02
-46,"Hall, Harry",27194,-0.143,0.037,6,Memorial Park Golf Course,The Memorial,2026-06-02
-47,"Schauffele, Xander",19895,-0.155,0.032,3,Harbour Town Golf Links,The Memorial,2026-06-02
-48,"Straka, Sepp",17511,-0.18,0.0228,6,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-49,"Conners, Corey",17576,-0.193,0.0178,4,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-50,"Coody, Pierceson",28309,-0.234,0.0023,5,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-51,"Fitzpatrick, Matt",17646,-0.255,-0.0058,5,Harbour Town Golf Links,The Memorial,2026-06-02
-52,"English, Harris",14577,-0.263,-0.0089,6,Memorial Park Golf Course,The Memorial,2026-06-02
-53,"Hisatsune, Ryo",22760,-0.278,-0.0145,5,TPC San Antonio - The Oaks Course,The Memorial,2026-06-02
-54,"Hubbard, Mark",16333,-0.348,-0.0412,5,TPC Louisiana,The Memorial,2026-06-02
-55,"Finau, Tony",11676,-0.406,-0.0635,6,Memorial Park Golf Course,The Memorial,2026-06-02
-56,"Burns, Sam",19483,-0.407,-0.0637,6,Memorial Park Golf Course,The Memorial,2026-06-02
-57,"Scheffler, Scottie",18417,-0.455,-0.0823,4,Pete Dye Stadium Course,The Memorial,2026-06-02
-58,"Gerard, Ryan",29767,-0.463,-0.0851,8,Pete Dye Stadium Course,The Memorial,2026-06-02
-59,"Harman, Brian",8825,-0.523,-0.1082,6,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-60,"Fleetwood, Tommy",12294,-0.596,-0.1357,5,TPC San Antonio - The Oaks Course,The Memorial,2026-06-02
-61,"Bradley, Keegan",13872,-0.653,-0.1574,4,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-62,"Kuchar, Matt",6169,-0.846,-0.2313,5,TPC Louisiana,The Memorial,2026-06-02
-63,"Im, Sungjae",17488,-1.01,-0.2937,5,Memorial Park Golf Course,The Memorial,2026-06-02
-64,"Matsuyama, Hideki",13562,-1.07,-0.3164,4,TPC San Antonio - The Oaks Course,The Memorial,2026-06-02
-65,"Bridgeman, Jacob",29433,-1.071,-0.317,5,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-66,"Fox, Ryan",11889,-1.107,-0.3308,5,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-67,"Rose, Justin",6093,-1.16,-0.3508,4,Augusta National Golf Club,The Memorial,2026-06-02
-68,"Henley, Russell",14578,-1.349,-0.4228,5,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-69,"Fowler, Rickie",12965,-1.547,-0.4983,6,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-70,"Glover, Lucas",7399,-2.52,-0.8692,5,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-71,"Pendrith, Taylor",17780,-2.62,-0.9072,6,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
-72,"Rodgers, Patrick",16283,-3.98,-1.4255,6,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+1,"Smalley, Alex",18474,2.521,0.954,10,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+2,"Young, Cameron",26651,1.646,0.6454,7,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+3,"Taylor, Nick",13126,1.413,0.5632,8,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+4,"Kim, Si Woo",14609,1.192,0.4854,8,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+5,"Knapp, Jake",19396,1.188,0.4841,5,Memorial Park Golf Course,The Memorial,2026-06-02
+6,"Woodland, Gary",12577,1.173,0.4786,9,Memorial Park Golf Course,The Memorial,2026-06-02
+7,"Scott, Adam",6430,1.171,0.4779,6,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+8,"Spaun, J.J.",17536,1.058,0.438,6,TPC San Antonio - The Oaks Course,The Memorial,2026-06-02
+9,"Griffin, Ben",24968,1.052,0.4361,8,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+10,"Kim, Michael",17543,1.029,0.4278,7,TPC San Antonio - The Oaks Course,The Memorial,2026-06-02
+11,"Hojgaard, Nicolai",23602,0.99,0.4143,3,Memorial Park Golf Course,The Memorial,2026-06-02
+12,"Theegala, Sahith",23014,0.961,0.404,9,Pete Dye Stadium Course,The Memorial,2026-06-02
+13,"Day, Jason",9771,0.942,0.3972,8,La Quinta Country Club,The Memorial,2026-06-02
+14,"Hoge, Tom",15575,0.906,0.3847,9,Pete Dye Stadium Course,The Memorial,2026-06-02
+15,"Meissner, Mac",28159,0.834,0.3593,7,PGA National  - Champion Course,The Memorial,2026-06-02
+16,"Cauley, Bud",14502,0.733,0.3237,6,TPC San Antonio - The Oaks Course,The Memorial,2026-06-02
+17,"Stevens, Sam",25569,0.727,0.3215,2,Memorial Park Golf Course,The Memorial,2026-06-02
+18,"Lowry, Shane",13900,0.707,0.3144,6,PGA National  - Champion Course,The Memorial,2026-06-02
+19,"Fitzpatrick, Alex",25362,0.676,0.3033,1,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+20,"Lee, Min Woo",16841,0.603,0.2778,2,Memorial Park Golf Course,The Memorial,2026-06-02
+21,"Reitan, Kristoffer",21407,0.535,0.2539,4,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+22,"Coody, Pierceson",28309,0.508,0.2444,7,La Quinta Country Club,The Memorial,2026-06-02
+23,"Poston, J.T.",21554,0.403,0.2071,7,Memorial Park Golf Course,The Memorial,2026-06-02
+24,"McCarty, Matt",28635,0.389,0.2022,2,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+25,"Berger, Daniel",17606,0.332,0.1821,7,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+26,"Hisatsune, Ryo",22760,0.319,0.1777,3,TPC San Antonio - The Oaks Course,The Memorial,2026-06-02
+27,"Cole, Eric",21756,0.275,0.1622,3,TPC San Antonio - The Oaks Course,The Memorial,2026-06-02
+28,"Gotterup, Chris",27774,0.238,0.1492,2,Memorial Park Golf Course,The Memorial,2026-06-02
+29,"Thomas, Justin",14139,0.21,0.1391,4,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+30,"Horschel, Billy",11276,0.203,0.1369,9,Pete Dye Stadium Course,The Memorial,2026-06-02
+31,"Cantlay, Patrick",15466,0.186,0.131,6,Augusta National Golf Club,The Memorial,2026-06-02
+32,"McNealy, Maverick",18634,0.16,0.1217,7,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+33,"McIlroy, Rory",10091,0.158,0.1211,2,Augusta National Golf Club,The Memorial,2026-06-02
+34,"Snedeker, Brandt",8820,0.154,0.1196,5,TPC Louisiana,The Memorial,2026-06-02
+35,"MacIntyre, Robert",23323,0.147,0.1171,2,TPC San Antonio - The Oaks Course,The Memorial,2026-06-02
+36,"Hall, Harry",27194,0.075,0.0915,3,La Quinta Country Club,The Memorial,2026-06-02
+37,"Echavarria, Nico",22833,0.052,0.0835,3,PGA National  - Champion Course,The Memorial,2026-06-02
+38,"Schauffele, Xander",19895,0.048,0.0821,6,Harbour Town Golf Links,The Memorial,2026-06-02
+39,"Finau, Tony",11676,0.044,0.0807,9,Spyglass Hill Golf Course,The Memorial,2026-06-02
+40,"Novak, Andrew",23475,0.041,0.0796,10,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+41,"Gerard, Ryan",29767,0.021,0.0727,10,Torrey Pines Golf Course (South Course),The Memorial,2026-06-02
+42,"Aberg, Ludvig",23950,-0.026,0.056,2,TPC San Antonio - The Oaks Course,The Memorial,2026-06-02
+43,"English, Harris",14577,-0.057,0.0453,8,Nicklaus Tournament Course,The Memorial,2026-06-02
+44,"Fitzpatrick, Matt",17646,-0.065,0.0422,6,TPC Scottsdale (Stadium Course),The Memorial,2026-06-02
+45,"Spieth, Jordan",14636,-0.094,0.0322,6,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+46,"Campbell, Brian",18628,-0.136,0.0171,7,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+47,"Rai, Aaron",18554,-0.167,0.0062,1,PGA National  - Champion Course,The Memorial,2026-06-02
+48,"Conners, Corey",17576,-0.192,-0.0025,5,Augusta National Golf Club,The Memorial,2026-06-02
+49,"Rose, Justin",6093,-0.287,-0.0361,6,Torrey Pines Golf Course (North Course),The Memorial,2026-06-02
+50,"Scheffler, Scottie",18417,-0.311,-0.0445,6,La Quinta Country Club,The Memorial,2026-06-02
+51,"McCarthy, Denny",19870,-0.386,-0.0709,8,Memorial Park Golf Course,The Memorial,2026-06-02
+52,"Noren, Alex",10419,-0.411,-0.0796,8,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+53,"Clark, Wyndham",23604,-0.419,-0.0826,8,Memorial Park Golf Course,The Memorial,2026-06-02
+54,"Kitayama, Kurt",21891,-0.47,-0.1005,7,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+55,"Burns, Sam",19483,-0.579,-0.1389,7,Memorial Park Golf Course,The Memorial,2026-06-02
+56,"Bridgeman, Jacob",29433,-0.58,-0.1394,6,La Quinta Country Club,The Memorial,2026-06-02
+57,"Fox, Ryan",11889,-0.635,-0.1586,7,Spyglass Hill Golf Course,The Memorial,2026-06-02
+58,"Fleetwood, Tommy",12294,-0.665,-0.169,5,TPC San Antonio - The Oaks Course,The Memorial,2026-06-02
+59,"Bradley, Keegan",13872,-0.769,-0.2059,5,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+60,"Straka, Sepp",17511,-0.875,-0.2432,3,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+61,"Harman, Brian",8825,-0.876,-0.2435,7,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+62,"Im, Sungjae",17488,-0.955,-0.2715,2,Memorial Park Golf Course,The Memorial,2026-06-02
+63,"Matsuyama, Hideki",13562,-0.962,-0.2739,7,TPC San Antonio - The Oaks Course,The Memorial,2026-06-02
+64,"Vegas, Jhonattan",13508,-0.98,-0.2801,8,Memorial Park Golf Course,The Memorial,2026-06-02
+65,"Hubbard, Mark",16333,-1.075,-0.3138,7,PGA National  - Champion Course,The Memorial,2026-06-02
+66,"Fowler, Rickie",12965,-1.16,-0.3435,7,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+67,"Kuchar, Matt",6169,-1.215,-0.3632,6,TPC Louisiana,The Memorial,2026-06-02
+68,"Henley, Russell",14578,-1.238,-0.3713,6,Pete Dye Stadium Course,The Memorial,2026-06-02
+69,"Bhatia, Akshay",26096,-1.369,-0.4175,7,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+70,"Glover, Lucas",7399,-2.549,-0.8332,5,Trump National Doral - Blue Monster Course,The Memorial,2026-06-02
+71,"Pendrith, Taylor",17780,-2.811,-0.9258,7,Torrey Pines Golf Course (South Course),The Memorial,2026-06-02
+72,"Rodgers, Patrick",16283,-3.705,-1.2407,9,La Quinta Country Club,The Memorial,2026-06-02

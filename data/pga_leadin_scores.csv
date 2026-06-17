@@ -1,98 +1,99 @@
 rank,player_name,dg_id,lead_in_z,lead_in_raw,predictors_found,top_course,tournament,as_of_date
-1,"Hisatsune, Ryo",22760,2.742,2.1825,4,Torrey Pines Golf Course (North Course),U.S. Open,2026-06-17
-2,"Bridgeman, Jacob",29433,2.367,1.8943,5,Pebble Beach Golf Links,U.S. Open,2026-06-17
-3,"Coody, Pierceson",28309,2.276,1.8246,5,La Quinta Country Club,U.S. Open,2026-06-17
-4,"Knapp, Jake",19396,2.126,1.7092,5,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-5,"Fitzpatrick, Matt",17646,1.764,1.4306,4,Pebble Beach Golf Links,U.S. Open,2026-06-17
-6,"Day, Jason",9771,1.469,1.2032,5,La Quinta Country Club,U.S. Open,2026-06-17
-7,"Morikawa, Collin",22085,1.35,1.1117,4,Pebble Beach Golf Links,U.S. Open,2026-06-17
-8,"Rodgers, Patrick",16283,1.344,1.1071,5,La Quinta Country Club,U.S. Open,2026-06-17
-9,"Rose, Justin",6093,1.334,1.0996,4,Torrey Pines Golf Course (North Course),U.S. Open,2026-06-17
-10,"Lee, Min Woo",16841,1.262,1.0439,4,Pebble Beach Golf Links,U.S. Open,2026-06-17
-11,"Fowler, Rickie",12965,1.233,1.0222,4,La Quinta Country Club,U.S. Open,2026-06-17
-12,"Stevens, Sam",25569,1.13,0.9429,5,Pebble Beach Golf Links,U.S. Open,2026-06-17
-13,"Fox, Ryan",11889,1.099,0.9192,4,Spyglass Hill Golf Course,U.S. Open,2026-06-17
-14,"McIlroy, Rory",10091,1.078,0.9028,3,Pebble Beach Golf Links,U.S. Open,2026-06-17
-15,"McNealy, Maverick",18634,1.033,0.8681,5,Pebble Beach Golf Links,U.S. Open,2026-06-17
-16,"Matsuyama, Hideki",13562,1.012,0.8516,5,Spyglass Hill Golf Course,U.S. Open,2026-06-17
-17,"Gotterup, Chris",27774,0.896,0.7626,5,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-18,"McGreevy, Max",23505,0.862,0.7363,5,La Quinta Country Club,U.S. Open,2026-06-17
-19,"Kitayama, Kurt",21891,0.735,0.639,4,The Riviera Country Club,U.S. Open,2026-06-17
-20,"Smalley, Alex",18474,0.729,0.6343,3,Spyglass Hill Golf Course,U.S. Open,2026-06-17
-21,"English, Harris",14577,0.66,0.5812,5,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
-22,"Kim, Si Woo",14609,0.651,0.5742,5,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-23,"Lowry, Shane",13900,0.519,0.4729,3,Pebble Beach Golf Links,U.S. Open,2026-06-17
-24,"Gerard, Ryan",29767,0.492,0.4519,4,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
-25,"Scott, Adam",6430,0.463,0.4297,3,The Riviera Country Club,U.S. Open,2026-06-17
-26,"Echavarria, Nico",22833,0.444,0.4152,4,Pebble Beach Golf Links,U.S. Open,2026-06-17
-27,"Hojgaard, Nicolai",23602,0.431,0.4046,3,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-28,"Taylor, Nick",13126,0.413,0.3913,5,La Quinta Country Club,U.S. Open,2026-06-17
-29,"Roy, Kevin",18424,0.379,0.3646,2,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-30,"Cauley, Bud",14502,0.349,0.342,4,La Quinta Country Club,U.S. Open,2026-06-17
-31,"Brennan, Michael",29197,0.344,0.3379,3,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-32,"Saddier, Adrien",14792,0.326,0.3242,2,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
-33,"Reitan, Kristoffer",21407,0.311,0.3128,3,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
-34,"Theegala, Sahith",23014,0.295,0.3004,4,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-35,"Parry, John",13764,0.258,0.2719,2,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-36,"Noren, Alex",10419,0.257,0.2711,4,Spyglass Hill Golf Course,U.S. Open,2026-06-17
-37,"Fleetwood, Tommy",12294,0.255,0.2697,3,Pebble Beach Golf Links,U.S. Open,2026-06-17
-38,"Cantlay, Patrick",15466,0.232,0.2516,4,Spyglass Hill Golf Course,U.S. Open,2026-06-17
-39,"Mitchell, Keith",17365,0.227,0.2482,3,Torrey Pines Golf Course (North Course),U.S. Open,2026-06-17
-40,"Hatton, Tyrrell",14796,0.161,0.1968,1,Augusta National Golf Club,U.S. Open,2026-06-17
-41,"Straka, Sepp",17511,0.137,0.1788,4,Pebble Beach Golf Links,U.S. Open,2026-06-17
-42,"Young, Cameron",26651,0.135,0.1773,5,Augusta National Golf Club,U.S. Open,2026-06-17
-43,"Kim, Tom",24766,0.099,0.1497,3,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-44,"Burns, Sam",19483,0.077,0.1323,4,Pebble Beach Golf Links,U.S. Open,2026-06-17
-45,"Schauffele, Xander",19895,0.051,0.1128,5,Spyglass Hill Golf Course,U.S. Open,2026-06-17
-46,"Spieth, Jordan",14636,0.043,0.1066,4,Pebble Beach Golf Links,U.S. Open,2026-06-17
-47,"Reed, Patrick",14838,0.04,0.1044,1,Augusta National Golf Club,U.S. Open,2026-06-17
-48,"Wu, Dylan",25002,0.006,0.0781,1,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
-49,"Johnson, Dustin",12422,-0.002,0.0715,1,Augusta National Golf Club,U.S. Open,2026-06-17
-50,"Kirk, Chris",12423,-0.006,0.0687,3,Pebble Beach Golf Links,U.S. Open,2026-06-17
-51,"Koepka, Brooks",16243,-0.045,0.0385,3,Augusta National Golf Club,U.S. Open,2026-06-17
-52,"Suber, Jackson",29279,-0.045,0.0385,1,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
-53,"Henley, Russell",14578,-0.092,0.0025,3,Augusta National Golf Club,U.S. Open,2026-06-17
-54,"Im, Sungjae",17488,-0.121,-0.02,1,Augusta National Golf Club,U.S. Open,2026-06-17
-55,"Poston, J.T.",21554,-0.129,-0.0261,4,La Quinta Country Club,U.S. Open,2026-06-17
-56,"Woodland, Gary",12577,-0.137,-0.0322,3,Torrey Pines Golf Course (North Course),U.S. Open,2026-06-17
-57,"Thompson, Davis",27364,-0.146,-0.0388,2,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
-58,"Thomas, Justin",14139,-0.154,-0.0449,1,Augusta National Golf Club,U.S. Open,2026-06-17
-59,"Fang, Ethan",34025,-0.188,-0.0712,1,Augusta National Golf Club,U.S. Open,2026-06-17
-60,"Herrington, Jackson",35015,-0.232,-0.105,1,Augusta National Golf Club,U.S. Open,2026-06-17
-61,"Howell, Mason",33759,-0.243,-0.1134,1,Augusta National Golf Club,U.S. Open,2026-06-17
-62,"Rahm, Jon",19195,-0.247,-0.1165,1,Augusta National Golf Club,U.S. Open,2026-06-17
-63,"Keefer, Johnny",32457,-0.255,-0.1229,3,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-64,"Smith, Cameron",15856,-0.256,-0.1239,1,Augusta National Golf Club,U.S. Open,2026-06-17
-65,"Yellamaraju, Sudarshan",29925,-0.281,-0.1432,2,Torrey Pines Golf Course (North Course),U.S. Open,2026-06-17
-66,"Griffin, Ben",24968,-0.309,-0.1648,4,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-67,"Berger, Daniel",17606,-0.313,-0.1679,5,La Quinta Country Club,U.S. Open,2026-06-17
-68,"DeChambeau, Bryson",19841,-0.367,-0.2091,1,Augusta National Golf Club,U.S. Open,2026-06-17
-69,"Hovland, Viktor",18841,-0.392,-0.2279,4,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-70,"Rozo, Marcelo",16591,-0.398,-0.2325,2,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-71,"Harman, Brian",8825,-0.454,-0.2757,4,Pebble Beach Golf Links,U.S. Open,2026-06-17
-72,"Ortiz, Carlos",14735,-0.509,-0.3184,1,Augusta National Golf Club,U.S. Open,2026-06-17
-73,"Scheffler, Scottie",18417,-0.557,-0.3555,5,La Quinta Country Club,U.S. Open,2026-06-17
-74,"Horschel, Billy",11276,-0.591,-0.3812,3,Spyglass Hill Golf Course,U.S. Open,2026-06-17
-75,"Pulcini, Mateo",35013,-0.593,-0.3829,1,Augusta National Golf Club,U.S. Open,2026-06-17
-76,"Holtz, Brandon",35014,-0.593,-0.3829,1,Augusta National Golf Club,U.S. Open,2026-06-17
-77,"Phillips, Chandler",27164,-0.634,-0.4148,2,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
-78,"Greyserman, Max",23465,-0.636,-0.4158,5,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-79,"McCarty, Matt",28635,-0.762,-0.5129,5,Augusta National Golf Club,U.S. Open,2026-06-17
-80,"Bradley, Keegan",13872,-0.842,-0.5744,4,Pebble Beach Golf Links,U.S. Open,2026-06-17
-81,"Tosti, Alejandro",17032,-0.85,-0.5808,2,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
-82,"Rai, Aaron",18554,-0.89,-0.6113,3,The Riviera Country Club,U.S. Open,2026-06-17
-83,"Putnam, Andrew",14704,-0.905,-0.6229,1,Torrey Pines Golf Course (North Course),U.S. Open,2026-06-17
-84,"Bhatia, Akshay",26096,-0.913,-0.6288,6,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-85,"Spaun, J.J.",17536,-1.011,-0.7043,4,Pebble Beach Golf Links,U.S. Open,2026-06-17
-86,"Dumont De Chassart, Adrien",22002,-1.153,-0.8138,3,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-87,"Clark, Wyndham",23604,-1.237,-0.8781,5,Augusta National Golf Club,U.S. Open,2026-06-17
-88,"Kim, Michael",17543,-1.251,-0.8891,4,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-89,"Shipley, Neal",32055,-1.266,-0.9005,2,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
-90,"Hall, Harry",27194,-1.537,-1.109,5,Pebble Beach Golf Links,U.S. Open,2026-06-17
-91,"MacIntyre, Robert",23323,-1.545,-1.1154,4,Pebble Beach Golf Links,U.S. Open,2026-06-17
-92,"Novak, Andrew",23475,-1.68,-1.2193,6,La Quinta Country Club,U.S. Open,2026-06-17
-93,"Conners, Corey",17576,-1.975,-1.4463,4,The Riviera Country Club,U.S. Open,2026-06-17
-94,"Mouw, William",29770,-2.081,-1.528,3,La Quinta Country Club,U.S. Open,2026-06-17
-95,"Grillo, Emiliano",12808,-2.252,-1.6592,4,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
-96,"Schmid, Matti",20722,-2.397,-1.7706,5,La Quinta Country Club,U.S. Open,2026-06-17
-97,"Aberg, Ludvig",23950,-2.43,-1.7961,5,The Riviera Country Club,U.S. Open,2026-06-17
+1,"Hisatsune, Ryo",22760,2.609,2.0893,5,Torrey Pines Golf Course (North Course),U.S. Open,2026-06-17
+2,"Bridgeman, Jacob",29433,2.383,1.9137,6,Pebble Beach Golf Links,U.S. Open,2026-06-17
+3,"Coody, Pierceson",28309,2.148,1.7311,6,La Quinta Country Club,U.S. Open,2026-06-17
+4,"Knapp, Jake",19396,2.12,1.7092,5,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+5,"Fitzpatrick, Matt",17646,1.793,1.4545,5,Pebble Beach Golf Links,U.S. Open,2026-06-17
+6,"Rose, Justin",6093,1.429,1.1715,5,Torrey Pines Golf Course (North Course),U.S. Open,2026-06-17
+7,"Morikawa, Collin",22085,1.352,1.1117,4,Pebble Beach Golf Links,U.S. Open,2026-06-17
+8,"Day, Jason",9771,1.328,1.0924,6,La Quinta Country Club,U.S. Open,2026-06-17
+9,"Rodgers, Patrick",16283,1.322,1.088,6,La Quinta Country Club,U.S. Open,2026-06-17
+10,"Lee, Min Woo",16841,1.262,1.0412,5,Pebble Beach Golf Links,U.S. Open,2026-06-17
+11,"McIlroy, Rory",10091,1.172,0.9713,4,Pebble Beach Golf Links,U.S. Open,2026-06-17
+12,"Fox, Ryan",11889,1.113,0.9256,5,Spyglass Hill Golf Course,U.S. Open,2026-06-17
+13,"McNealy, Maverick",18634,1.079,0.8987,6,Pebble Beach Golf Links,U.S. Open,2026-06-17
+14,"Stevens, Sam",25569,1.065,0.888,6,Pebble Beach Golf Links,U.S. Open,2026-06-17
+15,"Gotterup, Chris",27774,0.985,0.8258,6,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+16,"Fowler, Rickie",12965,0.971,0.8148,5,La Quinta Country Club,U.S. Open,2026-06-17
+17,"McGreevy, Max",23505,0.87,0.7362,5,La Quinta Country Club,U.S. Open,2026-06-17
+18,"Matsuyama, Hideki",13562,0.866,0.7334,6,Spyglass Hill Golf Course,U.S. Open,2026-06-17
+19,"Kim, Si Woo",14609,0.728,0.6259,6,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+20,"Smalley, Alex",18474,0.706,0.6085,4,Spyglass Hill Golf Course,U.S. Open,2026-06-17
+21,"Kitayama, Kurt",21891,0.689,0.5958,5,The Riviera Country Club,U.S. Open,2026-06-17
+22,"English, Harris",14577,0.637,0.555,6,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
+23,"Gerard, Ryan",29767,0.63,0.55,5,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
+24,"Lowry, Shane",13900,0.621,0.5424,4,Pebble Beach Golf Links,U.S. Open,2026-06-17
+25,"Reitan, Kristoffer",21407,0.558,0.4935,4,Muirfield Village Golf Club,U.S. Open,2026-06-17
+26,"Scott, Adam",6430,0.507,0.4538,4,The Riviera Country Club,U.S. Open,2026-06-17
+27,"Hojgaard, Nicolai",23602,0.485,0.4367,4,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+28,"Echavarria, Nico",22833,0.404,0.3739,5,Pebble Beach Golf Links,U.S. Open,2026-06-17
+29,"Roy, Kevin",18424,0.392,0.3646,2,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+30,"Cauley, Bud",14502,0.382,0.357,5,La Quinta Country Club,U.S. Open,2026-06-17
+31,"Brennan, Michael",29197,0.358,0.3379,3,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+32,"Saddier, Adrien",14792,0.34,0.3242,2,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
+33,"Cantlay, Patrick",15466,0.336,0.3209,5,Spyglass Hill Golf Course,U.S. Open,2026-06-17
+34,"Taylor, Nick",13126,0.33,0.316,6,La Quinta Country Club,U.S. Open,2026-06-17
+35,"Noren, Alex",10419,0.319,0.308,5,Spyglass Hill Golf Course,U.S. Open,2026-06-17
+36,"Theegala, Sahith",23014,0.307,0.2985,5,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+37,"Parry, John",13764,0.273,0.2719,2,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+38,"Burns, Sam",19483,0.261,0.2623,5,Pebble Beach Golf Links,U.S. Open,2026-06-17
+39,"Fleetwood, Tommy",12294,0.247,0.2517,4,Pebble Beach Golf Links,U.S. Open,2026-06-17
+40,"Mitchell, Keith",17365,0.243,0.2482,3,Torrey Pines Golf Course (North Course),U.S. Open,2026-06-17
+41,"Young, Cameron",26651,0.195,0.2115,6,Augusta National Golf Club,U.S. Open,2026-06-17
+42,"Hatton, Tyrrell",14796,0.177,0.1968,1,Augusta National Golf Club,U.S. Open,2026-06-17
+43,"Straka, Sepp",17511,0.131,0.1616,5,Pebble Beach Golf Links,U.S. Open,2026-06-17
+44,"Kim, Tom",24766,0.116,0.1497,3,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+45,"Poston, J.T.",21554,0.103,0.14,5,La Quinta Country Club,U.S. Open,2026-06-17
+46,"Fitzpatrick, Alex",25362,0.078,0.12,1,Muirfield Village Golf Club,U.S. Open,2026-06-17
+47,"Reed, Patrick",14838,0.058,0.1044,1,Augusta National Golf Club,U.S. Open,2026-06-17
+48,"Schauffele, Xander",19895,0.047,0.0961,6,Spyglass Hill Golf Course,U.S. Open,2026-06-17
+49,"Wu, Dylan",25002,0.024,0.0781,1,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
+50,"Johnson, Dustin",12422,0.016,0.0715,1,Augusta National Golf Club,U.S. Open,2026-06-17
+51,"Kirk, Chris",12423,0.012,0.0686,3,Pebble Beach Golf Links,U.S. Open,2026-06-17
+52,"Suber, Jackson",29279,-0.027,0.0385,1,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
+53,"Koepka, Brooks",16243,-0.027,0.0385,3,Augusta National Golf Club,U.S. Open,2026-06-17
+54,"Im, Sungjae",17488,-0.082,-0.0046,2,Muirfield Village Golf Club,U.S. Open,2026-06-17
+55,"Henley, Russell",14578,-0.088,-0.0093,4,Augusta National Golf Club,U.S. Open,2026-06-17
+56,"Thompson, Davis",27364,-0.126,-0.0388,2,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
+57,"Spieth, Jordan",14636,-0.131,-0.0423,5,Pebble Beach Golf Links,U.S. Open,2026-06-17
+58,"Fang, Ethan",34025,-0.168,-0.0712,1,Augusta National Golf Club,U.S. Open,2026-06-17
+59,"Thomas, Justin",14139,-0.186,-0.0851,2,Muirfield Village Golf Club,U.S. Open,2026-06-17
+60,"Herrington, Jackson",35015,-0.211,-0.1051,1,Augusta National Golf Club,U.S. Open,2026-06-17
+61,"Howell, Mason",33759,-0.222,-0.1134,1,Augusta National Golf Club,U.S. Open,2026-06-17
+62,"Rahm, Jon",19195,-0.226,-0.1165,1,Augusta National Golf Club,U.S. Open,2026-06-17
+63,"Keefer, Johnny",32457,-0.234,-0.1229,3,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+64,"Smith, Cameron",15856,-0.236,-0.1239,1,Augusta National Golf Club,U.S. Open,2026-06-17
+65,"Woodland, Gary",12577,-0.26,-0.1432,4,Torrey Pines Golf Course (North Course),U.S. Open,2026-06-17
+66,"Griffin, Ben",24968,-0.267,-0.1485,5,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+67,"Berger, Daniel",17606,-0.281,-0.1591,6,La Quinta Country Club,U.S. Open,2026-06-17
+68,"DeChambeau, Bryson",19841,-0.345,-0.2091,1,Augusta National Golf Club,U.S. Open,2026-06-17
+69,"Yellamaraju, Sudarshan",29925,-0.349,-0.2119,3,Torrey Pines Golf Course (North Course),U.S. Open,2026-06-17
+70,"Hovland, Viktor",18841,-0.369,-0.2279,4,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+71,"Rozo, Marcelo",16591,-0.375,-0.2325,2,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+72,"Ortiz, Carlos",14735,-0.486,-0.3184,1,Augusta National Golf Club,U.S. Open,2026-06-17
+73,"Harman, Brian",8825,-0.524,-0.3486,5,Pebble Beach Golf Links,U.S. Open,2026-06-17
+74,"Holtz, Brandon",35014,-0.569,-0.383,1,Augusta National Golf Club,U.S. Open,2026-06-17
+75,"Pulcini, Mateo",35013,-0.569,-0.383,1,Augusta National Golf Club,U.S. Open,2026-06-17
+76,"Scheffler, Scottie",18417,-0.591,-0.4004,6,La Quinta Country Club,U.S. Open,2026-06-17
+77,"Phillips, Chandler",27164,-0.61,-0.4148,2,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
+78,"Greyserman, Max",23465,-0.611,-0.4158,5,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+79,"Bradley, Keegan",13872,-0.784,-0.5505,5,Pebble Beach Golf Links,U.S. Open,2026-06-17
+80,"Rai, Aaron",18554,-0.786,-0.5521,4,Muirfield Village Golf Club,U.S. Open,2026-06-17
+81,"Tosti, Alejandro",17032,-0.823,-0.5808,2,Torrey Pines Golf Course (South Course),U.S. Open,2026-06-17
+82,"Spaun, J.J.",17536,-0.865,-0.6135,5,Pebble Beach Golf Links,U.S. Open,2026-06-17
+83,"Putnam, Andrew",14704,-0.877,-0.6229,1,Torrey Pines Golf Course (North Course),U.S. Open,2026-06-17
+84,"McCarty, Matt",28635,-0.96,-0.6878,6,Augusta National Golf Club,U.S. Open,2026-06-17
+85,"Clark, Wyndham",23604,-0.968,-0.6934,6,Muirfield Village Golf Club,U.S. Open,2026-06-17
+86,"Bhatia, Akshay",26096,-1.0,-0.7183,7,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+87,"Dumont De Chassart, Adrien",22002,-1.122,-0.8136,3,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+88,"Shipley, Neal",32055,-1.234,-0.9005,2,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+89,"Kim, Michael",17543,-1.237,-0.9033,5,TPC Scottsdale (Stadium Course),U.S. Open,2026-06-17
+90,"Hall, Harry",27194,-1.434,-1.0566,6,Pebble Beach Golf Links,U.S. Open,2026-06-17
+91,"MacIntyre, Robert",23323,-1.582,-1.1714,5,Pebble Beach Golf Links,U.S. Open,2026-06-17
+92,"Novak, Andrew",23475,-1.71,-1.2713,7,La Quinta Country Club,U.S. Open,2026-06-17
+93,"Horschel, Billy",11276,-1.914,-1.43,4,Spyglass Hill Golf Course,U.S. Open,2026-06-17
+94,"Mouw, William",29770,-2.04,-1.5278,3,La Quinta Country Club,U.S. Open,2026-06-17
+95,"Conners, Corey",17576,-2.077,-1.5566,5,The Riviera Country Club,U.S. Open,2026-06-17
+96,"Grillo, Emiliano",12808,-2.257,-1.6971,4,Torrey Pines Golf Course (North Course),U.S. Open,2026-06-17
+97,"Schmid, Matti",20722,-2.351,-1.7703,5,La Quinta Country Club,U.S. Open,2026-06-17
+98,"Aberg, Ludvig",23950,-2.385,-1.7968,6,The Riviera Country Club,U.S. Open,2026-06-17

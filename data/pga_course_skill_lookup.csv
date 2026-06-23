@@ -4538,6 +4538,113 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 28159,"Meissner, Mac",680,Carolina Country Club,sg_total,0.35686418634166883,2022-06-12,-0.000532959356540312,503,TPC River Highlands
 28159,"Meissner, Mac",85,Jimmie Austin OU Golf Club,sg_total,0.4649618126966913,2023-06-25,-0.005302456641227398,503,TPC River Highlands
 28159,"Meissner, Mac",777,Victoria National Golf Club,sg_total,0.8789007599694165,2023-10-08,-0.007337890820363929,503,TPC River Highlands
+17365,"Mitchell, Keith",669,TPC Deere Run,sg_app,2.2703591415764155,2025-07-06,0.020190565321172096,503,TPC River Highlands
+17365,"Mitchell, Keith",770,TPC San Antonio - The Oaks Course,sg_app,2.635196281506838,2026-04-05,0.019295941081682064,503,TPC River Highlands
+17365,"Mitchell, Keith",901,Wilmington Country Club,sg_app,0.37478603094630225,2022-08-21,0.015482247036909076,503,TPC River Highlands
+17365,"Mitchell, Keith",700,TPC Boston,sg_app,0.36116104969952356,2020-08-23,0.014001805958534204,503,TPC River Highlands
+17365,"Mitchell, Keith",928,PGA National  - Champion Course,sg_app,2.1935852478454674,2026-03-01,0.0135123328759925,503,TPC River Highlands
+17365,"Mitchell, Keith",714,TPC Louisiana,sg_app,2.1493495270357847,2026-04-26,0.010262795078114844,503,TPC River Highlands
+17365,"Mitchell, Keith",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,0.7515631811022883,2025-05-11,0.008751598245997088,503,TPC River Highlands
+17365,"Mitchell, Keith",880,Bethpage Black,sg_app,0.16293564045191763,2019-05-19,0.0063305984938326326,503,TPC River Highlands
+17365,"Mitchell, Keith",729,Golf Club of Houston,sg_app,0.12202857992543144,2018-04-01,0.004751352373287751,503,TPC River Highlands
+17365,"Mitchell, Keith",611,Southern Hills Country Club,sg_app,0.35165665195452955,2022-05-22,0.0029791998745142606,503,TPC River Highlands
+17365,"Mitchell, Keith",243,Trinity Forest Golf Club,sg_app,0.2884259793857305,2019-05-12,0.0025692382013373215,503,TPC River Highlands
+17365,"Mitchell, Keith",348,Medinah Country Club (No. 3),sg_app,0.17365234425471363,2019-08-18,0.0021403474338316563,503,TPC River Highlands
+17365,"Mitchell, Keith",944,TPC Craig Ranch,sg_app,0.9792189645694596,2026-05-24,0.002120966502756248,503,TPC River Highlands
+17365,"Mitchell, Keith",500,The Riviera Country Club,sg_app,0.5785889895433318,2023-02-19,0.0016906382235924724,503,TPC River Highlands
+17365,"Mitchell, Keith",618,Shinnecock Hills Golf Club,sg_app,0.9986009795428267,2026-06-21,4.07425851208684e-05,503,TPC River Highlands
+17365,"Mitchell, Keith",656,Plantation Course at Kapalua,sg_app,0.1915320732598003,2020-01-05,-0.003322164462244526,503,TPC River Highlands
+17365,"Mitchell, Keith",666,Pebble Beach Golf Links,sg_app,0.166160681160073,2019-06-16,-0.004213643067913514,503,TPC River Highlands
+17365,"Mitchell, Keith",231,Sea Island GC (Plantation),sg_app,0.1434455153288843,2018-11-18,-0.005196462559173042,503,TPC River Highlands
+17365,"Mitchell, Keith",233,Nicklaus Tournament Course,sg_app,0.9009549703830616,2026-01-25,-0.008145844356449508,503,TPC River Highlands
+17365,"Mitchell, Keith",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_app,3.7242939755571958,2026-03-15,-0.012034481309729408,503,TPC River Highlands
+17365,"Mitchell, Keith",514,Oak Hill Country Club,sg_app,0.45370866226474477,2023-05-21,-0.0125711347262842,503,TPC River Highlands
+17365,"Mitchell, Keith",6,Waialae Country Club,sg_app,3.568205406741213,2026-01-18,-0.015269397641393997,503,TPC River Highlands
+17365,"Mitchell, Keith",14,Augusta National Golf Club,sg_app,0.4405638038237576,2023-04-09,-0.017277419423368936,503,TPC River Highlands
+17365,"Mitchell, Keith",12,Harbour Town Golf Links,sg_app,0.9411655448714664,2023-04-16,-0.021428991667836857,503,TPC River Highlands
+17365,"Mitchell, Keith",893,Muirfield Village Golf Club,sg_app,0.21862441969205215,2020-07-12,-0.022186564260697705,503,TPC River Highlands
+17365,"Mitchell, Keith",503,TPC River Highlands,sg_app,0.9856092406587238,2022-06-26,-0.023354478693265044,503,TPC River Highlands
+17365,"Mitchell, Keith",8,Trump National Doral - Blue Monster Course,sg_app,0.9649297289843224,2026-05-03,-0.026647945812057188,503,TPC River Highlands
+17365,"Mitchell, Keith",930,Black Desert Resort,sg_app,0.6488199678934561,2024-10-13,-0.043478504233644605,503,TPC River Highlands
+17365,"Mitchell, Keith",500,The Riviera Country Club,sg_arg,0.5785889895433318,2023-02-19,0.01340157909692624,503,TPC River Highlands
+17365,"Mitchell, Keith",379,The Philadelphia Cricket Club (Wissahickon Course),sg_arg,0.7515631811022883,2025-05-11,0.009780179880692519,503,TPC River Highlands
+17365,"Mitchell, Keith",538,TPC Summerlin,sg_arg,1.8633058247257557,2024-10-20,0.009300402340241072,503,TPC River Highlands
+17365,"Mitchell, Keith",503,TPC River Highlands,sg_arg,0.9856092406587238,2022-06-26,0.006676418730754956,503,TPC River Highlands
+17365,"Mitchell, Keith",926,Silverado Resort (North Course),sg_arg,1.4570891343632022,2025-09-14,0.005554056304982282,503,TPC River Highlands
+17365,"Mitchell, Keith",886,Liberty National Golf Club,sg_arg,0.463289499033725,2021-08-22,0.005127840667580094,503,TPC River Highlands
+17365,"Mitchell, Keith",899,The Summit Club,sg_arg,0.3020991512782834,2021-10-17,0.003225044218026789,503,TPC River Highlands
+17365,"Mitchell, Keith",902,Congaree Golf Club,sg_arg,0.6682792146826588,2022-10-23,0.001666124886555658,503,TPC River Highlands
+17365,"Mitchell, Keith",666,Pebble Beach Golf Links,sg_arg,0.166160681160073,2019-06-16,0.0012688232635792544,503,TPC River Highlands
+17365,"Mitchell, Keith",243,Trinity Forest Golf Club,sg_arg,0.2884259793857305,2019-05-12,-0.0003100007939436985,503,TPC River Highlands
+17365,"Mitchell, Keith",618,Shinnecock Hills Golf Club,sg_arg,0.9986009795428267,2026-06-21,-0.0016102655401266527,503,TPC River Highlands
+17365,"Mitchell, Keith",928,PGA National  - Champion Course,sg_arg,2.1935852478454674,2026-03-01,-0.001747827986189597,503,TPC River Highlands
+17365,"Mitchell, Keith",873,Ridgewood CC,sg_arg,0.13525410642215038,2018-08-26,-0.001867243423992562,503,TPC River Highlands
+17365,"Mitchell, Keith",776,Sea Island Golf Club (Seaside Course),sg_arg,2.623588992161957,2025-11-23,-0.003133423401207063,503,TPC River Highlands
+17365,"Mitchell, Keith",43,The Los Angeles Country Club (North Course),sg_arg,0.4626890725751477,2023-06-18,-0.005066059815883307,503,TPC River Highlands
+17365,"Mitchell, Keith",978,Vidanta Vallarta,sg_arg,0.5519487948283024,2024-02-25,-0.005815635991749063,503,TPC River Highlands
+17365,"Mitchell, Keith",770,TPC San Antonio - The Oaks Course,sg_arg,2.635196281506838,2026-04-05,-0.008132258602639738,503,TPC River Highlands
+17365,"Mitchell, Keith",977,The Renaissance Club,sg_arg,2.2300027398869657,2025-07-13,-0.013029267132049946,503,TPC River Highlands
+17365,"Mitchell, Keith",233,Nicklaus Tournament Course,sg_arg,0.9009549703830616,2026-01-25,-0.013475092852416378,503,TPC River Highlands
+17365,"Mitchell, Keith",897,Memorial Park Golf Course,sg_arg,3.1801824155362137,2026-03-29,-0.014141502807119743,503,TPC River Highlands
+17365,"Mitchell, Keith",752,Sedgefield Country Club,sg_ott,2.4367459232607676,2025-08-03,0.0335538858430304,503,TPC River Highlands
+17365,"Mitchell, Keith",510,TPC Scottsdale (Stadium Course),sg_ott,3.5135020450961547,2026-02-08,0.024963122636809686,503,TPC River Highlands
+17365,"Mitchell, Keith",9,Arnold Palmer's Bay Hill Club & Lodge,sg_ott,2.304510440092541,2026-03-08,0.021369805119440224,503,TPC River Highlands
+17365,"Mitchell, Keith",902,Congaree Golf Club,sg_ott,0.6682792146826588,2022-10-23,0.01833164488570357,503,TPC River Highlands
+17365,"Mitchell, Keith",6,Waialae Country Club,sg_ott,3.568205406741213,2026-01-18,0.013393014277669299,503,TPC River Highlands
+17365,"Mitchell, Keith",776,Sea Island Golf Club (Seaside Course),sg_ott,2.623588992161957,2025-11-23,0.010632023683424766,503,TPC River Highlands
+17365,"Mitchell, Keith",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_ott,3.7242939755571958,2026-03-15,0.007797550157268298,503,TPC River Highlands
+17365,"Mitchell, Keith",500,The Riviera Country Club,sg_ott,0.5785889895433318,2023-02-19,0.005558875073432041,503,TPC River Highlands
+17365,"Mitchell, Keith",513,TPC Southwind,sg_ott,1.1534159633158605,2023-08-13,0.004386242368944856,503,TPC River Highlands
+17365,"Mitchell, Keith",769,Monterey Peninsula CC,sg_ott,0.5736901391778394,2023-02-05,0.0021886862557323693,503,TPC River Highlands
+17365,"Mitchell, Keith",729,Golf Club of Houston,sg_ott,0.12202857992543144,2018-04-01,0.00043120885682298494,503,TPC River Highlands
+17365,"Mitchell, Keith",32,Glen Abbey GC,sg_ott,0.13262893664003814,2018-07-29,0.0003599399606245004,503,TPC River Highlands
+17365,"Mitchell, Keith",666,Pebble Beach Golf Links,sg_ott,0.166160681160073,2019-06-16,0.00015072379817714765,503,TPC River Highlands
+17365,"Mitchell, Keith",931,Tahoe Mountain Club (Old Greenwood),sg_ott,0.6117693173263478,2024-07-21,0.000147970697016639,503,TPC River Highlands
+17365,"Mitchell, Keith",908,Oakdale Golf & Country Club,sg_ott,0.4604274416404642,2023-06-11,-0.0003084422049403144,503,TPC River Highlands
+17365,"Mitchell, Keith",886,Liberty National Golf Club,sg_ott,0.463289499033725,2021-08-22,-0.00045253877002746665,503,TPC River Highlands
+17365,"Mitchell, Keith",771,The Old White TPC,sg_ott,0.13069355120569967,2018-07-08,-0.0009436926890394231,503,TPC River Highlands
+17365,"Mitchell, Keith",23,Muirfield Village Golf Club,sg_ott,1.3250657275543765,2023-06-04,-0.0012744536537519508,503,TPC River Highlands
+17365,"Mitchell, Keith",978,Vidanta Vallarta,sg_ott,0.5519487948283024,2024-02-25,-0.002382128408217869,503,TPC River Highlands
+17365,"Mitchell, Keith",205,Spyglass Hill Golf Course,sg_ott,0.5812253122444291,2022-02-06,-0.003080463676357216,503,TPC River Highlands
+17365,"Mitchell, Keith",12,Harbour Town Golf Links,sg_ott,0.9411655448714664,2023-04-16,-0.003369112157113995,503,TPC River Highlands
+17365,"Mitchell, Keith",5,Pebble Beach Golf Links,sg_ott,2.4741224625444946,2026-02-15,-0.006817354673135851,503,TPC River Highlands
+17365,"Mitchell, Keith",237,TPC Potomac at Avenel Farm,sg_ott,0.47828196751129753,2022-05-08,-0.010479419304018106,503,TPC River Highlands
+17365,"Mitchell, Keith",503,TPC River Highlands,sg_ott,0.9856092406587238,2022-06-26,-0.01893097593310815,503,TPC River Highlands
+17365,"Mitchell, Keith",889,Sea Island Golf Club (Plantation Course),sg_ott,0.6681784502690465,2024-11-24,-0.020925992075048666,503,TPC River Highlands
+17365,"Mitchell, Keith",930,Black Desert Resort,sg_ott,0.6488199678934561,2024-10-13,-0.028596824704680418,503,TPC River Highlands
+17365,"Mitchell, Keith",883,TPC Twin Cities,sg_ott,2.558699091300876,2025-07-27,-0.032183295570759524,503,TPC River Highlands
+17365,"Mitchell, Keith",503,TPC River Highlands,sg_putt,0.9856092406587238,2022-06-26,0.0234254168754059,503,TPC River Highlands
+17365,"Mitchell, Keith",928,PGA National  - Champion Course,sg_putt,2.1935852478454674,2026-03-01,0.023228992200473003,503,TPC River Highlands
+17365,"Mitchell, Keith",746,The Country Club of Jackson,sg_putt,2.619666483096869,2025-10-05,0.014775293393687855,503,TPC River Highlands
+17365,"Mitchell, Keith",899,The Summit Club,sg_putt,0.3020991512782834,2021-10-17,0.010562781419800988,503,TPC River Highlands
+17365,"Mitchell, Keith",514,Oak Hill Country Club,sg_putt,0.45370866226474477,2023-05-21,0.003990517644882563,503,TPC River Highlands
+17365,"Mitchell, Keith",714,TPC Louisiana,sg_putt,2.1493495270357847,2026-04-26,0.0038050530265392856,503,TPC River Highlands
+17365,"Mitchell, Keith",874,Hamilton Golf & Country Club,sg_putt,0.5911414205090113,2024-06-02,0.003199003196740907,503,TPC River Highlands
+17365,"Mitchell, Keith",243,Trinity Forest Golf Club,sg_putt,0.2884259793857305,2019-05-12,0.00251235540492785,503,TPC River Highlands
+17365,"Mitchell, Keith",893,Muirfield Village Golf Club,sg_putt,0.21862441969205215,2020-07-12,0.001865333453402953,503,TPC River Highlands
+17365,"Mitchell, Keith",9,Arnold Palmer's Bay Hill Club & Lodge,sg_putt,2.304510440092541,2026-03-08,0.0004289592438399517,503,TPC River Highlands
+17365,"Mitchell, Keith",769,Monterey Peninsula CC,sg_putt,0.5736901391778394,2023-02-05,-0.00014168378022246257,503,TPC River Highlands
+17365,"Mitchell, Keith",882,Caves Valley Golf Club,sg_putt,0.2919128442101094,2021-08-29,-0.0005565139275506754,503,TPC River Highlands
+17365,"Mitchell, Keith",895,TPC Harding Park,sg_putt,0.2229517274029257,2020-08-09,-0.0016727463954237932,503,TPC River Highlands
+17365,"Mitchell, Keith",14,Augusta National Golf Club,sg_putt,0.4405638038237576,2023-04-09,-0.0022673401800247938,503,TPC River Highlands
+17365,"Mitchell, Keith",873,Ridgewood CC,sg_putt,0.13525410642215038,2018-08-26,-0.0038434323291389166,503,TPC River Highlands
+17365,"Mitchell, Keith",921,TPC Craig Ranch,sg_putt,0.5796678568951156,2024-05-05,-0.006684689036063279,503,TPC River Highlands
+17365,"Mitchell, Keith",978,Vidanta Vallarta,sg_putt,0.5519487948283024,2024-02-25,-0.006850107365973887,503,TPC River Highlands
+17365,"Mitchell, Keith",233,Nicklaus Tournament Course,sg_putt,0.9009549703830616,2026-01-25,-0.007838014275130067,503,TPC River Highlands
+17365,"Mitchell, Keith",665,Innisbrook Resort and Golf Club - Copperhead Course,sg_putt,1.6508777999916004,2025-03-23,-0.00959381103680409,503,TPC River Highlands
+17365,"Mitchell, Keith",930,Black Desert Resort,sg_putt,0.6488199678934561,2024-10-13,-0.010005637783677343,503,TPC River Highlands
+17365,"Mitchell, Keith",901,Wilmington Country Club,sg_putt,0.37478603094630225,2022-08-21,-0.0122057029521534,503,TPC River Highlands
+17365,"Mitchell, Keith",242,Nine Bridges,sg_total,0.32214314001071226,2019-10-20,0.0029252943554727556,503,TPC River Highlands
+17365,"Mitchell, Keith",56,Atlantic Beach Country Club,sg_total,0.10743169808462516,2017-10-01,0.002794552273647344,503,TPC River Highlands
+17365,"Mitchell, Keith",630,Fox Den CC,sg_total,0.10431918430464086,2017-08-20,0.0024527128513056077,503,TPC River Highlands
+17365,"Mitchell, Keith",659,Club de Golf de Panama,sg_total,0.09184067469685357,2017-02-19,0.0019710651502291483,503,TPC River Highlands
+17365,"Mitchell, Keith",37,En-Joie GC,sg_total,0.09788127640342477,2017-05-21,0.0017507901253555655,503,TPC River Highlands
+17365,"Mitchell, Keith",51,Ivanhoe Club,sg_total,0.09933075876041948,2017-06-11,0.001612688594895136,503,TPC River Highlands
+17365,"Mitchell, Keith",801,The Club at Indian Creek,sg_total,0.10229443564764709,2017-07-23,-5.4675880520979704e-05,503,TPC River Highlands
+17365,"Mitchell, Keith",54,Nashville Golf & Athletic Club,sg_total,0.1008017058875974,2017-07-02,-0.001745072727183524,503,TPC River Highlands
+17365,"Mitchell, Keith",765,Port Royal Golf Course,sg_total,0.2364543767045291,2020-11-01,-0.0021026046715059317,503,TPC River Highlands
+17365,"Mitchell, Keith",890,Tahoe Mountain Club (Old Greenwood),sg_total,0.474164960451998,2023-07-23,-0.009558322706349102,503,TPC River Highlands
+17365,"Mitchell, Keith",777,Victoria National Golf Club,sg_total,0.09598148218758892,2017-04-23,-0.010494621808205392,503,TPC River Highlands
 22085,"Morikawa, Collin",14,Augusta National Golf Club,sg_app,3.3057287479926885,2026-04-12,0.03502016631675964,503,TPC River Highlands
 22085,"Morikawa, Collin",250,Le Golf National,sg_app,0.6177941299997387,2024-08-04,0.023148584598923733,503,TPC River Highlands
 22085,"Morikawa, Collin",656,Plantation Course at Kapalua,sg_app,2.395084003365865,2025-01-05,0.021832571545508935,503,TPC River Highlands

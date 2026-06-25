@@ -1,72 +1,72 @@
 rank,player_name,dg_id,lead_in_z,lead_in_raw,predictors_found,top_course,tournament,as_of_date
-1,"Smalley, Alex",18474,2.541,0.3844,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-2,"Fitzpatrick, Alex",25362,2.53,0.3829,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-3,"Young, Cameron",26651,2.261,0.3469,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-4,"McCarty, Matt",28635,1.69,0.2706,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-5,"Reitan, Kristoffer",21407,1.66,0.2666,4,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-6,"Woodland, Gary",12577,1.531,0.2493,3,Memorial Park Golf Course,Travelers Championship,2026-06-24
-7,"Theegala, Sahith",23014,1.374,0.2284,3,TPC Louisiana,Travelers Championship,2026-06-24
-8,"Cole, Eric",21756,1.335,0.2232,2,TPC Louisiana,Travelers Championship,2026-06-24
-9,"Suber, Jackson",29279,1.071,0.1879,2,TPC Louisiana,Travelers Championship,2026-06-24
-10,"Lowry, Shane",13900,0.969,0.1743,4,TPC Louisiana,Travelers Championship,2026-06-24
-11,"Stevens, Sam",25569,0.922,0.168,4,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-12,"Meissner, Mac",28159,0.833,0.1562,2,TPC Louisiana,Travelers Championship,2026-06-24
-13,"Straka, Sepp",17511,0.795,0.151,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-14,"Snedeker, Brandt",8820,0.763,0.1468,1,TPC Louisiana,Travelers Championship,2026-06-24
-15,"Vegas, Jhonattan",13508,0.659,0.1329,2,Memorial Park Golf Course,Travelers Championship,2026-06-24
-16,"Scott, Adam",6430,0.621,0.1278,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-17,"Fowler, Rickie",12965,0.613,0.1267,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-18,"Gerard, Ryan",29767,0.603,0.1254,4,TPC Louisiana,Travelers Championship,2026-06-24
-19,"Gotterup, Chris",27774,0.569,0.1208,3,Memorial Park Golf Course,Travelers Championship,2026-06-24
-20,"Spieth, Jordan",14636,0.544,0.1175,2,Augusta National Golf Club,Travelers Championship,2026-06-24
-21,"Kim, Si Woo",14609,0.519,0.1142,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-22,"Cantlay, Patrick",15466,0.475,0.1083,1,Augusta National Golf Club,Travelers Championship,2026-06-24
-23,"Berger, Daniel",17606,0.44,0.1036,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-24,"Taylor, Nick",13126,0.438,0.1033,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-25,"Day, Jason",9771,0.326,0.0884,3,Memorial Park Golf Course,Travelers Championship,2026-06-24
-26,"Spaun, J.J.",17536,0.304,0.0855,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-27,"McCarthy, Denny",19870,0.286,0.083,2,Memorial Park Golf Course,Travelers Championship,2026-06-24
-28,"Conners, Corey",17576,0.174,0.068,2,Augusta National Golf Club,Travelers Championship,2026-06-24
-29,"Echavarria, Nico",22833,0.146,0.0643,3,Memorial Park Golf Course,Travelers Championship,2026-06-24
-30,"Campbell, Brian",18628,0.145,0.0642,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-31,"McNealy, Maverick",18634,0.119,0.0607,2,Augusta National Golf Club,Travelers Championship,2026-06-24
-32,"Knapp, Jake",19396,0.117,0.0604,2,Memorial Park Golf Course,Travelers Championship,2026-06-24
-33,"Lee, Min Woo",16841,0.072,0.0544,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-34,"Noren, Alex",10419,0.068,0.0539,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-35,"Fitzpatrick, Matt",17646,0.033,0.0493,2,TPC Louisiana,Travelers Championship,2026-06-24
-36,"Cauley, Bud",14502,-0.014,0.043,1,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-37,"Harman, Brian",8825,-0.042,0.0392,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-38,"Griffin, Ben",24968,-0.043,0.0391,4,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-39,"Hoge, Tom",15575,-0.044,0.0389,3,TPC Louisiana,Travelers Championship,2026-06-24
-40,"Hojgaard, Nicolai",23602,-0.062,0.0365,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-41,"Mitchell, Keith",17365,-0.116,0.0294,3,TPC Louisiana,Travelers Championship,2026-06-24
-42,"Fox, Ryan",11889,-0.138,0.0264,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-43,"Thomas, Justin",14139,-0.159,0.0235,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-44,"Glover, Lucas",7399,-0.217,0.0158,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-45,"Rai, Aaron",18554,-0.371,-0.0048,2,Augusta National Golf Club,Travelers Championship,2026-06-24
-46,"Novak, Andrew",23475,-0.381,-0.0061,3,TPC Louisiana,Travelers Championship,2026-06-24
-47,"Scheffler, Scottie",18417,-0.413,-0.0104,2,Augusta National Golf Club,Travelers Championship,2026-06-24
-48,"Finau, Tony",11676,-0.439,-0.0139,2,Memorial Park Golf Course,Travelers Championship,2026-06-24
-49,"Aberg, Ludvig",23950,-0.44,-0.0139,1,Augusta National Golf Club,Travelers Championship,2026-06-24
-50,"Kim, Michael",17543,-0.477,-0.0189,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-51,"Schauffele, Xander",19895,-0.615,-0.0373,1,Augusta National Golf Club,Travelers Championship,2026-06-24
-52,"Burns, Sam",19483,-0.637,-0.0403,3,Augusta National Golf Club,Travelers Championship,2026-06-24
-53,"Pendrith, Taylor",17780,-0.653,-0.0424,3,TPC Louisiana,Travelers Championship,2026-06-24
-54,"Hovland, Viktor",18841,-0.692,-0.0476,2,Augusta National Golf Club,Travelers Championship,2026-06-24
-55,"MacIntyre, Robert",23323,-0.703,-0.0492,1,Augusta National Golf Club,Travelers Championship,2026-06-24
-56,"English, Harris",14577,-0.849,-0.0687,3,Memorial Park Golf Course,Travelers Championship,2026-06-24
-57,"Bradley, Keegan",13872,-0.944,-0.0813,2,Augusta National Golf Club,Travelers Championship,2026-06-24
-58,"Hisatsune, Ryo",22760,-1.032,-0.0931,1,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-59,"Bhatia, Akshay",26096,-1.06,-0.0968,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-60,"Rose, Justin",6093,-1.061,-0.097,2,Augusta National Golf Club,Travelers Championship,2026-06-24
-61,"Bridgeman, Jacob",29433,-1.108,-0.1032,2,Augusta National Golf Club,Travelers Championship,2026-06-24
-62,"Henley, Russell",14578,-1.153,-0.1093,2,Augusta National Golf Club,Travelers Championship,2026-06-24
-63,"Kitayama, Kurt",21891,-1.213,-0.1173,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-64,"Poston, J.T.",21554,-1.214,-0.1174,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-65,"Matsuyama, Hideki",13562,-1.34,-0.1342,2,Augusta National Golf Club,Travelers Championship,2026-06-24
-66,"Hall, Harry",27194,-1.455,-0.1496,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-67,"Hubbard, Mark",16333,-1.486,-0.1537,2,Memorial Park Golf Course,Travelers Championship,2026-06-24
-68,"Morikawa, Collin",22085,-1.649,-0.1755,2,Augusta National Golf Club,Travelers Championship,2026-06-24
-69,"Fleetwood, Tommy",12294,-1.678,-0.1794,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-24
-70,"Clark, Wyndham",23604,-1.695,-0.1816,3,Augusta National Golf Club,Travelers Championship,2026-06-24
-71,"Im, Sungjae",17488,-1.945,-0.2151,3,Augusta National Golf Club,Travelers Championship,2026-06-24
+1,"Smalley, Alex",18474,2.541,0.3844,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+2,"Fitzpatrick, Alex",25362,2.53,0.3829,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+3,"Young, Cameron",26651,2.261,0.3469,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+4,"McCarty, Matt",28635,1.69,0.2706,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+5,"Reitan, Kristoffer",21407,1.66,0.2666,4,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+6,"Woodland, Gary",12577,1.531,0.2493,3,Memorial Park Golf Course,Travelers Championship,2026-06-25
+7,"Theegala, Sahith",23014,1.374,0.2284,3,TPC Louisiana,Travelers Championship,2026-06-25
+8,"Cole, Eric",21756,1.335,0.2232,2,TPC Louisiana,Travelers Championship,2026-06-25
+9,"Suber, Jackson",29279,1.071,0.1879,2,TPC Louisiana,Travelers Championship,2026-06-25
+10,"Lowry, Shane",13900,0.969,0.1743,4,TPC Louisiana,Travelers Championship,2026-06-25
+11,"Stevens, Sam",25569,0.922,0.168,4,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+12,"Meissner, Mac",28159,0.833,0.1562,2,TPC Louisiana,Travelers Championship,2026-06-25
+13,"Straka, Sepp",17511,0.795,0.151,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+14,"Snedeker, Brandt",8820,0.763,0.1468,1,TPC Louisiana,Travelers Championship,2026-06-25
+15,"Vegas, Jhonattan",13508,0.659,0.1329,2,Memorial Park Golf Course,Travelers Championship,2026-06-25
+16,"Scott, Adam",6430,0.621,0.1278,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+17,"Fowler, Rickie",12965,0.613,0.1267,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+18,"Gerard, Ryan",29767,0.603,0.1254,4,TPC Louisiana,Travelers Championship,2026-06-25
+19,"Gotterup, Chris",27774,0.569,0.1208,3,Memorial Park Golf Course,Travelers Championship,2026-06-25
+20,"Spieth, Jordan",14636,0.544,0.1175,2,Augusta National Golf Club,Travelers Championship,2026-06-25
+21,"Kim, Si Woo",14609,0.519,0.1142,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+22,"Cantlay, Patrick",15466,0.475,0.1083,1,Augusta National Golf Club,Travelers Championship,2026-06-25
+23,"Berger, Daniel",17606,0.44,0.1036,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+24,"Taylor, Nick",13126,0.438,0.1033,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+25,"Day, Jason",9771,0.326,0.0884,3,Memorial Park Golf Course,Travelers Championship,2026-06-25
+26,"Spaun, J.J.",17536,0.304,0.0855,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+27,"McCarthy, Denny",19870,0.286,0.083,2,Memorial Park Golf Course,Travelers Championship,2026-06-25
+28,"Conners, Corey",17576,0.174,0.068,2,Augusta National Golf Club,Travelers Championship,2026-06-25
+29,"Echavarria, Nico",22833,0.146,0.0643,3,Memorial Park Golf Course,Travelers Championship,2026-06-25
+30,"Campbell, Brian",18628,0.145,0.0642,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+31,"McNealy, Maverick",18634,0.119,0.0607,2,Augusta National Golf Club,Travelers Championship,2026-06-25
+32,"Knapp, Jake",19396,0.117,0.0604,2,Memorial Park Golf Course,Travelers Championship,2026-06-25
+33,"Lee, Min Woo",16841,0.072,0.0544,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+34,"Noren, Alex",10419,0.068,0.0539,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+35,"Fitzpatrick, Matt",17646,0.033,0.0493,2,TPC Louisiana,Travelers Championship,2026-06-25
+36,"Cauley, Bud",14502,-0.014,0.043,1,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+37,"Harman, Brian",8825,-0.042,0.0392,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+38,"Griffin, Ben",24968,-0.043,0.0391,4,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+39,"Hoge, Tom",15575,-0.044,0.0389,3,TPC Louisiana,Travelers Championship,2026-06-25
+40,"Hojgaard, Nicolai",23602,-0.062,0.0365,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+41,"Mitchell, Keith",17365,-0.116,0.0294,3,TPC Louisiana,Travelers Championship,2026-06-25
+42,"Fox, Ryan",11889,-0.138,0.0264,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+43,"Thomas, Justin",14139,-0.159,0.0235,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+44,"Glover, Lucas",7399,-0.217,0.0158,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+45,"Rai, Aaron",18554,-0.371,-0.0048,2,Augusta National Golf Club,Travelers Championship,2026-06-25
+46,"Novak, Andrew",23475,-0.381,-0.0061,3,TPC Louisiana,Travelers Championship,2026-06-25
+47,"Scheffler, Scottie",18417,-0.413,-0.0104,2,Augusta National Golf Club,Travelers Championship,2026-06-25
+48,"Finau, Tony",11676,-0.439,-0.0139,2,Memorial Park Golf Course,Travelers Championship,2026-06-25
+49,"Aberg, Ludvig",23950,-0.44,-0.0139,1,Augusta National Golf Club,Travelers Championship,2026-06-25
+50,"Kim, Michael",17543,-0.477,-0.0189,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+51,"Schauffele, Xander",19895,-0.615,-0.0373,1,Augusta National Golf Club,Travelers Championship,2026-06-25
+52,"Burns, Sam",19483,-0.637,-0.0403,3,Augusta National Golf Club,Travelers Championship,2026-06-25
+53,"Pendrith, Taylor",17780,-0.653,-0.0424,3,TPC Louisiana,Travelers Championship,2026-06-25
+54,"Hovland, Viktor",18841,-0.692,-0.0476,2,Augusta National Golf Club,Travelers Championship,2026-06-25
+55,"MacIntyre, Robert",23323,-0.703,-0.0492,1,Augusta National Golf Club,Travelers Championship,2026-06-25
+56,"English, Harris",14577,-0.849,-0.0687,3,Memorial Park Golf Course,Travelers Championship,2026-06-25
+57,"Bradley, Keegan",13872,-0.944,-0.0813,2,Augusta National Golf Club,Travelers Championship,2026-06-25
+58,"Hisatsune, Ryo",22760,-1.032,-0.0931,1,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+59,"Bhatia, Akshay",26096,-1.06,-0.0968,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+60,"Rose, Justin",6093,-1.061,-0.097,2,Augusta National Golf Club,Travelers Championship,2026-06-25
+61,"Bridgeman, Jacob",29433,-1.108,-0.1032,2,Augusta National Golf Club,Travelers Championship,2026-06-25
+62,"Henley, Russell",14578,-1.153,-0.1093,2,Augusta National Golf Club,Travelers Championship,2026-06-25
+63,"Kitayama, Kurt",21891,-1.213,-0.1173,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+64,"Poston, J.T.",21554,-1.214,-0.1174,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+65,"Matsuyama, Hideki",13562,-1.34,-0.1342,2,Augusta National Golf Club,Travelers Championship,2026-06-25
+66,"Hall, Harry",27194,-1.455,-0.1496,3,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+67,"Hubbard, Mark",16333,-1.486,-0.1537,2,Memorial Park Golf Course,Travelers Championship,2026-06-25
+68,"Morikawa, Collin",22085,-1.649,-0.1755,2,Augusta National Golf Club,Travelers Championship,2026-06-25
+69,"Fleetwood, Tommy",12294,-1.678,-0.1794,2,Trump National Doral - Blue Monster Course,Travelers Championship,2026-06-25
+70,"Clark, Wyndham",23604,-1.695,-0.1816,3,Augusta National Golf Club,Travelers Championship,2026-06-25
+71,"Im, Sungjae",17488,-1.945,-0.2151,3,Augusta National Golf Club,Travelers Championship,2026-06-25

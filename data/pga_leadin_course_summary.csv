@@ -1,207 +1,207 @@
 predictor_course_name,predictor_skill,avg_r,avg_weighted_score,avg_r_squared,years_observed,years_strong,pct_years_positive,avg_shared_players,decay_lift,last_played,tournament,as_of_date
-Lakewood National Golf Club - Commander Course,sg_total,0.5975,0.5201,0.3573,2,2,1.0,8.5,0.0,2022-02-20,Travelers Championship,2026-06-24
-Cog Hill G&CC,sg_ott,0.2468,0.2379,0.0683,2,2,1.0,101.5,0.0,2005-07-03,Travelers Championship,2026-06-24
-El Bosque CC,sg_total,0.3349,0.2338,0.1395,2,2,1.0,25.0,0.0,2018-03-11,Travelers Championship,2026-06-24
-Pebble Beach Golf Links,sg_total,0.2361,0.2027,0.0599,2,2,1.0,42.0,0.0,2025-02-02,Travelers Championship,2026-06-24
-TPC Louisiana,sg_ott,0.1714,0.1856,0.0918,2,1,0.5,60.5,0.0,2025-04-27,Travelers Championship,2026-06-24
-Hamilton Golf & Country Club,sg_putt,0.2275,0.1847,0.0592,2,2,1.0,55.0,0.0,2024-06-02,Travelers Championship,2026-06-24
-Oakmont Country Club,sg_total,0.2095,0.1832,0.0572,3,2,1.0,55.3333,0.0,2025-06-15,Travelers Championship,2026-06-24
-Cottonwood Valley GC,sg_arg,0.156,0.1579,0.0576,3,2,0.667,37.6667,0.0,2007-04-29,Travelers Championship,2026-06-24
-Trinity Forest Golf Club,sg_total,0.1637,0.1446,0.0271,2,2,1.0,93.5,0.0,2019-05-12,Travelers Championship,2026-06-24
-TPC Deere Run,sg_app,0.1277,0.1421,0.0458,2,1,0.5,98.5,0.0,2005-07-10,Travelers Championship,2026-06-24
-Cog Hill G&CC,sg_total,0.1357,0.1119,0.0184,2,2,1.0,101.5,0.0,2005-07-03,Travelers Championship,2026-06-24
-Cottonwood Valley GC,sg_total,0.1037,0.1015,0.0382,3,1,0.667,39.0,0.0,2007-04-29,Travelers Championship,2026-06-24
-Trinity Forest Golf Club,sg_arg,0.1282,0.1004,0.0169,2,1,1.0,93.5,0.0,2019-05-12,Travelers Championship,2026-06-24
-Club de Golf Chapultepec,sg_app,0.1541,0.0976,0.0281,4,2,1.0,26.5,0.0,2020-02-23,Travelers Championship,2026-06-24
-Trump National Doral - Blue Monster Course,sg_total,0.0983,0.0972,0.0663,9,3,0.667,18.6667,0.0,2015-03-08,Travelers Championship,2026-06-24
-El Camaleón Golf Course at Mayakoba,sg_total,0.097,0.0944,0.0292,6,2,0.667,77.1667,0.0,2012-02-26,Travelers Championship,2026-06-24
-Golf Club of Houston,sg_total,0.0919,0.09,0.0328,12,4,0.667,92.1667,0.0,2018-04-01,Travelers Championship,2026-06-24
-Vidanta Vallarta,sg_arg,0.0821,0.089,0.0567,4,1,0.5,44.75,0.0,2025-02-23,Travelers Championship,2026-06-24
-Memorial Park Golf Course,sg_putt,0.1305,0.0886,0.0234,2,1,1.0,32.5,0.0,2025-03-30,Travelers Championship,2026-06-24
-Augusta National Golf Club,sg_arg,0.092,0.0873,0.0301,5,3,0.6,44.8,0.0,2025-04-13,Travelers Championship,2026-06-24
-Monterey Peninsula CC,sg_app,0.095,0.0863,0.0484,12,6,0.583,27.3333,0.0,2023-02-05,Travelers Championship,2026-06-24
-TPC Deere Run,sg_total,0.0712,0.0858,0.0271,2,1,0.5,98.5,0.0,2005-07-10,Travelers Championship,2026-06-24
-Congressional CC (Blue),sg_total,0.1265,0.0855,0.019,2,1,1.0,67.5,0.0,2016-06-26,Travelers Championship,2026-06-24
-Le Triomphe G&CC,sg_putt,0.0895,0.0823,0.0602,3,1,0.667,15.6667,0.0,2022-03-20,Travelers Championship,2026-06-24
-Cottonwood Valley GC,sg_app,0.1015,0.0819,0.023,3,1,0.667,37.6667,0.0,2007-04-29,Travelers Championship,2026-06-24
-Quail Hollow Club,sg_total,0.1049,0.0809,0.0166,5,1,1.0,103.0,0.0,2024-05-12,Travelers Championship,2026-06-24
-Trump National Doral - Blue Monster Course,sg_app,0.0721,0.0807,0.1075,9,3,0.556,18.6667,0.0,2015-03-08,Travelers Championship,2026-06-24
-TPC Louisiana,sg_total,0.0807,0.0777,0.0386,2,1,0.5,60.5,0.0,2025-04-27,Travelers Championship,2026-06-24
-Colonial Country Club,sg_app,0.0769,0.0758,0.0205,20,9,0.6,76.85,0.0,2025-05-25,Travelers Championship,2026-06-24
-Vidanta Vallarta,sg_total,0.117,0.0752,0.0354,4,1,0.75,44.75,0.0,2025-02-23,Travelers Championship,2026-06-24
-Baltusrol GC,sg_total,0.1162,0.0721,0.015,2,1,1.0,48.5,0.0,2016-07-31,Travelers Championship,2026-06-24
-TPC Louisiana,sg_putt,0.0765,0.072,0.0352,2,1,0.5,60.5,0.0,2025-04-27,Travelers Championship,2026-06-24
-TPC Deere Run,sg_ott,0.0989,0.0705,0.0114,2,1,1.0,98.5,0.0,2005-07-10,Travelers Championship,2026-06-24
-Hamilton Golf & Country Club,sg_arg,0.0359,0.0693,0.0292,2,1,0.5,55.0,0.0,2024-06-02,Travelers Championship,2026-06-24
-Le Triomphe G&CC,sg_arg,0.0947,0.0663,0.0477,3,1,0.667,15.6667,0.0,2022-03-20,Travelers Championship,2026-06-24
-Monterey Peninsula CC,sg_ott,0.0613,0.0646,0.0375,12,4,0.667,27.3333,0.0,2023-02-05,Travelers Championship,2026-06-24
-Trump National Doral - Blue Monster Course,sg_putt,0.0629,0.0645,0.0926,9,4,0.556,18.6667,0.0,2015-03-08,Travelers Championship,2026-06-24
-Quail Hollow Club,sg_app,0.0896,0.0634,0.0107,5,1,1.0,103.0,0.0,2024-05-12,Travelers Championship,2026-06-24
-Vidanta Vallarta,sg_app,0.0552,0.0613,0.0423,4,1,0.5,44.75,0.0,2025-02-23,Travelers Championship,2026-06-24
-Golf Club of Houston,sg_ott,0.071,0.0606,0.0268,12,4,0.75,92.1667,0.0,2018-04-01,Travelers Championship,2026-06-24
-TPC Southwind,sg_app,0.0699,0.0598,0.0143,14,4,0.714,98.1429,0.0,2018-06-10,Travelers Championship,2026-06-24
-Poppy Hills,sg_putt,0.0249,0.0576,0.0554,3,1,0.333,33.6667,0.0,2009-02-15,Travelers Championship,2026-06-24
-Hamilton Golf & Country Club,sg_total,0.1078,0.0573,0.0117,2,0,1.0,55.0,0.0,2024-06-02,Travelers Championship,2026-06-24
-Cog Hill G&CC,sg_arg,0.0828,0.0568,0.009,2,1,1.0,101.5,0.0,2005-07-03,Travelers Championship,2026-06-24
-royal greens,sg_total,0.0741,0.0565,0.05,2,1,0.5,12.5,0.0,2021-02-07,Travelers Championship,2026-06-24
-Arnold Palmer's Bay Hill Club & Lodge,sg_ott,0.0598,0.0564,0.0269,19,7,0.632,69.2632,0.0,2025-03-09,Travelers Championship,2026-06-24
-Torrey Pines Golf Course (North Course),sg_ott,0.0597,0.0554,0.0291,17,6,0.588,38.7059,0.0,2025-01-25,Travelers Championship,2026-06-24
-Club de Golf Chapultepec,sg_arg,0.0496,0.0546,0.0308,4,1,0.5,26.5,0.0,2020-02-23,Travelers Championship,2026-06-24
-Golf Club of Houston,sg_arg,0.0554,0.0531,0.0199,12,5,0.667,92.1667,0.0,2018-04-01,Travelers Championship,2026-06-24
-Shinnecock Hills Golf Club,sg_total,0.0813,0.0524,0.0106,2,1,1.0,53.0,0.0,2018-06-17,Travelers Championship,2026-06-24
-TPC Four Seasons Resort,sg_total,0.0627,0.05,0.0174,13,3,0.692,90.6154,0.0,2017-05-21,Travelers Championship,2026-06-24
-Arnold Palmer's Bay Hill Club & Lodge,sg_total,0.0484,0.05,0.0182,19,5,0.526,69.2632,0.0,2025-03-09,Travelers Championship,2026-06-24
-TPC Southwind,sg_ott,0.0575,0.0497,0.0166,14,4,0.643,98.1429,0.0,2018-06-10,Travelers Championship,2026-06-24
-TPC Southwind,sg_total,0.0597,0.0497,0.015,14,4,0.714,98.1429,0.0,2018-06-10,Travelers Championship,2026-06-24
-Spyglass Hill Golf Course,sg_app,0.0683,0.0492,0.0238,18,4,0.722,28.7222,0.0,2025-02-02,Travelers Championship,2026-06-24
-Augusta National Golf Club,sg_ott,0.0912,0.049,0.0108,5,1,1.0,44.8,0.0,2025-04-13,Travelers Championship,2026-06-24
-The Riviera Country Club,sg_arg,0.0403,0.0474,0.0216,17,5,0.471,85.0,0.0,2024-02-18,Travelers Championship,2026-06-24
-Arnold Palmer's Bay Hill Club & Lodge,sg_app,0.0529,0.0466,0.0151,19,4,0.579,69.2632,0.0,2025-03-09,Travelers Championship,2026-06-24
-Monterey Peninsula CC,sg_total,0.0255,0.0458,0.0627,12,4,0.417,27.5,0.0,2023-02-05,Travelers Championship,2026-06-24
-Monterey Peninsula CC,sg_arg,0.0738,0.0455,0.0319,12,4,0.75,27.3333,0.0,2023-02-05,Travelers Championship,2026-06-24
-Colonial Country Club,sg_total,0.0464,0.045,0.017,21,6,0.524,76.619,0.0,2025-05-25,Travelers Championship,2026-06-24
-Quail Hollow Club,sg_app,0.0656,0.0449,0.0124,12,3,0.917,99.3333,0.0,2024-05-12,Travelers Championship,2026-06-24
-Redstone GC (Fall Creek),sg_app,0.0409,0.0442,0.0098,2,1,0.5,104.0,0.0,2005-04-24,Travelers Championship,2026-06-24
-Cottonwood Valley GC,sg_ott,0.0653,0.044,0.0143,3,1,0.667,37.6667,0.0,2007-04-29,Travelers Championship,2026-06-24
-TPC Craig Ranch,sg_arg,0.0641,0.0425,0.0104,3,0,0.667,40.6667,0.0,2025-05-04,Travelers Championship,2026-06-24
-Spyglass Hill Golf Course,sg_putt,0.0526,0.0422,0.043,18,7,0.611,28.7222,0.0,2025-02-02,Travelers Championship,2026-06-24
-TPC Craig Ranch,sg_putt,0.0875,0.0394,0.0125,3,0,0.667,40.6667,0.0,2025-05-04,Travelers Championship,2026-06-24
-Redstone GC (Fall Creek),sg_ott,0.0315,0.0393,0.0177,2,1,0.5,104.0,0.0,2005-04-24,Travelers Championship,2026-06-24
-Le Triomphe G&CC,sg_ott,0.1119,0.0392,0.0133,3,0,1.0,15.6667,0.0,2022-03-20,Travelers Championship,2026-06-24
-Spyglass Hill Golf Course,sg_total,0.0404,0.0385,0.0209,18,3,0.556,28.7778,0.0,2025-02-02,Travelers Championship,2026-06-24
-Torrey Pines Golf Course (South Course),sg_putt,0.051,0.0382,0.0122,17,3,0.706,56.8235,0.0,2025-02-16,Travelers Championship,2026-06-24
-Quail Hollow Club,sg_putt,0.0477,0.0379,0.0077,5,1,0.8,103.0,0.0,2024-05-12,Travelers Championship,2026-06-24
-TPC Louisiana,sg_arg,0.0691,0.037,0.0059,2,0,1.0,60.5,0.0,2025-04-27,Travelers Championship,2026-06-24
-Golf Club of Houston,sg_app,0.044,0.0346,0.0201,12,3,0.667,92.1667,0.0,2018-04-01,Travelers Championship,2026-06-24
-TPC Four Seasons Resort,sg_ott,0.0287,0.0335,0.0152,13,4,0.462,90.6154,0.0,2017-05-21,Travelers Championship,2026-06-24
-TPC Four Seasons Resort,sg_putt,0.0246,0.0334,0.0218,13,2,0.385,90.6154,0.0,2017-05-21,Travelers Championship,2026-06-24
-Muirfield Village Golf Club,sg_total,0.0402,0.0327,0.017,20,5,0.7,66.85,0.0,2025-06-01,Travelers Championship,2026-06-24
-Hillcrest Country Club,sg_arg,0.0321,0.032,0.0064,2,0,0.5,103.5,0.0,2005-06-26,Travelers Championship,2026-06-24
-Trinity Forest Golf Club,sg_app,0.0609,0.0315,0.0047,2,0,1.0,93.5,0.0,2019-05-12,Travelers Championship,2026-06-24
-Vidanta Vallarta,sg_putt,0.0642,0.0311,0.0235,4,1,0.5,44.75,0.0,2025-02-23,Travelers Championship,2026-06-24
-Torrey Pines Golf Course (North Course),sg_total,0.0438,0.0306,0.0133,17,2,0.588,38.8824,0.0,2025-01-25,Travelers Championship,2026-06-24
-Quail Hollow Club,sg_total,0.0356,0.0303,0.0116,12,2,0.667,99.3333,0.0,2024-05-12,Travelers Championship,2026-06-24
-Muirfield Village Golf Club,sg_app,0.0365,0.0301,0.0186,20,4,0.65,66.85,0.0,2025-06-01,Travelers Championship,2026-06-24
-TPC Four Seasons Resort,sg_app,0.0454,0.0298,0.0055,13,1,0.846,90.6154,0.0,2017-05-21,Travelers Championship,2026-06-24
-Hillcrest Country Club,sg_putt,0.047,0.0285,0.0042,2,0,1.0,103.5,0.0,2005-06-26,Travelers Championship,2026-06-24
-Trinity Forest Golf Club,sg_putt,0.0624,0.0281,0.0039,2,0,1.0,93.5,0.0,2019-05-12,Travelers Championship,2026-06-24
-Grand Reserve Golf Club,sg_total,0.0357,0.0272,0.0211,15,5,0.667,61.6,0.0,2023-03-05,Travelers Championship,2026-06-24
-Torrey Pines Golf Course (South Course),sg_total,0.0359,0.0269,0.013,17,2,0.647,56.8235,0.0,2025-02-16,Travelers Championship,2026-06-24
-TPC Craig Ranch,sg_total,0.0359,0.0251,0.0106,3,0,0.667,40.6667,0.0,2025-05-04,Travelers Championship,2026-06-24
-Torrey Pines Golf Course (South Course),sg_ott,0.0386,0.0246,0.0309,17,5,0.647,56.8235,0.0,2025-02-16,Travelers Championship,2026-06-24
-Pebble Beach Golf Links,sg_app,0.0336,0.0245,0.0343,18,4,0.611,41.5556,0.0,2025-02-02,Travelers Championship,2026-06-24
-Harbour Town Golf Links,sg_total,0.0242,0.0243,0.0125,21,3,0.524,85.8095,0.0,2025-04-20,Travelers Championship,2026-06-24
-Trinity Forest Golf Club,sg_ott,0.0397,0.0236,0.0034,2,0,0.5,93.5,0.0,2019-05-12,Travelers Championship,2026-06-24
-Torrey Pines Golf Course (North Course),sg_app,0.0304,0.0234,0.0258,17,3,0.588,38.7059,0.0,2025-01-25,Travelers Championship,2026-06-24
-TPC Sawgrass - THE PLAYERS Stadium Course,sg_ott,0.0288,0.0228,0.0196,19,3,0.579,85.6316,0.0,2025-03-16,Travelers Championship,2026-06-24
-Quail Hollow Club,sg_ott,0.0264,0.0226,0.0107,5,1,0.6,103.0,0.0,2024-05-12,Travelers Championship,2026-06-24
-Harbour Town Golf Links,sg_ott,0.0316,0.0214,0.0147,21,4,0.714,85.8095,0.0,2025-04-20,Travelers Championship,2026-06-24
-Muirfield Village Golf Club,sg_putt,0.0198,0.0212,0.0166,20,3,0.5,66.85,0.0,2025-06-01,Travelers Championship,2026-06-24
-Pebble Beach Golf Links,sg_total,0.027,0.0205,0.0238,18,3,0.667,41.5556,0.0,2025-02-02,Travelers Championship,2026-06-24
-Colonial Country Club,sg_ott,0.0253,0.0199,0.0175,20,4,0.6,76.85,0.0,2025-05-25,Travelers Championship,2026-06-24
-TPC Craig Ranch,sg_arg,0.012,0.0192,0.0263,2,1,0.5,100.5,0.0,2025-05-04,Travelers Championship,2026-06-24
-PGA National  - Champion Course,sg_ott,0.0532,0.019,0.0043,2,0,1.0,36.0,0.0,2025-03-02,Travelers Championship,2026-06-24
-Muirfield Village Golf Club,sg_ott,0.0236,0.0186,0.0111,20,3,0.6,66.85,0.0,2025-06-01,Travelers Championship,2026-06-24
-Golf Club of Houston,sg_putt,0.0234,0.0178,0.015,12,4,0.583,92.1667,0.0,2018-04-01,Travelers Championship,2026-06-24
-TPC Sawgrass - THE PLAYERS Stadium Course,sg_arg,0.0177,0.0167,0.0126,19,3,0.526,85.6316,0.0,2025-03-16,Travelers Championship,2026-06-24
-Arnold Palmer's Bay Hill Club & Lodge,sg_arg,0.0152,0.0151,0.0163,19,3,0.526,69.2632,0.0,2025-03-09,Travelers Championship,2026-06-24
-TPC San Antonio - The Oaks Course,sg_arg,0.0035,0.014,0.0158,15,4,0.4,91.1333,0.0,2025-04-06,Travelers Championship,2026-06-24
-Quail Hollow Club,sg_arg,0.0203,0.0127,0.0031,5,0,0.8,103.0,0.0,2024-05-12,Travelers Championship,2026-06-24
-Harbour Town Golf Links,sg_arg,0.0154,0.0122,0.0094,21,4,0.571,85.8095,0.0,2025-04-20,Travelers Championship,2026-06-24
-The Riviera Country Club,sg_ott,0.0206,0.0107,0.0153,17,3,0.647,85.0,0.0,2024-02-18,Travelers Championship,2026-06-24
-TPC Sawgrass - THE PLAYERS Stadium Course,sg_app,0.0086,0.0107,0.0159,19,5,0.474,85.6316,0.0,2025-03-16,Travelers Championship,2026-06-24
-Vidanta Vallarta,sg_ott,0.0384,0.0106,0.0048,4,0,0.5,44.75,0.0,2025-02-23,Travelers Championship,2026-06-24
-Quail Hollow Club,sg_putt,0.0112,0.0096,0.0146,12,1,0.5,99.3333,0.0,2024-05-12,Travelers Championship,2026-06-24
-TPC San Antonio - The Oaks Course,sg_app,0.0103,0.0094,0.0138,15,2,0.6,91.1333,0.0,2025-04-06,Travelers Championship,2026-06-24
-Torrey Pines Golf Course (North Course),sg_putt,0.0023,0.0092,0.0228,17,4,0.529,38.7059,0.0,2025-01-25,Travelers Championship,2026-06-24
-Memorial Park Golf Course,sg_ott,-0.0007,0.0086,0.0831,2,1,0.5,32.5,0.0,2025-03-30,Travelers Championship,2026-06-24
-The Riviera Country Club,sg_total,0.0067,0.0082,0.0058,17,1,0.471,85.0,0.0,2024-02-18,Travelers Championship,2026-06-24
-Innisbrook Resort and Golf Club - Copperhead Course,sg_ott,0.0065,0.0082,0.0114,18,2,0.5,88.6667,0.0,2025-03-23,Travelers Championship,2026-06-24
-Harbour Town Golf Links,sg_app,0.0211,0.007,0.0195,21,4,0.714,85.8095,0.0,2025-04-20,Travelers Championship,2026-06-24
-Innisbrook Resort and Golf Club - Copperhead Course,sg_putt,0.0034,0.0062,0.0175,18,4,0.389,88.6667,0.0,2025-03-23,Travelers Championship,2026-06-24
-PGA National Resort (The Champion),sg_app,0.0108,0.0061,0.0127,16,2,0.562,93.125,0.0,2023-02-26,Travelers Championship,2026-06-24
-TPC Four Seasons Resort,sg_arg,0.0105,0.0047,0.0148,13,2,0.615,90.6154,0.0,2017-05-21,Travelers Championship,2026-06-24
-TPC Sawgrass - THE PLAYERS Stadium Course,sg_total,0.0037,0.0046,0.0163,19,4,0.579,85.6316,0.0,2025-03-16,Travelers Championship,2026-06-24
-Torrey Pines Golf Course (North Course),sg_arg,0.0155,0.0045,0.0397,17,4,0.588,38.7059,0.0,2025-01-25,Travelers Championship,2026-06-24
-PGA National Resort (The Champion),sg_ott,-0.0,0.0019,0.0146,16,2,0.438,93.125,0.0,2023-02-26,Travelers Championship,2026-06-24
-Cog Hill G&CC,sg_putt,0.0023,0.0012,0.0013,2,0,0.5,101.5,0.0,2005-07-03,Travelers Championship,2026-06-24
-TPC Deere Run,sg_putt,0.0055,0.0012,0.0002,2,0,0.5,98.5,0.0,2005-07-10,Travelers Championship,2026-06-24
-Colonial Country Club,sg_arg,0.0057,-0.0,0.0112,20,1,0.55,76.85,0.0,2025-05-25,Travelers Championship,2026-06-24
-TPC Craig Ranch,sg_app,-0.0009,-0.0001,0.0,2,0,0.5,100.5,0.0,2025-05-04,Travelers Championship,2026-06-24
-Pinehurst Resort & Country Club (Course No. 2),sg_total,-0.0011,-0.0004,0.0003,2,0,0.5,53.0,0.0,2024-06-16,Travelers Championship,2026-06-24
-Trump National Doral - Blue Monster Course,sg_ott,0.0291,-0.0005,0.0917,9,2,0.667,18.6667,0.0,2015-03-08,Travelers Championship,2026-06-24
-Puntacana Resort (Corales Golf Course),sg_total,-0.0069,-0.0007,0.0068,5,0,0.4,53.8,0.0,2023-03-26,Travelers Championship,2026-06-24
-Cog Hill G&CC,sg_app,-0.0063,-0.0015,0.0003,2,0,0.5,101.5,0.0,2005-07-03,Travelers Championship,2026-06-24
-The Riviera Country Club,sg_putt,-0.0007,-0.0024,0.0043,17,0,0.588,85.0,0.0,2024-02-18,Travelers Championship,2026-06-24
-Arnold Palmer's Bay Hill Club & Lodge,sg_putt,-0.0208,-0.0035,0.0112,19,2,0.211,69.2632,0.0,2025-03-09,Travelers Championship,2026-06-24
-TPC Southwind,sg_putt,-0.0031,-0.0035,0.0099,14,1,0.571,98.1429,0.0,2018-06-10,Travelers Championship,2026-06-24
-TPC Scottsdale (Stadium Course),sg_ott,-0.0067,-0.0057,0.0116,18,2,0.444,83.3333,0.0,2025-02-09,Travelers Championship,2026-06-24
-Torrey Pines Golf Course (South Course),sg_arg,-0.0037,-0.0058,0.016,17,2,0.529,56.8235,0.0,2025-02-16,Travelers Championship,2026-06-24
-Innisbrook Resort and Golf Club - Copperhead Course,sg_total,-0.0021,-0.0067,0.0108,18,1,0.5,88.6667,0.0,2025-03-23,Travelers Championship,2026-06-24
-Hillcrest Country Club,sg_total,-0.0167,-0.007,0.0011,2,0,0.5,103.5,0.0,2005-06-26,Travelers Championship,2026-06-24
-Quail Hollow Club,sg_ott,-0.006,-0.0073,0.009,12,1,0.5,99.3333,0.0,2024-05-12,Travelers Championship,2026-06-24
-TPC Scottsdale (Stadium Course),sg_putt,-0.0174,-0.0073,0.0158,18,1,0.333,83.3333,0.0,2025-02-09,Travelers Championship,2026-06-24
-Cottonwood Valley GC,sg_putt,-0.029,-0.0074,0.0643,3,1,0.333,37.6667,0.0,2007-04-29,Travelers Championship,2026-06-24
-TPC Craig Ranch,sg_ott,-0.0079,-0.0078,0.011,3,0,0.667,40.6667,0.0,2025-05-04,Travelers Championship,2026-06-24
-Colonial Country Club,sg_putt,-0.0224,-0.0079,0.018,20,3,0.25,76.85,0.0,2025-05-25,Travelers Championship,2026-06-24
-Innisbrook Resort and Golf Club - Copperhead Course,sg_app,-0.0194,-0.0088,0.0138,18,2,0.5,88.6667,0.0,2025-03-23,Travelers Championship,2026-06-24
-Spyglass Hill Golf Course,sg_ott,-0.0122,-0.0088,0.0472,18,6,0.5,28.7222,0.0,2025-02-02,Travelers Championship,2026-06-24
-Muirfield Village Golf Club,sg_arg,-0.0111,-0.0103,0.0156,20,2,0.5,66.85,0.0,2025-06-01,Travelers Championship,2026-06-24
-Poppy Hills,sg_total,-0.0156,-0.0106,0.0264,3,1,0.667,33.6667,0.0,2009-02-15,Travelers Championship,2026-06-24
-Pebble Beach Golf Links,sg_arg,-0.0213,-0.0107,0.0129,18,1,0.389,41.5556,0.0,2025-02-02,Travelers Championship,2026-06-24
-Poppy Hills,sg_arg,-0.0346,-0.0108,0.0239,3,1,0.333,33.6667,0.0,2009-02-15,Travelers Championship,2026-06-24
-Pebble Beach Golf Links,sg_putt,-0.0102,-0.012,0.0127,18,1,0.5,41.5556,0.0,2025-02-02,Travelers Championship,2026-06-24
-Club de Golf Chapultepec,sg_total,-0.0027,-0.0121,0.0098,4,0,0.75,26.5,0.0,2020-02-23,Travelers Championship,2026-06-24
-TPC Scottsdale (Stadium Course),sg_app,-0.0231,-0.0124,0.015,18,2,0.333,83.3333,0.0,2025-02-09,Travelers Championship,2026-06-24
-TPC Craig Ranch,sg_total,-0.0322,-0.0127,0.0016,2,0,0.0,100.5,0.0,2025-05-04,Travelers Championship,2026-06-24
-Quail Hollow Club,sg_arg,-0.0152,-0.0131,0.0121,12,1,0.5,99.3333,0.0,2024-05-12,Travelers Championship,2026-06-24
-Innisbrook Resort and Golf Club - Copperhead Course,sg_arg,-0.015,-0.0147,0.0149,18,2,0.556,88.6667,0.0,2025-03-23,Travelers Championship,2026-06-24
-TPC San Antonio - The Oaks Course,sg_total,-0.0244,-0.0151,0.0135,15,1,0.333,91.1333,0.0,2025-04-06,Travelers Championship,2026-06-24
-PGA National Resort (The Champion),sg_total,-0.0264,-0.0155,0.011,16,1,0.375,93.125,0.0,2023-02-26,Travelers Championship,2026-06-24
-Pebble Beach Golf Links,sg_ott,-0.021,-0.0182,0.0175,18,1,0.5,41.5556,0.0,2025-02-02,Travelers Championship,2026-06-24
-Hillcrest Country Club,sg_app,-0.0476,-0.0188,0.0024,2,0,0.0,103.5,0.0,2005-06-26,Travelers Championship,2026-06-24
-The Riviera Country Club,sg_app,-0.0286,-0.019,0.0073,17,1,0.353,85.0,0.0,2024-02-18,Travelers Championship,2026-06-24
-TPC Scottsdale (Stadium Course),sg_total,-0.0264,-0.019,0.0143,18,1,0.389,83.7778,0.0001,2025-02-09,Travelers Championship,2026-06-24
-Hamilton Golf & Country Club,sg_app,-0.061,-0.0197,0.0062,2,0,0.0,55.0,0.0,2024-06-02,Travelers Championship,2026-06-24
-TPC Scottsdale (Stadium Course),sg_arg,-0.0245,-0.0198,0.0111,18,1,0.389,83.3333,0.0,2025-02-09,Travelers Championship,2026-06-24
-Augusta National Golf Club,sg_putt,-0.0224,-0.0202,0.0103,5,0,0.6,44.8,0.0,2025-04-13,Travelers Championship,2026-06-24
-Harbour Town Golf Links,sg_putt,-0.0216,-0.0214,0.0129,21,1,0.524,85.8095,0.0,2025-04-20,Travelers Championship,2026-06-24
-PGA National  - Champion Course,sg_arg,-0.0309,-0.0236,0.0093,2,0,0.5,36.0,0.0,2025-03-02,Travelers Championship,2026-06-24
-TPC Sawgrass - THE PLAYERS Stadium Course,sg_putt,-0.0296,-0.0244,0.0123,19,2,0.421,85.6316,0.0,2025-03-16,Travelers Championship,2026-06-24
-PGA National  - Champion Course,sg_total,-0.0447,-0.0249,0.0061,2,0,0.5,36.0,0.0,2025-03-02,Travelers Championship,2026-06-24
-PGA National Resort (The Champion),sg_putt,-0.0282,-0.0275,0.0151,16,2,0.438,93.125,0.0,2023-02-26,Travelers Championship,2026-06-24
-TPC Craig Ranch,sg_ott,-0.0389,-0.0297,0.0042,2,0,0.5,100.5,0.0,2025-05-04,Travelers Championship,2026-06-24
-TPC Craig Ranch,sg_app,-0.0599,-0.03,0.0151,3,0,0.333,40.6667,0.0,2025-05-04,Travelers Championship,2026-06-24
-TPC San Antonio - The Oaks Course,sg_ott,-0.042,-0.0309,0.0095,15,1,0.333,91.1333,0.0,2025-04-06,Travelers Championship,2026-06-24
-PGA National Resort (The Champion),sg_arg,-0.0498,-0.0328,0.0074,16,0,0.188,93.125,0.0,2023-02-26,Travelers Championship,2026-06-24
-TPC San Antonio - The Oaks Course,sg_putt,-0.0348,-0.0331,0.0137,15,0,0.533,91.1333,0.0,2025-04-06,Travelers Championship,2026-06-24
-Augusta National Golf Club,sg_total,-0.0317,-0.0334,0.0455,20,2,0.45,32.0,0.0,2025-04-13,Travelers Championship,2026-06-24
-Le Triomphe G&CC,sg_total,-0.0662,-0.0334,0.0584,5,1,0.4,12.2,0.0,2022-03-20,Travelers Championship,2026-06-24
-TPC Southwind,sg_arg,-0.0354,-0.0342,0.0187,14,2,0.429,98.1429,0.0,2018-06-10,Travelers Championship,2026-06-24
-PGA National  - Champion Course,sg_app,-0.0476,-0.0384,0.012,2,0,0.5,36.0,0.0,2025-03-02,Travelers Championship,2026-06-24
-Poppy Hills,sg_ott,-0.0721,-0.0395,0.0328,3,1,0.333,33.6667,0.0,2009-02-15,Travelers Championship,2026-06-24
-Trump National Doral - Blue Monster Course,sg_arg,-0.0362,-0.0396,0.0394,9,2,0.556,18.6667,0.0,2015-03-08,Travelers Championship,2026-06-24
-Torrey Pines Golf Course (South Course),sg_app,-0.0456,-0.0397,0.0196,17,0,0.353,56.8235,0.0,2025-02-16,Travelers Championship,2026-06-24
-The CC at Wakefield Plantation,sg_total,-0.0327,-0.0399,0.0795,3,1,0.667,11.0,0.0,2019-06-02,Travelers Championship,2026-06-24
-Monterey Peninsula CC,sg_putt,-0.0435,-0.0419,0.0364,12,2,0.5,27.3333,0.0,2023-02-05,Travelers Championship,2026-06-24
-Torrey Pines (South),sg_total,-0.0443,-0.0429,0.0114,2,0,0.5,45.5,0.0,2021-06-20,Travelers Championship,2026-06-24
-Memorial Park Golf Course,sg_app,-0.0445,-0.0514,0.023,2,0,0.5,32.5,0.0,2025-03-30,Travelers Championship,2026-06-24
-PGA National  - Champion Course,sg_putt,-0.0871,-0.054,0.0134,2,0,0.0,36.0,0.0,2025-03-02,Travelers Championship,2026-06-24
-TPC Louisiana,sg_app,-0.1051,-0.0563,0.0112,2,0,0.0,60.5,0.0,2025-04-27,Travelers Championship,2026-06-24
-Memorial Park Golf Course,sg_total,-0.0666,-0.0566,0.021,2,0,0.5,32.5,0.0,2025-03-30,Travelers Championship,2026-06-24
-TPC Craig Ranch,sg_putt,-0.0568,-0.0576,0.01,2,0,0.5,100.5,0.0,2025-05-04,Travelers Championship,2026-06-24
-Hillcrest Country Club,sg_ott,-0.0873,-0.0601,0.0096,2,0,0.0,103.5,0.0,2005-06-26,Travelers Championship,2026-06-24
-Hamilton Golf & Country Club,sg_ott,-0.118,-0.0718,0.0144,2,0,0.0,55.0,0.0,2024-06-02,Travelers Championship,2026-06-24
-Club de Golf Chapultepec,sg_putt,-0.119,-0.0787,0.0291,4,0,0.0,26.5,0.0,2020-02-23,Travelers Championship,2026-06-24
-Club de Golf Chapultepec,sg_ott,-0.0938,-0.0847,0.0368,4,0,0.5,26.5,0.0,2020-02-23,Travelers Championship,2026-06-24
-TPC Deere Run,sg_arg,-0.114,-0.0871,0.0149,2,0,0.0,98.5,0.0,2005-07-10,Travelers Championship,2026-06-24
-Poppy Hills,sg_app,-0.0521,-0.0883,0.0623,3,0,0.667,33.6667,0.0,2009-02-15,Travelers Championship,2026-06-24
-Redstone GC (Fall Creek),sg_total,-0.0787,-0.0896,0.0522,2,1,0.5,104.0,0.0,2005-04-24,Travelers Championship,2026-06-24
-Spyglass Hill Golf Course,sg_arg,-0.1038,-0.0901,0.0444,18,1,0.389,28.7222,0.0,2025-02-02,Travelers Championship,2026-06-24
-Redstone GC (Fall Creek),sg_arg,-0.1062,-0.0955,0.0198,2,0,0.0,104.0,0.0,2005-04-24,Travelers Championship,2026-06-24
-Redstone GC (Fall Creek),sg_putt,-0.1411,-0.1271,0.0313,2,0,0.0,104.0,0.0,2005-04-24,Travelers Championship,2026-06-24
-Le Triomphe G&CC,sg_app,-0.2076,-0.1426,0.066,3,0,0.333,15.6667,0.0,2022-03-20,Travelers Championship,2026-06-24
-Augusta National Golf Club,sg_app,-0.1783,-0.1619,0.0529,5,0,0.2,44.8,0.0,2025-04-13,Travelers Championship,2026-06-24
-Royal Troon,sg_total,-0.182,-0.178,0.0768,2,0,0.5,32.5,0.0,2016-07-17,Travelers Championship,2026-06-24
-Fox Den CC,sg_total,-0.1436,-0.183,0.2394,2,1,0.5,9.0,0.0,2019-05-19,Travelers Championship,2026-06-24
-Memorial Park Golf Course,sg_arg,-0.2943,-0.2618,0.1051,2,0,0.0,32.5,0.0,2025-03-30,Travelers Championship,2026-06-24
+Lakewood National Golf Club - Commander Course,sg_total,0.5975,0.5201,0.3573,2,2,1.0,8.5,0.0,2022-02-20,Travelers Championship,2026-06-25
+Cog Hill G&CC,sg_ott,0.2468,0.2379,0.0683,2,2,1.0,101.5,0.0,2005-07-03,Travelers Championship,2026-06-25
+El Bosque CC,sg_total,0.3349,0.2338,0.1395,2,2,1.0,25.0,0.0,2018-03-11,Travelers Championship,2026-06-25
+Pebble Beach Golf Links,sg_total,0.2361,0.2027,0.0599,2,2,1.0,42.0,0.0,2025-02-02,Travelers Championship,2026-06-25
+TPC Louisiana,sg_ott,0.1714,0.1856,0.0918,2,1,0.5,60.5,0.0,2025-04-27,Travelers Championship,2026-06-25
+Hamilton Golf & Country Club,sg_putt,0.2275,0.1847,0.0592,2,2,1.0,55.0,0.0,2024-06-02,Travelers Championship,2026-06-25
+Oakmont Country Club,sg_total,0.2095,0.1832,0.0572,3,2,1.0,55.3333,0.0,2025-06-15,Travelers Championship,2026-06-25
+Cottonwood Valley GC,sg_arg,0.156,0.1579,0.0576,3,2,0.667,37.6667,0.0,2007-04-29,Travelers Championship,2026-06-25
+Trinity Forest Golf Club,sg_total,0.1637,0.1446,0.0271,2,2,1.0,93.5,0.0,2019-05-12,Travelers Championship,2026-06-25
+TPC Deere Run,sg_app,0.1277,0.1421,0.0458,2,1,0.5,98.5,0.0,2005-07-10,Travelers Championship,2026-06-25
+Cog Hill G&CC,sg_total,0.1357,0.1119,0.0184,2,2,1.0,101.5,0.0,2005-07-03,Travelers Championship,2026-06-25
+Cottonwood Valley GC,sg_total,0.1037,0.1015,0.0382,3,1,0.667,39.0,0.0,2007-04-29,Travelers Championship,2026-06-25
+Trinity Forest Golf Club,sg_arg,0.1282,0.1004,0.0169,2,1,1.0,93.5,0.0,2019-05-12,Travelers Championship,2026-06-25
+Club de Golf Chapultepec,sg_app,0.1541,0.0976,0.0281,4,2,1.0,26.5,0.0,2020-02-23,Travelers Championship,2026-06-25
+Trump National Doral - Blue Monster Course,sg_total,0.0983,0.0972,0.0663,9,3,0.667,18.6667,0.0,2015-03-08,Travelers Championship,2026-06-25
+El Camaleón Golf Course at Mayakoba,sg_total,0.097,0.0944,0.0292,6,2,0.667,77.1667,0.0,2012-02-26,Travelers Championship,2026-06-25
+Golf Club of Houston,sg_total,0.0919,0.09,0.0328,12,4,0.667,92.1667,0.0,2018-04-01,Travelers Championship,2026-06-25
+Vidanta Vallarta,sg_arg,0.0821,0.089,0.0567,4,1,0.5,44.75,0.0,2025-02-23,Travelers Championship,2026-06-25
+Memorial Park Golf Course,sg_putt,0.1305,0.0886,0.0234,2,1,1.0,32.5,0.0,2025-03-30,Travelers Championship,2026-06-25
+Augusta National Golf Club,sg_arg,0.092,0.0873,0.0301,5,3,0.6,44.8,0.0,2025-04-13,Travelers Championship,2026-06-25
+Monterey Peninsula CC,sg_app,0.095,0.0863,0.0484,12,6,0.583,27.3333,0.0,2023-02-05,Travelers Championship,2026-06-25
+TPC Deere Run,sg_total,0.0712,0.0858,0.0271,2,1,0.5,98.5,0.0,2005-07-10,Travelers Championship,2026-06-25
+Congressional CC (Blue),sg_total,0.1265,0.0855,0.019,2,1,1.0,67.5,0.0,2016-06-26,Travelers Championship,2026-06-25
+Le Triomphe G&CC,sg_putt,0.0895,0.0823,0.0602,3,1,0.667,15.6667,0.0,2022-03-20,Travelers Championship,2026-06-25
+Cottonwood Valley GC,sg_app,0.1015,0.0819,0.023,3,1,0.667,37.6667,0.0,2007-04-29,Travelers Championship,2026-06-25
+Quail Hollow Club,sg_total,0.1049,0.0809,0.0166,5,1,1.0,103.0,0.0,2024-05-12,Travelers Championship,2026-06-25
+Trump National Doral - Blue Monster Course,sg_app,0.0721,0.0807,0.1075,9,3,0.556,18.6667,0.0,2015-03-08,Travelers Championship,2026-06-25
+TPC Louisiana,sg_total,0.0807,0.0777,0.0386,2,1,0.5,60.5,0.0,2025-04-27,Travelers Championship,2026-06-25
+Colonial Country Club,sg_app,0.0769,0.0758,0.0205,20,9,0.6,76.85,0.0,2025-05-25,Travelers Championship,2026-06-25
+Vidanta Vallarta,sg_total,0.117,0.0752,0.0354,4,1,0.75,44.75,0.0,2025-02-23,Travelers Championship,2026-06-25
+Baltusrol GC,sg_total,0.1162,0.0721,0.015,2,1,1.0,48.5,0.0,2016-07-31,Travelers Championship,2026-06-25
+TPC Louisiana,sg_putt,0.0765,0.072,0.0352,2,1,0.5,60.5,0.0,2025-04-27,Travelers Championship,2026-06-25
+TPC Deere Run,sg_ott,0.0989,0.0705,0.0114,2,1,1.0,98.5,0.0,2005-07-10,Travelers Championship,2026-06-25
+Hamilton Golf & Country Club,sg_arg,0.0359,0.0693,0.0292,2,1,0.5,55.0,0.0,2024-06-02,Travelers Championship,2026-06-25
+Le Triomphe G&CC,sg_arg,0.0947,0.0663,0.0477,3,1,0.667,15.6667,0.0,2022-03-20,Travelers Championship,2026-06-25
+Monterey Peninsula CC,sg_ott,0.0613,0.0646,0.0375,12,4,0.667,27.3333,0.0,2023-02-05,Travelers Championship,2026-06-25
+Trump National Doral - Blue Monster Course,sg_putt,0.0629,0.0645,0.0926,9,4,0.556,18.6667,0.0,2015-03-08,Travelers Championship,2026-06-25
+Quail Hollow Club,sg_app,0.0896,0.0634,0.0107,5,1,1.0,103.0,0.0,2024-05-12,Travelers Championship,2026-06-25
+Vidanta Vallarta,sg_app,0.0552,0.0613,0.0423,4,1,0.5,44.75,0.0,2025-02-23,Travelers Championship,2026-06-25
+Golf Club of Houston,sg_ott,0.071,0.0606,0.0268,12,4,0.75,92.1667,0.0,2018-04-01,Travelers Championship,2026-06-25
+TPC Southwind,sg_app,0.0699,0.0598,0.0143,14,4,0.714,98.1429,0.0,2018-06-10,Travelers Championship,2026-06-25
+Poppy Hills,sg_putt,0.0249,0.0576,0.0554,3,1,0.333,33.6667,0.0,2009-02-15,Travelers Championship,2026-06-25
+Hamilton Golf & Country Club,sg_total,0.1078,0.0573,0.0117,2,0,1.0,55.0,0.0,2024-06-02,Travelers Championship,2026-06-25
+Cog Hill G&CC,sg_arg,0.0828,0.0568,0.009,2,1,1.0,101.5,0.0,2005-07-03,Travelers Championship,2026-06-25
+royal greens,sg_total,0.0741,0.0565,0.05,2,1,0.5,12.5,0.0,2021-02-07,Travelers Championship,2026-06-25
+Arnold Palmer's Bay Hill Club & Lodge,sg_ott,0.0598,0.0564,0.0269,19,7,0.632,69.2632,0.0,2025-03-09,Travelers Championship,2026-06-25
+Torrey Pines Golf Course (North Course),sg_ott,0.0597,0.0554,0.0291,17,6,0.588,38.7059,0.0,2025-01-25,Travelers Championship,2026-06-25
+Club de Golf Chapultepec,sg_arg,0.0496,0.0546,0.0308,4,1,0.5,26.5,0.0,2020-02-23,Travelers Championship,2026-06-25
+Golf Club of Houston,sg_arg,0.0554,0.0531,0.0199,12,5,0.667,92.1667,0.0,2018-04-01,Travelers Championship,2026-06-25
+Shinnecock Hills Golf Club,sg_total,0.0813,0.0524,0.0106,2,1,1.0,53.0,0.0,2018-06-17,Travelers Championship,2026-06-25
+TPC Four Seasons Resort,sg_total,0.0627,0.05,0.0174,13,3,0.692,90.6154,0.0,2017-05-21,Travelers Championship,2026-06-25
+Arnold Palmer's Bay Hill Club & Lodge,sg_total,0.0484,0.05,0.0182,19,5,0.526,69.2632,0.0,2025-03-09,Travelers Championship,2026-06-25
+TPC Southwind,sg_ott,0.0575,0.0497,0.0166,14,4,0.643,98.1429,0.0,2018-06-10,Travelers Championship,2026-06-25
+TPC Southwind,sg_total,0.0597,0.0497,0.015,14,4,0.714,98.1429,0.0,2018-06-10,Travelers Championship,2026-06-25
+Spyglass Hill Golf Course,sg_app,0.0683,0.0492,0.0238,18,4,0.722,28.7222,0.0,2025-02-02,Travelers Championship,2026-06-25
+Augusta National Golf Club,sg_ott,0.0912,0.049,0.0108,5,1,1.0,44.8,0.0,2025-04-13,Travelers Championship,2026-06-25
+The Riviera Country Club,sg_arg,0.0403,0.0474,0.0216,17,5,0.471,85.0,0.0,2024-02-18,Travelers Championship,2026-06-25
+Arnold Palmer's Bay Hill Club & Lodge,sg_app,0.0529,0.0466,0.0151,19,4,0.579,69.2632,0.0,2025-03-09,Travelers Championship,2026-06-25
+Monterey Peninsula CC,sg_total,0.0255,0.0458,0.0627,12,4,0.417,27.5,0.0,2023-02-05,Travelers Championship,2026-06-25
+Monterey Peninsula CC,sg_arg,0.0738,0.0455,0.0319,12,4,0.75,27.3333,0.0,2023-02-05,Travelers Championship,2026-06-25
+Colonial Country Club,sg_total,0.0464,0.045,0.017,21,6,0.524,76.619,0.0,2025-05-25,Travelers Championship,2026-06-25
+Quail Hollow Club,sg_app,0.0656,0.0449,0.0124,12,3,0.917,99.3333,0.0,2024-05-12,Travelers Championship,2026-06-25
+Redstone GC (Fall Creek),sg_app,0.0409,0.0442,0.0098,2,1,0.5,104.0,0.0,2005-04-24,Travelers Championship,2026-06-25
+Cottonwood Valley GC,sg_ott,0.0653,0.044,0.0143,3,1,0.667,37.6667,0.0,2007-04-29,Travelers Championship,2026-06-25
+TPC Craig Ranch,sg_arg,0.0641,0.0425,0.0104,3,0,0.667,40.6667,0.0,2025-05-04,Travelers Championship,2026-06-25
+Spyglass Hill Golf Course,sg_putt,0.0526,0.0422,0.043,18,7,0.611,28.7222,0.0,2025-02-02,Travelers Championship,2026-06-25
+TPC Craig Ranch,sg_putt,0.0875,0.0394,0.0125,3,0,0.667,40.6667,0.0,2025-05-04,Travelers Championship,2026-06-25
+Redstone GC (Fall Creek),sg_ott,0.0315,0.0393,0.0177,2,1,0.5,104.0,0.0,2005-04-24,Travelers Championship,2026-06-25
+Le Triomphe G&CC,sg_ott,0.1119,0.0392,0.0133,3,0,1.0,15.6667,0.0,2022-03-20,Travelers Championship,2026-06-25
+Spyglass Hill Golf Course,sg_total,0.0404,0.0385,0.0209,18,3,0.556,28.7778,0.0,2025-02-02,Travelers Championship,2026-06-25
+Torrey Pines Golf Course (South Course),sg_putt,0.051,0.0382,0.0122,17,3,0.706,56.8235,0.0,2025-02-16,Travelers Championship,2026-06-25
+Quail Hollow Club,sg_putt,0.0477,0.0379,0.0077,5,1,0.8,103.0,0.0,2024-05-12,Travelers Championship,2026-06-25
+TPC Louisiana,sg_arg,0.0691,0.037,0.0059,2,0,1.0,60.5,0.0,2025-04-27,Travelers Championship,2026-06-25
+Golf Club of Houston,sg_app,0.044,0.0346,0.0201,12,3,0.667,92.1667,0.0,2018-04-01,Travelers Championship,2026-06-25
+TPC Four Seasons Resort,sg_ott,0.0287,0.0335,0.0152,13,4,0.462,90.6154,0.0,2017-05-21,Travelers Championship,2026-06-25
+TPC Four Seasons Resort,sg_putt,0.0246,0.0334,0.0218,13,2,0.385,90.6154,0.0,2017-05-21,Travelers Championship,2026-06-25
+Muirfield Village Golf Club,sg_total,0.0402,0.0327,0.017,20,5,0.7,66.85,0.0,2025-06-01,Travelers Championship,2026-06-25
+Hillcrest Country Club,sg_arg,0.0321,0.032,0.0064,2,0,0.5,103.5,0.0,2005-06-26,Travelers Championship,2026-06-25
+Trinity Forest Golf Club,sg_app,0.0609,0.0315,0.0047,2,0,1.0,93.5,0.0,2019-05-12,Travelers Championship,2026-06-25
+Vidanta Vallarta,sg_putt,0.0642,0.0311,0.0235,4,1,0.5,44.75,0.0,2025-02-23,Travelers Championship,2026-06-25
+Torrey Pines Golf Course (North Course),sg_total,0.0438,0.0306,0.0133,17,2,0.588,38.8824,0.0,2025-01-25,Travelers Championship,2026-06-25
+Quail Hollow Club,sg_total,0.0356,0.0303,0.0116,12,2,0.667,99.3333,0.0,2024-05-12,Travelers Championship,2026-06-25
+Muirfield Village Golf Club,sg_app,0.0365,0.0301,0.0186,20,4,0.65,66.85,0.0,2025-06-01,Travelers Championship,2026-06-25
+TPC Four Seasons Resort,sg_app,0.0454,0.0298,0.0055,13,1,0.846,90.6154,0.0,2017-05-21,Travelers Championship,2026-06-25
+Hillcrest Country Club,sg_putt,0.047,0.0285,0.0042,2,0,1.0,103.5,0.0,2005-06-26,Travelers Championship,2026-06-25
+Trinity Forest Golf Club,sg_putt,0.0624,0.0281,0.0039,2,0,1.0,93.5,0.0,2019-05-12,Travelers Championship,2026-06-25
+Grand Reserve Golf Club,sg_total,0.0357,0.0272,0.0211,15,5,0.667,61.6,0.0,2023-03-05,Travelers Championship,2026-06-25
+Torrey Pines Golf Course (South Course),sg_total,0.0359,0.0269,0.013,17,2,0.647,56.8235,0.0,2025-02-16,Travelers Championship,2026-06-25
+TPC Craig Ranch,sg_total,0.0359,0.0251,0.0106,3,0,0.667,40.6667,0.0,2025-05-04,Travelers Championship,2026-06-25
+Torrey Pines Golf Course (South Course),sg_ott,0.0386,0.0246,0.0309,17,5,0.647,56.8235,0.0,2025-02-16,Travelers Championship,2026-06-25
+Pebble Beach Golf Links,sg_app,0.0336,0.0245,0.0343,18,4,0.611,41.5556,0.0,2025-02-02,Travelers Championship,2026-06-25
+Harbour Town Golf Links,sg_total,0.0242,0.0243,0.0125,21,3,0.524,85.8095,0.0,2025-04-20,Travelers Championship,2026-06-25
+Trinity Forest Golf Club,sg_ott,0.0397,0.0236,0.0034,2,0,0.5,93.5,0.0,2019-05-12,Travelers Championship,2026-06-25
+Torrey Pines Golf Course (North Course),sg_app,0.0304,0.0234,0.0258,17,3,0.588,38.7059,0.0,2025-01-25,Travelers Championship,2026-06-25
+TPC Sawgrass - THE PLAYERS Stadium Course,sg_ott,0.0288,0.0228,0.0196,19,3,0.579,85.6316,0.0,2025-03-16,Travelers Championship,2026-06-25
+Quail Hollow Club,sg_ott,0.0264,0.0226,0.0107,5,1,0.6,103.0,0.0,2024-05-12,Travelers Championship,2026-06-25
+Harbour Town Golf Links,sg_ott,0.0316,0.0214,0.0147,21,4,0.714,85.8095,0.0,2025-04-20,Travelers Championship,2026-06-25
+Muirfield Village Golf Club,sg_putt,0.0198,0.0212,0.0166,20,3,0.5,66.85,0.0,2025-06-01,Travelers Championship,2026-06-25
+Pebble Beach Golf Links,sg_total,0.027,0.0205,0.0238,18,3,0.667,41.5556,0.0,2025-02-02,Travelers Championship,2026-06-25
+Colonial Country Club,sg_ott,0.0253,0.0199,0.0175,20,4,0.6,76.85,0.0,2025-05-25,Travelers Championship,2026-06-25
+TPC Craig Ranch,sg_arg,0.012,0.0192,0.0263,2,1,0.5,100.5,0.0,2025-05-04,Travelers Championship,2026-06-25
+PGA National  - Champion Course,sg_ott,0.0532,0.019,0.0043,2,0,1.0,36.0,0.0,2025-03-02,Travelers Championship,2026-06-25
+Muirfield Village Golf Club,sg_ott,0.0236,0.0186,0.0111,20,3,0.6,66.85,0.0,2025-06-01,Travelers Championship,2026-06-25
+Golf Club of Houston,sg_putt,0.0234,0.0178,0.015,12,4,0.583,92.1667,0.0,2018-04-01,Travelers Championship,2026-06-25
+TPC Sawgrass - THE PLAYERS Stadium Course,sg_arg,0.0177,0.0167,0.0126,19,3,0.526,85.6316,0.0,2025-03-16,Travelers Championship,2026-06-25
+Arnold Palmer's Bay Hill Club & Lodge,sg_arg,0.0152,0.0151,0.0163,19,3,0.526,69.2632,0.0,2025-03-09,Travelers Championship,2026-06-25
+TPC San Antonio - The Oaks Course,sg_arg,0.0035,0.014,0.0158,15,4,0.4,91.1333,0.0,2025-04-06,Travelers Championship,2026-06-25
+Quail Hollow Club,sg_arg,0.0203,0.0127,0.0031,5,0,0.8,103.0,0.0,2024-05-12,Travelers Championship,2026-06-25
+Harbour Town Golf Links,sg_arg,0.0154,0.0122,0.0094,21,4,0.571,85.8095,0.0,2025-04-20,Travelers Championship,2026-06-25
+The Riviera Country Club,sg_ott,0.0206,0.0107,0.0153,17,3,0.647,85.0,0.0,2024-02-18,Travelers Championship,2026-06-25
+TPC Sawgrass - THE PLAYERS Stadium Course,sg_app,0.0086,0.0107,0.0159,19,5,0.474,85.6316,0.0,2025-03-16,Travelers Championship,2026-06-25
+Vidanta Vallarta,sg_ott,0.0384,0.0106,0.0048,4,0,0.5,44.75,0.0,2025-02-23,Travelers Championship,2026-06-25
+Quail Hollow Club,sg_putt,0.0112,0.0096,0.0146,12,1,0.5,99.3333,0.0,2024-05-12,Travelers Championship,2026-06-25
+TPC San Antonio - The Oaks Course,sg_app,0.0103,0.0094,0.0138,15,2,0.6,91.1333,0.0,2025-04-06,Travelers Championship,2026-06-25
+Torrey Pines Golf Course (North Course),sg_putt,0.0023,0.0092,0.0228,17,4,0.529,38.7059,0.0,2025-01-25,Travelers Championship,2026-06-25
+Memorial Park Golf Course,sg_ott,-0.0007,0.0086,0.0831,2,1,0.5,32.5,0.0,2025-03-30,Travelers Championship,2026-06-25
+The Riviera Country Club,sg_total,0.0067,0.0082,0.0058,17,1,0.471,85.0,0.0,2024-02-18,Travelers Championship,2026-06-25
+Innisbrook Resort and Golf Club - Copperhead Course,sg_ott,0.0065,0.0082,0.0114,18,2,0.5,88.6667,0.0,2025-03-23,Travelers Championship,2026-06-25
+Harbour Town Golf Links,sg_app,0.0211,0.007,0.0195,21,4,0.714,85.8095,0.0,2025-04-20,Travelers Championship,2026-06-25
+Innisbrook Resort and Golf Club - Copperhead Course,sg_putt,0.0034,0.0062,0.0175,18,4,0.389,88.6667,0.0,2025-03-23,Travelers Championship,2026-06-25
+PGA National Resort (The Champion),sg_app,0.0108,0.0061,0.0127,16,2,0.562,93.125,0.0,2023-02-26,Travelers Championship,2026-06-25
+TPC Four Seasons Resort,sg_arg,0.0105,0.0047,0.0148,13,2,0.615,90.6154,0.0,2017-05-21,Travelers Championship,2026-06-25
+TPC Sawgrass - THE PLAYERS Stadium Course,sg_total,0.0037,0.0046,0.0163,19,4,0.579,85.6316,0.0,2025-03-16,Travelers Championship,2026-06-25
+Torrey Pines Golf Course (North Course),sg_arg,0.0155,0.0045,0.0397,17,4,0.588,38.7059,0.0,2025-01-25,Travelers Championship,2026-06-25
+PGA National Resort (The Champion),sg_ott,-0.0,0.0019,0.0146,16,2,0.438,93.125,0.0,2023-02-26,Travelers Championship,2026-06-25
+Cog Hill G&CC,sg_putt,0.0023,0.0012,0.0013,2,0,0.5,101.5,0.0,2005-07-03,Travelers Championship,2026-06-25
+TPC Deere Run,sg_putt,0.0055,0.0012,0.0002,2,0,0.5,98.5,0.0,2005-07-10,Travelers Championship,2026-06-25
+Colonial Country Club,sg_arg,0.0057,-0.0,0.0112,20,1,0.55,76.85,0.0,2025-05-25,Travelers Championship,2026-06-25
+TPC Craig Ranch,sg_app,-0.0009,-0.0001,0.0,2,0,0.5,100.5,0.0,2025-05-04,Travelers Championship,2026-06-25
+Pinehurst Resort & Country Club (Course No. 2),sg_total,-0.0011,-0.0004,0.0003,2,0,0.5,53.0,0.0,2024-06-16,Travelers Championship,2026-06-25
+Trump National Doral - Blue Monster Course,sg_ott,0.0291,-0.0005,0.0917,9,2,0.667,18.6667,0.0,2015-03-08,Travelers Championship,2026-06-25
+Puntacana Resort (Corales Golf Course),sg_total,-0.0069,-0.0007,0.0068,5,0,0.4,53.8,0.0,2023-03-26,Travelers Championship,2026-06-25
+Cog Hill G&CC,sg_app,-0.0063,-0.0015,0.0003,2,0,0.5,101.5,0.0,2005-07-03,Travelers Championship,2026-06-25
+The Riviera Country Club,sg_putt,-0.0007,-0.0024,0.0043,17,0,0.588,85.0,0.0,2024-02-18,Travelers Championship,2026-06-25
+Arnold Palmer's Bay Hill Club & Lodge,sg_putt,-0.0208,-0.0035,0.0112,19,2,0.211,69.2632,0.0,2025-03-09,Travelers Championship,2026-06-25
+TPC Southwind,sg_putt,-0.0031,-0.0035,0.0099,14,1,0.571,98.1429,0.0,2018-06-10,Travelers Championship,2026-06-25
+TPC Scottsdale (Stadium Course),sg_ott,-0.0067,-0.0057,0.0116,18,2,0.444,83.3333,0.0,2025-02-09,Travelers Championship,2026-06-25
+Torrey Pines Golf Course (South Course),sg_arg,-0.0037,-0.0058,0.016,17,2,0.529,56.8235,0.0,2025-02-16,Travelers Championship,2026-06-25
+Innisbrook Resort and Golf Club - Copperhead Course,sg_total,-0.0021,-0.0067,0.0108,18,1,0.5,88.6667,0.0,2025-03-23,Travelers Championship,2026-06-25
+Hillcrest Country Club,sg_total,-0.0167,-0.007,0.0011,2,0,0.5,103.5,0.0,2005-06-26,Travelers Championship,2026-06-25
+Quail Hollow Club,sg_ott,-0.006,-0.0073,0.009,12,1,0.5,99.3333,0.0,2024-05-12,Travelers Championship,2026-06-25
+TPC Scottsdale (Stadium Course),sg_putt,-0.0174,-0.0073,0.0158,18,1,0.333,83.3333,0.0,2025-02-09,Travelers Championship,2026-06-25
+Cottonwood Valley GC,sg_putt,-0.029,-0.0074,0.0643,3,1,0.333,37.6667,0.0,2007-04-29,Travelers Championship,2026-06-25
+TPC Craig Ranch,sg_ott,-0.0079,-0.0078,0.011,3,0,0.667,40.6667,0.0,2025-05-04,Travelers Championship,2026-06-25
+Colonial Country Club,sg_putt,-0.0224,-0.0079,0.018,20,3,0.25,76.85,0.0,2025-05-25,Travelers Championship,2026-06-25
+Innisbrook Resort and Golf Club - Copperhead Course,sg_app,-0.0194,-0.0088,0.0138,18,2,0.5,88.6667,0.0,2025-03-23,Travelers Championship,2026-06-25
+Spyglass Hill Golf Course,sg_ott,-0.0122,-0.0088,0.0472,18,6,0.5,28.7222,0.0,2025-02-02,Travelers Championship,2026-06-25
+Muirfield Village Golf Club,sg_arg,-0.0111,-0.0103,0.0156,20,2,0.5,66.85,0.0,2025-06-01,Travelers Championship,2026-06-25
+Poppy Hills,sg_total,-0.0156,-0.0106,0.0264,3,1,0.667,33.6667,0.0,2009-02-15,Travelers Championship,2026-06-25
+Pebble Beach Golf Links,sg_arg,-0.0213,-0.0107,0.0129,18,1,0.389,41.5556,0.0,2025-02-02,Travelers Championship,2026-06-25
+Poppy Hills,sg_arg,-0.0346,-0.0108,0.0239,3,1,0.333,33.6667,0.0,2009-02-15,Travelers Championship,2026-06-25
+Pebble Beach Golf Links,sg_putt,-0.0102,-0.012,0.0127,18,1,0.5,41.5556,0.0,2025-02-02,Travelers Championship,2026-06-25
+Club de Golf Chapultepec,sg_total,-0.0027,-0.0121,0.0098,4,0,0.75,26.5,0.0,2020-02-23,Travelers Championship,2026-06-25
+TPC Scottsdale (Stadium Course),sg_app,-0.0231,-0.0124,0.015,18,2,0.333,83.3333,0.0,2025-02-09,Travelers Championship,2026-06-25
+TPC Craig Ranch,sg_total,-0.0322,-0.0127,0.0016,2,0,0.0,100.5,0.0,2025-05-04,Travelers Championship,2026-06-25
+Quail Hollow Club,sg_arg,-0.0152,-0.0131,0.0121,12,1,0.5,99.3333,0.0,2024-05-12,Travelers Championship,2026-06-25
+Innisbrook Resort and Golf Club - Copperhead Course,sg_arg,-0.015,-0.0147,0.0149,18,2,0.556,88.6667,0.0,2025-03-23,Travelers Championship,2026-06-25
+TPC San Antonio - The Oaks Course,sg_total,-0.0244,-0.0151,0.0135,15,1,0.333,91.1333,0.0,2025-04-06,Travelers Championship,2026-06-25
+PGA National Resort (The Champion),sg_total,-0.0264,-0.0155,0.011,16,1,0.375,93.125,0.0,2023-02-26,Travelers Championship,2026-06-25
+Pebble Beach Golf Links,sg_ott,-0.021,-0.0182,0.0175,18,1,0.5,41.5556,0.0,2025-02-02,Travelers Championship,2026-06-25
+Hillcrest Country Club,sg_app,-0.0476,-0.0188,0.0024,2,0,0.0,103.5,0.0,2005-06-26,Travelers Championship,2026-06-25
+The Riviera Country Club,sg_app,-0.0286,-0.019,0.0073,17,1,0.353,85.0,0.0,2024-02-18,Travelers Championship,2026-06-25
+TPC Scottsdale (Stadium Course),sg_total,-0.0264,-0.019,0.0143,18,1,0.389,83.7778,0.0001,2025-02-09,Travelers Championship,2026-06-25
+Hamilton Golf & Country Club,sg_app,-0.061,-0.0197,0.0062,2,0,0.0,55.0,0.0,2024-06-02,Travelers Championship,2026-06-25
+TPC Scottsdale (Stadium Course),sg_arg,-0.0245,-0.0198,0.0111,18,1,0.389,83.3333,0.0,2025-02-09,Travelers Championship,2026-06-25
+Augusta National Golf Club,sg_putt,-0.0224,-0.0202,0.0103,5,0,0.6,44.8,0.0,2025-04-13,Travelers Championship,2026-06-25
+Harbour Town Golf Links,sg_putt,-0.0216,-0.0214,0.0129,21,1,0.524,85.8095,0.0,2025-04-20,Travelers Championship,2026-06-25
+PGA National  - Champion Course,sg_arg,-0.0309,-0.0236,0.0093,2,0,0.5,36.0,0.0,2025-03-02,Travelers Championship,2026-06-25
+TPC Sawgrass - THE PLAYERS Stadium Course,sg_putt,-0.0296,-0.0244,0.0123,19,2,0.421,85.6316,0.0,2025-03-16,Travelers Championship,2026-06-25
+PGA National  - Champion Course,sg_total,-0.0447,-0.0249,0.0061,2,0,0.5,36.0,0.0,2025-03-02,Travelers Championship,2026-06-25
+PGA National Resort (The Champion),sg_putt,-0.0282,-0.0275,0.0151,16,2,0.438,93.125,0.0,2023-02-26,Travelers Championship,2026-06-25
+TPC Craig Ranch,sg_ott,-0.0389,-0.0297,0.0042,2,0,0.5,100.5,0.0,2025-05-04,Travelers Championship,2026-06-25
+TPC Craig Ranch,sg_app,-0.0599,-0.03,0.0151,3,0,0.333,40.6667,0.0,2025-05-04,Travelers Championship,2026-06-25
+TPC San Antonio - The Oaks Course,sg_ott,-0.042,-0.0309,0.0095,15,1,0.333,91.1333,0.0,2025-04-06,Travelers Championship,2026-06-25
+PGA National Resort (The Champion),sg_arg,-0.0498,-0.0328,0.0074,16,0,0.188,93.125,0.0,2023-02-26,Travelers Championship,2026-06-25
+TPC San Antonio - The Oaks Course,sg_putt,-0.0348,-0.0331,0.0137,15,0,0.533,91.1333,0.0,2025-04-06,Travelers Championship,2026-06-25
+Augusta National Golf Club,sg_total,-0.0317,-0.0334,0.0455,20,2,0.45,32.0,0.0,2025-04-13,Travelers Championship,2026-06-25
+Le Triomphe G&CC,sg_total,-0.0662,-0.0334,0.0584,5,1,0.4,12.2,0.0,2022-03-20,Travelers Championship,2026-06-25
+TPC Southwind,sg_arg,-0.0354,-0.0342,0.0187,14,2,0.429,98.1429,0.0,2018-06-10,Travelers Championship,2026-06-25
+PGA National  - Champion Course,sg_app,-0.0476,-0.0384,0.012,2,0,0.5,36.0,0.0,2025-03-02,Travelers Championship,2026-06-25
+Poppy Hills,sg_ott,-0.0721,-0.0395,0.0328,3,1,0.333,33.6667,0.0,2009-02-15,Travelers Championship,2026-06-25
+Trump National Doral - Blue Monster Course,sg_arg,-0.0362,-0.0396,0.0394,9,2,0.556,18.6667,0.0,2015-03-08,Travelers Championship,2026-06-25
+Torrey Pines Golf Course (South Course),sg_app,-0.0456,-0.0397,0.0196,17,0,0.353,56.8235,0.0,2025-02-16,Travelers Championship,2026-06-25
+The CC at Wakefield Plantation,sg_total,-0.0327,-0.0399,0.0795,3,1,0.667,11.0,0.0,2019-06-02,Travelers Championship,2026-06-25
+Monterey Peninsula CC,sg_putt,-0.0435,-0.0419,0.0364,12,2,0.5,27.3333,0.0,2023-02-05,Travelers Championship,2026-06-25
+Torrey Pines (South),sg_total,-0.0443,-0.0429,0.0114,2,0,0.5,45.5,0.0,2021-06-20,Travelers Championship,2026-06-25
+Memorial Park Golf Course,sg_app,-0.0445,-0.0514,0.023,2,0,0.5,32.5,0.0,2025-03-30,Travelers Championship,2026-06-25
+PGA National  - Champion Course,sg_putt,-0.0871,-0.054,0.0134,2,0,0.0,36.0,0.0,2025-03-02,Travelers Championship,2026-06-25
+TPC Louisiana,sg_app,-0.1051,-0.0563,0.0112,2,0,0.0,60.5,0.0,2025-04-27,Travelers Championship,2026-06-25
+Memorial Park Golf Course,sg_total,-0.0666,-0.0566,0.021,2,0,0.5,32.5,0.0,2025-03-30,Travelers Championship,2026-06-25
+TPC Craig Ranch,sg_putt,-0.0568,-0.0576,0.01,2,0,0.5,100.5,0.0,2025-05-04,Travelers Championship,2026-06-25
+Hillcrest Country Club,sg_ott,-0.0873,-0.0601,0.0096,2,0,0.0,103.5,0.0,2005-06-26,Travelers Championship,2026-06-25
+Hamilton Golf & Country Club,sg_ott,-0.118,-0.0718,0.0144,2,0,0.0,55.0,0.0,2024-06-02,Travelers Championship,2026-06-25
+Club de Golf Chapultepec,sg_putt,-0.119,-0.0787,0.0291,4,0,0.0,26.5,0.0,2020-02-23,Travelers Championship,2026-06-25
+Club de Golf Chapultepec,sg_ott,-0.0938,-0.0847,0.0368,4,0,0.5,26.5,0.0,2020-02-23,Travelers Championship,2026-06-25
+TPC Deere Run,sg_arg,-0.114,-0.0871,0.0149,2,0,0.0,98.5,0.0,2005-07-10,Travelers Championship,2026-06-25
+Poppy Hills,sg_app,-0.0521,-0.0883,0.0623,3,0,0.667,33.6667,0.0,2009-02-15,Travelers Championship,2026-06-25
+Redstone GC (Fall Creek),sg_total,-0.0787,-0.0896,0.0522,2,1,0.5,104.0,0.0,2005-04-24,Travelers Championship,2026-06-25
+Spyglass Hill Golf Course,sg_arg,-0.1038,-0.0901,0.0444,18,1,0.389,28.7222,0.0,2025-02-02,Travelers Championship,2026-06-25
+Redstone GC (Fall Creek),sg_arg,-0.1062,-0.0955,0.0198,2,0,0.0,104.0,0.0,2005-04-24,Travelers Championship,2026-06-25
+Redstone GC (Fall Creek),sg_putt,-0.1411,-0.1271,0.0313,2,0,0.0,104.0,0.0,2005-04-24,Travelers Championship,2026-06-25
+Le Triomphe G&CC,sg_app,-0.2076,-0.1426,0.066,3,0,0.333,15.6667,0.0,2022-03-20,Travelers Championship,2026-06-25
+Augusta National Golf Club,sg_app,-0.1783,-0.1619,0.0529,5,0,0.2,44.8,0.0,2025-04-13,Travelers Championship,2026-06-25
+Royal Troon,sg_total,-0.182,-0.178,0.0768,2,0,0.5,32.5,0.0,2016-07-17,Travelers Championship,2026-06-25
+Fox Den CC,sg_total,-0.1436,-0.183,0.2394,2,1,0.5,9.0,0.0,2019-05-19,Travelers Championship,2026-06-25
+Memorial Park Golf Course,sg_arg,-0.2943,-0.2618,0.1051,2,0,0.0,32.5,0.0,2025-03-30,Travelers Championship,2026-06-25

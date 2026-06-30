@@ -1,127 +1,127 @@
 rank,player_name,dg_id,lead_in_z,lead_in_raw,predictors_found,top_course,tournament,as_of_date
-1,"Young, Carson",23656,4.248,1.4541,2,Fundadores Course,John Deere Classic,2026-06-29
-2,"Suber, Jackson",29279,2.759,0.9254,3,Fundadores Course,John Deere Classic,2026-06-29
-3,"Brown, Blades",32152,1.956,0.6403,2,Fundadores Course,John Deere Classic,2026-06-29
-4,"Skinns, David",10873,1.937,0.6338,1,Fundadores Course,John Deere Classic,2026-06-29
-5,"Hoge, Tom",15575,1.221,0.3797,4,Pebble Beach Golf Links,John Deere Classic,2026-06-29
-6,"Hughes, Mackenzie",15556,1.199,0.3718,2,Memorial Park Golf Course,John Deere Classic,2026-06-29
-7,"Stanger, Jimmy",23048,1.156,0.3565,2,Fundadores Course,John Deere Classic,2026-06-29
-8,"Blair, Zac",17639,1.092,0.3337,2,Fundadores Course,John Deere Classic,2026-06-29
-9,"Bridgeman, Jacob",29433,1.074,0.3273,3,Pebble Beach Golf Links,John Deere Classic,2026-06-29
-10,"Villegas, Camilo",9171,1.061,0.3227,2,Fundadores Course,John Deere Classic,2026-06-29
-11,"Hisatsune, Ryo",22760,1.016,0.3069,3,Pebble Beach Golf Links,John Deere Classic,2026-06-29
-12,"McGreevy, Max",23505,0.928,0.2755,3,Pebble Beach Golf Links,John Deere Classic,2026-06-29
-13,"Brehm, Ryan",10423,0.909,0.2689,2,Fundadores Course,John Deere Classic,2026-06-29
-14,"Gotterup, Chris",27774,0.775,0.2214,4,Memorial Park Golf Course,John Deere Classic,2026-06-29
-15,"Fowler, Rickie",12965,0.767,0.2185,4,Pebble Beach Golf Links,John Deere Classic,2026-06-29
-16,"Kang, Jeffrey",21889,0.738,0.2082,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-17,"Dumont De Chassart, Adrien",22002,0.689,0.1906,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-18,"Brennan, Michael",29197,0.675,0.1859,2,Memorial Park Golf Course,John Deere Classic,2026-06-29
-19,"Kanaya, Takumi",19729,0.662,0.1812,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-20,"Novak, Andrew",23475,0.651,0.1771,3,Spyglass Hill Golf Course,John Deere Classic,2026-06-29
-21,"Hossler, Beau",15470,0.642,0.174,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-22,"Chatfield, Davis",30620,0.639,0.1731,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-23,"Paul, Jeremy",22087,0.624,0.1678,2,Fundadores Course,John Deere Classic,2026-06-29
-24,"Griffin, Lanto",15330,0.616,0.1649,1,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-29
-25,"Spieth, Jordan",14636,0.616,0.1648,3,Pebble Beach Golf Links,John Deere Classic,2026-06-29
-26,"Howell, Mason",33759,0.612,0.1634,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-27,"Bezuidenhout, Christiaan",18103,0.59,0.1554,2,Memorial Park Golf Course,John Deere Classic,2026-06-29
-28,"Ramey, Chad",19840,0.57,0.1485,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-29,"Putnam, Andrew",14704,0.525,0.1326,2,Memorial Park Golf Course,John Deere Classic,2026-06-29
-30,"Kuchar, Matt",6169,0.518,0.13,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-31,"Nyholm, Pontus",25475,0.471,0.1133,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-32,"Mitchell, Keith",17365,0.469,0.1128,4,Pebble Beach Golf Links,John Deere Classic,2026-06-29
-33,"Cole, Eric",21756,0.465,0.1113,2,Memorial Park Golf Course,John Deere Classic,2026-06-29
-34,"Riley, Davis",19872,0.444,0.1037,2,Memorial Park Golf Course,John Deere Classic,2026-06-29
-35,"Dunlap, Nick",28270,0.437,0.1012,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-36,"Dou, Zecheng",16757,0.425,0.0971,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-37,"Campos, Rafael",12909,0.404,0.0894,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-38,"Pavon, Matthieu",19960,0.386,0.0833,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-39,"Eckroat, Austin",26653,0.383,0.0821,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-40,"Whaley, Vince",25908,0.35,0.0705,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-41,"McCarthy, Denny",19870,0.342,0.0674,4,Memorial Park Golf Course,John Deere Classic,2026-06-29
-42,"Keefer, Johnny",32457,0.341,0.0672,2,Memorial Park Golf Course,John Deere Classic,2026-06-29
-43,"Moore, Taylor",21944,0.314,0.0578,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-44,"Ventura, Kris",15651,0.313,0.0573,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-45,"Vegas, Jhonattan",13508,0.3,0.0525,4,Memorial Park Golf Course,John Deere Classic,2026-06-29
-46,"Goodwin, Noah",24837,0.297,0.0515,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-29
-47,"Lebioda, Hank",21943,0.292,0.0497,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-48,"Fishburn, Patrick",25094,0.28,0.0455,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-49,"Ewart, A.J.",21883,0.274,0.0433,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-50,"Blanchet, Chandler",24956,0.259,0.0383,2,Aronimink Golf Club,John Deere Classic,2026-06-29
-51,"Crowe, Trace",27780,0.257,0.0375,1,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-29
-52,"Shipley, Neal",32055,0.23,0.0278,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-53,"Wise, Aaron",22051,0.214,0.0221,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-54,"Vilips, Karl",24304,0.21,0.0207,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-55,"Van Rooyen, Erik",17550,0.205,0.0188,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-56,"Highsmith, Joe",28469,0.19,0.0137,3,Aronimink Golf Club,John Deere Classic,2026-06-29
-57,"Kim, Tom",24766,0.177,0.0091,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-58,"Mouw, William",29770,0.162,0.0036,2,Aronimink Golf Club,John Deere Classic,2026-06-29
-59,"Todd, Brendon",12425,0.136,-0.0055,1,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-29
-60,"Hoey, Rico",23504,0.13,-0.0076,3,Memorial Park Golf Course,John Deere Classic,2026-06-29
-61,"Olesen, Thorbjorn",13412,0.125,-0.0095,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-62,"Ghim, Doug",24550,0.059,-0.0329,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-63,"Bradley, Keegan",13872,0.051,-0.0357,3,TPC River Highlands,John Deere Classic,2026-06-29
-64,"Finau, Tony",11676,0.048,-0.0367,3,Memorial Park Golf Course,John Deere Classic,2026-06-29
-65,"Yellamaraju, Sudarshan",29925,0.04,-0.0396,2,Memorial Park Golf Course,John Deere Classic,2026-06-29
-66,"Bauchou, Zach",19846,0.007,-0.0513,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-67,"Griffin, Ben",24968,-0.004,-0.0553,4,TPC River Highlands,John Deere Classic,2026-06-29
-68,"Homa, Max",17538,-0.016,-0.0595,1,Aronimink Golf Club,John Deere Classic,2026-06-29
-69,"Malnati, Peter",14926,-0.03,-0.0644,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-70,"Wu, Dylan",25002,-0.032,-0.065,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-71,"Meissner, Mac",28159,-0.034,-0.066,2,Memorial Park Golf Course,John Deere Classic,2026-06-29
-72,"Smotherman, Austin",22985,-0.035,-0.0662,1,Aronimink Golf Club,John Deere Classic,2026-06-29
-73,"Wallace, Matt",20706,-0.049,-0.0712,2,Aronimink Golf Club,John Deere Classic,2026-06-29
-74,"Sargent, Gordon",30814,-0.054,-0.073,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-75,"Hubbard, Mark",16333,-0.075,-0.0806,2,TPC River Highlands,John Deere Classic,2026-06-29
-76,"Tosti, Alejandro",17032,-0.084,-0.0837,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-77,"Kizzire, Patton",13470,-0.093,-0.0867,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-78,"Li, Haotong",15310,-0.122,-0.0973,2,Aronimink Golf Club,John Deere Classic,2026-06-29
-79,"Roy, Kevin",18424,-0.143,-0.1047,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-80,"Yu, Kevin",17881,-0.148,-0.1063,2,Memorial Park Golf Course,John Deere Classic,2026-06-29
-81,"Merritt, Troy",13367,-0.152,-0.1079,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-29
-82,"Svensson, Adam",13997,-0.155,-0.1088,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-83,"Lipsky, David",15980,-0.173,-0.1151,2,Aronimink Golf Club,John Deere Classic,2026-06-29
-84,"Coody, Pierceson",28309,-0.187,-0.1203,3,Pebble Beach Golf Links,John Deere Classic,2026-06-29
-85,"Greyserman, Max",23465,-0.198,-0.1242,3,Aronimink Golf Club,John Deere Classic,2026-06-29
-86,"Clanton, Luke",32330,-0.203,-0.1258,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-87,"VanDerLaan, John",25319,-0.203,-0.1257,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-88,"Garnett, Brice",11451,-0.208,-0.1277,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-89,"Gomez, Fabian",8571,-0.246,-0.1412,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-29
-90,"Potgieter, Aldrich",27900,-0.255,-0.1444,3,Aronimink Golf Club,John Deere Classic,2026-06-29
-91,"Kim, Michael",17543,-0.288,-0.156,3,TPC River Highlands,John Deere Classic,2026-06-29
-92,"Thompson, Davis",27364,-0.328,-0.1704,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-93,"Hirata, Kensei",20954,-0.345,-0.1764,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-94,"Lamprecht, Christo",24343,-0.35,-0.1782,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-95,"Hodges, Lee",25157,-0.35,-0.1781,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-96,"Jaeger, Stephan",16394,-0.366,-0.1838,3,Memorial Park Golf Course,John Deere Classic,2026-06-29
-97,"Noh, S.Y.",11117,-0.399,-0.1955,2,Fundadores Course,John Deere Classic,2026-06-29
-98,"Poston, J.T.",21554,-0.428,-0.2058,4,Aronimink Golf Club,John Deere Classic,2026-06-29
-99,"Higgo, Garrick",24342,-0.452,-0.2144,3,Pebble Beach Golf Links,John Deere Classic,2026-06-29
-100,"Fisk, Steven",26657,-0.459,-0.2168,3,Memorial Park Golf Course,John Deere Classic,2026-06-29
-101,"Grillo, Emiliano",12808,-0.497,-0.2303,3,Aronimink Golf Club,John Deere Classic,2026-06-29
-102,"Hadwin, Adam",13965,-0.508,-0.234,2,Fundadores Course,John Deere Classic,2026-06-29
-103,"Im, Sungjae",17488,-0.516,-0.2369,3,TPC River Highlands,John Deere Classic,2026-06-29
-104,"Power, Seamus",10104,-0.528,-0.2413,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-105,"Walker, Danny",25003,-0.531,-0.2422,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-106,"Berger, Daniel",17606,-0.55,-0.2492,3,Aronimink Golf Club,John Deere Classic,2026-06-29
-107,"List, Luke",7960,-0.554,-0.2506,1,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-29
-108,"Champ, Cameron",23542,-0.605,-0.2687,1,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-29
-109,"Schenk, Adam",19477,-0.749,-0.3196,3,Memorial Park Golf Course,John Deere Classic,2026-06-29
-110,"Rodgers, Patrick",16283,-0.751,-0.3204,3,Aronimink Golf Club,John Deere Classic,2026-06-29
-111,"Pendrith, Taylor",17780,-0.803,-0.339,4,Pebble Beach Golf Links,John Deere Classic,2026-06-29
-112,"Laird, Martin",9586,-0.892,-0.3706,2,Fundadores Course,John Deere Classic,2026-06-29
-113,"Phillips, Chandler",27164,-0.973,-0.399,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-114,"Peterson, Paul",16341,-0.983,-0.4027,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-29
-115,"Glover, Lucas",7399,-1.039,-0.4227,4,Pebble Beach Golf Links,John Deere Classic,2026-06-29
-116,"Higgs, Harry",14140,-1.107,-0.4468,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-29
-117,"Lower, Justin",17723,-1.18,-0.4728,1,Memorial Park Golf Course,John Deere Classic,2026-06-29
-118,"Thorbjornsen, Michael",26649,-1.375,-0.5418,3,Memorial Park Golf Course,John Deere Classic,2026-06-29
-119,"Hardy, Nick",19865,-1.498,-0.5854,1,Fundadores Course,John Deere Classic,2026-06-29
-120,"Campbell, Brian",18628,-1.832,-0.7041,4,TPC River Highlands,John Deere Classic,2026-06-29
-121,"Kim, Chan",15004,-2.085,-0.7939,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-29
-122,"Martin, Ben",14007,-2.373,-0.8962,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-29
-123,"Duncan, Tyler",18187,-2.417,-0.9118,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-29
-124,"Silverman, Ben",17381,-2.576,-0.9681,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-29
-125,"Kohles, Ben",16395,-2.782,-1.0415,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-29
-126,"Springer, Hayden",21995,-4.581,-1.6799,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-29
+1,"Young, Carson",23656,4.248,1.4541,2,Fundadores Course,John Deere Classic,2026-06-30
+2,"Suber, Jackson",29279,2.759,0.9254,3,Fundadores Course,John Deere Classic,2026-06-30
+3,"Brown, Blades",32152,1.956,0.6403,2,Fundadores Course,John Deere Classic,2026-06-30
+4,"Skinns, David",10873,1.937,0.6338,1,Fundadores Course,John Deere Classic,2026-06-30
+5,"Hoge, Tom",15575,1.221,0.3797,4,Pebble Beach Golf Links,John Deere Classic,2026-06-30
+6,"Hughes, Mackenzie",15556,1.199,0.3718,2,Memorial Park Golf Course,John Deere Classic,2026-06-30
+7,"Stanger, Jimmy",23048,1.156,0.3565,2,Fundadores Course,John Deere Classic,2026-06-30
+8,"Blair, Zac",17639,1.092,0.3337,2,Fundadores Course,John Deere Classic,2026-06-30
+9,"Bridgeman, Jacob",29433,1.074,0.3273,3,Pebble Beach Golf Links,John Deere Classic,2026-06-30
+10,"Villegas, Camilo",9171,1.061,0.3227,2,Fundadores Course,John Deere Classic,2026-06-30
+11,"Hisatsune, Ryo",22760,1.016,0.3069,3,Pebble Beach Golf Links,John Deere Classic,2026-06-30
+12,"McGreevy, Max",23505,0.928,0.2755,3,Pebble Beach Golf Links,John Deere Classic,2026-06-30
+13,"Brehm, Ryan",10423,0.909,0.2689,2,Fundadores Course,John Deere Classic,2026-06-30
+14,"Gotterup, Chris",27774,0.775,0.2214,4,Memorial Park Golf Course,John Deere Classic,2026-06-30
+15,"Fowler, Rickie",12965,0.767,0.2185,4,Pebble Beach Golf Links,John Deere Classic,2026-06-30
+16,"Kang, Jeffrey",21889,0.738,0.2082,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+17,"Dumont De Chassart, Adrien",22002,0.689,0.1906,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+18,"Brennan, Michael",29197,0.675,0.1859,2,Memorial Park Golf Course,John Deere Classic,2026-06-30
+19,"Kanaya, Takumi",19729,0.662,0.1812,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+20,"Novak, Andrew",23475,0.651,0.1771,3,Spyglass Hill Golf Course,John Deere Classic,2026-06-30
+21,"Hossler, Beau",15470,0.642,0.174,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+22,"Chatfield, Davis",30620,0.639,0.1731,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+23,"Paul, Jeremy",22087,0.624,0.1678,2,Fundadores Course,John Deere Classic,2026-06-30
+24,"Griffin, Lanto",15330,0.616,0.1649,1,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-30
+25,"Spieth, Jordan",14636,0.616,0.1648,3,Pebble Beach Golf Links,John Deere Classic,2026-06-30
+26,"Howell, Mason",33759,0.612,0.1634,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+27,"Bezuidenhout, Christiaan",18103,0.59,0.1554,2,Memorial Park Golf Course,John Deere Classic,2026-06-30
+28,"Ramey, Chad",19840,0.57,0.1485,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+29,"Putnam, Andrew",14704,0.525,0.1326,2,Memorial Park Golf Course,John Deere Classic,2026-06-30
+30,"Kuchar, Matt",6169,0.518,0.13,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+31,"Nyholm, Pontus",25475,0.471,0.1133,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+32,"Mitchell, Keith",17365,0.469,0.1128,4,Pebble Beach Golf Links,John Deere Classic,2026-06-30
+33,"Cole, Eric",21756,0.465,0.1113,2,Memorial Park Golf Course,John Deere Classic,2026-06-30
+34,"Riley, Davis",19872,0.444,0.1037,2,Memorial Park Golf Course,John Deere Classic,2026-06-30
+35,"Dunlap, Nick",28270,0.437,0.1012,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+36,"Dou, Zecheng",16757,0.425,0.0971,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+37,"Campos, Rafael",12909,0.404,0.0894,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+38,"Pavon, Matthieu",19960,0.386,0.0833,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+39,"Eckroat, Austin",26653,0.383,0.0821,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+40,"Whaley, Vince",25908,0.35,0.0705,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+41,"McCarthy, Denny",19870,0.342,0.0674,4,Memorial Park Golf Course,John Deere Classic,2026-06-30
+42,"Keefer, Johnny",32457,0.341,0.0672,2,Memorial Park Golf Course,John Deere Classic,2026-06-30
+43,"Moore, Taylor",21944,0.314,0.0578,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+44,"Ventura, Kris",15651,0.313,0.0573,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+45,"Vegas, Jhonattan",13508,0.3,0.0525,4,Memorial Park Golf Course,John Deere Classic,2026-06-30
+46,"Goodwin, Noah",24837,0.297,0.0515,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-30
+47,"Lebioda, Hank",21943,0.292,0.0497,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+48,"Fishburn, Patrick",25094,0.28,0.0455,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+49,"Ewart, A.J.",21883,0.274,0.0433,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+50,"Blanchet, Chandler",24956,0.259,0.0383,2,Aronimink Golf Club,John Deere Classic,2026-06-30
+51,"Crowe, Trace",27780,0.257,0.0375,1,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-30
+52,"Shipley, Neal",32055,0.23,0.0278,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+53,"Wise, Aaron",22051,0.214,0.0221,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+54,"Vilips, Karl",24304,0.21,0.0207,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+55,"Van Rooyen, Erik",17550,0.205,0.0188,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+56,"Highsmith, Joe",28469,0.19,0.0137,3,Aronimink Golf Club,John Deere Classic,2026-06-30
+57,"Kim, Tom",24766,0.177,0.0091,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+58,"Mouw, William",29770,0.162,0.0036,2,Aronimink Golf Club,John Deere Classic,2026-06-30
+59,"Todd, Brendon",12425,0.136,-0.0055,1,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-30
+60,"Hoey, Rico",23504,0.13,-0.0076,3,Memorial Park Golf Course,John Deere Classic,2026-06-30
+61,"Olesen, Thorbjorn",13412,0.125,-0.0095,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+62,"Ghim, Doug",24550,0.059,-0.0329,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+63,"Bradley, Keegan",13872,0.051,-0.0357,3,TPC River Highlands,John Deere Classic,2026-06-30
+64,"Finau, Tony",11676,0.048,-0.0367,3,Memorial Park Golf Course,John Deere Classic,2026-06-30
+65,"Yellamaraju, Sudarshan",29925,0.04,-0.0396,2,Memorial Park Golf Course,John Deere Classic,2026-06-30
+66,"Bauchou, Zach",19846,0.007,-0.0513,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+67,"Griffin, Ben",24968,-0.004,-0.0553,4,TPC River Highlands,John Deere Classic,2026-06-30
+68,"Homa, Max",17538,-0.016,-0.0595,1,Aronimink Golf Club,John Deere Classic,2026-06-30
+69,"Malnati, Peter",14926,-0.03,-0.0644,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+70,"Wu, Dylan",25002,-0.032,-0.065,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+71,"Meissner, Mac",28159,-0.034,-0.066,2,Memorial Park Golf Course,John Deere Classic,2026-06-30
+72,"Smotherman, Austin",22985,-0.035,-0.0662,1,Aronimink Golf Club,John Deere Classic,2026-06-30
+73,"Wallace, Matt",20706,-0.049,-0.0712,2,Aronimink Golf Club,John Deere Classic,2026-06-30
+74,"Sargent, Gordon",30814,-0.054,-0.073,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+75,"Hubbard, Mark",16333,-0.075,-0.0806,2,TPC River Highlands,John Deere Classic,2026-06-30
+76,"Tosti, Alejandro",17032,-0.084,-0.0837,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+77,"Kizzire, Patton",13470,-0.093,-0.0867,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+78,"Li, Haotong",15310,-0.122,-0.0973,2,Aronimink Golf Club,John Deere Classic,2026-06-30
+79,"Roy, Kevin",18424,-0.143,-0.1047,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+80,"Yu, Kevin",17881,-0.148,-0.1063,2,Memorial Park Golf Course,John Deere Classic,2026-06-30
+81,"Merritt, Troy",13367,-0.152,-0.1079,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-30
+82,"Svensson, Adam",13997,-0.155,-0.1088,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+83,"Lipsky, David",15980,-0.173,-0.1151,2,Aronimink Golf Club,John Deere Classic,2026-06-30
+84,"Coody, Pierceson",28309,-0.187,-0.1203,3,Pebble Beach Golf Links,John Deere Classic,2026-06-30
+85,"Greyserman, Max",23465,-0.198,-0.1242,3,Aronimink Golf Club,John Deere Classic,2026-06-30
+86,"Clanton, Luke",32330,-0.203,-0.1258,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+87,"VanDerLaan, John",25319,-0.203,-0.1257,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+88,"Garnett, Brice",11451,-0.208,-0.1277,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+89,"Gomez, Fabian",8571,-0.246,-0.1412,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-30
+90,"Potgieter, Aldrich",27900,-0.255,-0.1444,3,Aronimink Golf Club,John Deere Classic,2026-06-30
+91,"Kim, Michael",17543,-0.288,-0.156,3,TPC River Highlands,John Deere Classic,2026-06-30
+92,"Thompson, Davis",27364,-0.328,-0.1704,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+93,"Hirata, Kensei",20954,-0.345,-0.1764,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+94,"Lamprecht, Christo",24343,-0.35,-0.1782,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+95,"Hodges, Lee",25157,-0.35,-0.1781,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+96,"Jaeger, Stephan",16394,-0.366,-0.1838,3,Memorial Park Golf Course,John Deere Classic,2026-06-30
+97,"Noh, S.Y.",11117,-0.399,-0.1955,2,Fundadores Course,John Deere Classic,2026-06-30
+98,"Poston, J.T.",21554,-0.428,-0.2058,4,Aronimink Golf Club,John Deere Classic,2026-06-30
+99,"Higgo, Garrick",24342,-0.452,-0.2144,3,Pebble Beach Golf Links,John Deere Classic,2026-06-30
+100,"Fisk, Steven",26657,-0.459,-0.2168,3,Memorial Park Golf Course,John Deere Classic,2026-06-30
+101,"Grillo, Emiliano",12808,-0.497,-0.2303,3,Aronimink Golf Club,John Deere Classic,2026-06-30
+102,"Hadwin, Adam",13965,-0.508,-0.234,2,Fundadores Course,John Deere Classic,2026-06-30
+103,"Im, Sungjae",17488,-0.516,-0.2369,3,TPC River Highlands,John Deere Classic,2026-06-30
+104,"Power, Seamus",10104,-0.528,-0.2413,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+105,"Walker, Danny",25003,-0.531,-0.2422,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+106,"Berger, Daniel",17606,-0.55,-0.2492,3,Aronimink Golf Club,John Deere Classic,2026-06-30
+107,"List, Luke",7960,-0.554,-0.2506,1,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-30
+108,"Champ, Cameron",23542,-0.605,-0.2687,1,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-30
+109,"Schenk, Adam",19477,-0.749,-0.3196,3,Memorial Park Golf Course,John Deere Classic,2026-06-30
+110,"Rodgers, Patrick",16283,-0.751,-0.3204,3,Aronimink Golf Club,John Deere Classic,2026-06-30
+111,"Pendrith, Taylor",17780,-0.803,-0.339,4,Pebble Beach Golf Links,John Deere Classic,2026-06-30
+112,"Laird, Martin",9586,-0.892,-0.3706,2,Fundadores Course,John Deere Classic,2026-06-30
+113,"Phillips, Chandler",27164,-0.973,-0.399,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+114,"Peterson, Paul",16341,-0.983,-0.4027,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-30
+115,"Glover, Lucas",7399,-1.039,-0.4227,4,Pebble Beach Golf Links,John Deere Classic,2026-06-30
+116,"Higgs, Harry",14140,-1.107,-0.4468,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-30
+117,"Lower, Justin",17723,-1.18,-0.4728,1,Memorial Park Golf Course,John Deere Classic,2026-06-30
+118,"Thorbjornsen, Michael",26649,-1.375,-0.5418,3,Memorial Park Golf Course,John Deere Classic,2026-06-30
+119,"Hardy, Nick",19865,-1.498,-0.5854,1,Fundadores Course,John Deere Classic,2026-06-30
+120,"Campbell, Brian",18628,-1.832,-0.7041,4,TPC River Highlands,John Deere Classic,2026-06-30
+121,"Kim, Chan",15004,-2.085,-0.7939,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-30
+122,"Martin, Ben",14007,-2.373,-0.8962,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-30
+123,"Duncan, Tyler",18187,-2.417,-0.9118,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-30
+124,"Silverman, Ben",17381,-2.576,-0.9681,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-30
+125,"Kohles, Ben",16395,-2.782,-1.0415,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-30
+126,"Springer, Hayden",21995,-4.581,-1.6799,2,The Landings Golf & Athletic Club - Deer Creek,John Deere Classic,2026-06-30

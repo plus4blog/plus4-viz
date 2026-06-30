@@ -797,6 +797,83 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 12909,"Campos, Rafael",54,Nashville Golf & Athletic Club,sg_total,0.38715376137289254,2019-05-05,-0.0014495807115248852,669,TPC Deere Run
 12909,"Campos, Rafael",22,Highland Springs Country Club,sg_total,1.1395482505630916,2023-07-23,-0.008442218468827147,669,TPC Deere Run
 12909,"Campos, Rafael",82,Greystone Golf & Country Club,sg_total,0.8258216124065276,2023-07-30,-0.010962378360805086,669,TPC Deere Run
+23542,"Champ, Cameron",935,TPC Toronto at Osprey Valley - North Course,sg_app,0.7626927618679156,2025-06-08,0.0208410495155725,669,TPC Deere Run
+23542,"Champ, Cameron",930,Black Desert Resort,sg_app,1.486870259239828,2025-10-26,0.017675598403617578,669,TPC Deere Run
+23542,"Champ, Cameron",669,TPC Deere Run,sg_app,2.6575679741755023,2025-07-06,0.016660922358429663,669,TPC Deere Run
+23542,"Champ, Cameron",876,Detroit Golf Club,sg_app,2.869144546784288,2025-06-29,0.014807896471470443,669,TPC Deere Run
+23542,"Champ, Cameron",503,TPC River Highlands,sg_app,0.9874668657505534,2023-06-25,0.012014992151777242,669,TPC Deere Run
+23542,"Champ, Cameron",894,TPC Craig Ranch,sg_app,0.6181282628346674,2022-05-15,0.009314430961642688,669,TPC Deere Run
+23542,"Champ, Cameron",878,Shadow Creek Golf Course,sg_app,0.23300392035501044,2020-10-18,0.00871087566894239,669,TPC Deere Run
+23542,"Champ, Cameron",611,Southern Hills Country Club,sg_app,0.3499377491111553,2022-05-22,0.008421983470636014,669,TPC Deere Run
+23542,"Champ, Cameron",898,The Concession Golf Club,sg_app,0.25573845932435846,2021-02-28,0.006988779839168466,669,TPC Deere Run
+23542,"Champ, Cameron",700,TPC Boston,sg_app,0.22404687177972268,2020-08-23,0.005263336272734547,669,TPC Deere Run
+23542,"Champ, Cameron",5,Pebble Beach Golf Links,sg_app,0.15138939298156753,2019-02-10,0.005012433010678674,669,TPC Deere Run
+23542,"Champ, Cameron",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_app,0.946773033184158,2022-03-13,0.004558083208135767,669,TPC Deere Run
+23542,"Champ, Cameron",874,Hamilton Golf & Country Club,sg_app,0.5882519126242561,2024-06-02,0.0038278954390666728,669,TPC Deere Run
+23542,"Champ, Cameron",688,East Lake Golf Club,sg_app,0.22641175785796963,2020-09-07,0.003551796535545284,669,TPC Deere Run
+23542,"Champ, Cameron",21,Colonial Country Club,sg_app,1.1025365537693153,2023-05-28,0.0034965339314980194,669,TPC Deere Run
+23542,"Champ, Cameron",744,Torrey Pines (South),sg_app,0.27659525904788984,2021-06-20,-0.0009019339916273197,669,TPC Deere Run
+23542,"Champ, Cameron",893,Muirfield Village Golf Club,sg_app,0.21755578034014167,2020-07-12,-0.0073864618409307066,669,TPC Deere Run
+23542,"Champ, Cameron",12,Harbour Town Golf Links,sg_app,0.5995560252191794,2023-04-16,-0.011564527077281096,669,TPC Deere Run
+23542,"Champ, Cameron",925,Dunes Golf and Beach Club,sg_app,0.747889529312135,2025-05-11,-0.03112066729719732,669,TPC Deere Run
+23542,"Champ, Cameron",669,TPC Deere Run,sg_arg,2.6575679741755023,2025-07-06,0.021333243866107538,669,TPC Deere Run
+23542,"Champ, Cameron",538,TPC Summerlin,sg_arg,2.087262848145308,2024-10-20,0.013043913890972827,669,TPC Deere Run
+23542,"Champ, Cameron",930,Black Desert Resort,sg_arg,1.486870259239828,2025-10-26,0.0062207306175372295,669,TPC Deere Run
+23542,"Champ, Cameron",934,Hurstbourne Country Club,sg_arg,0.7816095185809454,2025-07-13,0.0034262368483836984,669,TPC Deere Run
+23542,"Champ, Cameron",908,Oakdale Golf & Country Club,sg_arg,0.4581768655907734,2023-06-11,0.003345464162878522,669,TPC Deere Run
+23542,"Champ, Cameron",928,PGA National  - Champion Course,sg_arg,0.5519487948283024,2024-03-03,0.0027822263637019774,669,TPC Deere Run
+23542,"Champ, Cameron",895,TPC Harding Park,sg_arg,0.22186193610781427,2020-08-09,0.002537243095898299,669,TPC Deere Run
+23542,"Champ, Cameron",891,Winged Foot GC,sg_arg,0.22848150793434407,2020-09-20,0.0023864531696949436,669,TPC Deere Run
+23542,"Champ, Cameron",769,Monterey Peninsula CC,sg_arg,0.32513981147609855,2022-02-06,0.0018174766195515096,669,TPC Deere Run
+23542,"Champ, Cameron",348,Medinah Country Club (No. 3),sg_arg,0.17280352906342122,2019-08-18,0.0014039812769431356,669,TPC Deere Run
+23542,"Champ, Cameron",729,Golf Club of Houston,sg_arg,0.17971194778628552,2019-10-13,0.0007255175968161699,669,TPC Deere Run
+23542,"Champ, Cameron",872,Quail Hollow Club,sg_arg,0.6076459315325164,2023-05-07,-0.001532946281972791,669,TPC Deere Run
+23542,"Champ, Cameron",925,Dunes Golf and Beach Club,sg_arg,0.747889529312135,2025-05-11,-0.0018792278593779772,669,TPC Deere Run
+23542,"Champ, Cameron",14,Augusta National Golf Club,sg_arg,1.0415784518546278,2023-04-09,-0.0027845021331134503,669,TPC Deere Run
+23542,"Champ, Cameron",744,Torrey Pines (South),sg_arg,0.27659525904788984,2021-06-20,-0.00734458144290002,669,TPC Deere Run
+23542,"Champ, Cameron",876,Detroit Golf Club,sg_ott,2.869144546784288,2025-06-29,0.03075802964067123,669,TPC Deere Run
+23542,"Champ, Cameron",746,The Country Club of Jackson,sg_ott,2.2871673589478565,2025-10-05,0.03044530627909274,669,TPC Deere Run
+23542,"Champ, Cameron",897,Memorial Park Golf Course,sg_ott,0.9584150342478504,2024-03-31,0.015852440643029247,669,TPC Deere Run
+23542,"Champ, Cameron",874,Hamilton Golf & Country Club,sg_ott,0.5882519126242561,2024-06-02,0.007406845450366364,669,TPC Deere Run
+23542,"Champ, Cameron",348,Medinah Country Club (No. 3),sg_ott,0.17280352906342122,2019-08-18,0.0062431046622720004,669,TPC Deere Run
+23542,"Champ, Cameron",884,Keene Trace Golf Club (Champion Trace),sg_ott,0.6058032594484248,2024-07-14,0.005576476671759676,669,TPC Deere Run
+23542,"Champ, Cameron",880,Bethpage Black,sg_ott,0.16213920866510756,2019-05-19,0.005338339032205246,669,TPC Deere Run
+23542,"Champ, Cameron",925,Dunes Golf and Beach Club,sg_ott,0.747889529312135,2025-05-11,0.0052883538065790926,669,TPC Deere Run
+23542,"Champ, Cameron",895,TPC Harding Park,sg_ott,0.22186193610781427,2020-08-09,0.004331207462028105,669,TPC Deere Run
+23542,"Champ, Cameron",889,Sea Island Golf Club (Plantation Course),sg_ott,0.8578723215068266,2025-11-23,0.004227606054799439,669,TPC Deere Run
+23542,"Champ, Cameron",513,TPC Southwind,sg_ott,0.5070245302711033,2021-08-08,0.0036405273171641996,669,TPC Deere Run
+23542,"Champ, Cameron",894,TPC Craig Ranch,sg_ott,0.6181282628346674,2022-05-15,0.0034575931417226025,669,TPC Deere Run
+23542,"Champ, Cameron",744,Torrey Pines (South),sg_ott,0.27659525904788984,2021-06-20,0.0027435468695838185,669,TPC Deere Run
+23542,"Champ, Cameron",882,Caves Valley Golf Club,sg_ott,0.2904859699703038,2021-08-29,0.0004999026864449816,669,TPC Deere Run
+23542,"Champ, Cameron",729,Golf Club of Houston,sg_ott,0.17971194778628552,2019-10-13,-0.0009621937942036154,669,TPC Deere Run
+23542,"Champ, Cameron",934,Hurstbourne Country Club,sg_ott,0.7816095185809454,2025-07-13,-0.001799043963096066,669,TPC Deere Run
+23542,"Champ, Cameron",669,TPC Deere Run,sg_ott,2.6575679741755023,2025-07-06,-0.0019868036192385676,669,TPC Deere Run
+23542,"Champ, Cameron",928,PGA National  - Champion Course,sg_ott,0.5519487948283024,2024-03-03,-0.0036134791936810163,669,TPC Deere Run
+23542,"Champ, Cameron",611,Southern Hills Country Club,sg_ott,0.3499377491111553,2022-05-22,-0.004522589698025494,669,TPC Deere Run
+23542,"Champ, Cameron",921,TPC Craig Ranch,sg_ott,1.7703522998095265,2025-05-04,-0.004830218538998625,669,TPC Deere Run
+23542,"Champ, Cameron",931,Tahoe Mountain Club (Old Greenwood),sg_ott,0.6087789799811087,2024-07-21,-0.014039224264769643,669,TPC Deere Run
+23542,"Champ, Cameron",669,TPC Deere Run,sg_putt,2.6575679741755023,2025-07-06,0.01485162337910756,669,TPC Deere Run
+23542,"Champ, Cameron",931,Tahoe Mountain Club (Old Greenwood),sg_putt,0.6087789799811087,2024-07-21,0.012739814735165346,669,TPC Deere Run
+23542,"Champ, Cameron",510,TPC Scottsdale (Stadium Course),sg_putt,1.3681076092363216,2024-02-11,0.005455175173068637,669,TPC Deere Run
+23542,"Champ, Cameron",744,Torrey Pines (South),sg_putt,0.27659525904788984,2021-06-20,0.004321858628986885,669,TPC Deere Run
+23542,"Champ, Cameron",32,Glen Abbey GC,sg_putt,0.13198064446345864,2018-07-29,0.0028246771674643677,669,TPC Deere Run
+23542,"Champ, Cameron",2000,Sherwood Country Club,sg_putt,0.23414844135119578,2020-10-25,0.0027199815417500313,669,TPC Deere Run
+23542,"Champ, Cameron",880,Bethpage Black,sg_putt,0.16213920866510756,2019-05-19,0.0017197103100551488,669,TPC Deere Run
+23542,"Champ, Cameron",928,PGA National  - Champion Course,sg_putt,0.5519487948283024,2024-03-03,-0.0002675436924278142,669,TPC Deere Run
+23542,"Champ, Cameron",898,The Concession Golf Club,sg_putt,0.25573845932435846,2021-02-28,-0.0002908142823614992,669,TPC Deere Run
+23542,"Champ, Cameron",893,Muirfield Village Golf Club,sg_putt,0.21755578034014167,2020-07-12,-0.00029751311532814467,669,TPC Deere Run
+23542,"Champ, Cameron",205,Spyglass Hill Golf Course,sg_putt,0.1953231329166501,2020-02-09,-0.00084126134999685,669,TPC Deere Run
+23542,"Champ, Cameron",348,Medinah Country Club (No. 3),sg_putt,0.17280352906342122,2019-08-18,-0.0025613341759745407,669,TPC Deere Run
+23542,"Champ, Cameron",891,Winged Foot GC,sg_putt,0.22848150793434407,2020-09-20,-0.008070202942837659,669,TPC Deere Run
+23542,"Champ, Cameron",926,Silverado Resort (North Course),sg_putt,1.9406778217658003,2025-09-14,-0.011356100062059832,669,TPC Deere Run
+23542,"Champ, Cameron",12,Harbour Town Golf Links,sg_putt,0.5995560252191794,2023-04-16,-0.016748282559294538,669,TPC Deere Run
+23542,"Champ, Cameron",889,Sea Island Golf Club (Plantation Course),sg_putt,0.8578723215068266,2025-11-23,-0.03675300538899625,669,TPC Deere Run
+23542,"Champ, Cameron",922,Dye's Valley Course,sg_total,0.8705761892971605,2025-12-14,0.009747338941966496,669,TPC Deere Run
+23542,"Champ, Cameron",641,Crestview Country Club,sg_total,0.12878640784940495,2018-06-24,0.0023001756010032595,669,TPC Deere Run
+23542,"Champ, Cameron",54,Nashville Golf & Athletic Club,sg_total,0.12628677072062294,2018-05-27,0.0019171583632830412,669,TPC Deere Run
+23542,"Champ, Cameron",790,Pumpkin Ridge GC - W. Hollow,sg_total,0.1336541213480304,2018-08-16,-0.0005696605721962584,669,TPC Deere Run
+23542,"Champ, Cameron",87,Raleigh Country Club,sg_total,0.758964708524664,2025-06-01,-0.0026026694378785673,669,TPC Deere Run
+23542,"Champ, Cameron",659,Club de Golf de Panama,sg_total,1.5992594877912554,2026-02-01,-0.01376337063536606,669,TPC Deere Run
 30620,"Chatfield, Davis",935,TPC Toronto at Osprey Valley - North Course,sg_app,0.9888624864995005,2026-06-14,0.015544452627813619,669,TPC Deere Run
 30620,"Chatfield, Davis",21,Colonial Country Club,sg_app,0.9792189645694596,2026-05-31,-0.027201271781633254,669,TPC Deere Run
 30620,"Chatfield, Davis",925,Dunes Golf and Beach Club,sg_app,0.9649297289843224,2026-05-10,-0.033536419011971935,669,TPC Deere Run
@@ -1348,6 +1425,19 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 21883,"Ewart, A.J.",928,PGA National  - Champion Course,sg_putt,0.9187878794239642,2026-03-01,0.02890943687184788,669,TPC Deere Run
 21883,"Ewart, A.J.",510,TPC Scottsdale (Stadium Course),sg_putt,0.9053804833900955,2026-02-08,-0.00838976135975013,669,TPC Deere Run
 21883,"Ewart, A.J.",922,Dye's Valley Course,sg_total,0.8705761892971605,2025-12-14,0.030166141958825388,669,TPC Deere Run
+26656,"Feagles, Michael",669,TPC Deere Run,sg_app,0.2806912410655934,2021-07-11,0.0,669,TPC Deere Run
+26656,"Feagles, Michael",669,TPC Deere Run,sg_arg,0.2806912410655934,2021-07-11,0.0,669,TPC Deere Run
+26656,"Feagles, Michael",669,TPC Deere Run,sg_ott,0.2806912410655934,2021-07-11,0.0,669,TPC Deere Run
+26656,"Feagles, Michael",669,TPC Deere Run,sg_putt,0.2806912410655934,2021-07-11,0.0,669,TPC Deere Run
+26656,"Feagles, Michael",111,Tascosa Golf Club - La Paloma Course,sg_total,0.9888624864995005,2026-06-14,0.011597867377249962,669,TPC Deere Run
+26656,"Feagles, Michael",82,Greystone Golf & Country Club,sg_total,0.8258216124065276,2023-07-30,0.007947156673459637,669,TPC Deere Run
+26656,"Feagles, Michael",641,Crestview Country Club,sg_total,0.817291627982133,2023-06-18,0.005188636293330154,669,TPC Deere Run
+26656,"Feagles, Michael",83,Landings Club-Marshwood Course,sg_total,0.39388353887114447,2022-11-07,0.0014503777436029794,669,TPC Deere Run
+26656,"Feagles, Michael",808,TPC Colorado,sg_total,0.36037864810308423,2022-07-03,-0.0038511373206516807,669,TPC Deere Run
+26656,"Feagles, Michael",646,The CC at Wakefield Plantation,sg_total,0.3533839980910108,2022-06-05,-0.0061116524372658715,669,TPC Deere Run
+26656,"Feagles, Michael",87,Raleigh Country Club,sg_total,1.435156254959096,2026-05-31,-0.022665806016197425,669,TPC Deere Run
+26656,"Feagles, Michael",22,Highland Springs Country Club,sg_total,0.8375625780463105,2023-07-23,-0.028417980754274774,669,TPC Deere Run
+26656,"Feagles, Michael",659,Club de Golf de Panama,sg_total,1.6455913222883363,2026-02-01,-0.029026758013786014,669,TPC Deere Run
 11676,"Finau, Tony",688,East Lake Golf Club,sg_app,1.793954283208223,2023-08-27,0.01054652116345038,669,TPC Deere Run
 11676,"Finau, Tony",700,TPC Boston,sg_app,0.6086297813115864,2020-08-23,0.007982254112915418,669,TPC Deere Run
 11676,"Finau, Tony",608,Oakmont Country Club,sg_app,0.7664391275010192,2025-06-15,0.005166881382575344,669,TPC Deere Run
@@ -2050,6 +2140,38 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 8571,"Gomez, Fabian",87,Raleigh Country Club,sg_total,2.3264355857183796,2026-05-31,0.010008509332949573,669,TPC Deere Run
 8571,"Gomez, Fabian",96,The Patriot Golf Club,sg_total,0.8289462194135897,2025-10-05,-0.007917686437507152,669,TPC Deere Run
 8571,"Gomez, Fabian",94,Jimmie Austin OU Golf Club,sg_total,0.5969630859982419,2024-06-23,-0.014636334350330526,669,TPC Deere Run
+24837,"Goodwin, Noah",930,Black Desert Resort,sg_app,0.8412217328119359,2025-10-26,0.013901731508486346,669,TPC Deere Run
+24837,"Goodwin, Noah",935,TPC Toronto at Osprey Valley - North Course,sg_app,0.7626927618679156,2025-06-08,0.0012030557832456762,669,TPC Deere Run
+24837,"Goodwin, Noah",925,Dunes Golf and Beach Club,sg_app,1.7128192582964574,2026-05-10,-0.007432966333465345,669,TPC Deere Run
+24837,"Goodwin, Noah",618,Shinnecock Hills Golf Club,sg_app,0.12815689800959415,2018-06-17,-0.01204889154485432,669,TPC Deere Run
+24837,"Goodwin, Noah",876,Detroit Golf Club,sg_app,0.7739871558802971,2025-06-29,-0.018566449915004696,669,TPC Deere Run
+24837,"Goodwin, Noah",669,TPC Deere Run,sg_app,0.7777889998549955,2025-07-06,-0.037416646208774516,669,TPC Deere Run
+24837,"Goodwin, Noah",930,Black Desert Resort,sg_arg,0.8412217328119359,2025-10-26,0.007001738141742556,669,TPC Deere Run
+24837,"Goodwin, Noah",925,Dunes Golf and Beach Club,sg_arg,1.7128192582964574,2026-05-10,-0.00039091530858564015,669,TPC Deere Run
+24837,"Goodwin, Noah",934,Hurstbourne Country Club,sg_arg,0.7816095185809454,2025-07-13,-0.0025374996908101746,669,TPC Deere Run
+24837,"Goodwin, Noah",669,TPC Deere Run,sg_arg,0.7777889998549955,2025-07-06,-0.018462564884394732,669,TPC Deere Run
+24837,"Goodwin, Noah",746,The Country Club of Jackson,sg_ott,0.8289462194135897,2025-10-05,0.008666348409095973,669,TPC Deere Run
+24837,"Goodwin, Noah",897,Memorial Park Golf Course,sg_ott,0.7262216556082645,2025-03-30,0.008340393333208528,669,TPC Deere Run
+24837,"Goodwin, Noah",934,Hurstbourne Country Club,sg_ott,0.7816095185809454,2025-07-13,0.002341923985425602,669,TPC Deere Run
+24837,"Goodwin, Noah",243,Trinity Forest Golf Club,sg_ott,0.12566947914355275,2018-05-20,0.0007024317205949313,669,TPC Deere Run
+24837,"Goodwin, Noah",618,Shinnecock Hills Golf Club,sg_ott,0.12815689800959415,2018-06-17,-0.0011410446443626632,669,TPC Deere Run
+24837,"Goodwin, Noah",925,Dunes Golf and Beach Club,sg_ott,1.7128192582964574,2026-05-10,-0.003256937254353877,669,TPC Deere Run
+24837,"Goodwin, Noah",669,TPC Deere Run,sg_ott,0.7777889998549955,2025-07-06,-0.012461758154060783,669,TPC Deere Run
+24837,"Goodwin, Noah",921,TPC Craig Ranch,sg_ott,0.744233834385509,2025-05-04,-0.016548376212554054,669,TPC Deere Run
+24837,"Goodwin, Noah",876,Detroit Golf Club,sg_ott,0.7739871558802971,2025-06-29,-0.016697713182304123,669,TPC Deere Run
+24837,"Goodwin, Noah",889,Sea Island Golf Club (Plantation Course),sg_ott,0.8578723215068266,2025-11-23,-0.021245395335225035,669,TPC Deere Run
+24837,"Goodwin, Noah",926,Silverado Resort (North Course),sg_putt,0.8168498362294491,2025-09-14,-0.00772790549996769,669,TPC Deere Run
+24837,"Goodwin, Noah",669,TPC Deere Run,sg_putt,0.7777889998549955,2025-07-06,-0.01503988652523155,669,TPC Deere Run
+24837,"Goodwin, Noah",889,Sea Island Golf Club (Plantation Course),sg_putt,0.8578723215068266,2025-11-23,-0.016222663911878158,669,TPC Deere Run
+24837,"Goodwin, Noah",22,Highland Springs Country Club,sg_total,1.0806262151911148,2024-07-21,0.01810859898641075,669,TPC Deere Run
+24837,"Goodwin, Noah",922,Dye's Valley Course,sg_total,0.8705761892971605,2025-12-14,0.0095788805593704,669,TPC Deere Run
+24837,"Goodwin, Noah",641,Crestview Country Club,sg_total,1.0544725633681353,2024-06-16,0.006493622069825055,669,TPC Deere Run
+24837,"Goodwin, Noah",87,Raleigh Country Club,sg_total,2.023408167583352,2026-05-31,0.004100481849930511,669,TPC Deere Run
+24837,"Goodwin, Noah",94,Jimmie Austin OU Golf Club,sg_total,0.5969630859982419,2024-06-23,0.0024114493485116618,669,TPC Deere Run
+24837,"Goodwin, Noah",111,Tascosa Golf Club - La Paloma Course,sg_total,0.9888624864995005,2026-06-14,-0.00298254968124951,669,TPC Deere Run
+24837,"Goodwin, Noah",93,Vanderbilt Legends Club,sg_total,0.6331170251945497,2024-09-15,-0.007444099650386055,669,TPC Deere Run
+24837,"Goodwin, Noah",82,Greystone Golf & Country Club,sg_total,1.0859342777783458,2024-07-28,-0.0340203221770512,669,TPC Deere Run
+24837,"Goodwin, Noah",659,Club de Golf de Panama,sg_total,1.861687438314101,2026-02-01,-0.04849066925456074,669,TPC Deere Run
 27774,"Gotterup, Chris",503,TPC River Highlands,sg_app,1.5955640655410686,2026-06-28,0.02555756989508668,669,TPC Deere Run
 27774,"Gotterup, Chris",688,East Lake Golf Club,sg_app,0.8049299693050015,2025-08-24,0.01847763761551037,669,TPC Deere Run
 27774,"Gotterup, Chris",608,Oakmont Country Club,sg_app,0.7664391275010192,2025-06-15,0.013335885057134629,669,TPC Deere Run
@@ -2426,6 +2548,9 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 12808,"Grillo, Emiliano",936,Yokohama Country Club,sg_total,0.8330180236621268,2025-10-12,0.007969644080075123,669,TPC Deere Run
 12808,"Grillo, Emiliano",778,Royal St. George's GC,sg_total,0.2820700033557532,2021-07-18,0.0039201922850315195,669,TPC Deere Run
 12808,"Grillo, Emiliano",541,Royal Birkdale GC,sg_total,0.10179441895432192,2017-07-23,-0.001304084842333435,669,TPC Deere Run
+32683,"Gutschewski, Luke",87,Raleigh Country Club,sg_total,0.9792189645694596,2026-05-31,0.012387427344293121,669,TPC Deere Run
+32683,"Gutschewski, Luke",922,Dye's Valley Course,sg_total,0.8705761892971605,2025-12-14,0.00908181060380266,669,TPC Deere Run
+32683,"Gutschewski, Luke",111,Tascosa Golf Club - La Paloma Course,sg_total,0.9888624864995005,2026-06-14,-0.022747648360663068,669,TPC Deere Run
 8571,"Gómez, Fabián",790,Pumpkin Ridge GC - W. Hollow,sg_total,0.17195886289316317,2019-08-11,0.0034320006882843706,669,TPC Deere Run
 8571,"Gómez, Fabián",659,Club de Golf de Panama,sg_total,0.32513981147609855,2022-02-06,0.0011763008407445594,669,TPC Deere Run
 8571,"Gómez, Fabián",54,Nashville Golf & Athletic Club,sg_total,0.12628677072062294,2018-05-27,-0.002072195498583876,669,TPC Deere Run
@@ -5732,6 +5857,30 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 23475,"Novak, Andrew",641,Crestview Country Club,sg_total,0.5245509037388001,2020-09-27,-0.004935193961817564,669,TPC Deere Run
 23475,"Novak, Andrew",790,Pumpkin Ridge GC - W. Hollow,sg_total,0.5274749203490079,2020-08-09,-0.0064790209210520725,669,TPC Deere Run
 23475,"Novak, Andrew",22,Highland Springs Country Club,sg_total,0.8051395189038075,2021-07-25,-0.007992486379967,669,TPC Deere Run
+16796,"Nunez, Augusto",669,TPC Deere Run,sg_app,0.46724571657369457,2023-07-09,0.007263404895809113,669,TPC Deere Run
+16796,"Nunez, Augusto",876,Detroit Golf Club,sg_app,0.4649618126966913,2023-07-02,0.00218889139085066,669,TPC Deere Run
+16796,"Nunez, Augusto",538,TPC Summerlin,sg_arg,0.8863920841336204,2023-10-15,0.001435563905167724,669,TPC Deere Run
+16796,"Nunez, Augusto",908,Oakdale Golf & Country Club,sg_arg,0.4581768655907734,2023-06-11,0.00010446159934717065,669,TPC Deere Run
+16796,"Nunez, Augusto",669,TPC Deere Run,sg_arg,0.46724571657369457,2023-07-09,-0.00578385946170965,669,TPC Deere Run
+16796,"Nunez, Augusto",669,TPC Deere Run,sg_ott,0.46724571657369457,2023-07-09,0.017036621964874026,669,TPC Deere Run
+16796,"Nunez, Augusto",897,Memorial Park Golf Course,sg_ott,0.39554132865600117,2022-11-13,0.009607847411535649,669,TPC Deere Run
+16796,"Nunez, Augusto",884,Keene Trace Golf Club (Champion Trace),sg_ott,0.46954083904279925,2023-07-16,0.008180785428950994,669,TPC Deere Run
+16796,"Nunez, Augusto",746,The Country Club of Jackson,sg_ott,0.8820593866990822,2023-10-08,-0.0031328220678831253,669,TPC Deere Run
+16796,"Nunez, Augusto",921,TPC Craig Ranch,sg_ott,0.4492840334673798,2023-05-14,-0.005773238934486968,669,TPC Deere Run
+16796,"Nunez, Augusto",889,Sea Island Golf Club (Plantation Course),sg_ott,0.9103198133064596,2023-11-19,-0.012411399618251382,669,TPC Deere Run
+16796,"Nunez, Augusto",876,Detroit Golf Club,sg_ott,0.4649618126966913,2023-07-02,-0.01594829082485283,669,TPC Deere Run
+16796,"Nunez, Augusto",926,Silverado Resort (North Course),sg_putt,0.4907109603418013,2023-09-17,-0.0002904610971551936,669,TPC Deere Run
+16796,"Nunez, Augusto",205,Spyglass Hill Golf Course,sg_putt,0.41949654042917595,2023-02-05,-0.004573221752367729,669,TPC Deere Run
+16796,"Nunez, Augusto",889,Sea Island Golf Club (Plantation Course),sg_putt,0.9103198133064596,2023-11-19,-0.015470730941503735,669,TPC Deere Run
+16796,"Nunez, Augusto",669,TPC Deere Run,sg_putt,0.46724571657369457,2023-07-09,-0.02105620513221687,669,TPC Deere Run
+16796,"Nunez, Augusto",93,Vanderbilt Legends Club,sg_total,0.8168498362294491,2025-09-14,0.0025526732457840937,669,TPC Deere Run
+16796,"Nunez, Augusto",87,Raleigh Country Club,sg_total,2.3264355857183796,2026-05-31,-0.0008714873239328907,669,TPC Deere Run
+16796,"Nunez, Augusto",22,Highland Springs Country Club,sg_total,0.785448803788985,2025-07-20,-0.003084696393971448,669,TPC Deere Run
+16796,"Nunez, Augusto",659,Club de Golf de Panama,sg_total,2.334863805887447,2026-02-01,-0.003390824576911735,669,TPC Deere Run
+16796,"Nunez, Augusto",111,Tascosa Golf Club - La Paloma Course,sg_total,0.9888624864995005,2026-06-14,-0.005572662223617137,669,TPC Deere Run
+16796,"Nunez, Augusto",641,Crestview Country Club,sg_total,0.7702038953743938,2025-06-22,-0.013362947238298183,669,TPC Deere Run
+16796,"Nunez, Augusto",96,The Patriot Golf Club,sg_total,0.8289462194135897,2025-10-05,-0.014695342588296975,669,TPC Deere Run
+16796,"Nunez, Augusto",82,Greystone Golf & Country Club,sg_total,0.7893069476605366,2025-07-27,-0.05202168332468543,669,TPC Deere Run
 25475,"Nyholm, Pontus",925,Dunes Golf and Beach Club,sg_app,0.9649297289843224,2026-05-10,0.027002577355367763,669,TPC Deere Run
 25475,"Nyholm, Pontus",935,TPC Toronto at Osprey Valley - North Course,sg_app,0.9888624864995005,2026-06-14,0.022753224150754946,669,TPC Deere Run
 25475,"Nyholm, Pontus",21,Colonial Country Club,sg_app,0.9792189645694596,2026-05-31,-0.06578540702856375,669,TPC Deere Run
@@ -5754,6 +5903,16 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 25475,"Nyholm, Pontus",3961,london gc,sg_total,0.2876531111451154,2021-08-15,-0.0042629957953565336,669,TPC Deere Run
 25475,"Nyholm, Pontus",641,Crestview Country Club,sg_total,1.8246764587425293,2025-06-22,-0.014940833517817156,669,TPC Deere Run
 25475,"Nyholm, Pontus",82,Greystone Golf & Country Club,sg_total,2.226897877393412,2025-07-27,-0.02665147609059283,669,TPC Deere Run
+16796,"Núñez, Augusto",22,Highland Springs Country Club,sg_total,1.000572965147132,2022-07-24,0.013185482067133974,669,TPC Deere Run
+16796,"Núñez, Augusto",808,TPC Colorado,sg_total,0.8574107620547424,2022-07-03,0.009646630110831937,669,TPC Deere Run
+16796,"Núñez, Augusto",641,Crestview Country Club,sg_total,1.091180426728705,2022-06-19,0.008116325246420412,669,TPC Deere Run
+16796,"Núñez, Augusto",64,Royal Blue Golf Club,sg_total,0.19287750127685202,2020-01-22,0.005277749249632896,669,TPC Deere Run
+16796,"Núñez, Augusto",811,Paiute Golf Resort - Sun Mt GC,sg_total,0.2646624601947848,2021-04-18,0.004205030848931713,669,TPC Deere Run
+16796,"Núñez, Augusto",659,Club de Golf de Panama,sg_total,0.4419038669711669,2022-02-06,0.0034432697841967883,669,TPC Deere Run
+16796,"Núñez, Augusto",803,University Ridge GC,sg_total,0.09740283129684763,2017-05-21,0.002782558451445556,669,TPC Deere Run
+16796,"Núñez, Augusto",790,Pumpkin Ridge GC - W. Hollow,sg_total,0.4598352417604855,2020-08-09,0.001067196949938335,669,TPC Deere Run
+16796,"Núñez, Augusto",646,The CC at Wakefield Plantation,sg_total,0.725643934066607,2022-06-05,-0.0021393120654078107,669,TPC Deere Run
+16796,"Núñez, Augusto",82,Greystone Golf & Country Club,sg_total,0.6242156995305499,2022-05-29,-0.002493068496646954,669,TPC Deere Run
 13412,"Olesen, Thorbjorn",250,Le Golf National,sg_app,0.6147743432822852,2024-08-04,0.02772776851470668,669,TPC Deere Run
 13412,"Olesen, Thorbjorn",925,Dunes Golf and Beach Club,sg_app,1.3275573862072507,2025-05-11,0.016988510238257037,669,TPC Deere Run
 13412,"Olesen, Thorbjorn",874,Hamilton Golf & Country Club,sg_app,0.5882519126242561,2024-06-02,0.012095720728449014,669,TPC Deere Run

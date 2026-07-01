@@ -360,8 +360,7 @@ select:hover, select:focus { border-color: var(--accent); }
   animation: fadeUp 0.4s ease both;
   display: grid;
   grid-template-columns: 220px 1fr;
-  min-height: 320px;
-  max-height: 320px;
+  height: 320px;           /* definite height so the inner course table can scroll (flex + overflow needs a fixed parent) */
 }
 
 .player-card:hover {
@@ -934,6 +933,7 @@ select:hover, select:focus { border-color: var(--accent); }
 
   .player-card {
     grid-template-columns: 1fr;
+    height: auto;            /* stacked cards grow with content on mobile */
     max-height: none;
     min-height: 0;
   }

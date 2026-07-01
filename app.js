@@ -1,4 +1,4 @@
-// ── STATE ───────────────────────────────────────────────────────────────────────────────
+// ── STATE ─────────────────────────────────────────────────────────────────────
 let allData      = [];   // raw parsed rows from CSL CSV
 let projData     = {};   // dg_id -> {adjusted_course_fit, adjusted_sg_total, salary}
 let leadinData   = {};   // dg_id -> {lead_in_z, lead_in_raw, predictors_found, top_course}
@@ -26,7 +26,7 @@ const SKILL_COLORS = {
   sg_total: 'rgba(249,115,22,0.7)'
 };
 
-// ── CSV LOADING ───────────────────────────────────────────────────────────────────
+// ── CSV LOADING ───────────────────────────────────────────────────────────────
 const BASE_DATA_URL = 'https://raw.githubusercontent.com/plus4blog/plus4-viz/main/data';
 
 let activeTour = localStorage.getItem('plus4_tour') || 'pga';
@@ -40,21 +40,22 @@ document.querySelectorAll('#tour-toggle .sort-btn').forEach(b => {
 });
 
 function loadCSV() {
-  const status = document.getElementById('load-status');
-  status.textContent = 'Loading data...';
+  const status = document.getElementById('load-status');   // absent on pages without the player toolbar (e.g. corollary tab)
+  const setStatus = t => { if (status) status.textContent = t; };
+  setStatus('Loading data...');
 
   let coursesDone = false, projDone = false, leadinDone = false;
 
   function tryProcess() {
     if (!coursesDone || !projDone || !leadinDone) return;
     processData();
-    status.textContent = `Updated ${new Date().toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'})}`;
+    setStatus(`Updated ${new Date().toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'})}`);
   }
 
   Papa.parse(csvUrl(), {
     download: true, header: true, skipEmptyLines: true, dynamicTyping: true,
     complete: result => { allData = result.data; coursesDone = true; tryProcess(); },
-    error: err => { status.textContent = 'Failed to load data'; console.error(err); }
+    error: err => { setStatus('Failed to load data'); console.error(err); }
   });
 
   Papa.parse(projUrl(), {
@@ -96,8 +97,8 @@ function loadCSV() {
 
 loadCSV();
 
-// ── TOUR TOGGLE ───────────────────────────────────────────────────────────────────
-document.getElementById('tour-toggle').addEventListener('click', e => {
+// ── TOUR TOGGLE ───────────────────────────────────────────────────────────────
+bind('tour-toggle', 'click', e => {
   const btn = e.target.closest('.sort-btn');
   if (!btn || !btn.dataset.tour) return;
   activeTour = btn.dataset.tour;
@@ -111,15 +112,17 @@ function processData() {
   if (!allData.length) return;
 
   const targetName = allData[0]?.target_course_name;
-  document.getElementById('course-title').textContent = targetName || 'Weekly Course';
+  const titleEl = document.getElementById('course-title');   // header exists on every current app.js page; guard closes the set
+  if (titleEl) titleEl.textContent = targetName || 'Weekly Course';
 
   const uniqueCourses = [...new Set(allData.map(r => r.course_name_b).filter(Boolean))];
   const uniquePlayers = [...new Set(allData.map(r => r.player_name).filter(Boolean))];
   const skills        = [...new Set(allData.map(r => r.skill).filter(Boolean))];
 
-  document.getElementById('course-meta').innerHTML = `
+  const metaEl = document.getElementById('course-meta');
+  if (metaEl) metaEl.innerHTML = `
     <div class="meta-pill">Players: <span>${uniquePlayers.length}</span></div>
-    <div class="meta-pill">Correlated Courses: <span>${uniqueCourses.length}</span></div>
+    <div class="meta-pill">Corollary Courses: <span>${uniqueCourses.length}</span></div>
     <div class="meta-pill">Skills: <span>${skills.length}</span></div>
   `;
 
@@ -167,6 +170,7 @@ function processData() {
 
 function buildGlobalSkillTabs(skills) {
   const container = document.getElementById('global-skill-tabs');
+  if (!container) return;             // not on this page (e.g. corollary tab)
   container.innerHTML = '';
 
   const allBtn = document.createElement('button');
@@ -196,9 +200,11 @@ function buildGlobalSkillTabs(skills) {
   });
 }
 
-// ── RENDER GRID ─────────────────────────────────────────────────────────────────────────────
+// ── RENDER GRID ───────────────────────────────────────────────────────────────
 function renderGrid() {
-  document.getElementById('empty-state').style.display = 'none';
+  const emptyEl = document.getElementById('empty-state');
+  if (!emptyEl) return;               // not on this page (e.g. corollary tab)
+  emptyEl.style.display = 'none';
 
   const getValue = p => {
     if (sortBy === 'sg_total')   return p.adjusted_sg_total   ?? -Infinity;
@@ -232,7 +238,7 @@ function renderGrid() {
   setTimeout(reportHeight, 400);
 }
 
-// ── PLAYER TABLE ─────────────────────────────────────────────────────────────────────────────────
+// ── PLAYER TABLE ──────────────────────────────────────────────────────────────
 const SKILL_ORDER = ['sg_ott','sg_app','sg_arg','sg_putt','sg_total'];
 const SKILL_SHORT = { sg_ott:'OTT', sg_app:'APP', sg_arg:'ARG', sg_putt:'PUTT', sg_total:'OTR' };
 
@@ -265,10 +271,13 @@ function buildPlayerTable(sorted) {
     const skillCells = displaySkills.map(skill => {
       const pts = player.courses[skill];
       if (!pts || !pts.length) return `<td class="pt-skill pt-na">—</td>`;
-      const total   = pts.reduce((a, b) => a + (b.contribution || 0), 0);
-      const color   = valueColor(total, 0.5);
-      const sign    = total >= 0 ? '+' : '';
-      const bgColor = color.replace('rgb(', 'rgba(').replace(')', ',0.18)');
+      const total  = pts.reduce((a, b) => a + (b.contribution || 0), 0);
+      const color  = valueColor(total, 0.5);
+      const sign   = total >= 0 ? '+' : '';
+      // Shade proportional to magnitude — stronger +/- get a deeper fill (0.24 → 0.52).
+      const mag     = Math.min(1, Math.abs(total) / 0.5);
+      const alpha   = (0.24 + 0.28 * mag).toFixed(2);
+      const bgColor = color.replace('rgb(', 'rgba(').replace(')', `,${alpha})`);
       return `<td class="pt-skill" style="color:${color};background-color:${bgColor}">${sign}${total.toFixed(3)}</td>`;
     }).join('');
 
@@ -304,7 +313,7 @@ function buildPlayerTable(sorted) {
   return wrap;
 }
 
-// ── PLAYER CARD ──────────────────────────────────────────────────────────────────────────────────
+// ── PLAYER CARD ───────────────────────────────────────────────────────────────
 function buildPlayerCard(player, idx) {
   const card = document.createElement('div');
   card.className = 'player-card';
@@ -418,7 +427,24 @@ function buildPlayerCard(player, idx) {
   return card;
 }
 
-// ── HELPERS ───────────────────────────────────────────────────────────────────────────────────
+// ── HELPERS ───────────────────────────────────────────────────────────────────
+function bind(id, evt, fn) {
+  const el = document.getElementById(id);
+  if (el) el.addEventListener(evt, fn);   // no-op when the element isn't on this page
+  return el;
+}
+
+// Shared across every page that loads app.js — expand/collapse a "How this works" callout.
+function toggleCallout(id) {
+  const body    = document.getElementById(id + '-body');
+  const chevron = document.getElementById(id + '-chevron');
+  const btn     = document.getElementById(id + '-toggle');
+  const open    = body.style.display !== 'none';
+  body.style.display = open ? 'none' : 'block';
+  chevron.style.transform = open ? 'rotate(-90deg)' : 'rotate(0deg)';
+  btn.setAttribute('aria-expanded', String(!open));
+}
+
 function fmtLastPlayed(dateStr) {
   if (!dateStr) return '—';
   const d = new Date(dateStr);
@@ -435,8 +461,8 @@ function valueColor(val, bound) {
   return `rgb(${r},${g},${b})`;
 }
 
-// ── SORT / SEARCH / VIEW CONTROLS ────────────────────────────────────────────────────────────────
-document.getElementById('sort-by-group').addEventListener('click', e => {
+// ── SORT / SEARCH / VIEW CONTROLS ────────────────────────────────────────────
+bind('sort-by-group', 'click', e => {
   const btn = e.target.closest('.sort-btn');
   if (!btn) return;
   sortBy = btn.dataset.val;
@@ -445,9 +471,9 @@ document.getElementById('sort-by-group').addEventListener('click', e => {
   if (players.length) renderGrid();
 });
 
-document.getElementById('sort-dir-btn').addEventListener('click', () => {
+bind('sort-dir-btn', 'click', function () {
   sortDir = sortDir === 'desc' ? 'asc' : 'desc';
-  document.getElementById('sort-dir-btn').textContent = sortDir === 'desc' ? '↓' : '↑';
+  this.textContent = sortDir === 'desc' ? '↓' : '↑';
   if (players.length) renderGrid();
 });
 
@@ -473,18 +499,19 @@ function setViewMode(mode) {
   if (players.length) renderGrid();
 }
 
-// ── COURSE BREAKDOWN ──────────────────────────────────────────────────────────────────────────────────
+// ── COURSE BREAKDOWN ──────────────────────────────────────────────────────────
 let breakdownSkill  = null;
 let breakdownSort   = 'contribution';
 let breakdownShowAll = false;
 
-document.getElementById('breakdown-sort').addEventListener('change', e => {
+bind('breakdown-sort', 'change', e => {
   breakdownSort = e.target.value;
   renderBreakdown(breakdownRows);
 });
 
 function buildBreakdown() {
   if (!allData.length) return;
+  if (!document.getElementById('breakdown-tbody')) return;  // corollary section not on this page
 
   const keyMap = {};
   allData.forEach(row => {
@@ -594,7 +621,7 @@ function renderBreakdownRows(rows) {
   }
 }
 
-// ── IFRAME HEIGHT REPORTING ──────────────────────────────────────────────────────────────────
+// ── IFRAME HEIGHT REPORTING ───────────────────────────────────────────────────
 function reportHeight() {
   window.parent.postMessage({ type: 'plus4-resize', height: document.documentElement.scrollHeight }, '*');
 }

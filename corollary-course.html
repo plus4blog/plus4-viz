@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>plus4.blog · Corollary Courses</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-inner">
+    <div>
+      <div class="course-label">This Week's Course</div>
+      <div class="course-name" id="course-title">—</div>
+      <div class="course-meta" id="course-meta"></div>
+    </div>
+    <div class="header-tour sort-btn-group" id="tour-toggle">
+      <button class="sort-btn" data-tour="pga">PGA</button>
+      <button class="sort-btn" data-tour="euro">Euro</button>
+      <button class="sort-btn" data-tour="opp">Opp</button>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE NAV -->
+<nav class="page-nav">
+  <div class="page-nav-inner">
+    <a href="corollary-course.html" class="page-nav-tab active">Corollary Courses</a>
+    <a href="index.html" class="page-nav-tab">Player–Course Fit</a>
+    <a href="leadin-analysis.html" class="page-nav-tab">Lead-In Analysis</a>
+  </div>
+</nav>
+
+<!-- COURSE CORRELATIONS BAR -->
+<div class="intro-callout">
+  <div class="intro-callout-inner">
+    <div class="breakdown-header" style="border-top:none;padding-top:16px;">
+      <div class="breakdown-title">Corollary Courses</div>
+      <div class="breakdown-controls">
+        <span class="ctrl-label">Skill filters</span>
+        <div class="skill-tabs" id="breakdown-skill-tabs"></div>
+        <span class="ctrl-label" style="margin-left:12px;">Sort</span>
+        <select id="breakdown-sort">
+          <option value="contribution" selected>Total Contribution</option>
+          <option value="last_played">Last Played</option>
+          <option value="effective_events">Eff Events</option>
+        </select>
+      </div>
+    </div>
+    <button class="callout-toggle" id="intro-toggle" aria-expanded="false" onclick="toggleCallout('intro')">
+      <span>How this works</span>
+      <svg class="callout-chevron" id="intro-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <div class="callout-body" id="intro-body" style="display:none;">
+      <p>Our model identifies corollary courses — venues that share playing characteristics with how this week's target course is expected to play — and uses a player's history at those analogues to infer likely performance here. Correlations are built at the individual skill level, so the model captures how each course independently rewards specific traits: Bermuda putting, left-to-right ball flight, scrambling from tight lies, grinding through deep rough.</p>
+      <p style="margin-top:10px;"><strong>Why this matters:</strong></p>
+      <ul style="margin-top:6px;padding-left:18px;line-height:1.7;">
+        <li><strong>No course history? No problem:</strong> Over a third of the field may never have played the target course. Corollary courses give us a signal where none previously existed.</li>
+        <li style="margin-top:6px;"><strong>Go beyond the eye test:</strong> "Who's won here before" biases toward winners and elite players. This surfaces value across the whole field.</li>
+        <li style="margin-top:6px;"><strong>A deeper analysis:</strong> Si Woo Kim's affinity for Pete Dye courses shows. Faders of the golf ball can rise and fall. Players who love Florida tend to love Hawaii — and the greats of Texas courses can handle wind-laden coastal tracks.</li>
+        <li style="margin-top:6px;"><strong>Not all years are equal:</strong> Dustin Johnson's 2020 Masters wasn't like any other Masters. Our model profiles this week's course against current meteorological forecasts and expected playing conditions — then differentially weights vintages of the target course accordingly.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- COURSE BREAKDOWN TABLE -->
+<div class="breakdown-wrap" style="padding-top:16px;">
+  <div class="breakdown-table-wrap">
+    <table class="breakdown-table" id="breakdown-table">
+      <thead>
+        <tr>
+          <th class="bd-course">Course</th>
+          <th class="bd-skill">Skill</th>
+          <th class="bd-events">Eff Events</th>
+          <th class="bd-last">Last Played</th>
+          <th class="bd-cor">Total Contribution</th>
+        </tr>
+      </thead>
+      <tbody id="breakdown-tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

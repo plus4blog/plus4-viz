@@ -594,7 +594,9 @@ function renderBreakdownRows(rows) {
     const contrib         = d.contribution ?? 0;
     const maxContrib      = sorted.length ? (sorted[0].contribution ?? 0) : 1;
     const barPct          = maxContrib > 0 ? Math.min(100, (contrib / maxContrib) * 100) : 0;
-    const barBg           = `linear-gradient(to right,rgba(234,179,8,0.35) ${barPct.toFixed(1)}%,transparent ${barPct.toFixed(1)}%)`;
+    // Tint the bar to match the skill and anchor it to the right so it meets the number.
+    const barColor        = skillBadgeColor.replace(/[\d.]+\)$/, '0.32)');
+    const barBg           = `linear-gradient(to left,${barColor} ${barPct.toFixed(1)}%,transparent ${barPct.toFixed(1)}%)`;
     return `<tr>
       <td class="bd-course">${d.course}</td>
       <td class="bd-skill">

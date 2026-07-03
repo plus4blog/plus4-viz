@@ -388,12 +388,10 @@ select:hover, select:focus { border-color: var(--accent); }
 
 .player-name {
   font-family: 'Archivo Narrow', sans-serif;
-  font-size: 26px;
-  letter-spacing: 0.04em;
-  line-height: 1;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  font-size: 25px;
+  letter-spacing: 0.02em;
+  line-height: 1.04;
+  overflow-wrap: anywhere;   /* wrap long "Last, First" names to a 2nd line instead of clipping them */
 }
 
 .card-header-top {

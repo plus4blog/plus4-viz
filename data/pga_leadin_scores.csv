@@ -1,94 +1,94 @@
 rank,player_name,dg_id,lead_in_z,lead_in_raw,predictors_found,top_course,tournament,as_of_date
-1,"Snedeker, Brandt",8820,3.259,1.1153,4,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-2,"Roy, Kevin",18424,2.972,1.0231,4,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-3,"Nakajima, Keita",21074,2.34,0.8199,3,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-4,"Cole, Eric",21756,2.326,0.8152,6,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-5,"Hubbard, Mark",16333,2.152,0.7594,6,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-6,"Meissner, Mac",28159,2.019,0.7167,6,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-7,"Rai, Aaron",18554,1.347,0.5004,5,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-8,"Ghim, Doug",24550,1.232,0.4635,4,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-9,"MacIntyre, Robert",23323,1.079,0.4142,6,TPC River Highlands,Genesis Scottish Open,2026-07-07
-10,"Vilips, Karl",24304,1.075,0.413,5,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-11,"Van Rooyen, Erik",17550,1.021,0.3957,4,TPC Deere Run,Genesis Scottish Open,2026-07-07
-12,"McCarty, Matt",28635,0.948,0.3721,7,TPC River Highlands,Genesis Scottish Open,2026-07-07
-13,"Potgieter, Aldrich",27900,0.918,0.3625,6,The Riviera Country Club,Genesis Scottish Open,2026-07-07
-14,"Novak, Andrew",23475,0.867,0.346,8,Muirfield Village Golf Club,Genesis Scottish Open,2026-07-07
-15,"Riley, Davis",19872,0.838,0.3366,4,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-16,"Cauley, Bud",14502,0.816,0.3297,6,Muirfield Village Golf Club,Genesis Scottish Open,2026-07-07
-17,"Campbell, Brian",18628,0.691,0.2893,8,Muirfield Village Golf Club,Genesis Scottish Open,2026-07-07
-18,"Kim, Tom",24766,0.642,0.2736,5,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-19,"Jarvis, Casey",26947,0.591,0.2571,2,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-20,"Davis, Cam",17786,0.57,0.2504,2,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-21,"Scott, Adam",6430,0.457,0.214,6,The Riviera Country Club,Genesis Scottish Open,2026-07-07
-22,"Fitzpatrick, Alex",25362,0.389,0.1921,4,TPC River Highlands,Genesis Scottish Open,2026-07-07
-23,"Eckroat, Austin",26653,0.345,0.1781,4,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-24,"Yellamaraju, Sudarshan",29925,0.339,0.1762,6,Muirfield Village Golf Club,Genesis Scottish Open,2026-07-07
-25,"Koepka, Brooks",16243,0.325,0.1717,3,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-26,"Keefer, Johnny",32457,0.321,0.1703,5,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-27,"Wallace, Matt",20706,0.318,0.1694,5,Quail Hollow Club,Genesis Scottish Open,2026-07-07
-28,"Spaun, J.J.",17536,0.3,0.1637,6,Harbour Town Golf Links,Genesis Scottish Open,2026-07-07
-29,"Cantlay, Patrick",15466,0.263,0.1517,6,TPC River Highlands,Genesis Scottish Open,2026-07-07
-30,"Putnam, Andrew",14704,0.263,0.1517,6,TPC Deere Run,Genesis Scottish Open,2026-07-07
-31,"Fox, Ryan",11889,0.248,0.147,7,The Riviera Country Club,Genesis Scottish Open,2026-07-07
-32,"Kitayama, Kurt",21891,0.219,0.1374,7,TPC River Highlands,Genesis Scottish Open,2026-07-07
-33,"McIlroy, Rory",10091,0.215,0.1363,4,Arnold Palmer's Bay Hill Club & Lodge,Genesis Scottish Open,2026-07-07
-34,"English, Harris",14577,0.186,0.1271,7,TPC River Highlands,Genesis Scottish Open,2026-07-07
-35,"Couvra, Martin",27811,0.183,0.1261,1,TPC Louisiana,Genesis Scottish Open,2026-07-07
-36,"Kirk, Chris",12423,0.137,0.1112,3,Arnold Palmer's Bay Hill Club & Lodge,Genesis Scottish Open,2026-07-07
-37,"Willett, Danny",12920,0.135,0.1106,2,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-38,"Smith, Jordan",18586,0.131,0.1094,3,Harbour Town Golf Links,Genesis Scottish Open,2026-07-07
-39,"Lee, Min Woo",16841,0.114,0.1038,7,TPC River Highlands,Genesis Scottish Open,2026-07-07
-40,"Noren, Alex",10419,0.111,0.103,6,Muirfield Village Golf Club,Genesis Scottish Open,2026-07-07
-41,"Moore, Taylor",21944,0.077,0.0918,5,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-42,"Lowry, Shane",13900,0.067,0.0887,7,TPC Louisiana,Genesis Scottish Open,2026-07-07
-43,"Harman, Brian",8825,0.047,0.0822,6,TPC River Highlands,Genesis Scottish Open,2026-07-07
-44,"Neergaard-Petersen, Rasmus",23841,0.044,0.0812,3,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-45,"Kim, Si Woo",14609,0.034,0.078,6,Harbour Town Golf Links,Genesis Scottish Open,2026-07-07
-46,"Gotterup, Chris",27774,-0.005,0.0656,8,TPC Deere Run,Genesis Scottish Open,2026-07-07
-47,"Waring, Paul",12426,-0.039,0.0545,1,Memorial Park Golf Course,Genesis Scottish Open,2026-07-07
-48,"Aberg, Ludvig",23950,-0.068,0.0451,6,TPC River Highlands,Genesis Scottish Open,2026-07-07
-49,"Thorbjornsen, Michael",26649,-0.093,0.0373,5,TPC Louisiana,Genesis Scottish Open,2026-07-07
-50,"Hojgaard, Nicolai",23602,-0.121,0.0283,6,Memorial Park Golf Course,Genesis Scottish Open,2026-07-07
-51,"Theegala, Sahith",23014,-0.132,0.0247,8,TPC Louisiana,Genesis Scottish Open,2026-07-07
-52,"Echavarria, Nico",22833,-0.158,0.0161,7,Arnold Palmer's Bay Hill Club & Lodge,Genesis Scottish Open,2026-07-07
-53,"Hoffman, Charley",5768,-0.161,0.0153,2,Memorial Park Golf Course,Genesis Scottish Open,2026-07-07
-54,"Castillo, Ricky",27819,-0.167,0.0134,3,Harbour Town Golf Links,Genesis Scottish Open,2026-07-07
-55,"Brennan, Michael",29197,-0.185,0.0075,4,Harbour Town Golf Links,Genesis Scottish Open,2026-07-07
-56,"Saddier, Adrien",14792,-0.188,0.0068,1,Memorial Park Golf Course,Genesis Scottish Open,2026-07-07
-57,"Scheffler, Scottie",18417,-0.195,0.0043,5,TPC River Highlands,Genesis Scottish Open,2026-07-07
-58,"Knapp, Jake",19396,-0.209,-0.0001,4,The Riviera Country Club,Genesis Scottish Open,2026-07-07
-59,"Penge, Marco",22465,-0.263,-0.0174,4,The Riviera Country Club,Genesis Scottish Open,2026-07-07
-60,"Stevens, Sam",25569,-0.333,-0.0402,8,The Riviera Country Club,Genesis Scottish Open,2026-07-07
-61,"Hojgaard, Rasmus",23838,-0.344,-0.0435,2,Memorial Park Golf Course,Genesis Scottish Open,2026-07-07
-62,"Taylor, Nick",13126,-0.348,-0.0447,6,Muirfield Village Golf Club,Genesis Scottish Open,2026-07-07
-63,"Coody, Pierceson",28309,-0.351,-0.0459,7,Memorial Park Golf Course,Genesis Scottish Open,2026-07-07
-64,"Schauffele, Xander",19895,-0.364,-0.0499,6,Harbour Town Golf Links,Genesis Scottish Open,2026-07-07
-65,"Conners, Corey",17576,-0.375,-0.0535,6,TPC River Highlands,Genesis Scottish Open,2026-07-07
-66,"Fleetwood, Tommy",12294,-0.386,-0.0569,6,Muirfield Village Golf Club,Genesis Scottish Open,2026-07-07
-67,"Horschel, Billy",11276,-0.392,-0.0591,6,Harbour Town Golf Links,Genesis Scottish Open,2026-07-07
-68,"Smotherman, Austin",22985,-0.438,-0.0739,5,Arnold Palmer's Bay Hill Club & Lodge,Genesis Scottish Open,2026-07-07
-69,"Frittelli, Dylan",11955,-0.45,-0.0776,1,TPC Deere Run,Genesis Scottish Open,2026-07-07
-70,"Im, Sungjae",17488,-0.459,-0.0806,7,Quail Hollow Club,Genesis Scottish Open,2026-07-07
-71,"Bauchou, Zach",19846,-0.532,-0.1042,4,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-72,"Fitzpatrick, Matt",17646,-0.565,-0.1145,7,Harbour Town Golf Links,Genesis Scottish Open,2026-07-07
-73,"Greyserman, Max",23465,-0.619,-0.132,6,TPC Deere Run,Genesis Scottish Open,2026-07-07
-74,"Reitan, Kristoffer",21407,-0.658,-0.1447,5,Quail Hollow Club,Genesis Scottish Open,2026-07-07
-75,"Kim, Michael",17543,-0.663,-0.146,7,Arnold Palmer's Bay Hill Club & Lodge,Genesis Scottish Open,2026-07-07
-76,"Hall, Harry",27194,-0.68,-0.1515,7,Quail Hollow Club,Genesis Scottish Open,2026-07-07
-77,"Gerard, Ryan",29767,-0.691,-0.1552,8,TPC Louisiana,Genesis Scottish Open,2026-07-07
-78,"Hovland, Viktor",18841,-0.735,-0.1693,5,Harbour Town Golf Links,Genesis Scottish Open,2026-07-07
-79,"Brown, Dan",20766,-0.76,-0.1775,3,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-80,"Parry, John",13764,-0.882,-0.2167,3,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-81,"McGreevy, Max",23505,-1.089,-0.2832,5,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
-82,"Thomas, Justin",14139,-1.185,-0.3141,5,Harbour Town Golf Links,Genesis Scottish Open,2026-07-07
-83,"Yu, Kevin",17881,-1.256,-0.3368,5,TPC Deere Run,Genesis Scottish Open,2026-07-07
-84,"Clark, Wyndham",23604,-1.261,-0.3384,6,Harbour Town Golf Links,Genesis Scottish Open,2026-07-07
-85,"Straka, Sepp",17511,-1.281,-0.345,6,Muirfield Village Golf Club,Genesis Scottish Open,2026-07-07
-86,"Olesen, Thorbjorn",13412,-1.328,-0.3599,2,Memorial Park Golf Course,Genesis Scottish Open,2026-07-07
-87,"Li, Haotong",15310,-1.377,-0.3759,5,TPC Louisiana,Genesis Scottish Open,2026-07-07
-88,"Smalley, Alex",18474,-1.483,-0.4098,5,Quail Hollow Club,Genesis Scottish Open,2026-07-07
-89,"Schmid, Matti",20722,-1.623,-0.4549,4,The Riviera Country Club,Genesis Scottish Open,2026-07-07
-90,"Highsmith, Joe",28469,-1.683,-0.4742,4,Memorial Park Golf Course,Genesis Scottish Open,2026-07-07
-91,"Pavon, Matthieu",19960,-1.799,-0.5114,4,TPC Louisiana,Genesis Scottish Open,2026-07-07
-92,"Svensson, Jesper",26850,-2.047,-0.5912,3,TPC Louisiana,Genesis Scottish Open,2026-07-07
-93,"Lawrence, Thriston",18105,-2.557,-0.7555,1,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-07
+1,"Snedeker, Brandt",8820,3.259,1.1153,4,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+2,"Roy, Kevin",18424,2.972,1.0231,4,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+3,"Nakajima, Keita",21074,2.34,0.8199,3,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+4,"Cole, Eric",21756,2.326,0.8152,6,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+5,"Hubbard, Mark",16333,2.152,0.7594,6,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+6,"Meissner, Mac",28159,2.019,0.7167,6,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+7,"Rai, Aaron",18554,1.347,0.5004,5,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+8,"Ghim, Doug",24550,1.232,0.4635,4,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+9,"MacIntyre, Robert",23323,1.079,0.4142,6,TPC River Highlands,Genesis Scottish Open,2026-07-08
+10,"Vilips, Karl",24304,1.075,0.413,5,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+11,"Van Rooyen, Erik",17550,1.021,0.3957,4,TPC Deere Run,Genesis Scottish Open,2026-07-08
+12,"McCarty, Matt",28635,0.948,0.3721,7,TPC River Highlands,Genesis Scottish Open,2026-07-08
+13,"Potgieter, Aldrich",27900,0.918,0.3625,6,The Riviera Country Club,Genesis Scottish Open,2026-07-08
+14,"Novak, Andrew",23475,0.867,0.346,8,Muirfield Village Golf Club,Genesis Scottish Open,2026-07-08
+15,"Riley, Davis",19872,0.838,0.3366,4,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+16,"Cauley, Bud",14502,0.816,0.3297,6,Muirfield Village Golf Club,Genesis Scottish Open,2026-07-08
+17,"Campbell, Brian",18628,0.691,0.2893,8,Muirfield Village Golf Club,Genesis Scottish Open,2026-07-08
+18,"Kim, Tom",24766,0.642,0.2736,5,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+19,"Jarvis, Casey",26947,0.591,0.2571,2,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+20,"Davis, Cam",17786,0.57,0.2504,2,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+21,"Scott, Adam",6430,0.457,0.214,6,The Riviera Country Club,Genesis Scottish Open,2026-07-08
+22,"Fitzpatrick, Alex",25362,0.389,0.1921,4,TPC River Highlands,Genesis Scottish Open,2026-07-08
+23,"Eckroat, Austin",26653,0.345,0.1781,4,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+24,"Yellamaraju, Sudarshan",29925,0.339,0.1762,6,Muirfield Village Golf Club,Genesis Scottish Open,2026-07-08
+25,"Koepka, Brooks",16243,0.325,0.1717,3,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+26,"Keefer, Johnny",32457,0.321,0.1703,5,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+27,"Wallace, Matt",20706,0.318,0.1694,5,Quail Hollow Club,Genesis Scottish Open,2026-07-08
+28,"Spaun, J.J.",17536,0.3,0.1637,6,Harbour Town Golf Links,Genesis Scottish Open,2026-07-08
+29,"Cantlay, Patrick",15466,0.263,0.1517,6,TPC River Highlands,Genesis Scottish Open,2026-07-08
+30,"Putnam, Andrew",14704,0.263,0.1517,6,TPC Deere Run,Genesis Scottish Open,2026-07-08
+31,"Fox, Ryan",11889,0.248,0.147,7,The Riviera Country Club,Genesis Scottish Open,2026-07-08
+32,"Kitayama, Kurt",21891,0.219,0.1374,7,TPC River Highlands,Genesis Scottish Open,2026-07-08
+33,"McIlroy, Rory",10091,0.215,0.1363,4,Arnold Palmer's Bay Hill Club & Lodge,Genesis Scottish Open,2026-07-08
+34,"English, Harris",14577,0.186,0.1271,7,TPC River Highlands,Genesis Scottish Open,2026-07-08
+35,"Couvra, Martin",27811,0.183,0.1261,1,TPC Louisiana,Genesis Scottish Open,2026-07-08
+36,"Kirk, Chris",12423,0.137,0.1112,3,Arnold Palmer's Bay Hill Club & Lodge,Genesis Scottish Open,2026-07-08
+37,"Willett, Danny",12920,0.135,0.1106,2,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+38,"Smith, Jordan",18586,0.131,0.1094,3,Harbour Town Golf Links,Genesis Scottish Open,2026-07-08
+39,"Lee, Min Woo",16841,0.114,0.1038,7,TPC River Highlands,Genesis Scottish Open,2026-07-08
+40,"Noren, Alex",10419,0.111,0.103,6,Muirfield Village Golf Club,Genesis Scottish Open,2026-07-08
+41,"Moore, Taylor",21944,0.077,0.0918,5,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+42,"Lowry, Shane",13900,0.067,0.0887,7,TPC Louisiana,Genesis Scottish Open,2026-07-08
+43,"Harman, Brian",8825,0.047,0.0822,6,TPC River Highlands,Genesis Scottish Open,2026-07-08
+44,"Neergaard-Petersen, Rasmus",23841,0.044,0.0812,3,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+45,"Kim, Si Woo",14609,0.034,0.078,6,Harbour Town Golf Links,Genesis Scottish Open,2026-07-08
+46,"Gotterup, Chris",27774,-0.005,0.0656,8,TPC Deere Run,Genesis Scottish Open,2026-07-08
+47,"Waring, Paul",12426,-0.039,0.0545,1,Memorial Park Golf Course,Genesis Scottish Open,2026-07-08
+48,"Aberg, Ludvig",23950,-0.068,0.0451,6,TPC River Highlands,Genesis Scottish Open,2026-07-08
+49,"Thorbjornsen, Michael",26649,-0.093,0.0373,5,TPC Louisiana,Genesis Scottish Open,2026-07-08
+50,"Hojgaard, Nicolai",23602,-0.121,0.0283,6,Memorial Park Golf Course,Genesis Scottish Open,2026-07-08
+51,"Theegala, Sahith",23014,-0.132,0.0247,8,TPC Louisiana,Genesis Scottish Open,2026-07-08
+52,"Echavarria, Nico",22833,-0.158,0.0161,7,Arnold Palmer's Bay Hill Club & Lodge,Genesis Scottish Open,2026-07-08
+53,"Hoffman, Charley",5768,-0.161,0.0153,2,Memorial Park Golf Course,Genesis Scottish Open,2026-07-08
+54,"Castillo, Ricky",27819,-0.167,0.0134,3,Harbour Town Golf Links,Genesis Scottish Open,2026-07-08
+55,"Brennan, Michael",29197,-0.185,0.0075,4,Harbour Town Golf Links,Genesis Scottish Open,2026-07-08
+56,"Saddier, Adrien",14792,-0.188,0.0068,1,Memorial Park Golf Course,Genesis Scottish Open,2026-07-08
+57,"Scheffler, Scottie",18417,-0.195,0.0043,5,TPC River Highlands,Genesis Scottish Open,2026-07-08
+58,"Knapp, Jake",19396,-0.209,-0.0001,4,The Riviera Country Club,Genesis Scottish Open,2026-07-08
+59,"Penge, Marco",22465,-0.263,-0.0174,4,The Riviera Country Club,Genesis Scottish Open,2026-07-08
+60,"Stevens, Sam",25569,-0.333,-0.0402,8,The Riviera Country Club,Genesis Scottish Open,2026-07-08
+61,"Hojgaard, Rasmus",23838,-0.344,-0.0435,2,Memorial Park Golf Course,Genesis Scottish Open,2026-07-08
+62,"Taylor, Nick",13126,-0.348,-0.0447,6,Muirfield Village Golf Club,Genesis Scottish Open,2026-07-08
+63,"Coody, Pierceson",28309,-0.351,-0.0459,7,Memorial Park Golf Course,Genesis Scottish Open,2026-07-08
+64,"Schauffele, Xander",19895,-0.364,-0.0499,6,Harbour Town Golf Links,Genesis Scottish Open,2026-07-08
+65,"Conners, Corey",17576,-0.375,-0.0535,6,TPC River Highlands,Genesis Scottish Open,2026-07-08
+66,"Fleetwood, Tommy",12294,-0.386,-0.0569,6,Muirfield Village Golf Club,Genesis Scottish Open,2026-07-08
+67,"Horschel, Billy",11276,-0.392,-0.0591,6,Harbour Town Golf Links,Genesis Scottish Open,2026-07-08
+68,"Smotherman, Austin",22985,-0.438,-0.0739,5,Arnold Palmer's Bay Hill Club & Lodge,Genesis Scottish Open,2026-07-08
+69,"Frittelli, Dylan",11955,-0.45,-0.0776,1,TPC Deere Run,Genesis Scottish Open,2026-07-08
+70,"Im, Sungjae",17488,-0.459,-0.0806,7,Quail Hollow Club,Genesis Scottish Open,2026-07-08
+71,"Bauchou, Zach",19846,-0.532,-0.1042,4,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+72,"Fitzpatrick, Matt",17646,-0.565,-0.1145,7,Harbour Town Golf Links,Genesis Scottish Open,2026-07-08
+73,"Greyserman, Max",23465,-0.619,-0.132,6,TPC Deere Run,Genesis Scottish Open,2026-07-08
+74,"Reitan, Kristoffer",21407,-0.658,-0.1447,5,Quail Hollow Club,Genesis Scottish Open,2026-07-08
+75,"Kim, Michael",17543,-0.663,-0.146,7,Arnold Palmer's Bay Hill Club & Lodge,Genesis Scottish Open,2026-07-08
+76,"Hall, Harry",27194,-0.68,-0.1515,7,Quail Hollow Club,Genesis Scottish Open,2026-07-08
+77,"Gerard, Ryan",29767,-0.691,-0.1552,8,TPC Louisiana,Genesis Scottish Open,2026-07-08
+78,"Hovland, Viktor",18841,-0.735,-0.1693,5,Harbour Town Golf Links,Genesis Scottish Open,2026-07-08
+79,"Brown, Dan",20766,-0.76,-0.1775,3,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+80,"Parry, John",13764,-0.882,-0.2167,3,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+81,"McGreevy, Max",23505,-1.089,-0.2832,5,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08
+82,"Thomas, Justin",14139,-1.185,-0.3141,5,Harbour Town Golf Links,Genesis Scottish Open,2026-07-08
+83,"Yu, Kevin",17881,-1.256,-0.3368,5,TPC Deere Run,Genesis Scottish Open,2026-07-08
+84,"Clark, Wyndham",23604,-1.261,-0.3384,6,Harbour Town Golf Links,Genesis Scottish Open,2026-07-08
+85,"Straka, Sepp",17511,-1.281,-0.345,6,Muirfield Village Golf Club,Genesis Scottish Open,2026-07-08
+86,"Olesen, Thorbjorn",13412,-1.328,-0.3599,2,Memorial Park Golf Course,Genesis Scottish Open,2026-07-08
+87,"Li, Haotong",15310,-1.377,-0.3759,5,TPC Louisiana,Genesis Scottish Open,2026-07-08
+88,"Smalley, Alex",18474,-1.483,-0.4098,5,Quail Hollow Club,Genesis Scottish Open,2026-07-08
+89,"Schmid, Matti",20722,-1.623,-0.4549,4,The Riviera Country Club,Genesis Scottish Open,2026-07-08
+90,"Highsmith, Joe",28469,-1.683,-0.4742,4,Memorial Park Golf Course,Genesis Scottish Open,2026-07-08
+91,"Pavon, Matthieu",19960,-1.799,-0.5114,4,TPC Louisiana,Genesis Scottish Open,2026-07-08
+92,"Svensson, Jesper",26850,-2.047,-0.5912,3,TPC Louisiana,Genesis Scottish Open,2026-07-08
+93,"Lawrence, Thriston",18105,-2.557,-0.7555,1,Dunes Golf and Beach Club,Genesis Scottish Open,2026-07-08

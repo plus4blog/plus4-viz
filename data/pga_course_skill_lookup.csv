@@ -9834,6 +9834,82 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 21554,"Poston, J.T.",669,TPC Deere Run,sg_total,4.675276746583616,2026-07-05,-0.015603192125107388,541,Royal Birkdale GC
 21554,"Poston, J.T.",902,Congaree Golf Club,sg_total,0.9013122086105809,2022-10-23,-0.028643792960110277,541,Royal Birkdale GC
 21554,"Poston, J.T.",886,Liberty National Golf Club,sg_total,0.6912557067519303,2021-08-22,-0.032425323990014084,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",541,Carnoustie GC,sg_app,0.4821500048339123,2022-07-17,0.04597960020069141,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",978,Vidanta Vallarta,sg_app,0.7760797449251368,2025-02-23,0.04418544220471385,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",8,Trump National Doral - Blue Monster Course,sg_app,0.964158093896324,2026-05-03,0.03625455439879031,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",945,The Renaissance Club,sg_app,0.9985011244377109,2026-07-12,0.023618612157547344,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",21,Colonial Country Club,sg_app,0.812207036711939,2025-05-25,0.02293736412076109,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",930,Black Desert Resort,sg_app,0.8772177743910435,2025-10-26,0.01246147624204379,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",43,The Los Angeles Country Club (North Course),sg_app,0.5703528925420538,2023-06-18,0.01052482481549849,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",773,Aronimink Golf Club,sg_app,0.9709308776411942,2026-05-17,0.009321386800341712,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",977,The Renaissance Club,sg_app,0.8323518757378947,2025-07-13,0.0037968202693042788,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",885,Royal Portrush Golf Club,sg_app,0.835270211411272,2025-07-20,0.0026784560419849893,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",510,TPC Scottsdale (Stadium Course),sg_app,0.9245020599315531,2026-02-08,-0.006697935415624198,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",921,TPC Craig Ranch,sg_app,0.803723479444656,2025-05-04,-0.010231727383766482,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",513,TPC Southwind,sg_app,0.8440867544803625,2025-08-10,-0.013592057874883308,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",872,Quail Hollow Club,sg_app,0.967538559589032,2026-05-10,-0.015537069835130419,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",233,Nicklaus Tournament Course,sg_app,1.6806696394592242,2026-01-25,-0.018760514786968992,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",925,Dunes Golf and Beach Club,sg_app,0.8065414401773269,2025-05-11,-0.03842253409359247,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",5,Pebble Beach Golf Links,sg_app,0.9277434863285529,2026-02-15,-0.04582334590147415,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",669,TPC Deere Run,sg_app,1.8244562155780861,2026-07-05,-0.08278379203598933,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",935,TPC Toronto at Osprey Valley - North Course,sg_arg,0.9846195067517329,2026-06-14,0.04717626000214527,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",773,Aronimink Golf Club,sg_arg,0.9709308776411942,2026-05-17,0.01320331318539523,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",669,TPC Deere Run,sg_arg,1.8244562155780861,2026-07-05,0.011057040941353574,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",12,Harbour Town Golf Links,sg_arg,0.957432554090967,2026-04-19,0.008913214743871333,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",500,The Riviera Country Club,sg_arg,0.9309962775948618,2026-02-22,0.008516870385901841,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",233,Nicklaus Tournament Course,sg_arg,1.6806696394592242,2026-01-25,0.006723942605541201,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",978,Vidanta Vallarta,sg_arg,0.7760797449251368,2025-02-23,0.004651443943295709,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",945,The Renaissance Club,sg_arg,0.9985011244377109,2026-07-12,-0.004048897239000239,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",9,Arnold Palmer's Bay Hill Club & Lodge,sg_arg,1.7190674757990543,2026-03-08,-0.008837812479335167,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",541,Carnoustie GC,sg_arg,0.4821500048339123,2022-07-17,-0.010292361228630807,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",930,Black Desert Resort,sg_arg,0.8772177743910435,2025-10-26,-0.06064851464814533,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",669,TPC Deere Run,sg_ott,1.8244562155780861,2026-07-05,0.048672952194899935,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",897,Memorial Park Golf Course,sg_ott,1.737212780434601,2026-03-29,0.03567792648249203,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",500,The Riviera Country Club,sg_ott,0.9309962775948618,2026-02-22,0.029233927308483332,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",872,Quail Hollow Club,sg_ott,0.967538559589032,2026-05-10,0.029059668803398248,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",12,Harbour Town Golf Links,sg_ott,0.957432554090967,2026-04-19,0.01405292392362664,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",5,Pebble Beach Golf Links,sg_ott,0.9277434863285529,2026-02-15,0.010955295561494886,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",8,Trump National Doral - Blue Monster Course,sg_ott,0.964158093896324,2026-05-03,0.0037590034090672934,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",925,Dunes Golf and Beach Club,sg_ott,0.8065414401773269,2025-05-11,-0.007813937781498657,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",935,TPC Toronto at Osprey Valley - North Course,sg_ott,0.9846195067517329,2026-06-14,-0.010534154419498743,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",14,Augusta National Golf Club,sg_ott,1.504823239807148,2026-04-12,-0.05478792501359148,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",9,Arnold Palmer's Bay Hill Club & Lodge,sg_ott,1.7190674757990543,2026-03-08,-0.056253075521436,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",541,Carnoustie GC,sg_ott,0.4821500048339123,2022-07-17,-0.08137293960979924,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",510,TPC Scottsdale (Stadium Course),sg_ott,0.9245020599315531,2026-02-08,-0.08754823781590597,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",930,Black Desert Resort,sg_ott,0.8772177743910435,2025-10-26,-0.0946217094898961,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",4,Torrey Pines Golf Course (South Course),sg_putt,1.6861797397992127,2026-02-01,0.03873852435580795,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",500,The Riviera Country Club,sg_putt,0.9309962775948618,2026-02-22,0.037274033299166266,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",925,Dunes Golf and Beach Club,sg_putt,0.8065414401773269,2025-05-11,0.011384126276151972,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",876,Detroit Golf Club,sg_putt,1.4009051268270845,2025-06-29,0.010709753670853285,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",773,Aronimink Golf Club,sg_putt,0.9709308776411942,2026-05-17,0.01050328590881025,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",21,Colonial Country Club,sg_putt,0.812207036711939,2025-05-25,0.008928990445887687,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",872,Quail Hollow Club,sg_putt,0.967538559589032,2026-05-10,0.007148258305685831,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",6,Waialae Country Club,sg_putt,0.7599520042489227,2025-01-12,0.006061112782039203,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",885,Royal Portrush Golf Club,sg_putt,0.835270211411272,2025-07-20,0.005559431778503813,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",43,The Los Angeles Country Club (North Course),sg_putt,0.5703528925420538,2023-06-18,-0.00011908931546577938,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",945,The Renaissance Club,sg_putt,0.9985011244377109,2026-07-12,-0.00441897099800292,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",14,Augusta National Golf Club,sg_putt,1.504823239807148,2026-04-12,-0.008245620363275663,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",233,Nicklaus Tournament Course,sg_putt,1.6806696394592242,2026-01-25,-0.010080078881880885,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",921,TPC Craig Ranch,sg_putt,0.803723479444656,2025-05-04,-0.018971675086011504,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",541,Carnoustie GC,sg_putt,0.4821500048339123,2022-07-17,-0.04404878779585795,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",4558,gary player cc,sg_total,0.7467685359733571,2024-12-08,0.04811141193476887,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",4724,royal johannesburg east course,sg_total,0.8989750481612314,2025-12-14,0.034495317295535434,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",936,Yokohama Country Club,sg_total,0.8710986917457983,2025-10-12,0.023464809296289902,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",922,Dye's Valley Course,sg_total,0.6246898452608237,2023-12-17,0.014400331360712124,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",82,Greystone Golf & Country Club,sg_total,1.2811805769177897,2024-07-28,0.014048889768514648,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",872,Quail Hollow Club,sg_total,0.967538559589032,2026-05-10,0.012556843846002967,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",945,The Renaissance Club,sg_total,0.9985011244377109,2026-07-12,0.004666270236878576,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",23,Muirfield Village Golf Club,sg_total,0.5663743633919324,2023-06-04,-0.002879027499771017,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",925,Dunes Golf and Beach Club,sg_total,0.8065414401773269,2025-05-11,-0.003848008222262734,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",802,Sandals Emerald Bay Golf Club,sg_total,0.6344479679482282,2024-01-17,-0.007636964034210806,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",43,The Los Angeles Country Club (North Course),sg_total,0.5703528925420538,2023-06-18,-0.010650280161296571,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",86,Norwood Hills Country Club,sg_total,0.7060988762143844,2024-08-18,-0.011815528263109295,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",921,TPC Craig Ranch,sg_total,0.803723479444656,2025-05-04,-0.01492730982679937,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",4602,carnoustie,sg_total,0.8680551755848918,2025-10-05,-0.015226683779028426,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",669,TPC Deere Run,sg_total,1.8244562155780861,2026-07-05,-0.01586692689870989,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",4230,kingsbarns golf links,sg_total,0.6032038980649524,2023-10-08,-0.027498350021614066,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",541,Carnoustie GC,sg_total,0.4821500048339123,2022-07-17,-0.032922959403031755,541,Royal Birkdale GC
+27900,"Potgieter, Aldrich",641,Crestview Country Club,sg_total,0.6842034254138871,2024-06-16,-0.044663730731829415,541,Royal Birkdale GC
 28984,"Puig Currius, David",43,The Los Angeles Country Club (North Course),sg_app,0.5703528925420538,2023-06-18,-0.010513422350415769,541,Royal Birkdale GC
 28984,"Puig Currius, David",1,Asiad Country Club,sg_putt,8.764426726769132,2024-09-15,0.014013281305671983,541,Royal Birkdale GC
 28984,"Puig Currius, David",43,The Los Angeles Country Club (North Course),sg_putt,0.5703528925420538,2023-06-18,0.010084114771701262,541,Royal Birkdale GC

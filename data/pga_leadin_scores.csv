@@ -1,101 +1,135 @@
 rank,player_name,dg_id,lead_in_z,lead_in_raw,predictors_found,top_course,tournament,as_of_date
-1,"Duval, David",4761,3.683,0.5935,1,Newport Beach Country Club,The Open,2026-07-16
-2,"Cink, Stewart",5665,3.106,0.4995,2,Newport Beach Country Club,The Open,2026-07-16
-3,"Kaneko, Kota",28268,2.608,0.4184,1,Aronimink Golf Club,The Open,2026-07-16
-4,"Lee, Min Woo",16841,1.479,0.2345,1,Aronimink Golf Club,The Open,2026-07-16
-5,"Aberg, Ludvig",23950,1.364,0.2158,1,Aronimink Golf Club,The Open,2026-07-16
-6,"Higa, Kazuki",15756,1.347,0.213,1,Aronimink Golf Club,The Open,2026-07-16
-7,"Smyth, Trav",19232,1.304,0.2059,1,Aronimink Golf Club,The Open,2026-07-16
-8,"Smith, Cameron",15856,1.278,0.2017,1,Aronimink Golf Club,The Open,2026-07-16
-9,"Hisatsune, Ryo",22760,1.249,0.197,1,Aronimink Golf Club,The Open,2026-07-16
-10,"Gotterup, Chris",27774,1.193,0.1878,1,Aronimink Golf Club,The Open,2026-07-16
-11,"Greyserman, Max",23465,1.163,0.183,1,Aronimink Golf Club,The Open,2026-07-16
-12,"Fox, Ryan",11889,1.161,0.1827,1,Aronimink Golf Club,The Open,2026-07-16
-13,"Rai, Aaron",18554,1.151,0.1811,1,Aronimink Golf Club,The Open,2026-07-16
-14,"Novak, Andrew",23475,1.092,0.1714,1,Aronimink Golf Club,The Open,2026-07-16
-15,"Poston, J.T.",21554,1.077,0.169,1,Aronimink Golf Club,The Open,2026-07-16
-16,"Niemann, Joaquin",18079,1.072,0.1683,1,Aronimink Golf Club,The Open,2026-07-16
-17,"Detry, Thomas",14181,1.058,0.1659,1,Aronimink Golf Club,The Open,2026-07-16
-18,"Spieth, Jordan",14636,0.939,0.1465,1,Aronimink Golf Club,The Open,2026-07-16
-19,"Reitan, Kristoffer",21407,0.834,0.1295,1,Aronimink Golf Club,The Open,2026-07-16
-20,"Hillier, Daniel",21362,0.801,0.1241,1,Aronimink Golf Club,The Open,2026-07-16
-21,"Woodland, Gary",12577,0.759,0.1173,1,Aronimink Golf Club,The Open,2026-07-16
-22,"Reed, Patrick",14838,0.713,0.1097,1,Aronimink Golf Club,The Open,2026-07-16
-23,"Smalley, Alex",18474,0.655,0.1003,1,Aronimink Golf Club,The Open,2026-07-16
-24,"Potgieter, Aldrich",27900,0.646,0.0988,1,Aronimink Golf Club,The Open,2026-07-16
-25,"English, Harris",14577,0.61,0.093,1,Aronimink Golf Club,The Open,2026-07-16
-26,"Hatton, Tyrrell",14796,0.577,0.0877,1,Aronimink Golf Club,The Open,2026-07-16
-27,"Kitayama, Kurt",21891,0.553,0.0837,1,Aronimink Golf Club,The Open,2026-07-16
-28,"Li, Haotong",15310,0.532,0.0803,1,Aronimink Golf Club,The Open,2026-07-16
-29,"Bridgeman, Jacob",29433,0.516,0.0777,1,Aronimink Golf Club,The Open,2026-07-16
-30,"Young, Cameron",26651,0.464,0.0691,1,Aronimink Golf Club,The Open,2026-07-16
-31,"Griffin, Ben",24968,0.428,0.0634,1,Aronimink Golf Club,The Open,2026-07-16
-32,"Thomas, Justin",14139,0.413,0.0609,1,Aronimink Golf Club,The Open,2026-07-16
-33,"Jarvis, Casey",26947,0.401,0.059,1,Aronimink Golf Club,The Open,2026-07-16
-34,"Valimaki, Sami",23816,0.351,0.0508,1,Aronimink Golf Club,The Open,2026-07-16
-35,"Harrington, Padraig",5716,0.314,0.0447,2,Aronimink Golf Club,The Open,2026-07-16
-36,"McKibbin, Tom",22322,0.25,0.0344,1,Aronimink Golf Club,The Open,2026-07-16
-37,"Brown, Dan",20766,0.244,0.0333,1,Aronimink Golf Club,The Open,2026-07-16
-38,"Spaun, J.J.",17536,0.225,0.0303,1,Aronimink Golf Club,The Open,2026-07-16
-39,"Fowler, Rickie",12965,0.174,0.022,1,Aronimink Golf Club,The Open,2026-07-16
-40,"Im, Sungjae",17488,0.171,0.0215,1,Aronimink Golf Club,The Open,2026-07-16
-41,"Hojgaard, Nicolai",23602,0.148,0.0177,1,Aronimink Golf Club,The Open,2026-07-16
-42,"Thorbjornsen, Michael",26649,0.107,0.0111,1,Aronimink Golf Club,The Open,2026-07-16
-43,"Scheffler, Scottie",18417,0.105,0.0107,1,Aronimink Golf Club,The Open,2026-07-16
-44,"Hovland, Viktor",18841,0.094,0.0089,1,Aronimink Golf Club,The Open,2026-07-16
-45,"Bradley, Keegan",13872,0.07,0.0051,1,Aronimink Golf Club,The Open,2026-07-16
-46,"Hojgaard, Rasmus",23838,0.017,-0.0036,1,Aronimink Golf Club,The Open,2026-07-16
-47,"McNealy, Maverick",18634,-0.016,-0.0089,1,Aronimink Golf Club,The Open,2026-07-16
-48,"Schaper, Jayden",26991,-0.028,-0.0109,1,Aronimink Golf Club,The Open,2026-07-16
-49,"Cauley, Bud",14502,-0.047,-0.014,1,Aronimink Golf Club,The Open,2026-07-16
-50,"Parry, John",13764,-0.079,-0.0192,1,Aronimink Golf Club,The Open,2026-07-16
-51,"Fitzpatrick, Matt",17646,-0.118,-0.0255,1,Aronimink Golf Club,The Open,2026-07-16
-52,"Ayora, Angel",30445,-0.158,-0.0321,1,Aronimink Golf Club,The Open,2026-07-16
-53,"Conners, Corey",17576,-0.19,-0.0373,1,Aronimink Golf Club,The Open,2026-07-16
-54,"Wiesberger, Bernd",9531,-0.204,-0.0396,1,Aronimink Golf Club,The Open,2026-07-16
-55,"Gerard, Ryan",29767,-0.216,-0.0415,1,Aronimink Golf Club,The Open,2026-07-16
-56,"Rahm, Jon",19195,-0.282,-0.0523,1,Aronimink Golf Club,The Open,2026-07-16
-57,"Cantlay, Patrick",15466,-0.305,-0.056,1,Aronimink Golf Club,The Open,2026-07-16
-58,"Keefer, Johnny",32457,-0.307,-0.0563,1,Aronimink Golf Club,The Open,2026-07-16
-59,"Theegala, Sahith",23014,-0.324,-0.0591,1,Aronimink Golf Club,The Open,2026-07-16
-60,"Fleetwood, Tommy",12294,-0.333,-0.0606,1,Aronimink Golf Club,The Open,2026-07-16
-61,"Puig, David",28984,-0.357,-0.0645,1,Aronimink Golf Club,The Open,2026-07-16
-62,"Stevens, Sam",25569,-0.358,-0.0647,1,Aronimink Golf Club,The Open,2026-07-16
-63,"Henley, Russell",14578,-0.364,-0.0657,1,Aronimink Golf Club,The Open,2026-07-16
-64,"McIlroy, Rory",10091,-0.379,-0.0681,1,Aronimink Golf Club,The Open,2026-07-16
-65,"MacIntyre, Robert",23323,-0.409,-0.073,1,Aronimink Golf Club,The Open,2026-07-16
-66,"Wallace, Matt",20706,-0.41,-0.0732,1,Aronimink Golf Club,The Open,2026-07-16
-67,"Neergaard-Petersen, Rasmus",23841,-0.417,-0.0743,1,Aronimink Golf Club,The Open,2026-07-16
-68,"Taylor, Nick",13126,-0.494,-0.0868,1,Aronimink Golf Club,The Open,2026-07-16
-69,"Fitzpatrick, Alex",25362,-0.517,-0.0905,1,Aronimink Golf Club,The Open,2026-07-16
-70,"Hall, Harry",27194,-0.572,-0.0995,1,Aronimink Golf Club,The Open,2026-07-16
-71,"Rose, Justin",6093,-0.581,-0.101,1,Aronimink Golf Club,The Open,2026-07-16
-72,"Brennan, Michael",29197,-0.6,-0.104,1,Aronimink Golf Club,The Open,2026-07-16
-73,"Noren, Alex",10419,-0.605,-0.1049,1,Aronimink Golf Club,The Open,2026-07-16
-74,"Kim, Michael",17543,-0.611,-0.1059,1,Aronimink Golf Club,The Open,2026-07-16
-75,"Burns, Sam",19483,-0.635,-0.1097,1,Aronimink Golf Club,The Open,2026-07-16
-76,"Koepka, Brooks",16243,-0.671,-0.1156,1,Aronimink Golf Club,The Open,2026-07-16
-77,"Sullivan, Andy",15326,-0.73,-0.1252,1,Aronimink Golf Club,The Open,2026-07-16
-78,"Schauffele, Xander",19895,-0.743,-0.1274,1,Aronimink Golf Club,The Open,2026-07-16
-79,"Smith, Jordan",18586,-0.776,-0.1327,1,Aronimink Golf Club,The Open,2026-07-16
-80,"DeChambeau, Bryson",19841,-0.779,-0.1333,1,Aronimink Golf Club,The Open,2026-07-16
-81,"Matsuyama, Hideki",13562,-0.844,-0.1438,1,Aronimink Golf Club,The Open,2026-07-16
-82,"Clarke, Darren",3523,-0.856,-0.1457,1,Newport Beach Country Club,The Open,2026-07-16
-83,"Horschel, Billy",11276,-0.905,-0.1538,1,Aronimink Golf Club,The Open,2026-07-16
-84,"Mitchell, Keith",17365,-0.916,-0.1555,1,Aronimink Golf Club,The Open,2026-07-16
-85,"Lowry, Shane",13900,-0.94,-0.1595,1,Aronimink Golf Club,The Open,2026-07-16
-86,"Day, Jason",9771,-0.985,-0.1667,1,Aronimink Golf Club,The Open,2026-07-16
-87,"Scott, Adam",6430,-0.993,-0.1681,1,Aronimink Golf Club,The Open,2026-07-16
-88,"Straka, Sepp",17511,-1.012,-0.1712,1,Aronimink Golf Club,The Open,2026-07-16
-89,"Kim, Si Woo",14609,-1.026,-0.1734,1,Aronimink Golf Club,The Open,2026-07-16
-90,"Berger, Daniel",17606,-1.042,-0.176,1,Aronimink Golf Club,The Open,2026-07-16
-91,"Penge, Marco",22465,-1.066,-0.18,1,Aronimink Golf Club,The Open,2026-07-16
-92,"Harman, Brian",8825,-1.107,-0.1867,1,Aronimink Golf Club,The Open,2026-07-16
-93,"Saddier, Adrien",14792,-1.173,-0.1974,1,Aronimink Golf Club,The Open,2026-07-16
-94,"Echavarria, Nico",22833,-1.271,-0.2133,1,Aronimink Golf Club,The Open,2026-07-16
-95,"Coody, Pierceson",28309,-1.463,-0.2446,1,Aronimink Golf Club,The Open,2026-07-16
-96,"Homa, Max",17538,-1.511,-0.2524,1,Aronimink Golf Club,The Open,2026-07-16
-97,"Clark, Wyndham",23604,-1.736,-0.289,1,Aronimink Golf Club,The Open,2026-07-16
-98,"McCarty, Matt",28635,-1.907,-0.3169,1,Aronimink Golf Club,The Open,2026-07-16
-99,"Morikawa, Collin",22085,-1.973,-0.3277,1,Aronimink Golf Club,The Open,2026-07-16
-100,"Bhatia, Akshay",26096,-2.159,-0.3579,1,Aronimink Golf Club,The Open,2026-07-16
+1,"Nyholm, Pontus",25475,3.189,1.6009,4,PGA National  - Champion Course,3M Open,2026-07-21
+2,"Homa, Max",17538,1.881,0.9233,3,TPC Deere Run,3M Open,2026-07-21
+3,"Dou, Zecheng",16757,1.747,0.8537,4,TPC Deere Run,3M Open,2026-07-21
+4,"Mouw, William",29770,1.699,0.8287,3,PGA National  - Champion Course,3M Open,2026-07-21
+5,"Woodland, Gary",12577,1.606,0.7807,3,Memorial Park Golf Course,3M Open,2026-07-21
+6,"Merritt, Troy",13367,1.464,0.707,4,TPC Deere Run,3M Open,2026-07-21
+7,"Suber, Jackson",29279,1.426,0.6873,4,TPC Deere Run,3M Open,2026-07-21
+8,"Yellamaraju, Sudarshan",29925,1.426,0.6873,3,Memorial Park Golf Course,3M Open,2026-07-21
+9,"Hossler, Beau",15470,1.316,0.63,4,Memorial Park Golf Course,3M Open,2026-07-21
+10,"Dumont De Chassart, Adrien",22002,1.296,0.6196,4,Memorial Park Golf Course,3M Open,2026-07-21
+11,"Brennan, Michael",29197,1.241,0.5911,4,Memorial Park Golf Course,3M Open,2026-07-21
+12,"Meissner, Mac",28159,1.236,0.5888,4,TPC Deere Run,3M Open,2026-07-21
+13,"Blair, Zac",17639,1.21,0.5755,3,TPC Deere Run,3M Open,2026-07-21
+14,"Castillo, Ricky",27819,1.146,0.542,2,PGA National  - Champion Course,3M Open,2026-07-21
+15,"Kang, Jeffrey",21889,1.097,0.5165,4,Memorial Park Golf Course,3M Open,2026-07-21
+16,"Stout, Preston",32089,1.07,0.5027,1,TPC Deere Run,3M Open,2026-07-21
+17,"Vilips, Karl",24304,1.069,0.502,4,Memorial Park Golf Course,3M Open,2026-07-21
+18,"Duncan, Tyler",18187,1.057,0.496,4,TPC Deere Run,3M Open,2026-07-21
+19,"Stanger, Jimmy",23048,1.047,0.4907,4,PGA National  - Champion Course,3M Open,2026-07-21
+20,"Day, Jason",9771,1.042,0.4884,2,Memorial Park Golf Course,3M Open,2026-07-21
+21,"Jaeger, Stephan",16394,1.019,0.4761,4,TPC Deere Run,3M Open,2026-07-21
+22,"Griffin, Lanto",15330,1.015,0.4745,4,The Landings Golf & Athletic Club - Deer Creek,3M Open,2026-07-21
+23,"Stevens, Sam",25569,0.976,0.4541,2,Memorial Park Golf Course,3M Open,2026-07-21
+24,"Kohles, Ben",16395,0.945,0.4379,3,TPC Deere Run,3M Open,2026-07-21
+25,"McGreevy, Max",23505,0.882,0.4053,4,Memorial Park Golf Course,3M Open,2026-07-21
+26,"Smotherman, Austin",22985,0.824,0.3752,2,PGA National  - Champion Course,3M Open,2026-07-21
+27,"Van Rooyen, Erik",17550,0.749,0.3361,4,TPC Deere Run,3M Open,2026-07-21
+28,"Bezuidenhout, Christiaan",18103,0.722,0.3221,4,TPC Deere Run,3M Open,2026-07-21
+29,"Dunlap, Nick",28270,0.7,0.3109,4,TPC Deere Run,3M Open,2026-07-21
+30,"Hodges, Lee",25157,0.692,0.3066,4,TPC Deere Run,3M Open,2026-07-21
+31,"Knapp, Jake",19396,0.683,0.3023,2,Memorial Park Golf Course,3M Open,2026-07-21
+32,"Skinns, David",10873,0.676,0.2984,2,TPC Deere Run,3M Open,2026-07-21
+33,"Dahmen, Joel",14509,0.648,0.284,3,PGA National  - Champion Course,3M Open,2026-07-21
+34,"Eckroat, Austin",26653,0.596,0.257,4,Memorial Park Golf Course,3M Open,2026-07-21
+35,"Keefer, Johnny",32457,0.587,0.2524,5,Memorial Park Golf Course,3M Open,2026-07-21
+36,"Mitchell, Keith",17365,0.583,0.2505,3,Memorial Park Golf Course,3M Open,2026-07-21
+37,"Yu, Kevin",17881,0.57,0.2437,4,TPC Deere Run,3M Open,2026-07-21
+38,"Streelman, Kevin",8480,0.558,0.2372,3,PGA National  - Champion Course,3M Open,2026-07-21
+39,"Crowe, Trace",27780,0.542,0.2289,3,TPC Deere Run,3M Open,2026-07-21
+40,"Springer, Hayden",21995,0.514,0.2148,3,TPC Deere Run,3M Open,2026-07-21
+41,"Higgs, Harry",14140,0.503,0.2089,5,TPC Deere Run,3M Open,2026-07-21
+42,"Hughes, Mackenzie",15556,0.492,0.2031,3,Memorial Park Golf Course,3M Open,2026-07-21
+43,"Nakajima, Keita",21074,0.471,0.1921,3,PGA National  - Champion Course,3M Open,2026-07-21
+44,"Peterson, Paul",16341,0.465,0.189,3,The Landings Golf & Athletic Club - Deer Creek,3M Open,2026-07-21
+45,"Kanaya, Takumi",19729,0.459,0.1859,4,Memorial Park Golf Course,3M Open,2026-07-21
+46,"Putnam, Andrew",14704,0.425,0.1685,3,Memorial Park Golf Course,3M Open,2026-07-21
+47,"Grillo, Emiliano",12808,0.402,0.1565,4,TPC Deere Run,3M Open,2026-07-21
+48,"Smith, Jordan",18586,0.369,0.1395,2,PGA National  - Champion Course,3M Open,2026-07-21
+49,"Pavon, Matthieu",19960,0.363,0.1362,4,PGA National  - Champion Course,3M Open,2026-07-21
+50,"Fisk, Steven",26657,0.362,0.1357,4,Memorial Park Golf Course,3M Open,2026-07-21
+51,"Chatfield, Davis",30620,0.357,0.133,4,TPC Deere Run,3M Open,2026-07-21
+52,"Wise, Aaron",22051,0.324,0.1162,4,TPC Deere Run,3M Open,2026-07-21
+53,"Malnati, Peter",14926,0.297,0.1021,4,TPC Deere Run,3M Open,2026-07-21
+54,"Lindheim, Nicholas",16713,0.289,0.0981,1,TPC Deere Run,3M Open,2026-07-21
+55,"Hojgaard, Rasmus",23838,0.276,0.091,4,PGA National  - Champion Course,3M Open,2026-07-21
+56,"Villegas, Camilo",9171,0.275,0.0906,4,TPC Deere Run,3M Open,2026-07-21
+57,"McNealy, Maverick",18634,0.266,0.0858,1,Augusta National Golf Club,3M Open,2026-07-21
+58,"Moore, Taylor",21944,0.266,0.086,4,PGA National  - Champion Course,3M Open,2026-07-21
+59,"Ghim, Doug",24550,0.247,0.076,4,TPC Deere Run,3M Open,2026-07-21
+60,"Parry, John",13764,0.239,0.0721,3,Memorial Park Golf Course,3M Open,2026-07-21
+61,"Matsuyama, Hideki",13562,0.228,0.0664,1,Augusta National Golf Club,3M Open,2026-07-21
+62,"Riley, Davis",19872,0.219,0.0616,5,TPC Deere Run,3M Open,2026-07-21
+63,"Harman, Brian",8825,0.216,0.0602,1,Augusta National Golf Club,3M Open,2026-07-21
+64,"Coody, Pierceson",28309,0.194,0.0486,2,Memorial Park Golf Course,3M Open,2026-07-21
+65,"Snedeker, Brandt",8820,0.191,0.0471,2,PGA National  - Champion Course,3M Open,2026-07-21
+66,"Finau, Tony",11676,0.181,0.0418,2,TPC Deere Run,3M Open,2026-07-21
+67,"Kuchar, Matt",6169,0.164,0.0331,4,TPC Deere Run,3M Open,2026-07-21
+68,"Shipley, Neal",32055,0.141,0.0211,4,PGA National  - Champion Course,3M Open,2026-07-21
+69,"Hoge, Tom",15575,0.129,0.0151,2,TPC Deere Run,3M Open,2026-07-21
+70,"McCarthy, Denny",19870,0.06,-0.0208,2,Memorial Park Golf Course,3M Open,2026-07-21
+71,"Lebioda, Hank",21943,0.057,-0.0226,4,PGA National  - Champion Course,3M Open,2026-07-21
+72,"Highsmith, Joe",28469,0.056,-0.023,4,Memorial Park Golf Course,3M Open,2026-07-21
+73,"Svensson, Adam",13997,0.051,-0.0257,4,TPC Deere Run,3M Open,2026-07-21
+74,"Conners, Corey",17576,0.042,-0.03,1,Augusta National Golf Club,3M Open,2026-07-21
+75,"Hubbard, Mark",16333,0.041,-0.0305,4,PGA National  - Champion Course,3M Open,2026-07-21
+76,"Scheffler, Scottie",18417,0.038,-0.032,1,Augusta National Golf Club,3M Open,2026-07-21
+77,"Hardy, Nick",19865,0.019,-0.042,2,TPC Deere Run,3M Open,2026-07-21
+78,"Kirk, Chris",12423,-0.035,-0.07,2,PGA National  - Champion Course,3M Open,2026-07-21
+79,"Whaley, Vince",25908,-0.039,-0.072,4,Memorial Park Golf Course,3M Open,2026-07-21
+80,"Jarvis, Casey",26947,-0.057,-0.0816,2,Dunes Golf and Beach Club,3M Open,2026-07-21
+81,"Lipsky, David",15980,-0.06,-0.0829,3,TPC Deere Run,3M Open,2026-07-21
+82,"Bauchou, Zach",19846,-0.083,-0.0949,4,PGA National  - Champion Course,3M Open,2026-07-21
+83,"Sargent, Gordon",30814,-0.131,-0.1199,4,Memorial Park Golf Course,3M Open,2026-07-21
+84,"Kitayama, Kurt",21891,-0.154,-0.1317,2,Augusta National Golf Club,3M Open,2026-07-21
+85,"Higgo, Garrick",24342,-0.16,-0.1349,4,Memorial Park Golf Course,3M Open,2026-07-21
+86,"Roy, Kevin",18424,-0.219,-0.1654,4,PGA National  - Champion Course,3M Open,2026-07-21
+87,"Ewart, A.J.",21883,-0.265,-0.1891,4,PGA National  - Champion Course,3M Open,2026-07-21
+88,"Hoey, Rico",23504,-0.28,-0.1969,4,Memorial Park Golf Course,3M Open,2026-07-21
+89,"Kim, Tom",24766,-0.293,-0.204,4,TPC Deere Run,3M Open,2026-07-21
+90,"Schmid, Matti",20722,-0.295,-0.2048,3,PGA National  - Champion Course,3M Open,2026-07-21
+91,"Potgieter, Aldrich",27900,-0.3,-0.2074,3,Memorial Park Golf Course,3M Open,2026-07-21
+92,"Thompson, Davis",27364,-0.306,-0.2105,4,Memorial Park Golf Course,3M Open,2026-07-21
+93,"Gomez, Fabian",8571,-0.339,-0.2277,3,Raleigh Country Club,3M Open,2026-07-21
+94,"Svensson, Jesper",26850,-0.424,-0.2718,3,Dunes Golf and Beach Club,3M Open,2026-07-21
+95,"Ramey, Chad",19840,-0.46,-0.2906,4,Memorial Park Golf Course,3M Open,2026-07-21
+96,"Rozo, Marcelo",16591,-0.487,-0.3043,3,TPC Deere Run,3M Open,2026-07-21
+97,"Garnett, Brice",11451,-0.492,-0.307,4,TPC Deere Run,3M Open,2026-07-21
+98,"Fishburn, Patrick",25094,-0.558,-0.3412,4,PGA National  - Champion Course,3M Open,2026-07-21
+99,"Kizzire, Patton",13470,-0.567,-0.3457,4,PGA National  - Champion Course,3M Open,2026-07-21
+100,"Neergaard-Petersen, Rasmus",23841,-0.627,-0.377,4,Memorial Park Golf Course,3M Open,2026-07-21
+101,"Phillips, Chandler",27164,-0.627,-0.377,4,TPC Deere Run,3M Open,2026-07-21
+102,"Kim, Michael",17543,-0.652,-0.3902,2,Augusta National Golf Club,3M Open,2026-07-21
+103,"Li, Haotong",15310,-0.694,-0.4116,5,Augusta National Golf Club,3M Open,2026-07-21
+104,"Glover, Lucas",7399,-0.716,-0.4231,2,TPC Deere Run,3M Open,2026-07-21
+105,"Silverman, Ben",17381,-0.764,-0.448,4,PGA National  - Champion Course,3M Open,2026-07-21
+106,"Rodgers, Patrick",16283,-0.839,-0.4868,1,Memorial Park Golf Course,3M Open,2026-07-21
+107,"Martin, Ben",14007,-0.858,-0.4967,3,TPC Deere Run,3M Open,2026-07-21
+108,"Gordon, Will",26660,-0.927,-0.5324,3,TPC Deere Run,3M Open,2026-07-21
+109,"Campbell, Brian",18628,-0.938,-0.5384,3,Augusta National Golf Club,3M Open,2026-07-21
+110,"List, Luke",7960,-0.952,-0.5452,3,Raleigh Country Club,3M Open,2026-07-21
+111,"Schenk, Adam",19477,-0.962,-0.5505,4,PGA National  - Champion Course,3M Open,2026-07-21
+112,"Horschel, Billy",11276,-1.032,-0.5868,3,Memorial Park Golf Course,3M Open,2026-07-21
+113,"Davis, Cam",17786,-1.035,-0.5885,2,Dunes Golf and Beach Club,3M Open,2026-07-21
+114,"Paul, Jeremy",22087,-1.056,-0.5995,4,Raleigh Country Club,3M Open,2026-07-21
+115,"Campos, Rafael",12909,-1.067,-0.6052,4,TPC Deere Run,3M Open,2026-07-21
+116,"Im, Sungjae",17488,-1.114,-0.6291,3,Memorial Park Golf Course,3M Open,2026-07-21
+117,"Koivun, Jackson",32319,-1.127,-0.6359,1,TPC Deere Run,3M Open,2026-07-21
+118,"Olesen, Thorbjorn",13412,-1.176,-0.6614,3,Memorial Park Golf Course,3M Open,2026-07-21
+119,"VanDerLaan, John",25319,-1.2,-0.6741,4,PGA National  - Champion Course,3M Open,2026-07-21
+120,"Wu, Dylan",25002,-1.258,-0.7038,4,TPC Deere Run,3M Open,2026-07-21
+121,"Clanton, Luke",32330,-1.279,-0.7148,4,TPC Deere Run,3M Open,2026-07-21
+122,"Brehm, Ryan",10423,-1.291,-0.7213,4,Dunes Golf and Beach Club,3M Open,2026-07-21
+123,"Hirata, Kensei",20954,-1.346,-0.7494,4,PGA National  - Champion Course,3M Open,2026-07-21
+124,"Champ, Cameron",23542,-1.347,-0.7499,2,TPC Deere Run,3M Open,2026-07-21
+125,"Blanchet, Chandler",24956,-1.663,-0.9139,3,PGA National  - Champion Course,3M Open,2026-07-21
+126,"Greyserman, Max",23465,-1.716,-0.9414,4,TPC Deere Run,3M Open,2026-07-21
+127,"Tosti, Alejandro",17032,-1.746,-0.957,4,TPC Deere Run,3M Open,2026-07-21
+128,"Hadwin, Adam",13965,-1.751,-0.9595,4,PGA National  - Champion Course,3M Open,2026-07-21
+129,"Ventura, Kristoffer",15651,-1.779,-0.9741,4,PGA National  - Champion Course,3M Open,2026-07-21
+130,"Lamprecht, Christo",24343,-2.064,-1.1218,4,Memorial Park Golf Course,3M Open,2026-07-21
+131,"Walker, Danny",25003,-2.174,-1.1791,4,Memorial Park Golf Course,3M Open,2026-07-21
+132,"Pendrith, Taylor",17780,-2.404,-1.2981,2,Memorial Park Golf Course,3M Open,2026-07-21
+133,"Lower, Justin",17723,-2.803,-1.5048,4,PGA National  - Champion Course,3M Open,2026-07-21
+134,"Power, Seamus",10104,-2.931,-1.5713,4,Memorial Park Golf Course,3M Open,2026-07-21

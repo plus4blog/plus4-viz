@@ -1,137 +1,137 @@
 rank,player_name,dg_id,lead_in_z,lead_in_raw,predictors_found,top_course,tournament,as_of_date
-1,"Bhatia, Akshay",26096,3.575,0.937,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-2,"Henley, Russell",14578,2.526,0.658,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-3,"Young, Cameron",26651,2.423,0.6306,4,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-4,"Horschel, Billy",11276,1.838,0.475,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-5,"Nyholm, Pontus",25475,1.836,0.4744,4,Dunes Golf and Beach Club,Rocket Classic,2026-07-27
-6,"Hojgaard, Nicolai",23602,1.824,0.4712,5,Quail Hollow Club,Rocket Classic,2026-07-27
-7,"Hall, Harry",27194,1.77,0.4568,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-8,"Gotterup, Chris",27774,1.729,0.446,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-9,"Thorbjornsen, Michael",26649,1.581,0.4065,5,Colonial Country Club,Rocket Classic,2026-07-27
-10,"Kang, Jeffrey",21889,1.209,0.3077,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-11,"Spieth, Jordan",14636,1.054,0.2664,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-12,"Suber, Jackson",29279,1.006,0.2535,4,Memorial Park Golf Course,Rocket Classic,2026-07-27
-13,"Kim, Michael",17543,0.989,0.249,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-14,"Brennan, Michael",29197,0.981,0.247,4,Colonial Country Club,Rocket Classic,2026-07-27
-15,"Fowler, Rickie",12965,0.971,0.2442,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-16,"Fisk, Steven",26657,0.97,0.2439,5,Colonial Country Club,Rocket Classic,2026-07-27
-17,"Taylor, Nick",13126,0.94,0.2359,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-18,"Rozo, Marcelo",16591,0.894,0.2237,3,Dunes Golf and Beach Club,Rocket Classic,2026-07-27
-19,"Yellamaraju, Sudarshan",29925,0.863,0.2156,5,Quail Hollow Club,Rocket Classic,2026-07-27
-20,"Nakajima, Keita",21074,0.799,0.1985,2,Colonial Country Club,Rocket Classic,2026-07-27
-21,"Hossler, Beau",15470,0.794,0.1972,4,Dunes Golf and Beach Club,Rocket Classic,2026-07-27
-22,"Ghim, Doug",24550,0.785,0.195,4,Colonial Country Club,Rocket Classic,2026-07-27
-23,"Smith, Jordan",18586,0.785,0.1949,4,Colonial Country Club,Rocket Classic,2026-07-27
-24,"Wallace, Matt",20706,0.756,0.1872,4,Quail Hollow Club,Rocket Classic,2026-07-27
-25,"Garnett, Brice",11451,0.75,0.1855,4,Colonial Country Club,Rocket Classic,2026-07-27
-26,"Dunlap, Nick",28270,0.746,0.1845,4,Dunes Golf and Beach Club,Rocket Classic,2026-07-27
-27,"Meissner, Mac",28159,0.693,0.1704,4,Colonial Country Club,Rocket Classic,2026-07-27
-28,"Shipley, Neal",32055,0.689,0.1693,4,Memorial Park Golf Course,Rocket Classic,2026-07-27
-29,"Pavon, Matthieu",19960,0.658,0.1612,4,Dunes Golf and Beach Club,Rocket Classic,2026-07-27
-30,"Kuchar, Matt",6169,0.65,0.159,4,Colonial Country Club,Rocket Classic,2026-07-27
-31,"McCarty, Matt",28635,0.604,0.1468,6,Quail Hollow Club,Rocket Classic,2026-07-27
-32,"Grillo, Emiliano",12808,0.578,0.1399,4,Dunes Golf and Beach Club,Rocket Classic,2026-07-27
-33,"Hisatsune, Ryo",22760,0.568,0.1371,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-34,"Smotherman, Austin",22985,0.565,0.1364,5,Quail Hollow Club,Rocket Classic,2026-07-27
-35,"Cole, Eric",21756,0.533,0.1277,4,Colonial Country Club,Rocket Classic,2026-07-27
-36,"Hodges, Lee",25157,0.527,0.1263,4,Dunes Golf and Beach Club,Rocket Classic,2026-07-27
-37,"Knapp, Jake",19396,0.476,0.1125,3,Memorial Park Golf Course,Rocket Classic,2026-07-27
-38,"Novak, Andrew",23475,0.475,0.1124,6,Quail Hollow Club,Rocket Classic,2026-07-27
-39,"Putnam, Andrew",14704,0.471,0.1113,6,Colonial Country Club,Rocket Classic,2026-07-27
-40,"Clark, Wyndham",23604,0.441,0.1034,3,Memorial Park Golf Course,Rocket Classic,2026-07-27
-41,"Streelman, Kevin",8480,0.426,0.0993,3,Colonial Country Club,Rocket Classic,2026-07-27
-42,"Svensson, Jesper",26850,0.401,0.0927,3,Dunes Golf and Beach Club,Rocket Classic,2026-07-27
-43,"Bridgeman, Jacob",29433,0.392,0.0903,4,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-44,"Ramey, Chad",19840,0.39,0.0898,4,Memorial Park Golf Course,Rocket Classic,2026-07-27
-45,"Bezuidenhout, Christiaan",18103,0.374,0.0855,4,Colonial Country Club,Rocket Classic,2026-07-27
-46,"Hoey, Rico",23504,0.34,0.0766,4,Colonial Country Club,Rocket Classic,2026-07-27
-47,"Yu, Kevin",17881,0.338,0.076,4,Colonial Country Club,Rocket Classic,2026-07-27
-48,"Hubbard, Mark",16333,0.33,0.0739,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-49,"Koepka, Brooks",16243,0.327,0.0731,3,Dunes Golf and Beach Club,Rocket Classic,2026-07-27
-50,"Hughes, Mackenzie",15556,0.322,0.0717,4,Colonial Country Club,Rocket Classic,2026-07-27
-51,"Walker, Danny",25003,0.31,0.0685,4,Dunes Golf and Beach Club,Rocket Classic,2026-07-27
-52,"Fishburn, Patrick",25094,0.279,0.0602,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-53,"Blair, Zac",17639,0.268,0.0573,2,Colonial Country Club,Rocket Classic,2026-07-27
-54,"Higgo, Garrick",24342,0.258,0.0547,5,Colonial Country Club,Rocket Classic,2026-07-27
-55,"Ventura, Kristoffer",15651,0.248,0.0519,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-56,"Davis, Cam",17786,0.246,0.0514,2,Colonial Country Club,Rocket Classic,2026-07-27
-57,"Bauchou, Zach",19846,0.198,0.0387,4,Colonial Country Club,Rocket Classic,2026-07-27
-58,"VanDerLaan, John",25319,0.192,0.0371,4,Colonial Country Club,Rocket Classic,2026-07-27
-59,"Simpson, Webb",11049,0.175,0.0326,3,Colonial Country Club,Rocket Classic,2026-07-27
-60,"Schmid, Matti",20722,0.172,0.0317,2,Memorial Park Golf Course,Rocket Classic,2026-07-27
-61,"Snedeker, Brandt",8820,0.142,0.0239,3,Colonial Country Club,Rocket Classic,2026-07-27
-62,"Ewart, A.J.",21883,0.133,0.0213,4,Colonial Country Club,Rocket Classic,2026-07-27
-63,"Campbell, Brian",18628,0.131,0.0208,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-64,"Mouw, William",29770,0.105,0.014,4,Memorial Park Golf Course,Rocket Classic,2026-07-27
-65,"Olesen, Thorbjorn",13412,0.093,0.0107,3,Memorial Park Golf Course,Rocket Classic,2026-07-27
-66,"Keefer, Johnny",32457,0.087,0.0092,6,Memorial Park Golf Course,Rocket Classic,2026-07-27
-67,"English, Harris",14577,0.086,0.009,5,Memorial Park Golf Course,Rocket Classic,2026-07-27
-68,"Griffin, Lanto",15330,0.07,0.0047,3,Colonial Country Club,Rocket Classic,2026-07-27
-69,"Ruffels, Ryan",17169,0.069,0.0043,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-27
-70,"Springer, Hayden",21995,0.022,-0.0081,2,Dunes Golf and Beach Club,Rocket Classic,2026-07-27
-71,"Dumont De Chassart, Adrien",22002,0.016,-0.0096,4,Memorial Park Golf Course,Rocket Classic,2026-07-27
-72,"Sargent, Gordon",30814,-0.011,-0.0169,3,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-73,"Wise, Aaron",22051,-0.015,-0.0179,2,Memorial Park Golf Course,Rocket Classic,2026-07-27
-74,"Spaun, J.J.",17536,-0.017,-0.0186,6,Quail Hollow Club,Rocket Classic,2026-07-27
-75,"Kim, Si Woo",14609,-0.032,-0.0224,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-76,"Finau, Tony",11676,-0.032,-0.0225,5,Quail Hollow Club,Rocket Classic,2026-07-27
-77,"Svensson, Adam",13997,-0.048,-0.0266,4,Memorial Park Golf Course,Rocket Classic,2026-07-27
-78,"Thompson, Davis",27364,-0.053,-0.0282,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-79,"Malnati, Peter",14926,-0.071,-0.0329,3,Memorial Park Golf Course,Rocket Classic,2026-07-27
-80,"Blanchet, Chandler",24956,-0.072,-0.0331,5,Colonial Country Club,Rocket Classic,2026-07-27
-81,"McGreevy, Max",23505,-0.078,-0.0347,4,Memorial Park Golf Course,Rocket Classic,2026-07-27
-82,"Whaley, Vince",25908,-0.099,-0.0403,4,Memorial Park Golf Course,Rocket Classic,2026-07-27
-83,"Rodgers, Patrick",16283,-0.112,-0.0436,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-84,"Saddier, Adrien",14792,-0.114,-0.0442,3,Colonial Country Club,Rocket Classic,2026-07-27
-85,"Van Rooyen, Erik",17550,-0.148,-0.0533,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-86,"Moore, Taylor",21944,-0.155,-0.0553,5,Dunes Golf and Beach Club,Rocket Classic,2026-07-27
-87,"Todd, Brendon",12425,-0.219,-0.0722,2,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-88,"Kohles, Ben",16395,-0.231,-0.0755,2,Dunes Golf and Beach Club,Rocket Classic,2026-07-27
-89,"Echavarria, Nico",22833,-0.253,-0.0813,6,Colonial Country Club,Rocket Classic,2026-07-27
-90,"Conners, Corey",17576,-0.254,-0.0816,4,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-91,"Power, Seamus",10104,-0.278,-0.0879,4,Colonial Country Club,Rocket Classic,2026-07-27
-92,"Campos, Rafael",12909,-0.282,-0.089,3,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-93,"Lower, Justin",17723,-0.323,-0.0998,3,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-94,"Lipsky, David",15980,-0.343,-0.1051,4,Quail Hollow Club,Rocket Classic,2026-07-27
-95,"Hirata, Kensei",20954,-0.37,-0.1125,4,Memorial Park Golf Course,Rocket Classic,2026-07-27
-96,"Dou, Zecheng",16757,-0.398,-0.1198,4,Colonial Country Club,Rocket Classic,2026-07-27
-97,"Tosti, Alejandro",17032,-0.433,-0.1292,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-98,"Neergaard-Petersen, Rasmus",23841,-0.438,-0.1304,4,Augusta National Golf Club,Rocket Classic,2026-07-27
-99,"Kanaya, Takumi",19729,-0.443,-0.1318,4,Colonial Country Club,Rocket Classic,2026-07-27
-100,"Chatfield, Davis",30620,-0.455,-0.1349,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-101,"Schenk, Adam",19477,-0.476,-0.1407,5,Harbour Town Golf Links,Rocket Classic,2026-07-27
-102,"Highsmith, Joe",28469,-0.533,-0.1557,5,Colonial Country Club,Rocket Classic,2026-07-27
-103,"Greyserman, Max",23465,-0.561,-0.1632,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-104,"Pendrith, Taylor",17780,-0.562,-0.1634,4,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-105,"Glover, Lucas",7399,-0.581,-0.1684,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-106,"Castillo, Ricky",27819,-0.586,-0.1698,4,Harbour Town Golf Links,Rocket Classic,2026-07-27
-107,"Hoge, Tom",15575,-0.611,-0.1765,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-108,"Clanton, Luke",32330,-0.614,-0.1773,4,Colonial Country Club,Rocket Classic,2026-07-27
-109,"Eckroat, Austin",26653,-0.647,-0.186,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-110,"Riley, Davis",19872,-0.67,-0.1922,4,Memorial Park Golf Course,Rocket Classic,2026-07-27
-111,"Roy, Kevin",18424,-0.691,-0.1976,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-112,"Lamprecht, Christo",24343,-0.696,-0.1991,4,Memorial Park Golf Course,Rocket Classic,2026-07-27
-113,"Vilips, Karl",24304,-0.704,-0.2011,5,Memorial Park Golf Course,Rocket Classic,2026-07-27
-114,"Schauffele, Xander",19895,-0.71,-0.2029,4,Augusta National Golf Club,Rocket Classic,2026-07-27
-115,"Dahmen, Joel",14509,-0.787,-0.2233,4,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-116,"Phillips, Chandler",27164,-0.8,-0.2268,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-117,"Crowe, Trace",27780,-0.801,-0.2271,2,Colonial Country Club,Rocket Classic,2026-07-27
-118,"Penge, Marco",22465,-0.849,-0.2398,4,Memorial Park Golf Course,Rocket Classic,2026-07-27
-119,"Wu, Dylan",25002,-0.897,-0.2524,4,Memorial Park Golf Course,Rocket Classic,2026-07-27
-120,"Lebioda, Hank",21943,-0.984,-0.2756,4,Memorial Park Golf Course,Rocket Classic,2026-07-27
-121,"Hojgaard, Rasmus",23838,-0.99,-0.2774,4,Memorial Park Golf Course,Rocket Classic,2026-07-27
-122,"Jaeger, Stephan",16394,-1.295,-0.3583,4,Colonial Country Club,Rocket Classic,2026-07-27
-123,"Kizzire, Patton",13470,-1.387,-0.3828,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-124,"Griffin, Ben",24968,-1.413,-0.3898,6,Colonial Country Club,Rocket Classic,2026-07-27
-125,"Cantlay, Patrick",15466,-1.518,-0.4178,4,Augusta National Golf Club,Rocket Classic,2026-07-27
-126,"Gerard, Ryan",29767,-1.585,-0.4355,6,Colonial Country Club,Rocket Classic,2026-07-27
-127,"McCarthy, Denny",19870,-1.661,-0.4557,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-128,"Matsuyama, Hideki",13562,-1.872,-0.5119,5,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-129,"Parry, John",13764,-1.913,-0.5228,4,Memorial Park Golf Course,Rocket Classic,2026-07-27
-130,"Coody, Pierceson",28309,-1.973,-0.5389,5,Colonial Country Club,Rocket Classic,2026-07-27
-131,"Li, Haotong",15310,-2.032,-0.5544,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-27
-132,"Im, Sungjae",17488,-2.033,-0.5547,6,Quail Hollow Club,Rocket Classic,2026-07-27
-133,"Kirk, Chris",12423,-2.217,-0.6037,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-27
-134,"Bradley, Keegan",13872,-2.261,-0.6153,5,Quail Hollow Club,Rocket Classic,2026-07-27
-135,"Potgieter, Aldrich",27900,-2.736,-0.7417,5,Memorial Park Golf Course,Rocket Classic,2026-07-27
-136,"Stevens, Sam",25569,-2.842,-0.7699,6,Augusta National Golf Club,Rocket Classic,2026-07-27
+1,"Bhatia, Akshay",26096,3.575,0.937,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+2,"Henley, Russell",14578,2.526,0.658,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+3,"Young, Cameron",26651,2.423,0.6306,4,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+4,"Horschel, Billy",11276,1.838,0.475,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+5,"Nyholm, Pontus",25475,1.836,0.4744,4,Dunes Golf and Beach Club,Rocket Classic,2026-07-28
+6,"Hojgaard, Nicolai",23602,1.824,0.4712,5,Quail Hollow Club,Rocket Classic,2026-07-28
+7,"Hall, Harry",27194,1.77,0.4568,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+8,"Gotterup, Chris",27774,1.729,0.446,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+9,"Thorbjornsen, Michael",26649,1.581,0.4065,5,Colonial Country Club,Rocket Classic,2026-07-28
+10,"Kang, Jeffrey",21889,1.209,0.3077,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+11,"Spieth, Jordan",14636,1.054,0.2664,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+12,"Suber, Jackson",29279,1.006,0.2535,4,Memorial Park Golf Course,Rocket Classic,2026-07-28
+13,"Kim, Michael",17543,0.989,0.249,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+14,"Brennan, Michael",29197,0.981,0.247,4,Colonial Country Club,Rocket Classic,2026-07-28
+15,"Fowler, Rickie",12965,0.971,0.2442,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+16,"Fisk, Steven",26657,0.97,0.2439,5,Colonial Country Club,Rocket Classic,2026-07-28
+17,"Taylor, Nick",13126,0.94,0.2359,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+18,"Rozo, Marcelo",16591,0.894,0.2237,3,Dunes Golf and Beach Club,Rocket Classic,2026-07-28
+19,"Yellamaraju, Sudarshan",29925,0.863,0.2156,5,Quail Hollow Club,Rocket Classic,2026-07-28
+20,"Nakajima, Keita",21074,0.799,0.1985,2,Colonial Country Club,Rocket Classic,2026-07-28
+21,"Hossler, Beau",15470,0.794,0.1972,4,Dunes Golf and Beach Club,Rocket Classic,2026-07-28
+22,"Ghim, Doug",24550,0.785,0.195,4,Colonial Country Club,Rocket Classic,2026-07-28
+23,"Smith, Jordan",18586,0.785,0.1949,4,Colonial Country Club,Rocket Classic,2026-07-28
+24,"Wallace, Matt",20706,0.756,0.1872,4,Quail Hollow Club,Rocket Classic,2026-07-28
+25,"Garnett, Brice",11451,0.75,0.1855,4,Colonial Country Club,Rocket Classic,2026-07-28
+26,"Dunlap, Nick",28270,0.746,0.1845,4,Dunes Golf and Beach Club,Rocket Classic,2026-07-28
+27,"Meissner, Mac",28159,0.693,0.1704,4,Colonial Country Club,Rocket Classic,2026-07-28
+28,"Shipley, Neal",32055,0.689,0.1693,4,Memorial Park Golf Course,Rocket Classic,2026-07-28
+29,"Pavon, Matthieu",19960,0.658,0.1612,4,Dunes Golf and Beach Club,Rocket Classic,2026-07-28
+30,"Kuchar, Matt",6169,0.65,0.159,4,Colonial Country Club,Rocket Classic,2026-07-28
+31,"McCarty, Matt",28635,0.604,0.1468,6,Quail Hollow Club,Rocket Classic,2026-07-28
+32,"Grillo, Emiliano",12808,0.578,0.1399,4,Dunes Golf and Beach Club,Rocket Classic,2026-07-28
+33,"Hisatsune, Ryo",22760,0.568,0.1371,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+34,"Smotherman, Austin",22985,0.565,0.1364,5,Quail Hollow Club,Rocket Classic,2026-07-28
+35,"Cole, Eric",21756,0.533,0.1277,4,Colonial Country Club,Rocket Classic,2026-07-28
+36,"Hodges, Lee",25157,0.527,0.1263,4,Dunes Golf and Beach Club,Rocket Classic,2026-07-28
+37,"Knapp, Jake",19396,0.476,0.1125,3,Memorial Park Golf Course,Rocket Classic,2026-07-28
+38,"Novak, Andrew",23475,0.475,0.1124,6,Quail Hollow Club,Rocket Classic,2026-07-28
+39,"Putnam, Andrew",14704,0.471,0.1113,6,Colonial Country Club,Rocket Classic,2026-07-28
+40,"Clark, Wyndham",23604,0.441,0.1034,3,Memorial Park Golf Course,Rocket Classic,2026-07-28
+41,"Streelman, Kevin",8480,0.426,0.0993,3,Colonial Country Club,Rocket Classic,2026-07-28
+42,"Svensson, Jesper",26850,0.401,0.0927,3,Dunes Golf and Beach Club,Rocket Classic,2026-07-28
+43,"Bridgeman, Jacob",29433,0.392,0.0903,4,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+44,"Ramey, Chad",19840,0.39,0.0898,4,Memorial Park Golf Course,Rocket Classic,2026-07-28
+45,"Bezuidenhout, Christiaan",18103,0.374,0.0855,4,Colonial Country Club,Rocket Classic,2026-07-28
+46,"Hoey, Rico",23504,0.34,0.0766,4,Colonial Country Club,Rocket Classic,2026-07-28
+47,"Yu, Kevin",17881,0.338,0.076,4,Colonial Country Club,Rocket Classic,2026-07-28
+48,"Hubbard, Mark",16333,0.33,0.0739,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+49,"Koepka, Brooks",16243,0.327,0.0731,3,Dunes Golf and Beach Club,Rocket Classic,2026-07-28
+50,"Hughes, Mackenzie",15556,0.322,0.0717,4,Colonial Country Club,Rocket Classic,2026-07-28
+51,"Walker, Danny",25003,0.31,0.0685,4,Dunes Golf and Beach Club,Rocket Classic,2026-07-28
+52,"Fishburn, Patrick",25094,0.279,0.0602,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+53,"Blair, Zac",17639,0.268,0.0573,2,Colonial Country Club,Rocket Classic,2026-07-28
+54,"Higgo, Garrick",24342,0.258,0.0547,5,Colonial Country Club,Rocket Classic,2026-07-28
+55,"Ventura, Kristoffer",15651,0.248,0.0519,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+56,"Davis, Cam",17786,0.246,0.0514,2,Colonial Country Club,Rocket Classic,2026-07-28
+57,"Bauchou, Zach",19846,0.198,0.0387,4,Colonial Country Club,Rocket Classic,2026-07-28
+58,"VanDerLaan, John",25319,0.192,0.0371,4,Colonial Country Club,Rocket Classic,2026-07-28
+59,"Simpson, Webb",11049,0.175,0.0326,3,Colonial Country Club,Rocket Classic,2026-07-28
+60,"Schmid, Matti",20722,0.172,0.0317,2,Memorial Park Golf Course,Rocket Classic,2026-07-28
+61,"Snedeker, Brandt",8820,0.142,0.0239,3,Colonial Country Club,Rocket Classic,2026-07-28
+62,"Ewart, A.J.",21883,0.133,0.0213,4,Colonial Country Club,Rocket Classic,2026-07-28
+63,"Campbell, Brian",18628,0.131,0.0208,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+64,"Mouw, William",29770,0.105,0.014,4,Memorial Park Golf Course,Rocket Classic,2026-07-28
+65,"Olesen, Thorbjorn",13412,0.093,0.0107,3,Memorial Park Golf Course,Rocket Classic,2026-07-28
+66,"Keefer, Johnny",32457,0.087,0.0092,6,Memorial Park Golf Course,Rocket Classic,2026-07-28
+67,"English, Harris",14577,0.086,0.009,5,Memorial Park Golf Course,Rocket Classic,2026-07-28
+68,"Griffin, Lanto",15330,0.07,0.0047,3,Colonial Country Club,Rocket Classic,2026-07-28
+69,"Ruffels, Ryan",17169,0.069,0.0043,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-28
+70,"Springer, Hayden",21995,0.022,-0.0081,2,Dunes Golf and Beach Club,Rocket Classic,2026-07-28
+71,"Dumont De Chassart, Adrien",22002,0.016,-0.0096,4,Memorial Park Golf Course,Rocket Classic,2026-07-28
+72,"Sargent, Gordon",30814,-0.011,-0.0169,3,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+73,"Wise, Aaron",22051,-0.015,-0.0179,2,Memorial Park Golf Course,Rocket Classic,2026-07-28
+74,"Spaun, J.J.",17536,-0.017,-0.0186,6,Quail Hollow Club,Rocket Classic,2026-07-28
+75,"Kim, Si Woo",14609,-0.032,-0.0224,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+76,"Finau, Tony",11676,-0.032,-0.0225,5,Quail Hollow Club,Rocket Classic,2026-07-28
+77,"Svensson, Adam",13997,-0.048,-0.0266,4,Memorial Park Golf Course,Rocket Classic,2026-07-28
+78,"Thompson, Davis",27364,-0.053,-0.0282,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+79,"Malnati, Peter",14926,-0.071,-0.0329,3,Memorial Park Golf Course,Rocket Classic,2026-07-28
+80,"Blanchet, Chandler",24956,-0.072,-0.0331,5,Colonial Country Club,Rocket Classic,2026-07-28
+81,"McGreevy, Max",23505,-0.078,-0.0347,4,Memorial Park Golf Course,Rocket Classic,2026-07-28
+82,"Whaley, Vince",25908,-0.099,-0.0403,4,Memorial Park Golf Course,Rocket Classic,2026-07-28
+83,"Rodgers, Patrick",16283,-0.112,-0.0436,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+84,"Saddier, Adrien",14792,-0.114,-0.0442,3,Colonial Country Club,Rocket Classic,2026-07-28
+85,"Van Rooyen, Erik",17550,-0.148,-0.0533,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+86,"Moore, Taylor",21944,-0.155,-0.0553,5,Dunes Golf and Beach Club,Rocket Classic,2026-07-28
+87,"Todd, Brendon",12425,-0.219,-0.0722,2,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+88,"Kohles, Ben",16395,-0.231,-0.0755,2,Dunes Golf and Beach Club,Rocket Classic,2026-07-28
+89,"Echavarria, Nico",22833,-0.253,-0.0813,6,Colonial Country Club,Rocket Classic,2026-07-28
+90,"Conners, Corey",17576,-0.254,-0.0816,4,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+91,"Power, Seamus",10104,-0.278,-0.0879,4,Colonial Country Club,Rocket Classic,2026-07-28
+92,"Campos, Rafael",12909,-0.282,-0.089,3,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+93,"Lower, Justin",17723,-0.323,-0.0998,3,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+94,"Lipsky, David",15980,-0.343,-0.1051,4,Quail Hollow Club,Rocket Classic,2026-07-28
+95,"Hirata, Kensei",20954,-0.37,-0.1125,4,Memorial Park Golf Course,Rocket Classic,2026-07-28
+96,"Dou, Zecheng",16757,-0.398,-0.1198,4,Colonial Country Club,Rocket Classic,2026-07-28
+97,"Tosti, Alejandro",17032,-0.433,-0.1292,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+98,"Neergaard-Petersen, Rasmus",23841,-0.438,-0.1304,4,Augusta National Golf Club,Rocket Classic,2026-07-28
+99,"Kanaya, Takumi",19729,-0.443,-0.1318,4,Colonial Country Club,Rocket Classic,2026-07-28
+100,"Chatfield, Davis",30620,-0.455,-0.1349,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+101,"Schenk, Adam",19477,-0.476,-0.1407,5,Harbour Town Golf Links,Rocket Classic,2026-07-28
+102,"Highsmith, Joe",28469,-0.533,-0.1557,5,Colonial Country Club,Rocket Classic,2026-07-28
+103,"Greyserman, Max",23465,-0.561,-0.1632,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+104,"Pendrith, Taylor",17780,-0.562,-0.1634,4,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+105,"Glover, Lucas",7399,-0.581,-0.1684,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+106,"Castillo, Ricky",27819,-0.586,-0.1698,4,Harbour Town Golf Links,Rocket Classic,2026-07-28
+107,"Hoge, Tom",15575,-0.611,-0.1765,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+108,"Clanton, Luke",32330,-0.614,-0.1773,4,Colonial Country Club,Rocket Classic,2026-07-28
+109,"Eckroat, Austin",26653,-0.647,-0.186,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+110,"Riley, Davis",19872,-0.67,-0.1922,4,Memorial Park Golf Course,Rocket Classic,2026-07-28
+111,"Roy, Kevin",18424,-0.691,-0.1976,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+112,"Lamprecht, Christo",24343,-0.696,-0.1991,4,Memorial Park Golf Course,Rocket Classic,2026-07-28
+113,"Vilips, Karl",24304,-0.704,-0.2011,5,Memorial Park Golf Course,Rocket Classic,2026-07-28
+114,"Schauffele, Xander",19895,-0.71,-0.2029,4,Augusta National Golf Club,Rocket Classic,2026-07-28
+115,"Dahmen, Joel",14509,-0.787,-0.2233,4,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+116,"Phillips, Chandler",27164,-0.8,-0.2268,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+117,"Crowe, Trace",27780,-0.801,-0.2271,2,Colonial Country Club,Rocket Classic,2026-07-28
+118,"Penge, Marco",22465,-0.849,-0.2398,4,Memorial Park Golf Course,Rocket Classic,2026-07-28
+119,"Wu, Dylan",25002,-0.897,-0.2524,4,Memorial Park Golf Course,Rocket Classic,2026-07-28
+120,"Lebioda, Hank",21943,-0.984,-0.2756,4,Memorial Park Golf Course,Rocket Classic,2026-07-28
+121,"Hojgaard, Rasmus",23838,-0.99,-0.2774,4,Memorial Park Golf Course,Rocket Classic,2026-07-28
+122,"Jaeger, Stephan",16394,-1.295,-0.3583,4,Colonial Country Club,Rocket Classic,2026-07-28
+123,"Kizzire, Patton",13470,-1.387,-0.3828,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+124,"Griffin, Ben",24968,-1.413,-0.3898,6,Colonial Country Club,Rocket Classic,2026-07-28
+125,"Cantlay, Patrick",15466,-1.518,-0.4178,4,Augusta National Golf Club,Rocket Classic,2026-07-28
+126,"Gerard, Ryan",29767,-1.585,-0.4355,6,Colonial Country Club,Rocket Classic,2026-07-28
+127,"McCarthy, Denny",19870,-1.661,-0.4557,5,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+128,"Matsuyama, Hideki",13562,-1.872,-0.5119,5,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+129,"Parry, John",13764,-1.913,-0.5228,4,Memorial Park Golf Course,Rocket Classic,2026-07-28
+130,"Coody, Pierceson",28309,-1.973,-0.5389,5,Colonial Country Club,Rocket Classic,2026-07-28
+131,"Li, Haotong",15310,-2.032,-0.5544,6,Arnold Palmer's Bay Hill Club & Lodge,Rocket Classic,2026-07-28
+132,"Im, Sungjae",17488,-2.033,-0.5547,6,Quail Hollow Club,Rocket Classic,2026-07-28
+133,"Kirk, Chris",12423,-2.217,-0.6037,4,TPC San Antonio - The Oaks Course,Rocket Classic,2026-07-28
+134,"Bradley, Keegan",13872,-2.261,-0.6153,5,Quail Hollow Club,Rocket Classic,2026-07-28
+135,"Potgieter, Aldrich",27900,-2.736,-0.7417,5,Memorial Park Golf Course,Rocket Classic,2026-07-28
+136,"Stevens, Sam",25569,-2.842,-0.7699,6,Augusta National Golf Club,Rocket Classic,2026-07-28

@@ -1,124 +1,124 @@
 rank,player_name,dg_id,lead_in_z,lead_in_raw,predictors_found,top_course,tournament,as_of_date
-1,"Nyholm, Pontus",25475,2.735,0.2824,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-2,"Svensson, Jesper",26850,2.419,0.2501,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-3,"Bhatia, Akshay",26096,2.013,0.2084,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-4,"Kim, Si Woo",14609,1.643,0.1705,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-5,"Novak, Andrew",23475,1.615,0.1677,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-6,"Grillo, Emiliano",12808,1.524,0.1583,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-7,"Hossler, Beau",15470,1.516,0.1575,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-8,"Kuchar, Matt",6169,1.256,0.1308,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-9,"Rozo, Marcelo",16591,1.235,0.1287,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-10,"Yellamaraju, Sudarshan",29925,1.19,0.1241,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-11,"Dunlap, Nick",28270,1.127,0.1176,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-12,"Taylor, Nick",13126,1.121,0.1171,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-13,"Higgo, Garrick",24342,1.106,0.1155,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-14,"Greyserman, Max",23465,1.074,0.1122,2,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-15,"Silverman, Ben",17381,1.057,0.1105,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-16,"Walker, Danny",25003,1.02,0.1067,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-17,"Young, Cameron",26651,1.011,0.1058,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-18,"Spaun, J.J.",17536,1.008,0.1054,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-19,"Springer, Hayden",21995,1.001,0.1047,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-20,"Suber, Jackson",29279,0.984,0.103,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-21,"Vilips, Karl",24304,0.979,0.1025,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-22,"English, Harris",14577,0.862,0.0904,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-23,"Ghim, Doug",24550,0.827,0.0869,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-24,"Moore, Taylor",21944,0.822,0.0864,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-25,"Nakajima, Keita",21074,0.798,0.0839,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-26,"Smith, Jordan",18586,0.775,0.0816,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-27,"Fisk, Steven",26657,0.768,0.0809,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-28,"Kim, Michael",17543,0.761,0.0801,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-29,"Griffin, Ben",24968,0.759,0.08,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-30,"Kang, Jeffrey",21889,0.744,0.0784,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-31,"Hodges, Lee",25157,0.739,0.0779,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-32,"Putnam, Andrew",14704,0.734,0.0774,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-33,"Thorbjornsen, Michael",26649,0.728,0.0768,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-34,"Pavon, Matthieu",19960,0.66,0.0697,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-35,"Castillo, Ricky",27819,0.644,0.0681,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-36,"Garnett, Brice",11451,0.631,0.0668,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-37,"Bridgeman, Jacob",29433,0.564,0.06,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-38,"Henley, Russell",14578,0.543,0.0578,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-39,"Shipley, Neal",32055,0.524,0.0558,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-40,"Potgieter, Aldrich",27900,0.503,0.0537,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-41,"McCarthy, Denny",19870,0.465,0.0498,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-42,"Glover, Lucas",7399,0.461,0.0494,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-43,"Snedeker, Brandt",8820,0.46,0.0493,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-44,"McCarty, Matt",28635,0.452,0.0485,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-45,"Ramey, Chad",19840,0.426,0.0458,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-46,"Hall, Harry",27194,0.421,0.0453,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-47,"Hojgaard, Nicolai",23602,0.418,0.045,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-48,"Blair, Zac",17639,0.371,0.0402,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-49,"Hubbard, Mark",16333,0.292,0.032,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-50,"Meissner, Mac",28159,0.28,0.0308,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-51,"Whaley, Vince",25908,0.278,0.0307,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-52,"Hoge, Tom",15575,0.257,0.0285,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-53,"Dou, Zecheng",16757,0.246,0.0274,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-54,"Gotterup, Chris",27774,0.198,0.0224,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-55,"Schmid, Matti",20722,0.18,0.0206,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-56,"Jaeger, Stephan",16394,0.15,0.0175,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-57,"Bradley, Keegan",13872,0.117,0.0141,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-58,"Kohles, Ben",16395,0.075,0.0098,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-59,"Bezuidenhout, Christiaan",18103,0.064,0.0088,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-60,"Ruffels, Ryan",17169,0.044,0.0067,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-61,"Thompson, Davis",27364,0.04,0.0063,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-62,"Stevens, Sam",25569,0.026,0.0048,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-63,"Matsuyama, Hideki",13562,0.017,0.0039,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-64,"Lower, Justin",17723,0.001,0.0022,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-65,"Riley, Davis",19872,-0.01,0.0011,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-66,"Yu, Kevin",17881,-0.021,0.0,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-67,"Roy, Kevin",18424,-0.029,-0.0008,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-68,"Highsmith, Joe",28469,-0.042,-0.0022,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-69,"Hisatsune, Ryo",22760,-0.049,-0.0029,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-70,"Sargent, Gordon",30814,-0.052,-0.0032,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-71,"Davis, Cam",17786,-0.079,-0.006,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-72,"Bauchou, Zach",19846,-0.08,-0.0061,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-73,"Coody, Pierceson",28309,-0.083,-0.0064,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-74,"Hoey, Rico",23504,-0.095,-0.0076,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-75,"Fowler, Rickie",12965,-0.101,-0.0082,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-76,"Spieth, Jordan",14636,-0.131,-0.0113,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-77,"Kizzire, Patton",13470,-0.196,-0.0179,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-78,"Keefer, Johnny",32457,-0.217,-0.0201,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-79,"Neergaard-Petersen, Rasmus",23841,-0.25,-0.0235,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-80,"Wise, Aaron",22051,-0.306,-0.0292,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-81,"Li, Haotong",15310,-0.37,-0.0358,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-82,"Hojgaard, Rasmus",23838,-0.389,-0.0377,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-83,"Power, Seamus",10104,-0.417,-0.0406,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-84,"Ventura, Kristoffer",15651,-0.435,-0.0424,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-85,"Kanaya, Takumi",19729,-0.44,-0.0429,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-86,"Griffin, Lanto",15330,-0.467,-0.0457,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-87,"Conners, Corey",17576,-0.515,-0.0506,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-88,"Lamprecht, Christo",24343,-0.564,-0.0556,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-89,"Wallace, Matt",20706,-0.576,-0.0569,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-90,"Parry, John",13764,-0.578,-0.057,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-91,"Van Rooyen, Erik",17550,-0.58,-0.0572,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-92,"VanDerLaan, John",25319,-0.612,-0.0605,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-93,"Tosti, Alejandro",17032,-0.632,-0.0626,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-94,"Im, Sungjae",17488,-0.641,-0.0636,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-95,"Fishburn, Patrick",25094,-0.698,-0.0693,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-96,"Echavarria, Nico",22833,-0.756,-0.0753,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-97,"Horschel, Billy",11276,-0.773,-0.077,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-98,"Gerard, Ryan",29767,-0.794,-0.0792,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-99,"Campos, Rafael",12909,-0.834,-0.0833,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-100,"Cole, Eric",21756,-0.834,-0.0833,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-101,"Streelman, Kevin",8480,-0.838,-0.0837,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-102,"Ewart, A.J.",21883,-0.917,-0.0918,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-103,"Eckroat, Austin",26653,-0.928,-0.093,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-104,"Blanchet, Chandler",24956,-0.97,-0.0972,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-105,"McGreevy, Max",23505,-1.0,-0.1003,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-106,"Phillips, Chandler",27164,-1.063,-0.1068,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-107,"Campbell, Brian",18628,-1.123,-0.1129,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-108,"Hirata, Kensei",20954,-1.178,-0.1185,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-109,"Chatfield, Davis",30620,-1.183,-0.119,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-110,"Todd, Brendon",12425,-1.187,-0.1195,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-111,"Crowe, Trace",27780,-1.207,-0.1216,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-112,"Malnati, Peter",14926,-1.271,-0.1281,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-113,"Schenk, Adam",19477,-1.274,-0.1284,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-114,"Pendrith, Taylor",17780,-1.296,-0.1306,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-115,"Smotherman, Austin",22985,-1.314,-0.1325,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-116,"Svensson, Adam",13997,-1.476,-0.1491,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-117,"Lipsky, David",15980,-1.637,-0.1656,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-118,"Rodgers, Patrick",16283,-1.773,-0.1796,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
-119,"Lebioda, Hank",21943,-2.208,-0.2241,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-120,"Dumont De Chassart, Adrien",22002,-2.255,-0.2289,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-121,"Wu, Dylan",25002,-2.314,-0.235,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-122,"Clanton, Luke",32330,-2.76,-0.2807,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-29
-123,"Dahmen, Joel",14509,-2.949,-0.3001,2,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-29
+1,"Nyholm, Pontus",25475,2.735,0.2824,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+2,"Svensson, Jesper",26850,2.419,0.2501,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+3,"Bhatia, Akshay",26096,2.013,0.2084,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+4,"Kim, Si Woo",14609,1.643,0.1705,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+5,"Novak, Andrew",23475,1.615,0.1677,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+6,"Grillo, Emiliano",12808,1.524,0.1583,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+7,"Hossler, Beau",15470,1.516,0.1575,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+8,"Kuchar, Matt",6169,1.256,0.1308,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+9,"Rozo, Marcelo",16591,1.235,0.1287,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+10,"Yellamaraju, Sudarshan",29925,1.19,0.1241,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+11,"Dunlap, Nick",28270,1.127,0.1176,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+12,"Taylor, Nick",13126,1.121,0.1171,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+13,"Higgo, Garrick",24342,1.106,0.1155,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+14,"Greyserman, Max",23465,1.074,0.1122,2,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+15,"Silverman, Ben",17381,1.057,0.1105,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+16,"Walker, Danny",25003,1.02,0.1067,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+17,"Young, Cameron",26651,1.011,0.1058,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+18,"Spaun, J.J.",17536,1.008,0.1054,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+19,"Springer, Hayden",21995,1.001,0.1047,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+20,"Suber, Jackson",29279,0.984,0.103,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+21,"Vilips, Karl",24304,0.979,0.1025,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+22,"English, Harris",14577,0.862,0.0904,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+23,"Ghim, Doug",24550,0.827,0.0869,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+24,"Moore, Taylor",21944,0.822,0.0864,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+25,"Nakajima, Keita",21074,0.798,0.0839,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+26,"Smith, Jordan",18586,0.775,0.0816,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+27,"Fisk, Steven",26657,0.768,0.0809,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+28,"Kim, Michael",17543,0.761,0.0801,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+29,"Griffin, Ben",24968,0.759,0.08,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+30,"Kang, Jeffrey",21889,0.744,0.0784,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+31,"Hodges, Lee",25157,0.739,0.0779,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+32,"Putnam, Andrew",14704,0.734,0.0774,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+33,"Thorbjornsen, Michael",26649,0.728,0.0768,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+34,"Pavon, Matthieu",19960,0.66,0.0697,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+35,"Castillo, Ricky",27819,0.644,0.0681,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+36,"Garnett, Brice",11451,0.631,0.0668,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+37,"Bridgeman, Jacob",29433,0.564,0.06,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+38,"Henley, Russell",14578,0.543,0.0578,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+39,"Shipley, Neal",32055,0.524,0.0558,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+40,"Potgieter, Aldrich",27900,0.503,0.0537,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+41,"McCarthy, Denny",19870,0.465,0.0498,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+42,"Glover, Lucas",7399,0.461,0.0494,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+43,"Snedeker, Brandt",8820,0.46,0.0493,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+44,"McCarty, Matt",28635,0.452,0.0485,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+45,"Ramey, Chad",19840,0.426,0.0458,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+46,"Hall, Harry",27194,0.421,0.0453,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+47,"Hojgaard, Nicolai",23602,0.418,0.045,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+48,"Blair, Zac",17639,0.371,0.0402,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+49,"Hubbard, Mark",16333,0.292,0.032,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+50,"Meissner, Mac",28159,0.28,0.0308,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+51,"Whaley, Vince",25908,0.278,0.0307,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+52,"Hoge, Tom",15575,0.257,0.0285,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+53,"Dou, Zecheng",16757,0.246,0.0274,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+54,"Gotterup, Chris",27774,0.198,0.0224,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+55,"Schmid, Matti",20722,0.18,0.0206,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+56,"Jaeger, Stephan",16394,0.15,0.0175,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+57,"Bradley, Keegan",13872,0.117,0.0141,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+58,"Kohles, Ben",16395,0.075,0.0098,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+59,"Bezuidenhout, Christiaan",18103,0.064,0.0088,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+60,"Ruffels, Ryan",17169,0.044,0.0067,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+61,"Thompson, Davis",27364,0.04,0.0063,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+62,"Stevens, Sam",25569,0.026,0.0048,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+63,"Matsuyama, Hideki",13562,0.017,0.0039,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+64,"Lower, Justin",17723,0.001,0.0022,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+65,"Riley, Davis",19872,-0.01,0.0011,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+66,"Yu, Kevin",17881,-0.021,0.0,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+67,"Roy, Kevin",18424,-0.029,-0.0008,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+68,"Highsmith, Joe",28469,-0.042,-0.0022,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+69,"Hisatsune, Ryo",22760,-0.049,-0.0029,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+70,"Sargent, Gordon",30814,-0.052,-0.0032,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+71,"Davis, Cam",17786,-0.079,-0.006,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+72,"Bauchou, Zach",19846,-0.08,-0.0061,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+73,"Coody, Pierceson",28309,-0.083,-0.0064,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+74,"Hoey, Rico",23504,-0.095,-0.0076,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+75,"Fowler, Rickie",12965,-0.101,-0.0082,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+76,"Spieth, Jordan",14636,-0.131,-0.0113,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+77,"Kizzire, Patton",13470,-0.196,-0.0179,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+78,"Keefer, Johnny",32457,-0.217,-0.0201,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+79,"Neergaard-Petersen, Rasmus",23841,-0.25,-0.0235,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+80,"Wise, Aaron",22051,-0.306,-0.0292,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+81,"Li, Haotong",15310,-0.37,-0.0358,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+82,"Hojgaard, Rasmus",23838,-0.389,-0.0377,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+83,"Power, Seamus",10104,-0.417,-0.0406,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+84,"Ventura, Kristoffer",15651,-0.435,-0.0424,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+85,"Kanaya, Takumi",19729,-0.44,-0.0429,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+86,"Griffin, Lanto",15330,-0.467,-0.0457,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+87,"Conners, Corey",17576,-0.515,-0.0506,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+88,"Lamprecht, Christo",24343,-0.564,-0.0556,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+89,"Wallace, Matt",20706,-0.576,-0.0569,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+90,"Parry, John",13764,-0.578,-0.057,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+91,"Van Rooyen, Erik",17550,-0.58,-0.0572,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+92,"VanDerLaan, John",25319,-0.612,-0.0605,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+93,"Tosti, Alejandro",17032,-0.632,-0.0626,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+94,"Im, Sungjae",17488,-0.641,-0.0636,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+95,"Fishburn, Patrick",25094,-0.698,-0.0693,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+96,"Echavarria, Nico",22833,-0.756,-0.0753,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+97,"Horschel, Billy",11276,-0.773,-0.077,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+98,"Gerard, Ryan",29767,-0.794,-0.0792,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+99,"Campos, Rafael",12909,-0.834,-0.0833,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+100,"Cole, Eric",21756,-0.834,-0.0833,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+101,"Streelman, Kevin",8480,-0.838,-0.0837,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+102,"Ewart, A.J.",21883,-0.917,-0.0918,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+103,"Eckroat, Austin",26653,-0.928,-0.093,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+104,"Blanchet, Chandler",24956,-0.97,-0.0972,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+105,"McGreevy, Max",23505,-1.0,-0.1003,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+106,"Phillips, Chandler",27164,-1.063,-0.1068,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+107,"Campbell, Brian",18628,-1.123,-0.1129,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+108,"Hirata, Kensei",20954,-1.178,-0.1185,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+109,"Chatfield, Davis",30620,-1.183,-0.119,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+110,"Todd, Brendon",12425,-1.187,-0.1195,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+111,"Crowe, Trace",27780,-1.207,-0.1216,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+112,"Malnati, Peter",14926,-1.271,-0.1281,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+113,"Schenk, Adam",19477,-1.274,-0.1284,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+114,"Pendrith, Taylor",17780,-1.296,-0.1306,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+115,"Smotherman, Austin",22985,-1.314,-0.1325,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+116,"Svensson, Adam",13997,-1.476,-0.1491,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+117,"Lipsky, David",15980,-1.637,-0.1656,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+118,"Rodgers, Patrick",16283,-1.773,-0.1796,1,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30
+119,"Lebioda, Hank",21943,-2.208,-0.2241,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+120,"Dumont De Chassart, Adrien",22002,-2.255,-0.2289,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+121,"Wu, Dylan",25002,-2.314,-0.235,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+122,"Clanton, Luke",32330,-2.76,-0.2807,1,Dunes Golf and Beach Club,Rocket Classic,2026-07-30
+123,"Dahmen, Joel",14509,-2.949,-0.3001,2,Trump National Doral - Blue Monster Course,Rocket Classic,2026-07-30

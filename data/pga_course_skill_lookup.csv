@@ -32,128 +32,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 19846,"Bauchou, Zach",21,Colonial Country Club,sg_putt,0.968022449831306,2026-05-31,-0.014212357102572178,752,Sedgefield CC
 19846,"Bauchou, Zach",925,Dunes Golf and Beach Club,sg_putt,0.9579113900670306,2026-05-10,-0.014378952371795333,752,Sedgefield CC
 19846,"Bauchou, Zach",94,Jimmie Austin OU Golf Club,sg_total,0.679770525680321,2024-06-23,0.012127874400239328,752,Sedgefield CC
-17606,"Berger, Daniel",12,Harbour Town Golf Links,sg_app,3.292868464346081,2026-04-19,0.045417470853908945,752,Sedgefield CC
-17606,"Berger, Daniel",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,0.7985162187593771,2025-05-11,0.03539303292918324,752,Sedgefield CC
-17606,"Berger, Daniel",513,TPC Southwind,sg_app,2.1425565238364026,2025-08-10,0.017253010998254232,752,Sedgefield CC
-17606,"Berger, Daniel",241,Quail Hollow-PGA Championship,sg_app,0.9954900415034769,2025-05-18,0.014890601391354532,752,Sedgefield CC
-17606,"Berger, Daniel",885,Royal Portrush Golf Club,sg_app,0.8269591339433623,2025-07-20,0.013687341374558305,752,Sedgefield CC
-17606,"Berger, Daniel",939,Torrey Pines Golf Course (South Course),sg_app,0.7656730714653739,2025-02-16,0.012184913609127242,752,Sedgefield CC
-17606,"Berger, Daniel",894,TPC Craig Ranch,sg_app,0.38558253897971306,2021-05-16,0.0073826915526633025,752,Sedgefield CC
-17606,"Berger, Daniel",8,Trump National Doral - Blue Monster Course,sg_app,1.1039089950443672,2026-05-03,0.004881727568446196,752,Sedgefield CC
-17606,"Berger, Daniel",781,Plainfield CC,sg_app,0.13587770849684613,2015-08-30,-0.00038523634530513004,752,Sedgefield CC
-17606,"Berger, Daniel",689,El Bosque CC,sg_app,0.16300082774468777,2016-08-28,-0.0004072241951311791,752,Sedgefield CC
-17606,"Berger, Daniel",878,Shadow Creek Golf Course,sg_app,0.3471494153245104,2020-10-18,-0.0005323800681209258,752,Sedgefield CC
-17606,"Berger, Daniel",895,TPC Harding Park,sg_app,0.33520935568799465,2020-08-09,-0.0008713115567960516,752,Sedgefield CC
-17606,"Berger, Daniel",666,Pebble Beach Golf Links,sg_app,0.2717154228225054,2019-06-16,-0.0033344510231740503,752,Sedgefield CC
-17606,"Berger, Daniel",654,The Country Club,sg_app,0.47071615967905545,2022-06-19,-0.005427698243688001,752,Sedgefield CC
-17606,"Berger, Daniel",715,Baltusrol GC,sg_app,0.1607347159518504,2016-07-31,-0.007686853113452553,752,Sedgefield CC
-17606,"Berger, Daniel",876,Detroit Golf Club,sg_app,0.6821538909764522,2024-06-30,-0.011570508885344135,752,Sedgefield CC
-17606,"Berger, Daniel",773,Aronimink Golf Club,sg_app,0.9612699539905982,2026-05-17,-0.014572722338414857,752,Sedgefield CC
-17606,"Berger, Daniel",4,Torrey Pines Golf Course (South Course),sg_app,0.9908299324309376,2022-01-29,-0.020668167376279217,752,Sedgefield CC
-17606,"Berger, Daniel",926,Silverado Resort (North Course),sg_app,0.7089289280495108,2024-09-15,-0.022686739438319226,752,Sedgefield CC
-17606,"Berger, Daniel",776,Sea Island Golf Club (Seaside Course),sg_app,1.7313986003969175,2025-11-23,-0.023028668607082838,752,Sedgefield CC
-17606,"Berger, Daniel",660,Montreux Golf & Country Club,sg_app,0.2774817815563575,2019-07-28,-0.028301384740969906,752,Sedgefield CC
-17606,"Berger, Daniel",541,Royal Birkdale Golf Club,sg_app,0.9920319148370607,2026-07-19,-0.04116545079442682,752,Sedgefield CC
-17606,"Berger, Daniel",752,Sedgefield Country Club,sg_app,1.3442389603794975,2024-08-11,-0.06216759397196573,752,Sedgefield CC
-17606,"Berger, Daniel",752,Sedgefield Country Club,sg_arg,1.3442389603794975,2024-08-11,0.02144087606681527,752,Sedgefield CC
-17606,"Berger, Daniel",688,East Lake Golf Club,sg_arg,1.249283656839202,2021-09-05,0.016527149999794797,752,Sedgefield CC
-17606,"Berger, Daniel",773,Aronimink Golf Club,sg_arg,0.9612699539905982,2026-05-17,0.006802128000249566,752,Sedgefield CC
-17606,"Berger, Daniel",12,Harbour Town Golf Links,sg_arg,3.292868464346081,2026-04-19,0.00641201820811324,752,Sedgefield CC
-17606,"Berger, Daniel",897,Memorial Park Golf Course,sg_arg,0.651811414798732,2024-03-31,0.005452566546917359,752,Sedgefield CC
-17606,"Berger, Daniel",729,Golf Club of Houston,sg_arg,0.9657012509085043,2019-10-13,0.00455408205519477,752,Sedgefield CC
-17606,"Berger, Daniel",660,Montreux Golf & Country Club,sg_arg,0.2774817815563575,2019-07-28,0.0038483873925901327,752,Sedgefield CC
-17606,"Berger, Daniel",36,Le Triomphe G&CC,sg_arg,0.42561588348504664,2018-08-05,0.002376063391757624,752,Sedgefield CC
-17606,"Berger, Daniel",789,Conway Farms GC,sg_arg,0.33491401453936026,2017-09-17,0.0022276794933544703,752,Sedgefield CC
-17606,"Berger, Daniel",527,Saucon Valley CC,sg_arg,0.16414583639372407,2016-09-11,0.001368747191450009,752,Sedgefield CC
-17606,"Berger, Daniel",706,Whistling Straits,sg_arg,0.13492988578712511,2015-08-16,0.0011469730402924212,752,Sedgefield CC
-17606,"Berger, Daniel",822,Las Colinas Country Club,sg_arg,0.12983381402129426,2015-05-31,-7.031990943117626e-06,752,Sedgefield CC
-17606,"Berger, Daniel",872,Quail Hollow Club,sg_arg,1.445775672570608,2026-05-10,-5.5514493492765137e-05,752,Sedgefield CC
-17606,"Berger, Daniel",873,Ridgewood CC,sg_arg,0.23457028809379765,2018-08-26,-0.00024175024729614729,752,Sedgefield CC
-17606,"Berger, Daniel",238,Glen Oaks Club,sg_arg,0.1955381065766949,2017-08-27,-0.0002580806367029571,752,Sedgefield CC
-17606,"Berger, Daniel",538,TPC Summerlin,sg_arg,1.1248871527163158,2024-10-20,-0.001112588750246085,752,Sedgefield CC
-17606,"Berger, Daniel",930,Black Desert Resort,sg_arg,0.7189237334319262,2024-10-13,-0.0014514543470722778,752,Sedgefield CC
-17606,"Berger, Daniel",2000,Sherwood Country Club,sg_arg,0.348366567051159,2020-10-25,-0.001690704999620655,752,Sedgefield CC
-17606,"Berger, Daniel",235,Eagle Point Golf Club,sg_arg,0.18488893232617232,2017-05-07,-0.0023300392242533757,752,Sedgefield CC
-17606,"Berger, Daniel",876,Detroit Golf Club,sg_arg,0.6821538909764522,2024-06-30,-0.003015498020049664,752,Sedgefield CC
-17606,"Berger, Daniel",241,Quail Hollow-PGA Championship,sg_arg,0.9954900415034769,2025-05-18,-0.003284274570021104,752,Sedgefield CC
-17606,"Berger, Daniel",541,Royal Birkdale Golf Club,sg_arg,0.9920319148370607,2026-07-19,-0.004074288216318397,752,Sedgefield CC
-17606,"Berger, Daniel",5,Pebble Beach Golf Links,sg_arg,1.3477577384569883,2026-02-15,-0.00548646447672844,752,Sedgefield CC
-17606,"Berger, Daniel",925,Dunes Golf and Beach Club,sg_arg,0.6656441903015212,2024-05-12,-0.007724200473532844,752,Sedgefield CC
-17606,"Berger, Daniel",977,The Renaissance Club,sg_arg,0.8240698361951109,2025-07-13,-0.015014206236414543,752,Sedgefield CC
-17606,"Berger, Daniel",510,TPC Scottsdale (Stadium Course),sg_ott,4.340871232843093,2026-02-08,0.019624965044257644,752,Sedgefield CC
-17606,"Berger, Daniel",931,Tahoe Mountain Club (Old Greenwood),sg_ott,0.6893542425242224,2024-07-21,0.019173276420474304,752,Sedgefield CC
-17606,"Berger, Daniel",541,Royal Birkdale Golf Club,sg_ott,0.9920319148370607,2026-07-19,0.010751166390702505,752,Sedgefield CC
-17606,"Berger, Daniel",21,Colonial Country Club,sg_ott,3.052747275758001,2025-05-25,0.009824033543842658,752,Sedgefield CC
-17606,"Berger, Daniel",538,TPC Summerlin,sg_ott,1.1248871527163158,2024-10-20,0.005131521096834509,752,Sedgefield CC
-17606,"Berger, Daniel",12,Harbour Town Golf Links,sg_ott,3.292868464346081,2026-04-19,0.005050267533417163,752,Sedgefield CC
-17606,"Berger, Daniel",513,TPC Southwind,sg_ott,2.1425565238364026,2025-08-10,0.004649807068377347,752,Sedgefield CC
-17606,"Berger, Daniel",770,TPC San Antonio - The Oaks Course,sg_ott,1.1728414231653794,2025-04-06,0.0011177351722628237,752,Sedgefield CC
-17606,"Berger, Daniel",930,Black Desert Resort,sg_ott,0.7189237334319262,2024-10-13,0.0011062993385172369,752,Sedgefield CC
-17606,"Berger, Daniel",534,Bellerive CC,sg_ott,0.23293402966303187,2018-08-12,0.00030840063696250104,752,Sedgefield CC
-17606,"Berger, Daniel",528,Pinehurst Resort & Country Club (Course No. 2),sg_ott,0.6773954875816302,2024-06-16,0.0002765733527900691,752,Sedgefield CC
-17606,"Berger, Daniel",660,Montreux Golf & Country Club,sg_ott,0.2774817815563575,2019-07-28,-0.0003050129174959499,752,Sedgefield CC
-17606,"Berger, Daniel",886,Liberty National Golf Club,sg_ott,0.4049466293265049,2021-08-22,-0.0004324963651486494,752,Sedgefield CC
-17606,"Berger, Daniel",771,The Old White TPC,sg_ott,0.1321259030499441,2015-07-05,-0.0007849881246002188,752,Sedgefield CC
-17606,"Berger, Daniel",5,Pebble Beach Golf Links,sg_ott,1.3477577384569883,2026-02-15,-0.0007892744710317009,752,Sedgefield CC
-17606,"Berger, Daniel",939,Torrey Pines Golf Course (South Course),sg_ott,0.7656730714653739,2025-02-16,-0.0008512628926895083,752,Sedgefield CC
-17606,"Berger, Daniel",243,Trinity Forest Golf Club,sg_ott,0.2670017677012156,2019-05-12,-0.0009990178566145825,752,Sedgefield CC
-17606,"Berger, Daniel",715,Baltusrol GC,sg_ott,0.1607347159518504,2016-07-31,-0.0011753067425159668,752,Sedgefield CC
-17606,"Berger, Daniel",608,Oakmont Country Club,sg_ott,0.8126132417730977,2025-06-15,-0.0018601967822059137,752,Sedgefield CC
-17606,"Berger, Daniel",926,Silverado Resort (North Course),sg_ott,0.7089289280495108,2024-09-15,-0.00308360019720739,752,Sedgefield CC
-17606,"Berger, Daniel",503,TPC River Highlands,sg_ott,2.6478699566197155,2026-06-28,-0.004118144588456911,752,Sedgefield CC
-17606,"Berger, Daniel",202,La Quinta Country Club,sg_ott,1.2117737056572064,2026-01-25,-0.005524213047506553,752,Sedgefield CC
-17606,"Berger, Daniel",925,Dunes Golf and Beach Club,sg_ott,0.6656441903015212,2024-05-12,-0.005951472192809695,752,Sedgefield CC
-17606,"Berger, Daniel",773,Aronimink Golf Club,sg_ott,0.9612699539905982,2026-05-17,-0.007562150248085149,752,Sedgefield CC
-17606,"Berger, Daniel",874,Hamilton Golf & Country Club,sg_ott,0.9434363578608915,2024-06-02,-0.007920622277646694,752,Sedgefield CC
-17606,"Berger, Daniel",2000,Sherwood Country Club,sg_ott,0.348366567051159,2020-10-25,-0.008540300013902793,752,Sedgefield CC
-17606,"Berger, Daniel",233,Nicklaus Tournament Course,sg_ott,0.755028335480208,2025-01-19,-0.008952469032066873,752,Sedgefield CC
-17606,"Berger, Daniel",884,Keene Trace Golf Club (Champion Trace),sg_ott,0.6869457200484198,2024-07-14,-0.009324489544568455,752,Sedgefield CC
-17606,"Berger, Daniel",500,The Riviera Country Club,sg_ott,1.2834539375299594,2026-02-22,-0.010753145427319677,752,Sedgefield CC
-17606,"Berger, Daniel",752,Sedgefield Country Club,sg_ott,1.3442389603794975,2024-08-11,-0.022037475215678313,752,Sedgefield CC
-17606,"Berger, Daniel",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_ott,3.7920992931104864,2026-03-15,-0.022390578085555786,752,Sedgefield CC
-17606,"Berger, Daniel",928,PGA National  - Champion Course,sg_ott,2.338765647802637,2026-03-01,-0.023489936641988368,752,Sedgefield CC
-17606,"Berger, Daniel",510,TPC Scottsdale (Stadium Course),sg_putt,4.340871232843093,2026-02-08,0.03143964900183263,752,Sedgefield CC
-17606,"Berger, Daniel",776,Sea Island Golf Club (Seaside Course),sg_putt,1.7313986003969175,2025-11-23,0.023069645502712267,752,Sedgefield CC
-17606,"Berger, Daniel",931,Tahoe Mountain Club (Old Greenwood),sg_putt,0.6893542425242224,2024-07-21,0.020015623294963886,752,Sedgefield CC
-17606,"Berger, Daniel",752,Sedgefield Country Club,sg_putt,1.3442389603794975,2024-08-11,0.015112008850002745,752,Sedgefield CC
-17606,"Berger, Daniel",608,Oakmont Country Club,sg_putt,0.8126132417730977,2025-06-15,0.014818900199399859,752,Sedgefield CC
-17606,"Berger, Daniel",9,Arnold Palmer's Bay Hill Club & Lodge,sg_putt,2.086053000910435,2026-03-08,0.014412631534691078,752,Sedgefield CC
-17606,"Berger, Daniel",746,The Country Club of Jackson,sg_putt,0.8337143060504221,2024-10-06,0.012131117811629637,752,Sedgefield CC
-17606,"Berger, Daniel",925,Dunes Golf and Beach Club,sg_putt,0.6656441903015212,2024-05-12,0.007808038426412896,752,Sedgefield CC
-17606,"Berger, Daniel",6,Waialae Country Club,sg_putt,2.9749864153475034,2026-01-18,0.005970655304379218,752,Sedgefield CC
-17606,"Berger, Daniel",660,Montreux Golf & Country Club,sg_putt,0.2774817815563575,2019-07-28,0.004460755475870181,752,Sedgefield CC
-17606,"Berger, Daniel",885,Royal Portrush Golf Club,sg_putt,0.8269591339433623,2025-07-20,0.004418888675110322,752,Sedgefield CC
-17606,"Berger, Daniel",930,Black Desert Resort,sg_putt,0.7189237334319262,2024-10-13,0.0043861726672645126,752,Sedgefield CC
-17606,"Berger, Daniel",897,Memorial Park Golf Course,sg_putt,0.651811414798732,2024-03-31,0.0038789884982591166,752,Sedgefield CC
-17606,"Berger, Daniel",238,Glen Oaks Club,sg_putt,0.1955381065766949,2017-08-27,0.0022383943578505117,752,Sedgefield CC
-17606,"Berger, Daniel",898,The Concession Golf Club,sg_putt,0.37101974380035646,2021-02-28,0.0019451421500450046,752,Sedgefield CC
-17606,"Berger, Daniel",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,0.7985162187593771,2025-05-11,0.0010693537964395516,752,Sedgefield CC
-17606,"Berger, Daniel",698,Quail Hollow Club,sg_putt,0.2830518126575244,2016-05-08,0.0005779960071496175,752,Sedgefield CC
-17606,"Berger, Daniel",789,Conway Farms GC,sg_putt,0.33491401453936026,2017-09-17,0.00045682938607821563,752,Sedgefield CC
-17606,"Berger, Daniel",771,The Old White TPC,sg_putt,0.1321259030499441,2015-07-05,0.00019375704489864472,752,Sedgefield CC
-17606,"Berger, Daniel",763,PGA West (Nicklaus),sg_putt,0.12190661233946291,2015-01-25,-6.800471575546947e-05,752,Sedgefield CC
-17606,"Berger, Daniel",706,Whistling Straits,sg_putt,0.13492988578712511,2015-08-16,-9.882907149491245e-05,752,Sedgefield CC
-17606,"Berger, Daniel",884,Keene Trace Golf Club (Champion Trace),sg_putt,0.6869457200484198,2024-07-14,-0.0007120055945453381,752,Sedgefield CC
-17606,"Berger, Daniel",534,Bellerive CC,sg_putt,0.23293402966303187,2018-08-12,-0.000864872851612762,752,Sedgefield CC
-17606,"Berger, Daniel",700,TPC Boston,sg_putt,1.0694727713181729,2020-08-23,-0.0009421615601160698,752,Sedgefield CC
-17606,"Berger, Daniel",527,Saucon Valley CC,sg_putt,0.16414583639372407,2016-09-11,-0.0009453080739474088,752,Sedgefield CC
-17606,"Berger, Daniel",666,Pebble Beach Golf Links,sg_putt,0.2717154228225054,2019-06-16,-0.001258767068577385,752,Sedgefield CC
-17606,"Berger, Daniel",896,Olympia Fields Country Club (North Course),sg_putt,0.33874759718303354,2020-08-30,-0.0017228832540132934,752,Sedgefield CC
-17606,"Berger, Daniel",689,El Bosque CC,sg_putt,0.16300082774468777,2016-08-28,-0.0017347301692728623,752,Sedgefield CC
-17606,"Berger, Daniel",503,TPC River Highlands,sg_putt,2.6478699566197155,2026-06-28,-0.0018627454739397963,752,Sedgefield CC
-17606,"Berger, Daniel",880,Bethpage Black,sg_putt,0.26793791118361776,2019-05-19,-0.0022230028018745706,752,Sedgefield CC
-17606,"Berger, Daniel",878,Shadow Creek Golf Course,sg_putt,0.3471494153245104,2020-10-18,-0.0032782443710708486,752,Sedgefield CC
-17606,"Berger, Daniel",697,Ocean Course at Kiawah Island,sg_putt,0.3869344423169145,2021-05-23,-0.0033483023603094416,752,Sedgefield CC
-17606,"Berger, Daniel",882,Caves Valley Golf Club,sg_putt,1.244984409060541,2025-08-17,-0.003875479585803542,752,Sedgefield CC
-17606,"Berger, Daniel",241,Quail Hollow-PGA Championship,sg_putt,0.9954900415034769,2025-05-18,-0.004415620606757078,752,Sedgefield CC
-17606,"Berger, Daniel",926,Silverado Resort (North Course),sg_putt,0.7089289280495108,2024-09-15,-0.004751227072078489,752,Sedgefield CC
-17606,"Berger, Daniel",928,PGA National  - Champion Course,sg_putt,2.338765647802637,2026-03-01,-0.005001505327417004,752,Sedgefield CC
-17606,"Berger, Daniel",654,The Country Club,sg_putt,0.47071615967905545,2022-06-19,-0.005722318771435585,752,Sedgefield CC
-17606,"Berger, Daniel",36,Le Triomphe G&CC,sg_putt,0.42561588348504664,2018-08-05,-0.006610378759566736,752,Sedgefield CC
-17606,"Berger, Daniel",618,Shinnecock Hills Golf Club,sg_putt,1.2047425757276788,2026-06-21,-0.01843595496474064,752,Sedgefield CC
-17606,"Berger, Daniel",21,Colonial Country Club,sg_putt,3.052747275758001,2025-05-25,-0.02053281099705825,752,Sedgefield CC
-17606,"Berger, Daniel",541,Royal Birkdale Golf Club,sg_putt,0.9920319148370607,2026-07-19,-0.021300656426857887,752,Sedgefield CC
-17606,"Berger, Daniel",611,Southern Hills Country Club,sg_putt,0.4641720491043618,2022-05-22,-0.02488721477837235,752,Sedgefield CC
 18103,"Bezuidenhout, Christiaan",241,Quail Hollow-PGA Championship,sg_app,0.8013159221479349,2025-05-18,0.017265601444615836,752,Sedgefield CC
 18103,"Bezuidenhout, Christiaan",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,0.7985162187593771,2025-05-11,0.012394626888012019,752,Sedgefield CC
 18103,"Bezuidenhout, Christiaan",668,St. Andrews Links (Old Course),sg_app,0.47735253212797546,2022-07-17,0.00882604102409332,752,Sedgefield CC
@@ -4083,6 +3961,11 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 15556,"Hughes, Mackenzie",6,Waialae Country Club,sg_putt,2.5764410543882725,2025-01-12,-0.027480692035996047,752,Sedgefield CC
 15556,"Hughes, Mackenzie",241,Quail Hollow-PGA Championship,sg_putt,0.9954900415034769,2025-05-18,-0.030336550399888845,752,Sedgefield CC
 15556,"Hughes, Mackenzie",752,Sedgefield Country Club,sg_putt,2.673442184911476,2024-08-11,-0.03945561740679772,752,Sedgefield CC
+26597,"Huskey, Keenan",244,Puntacana Resort & Club (Corales Golf Course),sg_app,0.9920319148370607,2026-07-19,0.08802339688402619,752,Sedgefield CC
+26597,"Huskey, Keenan",872,Quail Hollow Club,sg_arg,0.384235359033436,2021-05-09,0.001842250698790469,752,Sedgefield CC
+26597,"Huskey, Keenan",244,Puntacana Resort & Club (Corales Golf Course),sg_arg,0.9920319148370607,2026-07-19,-0.004632264776425703,752,Sedgefield CC
+26597,"Huskey, Keenan",947,Detroit Golf Club,sg_ott,0.999000499833375,2026-08-02,-0.01054740712136199,752,Sedgefield CC
+26597,"Huskey, Keenan",816,Omaha Country Club,sg_total,0.4031284634359433,2021-08-13,-0.017695237958389332,752,Sedgefield CC
 17488,"Im, Sungjae",752,Sedgefield Country Club,sg_app,3.608844257482471,2025-08-03,0.05379380916221395,752,Sedgefield CC
 17488,"Im, Sungjae",12,Harbour Town Golf Links,sg_app,4.371591891632388,2026-04-19,0.03297066824089842,752,Sedgefield CC
 17488,"Im, Sungjae",513,TPC Southwind,sg_app,3.3357157665259747,2025-08-10,0.025450912334060237,752,Sedgefield CC
@@ -5476,6 +5359,120 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 15980,"Lipsky, David",3669,old course st andrews,sg_total,0.2395483508603542,2018-10-07,0.003100490390638155,752,Sedgefield CC
 15980,"Lipsky, David",3496,abu dhabi gc,sg_total,0.17543266235308225,2017-01-22,0.0030377193200635576,752,Sedgefield CC
 15980,"Lipsky, David",3497,doha gc,sg_total,0.17604775245108517,2017-01-29,0.0023803962687637178,752,Sedgefield CC
+7960,"List, Luke",12,Harbour Town Golf Links,sg_app,2.6181146015896655,2023-04-16,0.03209378019331802,752,Sedgefield CC
+7960,"List, Luke",776,Sea Island Golf Club (Seaside Course),sg_app,2.5927926650709217,2025-11-23,0.02653508069227686,752,Sedgefield CC
+7960,"List, Luke",4,Torrey Pines Golf Course (South Course),sg_app,3.0575481299265266,2026-02-01,0.017113421745221683,752,Sedgefield CC
+7960,"List, Luke",895,TPC Harding Park,sg_app,0.33520935568799465,2020-08-09,0.014079990218819675,752,Sedgefield CC
+7960,"List, Luke",244,Puntacana Resort & Club (Corales Golf Course),sg_app,0.9920319148370607,2026-07-19,0.012719685427119364,752,Sedgefield CC
+7960,"List, Luke",237,TPC Potomac at Avenel Farm,sg_app,0.6510731705885576,2022-05-08,0.010297892872901228,752,Sedgefield CC
+7960,"List, Luke",513,TPC Southwind,sg_app,1.145327664080677,2022-08-14,0.008379387248865264,752,Sedgefield CC
+7960,"List, Luke",926,Silverado Resort (North Course),sg_app,1.4414053092217955,2025-09-14,0.0048384448509888,752,Sedgefield CC
+7960,"List, Luke",894,TPC Craig Ranch,sg_app,0.8481328256520144,2022-05-15,0.004269553935942895,752,Sedgefield CC
+7960,"List, Luke",231,Sea Island GC (Plantation),sg_app,0.386338170308664,2018-11-18,0.0021399585739981515,752,Sedgefield CC
+7960,"List, Luke",654,The Country Club,sg_app,0.47071615967905545,2022-06-19,-0.0002132036390037898,752,Sedgefield CC
+7960,"List, Luke",902,Congaree Golf Club,sg_app,0.8923440022910011,2022-10-23,-0.0017305823150575736,752,Sedgefield CC
+7960,"List, Luke",609,Annandale GC,sg_app,0.09245807319270043,2013-07-21,-0.002072387403351775,752,Sedgefield CC
+7960,"List, Luke",689,El Bosque CC,sg_app,0.16300082774468777,2016-08-28,-0.002111680484542556,752,Sedgefield CC
+7960,"List, Luke",241,Quail Hollow-PGA Championship,sg_app,0.19417411935554202,2017-08-13,-0.004581738256912127,752,Sedgefield CC
+7960,"List, Luke",773,Aronimink Golf Club,sg_app,0.23621804051561368,2018-09-09,-0.004882242749941343,752,Sedgefield CC
+7960,"List, Luke",666,Pebble Beach Golf Links,sg_app,0.2717154228225054,2019-06-16,-0.01147167864022588,752,Sedgefield CC
+7960,"List, Luke",889,Sea Island Golf Club (Plantation Course),sg_app,1.3819517821511642,2024-11-24,-0.012853727643161367,752,Sedgefield CC
+7960,"List, Luke",876,Detroit Golf Club,sg_app,3.152843827369413,2025-06-29,-0.01407236790419168,752,Sedgefield CC
+7960,"List, Luke",43,The Los Angeles Country Club (North Course),sg_app,0.5646777864396175,2023-06-18,-0.02012732443863981,752,Sedgefield CC
+7960,"List, Luke",978,Vidanta Vallarta,sg_app,1.3193689014305692,2025-02-23,-0.021233724451370947,752,Sedgefield CC
+7960,"List, Luke",875,ACCORDIA GOLF Narashino Country Club,sg_app,0.7239738543679153,2024-10-27,-0.025516698890505188,752,Sedgefield CC
+7960,"List, Luke",668,St. Andrews Links (Old Course),sg_app,0.47735253212797546,2022-07-17,-0.027869696787318866,752,Sedgefield CC
+7960,"List, Luke",752,Sedgefield Country Club,sg_app,2.80396277028838,2025-08-03,-0.10059537218603172,752,Sedgefield CC
+7960,"List, Luke",538,TPC Summerlin,sg_arg,2.7403426226384533,2024-10-20,0.016047048599497942,752,Sedgefield CC
+7960,"List, Luke",244,Puntacana Resort & Club (Corales Golf Course),sg_arg,0.9920319148370607,2026-07-19,0.011042837007343972,752,Sedgefield CC
+7960,"List, Luke",36,Le Triomphe G&CC,sg_arg,0.2321201856170906,2018-08-05,0.0019774278238265303,752,Sedgefield CC
+7960,"List, Luke",241,Quail Hollow-PGA Championship,sg_arg,0.19417411935554202,2017-08-13,0.0015107444566567665,752,Sedgefield CC
+7960,"List, Luke",235,Eagle Point Golf Club,sg_arg,0.18488893232617232,2017-05-07,0.0012014596933804785,752,Sedgefield CC
+7960,"List, Luke",238,Glen Oaks Club,sg_arg,0.1955381065766949,2017-08-27,0.0011767373553610298,752,Sedgefield CC
+7960,"List, Luke",231,Sea Island GC (Plantation),sg_arg,0.386338170308664,2018-11-18,0.0010012829370953061,752,Sedgefield CC
+7960,"List, Luke",773,Aronimink Golf Club,sg_arg,0.23621804051561368,2018-09-09,0.0008663060123624984,752,Sedgefield CC
+7960,"List, Luke",893,Muirfield Village Golf Club,sg_arg,0.3305491224578677,2020-07-12,0.0008596283034624672,752,Sedgefield CC
+7960,"List, Luke",609,Annandale GC,sg_arg,0.09245807319270043,2013-07-21,0.0007144286802221571,752,Sedgefield CC
+7960,"List, Luke",873,Ridgewood CC,sg_arg,0.23457028809379765,2018-08-26,0.0006787453623679112,752,Sedgefield CC
+7960,"List, Luke",714,TPC Louisiana,sg_arg,2.2932616583323604,2026-04-26,0.0005290437968385285,752,Sedgefield CC
+7960,"List, Luke",729,Golf Club of Houston,sg_arg,0.9268750871694782,2019-10-13,0.00045415188579727084,752,Sedgefield CC
+7960,"List, Luke",819,Harbor Shores Resort,sg_arg,0.15961350176811803,2016-07-17,6.704896044605529e-05,752,Sedgefield CC
+7960,"List, Luke",789,Conway Farms GC,sg_arg,0.19760207355974946,2017-09-17,-0.0005393713053825028,752,Sedgefield CC
+7960,"List, Luke",5,Pebble Beach Golf Links,sg_arg,0.2330914163928538,2016-02-14,-0.0017097420998950857,752,Sedgefield CC
+7960,"List, Luke",977,The Renaissance Club,sg_arg,1.7352693117153228,2024-07-14,-0.003750175356176349,752,Sedgefield CC
+7960,"List, Luke",930,Black Desert Resort,sg_arg,1.587413045129594,2025-10-26,-0.0042487687817676974,752,Sedgefield CC
+7960,"List, Luke",872,Quail Hollow Club,sg_arg,1.42504283888979,2023-05-07,-0.005005775083710994,752,Sedgefield CC
+7960,"List, Luke",889,Sea Island Golf Club (Plantation Course),sg_arg,1.3819517821511642,2024-11-24,-0.007806120500319895,752,Sedgefield CC
+7960,"List, Luke",897,Memorial Park Golf Course,sg_arg,2.7134809239544078,2025-03-30,-0.00857265913730635,752,Sedgefield CC
+7960,"List, Luke",925,Dunes Golf and Beach Club,sg_arg,0.7985162187593771,2025-05-11,-0.009212027725332715,752,Sedgefield CC
+7960,"List, Luke",752,Sedgefield Country Club,sg_arg,2.80396277028838,2025-08-03,-0.009297126638299449,752,Sedgefield CC
+7960,"List, Luke",668,St. Andrews Links (Old Course),sg_arg,0.47735253212797546,2022-07-17,-0.009397068047839683,752,Sedgefield CC
+7960,"List, Luke",12,Harbour Town Golf Links,sg_arg,2.6181146015896655,2023-04-16,-0.010219028276923775,752,Sedgefield CC
+7960,"List, Luke",876,Detroit Golf Club,sg_arg,3.152843827369413,2025-06-29,-0.02125777739799858,752,Sedgefield CC
+7960,"List, Luke",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_ott,3.3142288251580156,2025-03-16,0.013442926432246215,752,Sedgefield CC
+7960,"List, Luke",538,TPC Summerlin,sg_ott,2.7403426226384533,2024-10-20,0.012095059597452622,752,Sedgefield CC
+7960,"List, Luke",510,TPC Scottsdale (Stadium Course),sg_ott,3.918443453760961,2025-02-09,0.009690548650361399,752,Sedgefield CC
+7960,"List, Luke",875,ACCORDIA GOLF Narashino Country Club,sg_ott,0.7239738543679153,2024-10-27,0.007599760363149516,752,Sedgefield CC
+7960,"List, Luke",202,La Quinta Country Club,sg_ott,1.218231435479687,2023-01-22,0.006567092379539487,752,Sedgefield CC
+7960,"List, Luke",771,The Old White TPC,sg_ott,0.28261875911988177,2017-07-09,0.004316975532896358,752,Sedgefield CC
+7960,"List, Luke",934,Hurstbourne Country Club,sg_ott,1.812635708443024,2026-07-12,0.004195471751031128,752,Sedgefield CC
+7960,"List, Luke",925,Dunes Golf and Beach Club,sg_ott,0.7985162187593771,2025-05-11,0.0040531964677242155,752,Sedgefield CC
+7960,"List, Luke",770,TPC San Antonio - The Oaks Course,sg_ott,3.0655175238006414,2025-04-06,0.003714192287911324,752,Sedgefield CC
+7960,"List, Luke",237,TPC Potomac at Avenel Farm,sg_ott,0.6510731705885576,2022-05-08,0.002969648535425813,752,Sedgefield CC
+7960,"List, Luke",926,Silverado Resort (North Course),sg_ott,1.4414053092217955,2025-09-14,0.0023346848809504485,752,Sedgefield CC
+7960,"List, Luke",513,TPC Southwind,sg_ott,1.145327664080677,2022-08-14,0.0022022710714061874,752,Sedgefield CC
+7960,"List, Luke",773,Aronimink Golf Club,sg_ott,0.23621804051561368,2018-09-09,0.0017414493147275914,752,Sedgefield CC
+7960,"List, Luke",233,Nicklaus Tournament Course,sg_ott,0.7402147423695182,2022-01-23,0.0016528086005674636,752,Sedgefield CC
+7960,"List, Luke",884,Keene Trace Golf Club (Champion Trace),sg_ott,0.3979217106327257,2021-07-18,0.0009789807392828899,752,Sedgefield CC
+7960,"List, Luke",500,The Riviera Country Club,sg_ott,3.086346794795297,2024-02-18,0.0009219071658746216,752,Sedgefield CC
+7960,"List, Luke",609,Annandale GC,sg_ott,0.09245807319270043,2013-07-21,0.0005052299783055857,752,Sedgefield CC
+7960,"List, Luke",534,Bellerive CC,sg_ott,0.23293402966303187,2018-08-12,8.413550717750043e-06,752,Sedgefield CC
+7960,"List, Luke",931,Tahoe Mountain Club (Old Greenwood),sg_ott,0.6893542425242224,2024-07-21,-0.00026261792764046394,752,Sedgefield CC
+7960,"List, Luke",13,Forest Oaks CC,sg_ott,0.03135128574953089,2007-08-19,-0.0018629867396791737,752,Sedgefield CC
+7960,"List, Luke",43,The Los Angeles Country Club (North Course),sg_ott,0.5646777864396175,2023-06-18,-0.0035224505258010384,752,Sedgefield CC
+7960,"List, Luke",886,Liberty National Golf Club,sg_ott,0.6843775975479122,2021-08-22,-0.0038169025935648046,752,Sedgefield CC
+7960,"List, Luke",874,Hamilton Golf & Country Club,sg_ott,0.6726702767012355,2024-06-02,-0.007697841952267508,752,Sedgefield CC
+7960,"List, Luke",21,Colonial Country Club,sg_ott,2.6982619108641943,2025-05-25,-0.010167219646758244,752,Sedgefield CC
+7960,"List, Luke",5,Pebble Beach Golf Links,sg_ott,0.2330914163928538,2016-02-14,-0.011583397256923152,752,Sedgefield CC
+7960,"List, Luke",12,Harbour Town Golf Links,sg_ott,2.6181146015896655,2023-04-16,-0.012023049193416945,752,Sedgefield CC
+7960,"List, Luke",928,PGA National  - Champion Course,sg_ott,1.4138012212590976,2025-03-02,-0.012868010994063797,752,Sedgefield CC
+7960,"List, Luke",503,TPC River Highlands,sg_ott,2.0109293716791963,2023-06-25,-0.020062187419443035,752,Sedgefield CC
+7960,"List, Luke",930,Black Desert Resort,sg_ott,1.587413045129594,2025-10-26,-0.04958942874960645,752,Sedgefield CC
+7960,"List, Luke",752,Sedgefield Country Club,sg_ott,2.80396277028838,2025-08-03,-0.1091795148230992,752,Sedgefield CC
+7960,"List, Luke",746,The Country Club of Jackson,sg_putt,4.021684726997947,2025-10-05,0.03148520252872853,752,Sedgefield CC
+7960,"List, Luke",510,TPC Scottsdale (Stadium Course),sg_putt,3.918443453760961,2025-02-09,0.01829775863018925,752,Sedgefield CC
+7960,"List, Luke",926,Silverado Resort (North Course),sg_putt,1.4414053092217955,2025-09-14,0.011689719424072499,752,Sedgefield CC
+7960,"List, Luke",752,Sedgefield Country Club,sg_putt,2.80396277028838,2025-08-03,0.011005534903727092,752,Sedgefield CC
+7960,"List, Luke",611,Southern Hills Country Club,sg_putt,0.4641720491043618,2022-05-22,0.009826792310780735,752,Sedgefield CC
+7960,"List, Luke",776,Sea Island Golf Club (Seaside Course),sg_putt,2.5927926650709217,2025-11-23,0.008722062232115885,752,Sedgefield CC
+7960,"List, Luke",880,Bethpage Black,sg_putt,0.26793791118361776,2019-05-19,0.007858371239818564,752,Sedgefield CC
+7960,"List, Luke",931,Tahoe Mountain Club (Old Greenwood),sg_putt,0.6893542425242224,2024-07-21,0.0062682821534795945,752,Sedgefield CC
+7960,"List, Luke",935,TPC Toronto at Osprey Valley - North Course,sg_putt,0.8097740668812763,2025-06-08,0.005616670309913805,752,Sedgefield CC
+7960,"List, Luke",666,Pebble Beach Golf Links,sg_putt,0.2717154228225054,2019-06-16,0.005450597999441425,752,Sedgefield CC
+7960,"List, Luke",668,St. Andrews Links (Old Course),sg_putt,0.47735253212797546,2022-07-17,0.004763345663079006,752,Sedgefield CC
+7960,"List, Luke",24,Congressional CC (Blue),sg_putt,0.24943867036263684,2016-06-26,0.0022478994837794183,752,Sedgefield CC
+7960,"List, Luke",36,Le Triomphe G&CC,sg_putt,0.2321201856170906,2018-08-05,0.0003385650446488083,752,Sedgefield CC
+7960,"List, Luke",698,Quail Hollow Club,sg_putt,0.24308975120030235,2016-05-08,0.00018875554487989875,752,Sedgefield CC
+7960,"List, Luke",789,Conway Farms GC,sg_putt,0.19760207355974946,2017-09-17,8.706352924899691e-05,752,Sedgefield CC
+7960,"List, Luke",241,Quail Hollow-PGA Championship,sg_putt,0.19417411935554202,2017-08-13,-0.0006271211280177732,752,Sedgefield CC
+7960,"List, Luke",884,Keene Trace Golf Club (Champion Trace),sg_putt,0.3979217106327257,2021-07-18,-0.0006310136137562597,752,Sedgefield CC
+7960,"List, Luke",609,Annandale GC,sg_putt,0.09245807319270043,2013-07-21,-0.0007881412298284874,752,Sedgefield CC
+7960,"List, Luke",238,Glen Oaks Club,sg_putt,0.1955381065766949,2017-08-27,-0.0020968259257664393,752,Sedgefield CC
+7960,"List, Luke",654,The Country Club,sg_putt,0.47071615967905545,2022-06-19,-0.0025121143920065437,752,Sedgefield CC
+7960,"List, Luke",689,El Bosque CC,sg_putt,0.16300082774468777,2016-08-28,-0.0026048651247081917,752,Sedgefield CC
+7960,"List, Luke",771,The Old White TPC,sg_putt,0.28261875911988177,2017-07-09,-0.003112621788588984,752,Sedgefield CC
+7960,"List, Luke",618,Shinnecock Hills Golf Club,sg_putt,0.22650234067646874,2018-06-17,-0.003208894730384826,752,Sedgefield CC
+7960,"List, Luke",534,Bellerive CC,sg_putt,0.23293402966303187,2018-08-12,-0.005011131357830414,752,Sedgefield CC
+7960,"List, Luke",700,TPC Boston,sg_putt,0.7693963267121546,2020-08-23,-0.0066415865872237944,752,Sedgefield CC
+7960,"List, Luke",503,TPC River Highlands,sg_putt,2.0109293716791963,2023-06-25,-0.006936351202236767,752,Sedgefield CC
+7960,"List, Luke",928,PGA National  - Champion Course,sg_putt,1.4138012212590976,2025-03-02,-0.007683556610656261,752,Sedgefield CC
+7960,"List, Luke",901,Wilmington Country Club,sg_putt,0.485779724303885,2022-08-21,-0.01012951266291781,752,Sedgefield CC
+7960,"List, Luke",21,Colonial Country Club,sg_putt,2.6982619108641943,2025-05-25,-0.011770367385629307,752,Sedgefield CC
+7960,"List, Luke",897,Memorial Park Golf Course,sg_putt,2.7134809239544078,2025-03-30,-0.013763917939474792,752,Sedgefield CC
+7960,"List, Luke",930,Black Desert Resort,sg_putt,1.587413045129594,2025-10-26,-0.015162087734741755,752,Sedgefield CC
+7960,"List, Luke",925,Dunes Golf and Beach Club,sg_putt,0.7985162187593771,2025-05-11,-0.01889297542173307,752,Sedgefield CC
+7960,"List, Luke",9,Arnold Palmer's Bay Hill Club & Lodge,sg_putt,2.6553257261159295,2024-03-10,-0.019977947332836785,752,Sedgefield CC
+7960,"List, Luke",6,Waialae Country Club,sg_putt,2.6590775504315003,2025-01-12,-0.028296290662106576,752,Sedgefield CC
 17723,"Lower, Justin",776,Sea Island Golf Club (Seaside Course),sg_app,2.765071671092625,2025-11-23,0.034018194237494845,752,Sedgefield CC
 17723,"Lower, Justin",244,Puntacana Resort & Club (Corales Golf Course),sg_app,0.9920319148370607,2026-07-19,0.027095808612798183,752,Sedgefield CC
 17723,"Lower, Justin",894,TPC Craig Ranch,sg_app,0.4625502866723014,2022-05-15,0.021026431143115934,752,Sedgefield CC
@@ -5936,6 +5933,105 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 28635,"McCarty, Matt",816,Omaha Country Club,sg_total,0.4031284634359433,2021-08-13,0.014611905166138668,752,Sedgefield CC
 28635,"McCarty, Matt",4722,royal melbourne gc,sg_total,0.8869204367171575,2025-12-07,0.007454940291842392,752,Sedgefield CC
 28635,"McCarty, Matt",94,Jimmie Austin OU Golf Club,sg_total,0.679770525680321,2024-06-23,0.004977104723376517,752,Sedgefield CC
+12477,"McGirt, William",776,Sea Island Golf Club (Seaside Course),sg_app,2.4230439158919106,2024-11-24,0.0277303200422622,752,Sedgefield CC
+12477,"McGirt, William",244,Puntacana Resort & Club (Corales Golf Course),sg_app,0.9920319148370607,2026-07-19,0.011548267879521606,752,Sedgefield CC
+12477,"McGirt, William",978,Vidanta Vallarta,sg_app,0.5510112789913407,2023-04-30,0.011002636765539274,752,Sedgefield CC
+12477,"McGirt, William",609,Annandale GC,sg_app,0.23355507189172608,2013-07-21,0.005792073228830495,752,Sedgefield CC
+12477,"McGirt, William",823,Keene Trace Golf Club,sg_app,0.23050101801597056,2018-07-22,0.004717773497855743,752,Sedgefield CC
+12477,"McGirt, William",513,TPC Southwind,sg_app,0.8821402485501171,2018-06-10,0.0045947121164564226,752,Sedgefield CC
+12477,"McGirt, William",689,El Bosque CC,sg_app,0.24143465300691497,2016-08-28,0.0030162613394813264,752,Sedgefield CC
+12477,"McGirt, William",642,Newport Beach Country Club,sg_app,0.11130289614166065,2014-07-27,0.001983140985413549,752,Sedgefield CC
+12477,"McGirt, William",902,Congaree Golf Club,sg_app,0.3910186585729182,2021-06-13,0.0005477142026863287,752,Sedgefield CC
+12477,"McGirt, William",716,Shaughnessy G&CC,sg_app,0.06424830094450308,2011-07-24,-1.834031734980716e-05,752,Sedgefield CC
+12477,"McGirt, William",773,Aronimink Golf Club,sg_app,0.06357722310873985,2011-07-03,-0.0007750929771435822,752,Sedgefield CC
+12477,"McGirt, William",505,Cherry Hills CC,sg_app,0.11366497195098546,2014-09-07,-0.0029396941378703407,752,Sedgefield CC
+12477,"McGirt, William",241,Quail Hollow-PGA Championship,sg_app,0.19417411935554202,2017-08-13,-0.0035518648263220586,752,Sedgefield CC
+12477,"McGirt, William",237,TPC Potomac at Avenel Farm,sg_app,0.46093419048703715,2022-05-08,-0.004443800099328053,752,Sedgefield CC
+12477,"McGirt, William",715,Baltusrol GC,sg_app,0.1607347159518504,2016-07-31,-0.00457020872764511,752,Sedgefield CC
+12477,"McGirt, William",781,Plainfield CC,sg_app,0.20126025036937228,2015-08-30,-0.005101591773042471,752,Sedgefield CC
+12477,"McGirt, William",876,Detroit Golf Club,sg_app,0.8758517073584859,2022-07-31,-0.006327685254003751,752,Sedgefield CC
+12477,"McGirt, William",12,Harbour Town Golf Links,sg_app,1.8475318853520537,2022-04-17,-0.0072839485777133235,752,Sedgefield CC
+12477,"McGirt, William",908,Oakdale Golf & Country Club,sg_app,0.5627048688069557,2023-06-11,-0.010710083880557393,752,Sedgefield CC
+12477,"McGirt, William",752,Sedgefield Country Club,sg_app,1.5583842895029187,2022-08-07,-0.035641884949953094,752,Sedgefield CC
+12477,"McGirt, William",926,Silverado Resort (North Course),sg_app,1.2998930327310734,2024-09-15,-0.03755919863407898,752,Sedgefield CC
+12477,"McGirt, William",876,Detroit Golf Club,sg_arg,0.8758517073584859,2022-07-31,0.01085261032586115,752,Sedgefield CC
+12477,"McGirt, William",12,Harbour Town Golf Links,sg_arg,1.8475318853520537,2022-04-17,0.010060407478127786,752,Sedgefield CC
+12477,"McGirt, William",538,TPC Summerlin,sg_arg,1.2855108146830811,2021-10-10,0.005053977816760238,752,Sedgefield CC
+12477,"McGirt, William",642,Newport Beach Country Club,sg_arg,0.11130289614166065,2014-07-27,0.0035620200126169834,752,Sedgefield CC
+12477,"McGirt, William",36,Le Triomphe G&CC,sg_arg,0.1585001086779083,2016-07-03,0.003084456297011427,752,Sedgefield CC
+12477,"McGirt, William",5,Pebble Beach Golf Links,sg_arg,0.4908483679437815,2018-02-11,0.002204541163808937,752,Sedgefield CC
+12477,"McGirt, William",238,Glen Oaks Club,sg_arg,0.1955381065766949,2017-08-27,0.0016582853003277703,752,Sedgefield CC
+12477,"McGirt, William",775,CordeValle GC,sg_arg,0.16319410760093903,2013-10-13,0.0015773685432976389,752,Sedgefield CC
+12477,"McGirt, William",688,East Lake Golf Club,sg_arg,0.16529888822158653,2016-09-25,0.0015319790200103967,752,Sedgefield CC
+12477,"McGirt, William",789,Conway Farms GC,sg_arg,0.1373119409796108,2015-09-20,0.0011846246392305745,752,Sedgefield CC
+12477,"McGirt, William",609,Annandale GC,sg_arg,0.23355507189172608,2013-07-21,0.0003132194713046616,752,Sedgefield CC
+12477,"McGirt, William",694,Hamilton G&CC,sg_arg,0.07734340247822467,2012-07-29,0.0002876295646263692,752,Sedgefield CC
+12477,"McGirt, William",773,Aronimink Golf Club,sg_arg,0.06357722310873985,2011-07-03,-5.273886706830798e-05,752,Sedgefield CC
+12477,"McGirt, William",873,Ridgewood CC,sg_arg,0.23457028809379765,2018-08-26,-0.0006083438838441873,752,Sedgefield CC
+12477,"McGirt, William",241,Quail Hollow-PGA Championship,sg_arg,0.19417411935554202,2017-08-13,-0.0008191626048947839,752,Sedgefield CC
+12477,"McGirt, William",925,Dunes Golf and Beach Club,sg_arg,0.6656441903015212,2024-05-12,-0.001957035516057694,752,Sedgefield CC
+12477,"McGirt, William",527,Saucon Valley CC,sg_arg,0.24313062455316378,2016-09-11,-0.0021128778271573855,752,Sedgefield CC
+12477,"McGirt, William",714,TPC Louisiana,sg_arg,0.5490861105249629,2023-04-23,-0.002807931901921266,752,Sedgefield CC
+12477,"McGirt, William",729,Golf Club of Houston,sg_arg,0.6410860896449037,2018-04-01,-0.005442565520196247,752,Sedgefield CC
+12477,"McGirt, William",752,Sedgefield Country Club,sg_arg,1.5583842895029187,2022-08-07,-0.008068945730737994,752,Sedgefield CC
+12477,"McGirt, William",235,Eagle Point Golf Club,sg_arg,0.18488893232617232,2017-05-07,-0.008611938729077758,752,Sedgefield CC
+12477,"McGirt, William",244,Puntacana Resort & Club (Corales Golf Course),sg_arg,0.9920319148370607,2026-07-19,-0.011310541334407582,752,Sedgefield CC
+12477,"McGirt, William",12,Harbour Town Golf Links,sg_ott,1.8475318853520537,2022-04-17,0.015997107387771353,752,Sedgefield CC
+12477,"McGirt, William",884,Keene Trace Golf Club (Champion Trace),sg_ott,1.7352693117153226,2024-07-14,0.008888545235416162,752,Sedgefield CC
+12477,"McGirt, William",769,Monterey Peninsula CC,sg_ott,0.40281314702969045,2017-02-12,0.007265785094510225,752,Sedgefield CC
+12477,"McGirt, William",538,TPC Summerlin,sg_ott,1.2855108146830811,2021-10-10,0.006908648803975619,752,Sedgefield CC
+12477,"McGirt, William",202,La Quinta Country Club,sg_ott,0.20632247068001905,2015-01-25,0.004647574902937928,752,Sedgefield CC
+12477,"McGirt, William",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_ott,0.8876291313740442,2018-05-13,0.004448711147238936,752,Sedgefield CC
+12477,"McGirt, William",925,Dunes Golf and Beach Club,sg_ott,0.6656441903015212,2024-05-12,0.0044483318485041435,752,Sedgefield CC
+12477,"McGirt, William",715,Baltusrol GC,sg_ott,0.1607347159518504,2016-07-31,0.0032114435529988624,752,Sedgefield CC
+12477,"McGirt, William",926,Silverado Resort (North Course),sg_ott,1.2998930327310734,2024-09-15,0.0019864372551122904,752,Sedgefield CC
+12477,"McGirt, William",500,The Riviera Country Club,sg_ott,0.7331335401012105,2018-02-18,0.001379160408312781,752,Sedgefield CC
+12477,"McGirt, William",716,Shaughnessy G&CC,sg_ott,0.06424830094450308,2011-07-24,0.0009579566968896589,752,Sedgefield CC
+12477,"McGirt, William",762,Liberty National GC,sg_ott,0.09409033006486113,2013-08-25,0.0005689974567759534,752,Sedgefield CC
+12477,"McGirt, William",770,TPC San Antonio - The Oaks Course,sg_ott,1.279466343071604,2022-04-03,0.00017320524373554702,752,Sedgefield CC
+12477,"McGirt, William",609,Annandale GC,sg_ott,0.23355507189172608,2013-07-21,-5.885129104182362e-05,752,Sedgefield CC
+12477,"McGirt, William",13,Forest Oaks CC,sg_ott,0.03135128574953089,2007-08-19,-7.239336629655512e-05,752,Sedgefield CC
+12477,"McGirt, William",513,TPC Southwind,sg_ott,0.8821402485501171,2018-06-10,-0.0002840770324310624,752,Sedgefield CC
+12477,"McGirt, William",237,TPC Potomac at Avenel Farm,sg_ott,0.46093419048703715,2022-05-08,-0.00041920652294313393,752,Sedgefield CC
+12477,"McGirt, William",773,Aronimink Golf Club,sg_ott,0.06357722310873985,2011-07-03,-0.0007318706385481527,752,Sedgefield CC
+12477,"McGirt, William",823,Keene Trace Golf Club,sg_ott,0.23050101801597056,2018-07-22,-0.0007630234339370817,752,Sedgefield CC
+12477,"McGirt, William",21,Colonial Country Club,sg_ott,1.0310654131646073,2018-05-27,-0.0010372934848279886,752,Sedgefield CC
+12477,"McGirt, William",908,Oakdale Golf & Country Club,sg_ott,0.5627048688069557,2023-06-11,-0.00236872468475851,752,Sedgefield CC
+12477,"McGirt, William",5,Pebble Beach Golf Links,sg_ott,0.4908483679437815,2018-02-11,-0.004192175913193865,752,Sedgefield CC
+12477,"McGirt, William",771,The Old White TPC,sg_ott,0.7039816139758046,2018-07-08,-0.006315067528713744,752,Sedgefield CC
+12477,"McGirt, William",752,Sedgefield Country Club,sg_ott,1.5583842895029187,2022-08-07,-0.00771149303757432,752,Sedgefield CC
+12477,"McGirt, William",503,TPC River Highlands,sg_ott,1.754468837516934,2022-06-26,-0.013425975530763062,752,Sedgefield CC
+12477,"McGirt, William",934,Hurstbourne Country Club,sg_ott,1.812635708443024,2026-07-12,-0.01776923290090637,752,Sedgefield CC
+12477,"McGirt, William",510,TPC Scottsdale (Stadium Course),sg_ott,1.7133758887528043,2022-02-13,-0.017784409683345746,752,Sedgefield CC
+12477,"McGirt, William",752,Sedgefield Country Club,sg_putt,1.5583842895029187,2022-08-07,0.029879766570500267,752,Sedgefield CC
+12477,"McGirt, William",926,Silverado Resort (North Course),sg_putt,1.2998930327310734,2024-09-15,0.0289965284608794,752,Sedgefield CC
+12477,"McGirt, William",503,TPC River Highlands,sg_putt,1.754468837516934,2022-06-26,0.021414921627716858,752,Sedgefield CC
+12477,"McGirt, William",884,Keene Trace Golf Club (Champion Trace),sg_putt,1.7352693117153226,2024-07-14,0.00947812664786994,752,Sedgefield CC
+12477,"McGirt, William",746,The Country Club of Jackson,sg_putt,2.3113748033501564,2023-10-08,0.008057150325955364,752,Sedgefield CC
+12477,"McGirt, William",510,TPC Scottsdale (Stadium Course),sg_putt,1.7133758887528043,2022-02-13,0.00652694677617205,752,Sedgefield CC
+12477,"McGirt, William",925,Dunes Golf and Beach Club,sg_putt,0.6656441903015212,2024-05-12,0.006418575049116943,752,Sedgefield CC
+12477,"McGirt, William",700,TPC Boston,sg_putt,0.8485829878002986,2017-09-04,0.0046841211886349795,752,Sedgefield CC
+12477,"McGirt, William",609,Annandale GC,sg_putt,0.23355507189172608,2013-07-21,0.0035144552205134258,752,Sedgefield CC
+12477,"McGirt, William",823,Keene Trace Golf Club,sg_putt,0.23050101801597056,2018-07-22,0.0033676426958834963,752,Sedgefield CC
+12477,"McGirt, William",694,Hamilton G&CC,sg_putt,0.07734340247822467,2012-07-29,0.0025602069725168654,752,Sedgefield CC
+12477,"McGirt, William",24,Congressional CC (Blue),sg_putt,0.16776048163227203,2013-06-30,0.0024068798637782514,752,Sedgefield CC
+12477,"McGirt, William",762,Liberty National GC,sg_putt,0.09409033006486113,2013-08-25,0.00200538371188857,752,Sedgefield CC
+12477,"McGirt, William",241,Quail Hollow-PGA Championship,sg_putt,0.19417411935554202,2017-08-13,0.0018554401154640423,752,Sedgefield CC
+12477,"McGirt, William",36,Le Triomphe G&CC,sg_putt,0.1585001086779083,2016-07-03,0.0018317686407545038,752,Sedgefield CC
+12477,"McGirt, William",21,Colonial Country Club,sg_putt,1.0310654131646073,2018-05-27,0.0006125515690959023,752,Sedgefield CC
+12477,"McGirt, William",763,PGA West (Nicklaus),sg_putt,0.05865983665751736,2011-01-23,-2.0571256097691087e-06,752,Sedgefield CC
+12477,"McGirt, William",642,Newport Beach Country Club,sg_putt,0.11130289614166065,2014-07-27,-0.0003237319844478632,752,Sedgefield CC
+12477,"McGirt, William",689,El Bosque CC,sg_putt,0.24143465300691497,2016-08-28,-0.0003993549711821515,752,Sedgefield CC
+12477,"McGirt, William",527,Saucon Valley CC,sg_putt,0.24313062455316378,2016-09-11,-0.00045564674423177997,752,Sedgefield CC
+12477,"McGirt, William",9,Arnold Palmer's Bay Hill Club & Lodge,sg_putt,0.9973858914315219,2018-03-18,-0.0005505184272238123,752,Sedgefield CC
+12477,"McGirt, William",698,Quail Hollow Club,sg_putt,0.5257607997654512,2016-05-08,-0.0006624551434751665,752,Sedgefield CC
+12477,"McGirt, William",505,Cherry Hills CC,sg_putt,0.11366497195098546,2014-09-07,-0.0013476962269880495,752,Sedgefield CC
+12477,"McGirt, William",789,Conway Farms GC,sg_putt,0.1373119409796108,2015-09-20,-0.0029067269711787725,752,Sedgefield CC
+12477,"McGirt, William",238,Glen Oaks Club,sg_putt,0.1955381065766949,2017-08-27,-0.003099903634850838,752,Sedgefield CC
+12477,"McGirt, William",771,The Old White TPC,sg_putt,0.7039816139758046,2018-07-08,-0.004132118529706406,752,Sedgefield CC
+12477,"McGirt, William",6,Waialae Country Club,sg_putt,1.6803783108520332,2022-01-16,-0.006799595788403901,752,Sedgefield CC
+12477,"McGirt, William",776,Sea Island Golf Club (Seaside Course),sg_putt,2.4230439158919106,2024-11-24,-0.009012830579356399,752,Sedgefield CC
+12477,"McGirt, William",908,Oakdale Golf & Country Club,sg_putt,0.5627048688069557,2023-06-11,-0.01281410989292734,752,Sedgefield CC
 23505,"McGreevy, Max",752,Sedgefield Country Club,sg_app,1.8938425545362143,2025-08-03,0.037356653096813255,752,Sedgefield CC
 23505,"McGreevy, Max",776,Sea Island Golf Club (Seaside Course),sg_app,1.9144067432928649,2025-11-23,0.036767215693713697,752,Sedgefield CC
 23505,"McGreevy, Max",513,TPC Southwind,sg_app,0.48408246720136705,2022-08-14,0.011372258603277126,752,Sedgefield CC
@@ -8158,6 +8254,87 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 32055,"Shipley, Neal",618,Shinnecock Hills Golf Club,sg_putt,0.97824023505121,2026-06-21,-0.013149796094705606,752,Sedgefield CC
 32055,"Shipley, Neal",931,Tahoe Mountain Club (Old Greenwood),sg_putt,0.6893542425242224,2024-07-21,-0.02003032574128115,752,Sedgefield CC
 32055,"Shipley, Neal",6,Waialae Country Club,sg_putt,0.9057427080235485,2026-01-18,-0.026666323912551183,752,Sedgefield CC
+17381,"Silverman, Ben",908,Oakdale Golf & Country Club,sg_app,0.5627048688069557,2023-06-11,0.02058907168256974,752,Sedgefield CC
+17381,"Silverman, Ben",823,Keene Trace Golf Club,sg_app,0.23050101801597056,2018-07-22,0.014525461521943363,752,Sedgefield CC
+17381,"Silverman, Ben",875,ACCORDIA GOLF Narashino Country Club,sg_app,0.7239738543679153,2024-10-27,0.013039877766969545,752,Sedgefield CC
+17381,"Silverman, Ben",4,Torrey Pines Golf Course (South Course),sg_app,0.8424730281478972,2024-01-27,0.010789591630865502,752,Sedgefield CC
+17381,"Silverman, Ben",12,Harbour Town Golf Links,sg_app,0.2642129162330863,2019-04-21,0.00460851744841951,752,Sedgefield CC
+17381,"Silverman, Ben",654,The Country Club,sg_app,0.47071615967905545,2022-06-19,0.0029244973827948703,752,Sedgefield CC
+17381,"Silverman, Ben",660,Montreux Golf & Country Club,sg_app,0.2774817815563575,2019-07-28,0.0020011768468302265,752,Sedgefield CC
+17381,"Silverman, Ben",513,TPC Southwind,sg_app,0.22571096819380504,2018-06-10,0.0005045276161447169,752,Sedgefield CC
+17381,"Silverman, Ben",876,Detroit Golf Club,sg_app,1.7740994843725926,2025-06-29,-0.00017811161373824886,752,Sedgefield CC
+17381,"Silverman, Ben",237,TPC Potomac at Avenel Farm,sg_app,0.22809341933962587,2018-07-01,-0.0006733064356466314,752,Sedgefield CC
+17381,"Silverman, Ben",642,Newport Beach Country Club,sg_app,0.11130289614166065,2014-07-27,-0.008154973178756167,752,Sedgefield CC
+17381,"Silverman, Ben",776,Sea Island Golf Club (Seaside Course),sg_app,1.329291342663368,2025-11-23,-0.012085222108593398,752,Sedgefield CC
+17381,"Silverman, Ben",926,Silverado Resort (North Course),sg_app,1.5593701325897438,2025-09-14,-0.024323264306311754,752,Sedgefield CC
+17381,"Silverman, Ben",244,Puntacana Resort & Club (Corales Golf Course),sg_app,0.9920319148370607,2026-07-19,-0.051771291175599095,752,Sedgefield CC
+17381,"Silverman, Ben",752,Sedgefield Country Club,sg_app,2.041604148318627,2025-08-03,-0.052958922772865354,752,Sedgefield CC
+17381,"Silverman, Ben",978,Vidanta Vallarta,sg_app,1.4088615664232167,2025-02-23,-0.05863552501122879,752,Sedgefield CC
+17381,"Silverman, Ben",752,Sedgefield Country Club,sg_arg,2.041604148318627,2025-08-03,0.028691751876044523,752,Sedgefield CC
+17381,"Silverman, Ben",897,Memorial Park Golf Course,sg_arg,1.856050243637553,2025-03-30,0.007938886565374845,752,Sedgefield CC
+17381,"Silverman, Ben",876,Detroit Golf Club,sg_arg,1.7740994843725926,2025-06-29,0.0046897385955272895,752,Sedgefield CC
+17381,"Silverman, Ben",244,Puntacana Resort & Club (Corales Golf Course),sg_arg,0.9920319148370607,2026-07-19,0.004181994836940152,752,Sedgefield CC
+17381,"Silverman, Ben",925,Dunes Golf and Beach Club,sg_arg,2.422071799127929,2026-05-10,0.0035905313952247957,752,Sedgefield CC
+17381,"Silverman, Ben",5,Pebble Beach Golf Links,sg_arg,0.9961463816927487,2023-02-05,0.00267775234242398,752,Sedgefield CC
+17381,"Silverman, Ben",642,Newport Beach Country Club,sg_arg,0.11130289614166065,2014-07-27,0.0022695772402391823,752,Sedgefield CC
+17381,"Silverman, Ben",660,Montreux Golf & Country Club,sg_arg,0.2774817815563575,2019-07-28,-0.00023164831753116322,752,Sedgefield CC
+17381,"Silverman, Ben",538,TPC Summerlin,sg_arg,0.9239474920407991,2024-10-20,-0.0008358733483466436,752,Sedgefield CC
+17381,"Silverman, Ben",872,Quail Hollow Club,sg_arg,0.48786428250357733,2019-05-05,-0.0008965327224066903,752,Sedgefield CC
+17381,"Silverman, Ben",12,Harbour Town Golf Links,sg_arg,0.2642129162330863,2019-04-21,-0.0010864719885606562,752,Sedgefield CC
+17381,"Silverman, Ben",729,Golf Club of Houston,sg_arg,0.21794773339667745,2018-04-01,-0.0017274603068980802,752,Sedgefield CC
+17381,"Silverman, Ben",930,Black Desert Resort,sg_arg,0.8684893116976679,2025-10-26,-0.005763036764190028,752,Sedgefield CC
+17381,"Silverman, Ben",714,TPC Louisiana,sg_arg,1.7441755478073977,2026-04-26,-0.03284605045684684,752,Sedgefield CC
+17381,"Silverman, Ben",930,Black Desert Resort,sg_ott,0.8684893116976679,2025-10-26,0.027021337128336344,752,Sedgefield CC
+17381,"Silverman, Ben",926,Silverado Resort (North Course),sg_ott,1.5593701325897438,2025-09-14,0.020110168375654037,752,Sedgefield CC
+17381,"Silverman, Ben",925,Dunes Golf and Beach Club,sg_ott,2.422071799127929,2026-05-10,0.014649133873816635,752,Sedgefield CC
+17381,"Silverman, Ben",928,PGA National  - Champion Course,sg_ott,2.338765647802637,2026-03-01,0.013248653365524294,752,Sedgefield CC
+17381,"Silverman, Ben",934,Hurstbourne Country Club,sg_ott,1.812635708443024,2026-07-12,0.01088705302235858,752,Sedgefield CC
+17381,"Silverman, Ben",884,Keene Trace Golf Club (Champion Trace),sg_ott,0.9634580129641372,2024-07-14,0.010811172604383074,752,Sedgefield CC
+17381,"Silverman, Ben",510,TPC Scottsdale (Stadium Course),sg_ott,1.4169036066125096,2025-02-09,0.010575816820043245,752,Sedgefield CC
+17381,"Silverman, Ben",5,Pebble Beach Golf Links,sg_ott,0.9961463816927487,2023-02-05,0.008400638798750068,752,Sedgefield CC
+17381,"Silverman, Ben",908,Oakdale Golf & Country Club,sg_ott,0.5627048688069557,2023-06-11,0.007106403752899645,752,Sedgefield CC
+17381,"Silverman, Ben",931,Tahoe Mountain Club (Old Greenwood),sg_ott,0.6893542425242224,2024-07-21,0.005376597336874936,752,Sedgefield CC
+17381,"Silverman, Ben",237,TPC Potomac at Avenel Farm,sg_ott,0.22809341933962587,2018-07-01,0.004068001809171006,752,Sedgefield CC
+17381,"Silverman, Ben",202,La Quinta Country Club,sg_ott,0.2524606207134157,2019-01-20,0.003747774334559796,752,Sedgefield CC
+17381,"Silverman, Ben",513,TPC Southwind,sg_ott,0.22571096819380504,2018-06-10,0.0034108785865426187,752,Sedgefield CC
+17381,"Silverman, Ben",875,ACCORDIA GOLF Narashino Country Club,sg_ott,0.7239738543679153,2024-10-27,0.0030738314251588334,752,Sedgefield CC
+17381,"Silverman, Ben",503,TPC River Highlands,sg_ott,0.9723311335593352,2022-06-26,0.0029654299760433333,752,Sedgefield CC
+17381,"Silverman, Ben",500,The Riviera Country Club,sg_ott,0.21341855382695513,2018-02-18,0.0020253493579037397,752,Sedgefield CC
+17381,"Silverman, Ben",771,The Old White TPC,sg_ott,0.22889314501085278,2018-07-08,0.0018185456898088738,752,Sedgefield CC
+17381,"Silverman, Ben",660,Montreux Golf & Country Club,sg_ott,0.2774817815563575,2019-07-28,0.0011886639666474318,752,Sedgefield CC
+17381,"Silverman, Ben",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_ott,1.4237325489017725,2025-03-16,0.00033959953352657356,752,Sedgefield CC
+17381,"Silverman, Ben",823,Keene Trace Golf Club,sg_ott,0.23050101801597056,2018-07-22,-0.00013040184963709585,752,Sedgefield CC
+17381,"Silverman, Ben",947,Detroit Golf Club,sg_ott,0.999000499833375,2026-08-02,-0.0005995151764028223,752,Sedgefield CC
+17381,"Silverman, Ben",243,Trinity Forest Golf Club,sg_ott,0.49035516961207154,2019-05-12,-0.0007436302889507141,752,Sedgefield CC
+17381,"Silverman, Ben",12,Harbour Town Golf Links,sg_ott,0.2642129162330863,2019-04-21,-0.002518374175696526,752,Sedgefield CC
+17381,"Silverman, Ben",538,TPC Summerlin,sg_ott,0.9239474920407991,2024-10-20,-0.002870281200053877,752,Sedgefield CC
+17381,"Silverman, Ben",21,Colonial Country Club,sg_ott,1.9674593330655559,2025-05-25,-0.006981632689031742,752,Sedgefield CC
+17381,"Silverman, Ben",752,Sedgefield Country Club,sg_ott,2.041604148318627,2025-08-03,-0.007303074769593305,752,Sedgefield CC
+17381,"Silverman, Ben",233,Nicklaus Tournament Course,sg_ott,0.6293926325081629,2024-01-21,-0.008474692485609104,752,Sedgefield CC
+17381,"Silverman, Ben",770,TPC San Antonio - The Oaks Course,sg_ott,1.9213786244211568,2025-04-06,-0.009248136828044491,752,Sedgefield CC
+17381,"Silverman, Ben",874,Hamilton Golf & Country Club,sg_ott,0.9434363578608915,2024-06-02,-0.02455512458257621,752,Sedgefield CC
+17381,"Silverman, Ben",925,Dunes Golf and Beach Club,sg_putt,2.422071799127929,2026-05-10,0.039501238182890336,752,Sedgefield CC
+17381,"Silverman, Ben",752,Sedgefield Country Club,sg_putt,2.041604148318627,2025-08-03,0.02653242631625701,752,Sedgefield CC
+17381,"Silverman, Ben",935,TPC Toronto at Osprey Valley - North Course,sg_putt,1.7845964458470174,2026-06-14,0.020323346914987786,752,Sedgefield CC
+17381,"Silverman, Ben",654,The Country Club,sg_putt,0.47071615967905545,2022-06-19,0.016030041915605045,752,Sedgefield CC
+17381,"Silverman, Ben",930,Black Desert Resort,sg_putt,0.8684893116976679,2025-10-26,0.014692590623820079,752,Sedgefield CC
+17381,"Silverman, Ben",618,Shinnecock Hills Golf Club,sg_putt,0.97824023505121,2026-06-21,0.011356774215026087,752,Sedgefield CC
+17381,"Silverman, Ben",21,Colonial Country Club,sg_putt,1.9674593330655559,2025-05-25,0.004455386420238256,752,Sedgefield CC
+17381,"Silverman, Ben",6,Waialae Country Club,sg_putt,1.84087873640487,2025-01-12,0.003830863710943673,752,Sedgefield CC
+17381,"Silverman, Ben",642,Newport Beach Country Club,sg_putt,0.11130289614166065,2014-07-27,0.003595827822603974,752,Sedgefield CC
+17381,"Silverman, Ben",510,TPC Scottsdale (Stadium Course),sg_putt,1.4169036066125096,2025-02-09,0.002829462005587057,752,Sedgefield CC
+17381,"Silverman, Ben",926,Silverado Resort (North Course),sg_putt,1.5593701325897438,2025-09-14,0.0026982606134527145,752,Sedgefield CC
+17381,"Silverman, Ben",776,Sea Island Golf Club (Seaside Course),sg_putt,1.329291342663368,2025-11-23,0.00028621161095182274,752,Sedgefield CC
+17381,"Silverman, Ben",771,The Old White TPC,sg_putt,0.22889314501085278,2018-07-08,-0.0005369870138762273,752,Sedgefield CC
+17381,"Silverman, Ben",823,Keene Trace Golf Club,sg_putt,0.23050101801597056,2018-07-22,-0.0007456303790437138,752,Sedgefield CC
+17381,"Silverman, Ben",884,Keene Trace Golf Club (Champion Trace),sg_putt,0.9634580129641372,2024-07-14,-0.003797256595425463,752,Sedgefield CC
+17381,"Silverman, Ben",503,TPC River Highlands,sg_putt,0.9723311335593352,2022-06-26,-0.004186112712539311,752,Sedgefield CC
+17381,"Silverman, Ben",660,Montreux Golf & Country Club,sg_putt,0.2774817815563575,2019-07-28,-0.005220276168094703,752,Sedgefield CC
+17381,"Silverman, Ben",897,Memorial Park Golf Course,sg_putt,1.856050243637553,2025-03-30,-0.007198549920987276,752,Sedgefield CC
+17381,"Silverman, Ben",931,Tahoe Mountain Club (Old Greenwood),sg_putt,0.6893542425242224,2024-07-21,-0.009193697310522704,752,Sedgefield CC
+17381,"Silverman, Ben",908,Oakdale Golf & Country Club,sg_putt,0.5627048688069557,2023-06-11,-0.013329762142732854,752,Sedgefield CC
+17381,"Silverman, Ben",746,The Country Club of Jackson,sg_putt,1.799379303925637,2025-10-05,-0.016187779698527045,752,Sedgefield CC
+17381,"Silverman, Ben",928,PGA National  - Champion Course,sg_putt,2.338765647802637,2026-03-01,-0.04247629986264889,752,Sedgefield CC
 11049,"Simpson, Webb",776,Sea Island Golf Club (Seaside Course),sg_app,4.386315281901243,2025-11-23,0.07761941491542415,752,Sedgefield CC
 11049,"Simpson, Webb",752,Sedgefield Country Club,sg_app,4.784424966905928,2025-08-03,0.03222693904905104,752,Sedgefield CC
 11049,"Simpson, Webb",773,Aronimink Golf Club,sg_app,0.3527933220277093,2018-09-09,0.00545376355853902,752,Sedgefield CC
@@ -8729,6 +8906,75 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 14636,"Spieth, Jordan",618,Shinnecock Hills Golf Club,sg_putt,1.2047425757276788,2026-06-21,-0.010594413920688042,752,Sedgefield CC
 14636,"Spieth, Jordan",541,Royal Birkdale Golf Club,sg_putt,0.9920319148370607,2026-07-19,-0.026942984670197016,752,Sedgefield CC
 14636,"Spieth, Jordan",232,Albany GC,sg_putt,1.5010803129408954,2025-12-07,-0.034914091146274306,752,Sedgefield CC
+21995,"Springer, Hayden",978,Vidanta Vallarta,sg_app,1.4088615664232167,2025-02-23,0.026350475226816456,752,Sedgefield CC
+21995,"Springer, Hayden",752,Sedgefield Country Club,sg_app,0.6966305960754955,2024-08-11,0.025837632415860623,752,Sedgefield CC
+21995,"Springer, Hayden",4,Torrey Pines Golf Course (South Course),sg_app,0.7572968215143355,2025-01-25,0.014985886103085043,752,Sedgefield CC
+21995,"Springer, Hayden",776,Sea Island Golf Club (Seaside Course),sg_app,1.6149144426234203,2025-11-23,0.008458761417277218,752,Sedgefield CC
+21995,"Springer, Hayden",876,Detroit Golf Club,sg_app,1.5004753810021845,2025-06-29,0.002381130808031505,752,Sedgefield CC
+21995,"Springer, Hayden",926,Silverado Resort (North Course),sg_app,2.1503342372713066,2025-09-14,-0.004379951369451571,752,Sedgefield CC
+21995,"Springer, Hayden",513,TPC Southwind,sg_app,0.1568445643547723,2016-06-12,-0.005337113787513616,752,Sedgefield CC
+21995,"Springer, Hayden",244,Puntacana Resort & Club (Corales Golf Course),sg_app,0.9920319148370607,2026-07-19,-0.01951444177401118,752,Sedgefield CC
+21995,"Springer, Hayden",714,TPC Louisiana,sg_arg,1.7441755478073977,2026-04-26,0.01957375388365353,752,Sedgefield CC
+21995,"Springer, Hayden",930,Black Desert Resort,sg_arg,1.587413045129594,2025-10-26,0.01617551548512136,752,Sedgefield CC
+21995,"Springer, Hayden",752,Sedgefield Country Club,sg_arg,0.6966305960754955,2024-08-11,0.011422270985957496,752,Sedgefield CC
+21995,"Springer, Hayden",876,Detroit Golf Club,sg_arg,1.5004753810021845,2025-06-29,0.006754424660506367,752,Sedgefield CC
+21995,"Springer, Hayden",538,TPC Summerlin,sg_arg,0.7214443750486126,2024-10-20,0.0017389288992719217,752,Sedgefield CC
+21995,"Springer, Hayden",244,Puntacana Resort & Club (Corales Golf Course),sg_arg,0.9920319148370607,2026-07-19,-0.0023041119602591744,752,Sedgefield CC
+21995,"Springer, Hayden",897,Memorial Park Golf Course,sg_arg,1.4337336397242093,2025-03-30,-0.01184660628228686,752,Sedgefield CC
+21995,"Springer, Hayden",925,Dunes Golf and Beach Club,sg_arg,2.422071799127929,2026-05-10,-0.01541638481752068,752,Sedgefield CC
+21995,"Springer, Hayden",925,Dunes Golf and Beach Club,sg_ott,2.422071799127929,2026-05-10,0.03429691145381775,752,Sedgefield CC
+21995,"Springer, Hayden",752,Sedgefield Country Club,sg_ott,0.6966305960754955,2024-08-11,0.024489528168573513,752,Sedgefield CC
+21995,"Springer, Hayden",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_ott,0.7764678818237378,2025-03-16,0.022974219499151842,752,Sedgefield CC
+21995,"Springer, Hayden",874,Hamilton Golf & Country Club,sg_ott,0.6726702767012355,2024-06-02,0.016732247798418063,752,Sedgefield CC
+21995,"Springer, Hayden",926,Silverado Resort (North Course),sg_ott,2.1503342372713066,2025-09-14,0.01537450404937091,752,Sedgefield CC
+21995,"Springer, Hayden",771,The Old White TPC,sg_ott,0.28436404872399684,2019-09-15,0.005078171741615598,752,Sedgefield CC
+21995,"Springer, Hayden",21,Colonial Country Club,sg_ott,2.4424679375335048,2026-05-31,0.0007707931847499429,752,Sedgefield CC
+21995,"Springer, Hayden",513,TPC Southwind,sg_ott,0.1568445643547723,2016-06-12,0.0001609392759381872,752,Sedgefield CC
+21995,"Springer, Hayden",538,TPC Summerlin,sg_ott,0.7214443750486126,2024-10-20,-0.0054752862849304015,752,Sedgefield CC
+21995,"Springer, Hayden",770,TPC San Antonio - The Oaks Course,sg_ott,0.6540967517572572,2024-04-07,-0.007104767824876914,752,Sedgefield CC
+21995,"Springer, Hayden",884,Keene Trace Golf Club (Champion Trace),sg_ott,0.6869457200484198,2024-07-14,-0.007363455121209594,752,Sedgefield CC
+21995,"Springer, Hayden",947,Detroit Golf Club,sg_ott,0.999000499833375,2026-08-02,-0.008134129225323776,752,Sedgefield CC
+21995,"Springer, Hayden",510,TPC Scottsdale (Stadium Course),sg_ott,0.7629978999962198,2025-02-09,-0.01647721122225981,752,Sedgefield CC
+21995,"Springer, Hayden",930,Black Desert Resort,sg_ott,1.587413045129594,2025-10-26,-0.01813995635507147,752,Sedgefield CC
+21995,"Springer, Hayden",931,Tahoe Mountain Club (Old Greenwood),sg_ott,0.6893542425242224,2024-07-21,-0.03729287782095894,752,Sedgefield CC
+21995,"Springer, Hayden",934,Hurstbourne Country Club,sg_ott,1.812635708443024,2026-07-12,-0.04201413076549502,752,Sedgefield CC
+21995,"Springer, Hayden",746,The Country Club of Jackson,sg_putt,1.5758297809128916,2025-10-05,0.030221242337308697,752,Sedgefield CC
+21995,"Springer, Hayden",930,Black Desert Resort,sg_putt,1.587413045129594,2025-10-26,0.012328681450844462,752,Sedgefield CC
+21995,"Springer, Hayden",21,Colonial Country Club,sg_putt,2.4424679375335048,2026-05-31,0.0062314351672994725,752,Sedgefield CC
+21995,"Springer, Hayden",884,Keene Trace Golf Club (Champion Trace),sg_putt,0.6869457200484198,2024-07-14,0.005028418425208927,752,Sedgefield CC
+21995,"Springer, Hayden",931,Tahoe Mountain Club (Old Greenwood),sg_putt,0.6893542425242224,2024-07-21,-0.0021175641154091034,752,Sedgefield CC
+21995,"Springer, Hayden",897,Memorial Park Golf Course,sg_putt,1.4337336397242093,2025-03-30,-0.004384488054015253,752,Sedgefield CC
+21995,"Springer, Hayden",771,The Old White TPC,sg_putt,0.28436404872399684,2019-09-15,-0.005356078542487798,752,Sedgefield CC
+21995,"Springer, Hayden",776,Sea Island Golf Club (Seaside Course),sg_putt,1.6149144426234203,2025-11-23,-0.010430188700866538,752,Sedgefield CC
+21995,"Springer, Hayden",510,TPC Scottsdale (Stadium Course),sg_putt,0.7629978999962198,2025-02-09,-0.016223773686490507,752,Sedgefield CC
+21995,"Springer, Hayden",752,Sedgefield Country Club,sg_putt,0.6966305960754955,2024-08-11,-0.017761020883465928,752,Sedgefield CC
+21995,"Springer, Hayden",926,Silverado Resort (North Course),sg_putt,2.1503342372713066,2025-09-14,-0.03092434345828908,752,Sedgefield CC
+21995,"Springer, Hayden",935,TPC Toronto at Osprey Valley - North Course,sg_putt,1.7845964458470174,2026-06-14,-0.04386974914000224,752,Sedgefield CC
+21995,"Springer, Hayden",925,Dunes Golf and Beach Club,sg_putt,2.422071799127929,2026-05-10,-0.06554560463055152,752,Sedgefield CC
+23048,"Stanger, Jimmy",978,Vidanta Vallarta,sg_app,0.6405039439839882,2024-02-25,0.013934687312452072,752,Sedgefield CC
+23048,"Stanger, Jimmy",244,Puntacana Resort & Club (Corales Golf Course),sg_app,0.9920319148370607,2026-07-19,-0.009671974089359433,752,Sedgefield CC
+23048,"Stanger, Jimmy",897,Memorial Park Golf Course,sg_arg,0.9380049995307295,2026-03-29,0.006173765134866819,752,Sedgefield CC
+23048,"Stanger, Jimmy",538,TPC Summerlin,sg_arg,0.20250311699218648,2017-11-05,0.0010361470657747512,752,Sedgefield CC
+23048,"Stanger, Jimmy",714,TPC Louisiana,sg_arg,0.951229424500714,2026-04-26,-0.0018869553752058265,752,Sedgefield CC
+23048,"Stanger, Jimmy",925,Dunes Golf and Beach Club,sg_arg,1.623555580368552,2026-05-10,-0.007207993485088213,752,Sedgefield CC
+23048,"Stanger, Jimmy",244,Puntacana Resort & Club (Corales Golf Course),sg_arg,0.9920319148370607,2026-07-19,-0.02644207667577003,752,Sedgefield CC
+23048,"Stanger, Jimmy",934,Hurstbourne Country Club,sg_ott,0.988565872247913,2026-07-12,0.02553608436957168,752,Sedgefield CC
+23048,"Stanger, Jimmy",925,Dunes Golf and Beach Club,sg_ott,1.623555580368552,2026-05-10,0.023522044402018015,752,Sedgefield CC
+23048,"Stanger, Jimmy",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_ott,0.6472646670780347,2024-03-17,0.0017894739671002237,752,Sedgefield CC
+23048,"Stanger, Jimmy",538,TPC Summerlin,sg_ott,0.20250311699218648,2017-11-05,0.00028552227117346787,752,Sedgefield CC
+23048,"Stanger, Jimmy",233,Nicklaus Tournament Course,sg_ott,0.6293926325081629,2024-01-21,-0.0022338007333797013,752,Sedgefield CC
+23048,"Stanger, Jimmy",770,TPC San Antonio - The Oaks Course,sg_ott,1.595390520775663,2026-04-05,-0.006744793126842813,752,Sedgefield CC
+23048,"Stanger, Jimmy",928,PGA National  - Champion Course,sg_ott,1.5677140619990704,2026-03-01,-0.006894787263667676,752,Sedgefield CC
+23048,"Stanger, Jimmy",21,Colonial Country Club,sg_ott,1.6383424958669455,2026-05-31,-0.014906632091785735,752,Sedgefield CC
+23048,"Stanger, Jimmy",947,Detroit Golf Club,sg_ott,0.999000499833375,2026-08-02,-0.01667411101515038,752,Sedgefield CC
+23048,"Stanger, Jimmy",935,TPC Toronto at Osprey Valley - North Course,sg_putt,0.9748223789657411,2026-06-14,0.05975667296592981,752,Sedgefield CC
+23048,"Stanger, Jimmy",928,PGA National  - Champion Course,sg_putt,1.5677140619990704,2026-03-01,0.0283264733873669,752,Sedgefield CC
+23048,"Stanger, Jimmy",21,Colonial Country Club,sg_putt,1.6383424958669455,2026-05-31,0.01403526078948749,752,Sedgefield CC
+23048,"Stanger, Jimmy",6,Waialae Country Club,sg_putt,0.6271936088306561,2024-01-14,0.012813881608613817,752,Sedgefield CC
+23048,"Stanger, Jimmy",897,Memorial Park Golf Course,sg_putt,0.9380049995307295,2026-03-29,0.003311117282487183,752,Sedgefield CC
+23048,"Stanger, Jimmy",746,The Country Club of Jackson,sg_putt,0.20179559496851718,2017-10-29,0.0013752087865312888,752,Sedgefield CC
+23048,"Stanger, Jimmy",618,Shinnecock Hills Golf Club,sg_putt,0.97824023505121,2026-06-21,-0.0035048533283698296,752,Sedgefield CC
+23048,"Stanger, Jimmy",925,Dunes Golf and Beach Club,sg_putt,1.623555580368552,2026-05-10,-0.0462010506001007,752,Sedgefield CC
 25569,"Stevens, Sam",889,Sea Island Golf Club (Plantation Course),sg_app,1.2425740285175815,2024-11-24,0.020694041092171288,752,Sedgefield CC
 25569,"Stevens, Sam",875,ACCORDIA GOLF Narashino Country Club,sg_app,0.7239738543679153,2024-10-27,0.01610288714924036,752,Sedgefield CC
 25569,"Stevens, Sam",773,Aronimink Golf Club,sg_app,0.9612699539905982,2026-05-17,0.015567638924695076,752,Sedgefield CC
@@ -9869,6 +10115,113 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 24304,"Vilips, Karl",928,PGA National  - Champion Course,sg_putt,1.6960160123471055,2026-03-01,-0.022051930522062623,752,Sedgefield CC
 24304,"Vilips, Karl",241,Quail Hollow-PGA Championship,sg_putt,0.8013159221479349,2025-05-18,-0.029763387712008024,752,Sedgefield CC
 24304,"Vilips, Karl",4722,royal melbourne gc,sg_total,0.8869204367171575,2025-12-07,-0.0358347180265272,752,Sedgefield CC
+9171,"Villegas, Camilo",752,Sedgefield Country Club,sg_app,3.2575641076925717,2025-08-03,0.03444974551638203,752,Sedgefield CC
+9171,"Villegas, Camilo",244,Puntacana Resort & Club (Corales Golf Course),sg_app,0.9920319148370607,2026-07-19,0.020279700116077132,752,Sedgefield CC
+9171,"Villegas, Camilo",876,Detroit Golf Club,sg_app,2.3763270883606706,2025-06-29,0.009455522220019162,752,Sedgefield CC
+9171,"Villegas, Camilo",237,TPC Potomac at Avenel Farm,sg_app,0.6510731705885576,2022-05-08,0.007825198702559412,752,Sedgefield CC
+9171,"Villegas, Camilo",513,TPC Southwind,sg_app,0.976024989493834,2017-06-11,0.00627926498091629,752,Sedgefield CC
+9171,"Villegas, Camilo",781,Plainfield CC,sg_app,0.20126025036937228,2015-08-30,0.0043535347297817,752,Sedgefield CC
+9171,"Villegas, Camilo",8,Trump National Doral - Blue Monster Course,sg_app,0.18694400018881174,2011-03-13,0.003949711104789905,752,Sedgefield CC
+9171,"Villegas, Camilo",642,Newport Beach Country Club,sg_app,0.11130289614166065,2014-07-27,0.0021682307332665162,752,Sedgefield CC
+9171,"Villegas, Camilo",231,Sea Island GC (Plantation),sg_app,0.20392561173421342,2017-11-19,0.0016486583656260235,752,Sedgefield CC
+9171,"Villegas, Camilo",716,Shaughnessy G&CC,sg_app,0.06424830094450308,2011-07-24,0.0014303216052613834,752,Sedgefield CC
+9171,"Villegas, Camilo",776,Sea Island Golf Club (Seaside Course),sg_app,3.6930888533666244,2025-11-23,0.0012260115504143141,752,Sedgefield CC
+9171,"Villegas, Camilo",609,Annandale GC,sg_app,0.018546021264931878,2004-10-03,0.0005772715766611875,752,Sedgefield CC
+9171,"Villegas, Camilo",505,Cherry Hills CC,sg_app,0.11366497195098546,2014-09-07,0.00031484614308038264,752,Sedgefield CC
+9171,"Villegas, Camilo",4,Torrey Pines Golf Course (South Course),sg_app,2.3325012758407553,2025-01-25,6.528739123790164e-05,752,Sedgefield CC
+9171,"Villegas, Camilo",12,Harbour Town Golf Links,sg_app,1.6592985651129117,2022-04-17,-0.0004102085901275799,752,Sedgefield CC
+9171,"Villegas, Camilo",902,Congaree Golf Club,sg_app,0.3910186585729182,2021-06-13,-0.0007750316054041689,752,Sedgefield CC
+9171,"Villegas, Camilo",773,Aronimink Golf Club,sg_app,0.06357722310873985,2011-07-03,-0.003345210638791983,752,Sedgefield CC
+9171,"Villegas, Camilo",978,Vidanta Vallarta,sg_app,1.010335019742711,2023-04-30,-0.006482129724638776,752,Sedgefield CC
+9171,"Villegas, Camilo",889,Sea Island Golf Club (Plantation Course),sg_app,0.423797301736686,2021-11-21,-0.010473793159757992,752,Sedgefield CC
+9171,"Villegas, Camilo",926,Silverado Resort (North Course),sg_app,1.5593701325897438,2025-09-14,-0.016725497224185426,752,Sedgefield CC
+9171,"Villegas, Camilo",908,Oakdale Golf & Country Club,sg_app,0.5627048688069557,2023-06-11,-0.04635199436990879,752,Sedgefield CC
+9171,"Villegas, Camilo",538,TPC Summerlin,sg_arg,2.1175480294361666,2024-10-20,0.0055535018396744625,752,Sedgefield CC
+9171,"Villegas, Camilo",238,Glen Oaks Club,sg_arg,0.1955381065766949,2017-08-27,0.005156534904567494,752,Sedgefield CC
+9171,"Villegas, Camilo",231,Sea Island GC (Plantation),sg_arg,0.20392561173421342,2017-11-19,0.0018563021552881129,752,Sedgefield CC
+9171,"Villegas, Camilo",12,Harbour Town Golf Links,sg_arg,1.6592985651129117,2022-04-17,0.0017638786572806689,752,Sedgefield CC
+9171,"Villegas, Camilo",876,Detroit Golf Club,sg_arg,2.3763270883606706,2025-06-29,0.001706447570698321,752,Sedgefield CC
+9171,"Villegas, Camilo",772,St. George's G&CC,sg_arg,0.5226290026827101,2022-06-12,0.0011669990548034907,752,Sedgefield CC
+9171,"Villegas, Camilo",688,East Lake Golf Club,sg_arg,0.12547227007362027,2010-09-26,0.0007963056899383338,752,Sedgefield CC
+9171,"Villegas, Camilo",773,Aronimink Golf Club,sg_arg,0.06357722310873985,2011-07-03,0.00046382460831670907,752,Sedgefield CC
+9171,"Villegas, Camilo",889,Sea Island Golf Club (Plantation Course),sg_arg,0.423797301736686,2021-11-21,0.0002542357511037194,752,Sedgefield CC
+9171,"Villegas, Camilo",5,Pebble Beach Golf Links,sg_arg,0.028524269291109027,2007-02-11,0.0001292400768982778,752,Sedgefield CC
+9171,"Villegas, Camilo",736,Angus Glen GC (North),sg_arg,0.031023819455793984,2007-07-29,8.671358188103318e-05,752,Sedgefield CC
+9171,"Villegas, Camilo",729,Golf Club of Houston,sg_arg,0.589728782406026,2018-04-01,-0.00016392765293386555,752,Sedgefield CC
+9171,"Villegas, Camilo",819,Harbor Shores Resort,sg_arg,0.15961350176811803,2016-07-17,-0.00020334893813289543,752,Sedgefield CC
+9171,"Villegas, Camilo",609,Annandale GC,sg_arg,0.018546021264931878,2004-10-03,-0.0002568399493211156,752,Sedgefield CC
+9171,"Villegas, Camilo",925,Dunes Golf and Beach Club,sg_arg,1.7564276088264077,2026-05-10,-0.00033102177171683434,752,Sedgefield CC
+9171,"Villegas, Camilo",694,Hamilton G&CC,sg_arg,0.07734340247822467,2012-07-29,-0.00036980331286530705,752,Sedgefield CC
+9171,"Villegas, Camilo",775,CordeValle GC,sg_arg,0.17680320140778094,2013-10-13,-0.0007926073030428167,752,Sedgefield CC
+9171,"Villegas, Camilo",36,Le Triomphe G&CC,sg_arg,0.23335133799657315,2015-08-09,-0.0008346573138252252,752,Sedgefield CC
+9171,"Villegas, Camilo",235,Eagle Point Golf Club,sg_arg,0.18488893232617232,2017-05-07,-0.0011600475172583937,752,Sedgefield CC
+9171,"Villegas, Camilo",642,Newport Beach Country Club,sg_arg,0.11130289614166065,2014-07-27,-0.001723369365796404,752,Sedgefield CC
+9171,"Villegas, Camilo",706,Whistling Straits,sg_arg,0.13492988578712511,2015-08-16,-0.004019070791057171,752,Sedgefield CC
+9171,"Villegas, Camilo",244,Puntacana Resort & Club (Corales Golf Course),sg_arg,0.9920319148370607,2026-07-19,-0.005141143759588588,752,Sedgefield CC
+9171,"Villegas, Camilo",930,Black Desert Resort,sg_arg,1.587413045129594,2025-10-26,-0.011848680090583697,752,Sedgefield CC
+9171,"Villegas, Camilo",897,Memorial Park Golf Course,sg_arg,1.1327359128767425,2025-03-30,-0.015552553510944056,752,Sedgefield CC
+9171,"Villegas, Camilo",714,TPC Louisiana,sg_arg,1.7441755478073977,2026-04-26,-0.02062791647133703,752,Sedgefield CC
+9171,"Villegas, Camilo",752,Sedgefield Country Club,sg_arg,3.2575641076925717,2025-08-03,-0.02928912168622511,752,Sedgefield CC
+9171,"Villegas, Camilo",752,Sedgefield Country Club,sg_ott,3.2575641076925717,2025-08-03,0.029231271534631332,752,Sedgefield CC
+9171,"Villegas, Camilo",202,La Quinta Country Club,sg_ott,0.9596103258668337,2024-01-21,0.01834451816447236,752,Sedgefield CC
+9171,"Villegas, Camilo",874,Hamilton Golf & Country Club,sg_ott,0.6726702767012355,2024-06-02,0.017082735110538386,752,Sedgefield CC
+9171,"Villegas, Camilo",926,Silverado Resort (North Course),sg_ott,1.5593701325897438,2025-09-14,0.014317417799752203,752,Sedgefield CC
+9171,"Villegas, Camilo",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_ott,2.1105914320539005,2025-03-16,0.014067491399931568,752,Sedgefield CC
+9171,"Villegas, Camilo",21,Colonial Country Club,sg_ott,3.836906155396365,2026-05-31,0.013867892364990045,752,Sedgefield CC
+9171,"Villegas, Camilo",930,Black Desert Resort,sg_ott,1.587413045129594,2025-10-26,0.011430737660296137,752,Sedgefield CC
+9171,"Villegas, Camilo",538,TPC Summerlin,sg_ott,2.1175480294361666,2024-10-20,0.008078233579865252,752,Sedgefield CC
+9171,"Villegas, Camilo",770,TPC San Antonio - The Oaks Course,sg_ott,3.777891143516058,2026-04-05,0.006642795283090536,752,Sedgefield CC
+9171,"Villegas, Camilo",233,Nicklaus Tournament Course,sg_ott,1.1117207497993302,2025-01-19,0.00536515741748103,752,Sedgefield CC
+9171,"Villegas, Camilo",928,PGA National  - Champion Course,sg_ott,2.338765647802637,2026-03-01,0.004419967602293986,752,Sedgefield CC
+9171,"Villegas, Camilo",908,Oakdale Golf & Country Club,sg_ott,0.5627048688069557,2023-06-11,0.00304066790026594,752,Sedgefield CC
+9171,"Villegas, Camilo",513,TPC Southwind,sg_ott,0.976024989493834,2017-06-11,0.002058076748879193,752,Sedgefield CC
+9171,"Villegas, Camilo",609,Annandale GC,sg_ott,0.018546021264931878,2004-10-03,0.0004938757343467119,752,Sedgefield CC
+9171,"Villegas, Camilo",762,Liberty National GC,sg_ott,0.1395240827019892,2013-08-25,0.00041458991912255127,752,Sedgefield CC
+9171,"Villegas, Camilo",510,TPC Scottsdale (Stadium Course),sg_ott,2.8094791132098282,2025-02-09,0.00014649630159926783,752,Sedgefield CC
+9171,"Villegas, Camilo",5,Pebble Beach Golf Links,sg_ott,0.028524269291109027,2007-02-11,3.788989967181302e-05,752,Sedgefield CC
+9171,"Villegas, Camilo",534,Bellerive CC,sg_ott,0.038006427075174314,2008-09-07,1.170213036593973e-05,752,Sedgefield CC
+9171,"Villegas, Camilo",773,Aronimink Golf Club,sg_ott,0.06357722310873985,2011-07-03,-0.00014456927600874214,752,Sedgefield CC
+9171,"Villegas, Camilo",12,Harbour Town Golf Links,sg_ott,1.6592985651129117,2022-04-17,-0.00022163300897731954,752,Sedgefield CC
+9171,"Villegas, Camilo",237,TPC Potomac at Avenel Farm,sg_ott,0.6510731705885576,2022-05-08,-0.00043094727762918954,752,Sedgefield CC
+9171,"Villegas, Camilo",716,Shaughnessy G&CC,sg_ott,0.06424830094450308,2011-07-24,-0.0009361279571169175,752,Sedgefield CC
+9171,"Villegas, Camilo",500,The Riviera Country Club,sg_ott,1.1672996127293644,2021-02-21,-0.0020266560735959544,752,Sedgefield CC
+9171,"Villegas, Camilo",925,Dunes Golf and Beach Club,sg_ott,1.7564276088264077,2026-05-10,-0.0034720623943855847,752,Sedgefield CC
+9171,"Villegas, Camilo",771,The Old White TPC,sg_ott,0.44195507178116633,2017-07-09,-0.004347708642593365,752,Sedgefield CC
+9171,"Villegas, Camilo",503,TPC River Highlands,sg_ott,0.43784465911877546,2016-08-07,-0.010051672741033833,752,Sedgefield CC
+9171,"Villegas, Camilo",884,Keene Trace Golf Club (Champion Trace),sg_ott,1.5605521493228331,2024-07-14,-0.013204549530495154,752,Sedgefield CC
+9171,"Villegas, Camilo",931,Tahoe Mountain Club (Old Greenwood),sg_ott,0.6893542425242224,2024-07-21,-0.015967485370093945,752,Sedgefield CC
+9171,"Villegas, Camilo",934,Hurstbourne Country Club,sg_ott,0.988565872247913,2026-07-12,-0.02230438516327642,752,Sedgefield CC
+9171,"Villegas, Camilo",21,Colonial Country Club,sg_putt,3.836906155396365,2026-05-31,0.02299008252441803,752,Sedgefield CC
+9171,"Villegas, Camilo",908,Oakdale Golf & Country Club,sg_putt,0.5627048688069557,2023-06-11,0.02284531222881754,752,Sedgefield CC
+9171,"Villegas, Camilo",926,Silverado Resort (North Course),sg_putt,1.5593701325897438,2025-09-14,0.01943807348404521,752,Sedgefield CC
+9171,"Villegas, Camilo",925,Dunes Golf and Beach Club,sg_putt,1.7564276088264077,2026-05-10,0.018155093411792476,752,Sedgefield CC
+9171,"Villegas, Camilo",776,Sea Island Golf Club (Seaside Course),sg_putt,3.6930888533666244,2025-11-23,0.014569818320754614,752,Sedgefield CC
+9171,"Villegas, Camilo",931,Tahoe Mountain Club (Old Greenwood),sg_putt,0.6893542425242224,2024-07-21,0.008453991810022921,752,Sedgefield CC
+9171,"Villegas, Camilo",503,TPC River Highlands,sg_putt,0.43784465911877546,2016-08-07,0.003941994222928568,752,Sedgefield CC
+9171,"Villegas, Camilo",698,Quail Hollow Club,sg_putt,0.7743245142267517,2016-05-08,0.003838128439950946,752,Sedgefield CC
+9171,"Villegas, Camilo",752,Sedgefield Country Club,sg_putt,3.2575641076925717,2025-08-03,0.003440256224022625,752,Sedgefield CC
+9171,"Villegas, Camilo",706,Whistling Straits,sg_putt,0.13492988578712511,2015-08-16,0.0033906697080800805,752,Sedgefield CC
+9171,"Villegas, Camilo",928,PGA National  - Champion Course,sg_putt,2.338765647802637,2026-03-01,0.001964887779561663,752,Sedgefield CC
+9171,"Villegas, Camilo",36,Le Triomphe G&CC,sg_putt,0.23335133799657315,2015-08-09,0.0008399744716361504,752,Sedgefield CC
+9171,"Villegas, Camilo",505,Cherry Hills CC,sg_putt,0.11366497195098546,2014-09-07,0.0007759272717924453,752,Sedgefield CC
+9171,"Villegas, Camilo",534,Bellerive CC,sg_putt,0.038006427075174314,2008-09-07,0.0007645056746626187,752,Sedgefield CC
+9171,"Villegas, Camilo",700,TPC Boston,sg_putt,0.7942951521903827,2017-09-04,0.000627351447922159,752,Sedgefield CC
+9171,"Villegas, Camilo",27,Hillcrest Country Club,sg_putt,0.03146120750050669,2007-08-26,0.0006094969710480116,752,Sedgefield CC
+9171,"Villegas, Camilo",510,TPC Scottsdale (Stadium Course),sg_putt,2.8094791132098282,2025-02-09,0.00040380375494349937,752,Sedgefield CC
+9171,"Villegas, Camilo",238,Glen Oaks Club,sg_putt,0.1955381065766949,2017-08-27,0.00016044517058532362,752,Sedgefield CC
+9171,"Villegas, Camilo",771,The Old White TPC,sg_putt,0.44195507178116633,2017-07-09,-0.00021570747210040753,752,Sedgefield CC
+9171,"Villegas, Camilo",609,Annandale GC,sg_putt,0.018546021264931878,2004-10-03,-0.00022615874885578133,752,Sedgefield CC
+9171,"Villegas, Camilo",694,Hamilton G&CC,sg_putt,0.07734340247822467,2012-07-29,-0.0004500130343335926,752,Sedgefield CC
+9171,"Villegas, Camilo",762,Liberty National GC,sg_putt,0.1395240827019892,2013-08-25,-0.0006527133286783749,752,Sedgefield CC
+9171,"Villegas, Camilo",24,Congressional CC (Blue),sg_putt,0.5029899798585236,2016-06-26,-0.000990544221201638,752,Sedgefield CC
+9171,"Villegas, Camilo",9,Arnold Palmer's Bay Hill Club & Lodge,sg_putt,1.484020273710318,2021-03-07,-0.0011079135624111136,752,Sedgefield CC
+9171,"Villegas, Camilo",897,Memorial Park Golf Course,sg_putt,1.1327359128767425,2025-03-30,-0.0013970481738533557,752,Sedgefield CC
+9171,"Villegas, Camilo",884,Keene Trace Golf Club (Champion Trace),sg_putt,1.5605521493228331,2024-07-14,-0.0020148609795022183,752,Sedgefield CC
+9171,"Villegas, Camilo",642,Newport Beach Country Club,sg_putt,0.11130289614166065,2014-07-27,-0.004496833335847756,752,Sedgefield CC
+9171,"Villegas, Camilo",930,Black Desert Resort,sg_putt,1.587413045129594,2025-10-26,-0.01583337067760844,752,Sedgefield CC
+9171,"Villegas, Camilo",6,Waialae Country Club,sg_putt,2.315900526896253,2025-01-12,-0.02172313733156249,752,Sedgefield CC
+9171,"Villegas, Camilo",935,TPC Toronto at Osprey Valley - North Course,sg_putt,1.7845964458470174,2026-06-14,-0.037398052056361195,752,Sedgefield CC
+9171,"Villegas, Camilo",746,The Country Club of Jackson,sg_putt,3.0995170607364297,2025-10-05,-0.049117068863446835,752,Sedgefield CC
 25003,"Walker, Danny",978,Vidanta Vallarta,sg_app,0.7683576224392284,2025-02-23,0.013661085300949677,752,Sedgefield CC
 25003,"Walker, Danny",752,Sedgefield Country Club,sg_app,0.832768155737091,2025-08-03,0.0034439940608242607,752,Sedgefield CC
 25003,"Walker, Danny",4,Torrey Pines Golf Course (South Course),sg_app,0.7572968215143355,2025-01-25,0.0016193670116682974,752,Sedgefield CC

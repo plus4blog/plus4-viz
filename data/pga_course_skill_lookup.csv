@@ -6355,83 +6355,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 17365,"Mitchell, Keith",541,Royal Birkdale Golf Club,sg_putt,0.9915360228629667,2026-07-19,-0.009223174066885092,752,Sedgefield CC
 17365,"Mitchell, Keith",901,Wilmington Country Club,sg_putt,0.48553689515407944,2022-08-21,-0.009233835361042886,752,Sedgefield CC
 17365,"Mitchell, Keith",752,Sedgefield Country Club,sg_putt,2.9839647011915744,2025-08-03,-0.04616720602649109,752,Sedgefield CC
-21944,"Moore, Taylor",513,TPC Southwind,sg_app,1.7629860274473281,2024-08-18,0.027328386716846637,752,Sedgefield CC
-21944,"Moore, Taylor",43,The Los Angeles Country Club (North Course),sg_app,0.5643955181193583,2023-06-18,0.01900447598609787,752,Sedgefield CC
-21944,"Moore, Taylor",876,Detroit Golf Club,sg_app,2.548550907140813,2025-06-29,0.014836994291480273,752,Sedgefield CC
-21944,"Moore, Taylor",894,TPC Craig Ranch,sg_app,0.4623190693381159,2022-05-15,0.012610923490380106,752,Sedgefield CC
-21944,"Moore, Taylor",241,Quail Hollow-PGA Championship,sg_app,0.8009153643346592,2025-05-18,0.010992849861646236,752,Sedgefield CC
-21944,"Moore, Taylor",902,Congaree Golf Club,sg_app,0.5010747437014489,2022-10-23,0.00655652711530475,752,Sedgefield CC
-21944,"Moore, Taylor",776,Sea Island Golf Club (Seaside Course),sg_app,1.6655383528508447,2024-11-24,0.005835162643155034,752,Sedgefield CC
-21944,"Moore, Taylor",875,ACCORDIA GOLF Narashino Country Club,sg_app,0.7236119579223822,2024-10-27,0.005520025535016056,752,Sedgefield CC
-21944,"Moore, Taylor",709,Royal Troon,sg_app,0.6890096515578809,2024-07-21,0.0030133615437433962,752,Sedgefield CC
-21944,"Moore, Taylor",237,TPC Potomac at Avenel Farm,sg_app,0.4607037809989658,2022-05-08,0.0007924121657379303,752,Sedgefield CC
-21944,"Moore, Taylor",4,Torrey Pines Golf Course (South Course),sg_app,2.825511400695312,2026-02-01,-0.006296093781148157,752,Sedgefield CC
-21944,"Moore, Taylor",752,Sedgefield Country Club,sg_app,2.5891782377915864,2025-08-03,-0.0077480577315718994,752,Sedgefield CC
-21944,"Moore, Taylor",926,Silverado Resort (North Course),sg_app,0.8500160902253981,2025-09-14,-0.0083040617249959,752,Sedgefield CC
-21944,"Moore, Taylor",889,Sea Island Golf Club (Plantation Course),sg_app,0.880293415834221,2025-11-23,-0.010545761310595392,752,Sedgefield CC
-21944,"Moore, Taylor",12,Harbour Town Golf Links,sg_app,1.2052563813455082,2024-04-21,-0.01662465082070698,752,Sedgefield CC
-21944,"Moore, Taylor",978,Vidanta Vallarta,sg_app,1.2270676759436006,2025-02-23,-0.026923789677025887,752,Sedgefield CC
-21944,"Moore, Taylor",752,Sedgefield Country Club,sg_arg,2.5891782377915864,2025-08-03,0.014606251780482245,752,Sedgefield CC
-21944,"Moore, Taylor",876,Detroit Golf Club,sg_arg,2.548550907140813,2025-06-29,0.010892624414727716,752,Sedgefield CC
-21944,"Moore, Taylor",714,TPC Louisiana,sg_arg,2.2921153141131314,2026-04-26,0.01006315669158123,752,Sedgefield CC
-21944,"Moore, Taylor",241,Quail Hollow-PGA Championship,sg_arg,0.8009153643346592,2025-05-18,0.008520269156031511,752,Sedgefield CC
-21944,"Moore, Taylor",897,Memorial Park Golf Course,sg_arg,2.5174909503943748,2026-03-29,0.007770529610388621,752,Sedgefield CC
-21944,"Moore, Taylor",514,Oak Hill Country Club,sg_arg,0.5565490344104649,2023-05-21,0.0026237260949743143,752,Sedgefield CC
-21944,"Moore, Taylor",12,Harbour Town Golf Links,sg_arg,1.2052563813455082,2024-04-21,0.0023185705923074824,752,Sedgefield CC
-21944,"Moore, Taylor",688,East Lake Golf Club,sg_arg,0.5844991221225824,2023-08-27,0.0018964699813082647,752,Sedgefield CC
-21944,"Moore, Taylor",977,The Renaissance Club,sg_arg,1.5102602373108778,2025-07-13,-0.0011852772762355275,752,Sedgefield CC
-21944,"Moore, Taylor",709,Royal Troon,sg_arg,0.6890096515578809,2024-07-21,-0.0027271197261466806,752,Sedgefield CC
-21944,"Moore, Taylor",889,Sea Island Golf Club (Plantation Course),sg_arg,0.880293415834221,2025-11-23,-0.005393480327544337,752,Sedgefield CC
-21944,"Moore, Taylor",872,Quail Hollow Club,sg_arg,1.21797824625851,2024-05-12,-0.00663119392341787,752,Sedgefield CC
-21944,"Moore, Taylor",538,TPC Summerlin,sg_arg,1.835848013682595,2024-10-20,-0.006719916495997491,752,Sedgefield CC
-21944,"Moore, Taylor",5,Pebble Beach Golf Links,sg_arg,0.6334970093935266,2024-02-04,-0.007532831131723853,752,Sedgefield CC
-21944,"Moore, Taylor",930,Black Desert Resort,sg_arg,0.8680551755848918,2025-10-26,-0.010243504995227927,752,Sedgefield CC
-21944,"Moore, Taylor",925,Dunes Golf and Beach Club,sg_arg,1.7555496145388578,2026-05-10,-0.010268793635007475,752,Sedgefield CC
-21944,"Moore, Taylor",945,The Renaissance Club,sg_arg,0.9880717128619305,2026-07-12,-0.017572686045576245,752,Sedgefield CC
-21944,"Moore, Taylor",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_ott,3.339406897383502,2026-03-15,0.03374461238989927,752,Sedgefield CC
-21944,"Moore, Taylor",510,TPC Scottsdale (Stadium Course),sg_ott,1.9282701183490483,2025-02-09,0.031165382744795415,752,Sedgefield CC
-21944,"Moore, Taylor",752,Sedgefield Country Club,sg_ott,2.5891782377915864,2025-08-03,0.023820466333520633,752,Sedgefield CC
-21944,"Moore, Taylor",12,Harbour Town Golf Links,sg_ott,1.2052563813455082,2024-04-21,0.015029884217248811,752,Sedgefield CC
-21944,"Moore, Taylor",503,TPC River Highlands,sg_ott,1.7179355172671924,2024-06-23,0.014470581478816143,752,Sedgefield CC
-21944,"Moore, Taylor",875,ACCORDIA GOLF Narashino Country Club,sg_ott,0.7236119579223822,2024-10-27,0.01439813996433725,752,Sedgefield CC
-21944,"Moore, Taylor",528,Pinehurst Resort & Country Club (Course No. 2),sg_ott,0.6770568744981647,2024-06-16,0.010494638349460423,752,Sedgefield CC
-21944,"Moore, Taylor",928,PGA National  - Champion Course,sg_ott,1.6951682163076043,2026-03-01,0.008960186960882318,752,Sedgefield CC
-21944,"Moore, Taylor",925,Dunes Golf and Beach Club,sg_ott,1.7555496145388578,2026-05-10,0.008463634430780636,752,Sedgefield CC
-21944,"Moore, Taylor",233,Nicklaus Tournament Course,sg_ott,0.5244002764074283,2023-01-22,0.005605290530850789,752,Sedgefield CC
-21944,"Moore, Taylor",769,Monterey Peninsula CC,sg_ott,0.5280839561798034,2023-02-05,0.002285908896166422,752,Sedgefield CC
-21944,"Moore, Taylor",237,TPC Potomac at Avenel Farm,sg_ott,0.4607037809989658,2022-05-08,0.001485945659872102,752,Sedgefield CC
-21944,"Moore, Taylor",884,Keene Trace Golf Club (Champion Trace),sg_ott,0.4754469357330479,2022-07-10,0.0010486831737146578,752,Sedgefield CC
-21944,"Moore, Taylor",43,The Los Angeles Country Club (North Course),sg_ott,0.5643955181193583,2023-06-18,-0.0006376068310722179,752,Sedgefield CC
-21944,"Moore, Taylor",538,TPC Summerlin,sg_ott,1.835848013682595,2024-10-20,-0.0025352405592910005,752,Sedgefield CC
-21944,"Moore, Taylor",513,TPC Southwind,sg_ott,1.7629860274473281,2024-08-18,-0.0037655395064467266,752,Sedgefield CC
-21944,"Moore, Taylor",770,TPC San Antonio - The Oaks Course,sg_ott,1.3935348401539958,2026-04-05,-0.005877010359178446,752,Sedgefield CC
-21944,"Moore, Taylor",500,The Riviera Country Club,sg_ott,1.6130443421567955,2024-02-18,-0.0064092965587910855,752,Sedgefield CC
-21944,"Moore, Taylor",21,Colonial Country Club,sg_ott,3.465314033812816,2026-05-31,-0.009173833456145447,752,Sedgefield CC
-21944,"Moore, Taylor",5,Pebble Beach Golf Links,sg_ott,0.6334970093935266,2024-02-04,-0.010377287213954723,752,Sedgefield CC
-21944,"Moore, Taylor",514,Oak Hill Country Club,sg_ott,0.5565490344104649,2023-05-21,-0.012167935176700043,752,Sedgefield CC
-21944,"Moore, Taylor",926,Silverado Resort (North Course),sg_ott,0.8500160902253981,2025-09-14,-0.020287575083079382,752,Sedgefield CC
-21944,"Moore, Taylor",930,Black Desert Resort,sg_ott,0.8680551755848918,2025-10-26,-0.028119243540368176,752,Sedgefield CC
-21944,"Moore, Taylor",709,Royal Troon,sg_ott,0.6890096515578809,2024-07-21,-0.05320032782078493,752,Sedgefield CC
-21944,"Moore, Taylor",746,The Country Club of Jackson,sg_putt,2.6859114786492273,2025-10-05,0.03090619208267335,752,Sedgefield CC
-21944,"Moore, Taylor",928,PGA National  - Champion Course,sg_putt,1.6951682163076043,2026-03-01,0.020864496527260724,752,Sedgefield CC
-21944,"Moore, Taylor",752,Sedgefield Country Club,sg_putt,2.5891782377915864,2025-08-03,0.02069890146083311,752,Sedgefield CC
-21944,"Moore, Taylor",776,Sea Island Golf Club (Seaside Course),sg_putt,1.6655383528508447,2024-11-24,0.017863847272692027,752,Sedgefield CC
-21944,"Moore, Taylor",9,Arnold Palmer's Bay Hill Club & Lodge,sg_putt,2.5543711895024774,2026-03-08,0.015253450587035016,752,Sedgefield CC
-21944,"Moore, Taylor",901,Wilmington Country Club,sg_putt,0.48553689515407944,2022-08-21,0.01428977027133076,752,Sedgefield CC
-21944,"Moore, Taylor",709,Royal Troon,sg_putt,0.6890096515578809,2024-07-21,0.00995112035097121,752,Sedgefield CC
-21944,"Moore, Taylor",897,Memorial Park Golf Course,sg_putt,2.5174909503943748,2026-03-29,0.008991249492999327,752,Sedgefield CC
-21944,"Moore, Taylor",884,Keene Trace Golf Club (Champion Trace),sg_putt,0.4754469357330479,2022-07-10,0.005365161782858715,752,Sedgefield CC
-21944,"Moore, Taylor",930,Black Desert Resort,sg_putt,0.8680551755848918,2025-10-26,0.0032731250132586897,752,Sedgefield CC
-21944,"Moore, Taylor",510,TPC Scottsdale (Stadium Course),sg_putt,1.9282701183490483,2025-02-09,0.002295795406079619,752,Sedgefield CC
-21944,"Moore, Taylor",241,Quail Hollow-PGA Championship,sg_putt,0.8009153643346592,2025-05-18,-0.001321361175776376,752,Sedgefield CC
-21944,"Moore, Taylor",945,The Renaissance Club,sg_putt,0.9880717128619305,2026-07-12,-0.0020419969083465615,752,Sedgefield CC
-21944,"Moore, Taylor",925,Dunes Golf and Beach Club,sg_putt,1.7555496145388578,2026-05-10,-0.003908881601117572,752,Sedgefield CC
-21944,"Moore, Taylor",503,TPC River Highlands,sg_putt,1.7179355172671924,2024-06-23,-0.005524598287193563,752,Sedgefield CC
-21944,"Moore, Taylor",6,Waialae Country Club,sg_putt,0.7520142543193826,2025-01-12,-0.013961062884243309,752,Sedgefield CC
-21944,"Moore, Taylor",926,Silverado Resort (North Course),sg_putt,0.8500160902253981,2025-09-14,-0.015738920192275758,752,Sedgefield CC
-21944,"Moore, Taylor",896,Olympia Fields Country Club (North Course),sg_putt,0.5824569510791952,2023-08-20,-0.020757787227827697,752,Sedgefield CC
-21944,"Moore, Taylor",21,Colonial Country Club,sg_putt,3.465314033812816,2026-05-31,-0.02372597898458137,752,Sedgefield CC
-21944,"Moore, Taylor",935,TPC Toronto at Osprey Valley - North Course,sg_putt,1.783704370661475,2026-06-14,-0.030222761662471172,752,Sedgefield CC
 29770,"Mouw, William",12,Harbour Town Golf Links,sg_app,0.9474321065017983,2026-04-19,0.031877734190340026,752,Sedgefield CC
 29770,"Mouw, William",776,Sea Island Golf Club (Seaside Course),sg_app,0.880293415834221,2025-11-23,0.021553799032295422,752,Sedgefield CC
 29770,"Mouw, William",876,Detroit Golf Club,sg_app,0.8179124315538594,2025-06-29,0.011368884572937494,752,Sedgefield CC
@@ -8451,6 +8374,59 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 11049,"Simpson, Webb",926,Silverado Resort (North Course),sg_putt,2.1492593388996575,2025-09-14,-0.015355867603357443,752,Sedgefield CC
 11049,"Simpson, Webb",510,TPC Scottsdale (Stadium Course),sg_putt,3.9913101274130827,2026-02-08,-0.015588741343646056,752,Sedgefield CC
 11049,"Simpson, Webb",21,Colonial Country Club,sg_putt,3.894492370342479,2026-05-31,-0.01888706797541635,752,Sedgefield CC
+10873,"Skinns, David",978,Vidanta Vallarta,sg_app,1.8672514480052476,2025-02-23,0.021041454226384076,752,Sedgefield CC
+10873,"Skinns, David",752,Sedgefield Country Club,sg_app,2.010784248413578,2025-08-03,0.009348680599593052,752,Sedgefield CC
+10873,"Skinns, David",926,Silverado Resort (North Course),sg_app,1.5585906424122327,2025-09-14,0.008795987220654144,752,Sedgefield CC
+10873,"Skinns, David",889,Sea Island Golf Club (Plantation Course),sg_app,1.3038788718858734,2025-11-23,0.0068047814548816395,752,Sedgefield CC
+10873,"Skinns, David",231,Sea Island GC (Plantation),sg_app,0.20382367441479987,2017-11-19,0.001944005066553134,752,Sedgefield CC
+10873,"Skinns, David",894,TPC Craig Ranch,sg_app,0.4623190693381159,2022-05-15,-0.002255045068335069,752,Sedgefield CC
+10873,"Skinns, David",876,Detroit Golf Club,sg_app,1.9801907603832722,2025-06-29,-0.0028054155374072037,752,Sedgefield CC
+10873,"Skinns, David",237,TPC Potomac at Avenel Farm,sg_app,0.4607037809989658,2022-05-08,-0.006622900680287594,752,Sedgefield CC
+10873,"Skinns, David",776,Sea Island Golf Club (Seaside Course),sg_app,0.733813771398553,2024-11-24,-0.0124168181797846,752,Sedgefield CC
+10873,"Skinns, David",875,ACCORDIA GOLF Narashino Country Club,sg_app,0.7236119579223822,2024-10-27,-0.0407037833970221,752,Sedgefield CC
+10873,"Skinns, David",244,Puntacana Resort & Club (Corales Golf Course),sg_app,0.9915360228629667,2026-07-19,-0.043907783802269715,752,Sedgefield CC
+10873,"Skinns, David",889,Sea Island Golf Club (Plantation Course),sg_arg,1.3038788718858734,2025-11-23,0.019540943852548665,752,Sedgefield CC
+10873,"Skinns, David",231,Sea Island GC (Plantation),sg_arg,0.20382367441479987,2017-11-19,0.006114057288803892,752,Sedgefield CC
+10873,"Skinns, David",930,Black Desert Resort,sg_arg,1.5866195370005929,2025-10-26,0.004932759792388575,752,Sedgefield CC
+10873,"Skinns, David",714,TPC Louisiana,sg_arg,1.743303678019105,2026-04-26,0.003866007767486297,752,Sedgefield CC
+10873,"Skinns, David",244,Puntacana Resort & Club (Corales Golf Course),sg_arg,0.9915360228629667,2026-07-19,0.0029586273470584646,752,Sedgefield CC
+10873,"Skinns, David",752,Sedgefield Country Club,sg_arg,2.010784248413578,2025-08-03,0.0025460120484042284,752,Sedgefield CC
+10873,"Skinns, David",876,Detroit Golf Club,sg_arg,1.9801907603832722,2025-06-29,-8.22879374695738e-05,752,Sedgefield CC
+10873,"Skinns, David",772,St. George's G&CC,sg_arg,0.46883705575366125,2022-06-12,-0.0032997897447141597,752,Sedgefield CC
+10873,"Skinns, David",897,Memorial Park Golf Course,sg_arg,1.4330169520911862,2025-03-30,-0.005329868029745132,752,Sedgefield CC
+10873,"Skinns, David",538,TPC Summerlin,sg_arg,0.721083743026607,2024-10-20,-0.009808333637564531,752,Sedgefield CC
+10873,"Skinns, David",925,Dunes Golf and Beach Club,sg_arg,2.4208610659368865,2026-05-10,-0.013601777949172934,752,Sedgefield CC
+10873,"Skinns, David",11,TPC Sawgrass - THE PLAYERS Stadium Course,sg_ott,1.4230208605642327,2025-03-16,0.07143430367642212,752,Sedgefield CC
+10873,"Skinns, David",928,PGA National  - Champion Course,sg_ott,1.41309449734417,2025-03-02,0.023894468319874053,752,Sedgefield CC
+10873,"Skinns, David",930,Black Desert Resort,sg_ott,1.5866195370005929,2025-10-26,0.019930296790605154,752,Sedgefield CC
+10873,"Skinns, David",874,Hamilton Golf & Country Club,sg_ott,0.6723340256326573,2024-06-02,0.01939997274084341,752,Sedgefield CC
+10873,"Skinns, David",934,Hurstbourne Country Club,sg_ott,1.8117296171305073,2026-07-12,0.016288712626157567,752,Sedgefield CC
+10873,"Skinns, David",752,Sedgefield Country Club,sg_ott,2.010784248413578,2025-08-03,0.013575974530735165,752,Sedgefield CC
+10873,"Skinns, David",925,Dunes Golf and Beach Club,sg_ott,2.4208610659368865,2026-05-10,0.004470750927348967,752,Sedgefield CC
+10873,"Skinns, David",503,TPC River Highlands,sg_ott,0.47213042850062353,2022-06-26,0.0013600214277539587,752,Sedgefield CC
+10873,"Skinns, David",884,Keene Trace Golf Club (Champion Trace),sg_ott,1.162049268775349,2024-07-14,-0.000982049152259358,752,Sedgefield CC
+10873,"Skinns, David",926,Silverado Resort (North Course),sg_ott,1.5585906424122327,2025-09-14,-0.0010989102391492744,752,Sedgefield CC
+10873,"Skinns, David",770,TPC San Antonio - The Oaks Course,sg_ott,1.8907528992793896,2025-04-06,-0.003017710895727721,752,Sedgefield CC
+10873,"Skinns, David",21,Colonial Country Club,sg_ott,1.637523529377696,2026-05-31,-0.0048619238914664915,752,Sedgefield CC
+10873,"Skinns, David",233,Nicklaus Tournament Course,sg_ott,0.43714077332761425,2022-01-23,-0.008996520804735526,752,Sedgefield CC
+10873,"Skinns, David",510,TPC Scottsdale (Stadium Course),sg_ott,0.9098110608050065,2025-02-09,-0.011081387843733324,752,Sedgefield CC
+10873,"Skinns, David",538,TPC Summerlin,sg_ott,0.721083743026607,2024-10-20,-0.015668459027761674,752,Sedgefield CC
+10873,"Skinns, David",875,ACCORDIA GOLF Narashino Country Club,sg_ott,0.7236119579223822,2024-10-27,-0.01870337318867377,752,Sedgefield CC
+10873,"Skinns, David",237,TPC Potomac at Avenel Farm,sg_ott,0.4607037809989658,2022-05-08,-0.019905241936186892,752,Sedgefield CC
+10873,"Skinns, David",925,Dunes Golf and Beach Club,sg_putt,2.4208610659368865,2026-05-10,0.04213065708902029,752,Sedgefield CC
+10873,"Skinns, David",928,PGA National  - Champion Course,sg_putt,1.41309449734417,2025-03-02,0.027992666916254114,752,Sedgefield CC
+10873,"Skinns, David",935,TPC Toronto at Osprey Valley - North Course,sg_putt,1.783704370661475,2026-06-14,0.025894783681097266,752,Sedgefield CC
+10873,"Skinns, David",776,Sea Island Golf Club (Seaside Course),sg_putt,0.733813771398553,2024-11-24,0.021976790062071722,752,Sedgefield CC
+10873,"Skinns, David",897,Memorial Park Golf Course,sg_putt,1.4330169520911862,2025-03-30,0.01702042412609264,752,Sedgefield CC
+10873,"Skinns, David",510,TPC Scottsdale (Stadium Course),sg_putt,0.9098110608050065,2025-02-09,0.004049482426668375,752,Sedgefield CC
+10873,"Skinns, David",884,Keene Trace Golf Club (Champion Trace),sg_putt,1.162049268775349,2024-07-14,0.0010185222697339901,752,Sedgefield CC
+10873,"Skinns, David",503,TPC River Highlands,sg_putt,0.47213042850062353,2022-06-26,0.00010358538948811477,752,Sedgefield CC
+10873,"Skinns, David",926,Silverado Resort (North Course),sg_putt,1.5585906424122327,2025-09-14,-0.0007836639603163303,752,Sedgefield CC
+10873,"Skinns, David",6,Waialae Country Club,sg_putt,1.81450779971896,2025-01-12,-0.0033953035295252324,752,Sedgefield CC
+10873,"Skinns, David",930,Black Desert Resort,sg_putt,1.5866195370005929,2025-10-26,-0.005505746735668186,752,Sedgefield CC
+10873,"Skinns, David",21,Colonial Country Club,sg_putt,1.637523529377696,2026-05-31,-0.010767896567246419,752,Sedgefield CC
+10873,"Skinns, David",746,The Country Club of Jackson,sg_putt,2.190070494434263,2025-10-05,-0.012439563823965124,752,Sedgefield CC
+10873,"Skinns, David",752,Sedgefield Country Club,sg_putt,2.010784248413578,2025-08-03,-0.035895821471774884,752,Sedgefield CC
 18474,"Smalley, Alex",8,Trump National Doral - Blue Monster Course,sg_app,0.9540873975903711,2026-05-03,0.04566528994911279,752,Sedgefield CC
 18474,"Smalley, Alex",752,Sedgefield Country Club,sg_app,2.9925083158587054,2025-08-03,0.02206660686497538,752,Sedgefield CC
 18474,"Smalley, Alex",541,Royal Birkdale Golf Club,sg_app,0.9915360228629667,2026-07-19,0.020997487468632895,752,Sedgefield CC

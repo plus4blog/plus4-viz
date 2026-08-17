@@ -247,24 +247,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 15466,"Cantlay, Patrick",885,Royal Portrush Golf Club,sg_putt,0.8216013312952537,2025-07-20,-0.02983782226763264,534,Bellerive CC
 15466,"Cantlay, Patrick",688,East Lake Golf Club,sg_putt,3.0194993023520524,2025-08-24,-0.030805954592903285,534,Bellerive CC
 15466,"Cantlay, Patrick",4,Torrey Pines Golf Course (South Course),sg_putt,1.6175522917022374,2026-02-01,-0.03471593906943563,534,Bellerive CC
-27819,"Castillo, Ricky",12,Harbour Town Golf Links,sg_app,0.9417645335842487,2026-04-19,0.008902132417756704,534,Bellerive CC
-27819,"Castillo, Ricky",934,Hurstbourne Country Club,sg_app,0.8187307530779818,2025-07-13,0.001906022633013071,534,Bellerive CC
-27819,"Castillo, Ricky",704,Pete Dye Stadium Course,sg_app,0.7501365667709818,2025-01-19,-0.03521398827251191,534,Bellerive CC
-27819,"Castillo, Ricky",925,Dunes Golf and Beach Club,sg_app,0.7933426955031242,2025-05-11,-0.03865471396056682,534,Bellerive CC
-27819,"Castillo, Ricky",6,Waialae Country Club,sg_app,1.6473901508648745,2026-01-18,-0.041297004091307925,534,Bellerive CC
-27819,"Castillo, Ricky",978,Vidanta Vallarta,sg_arg,0.7633794943368531,2025-02-23,0.0034353197960174187,534,Bellerive CC
-27819,"Castillo, Ricky",891,Winged Foot GC,sg_arg,0.340105301169467,2020-09-20,0.002211778757257369,534,Bellerive CC
-27819,"Castillo, Ricky",921,TPC Craig Ranch,sg_arg,0.7905708496287356,2025-05-04,-0.0008233585147127268,534,Bellerive CC
-27819,"Castillo, Ricky",12,Harbour Town Golf Links,sg_arg,0.9417645335842487,2026-04-19,-0.014384597818194428,534,Bellerive CC
-27819,"Castillo, Ricky",714,TPC Louisiana,sg_arg,0.7878086882571411,2025-04-27,-0.02532225930951779,534,Bellerive CC
-27819,"Castillo, Ricky",921,TPC Craig Ranch,sg_ott,0.7905708496287356,2025-05-04,0.001776714120422776,534,Bellerive CC
-27819,"Castillo, Ricky",925,Dunes Golf and Beach Club,sg_ott,0.7933426955031242,2025-05-11,-4.3757681460019776e-05,534,Bellerive CC
-27819,"Castillo, Ricky",6,Waialae Country Club,sg_putt,1.6473901508648745,2026-01-18,0.027729834500527205,534,Bellerive CC
-27819,"Castillo, Ricky",4,Torrey Pines Golf Course (South Course),sg_putt,0.752390355463993,2025-01-25,0.026828896272615185,534,Bellerive CC
-27819,"Castillo, Ricky",891,Winged Foot GC,sg_putt,0.340105301169467,2020-09-20,0.004057834587860954,534,Bellerive CC
-27819,"Castillo, Ricky",926,Silverado Resort (North Course),sg_putt,0.8449312634189364,2025-09-14,-0.0038839997259618023,534,Bellerive CC
-27819,"Castillo, Ricky",927,Sawgrass Country Club,sg_total,1.4987306955054516,2025-12-14,0.0327845580831261,534,Bellerive CC
-27819,"Castillo, Ricky",90,TPC Colorado,sg_total,1.2514238443845118,2024-07-14,-0.007417618524181785,534,Bellerive CC
 14502,"Cauley, Bud",513,TPC Southwind,sg_app,1.1839575334713752,2025-08-10,0.040260209320908166,534,Bellerive CC
 14502,"Cauley, Bud",23,Muirfield Village Golf Club,sg_app,3.093856545756105,2026-06-07,0.029899493581870037,534,Bellerive CC
 14502,"Cauley, Bud",5,Pebble Beach Golf Links,sg_app,0.9125613161520112,2026-02-15,0.023320273880601435,534,Bellerive CC
@@ -405,103 +387,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 21756,"Cole, Eric",528,Pinehurst Resort & Country Club (Course No. 2),sg_putt,0.6730066959373864,2024-06-16,-0.008000874571409996,534,Bellerive CC
 21756,"Cole, Eric",5,Pebble Beach Golf Links,sg_putt,0.7554059440422217,2025-02-02,-0.009243582929210637,534,Bellerive CC
 21756,"Cole, Eric",6,Waialae Country Club,sg_putt,2.78996228462958,2026-01-18,-0.015093564281371326,534,Bellerive CC
-17576,"Conners, Corey",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,0.7933426955031242,2025-05-11,0.022661729407059912,534,Bellerive CC
-17576,"Conners, Corey",618,Shinnecock Hills Golf Club,sg_app,0.9719022941461366,2026-06-21,0.02086963957714082,534,Bellerive CC
-17576,"Conners, Corey",6,Waialae Country Club,sg_app,3.98111784711519,2026-01-18,0.0198029629830967,534,Bellerive CC
-17576,"Conners, Corey",43,The Los Angeles Country Club (North Course),sg_app,0.5610192838421706,2023-06-18,0.009105188101366329,534,Bellerive CC
-17576,"Conners, Corey",874,Hamilton Golf & Country Club,sg_app,0.9373239085160667,2024-06-02,0.004800220178951358,534,Bellerive CC
-17576,"Conners, Corey",231,Sea Island GC (Plantation),sg_app,0.20260439386779155,2017-11-19,0.003012686221746095,534,Bellerive CC
-17576,"Conners, Corey",704,Pete Dye Stadium Course,sg_app,0.20908801317328293,2018-01-21,0.0015245317698825015,534,Bellerive CC
-17576,"Conners, Corey",608,Oakmont Country Club,sg_app,0.8073483850226815,2025-06-15,-0.0018745861085963111,534,Bellerive CC
-17576,"Conners, Corey",908,Oakdale Golf & Country Club,sg_app,0.5590591485863915,2023-06-11,-0.004294594902337682,534,Bellerive CC
-17576,"Conners, Corey",823,Keene Trace Golf Club,sg_app,0.2290076201997705,2018-07-22,-0.0048958053729489795,534,Bellerive CC
-17576,"Conners, Corey",895,TPC Harding Park,sg_app,0.33303756085574976,2020-08-09,-0.005925451070273615,534,Bellerive CC
-17576,"Conners, Corey",724,Royal Liverpool,sg_app,0.5709235307061248,2023-07-23,-0.01690769115992527,534,Bellerive CC
-17576,"Conners, Corey",513,TPC Southwind,sg_app,3.9439352795981013,2025-08-10,-0.016925987810195477,534,Bellerive CC
-17576,"Conners, Corey",12,Harbour Town Golf Links,sg_app,4.687637459560864,2026-04-19,-0.01883772455292777,534,Bellerive CC
-17576,"Conners, Corey",744,Torrey Pines (South),sg_app,0.38984736042289797,2021-06-20,-0.019197371544702493,534,Bellerive CC
-17576,"Conners, Corey",939,Torrey Pines Golf Course (South Course),sg_app,0.7607123363558641,2025-02-16,-0.019602633732269354,534,Bellerive CC
-17576,"Conners, Corey",5,Pebble Beach Golf Links,sg_app,1.6679672601942328,2026-02-15,-0.04273972005178189,534,Bellerive CC
-17576,"Conners, Corey",500,The Riviera Country Club,sg_app,3.1916192635345597,2026-02-22,-0.04482494778969545,534,Bellerive CC
-17576,"Conners, Corey",23,Muirfield Village Golf Club,sg_app,4.443763591980251,2026-06-07,-0.1016798652580048,534,Bellerive CC
-17576,"Conners, Corey",744,Torrey Pines (South),sg_arg,0.38984736042289797,2021-06-20,0.02277278653456678,534,Bellerive CC
-17576,"Conners, Corey",882,Caves Valley Golf Club,sg_arg,1.236918253805794,2025-08-17,0.009002644274509026,534,Bellerive CC
-17576,"Conners, Corey",874,Hamilton Golf & Country Club,sg_arg,0.9373239085160667,2024-06-02,0.0037293721631933455,534,Bellerive CC
-17576,"Conners, Corey",250,Le Golf National,sg_arg,0.6896990058291281,2024-08-04,0.0021206300753084167,534,Bellerive CC
-17576,"Conners, Corey",668,St. Andrews Links (Old Course),sg_arg,0.4742598029280199,2022-07-17,0.001633459377130099,534,Bellerive CC
-17576,"Conners, Corey",697,Ocean Course at Kiawah Island,sg_arg,0.3844275247503785,2021-05-23,0.00018578542052318376,534,Bellerive CC
-17576,"Conners, Corey",611,Southern Hills Country Club,sg_arg,0.4611647152086584,2022-05-22,-0.0006595246787395205,534,Bellerive CC
-17576,"Conners, Corey",237,TPC Potomac at Avenel Farm,sg_arg,0.684563454584861,2022-05-08,-0.001215123924399808,534,Bellerive CC
-17576,"Conners, Corey",886,Liberty National Golf Club,sg_arg,0.6799435693669023,2021-08-22,-0.0016360607863056746,534,Bellerive CC
-17576,"Conners, Corey",654,The Country Club,sg_arg,0.46766642700990924,2022-06-19,-0.0021862423911653407,534,Bellerive CC
-17576,"Conners, Corey",709,Royal Troon,sg_arg,0.6848879710550762,2024-07-21,-0.0031581276517298248,534,Bellerive CC
-17576,"Conners, Corey",12,Harbour Town Golf Links,sg_arg,4.687637459560864,2026-04-19,-0.01491530760226398,534,Bellerive CC
-17576,"Conners, Corey",891,Winged Foot GC,sg_arg,0.340105301169467,2020-09-20,-0.02388752342254948,534,Bellerive CC
-17576,"Conners, Corey",823,Keene Trace Golf Club,sg_ott,0.2290076201997705,2018-07-22,0.013453673282982512,534,Bellerive CC
-17576,"Conners, Corey",243,Trinity Forest Golf Club,sg_ott,0.22190631293257038,2018-05-20,0.006529997339952096,534,Bellerive CC
-17576,"Conners, Corey",901,Wilmington Country Club,sg_ott,0.48263239599412705,2022-08-21,0.005454338900353301,534,Bellerive CC
-17576,"Conners, Corey",232,Albany GC,sg_ott,0.8811741495435155,2025-12-07,0.0026128206647603658,534,Bellerive CC
-17576,"Conners, Corey",895,TPC Harding Park,sg_ott,0.33303756085574976,2020-08-09,0.0005521623373367884,534,Bellerive CC
-17576,"Conners, Corey",348,Medinah Country Club (No. 3),sg_ott,0.27859393149960326,2019-08-18,-0.001155940105658871,534,Bellerive CC
-17576,"Conners, Corey",724,Royal Liverpool,sg_ott,0.5709235307061248,2023-07-23,-0.0013567764163836707,534,Bellerive CC
-17576,"Conners, Corey",379,The Philadelphia Cricket Club (Wissahickon Course),sg_ott,0.7933426955031242,2025-05-11,-0.0014119751335155812,534,Bellerive CC
-17576,"Conners, Corey",893,Muirfield Village Golf Club,sg_ott,0.32840752090714825,2020-07-12,-0.0022926798711742553,534,Bellerive CC
-17576,"Conners, Corey",642,Newport Beach Country Club,sg_ott,0.11058177350426224,2014-07-27,-0.0025674581768957375,534,Bellerive CC
-17576,"Conners, Corey",698,Quail Hollow Club,sg_ott,0.12809283557753198,2015-05-17,-0.002713083495326361,534,Bellerive CC
-17576,"Conners, Corey",240,Club de Golf Chapultepec,sg_ott,0.3062051429044585,2020-02-23,-0.004875780200240761,534,Bellerive CC
-17576,"Conners, Corey",671,Valhalla Golf Club,sg_ott,0.6636502501363193,2024-05-19,-0.006523889542711081,534,Bellerive CC
-17576,"Conners, Corey",729,Golf Club of Houston,sg_ott,0.21653566731600704,2018-04-01,-0.012363751357438722,534,Bellerive CC
-17576,"Conners, Corey",23,Muirfield Village Golf Club,sg_ott,4.443763591980251,2026-06-07,-0.025557482058467126,534,Bellerive CC
-17576,"Conners, Corey",891,Winged Foot GC,sg_putt,0.340105301169467,2020-09-20,0.01348877988703222,534,Bellerive CC
-17576,"Conners, Corey",668,St. Andrews Links (Old Course),sg_putt,0.4742598029280199,2022-07-17,0.012447115595272364,534,Bellerive CC
-17576,"Conners, Corey",241,Quail Hollow-PGA Championship,sg_putt,0.7961242598354537,2025-05-18,0.007915677125916275,534,Bellerive CC
-17576,"Conners, Corey",528,Pinehurst Resort & Country Club (Course No. 2),sg_putt,0.6730066959373864,2024-06-16,0.007871861384522607,534,Bellerive CC
-17576,"Conners, Corey",772,St. George's G&CC,sg_putt,0.4660324556332957,2022-06-12,0.007011467637826563,534,Bellerive CC
-17576,"Conners, Corey",2000,Sherwood Country Club,sg_putt,0.3461095276899044,2020-10-25,0.004972314463087374,534,Bellerive CC
-17576,"Conners, Corey",237,TPC Potomac at Avenel Farm,sg_putt,0.684563454584861,2022-05-08,0.0048951870495623,534,Bellerive CC
-17576,"Conners, Corey",926,Silverado Resort (North Course),sg_putt,0.7043358337451862,2024-09-15,0.00277226838673398,534,Bellerive CC
-17576,"Conners, Corey",4,Torrey Pines Golf Course (South Course),sg_putt,0.20982110337888643,2018-01-28,0.00057131305105414,534,Bellerive CC
-17576,"Conners, Corey",901,Wilmington Country Club,sg_putt,0.48263239599412705,2022-08-21,0.0004858298476205644,534,Bellerive CC
-17576,"Conners, Corey",908,Oakdale Golf & Country Club,sg_putt,0.5590591485863915,2023-06-11,-2.742720710298463e-05,534,Bellerive CC
-17576,"Conners, Corey",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,0.7933426955031242,2025-05-11,-8.831637027827402e-05,534,Bellerive CC
-17576,"Conners, Corey",880,Bethpage Black,sg_putt,0.2662019627054592,2019-05-19,-0.003137063335936437,534,Bellerive CC
-17576,"Conners, Corey",895,TPC Harding Park,sg_putt,0.33303756085574976,2020-08-09,-0.0062316526115546176,534,Bellerive CC
-17576,"Conners, Corey",885,Royal Portrush Golf Club,sg_putt,0.8216013312952537,2025-07-20,-0.008001710804270024,534,Bellerive CC
-17576,"Conners, Corey",618,Shinnecock Hills Golf Club,sg_putt,0.9719022941461366,2026-06-21,-0.009884074977351174,534,Bellerive CC
-17576,"Conners, Corey",688,East Lake Golf Club,sg_putt,2.5861529676241455,2025-08-24,-0.0103483739575758,534,Bellerive CC
-17576,"Conners, Corey",500,The Riviera Country Club,sg_putt,3.1916192635345597,2026-02-22,-0.010632698413858397,534,Bellerive CC
-17576,"Conners, Corey",654,The Country Club,sg_putt,0.46766642700990924,2022-06-19,-0.030275890350487666,534,Bellerive CC
-17576,"Conners, Corey",5,Pebble Beach Golf Links,sg_putt,1.6679672601942328,2026-02-15,-0.03475588517951483,534,Bellerive CC
-17576,"Conners, Corey",6,Waialae Country Club,sg_putt,3.98111784711519,2026-01-18,-0.04127316761864248,534,Bellerive CC
-28309,"Coody, Pierceson",12,Harbour Town Golf Links,sg_app,0.9417645335842487,2026-04-19,0.059804508800852176,534,Bellerive CC
-28309,"Coody, Pierceson",500,The Riviera Country Club,sg_app,0.9157608767233256,2026-02-22,0.027297344514833684,534,Bellerive CC
-28309,"Coody, Pierceson",5,Pebble Beach Golf Links,sg_app,0.9125613161520112,2026-02-15,0.024651092520367127,534,Bellerive CC
-28309,"Coody, Pierceson",618,Shinnecock Hills Golf Club,sg_app,0.9719022941461366,2026-06-21,0.016477010930788478,534,Bellerive CC
-28309,"Coody, Pierceson",925,Dunes Golf and Beach Club,sg_app,0.6613315343804369,2024-05-12,0.011229472428635071,534,Bellerive CC
-28309,"Coody, Pierceson",6,Waialae Country Club,sg_app,1.5230045440244413,2026-01-18,-0.002705572111290472,534,Bellerive CC
-28309,"Coody, Pierceson",874,Hamilton Golf & Country Club,sg_app,0.6683120993235603,2024-06-02,-0.008533366576942597,534,Bellerive CC
-28309,"Coody, Pierceson",944,TPC Craig Ranch,sg_app,0.958390465520947,2026-05-24,-0.019955876749555543,534,Bellerive CC
-28309,"Coody, Pierceson",744,Torrey Pines (South),sg_app,0.38984736042289797,2021-06-20,-0.02564593790499043,534,Bellerive CC
-28309,"Coody, Pierceson",23,Muirfield Village Golf Club,sg_app,0.9651227342300005,2026-06-07,-0.043131968510930416,534,Bellerive CC
-28309,"Coody, Pierceson",714,TPC Louisiana,sg_arg,0.7878086882571411,2025-04-27,0.02313433822455282,534,Bellerive CC
-28309,"Coody, Pierceson",874,Hamilton Golf & Country Club,sg_arg,0.6683120993235603,2024-06-02,0.0015320768549628094,534,Bellerive CC
-28309,"Coody, Pierceson",921,TPC Craig Ranch,sg_arg,2.0008786230915834,2025-05-04,-0.002584342584552752,534,Bellerive CC
-28309,"Coody, Pierceson",12,Harbour Town Golf Links,sg_arg,0.9417645335842487,2026-04-19,-0.004029157279116535,534,Bellerive CC
-28309,"Coody, Pierceson",744,Torrey Pines (South),sg_arg,0.38984736042289797,2021-06-20,-0.017232019928101684,534,Bellerive CC
-28309,"Coody, Pierceson",978,Vidanta Vallarta,sg_arg,0.636354169725087,2024-02-25,-0.02686069141573232,534,Bellerive CC
-28309,"Coody, Pierceson",921,TPC Craig Ranch,sg_ott,2.0008786230915834,2025-05-04,0.07294946708445607,534,Bellerive CC
-28309,"Coody, Pierceson",925,Dunes Golf and Beach Club,sg_ott,0.6613315343804369,2024-05-12,0.015090930780726099,534,Bellerive CC
-28309,"Coody, Pierceson",233,Nicklaus Tournament Course,sg_ott,0.6253148475551482,2024-01-21,0.003815240274813043,534,Bellerive CC
-28309,"Coody, Pierceson",23,Muirfield Village Golf Club,sg_ott,0.9651227342300005,2026-06-07,-0.005774165844988789,534,Bellerive CC
-28309,"Coody, Pierceson",4,Torrey Pines Golf Course (South Course),sg_putt,1.6585860480782637,2026-02-01,0.07048288045641106,534,Bellerive CC
-28309,"Coody, Pierceson",6,Waialae Country Club,sg_putt,1.5230045440244413,2026-01-18,0.024548493470830275,534,Bellerive CC
-28309,"Coody, Pierceson",618,Shinnecock Hills Golf Club,sg_putt,0.9719022941461366,2026-06-21,0.015512039699311907,534,Bellerive CC
-28309,"Coody, Pierceson",500,The Riviera Country Club,sg_putt,0.9157608767233256,2026-02-22,0.007673335665209006,534,Bellerive CC
-28309,"Coody, Pierceson",5,Pebble Beach Golf Links,sg_putt,0.9125613161520112,2026-02-15,-0.007272712565957236,534,Bellerive CC
-28309,"Coody, Pierceson",926,Silverado Resort (North Course),sg_putt,0.7043358337451862,2024-09-15,-0.01968673937292904,534,Bellerive CC
-28309,"Coody, Pierceson",927,Sawgrass Country Club,sg_total,0.7371233743916277,2024-12-15,0.03021369872522923,534,Bellerive CC
-28309,"Coody, Pierceson",97,The Ocean Club Golf Course at Atlantis,sg_total,0.7486377929108912,2025-01-15,0.02177253453978428,534,Bellerive CC
-28309,"Coody, Pierceson",90,TPC Colorado,sg_total,1.3876595442571036,2025-07-13,0.019245864088929518,534,Bellerive CC
 22833,"Echavarria, Nico",875,ACCORDIA GOLF Narashino Country Club,sg_app,0.7192832851790882,2024-10-27,0.05337771587892669,534,Bellerive CC
 22833,"Echavarria, Nico",5,Pebble Beach Golf Links,sg_app,1.6679672601942328,2026-02-15,0.049466371670624114,534,Bellerive CC
 22833,"Echavarria, Nico",500,The Riviera Country Club,sg_app,0.9157608767233256,2026-02-22,0.018289513503952148,534,Bellerive CC
@@ -537,83 +422,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 22833,"Echavarria, Nicolas",250,Le Golf National,sg_arg,0.6896990058291281,2024-08-04,0.0032604067727288236,534,Bellerive CC
 22833,"Echavarria, Nicolas",921,TPC Craig Ranch,sg_ott,0.6590209199441207,2024-05-05,0.0024927908728787826,534,Bellerive CC
 22833,"Echavarria, Nicolas",528,Pinehurst Resort & Country Club (Course No. 2),sg_putt,0.6730066959373864,2024-06-16,0.0030828960290269856,534,Bellerive CC
-14577,"English, Harris",513,TPC Southwind,sg_app,3.396049054322518,2025-08-10,0.03717341378513664,534,Bellerive CC
-14577,"English, Harris",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,0.7933426955031242,2025-05-11,0.01641729735778617,534,Bellerive CC
-14577,"English, Harris",744,Torrey Pines (South),sg_app,0.38984736042289797,2021-06-20,0.014902982454952824,534,Bellerive CC
-14577,"English, Harris",939,Torrey Pines Golf Course (South Course),sg_app,0.7607123363558641,2025-02-16,0.014528526139136815,534,Bellerive CC
-14577,"English, Harris",231,Sea Island GC (Plantation),sg_app,0.41193840092853873,2018-11-18,0.007110119994673938,534,Bellerive CC
-14577,"English, Harris",823,Keene Trace Golf Club,sg_app,0.2290076201997705,2018-07-22,0.006322956931245885,534,Bellerive CC
-14577,"English, Harris",895,TPC Harding Park,sg_app,0.33303756085574976,2020-08-09,0.004900995863724299,534,Bellerive CC
-14577,"English, Harris",500,The Riviera Country Club,sg_app,3.1789007382394754,2026-02-22,0.0033971993846890433,534,Bellerive CC
-14577,"English, Harris",608,Oakmont Country Club,sg_app,0.8073483850226815,2025-06-15,0.0012686316098521238,534,Bellerive CC
-14577,"English, Harris",724,Royal Liverpool,sg_app,0.5709235307061248,2023-07-23,0.0011074312327295013,534,Bellerive CC
-14577,"English, Harris",704,Pete Dye Stadium Course,sg_app,0.20908801317328293,2018-01-21,0.0007756745079276743,534,Bellerive CC
-14577,"English, Harris",874,Hamilton Golf & Country Club,sg_app,0.2690118091925064,2019-06-09,0.0005694178894309301,534,Bellerive CC
-14577,"English, Harris",694,Hamilton G&CC,sg_app,0.07684230070716673,2012-07-29,-0.0007792401313361135,534,Bellerive CC
-14577,"English, Harris",745,iberostar real club de golf novo sancti petri,sg_app,0.11214080609735771,2014-08-24,-0.0013441485371929191,534,Bellerive CC
-14577,"English, Harris",43,The Los Angeles Country Club (North Course),sg_app,0.5610192838421706,2023-06-18,-0.0021152713592991895,534,Bellerive CC
-14577,"English, Harris",666,Pebble Beach Golf Links,sg_app,0.26995500014600815,2019-06-16,-0.002775093696558596,534,Bellerive CC
-14577,"English, Harris",24,Congressional CC (Blue),sg_app,0.16667357477576117,2013-06-30,-0.003294563434922601,534,Bellerive CC
-14577,"English, Harris",5,Pebble Beach Golf Links,sg_app,0.9973155141541332,2026-02-15,-0.003495769936133515,534,Bellerive CC
-14577,"English, Harris",898,The Concession Golf Club,sg_app,0.3686159363034188,2021-02-28,-0.0038755575518800013,534,Bellerive CC
-14577,"English, Harris",6,Waialae Country Club,sg_app,3.835027425369475,2025-01-12,-0.013260942027814797,534,Bellerive CC
-14577,"English, Harris",12,Harbour Town Golf Links,sg_app,4.707438126432,2026-04-19,-0.021652438284966904,534,Bellerive CC
-14577,"English, Harris",618,Shinnecock Hills Golf Club,sg_app,0.9719022941461366,2026-06-21,-0.03137867076523584,534,Bellerive CC
-14577,"English, Harris",23,Muirfield Village Golf Club,sg_app,3.9927291759637513,2026-06-07,-0.04686795315929627,534,Bellerive CC
-14577,"English, Harris",891,Winged Foot GC,sg_arg,0.340105301169467,2020-09-20,0.015044062305993967,534,Bellerive CC
-14577,"English, Harris",709,Royal Troon,sg_arg,0.6848879710550762,2024-07-21,0.011276943769500744,534,Bellerive CC
-14577,"English, Harris",744,Torrey Pines (South),sg_arg,0.38984736042289797,2021-06-20,0.010762513018471465,534,Bellerive CC
-14577,"English, Harris",886,Liberty National Golf Club,sg_arg,0.4023230122287623,2021-08-22,0.0032200917976078045,534,Bellerive CC
-14577,"English, Harris",874,Hamilton Golf & Country Club,sg_arg,0.2690118091925064,2019-06-09,0.001836965516768539,534,Bellerive CC
-14577,"English, Harris",697,Ocean Course at Kiawah Island,sg_arg,0.3844275247503785,2021-05-23,0.0017952423999492034,534,Bellerive CC
-14577,"English, Harris",899,The Summit Club,sg_arg,0.4137472495194873,2021-10-17,0.0016375727160839635,534,Bellerive CC
-14577,"English, Harris",237,TPC Potomac at Avenel Farm,sg_arg,0.41552270489243837,2018-07-01,0.0010295199813792676,534,Bellerive CC
-14577,"English, Harris",706,Whistling Straits,sg_arg,0.13405568575751547,2015-08-16,0.0008376672767221887,534,Bellerive CC
-14577,"English, Harris",882,Caves Valley Golf Club,sg_arg,1.236918253805794,2025-08-17,0.000699404344055648,534,Bellerive CC
-14577,"English, Harris",12,Harbour Town Golf Links,sg_arg,4.707438126432,2026-04-19,0.00042378725177729944,534,Bellerive CC
-14577,"English, Harris",616,Robert Trent Jones GC,sg_arg,0.1331205726713896,2015-08-02,0.0002971484222871595,534,Bellerive CC
-14577,"English, Harris",654,The Country Club,sg_arg,0.46766642700990924,2022-06-19,-0.0003475861059731626,534,Bellerive CC
-14577,"English, Harris",36,Le Triomphe G&CC,sg_arg,0.36094700064765234,2016-07-03,-0.0005593873169308731,534,Bellerive CC
-14577,"English, Harris",714,TPC Louisiana,sg_arg,0.5455286251592933,2023-04-23,-0.0015540586918129655,534,Bellerive CC
-14577,"English, Harris",235,Eagle Point Golf Club,sg_arg,0.1836910515959608,2017-05-07,-0.002701770859526003,534,Bellerive CC
-14577,"English, Harris",873,Ridgewood CC,sg_arg,0.23305052579947047,2018-08-26,-0.005132265072372187,534,Bellerive CC
-14577,"English, Harris",668,St. Andrews Links (Old Course),sg_arg,0.4742598029280199,2022-07-17,-0.01186771222273403,534,Bellerive CC
-14577,"English, Harris",233,Nicklaus Tournament Course,sg_ott,1.4242928467727096,2026-01-25,0.04862519156282791,534,Bellerive CC
-14577,"English, Harris",379,The Philadelphia Cricket Club (Wissahickon Course),sg_ott,0.7933426955031242,2025-05-11,0.01399659687572747,534,Bellerive CC
-14577,"English, Harris",243,Trinity Forest Golf Club,sg_ott,0.48717819735501044,2019-05-12,0.0076357205159471135,534,Bellerive CC
-14577,"English, Harris",822,Las Colinas Country Club,sg_ott,0.1289926310365194,2015-05-31,0.007044037842032068,534,Bellerive CC
-14577,"English, Harris",823,Keene Trace Golf Club,sg_ott,0.2290076201997705,2018-07-22,0.005273782640945065,534,Bellerive CC
-14577,"English, Harris",729,Golf Club of Houston,sg_ott,0.9932734831932921,2019-10-13,0.002983383448606553,534,Bellerive CC
-14577,"English, Harris",23,Muirfield Village Golf Club,sg_ott,3.9927291759637513,2026-06-07,0.0029719267634681877,534,Bellerive CC
-14577,"English, Harris",232,Albany GC,sg_ott,0.8811741495435155,2025-12-07,0.0012478457468725291,534,Bellerive CC
-14577,"English, Harris",698,Quail Hollow Club,sg_ott,0.22680686685053475,2016-05-08,-0.00015493029394293332,534,Bellerive CC
-14577,"English, Harris",689,El Bosque CC,sg_ott,0.23987041703668358,2016-08-28,-0.002000029542292383,534,Bellerive CC
-14577,"English, Harris",895,TPC Harding Park,sg_ott,0.33303756085574976,2020-08-09,-0.0036491995589304376,534,Bellerive CC
-14577,"English, Harris",671,Valhalla Golf Club,sg_ott,0.7750088116412319,2024-05-19,-0.015317374208069005,534,Bellerive CC
-14577,"English, Harris",724,Royal Liverpool,sg_ott,0.5709235307061248,2023-07-23,-0.01744763178788102,534,Bellerive CC
-14577,"English, Harris",885,Royal Portrush Golf Club,sg_putt,0.8216013312952537,2025-07-20,0.03601945027465538,534,Bellerive CC
-14577,"English, Harris",500,The Riviera Country Club,sg_putt,3.1789007382394754,2026-02-22,0.03002909742729287,534,Bellerive CC
-14577,"English, Harris",528,Pinehurst Resort & Country Club (Course No. 2),sg_putt,0.6730066959373864,2024-06-16,0.01212802735337222,534,Bellerive CC
-14577,"English, Harris",6,Waialae Country Club,sg_putt,3.835027425369475,2025-01-12,0.011795528769879179,534,Bellerive CC
-14577,"English, Harris",895,TPC Harding Park,sg_putt,0.33303756085574976,2020-08-09,0.008103673203884559,534,Bellerive CC
-14577,"English, Harris",618,Shinnecock Hills Golf Club,sg_putt,0.9719022941461366,2026-06-21,0.007739265394487324,534,Bellerive CC
-14577,"English, Harris",891,Winged Foot GC,sg_putt,0.340105301169467,2020-09-20,0.0061359805273481114,534,Bellerive CC
-14577,"English, Harris",5,Pebble Beach Golf Links,sg_putt,0.9973155141541332,2026-02-15,0.0048251183530021065,534,Bellerive CC
-14577,"English, Harris",668,St. Andrews Links (Old Course),sg_putt,0.4742598029280199,2022-07-17,0.004569391073950674,534,Bellerive CC
-14577,"English, Harris",24,Congressional CC (Blue),sg_putt,0.16667357477576117,2013-06-30,0.003092193950772047,534,Bellerive CC
-14577,"English, Harris",36,Le Triomphe G&CC,sg_putt,0.36094700064765234,2016-07-03,0.0027999866332899183,534,Bellerive CC
-14577,"English, Harris",688,East Lake Golf Club,sg_putt,1.7160574610026487,2025-08-24,0.0023936960115904017,534,Bellerive CC
-14577,"English, Harris",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,0.7933426955031242,2025-05-11,0.0022331959449664995,534,Bellerive CC
-14577,"English, Harris",505,Cherry Hills CC,sg_putt,0.11292854561173918,2014-09-07,0.0015713397531978224,534,Bellerive CC
-14577,"English, Harris",873,Ridgewood CC,sg_putt,0.23305052579947047,2018-08-26,0.0013853741035291807,534,Bellerive CC
-14577,"English, Harris",2000,Sherwood Country Club,sg_putt,0.3461095276899044,2020-10-25,-0.0005453481704191693,534,Bellerive CC
-14577,"English, Harris",926,Silverado Resort (North Course),sg_putt,1.5492670971641225,2025-09-14,-0.000864953431862578,534,Bellerive CC
-14577,"English, Harris",666,Pebble Beach Golf Links,sg_putt,0.26995500014600815,2019-06-16,-0.0008919601913172195,534,Bellerive CC
-14577,"English, Harris",660,Montreux Golf & Country Club,sg_putt,0.27568399909891583,2019-07-28,-0.0010673588403313809,534,Bellerive CC
-14577,"English, Harris",241,Quail Hollow-PGA Championship,sg_putt,0.7961242598354537,2025-05-18,-0.001648083927797285,534,Bellerive CC
-14577,"English, Harris",237,TPC Potomac at Avenel Farm,sg_putt,0.41552270489243837,2018-07-01,-0.009661700147106324,534,Bellerive CC
-14577,"English, Harris",4,Torrey Pines Golf Course (South Course),sg_putt,3.8332142853797366,2026-02-01,-0.010898322119424738,534,Bellerive CC
-14577,"English, Harris",654,The Country Club,sg_putt,0.46766642700990924,2022-06-19,-0.037428239431332326,534,Bellerive CC
 25362,"Fitzpatrick, Alex",23,Muirfield Village Golf Club,sg_app,0.9651227342300005,2026-06-07,0.03790919704350454,534,Bellerive CC
 25362,"Fitzpatrick, Alex",618,Shinnecock Hills Golf Club,sg_app,0.9719022941461366,2026-06-21,0.01544846892360105,534,Bellerive CC
 25362,"Fitzpatrick, Alex",724,Royal Liverpool,sg_app,0.5709235307061248,2023-07-23,0.009538227042337526,534,Bellerive CC
@@ -998,116 +806,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 24968,"Griffin, Ben",618,Shinnecock Hills Golf Club,sg_putt,0.9719022941461366,2026-06-21,-0.007941412445821755,534,Bellerive CC
 24968,"Griffin, Ben",4,Torrey Pines Golf Course (South Course),sg_putt,1.2752197884854104,2025-01-25,-0.015505607479883514,534,Bellerive CC
 24968,"Griffin, Ben",5,Pebble Beach Golf Links,sg_putt,2.0671936626350167,2026-02-15,-0.06217727513873931,534,Bellerive CC
-27194,"Hall, Harry",704,Pete Dye Stadium Course,sg_app,1.6336211357851433,2025-01-19,0.03195122591133908,534,Bellerive CC
-27194,"Hall, Harry",908,Oakdale Golf & Country Club,sg_app,0.5590591485863915,2023-06-11,0.027341182479315454,534,Bellerive CC
-27194,"Hall, Harry",5,Pebble Beach Golf Links,sg_app,1.437486255123407,2026-02-15,0.02538384761440489,534,Bellerive CC
-27194,"Hall, Harry",23,Muirfield Village Golf Club,sg_app,0.9651227342300005,2026-06-07,0.017205943574913812,534,Bellerive CC
-27194,"Hall, Harry",6,Waialae Country Club,sg_app,2.7899622846295804,2026-01-18,0.011129911277182023,534,Bellerive CC
-27194,"Hall, Harry",500,The Riviera Country Club,sg_app,0.9157608767233256,2026-02-22,0.008246427426259606,534,Bellerive CC
-27194,"Hall, Harry",12,Harbour Town Golf Links,sg_app,0.9417645335842487,2026-04-19,-0.003559169719498091,534,Bellerive CC
-27194,"Hall, Harry",875,ACCORDIA GOLF Narashino Country Club,sg_app,0.7192832851790882,2024-10-27,-0.0037986550461616094,534,Bellerive CC
-27194,"Hall, Harry",618,Shinnecock Hills Golf Club,sg_app,0.9719022941461366,2026-06-21,-0.007149886325452986,534,Bellerive CC
-27194,"Hall, Harry",513,TPC Southwind,sg_app,0.8302735949819326,2025-08-10,-0.009161645930629068,534,Bellerive CC
-27194,"Hall, Harry",874,Hamilton Golf & Country Club,sg_app,0.6683120993235603,2024-06-02,-0.018632447119147882,534,Bellerive CC
-27194,"Hall, Harry",925,Dunes Golf and Beach Club,sg_app,1.454674229883561,2025-05-11,-0.026157557206838197,534,Bellerive CC
-27194,"Hall, Harry",978,Vidanta Vallarta,sg_arg,1.94717498467379,2025-02-23,0.02297584113648734,534,Bellerive CC
-27194,"Hall, Harry",882,Caves Valley Golf Club,sg_arg,0.8331846439283305,2025-08-17,0.015049739014190731,534,Bellerive CC
-27194,"Hall, Harry",921,TPC Craig Ranch,sg_arg,2.0008786230915834,2025-05-04,0.011814666561931256,534,Bellerive CC
-27194,"Hall, Harry",714,TPC Louisiana,sg_arg,0.5455286251592933,2023-04-23,0.010787567519015974,534,Bellerive CC
-27194,"Hall, Harry",874,Hamilton Golf & Country Club,sg_arg,0.6683120993235603,2024-06-02,0.003584583677181277,534,Bellerive CC
-27194,"Hall, Harry",654,The Country Club,sg_arg,0.46766642700990924,2022-06-19,-0.003982790743198377,534,Bellerive CC
-27194,"Hall, Harry",12,Harbour Town Golf Links,sg_arg,0.9417645335842487,2026-04-19,-0.007841613152591537,534,Bellerive CC
-27194,"Hall, Harry",925,Dunes Golf and Beach Club,sg_ott,1.454674229883561,2025-05-11,0.028077744304517475,534,Bellerive CC
-27194,"Hall, Harry",23,Muirfield Village Golf Club,sg_ott,0.9651227342300005,2026-06-07,-0.0001726148483455217,534,Bellerive CC
-27194,"Hall, Harry",921,TPC Craig Ranch,sg_ott,2.0008786230915834,2025-05-04,-0.05582627568503847,534,Bellerive CC
-27194,"Hall, Harry",6,Waialae Country Club,sg_putt,2.7899622846295804,2026-01-18,0.03221138096239646,534,Bellerive CC
-27194,"Hall, Harry",885,Royal Portrush Golf Club,sg_putt,0.8216013312952537,2025-07-20,0.023736981999505417,534,Bellerive CC
-27194,"Hall, Harry",241,Quail Hollow-PGA Championship,sg_putt,0.7961242598354537,2025-05-18,0.011750263293680672,534,Bellerive CC
-27194,"Hall, Harry",926,Silverado Resort (North Course),sg_putt,0.5871352951128217,2023-09-17,0.00822877694042841,534,Bellerive CC
-27194,"Hall, Harry",4,Torrey Pines Golf Course (South Course),sg_putt,1.4519711813108187,2024-01-27,0.006967664587640926,534,Bellerive CC
-27194,"Hall, Harry",908,Oakdale Golf & Country Club,sg_putt,0.5590591485863915,2023-06-11,-0.003166142462284384,534,Bellerive CC
-27194,"Hall, Harry",688,East Lake Golf Club,sg_putt,0.8361058993970355,2025-08-24,-0.003449221940731305,534,Bellerive CC
-27194,"Hall, Harry",5,Pebble Beach Golf Links,sg_putt,1.437486255123407,2026-02-15,-0.008893957615663304,534,Bellerive CC
-27194,"Hall, Harry",618,Shinnecock Hills Golf Club,sg_putt,0.9719022941461366,2026-06-21,-0.02531197721750979,534,Bellerive CC
-27194,"Hall, Harry",500,The Riviera Country Club,sg_putt,0.9157608767233256,2026-02-22,-0.02653433307770789,534,Bellerive CC
-27194,"Hall, Harry",654,The Country Club,sg_putt,0.46766642700990924,2022-06-19,-0.0840837097330838,534,Bellerive CC
-8825,"Harman, Brian",5,Pebble Beach Golf Links,sg_app,2.6269954388050034,2026-02-15,0.03586382432007204,534,Bellerive CC
-8825,"Harman, Brian",704,Pete Dye Stadium Course,sg_app,0.663114442157538,2021-01-24,0.017704147231386747,534,Bellerive CC
-8825,"Harman, Brian",513,TPC Southwind,sg_app,3.3849668059686224,2025-08-10,0.013687187836844755,534,Bellerive CC
-8825,"Harman, Brian",744,Torrey Pines (South),sg_app,0.38984736042289797,2021-06-20,0.01018400333100673,534,Bellerive CC
-8825,"Harman, Brian",724,Royal Liverpool,sg_app,0.5709235307061248,2023-07-23,0.008409047709944184,534,Bellerive CC
-8825,"Harman, Brian",939,Torrey Pines Golf Course (South Course),sg_app,0.7607123363558641,2025-02-16,0.008339445164512505,534,Bellerive CC
-8825,"Harman, Brian",43,The Los Angeles Country Club (North Course),sg_app,0.5610192838421706,2023-06-18,0.007136736705361779,534,Bellerive CC
-8825,"Harman, Brian",24,Congressional CC (Blue),sg_app,0.43264099631433434,2016-06-26,0.0014161015917114386,534,Bellerive CC
-8825,"Harman, Brian",745,iberostar real club de golf novo sancti petri,sg_app,0.11214080609735771,2014-08-24,0.0007973909215815267,534,Bellerive CC
-8825,"Harman, Brian",874,Hamilton Golf & Country Club,sg_app,0.2690118091925064,2019-06-09,0.0007441590355525501,534,Bellerive CC
-8825,"Harman, Brian",694,Hamilton G&CC,sg_app,0.07684230070716673,2012-07-29,-0.0004622965783344568,534,Bellerive CC
-8825,"Harman, Brian",231,Sea Island GC (Plantation),sg_app,0.1407880093149529,2015-11-22,-0.001038874299961195,534,Bellerive CC
-8825,"Harman, Brian",12,Harbour Town Golf Links,sg_app,5.303856009863801,2026-04-19,-0.0032481626382458452,534,Bellerive CC
-8825,"Harman, Brian",895,TPC Harding Park,sg_app,0.33303756085574976,2020-08-09,-0.006783485645684504,534,Bellerive CC
-8825,"Harman, Brian",618,Shinnecock Hills Golf Club,sg_app,1.1969371441197791,2026-06-21,-0.007240526878845606,534,Bellerive CC
-8825,"Harman, Brian",534,Bellerive CC,sg_app,0.23142486855731673,2018-08-12,-0.007570572953129629,534,Bellerive CC
-8825,"Harman, Brian",608,Oakmont Country Club,sg_app,0.8073483850226815,2025-06-15,-0.007904635398325498,534,Bellerive CC
-8825,"Harman, Brian",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,0.7933426955031242,2025-05-11,-0.015362401287016256,534,Bellerive CC
-8825,"Harman, Brian",6,Waialae Country Club,sg_app,5.034743781197005,2026-01-18,-0.02273310784397794,534,Bellerive CC
-8825,"Harman, Brian",500,The Riviera Country Club,sg_app,3.6393282401897546,2026-02-22,-0.0557526208263974,534,Bellerive CC
-8825,"Harman, Brian",23,Muirfield Village Golf Club,sg_app,4.670085214191155,2026-06-07,-0.13604555611000727,534,Bellerive CC
-8825,"Harman, Brian",12,Harbour Town Golf Links,sg_arg,5.303856009863801,2026-04-19,0.02325608161468344,534,Bellerive CC
-8825,"Harman, Brian",882,Caves Valley Golf Club,sg_arg,1.236918253805794,2025-08-17,0.014686713745535849,534,Bellerive CC
-8825,"Harman, Brian",886,Liberty National Golf Club,sg_arg,0.6799435693669023,2021-08-22,0.010688138078327674,534,Bellerive CC
-8825,"Harman, Brian",744,Torrey Pines (South),sg_arg,0.38984736042289797,2021-06-20,0.008266746633395019,534,Bellerive CC
-8825,"Harman, Brian",891,Winged Foot GC,sg_arg,0.340105301169467,2020-09-20,0.006205309018842588,534,Bellerive CC
-8825,"Harman, Brian",235,Eagle Point Golf Club,sg_arg,0.1836910515959608,2017-05-07,0.0025734577384106698,534,Bellerive CC
-8825,"Harman, Brian",611,Southern Hills Country Club,sg_arg,0.4611647152086584,2022-05-22,0.001736996878837243,534,Bellerive CC
-8825,"Harman, Brian",534,Bellerive CC,sg_arg,0.23142486855731673,2018-08-12,0.0008556097881972802,534,Bellerive CC
-8825,"Harman, Brian",873,Ridgewood CC,sg_arg,0.23305052579947047,2018-08-26,0.0007450814930444684,534,Bellerive CC
-8825,"Harman, Brian",874,Hamilton Golf & Country Club,sg_arg,0.2690118091925064,2019-06-09,0.00029027267883250556,534,Bellerive CC
-8825,"Harman, Brian",237,TPC Potomac at Avenel Farm,sg_arg,0.45794783442054204,2022-05-08,-0.0008997892807802737,534,Bellerive CC
-8825,"Harman, Brian",36,Le Triomphe G&CC,sg_arg,0.5338278397445346,2018-08-05,-0.001653925430806725,534,Bellerive CC
-8825,"Harman, Brian",668,St. Andrews Links (Old Course),sg_arg,0.4742598029280199,2022-07-17,-0.0027015434084811238,534,Bellerive CC
-8825,"Harman, Brian",706,Whistling Straits,sg_arg,0.13405568575751547,2015-08-16,-0.0031463579351788807,534,Bellerive CC
-8825,"Harman, Brian",654,The Country Club,sg_arg,0.46766642700990924,2022-06-19,-0.00408698892269832,534,Bellerive CC
-8825,"Harman, Brian",899,The Summit Club,sg_arg,0.4137472495194873,2021-10-17,-0.008778550818546048,534,Bellerive CC
-8825,"Harman, Brian",697,Ocean Course at Kiawah Island,sg_arg,0.3844275247503785,2021-05-23,-0.011569395325221837,534,Bellerive CC
-8825,"Harman, Brian",709,Royal Troon,sg_arg,0.6848879710550762,2024-07-21,-0.023141914865394825,534,Bellerive CC
-8825,"Harman, Brian",23,Muirfield Village Golf Club,sg_ott,4.670085214191155,2026-06-07,0.021045144542381305,534,Bellerive CC
-8825,"Harman, Brian",724,Royal Liverpool,sg_ott,0.5709235307061248,2023-07-23,0.008730546847508102,534,Bellerive CC
-8825,"Harman, Brian",689,El Bosque CC,sg_ott,0.23987041703668358,2016-08-28,0.0024152632511239853,534,Bellerive CC
-8825,"Harman, Brian",822,Las Colinas Country Club,sg_ott,0.1289926310365194,2015-05-31,0.0023625412826259475,534,Bellerive CC
-8825,"Harman, Brian",243,Trinity Forest Golf Club,sg_ott,0.2652718844224401,2019-05-12,0.0019098861455423743,534,Bellerive CC
-8825,"Harman, Brian",240,Club de Golf Chapultepec,sg_ott,0.21352528978563462,2018-03-04,-0.0011866273960258783,534,Bellerive CC
-8825,"Harman, Brian",698,Quail Hollow Club,sg_ott,0.5493229084707769,2016-05-08,-0.0028122336158299364,534,Bellerive CC
-8825,"Harman, Brian",379,The Philadelphia Cricket Club (Wissahickon Course),sg_ott,0.7933426955031242,2025-05-11,-0.0029678394704910054,534,Bellerive CC
-8825,"Harman, Brian",901,Wilmington Country Club,sg_ott,0.48263239599412705,2022-08-21,-0.0030301009173690973,534,Bellerive CC
-8825,"Harman, Brian",895,TPC Harding Park,sg_ott,0.33303756085574976,2020-08-09,-0.007863650817802994,534,Bellerive CC
-8825,"Harman, Brian",729,Golf Club of Houston,sg_ott,1.0067281442647298,2019-10-13,-0.012540827971042586,534,Bellerive CC
-8825,"Harman, Brian",671,Valhalla Golf Club,sg_ott,0.7750088116412319,2024-05-19,-0.016363120452699137,534,Bellerive CC
-8825,"Harman, Brian",534,Bellerive CC,sg_ott,0.23142486855731673,2018-08-12,-0.025908299507845643,534,Bellerive CC
-8825,"Harman, Brian",232,Albany GC,sg_ott,2.2259028848333653,2025-12-07,-0.03240109357367545,534,Bellerive CC
-8825,"Harman, Brian",233,Nicklaus Tournament Course,sg_ott,2.557813474763086,2026-01-25,-0.04328727062651177,534,Bellerive CC
-8825,"Harman, Brian",668,St. Andrews Links (Old Course),sg_putt,0.4742598029280199,2022-07-17,0.02340380838885551,534,Bellerive CC
-8825,"Harman, Brian",6,Waialae Country Club,sg_putt,5.034743781197005,2026-01-18,0.021942277631653063,534,Bellerive CC
-8825,"Harman, Brian",534,Bellerive CC,sg_putt,0.23142486855731673,2018-08-12,0.009705003076489086,534,Bellerive CC
-8825,"Harman, Brian",618,Shinnecock Hills Golf Club,sg_putt,1.1969371441197791,2026-06-21,0.009038543754864443,534,Bellerive CC
-8825,"Harman, Brian",654,The Country Club,sg_putt,0.46766642700990924,2022-06-19,0.006957379375766063,534,Bellerive CC
-8825,"Harman, Brian",528,Pinehurst Resort & Country Club (Course No. 2),sg_putt,0.6730066959373864,2024-06-16,0.006811885482247679,534,Bellerive CC
-8825,"Harman, Brian",891,Winged Foot GC,sg_putt,0.340105301169467,2020-09-20,0.004487801729966059,534,Bellerive CC
-8825,"Harman, Brian",241,Quail Hollow-PGA Championship,sg_putt,0.9890403404703683,2025-05-18,0.0028808903829422167,534,Bellerive CC
-8825,"Harman, Brian",505,Cherry Hills CC,sg_putt,0.11292854561173918,2014-09-07,0.0027083802868831416,534,Bellerive CC
-8825,"Harman, Brian",4,Torrey Pines Golf Course (South Course),sg_putt,0.6943819449087252,2019-01-27,0.002352283102356895,534,Bellerive CC
-8825,"Harman, Brian",36,Le Triomphe G&CC,sg_putt,0.5338278397445346,2018-08-05,0.0015867562068568471,534,Bellerive CC
-8825,"Harman, Brian",885,Royal Portrush Golf Club,sg_putt,0.8216013312952537,2025-07-20,0.001484518865483816,534,Bellerive CC
-8825,"Harman, Brian",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,0.7933426955031242,2025-05-11,0.00026662395356473,534,Bellerive CC
-8825,"Harman, Brian",895,TPC Harding Park,sg_putt,0.33303756085574976,2020-08-09,-0.0003447390067620457,534,Bellerive CC
-8825,"Harman, Brian",237,TPC Potomac at Avenel Farm,sg_putt,0.45794783442054204,2022-05-08,-0.0012145519758964961,534,Bellerive CC
-8825,"Harman, Brian",688,East Lake Golf Club,sg_putt,2.098443251375858,2025-08-24,-0.001418620225417018,534,Bellerive CC
-8825,"Harman, Brian",873,Ridgewood CC,sg_putt,0.23305052579947047,2018-08-26,-0.002048324812758031,534,Bellerive CC
-8825,"Harman, Brian",2000,Sherwood Country Club,sg_putt,0.3461095276899044,2020-10-25,-0.00240927231415434,534,Bellerive CC
-8825,"Harman, Brian",24,Congressional CC (Blue),sg_putt,0.43264099631433434,2016-06-26,-0.0025092503345817124,534,Bellerive CC
-8825,"Harman, Brian",901,Wilmington Country Club,sg_putt,0.48263239599412705,2022-08-21,-0.0035688853066425373,534,Bellerive CC
-8825,"Harman, Brian",880,Bethpage Black,sg_putt,0.2662019627054592,2019-05-19,-0.009400734382920743,534,Bellerive CC
-8825,"Harman, Brian",500,The Riviera Country Club,sg_putt,3.6393282401897546,2026-02-22,-0.010512593590602281,534,Bellerive CC
-8825,"Harman, Brian",5,Pebble Beach Golf Links,sg_putt,2.6269954388050034,2026-02-15,-0.03136463745769001,534,Bellerive CC
 14578,"Henley, Russell",704,Pete Dye Stadium Course,sg_app,2.1459631946148967,2026-01-25,0.03777459729278625,534,Bellerive CC
 14578,"Henley, Russell",23,Muirfield Village Golf Club,sg_app,4.0870867353848555,2026-06-07,0.02561642040713329,534,Bellerive CC
 14578,"Henley, Russell",744,Torrey Pines (South),sg_app,0.38984736042289797,2021-06-20,0.013531267300374995,534,Bellerive CC
@@ -1250,66 +948,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 23602,"Hojgaard, Nicolai",3890,leopard creek cc,sg_total,0.35221975295833163,2020-11-29,-0.018114303270001193,534,Bellerive CC
 23602,"Hojgaard, Nicolai",3994,green eagle golf courses,sg_total,0.46440419316009157,2022-06-05,-0.033676543470418235,534,Bellerive CC
 23602,"Hojgaard, Nicolai",4726,dubai creek resort,sg_total,0.8998744728467833,2026-01-18,-0.03512877362507296,534,Bellerive CC
-17538,"Homa, Max",704,Pete Dye Stadium Course,sg_app,1.2039227199160862,2026-01-25,0.03871683343915619,534,Bellerive CC
-17538,"Homa, Max",500,The Riviera Country Club,sg_app,3.6708336218565853,2026-02-22,0.02827169126968514,534,Bellerive CC
-17538,"Homa, Max",23,Muirfield Village Golf Club,sg_app,2.921534995938077,2025-06-01,0.02570442406063437,534,Bellerive CC
-17538,"Homa, Max",724,Royal Liverpool,sg_app,0.5709235307061248,2023-07-23,0.008092528604159434,534,Bellerive CC
-17538,"Homa, Max",6,Waialae Country Club,sg_app,0.37064221684513854,2019-01-13,0.007813649733269815,534,Bellerive CC
-17538,"Homa, Max",231,Sea Island GC (Plantation),sg_app,0.16889129430230862,2016-11-20,0.007381040948349548,534,Bellerive CC
-17538,"Homa, Max",5,Pebble Beach Golf Links,sg_app,1.422216449114975,2024-02-04,0.00537004245393094,534,Bellerive CC
-17538,"Homa, Max",43,The Los Angeles Country Club (North Course),sg_app,0.5610192838421706,2023-06-18,0.0024331465205374293,534,Bellerive CC
-17538,"Homa, Max",744,Torrey Pines (South),sg_app,0.38984736042289797,2021-06-20,0.0017890975468593852,534,Bellerive CC
-17538,"Homa, Max",898,The Concession Golf Club,sg_app,0.3686159363034188,2021-02-28,0.00030996086223187435,534,Bellerive CC
-17538,"Homa, Max",934,Hurstbourne Country Club,sg_app,0.9821610323583008,2026-07-12,-0.0044819816722605375,534,Bellerive CC
-17538,"Homa, Max",875,ACCORDIA GOLF Narashino Country Club,sg_app,0.7192832851790882,2024-10-27,-0.005488757283121136,534,Bellerive CC
-17538,"Homa, Max",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,0.7933426955031242,2025-05-11,-0.009670351587971335,534,Bellerive CC
-17538,"Homa, Max",12,Harbour Town Golf Links,sg_app,3.2498444876902175,2026-04-19,-0.020174435764009204,534,Bellerive CC
-17538,"Homa, Max",939,Torrey Pines Golf Course (South Course),sg_app,0.7607123363558641,2025-02-16,-0.02422810310724385,534,Bellerive CC
-17538,"Homa, Max",513,TPC Southwind,sg_app,3.076347017375366,2024-08-18,-0.037475962370880744,534,Bellerive CC
-17538,"Homa, Max",895,TPC Harding Park,sg_app,0.33303756085574976,2020-08-09,-0.040028049685646556,534,Bellerive CC
-17538,"Homa, Max",899,The Summit Club,sg_arg,0.4137472495194873,2021-10-17,0.007607547046212931,534,Bellerive CC
-17538,"Homa, Max",886,Liberty National Golf Club,sg_arg,0.6799435693669023,2021-08-22,0.00300160263323055,534,Bellerive CC
-17538,"Homa, Max",654,The Country Club,sg_arg,0.46766642700990924,2022-06-19,0.002707137401375876,534,Bellerive CC
-17538,"Homa, Max",611,Southern Hills Country Club,sg_arg,0.4611647152086584,2022-05-22,0.0008039654831273668,534,Bellerive CC
-17538,"Homa, Max",616,Robert Trent Jones GC,sg_arg,0.1331205726713896,2015-08-02,-6.129554683198578e-05,534,Bellerive CC
-17538,"Homa, Max",882,Caves Valley Golf Club,sg_arg,0.4037336098774634,2021-08-29,-0.0008267413264503744,534,Bellerive CC
-17538,"Homa, Max",714,TPC Louisiana,sg_arg,0.5455286251592933,2023-04-23,-0.002846371386664324,534,Bellerive CC
-17538,"Homa, Max",668,St. Andrews Links (Old Course),sg_arg,0.4742598029280199,2022-07-17,-0.0030810911842700647,534,Bellerive CC
-17538,"Homa, Max",709,Royal Troon,sg_arg,0.6848879710550762,2024-07-21,-0.004353560077305869,534,Bellerive CC
-17538,"Homa, Max",744,Torrey Pines (South),sg_arg,0.38984736042289797,2021-06-20,-0.004398122806293429,534,Bellerive CC
-17538,"Homa, Max",235,Eagle Point Golf Club,sg_arg,0.1836910515959608,2017-05-07,-0.004681614350564816,534,Bellerive CC
-17538,"Homa, Max",237,TPC Potomac at Avenel Farm,sg_arg,0.45794783442054204,2022-05-08,-0.006721169922575576,534,Bellerive CC
-17538,"Homa, Max",12,Harbour Town Golf Links,sg_arg,3.2498444876902175,2026-04-19,-0.006865183836260208,534,Bellerive CC
-17538,"Homa, Max",891,Winged Foot GC,sg_arg,0.340105301169467,2020-09-20,-0.011092107001568489,534,Bellerive CC
-17538,"Homa, Max",697,Ocean Course at Kiawah Island,sg_arg,0.3844275247503785,2021-05-23,-0.015492408774348942,534,Bellerive CC
-17538,"Homa, Max",724,Royal Liverpool,sg_ott,0.5709235307061248,2023-07-23,0.017180535853379635,534,Bellerive CC
-17538,"Homa, Max",379,The Philadelphia Cricket Club (Wissahickon Course),sg_ott,0.7933426955031242,2025-05-11,0.01647963051888732,534,Bellerive CC
-17538,"Homa, Max",232,Albany GC,sg_ott,0.6101807830906798,2023-12-03,0.011554860428774292,534,Bellerive CC
-17538,"Homa, Max",901,Wilmington Country Club,sg_ott,0.48263239599412705,2022-08-21,0.005817835243830514,534,Bellerive CC
-17538,"Homa, Max",893,Muirfield Village Golf Club,sg_ott,0.32840752090714825,2020-07-12,0.005090961577347769,534,Bellerive CC
-17538,"Homa, Max",348,Medinah Country Club (No. 3),sg_ott,0.27859393149960326,2019-08-18,0.0034924820959142317,534,Bellerive CC
-17538,"Homa, Max",23,Muirfield Village Golf Club,sg_ott,2.921534995938077,2025-06-01,0.0021831332798605855,534,Bellerive CC
-17538,"Homa, Max",895,TPC Harding Park,sg_ott,0.33303756085574976,2020-08-09,0.001308819643003698,534,Bellerive CC
-17538,"Homa, Max",698,Quail Hollow Club,sg_ott,0.12809283557753198,2015-05-17,-0.00039314544339442346,534,Bellerive CC
-17538,"Homa, Max",729,Golf Club of Houston,sg_ott,0.12543093382299692,2015-04-05,-0.0036648077567092794,534,Bellerive CC
-17538,"Homa, Max",671,Valhalla Golf Club,sg_ott,0.6636502501363193,2024-05-19,-0.02044928972351418,534,Bellerive CC
-17538,"Homa, Max",233,Nicklaus Tournament Course,sg_ott,0.7873422703292513,2021-01-24,-0.03981075551854955,534,Bellerive CC
-17538,"Homa, Max",500,The Riviera Country Club,sg_putt,3.6708336218565853,2026-02-22,0.04598969286017315,534,Bellerive CC
-17538,"Homa, Max",895,TPC Harding Park,sg_putt,0.33303756085574976,2020-08-09,0.019363935410890036,534,Bellerive CC
-17538,"Homa, Max",237,TPC Potomac at Avenel Farm,sg_putt,0.45794783442054204,2022-05-08,0.016199166724650015,534,Bellerive CC
-17538,"Homa, Max",926,Silverado Resort (North Course),sg_putt,2.136402392276944,2025-09-14,0.01234479926286223,534,Bellerive CC
-17538,"Homa, Max",688,East Lake Golf Club,sg_putt,1.0653271963189643,2023-08-27,0.01038418807038369,534,Bellerive CC
-17538,"Homa, Max",241,Quail Hollow-PGA Championship,sg_putt,0.7961242598354537,2025-05-18,0.005181896929899405,534,Bellerive CC
-17538,"Homa, Max",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,0.7933426955031242,2025-05-11,0.004959813580594916,534,Bellerive CC
-17538,"Homa, Max",5,Pebble Beach Golf Links,sg_putt,1.422216449114975,2024-02-04,0.004180148606780852,534,Bellerive CC
-17538,"Homa, Max",6,Waialae Country Club,sg_putt,0.37064221684513854,2019-01-13,0.0006970185625538801,534,Bellerive CC
-17538,"Homa, Max",901,Wilmington Country Club,sg_putt,0.48263239599412705,2022-08-21,-0.0007988674937952784,534,Bellerive CC
-17538,"Homa, Max",528,Pinehurst Resort & Country Club (Course No. 2),sg_putt,0.6730066959373864,2024-06-16,-0.003824488142423769,534,Bellerive CC
-17538,"Homa, Max",668,St. Andrews Links (Old Course),sg_putt,0.4742598029280199,2022-07-17,-0.006011600154256207,534,Bellerive CC
-17538,"Homa, Max",880,Bethpage Black,sg_putt,0.2662019627054592,2019-05-19,-0.00883235049469985,534,Bellerive CC
-17538,"Homa, Max",891,Winged Foot GC,sg_putt,0.340105301169467,2020-09-20,-0.016027655683683827,534,Bellerive CC
-17538,"Homa, Max",654,The Country Club,sg_putt,0.46766642700990924,2022-06-19,-0.03473925285846198,534,Bellerive CC
-17538,"Homa, Max",4,Torrey Pines Golf Course (South Course),sg_putt,3.662920652844265,2026-02-01,-0.07906450601374763,534,Bellerive CC
 18841,"Hovland, Viktor",513,TPC Southwind,sg_app,3.314103928608413,2025-08-10,0.026065646518764883,534,Bellerive CC
 18841,"Hovland, Viktor",608,Oakmont Country Club,sg_app,0.8073483850226815,2025-06-15,0.018831283030570564,534,Bellerive CC
 18841,"Hovland, Viktor",618,Shinnecock Hills Golf Club,sg_app,0.9719022941461366,2026-06-21,0.018569282457832337,534,Bellerive CC
@@ -1442,62 +1080,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 24766,"Kim, Joohyung",901,Wilmington Country Club,sg_putt,0.48263239599412705,2022-08-21,-0.008981384352430089,534,Bellerive CC
 24766,"Kim, Joohyung",895,TPC Harding Park,sg_putt,0.33303756085574976,2020-08-09,-0.02286292119225835,534,Bellerive CC
 24766,"Kim, Joohyung",4236,jumeirah golf estates,sg_total,0.6059244322171875,2023-11-19,0.0020332672630964965,534,Bellerive CC
-17543,"Kim, Michael",874,Hamilton Golf & Country Club,sg_app,0.6683120993235603,2024-06-02,0.015097350416204752,534,Bellerive CC
-17543,"Kim, Michael",5,Pebble Beach Golf Links,sg_app,1.2786059509560266,2026-02-15,0.01127852409266345,534,Bellerive CC
-17543,"Kim, Michael",939,Torrey Pines Golf Course (South Course),sg_app,0.7607123363558641,2025-02-16,0.010768898447272024,534,Bellerive CC
-17543,"Kim, Michael",908,Oakdale Golf & Country Club,sg_app,0.5590591485863915,2023-06-11,0.00973614017828581,534,Bellerive CC
-17543,"Kim, Michael",608,Oakmont Country Club,sg_app,0.8073483850226815,2025-06-15,0.004477871752734074,534,Bellerive CC
-17543,"Kim, Michael",231,Sea Island GC (Plantation),sg_app,0.3096793036172615,2016-11-20,0.0037421200892166205,534,Bellerive CC
-17543,"Kim, Michael",24,Congressional CC (Blue),sg_app,0.1569230062457882,2016-06-26,-0.001243115588526781,534,Bellerive CC
-17543,"Kim, Michael",925,Dunes Golf and Beach Club,sg_app,0.6613315343804369,2024-05-12,-0.0019010034146416134,534,Bellerive CC
-17543,"Kim, Michael",513,TPC Southwind,sg_app,1.2103505805731003,2025-08-10,-0.0028632293998272665,534,Bellerive CC
-17543,"Kim, Michael",12,Harbour Town Golf Links,sg_app,3.243412487144203,2026-04-19,-0.0031753562378061865,534,Bellerive CC
-17543,"Kim, Michael",23,Muirfield Village Golf Club,sg_app,2.328720570637277,2026-06-07,-0.005482884950134087,534,Bellerive CC
-17543,"Kim, Michael",6,Waialae Country Club,sg_app,3.9276969393590244,2026-01-18,-0.012975587840485822,534,Bellerive CC
-17543,"Kim, Michael",618,Shinnecock Hills Golf Club,sg_app,0.9719022941461366,2026-06-21,-0.018624302234644532,534,Bellerive CC
-17543,"Kim, Michael",43,The Los Angeles Country Club (North Course),sg_app,0.5610192838421706,2023-06-18,-0.020055428080053454,534,Bellerive CC
-17543,"Kim, Michael",724,Royal Liverpool,sg_app,0.5709235307061248,2023-07-23,-0.02008138522690963,534,Bellerive CC
-17543,"Kim, Michael",500,The Riviera Country Club,sg_app,1.7062530885818508,2026-02-22,-0.032685122326792826,534,Bellerive CC
-17543,"Kim, Michael",534,Bellerive CC,sg_app,0.23142486855731673,2018-08-12,-0.0340039875946802,534,Bellerive CC
-17543,"Kim, Michael",704,Pete Dye Stadium Course,sg_app,2.6209169814114692,2026-01-25,-0.05781762844156985,534,Bellerive CC
-17543,"Kim, Michael",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,0.7933426955031242,2025-05-11,-0.07826173911970798,534,Bellerive CC
-17543,"Kim, Michael",978,Vidanta Vallarta,sg_arg,1.94717498467379,2025-02-23,0.031077219365920523,534,Bellerive CC
-17543,"Kim, Michael",882,Caves Valley Golf Club,sg_arg,0.8331846439283305,2025-08-17,0.020308801407397808,534,Bellerive CC
-17543,"Kim, Michael",714,TPC Louisiana,sg_arg,0.5455286251592933,2023-04-23,0.012664729666140536,534,Bellerive CC
-17543,"Kim, Michael",12,Harbour Town Golf Links,sg_arg,3.243412487144203,2026-04-19,0.00933591122815734,534,Bellerive CC
-17543,"Kim, Michael",874,Hamilton Golf & Country Club,sg_arg,0.6683120993235603,2024-06-02,0.008637639120507882,534,Bellerive CC
-17543,"Kim, Michael",534,Bellerive CC,sg_arg,0.23142486855731673,2018-08-12,0.0017669555753055267,534,Bellerive CC
-17543,"Kim, Michael",237,TPC Potomac at Avenel Farm,sg_arg,0.41552270489243837,2018-07-01,2.206541989466046e-05,534,Bellerive CC
-17543,"Kim, Michael",873,Ridgewood CC,sg_arg,0.23305052579947047,2018-08-26,-0.0005391325597953648,534,Bellerive CC
-17543,"Kim, Michael",921,TPC Craig Ranch,sg_arg,1.2103077734628478,2024-05-05,-0.007490583138274695,534,Bellerive CC
-17543,"Kim, Michael",233,Nicklaus Tournament Course,sg_ott,0.7501365667709818,2025-01-19,0.029354788973501765,534,Bellerive CC
-17543,"Kim, Michael",724,Royal Liverpool,sg_ott,0.5709235307061248,2023-07-23,0.01740102762696398,534,Bellerive CC
-17543,"Kim, Michael",925,Dunes Golf and Beach Club,sg_ott,0.6613315343804369,2024-05-12,0.011153989267813656,534,Bellerive CC
-17543,"Kim, Michael",931,Tahoe Mountain Club (Old Greenwood),sg_ott,0.6848879710550762,2024-07-21,0.007152693388697044,534,Bellerive CC
-17543,"Kim, Michael",379,The Philadelphia Cricket Club (Wissahickon Course),sg_ott,0.7933426955031242,2025-05-11,0.0015431244300967539,534,Bellerive CC
-17543,"Kim, Michael",689,El Bosque CC,sg_ott,0.16194475830825758,2016-08-28,-0.0021650171658192043,534,Bellerive CC
-17543,"Kim, Michael",698,Quail Hollow Club,sg_ott,0.15312510683276892,2016-05-08,-0.005830530370456761,534,Bellerive CC
-17543,"Kim, Michael",893,Muirfield Village Golf Club,sg_ott,0.32840752090714825,2020-07-12,-0.014434826765718094,534,Bellerive CC
-17543,"Kim, Michael",921,TPC Craig Ranch,sg_ott,1.2103077734628478,2024-05-05,-0.014734587636419804,534,Bellerive CC
-17543,"Kim, Michael",534,Bellerive CC,sg_ott,0.23142486855731673,2018-08-12,-0.017062272076967352,534,Bellerive CC
-17543,"Kim, Michael",243,Trinity Forest Golf Club,sg_ott,0.48717819735501044,2019-05-12,-0.02041596507999651,534,Bellerive CC
-17543,"Kim, Michael",729,Golf Club of Houston,sg_ott,0.8340136152643098,2019-10-13,-0.02595692946277729,534,Bellerive CC
-17543,"Kim, Michael",23,Muirfield Village Golf Club,sg_ott,2.328720570637277,2026-06-07,-0.034979737770415485,534,Bellerive CC
-17543,"Kim, Michael",6,Waialae Country Club,sg_putt,3.9276969393590244,2026-01-18,0.027451992319582206,534,Bellerive CC
-17543,"Kim, Michael",618,Shinnecock Hills Golf Club,sg_putt,0.9719022941461366,2026-06-21,0.004391300752770146,534,Bellerive CC
-17543,"Kim, Michael",873,Ridgewood CC,sg_putt,0.23305052579947047,2018-08-26,0.004115833710562368,534,Bellerive CC
-17543,"Kim, Michael",24,Congressional CC (Blue),sg_putt,0.1569230062457882,2016-06-26,0.0027264777790953023,534,Bellerive CC
-17543,"Kim, Michael",880,Bethpage Black,sg_putt,0.2662019627054592,2019-05-19,-0.001094918108517921,534,Bellerive CC
-17543,"Kim, Michael",241,Quail Hollow-PGA Championship,sg_putt,0.7961242598354537,2025-05-18,-0.003863930837554522,534,Bellerive CC
-17543,"Kim, Michael",4,Torrey Pines Golf Course (South Course),sg_putt,1.4257678371982616,2025-01-25,-0.006781578698839465,534,Bellerive CC
-17543,"Kim, Michael",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,0.7933426955031242,2025-05-11,-0.007431256004059961,534,Bellerive CC
-17543,"Kim, Michael",926,Silverado Resort (North Course),sg_putt,0.7043358337451862,2024-09-15,-0.008940058741608248,534,Bellerive CC
-17543,"Kim, Michael",908,Oakdale Golf & Country Club,sg_putt,0.5590591485863915,2023-06-11,-0.008963099578419249,534,Bellerive CC
-17543,"Kim, Michael",5,Pebble Beach Golf Links,sg_putt,1.2786059509560266,2026-02-15,-0.009715254585044433,534,Bellerive CC
-17543,"Kim, Michael",534,Bellerive CC,sg_putt,0.23142486855731673,2018-08-12,-0.01106474445062463,534,Bellerive CC
-17543,"Kim, Michael",237,TPC Potomac at Avenel Farm,sg_putt,0.41552270489243837,2018-07-01,-0.015445326995463091,534,Bellerive CC
-17543,"Kim, Michael",885,Royal Portrush Golf Club,sg_putt,0.8216013312952537,2025-07-20,-0.017612061837212412,534,Bellerive CC
-17543,"Kim, Michael",500,The Riviera Country Club,sg_putt,1.7062530885818508,2026-02-22,-0.030226387552738196,534,Bellerive CC
 14609,"Kim, Si Woo",704,Pete Dye Stadium Course,sg_app,2.7007381222310762,2026-01-25,0.036877494685543556,534,Bellerive CC
 14609,"Kim, Si Woo",6,Waialae Country Club,sg_app,4.187017460803059,2026-01-18,0.028701444655183338,534,Bellerive CC
 14609,"Kim, Si Woo",618,Shinnecock Hills Golf Club,sg_app,1.1969371441197791,2026-06-21,0.02802638240281237,534,Bellerive CC
@@ -1689,13 +1271,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 19396,"Knapp, Jake",528,Pinehurst Resort & Country Club (Course No. 2),sg_putt,0.6730066959373864,2024-06-16,-0.003642629661087377,534,Bellerive CC
 19396,"Knapp, Jake",908,Oakdale Golf & Country Club,sg_putt,0.5590591485863915,2023-06-11,-0.01774419549618718,534,Bellerive CC
 19396,"Knapp, Jake",90,TPC Colorado,sg_total,0.5689287911791218,2023-07-16,0.0027724058110116757,534,Bellerive CC
-32319,"Koivun, Jackson",608,Oakmont Country Club,sg_app,0.8073483850226815,2025-06-15,0.031797607505328486,534,Bellerive CC
-32319,"Koivun, Jackson",934,Hurstbourne Country Club,sg_app,1.8008917854362827,2026-07-12,0.0036513272410644637,534,Bellerive CC
-32319,"Koivun, Jackson",618,Shinnecock Hills Golf Club,sg_app,0.9719022941461366,2026-06-21,0.0024222724917412003,534,Bellerive CC
-32319,"Koivun, Jackson",23,Muirfield Village Golf Club,sg_app,0.6706552898626296,2024-06-09,-0.04265961724277784,534,Bellerive CC
-32319,"Koivun, Jackson",23,Muirfield Village Golf Club,sg_ott,0.6706552898626296,2024-06-09,0.003779741681044628,534,Bellerive CC
-32319,"Koivun, Jackson",926,Silverado Resort (North Course),sg_putt,0.8449312634189364,2025-09-14,0.018560173464169934,534,Bellerive CC
-32319,"Koivun, Jackson",618,Shinnecock Hills Golf Club,sg_putt,0.9719022941461366,2026-06-21,-0.0050532564327696984,534,Bellerive CC
 16841,"Lee, Min Woo",5,Pebble Beach Golf Links,sg_app,1.6679672601942328,2026-02-15,0.06603715146124636,534,Bellerive CC
 16841,"Lee, Min Woo",618,Shinnecock Hills Golf Club,sg_app,0.9719022941461366,2026-06-21,0.024600943532167005,534,Bellerive CC
 16841,"Lee, Min Woo",43,The Los Angeles Country Club (North Course),sg_app,0.5610192838421706,2023-06-18,0.024077239732257734,534,Bellerive CC
@@ -1733,77 +1308,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 16841,"Lee, Min Woo",885,Royal Portrush Golf Club,sg_putt,0.8216013312952537,2025-07-20,-0.013743161260367924,534,Bellerive CC
 16841,"Lee, Min Woo",241,Quail Hollow-PGA Championship,sg_putt,0.7961242598354537,2025-05-18,-0.01617375184140034,534,Bellerive CC
 16841,"Lee, Min Woo",618,Shinnecock Hills Golf Club,sg_putt,0.9719022941461366,2026-06-21,-0.03444340029491223,534,Bellerive CC
-13900,"Lowry, Shane",23,Muirfield Village Golf Club,sg_app,4.675073440717115,2026-06-07,0.0521357221086863,534,Bellerive CC
-13900,"Lowry, Shane",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,0.7933426955031242,2025-05-11,0.029964649514572977,534,Bellerive CC
-13900,"Lowry, Shane",618,Shinnecock Hills Golf Club,sg_app,1.1969371441197791,2026-06-21,0.016162060353182753,534,Bellerive CC
-13900,"Lowry, Shane",744,Torrey Pines (South),sg_app,0.38984736042289797,2021-06-20,0.009735678377392126,534,Bellerive CC
-13900,"Lowry, Shane",5,Pebble Beach Golf Links,sg_app,1.246251535230734,2026-02-15,0.005236242431625322,534,Bellerive CC
-13900,"Lowry, Shane",895,TPC Harding Park,sg_app,0.33303756085574976,2020-08-09,0.004824463152784897,534,Bellerive CC
-13900,"Lowry, Shane",666,Pebble Beach Golf Links,sg_app,0.26995500014600815,2019-06-16,0.0018696558319644453,534,Bellerive CC
-13900,"Lowry, Shane",874,Hamilton Golf & Country Club,sg_app,0.9373239085160667,2024-06-02,-0.0013930753819867507,534,Bellerive CC
-13900,"Lowry, Shane",608,Oakmont Country Club,sg_app,0.8073483850226815,2025-06-15,-0.001645869730469399,534,Bellerive CC
-13900,"Lowry, Shane",534,Bellerive CC,sg_app,0.23142486855731673,2018-08-12,-0.003939469645955357,534,Bellerive CC
-13900,"Lowry, Shane",500,The Riviera Country Club,sg_app,1.8331623666534913,2026-02-22,-0.0062216892344650505,534,Bellerive CC
-13900,"Lowry, Shane",898,The Concession Golf Club,sg_app,0.3686159363034188,2021-02-28,-0.0075849474408117,534,Bellerive CC
-13900,"Lowry, Shane",513,TPC Southwind,sg_app,2.961402722958462,2025-08-10,-0.0111664282133857,534,Bellerive CC
-13900,"Lowry, Shane",908,Oakdale Golf & Country Club,sg_app,0.5590591485863915,2023-06-11,-0.01288099314231672,534,Bellerive CC
-13900,"Lowry, Shane",724,Royal Liverpool,sg_app,0.5709235307061248,2023-07-23,-0.014301325405542513,534,Bellerive CC
-13900,"Lowry, Shane",43,The Los Angeles Country Club (North Course),sg_app,0.5610192838421706,2023-06-18,-0.014515464537489732,534,Bellerive CC
-13900,"Lowry, Shane",939,Torrey Pines Golf Course (South Course),sg_app,0.7607123363558641,2025-02-16,-0.016991449758210035,534,Bellerive CC
-13900,"Lowry, Shane",12,Harbour Town Golf Links,sg_app,4.5250410806241765,2026-04-19,-0.022821227766402677,534,Bellerive CC
-13900,"Lowry, Shane",886,Liberty National Golf Club,sg_arg,0.6799435693669023,2021-08-22,0.014612215948870676,534,Bellerive CC
-13900,"Lowry, Shane",714,TPC Louisiana,sg_arg,1.732875172752288,2026-04-26,0.012713781598688372,534,Bellerive CC
-13900,"Lowry, Shane",882,Caves Valley Golf Club,sg_arg,1.236918253805794,2025-08-17,0.008823159740786053,534,Bellerive CC
-13900,"Lowry, Shane",697,Ocean Course at Kiawah Island,sg_arg,0.3844275247503785,2021-05-23,0.006253701003742795,534,Bellerive CC
-13900,"Lowry, Shane",668,St. Andrews Links (Old Course),sg_arg,0.4742598029280199,2022-07-17,0.005750576011534392,534,Bellerive CC
-13900,"Lowry, Shane",654,The Country Club,sg_arg,0.46766642700990924,2022-06-19,0.0030368206009789597,534,Bellerive CC
-13900,"Lowry, Shane",874,Hamilton Golf & Country Club,sg_arg,0.9373239085160667,2024-06-02,0.0030315028762074037,534,Bellerive CC
-13900,"Lowry, Shane",250,Le Golf National,sg_arg,0.6896990058291281,2024-08-04,0.0009577745409338226,534,Bellerive CC
-13900,"Lowry, Shane",933,East Lake Golf Club,sg_arg,0.6994226989427291,2024-09-01,0.0009017409112751587,534,Bellerive CC
-13900,"Lowry, Shane",611,Southern Hills Country Club,sg_arg,0.4611647152086584,2022-05-22,0.0007014888560509643,534,Bellerive CC
-13900,"Lowry, Shane",36,Le Triomphe G&CC,sg_arg,0.4282327307976663,2016-07-03,-0.0004206353155778969,534,Bellerive CC
-13900,"Lowry, Shane",235,Eagle Point Golf Club,sg_arg,0.1836910515959608,2017-05-07,-0.0007340166433181164,534,Bellerive CC
-13900,"Lowry, Shane",899,The Summit Club,sg_arg,0.4137472495194873,2021-10-17,-0.0011018854053213914,534,Bellerive CC
-13900,"Lowry, Shane",706,Whistling Straits,sg_arg,0.13405568575751547,2015-08-16,-0.0022492723918340896,534,Bellerive CC
-13900,"Lowry, Shane",534,Bellerive CC,sg_arg,0.23142486855731673,2018-08-12,-0.0023125379463053877,534,Bellerive CC
-13900,"Lowry, Shane",744,Torrey Pines (South),sg_arg,0.38984736042289797,2021-06-20,-0.0026592575285877508,534,Bellerive CC
-13900,"Lowry, Shane",709,Royal Troon,sg_arg,0.6848879710550762,2024-07-21,-0.003163127570282662,534,Bellerive CC
-13900,"Lowry, Shane",12,Harbour Town Golf Links,sg_arg,4.5250410806241765,2026-04-19,-0.004050688578702452,534,Bellerive CC
-13900,"Lowry, Shane",891,Winged Foot GC,sg_arg,0.340105301169467,2020-09-20,-0.008813195759408591,534,Bellerive CC
-13900,"Lowry, Shane",724,Royal Liverpool,sg_ott,0.5709235307061248,2023-07-23,0.0136258385705284,534,Bellerive CC
-13900,"Lowry, Shane",534,Bellerive CC,sg_ott,0.23142486855731673,2018-08-12,0.008487147306090174,534,Bellerive CC
-13900,"Lowry, Shane",379,The Philadelphia Cricket Club (Wissahickon Course),sg_ott,0.7933426955031242,2025-05-11,0.006623632771762247,534,Bellerive CC
-13900,"Lowry, Shane",698,Quail Hollow Club,sg_ott,0.15312510683276892,2016-05-08,0.002171548546056778,534,Bellerive CC
-13900,"Lowry, Shane",348,Medinah Country Club (No. 3),sg_ott,0.27859393149960326,2019-08-18,0.00042634448690093726,534,Bellerive CC
-13900,"Lowry, Shane",240,Club de Golf Chapultepec,sg_ott,0.561458160471807,2020-02-23,0.00011542823799701685,534,Bellerive CC
-13900,"Lowry, Shane",895,TPC Harding Park,sg_ott,0.33303756085574976,2020-08-09,-0.0002467525310483873,534,Bellerive CC
-13900,"Lowry, Shane",901,Wilmington Country Club,sg_ott,0.48263239599412705,2022-08-21,-0.000498436479822959,534,Bellerive CC
-13900,"Lowry, Shane",671,Valhalla Golf Club,sg_ott,0.7750088116412319,2024-05-19,-0.0021992381755702784,534,Bellerive CC
-13900,"Lowry, Shane",729,Golf Club of Houston,sg_ott,0.45386071760146784,2018-04-01,-0.006296703318969159,534,Bellerive CC
-13900,"Lowry, Shane",893,Muirfield Village Golf Club,sg_ott,0.32840752090714825,2020-07-12,-0.013302893591575165,534,Bellerive CC
-13900,"Lowry, Shane",23,Muirfield Village Golf Club,sg_ott,4.675073440717115,2026-06-07,-0.019072134537432037,534,Bellerive CC
-13900,"Lowry, Shane",534,Bellerive CC,sg_putt,0.23142486855731673,2018-08-12,0.02583259261024545,534,Bellerive CC
-13900,"Lowry, Shane",688,East Lake Golf Club,sg_putt,0.8361058993970355,2025-08-24,0.018748614613263475,534,Bellerive CC
-13900,"Lowry, Shane",5,Pebble Beach Golf Links,sg_putt,1.246251535230734,2026-02-15,0.016956922908060067,534,Bellerive CC
-13900,"Lowry, Shane",528,Pinehurst Resort & Country Club (Course No. 2),sg_putt,0.6730066959373864,2024-06-16,0.013221173975478928,534,Bellerive CC
-13900,"Lowry, Shane",885,Royal Portrush Golf Club,sg_putt,0.8216013312952537,2025-07-20,0.010143818795102157,534,Bellerive CC
-13900,"Lowry, Shane",891,Winged Foot GC,sg_putt,0.340105301169467,2020-09-20,0.008132111596189174,534,Bellerive CC
-13900,"Lowry, Shane",880,Bethpage Black,sg_putt,0.2662019627054592,2019-05-19,0.006852665036747071,534,Bellerive CC
-13900,"Lowry, Shane",4,Torrey Pines Golf Course (South Course),sg_putt,0.9240683427413037,2024-01-27,0.006713702960545742,534,Bellerive CC
-13900,"Lowry, Shane",666,Pebble Beach Golf Links,sg_putt,0.26995500014600815,2019-06-16,0.005694001453439681,534,Bellerive CC
-13900,"Lowry, Shane",500,The Riviera Country Club,sg_putt,1.8331623666534913,2026-02-22,0.0028698269743969167,534,Bellerive CC
-13900,"Lowry, Shane",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,0.7933426955031242,2025-05-11,0.002820045663611426,534,Bellerive CC
-13900,"Lowry, Shane",895,TPC Harding Park,sg_putt,0.33303756085574976,2020-08-09,0.001325018799520988,534,Bellerive CC
-13900,"Lowry, Shane",241,Quail Hollow-PGA Championship,sg_putt,0.9890403404703683,2025-05-18,0.0012280966651040932,534,Bellerive CC
-13900,"Lowry, Shane",36,Le Triomphe G&CC,sg_putt,0.4282327307976663,2016-07-03,0.0010360957564711823,534,Bellerive CC
-13900,"Lowry, Shane",901,Wilmington Country Club,sg_putt,0.48263239599412705,2022-08-21,-0.0001367657352227661,534,Bellerive CC
-13900,"Lowry, Shane",908,Oakdale Golf & Country Club,sg_putt,0.5590591485863915,2023-06-11,-0.002305946091938742,534,Bellerive CC
-13900,"Lowry, Shane",772,St. George's G&CC,sg_putt,0.4660324556332957,2022-06-12,-0.004050524613759534,534,Bellerive CC
-13900,"Lowry, Shane",668,St. Andrews Links (Old Course),sg_putt,0.4742598029280199,2022-07-17,-0.00518320575450775,534,Bellerive CC
-13900,"Lowry, Shane",654,The Country Club,sg_putt,0.46766642700990924,2022-06-19,-0.031430518746765654,534,Bellerive CC
-13900,"Lowry, Shane",618,Shinnecock Hills Golf Club,sg_putt,1.1969371441197791,2026-06-21,-0.03810830191737618,534,Bellerive CC
-13900,"Lowry, Shane",4726,dubai creek resort,sg_total,0.8998744728467833,2026-01-18,0.014695565173151015,534,Bellerive CC
-13900,"Lowry, Shane",4236,jumeirah golf estates,sg_total,0.6059244322171875,2023-11-19,0.0006764007007182047,534,Bellerive CC
 23323,"MacIntyre, Robert",6,Waialae Country Club,sg_app,2.2705202220425322,2026-01-18,0.02170388696895271,534,Bellerive CC
 23323,"MacIntyre, Robert",744,Torrey Pines (South),sg_app,0.38984736042289797,2021-06-20,0.01667600565847048,534,Bellerive CC
 23323,"MacIntyre, Robert",925,Dunes Golf and Beach Club,sg_app,0.6613315343804369,2024-05-12,0.010722192271493057,534,Bellerive CC
@@ -2084,63 +1588,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 18634,"McNealy, Maverick",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,0.7933426955031242,2025-05-11,-0.012550318930768606,534,Bellerive CC
 18634,"McNealy, Maverick",4,Torrey Pines Golf Course (South Course),sg_putt,1.8536610806631475,2025-01-25,-0.017278862733028758,534,Bellerive CC
 18634,"McNealy, Maverick",5,Pebble Beach Golf Links,sg_putt,3.616661630445418,2026-02-15,-0.01866529240376022,534,Bellerive CC
-17365,"Mitchell, Keith",704,Pete Dye Stadium Course,sg_app,2.1058027226032454,2025-01-19,0.08460344136179428,534,Bellerive CC
-17365,"Mitchell, Keith",5,Pebble Beach Golf Links,sg_app,2.8130388628971996,2026-02-15,0.038302516147609655,534,Bellerive CC
-17365,"Mitchell, Keith",513,TPC Southwind,sg_app,1.5578285494957158,2023-08-13,0.010271398272741969,534,Bellerive CC
-17365,"Mitchell, Keith",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,0.7933426955031242,2025-05-11,0.008423988251747862,534,Bellerive CC
-17365,"Mitchell, Keith",895,TPC Harding Park,sg_app,0.33303756085574976,2020-08-09,0.006143907029152186,534,Bellerive CC
-17365,"Mitchell, Keith",500,The Riviera Country Club,sg_app,0.7829734978741919,2023-02-19,0.0023540084696638923,534,Bellerive CC
-17365,"Mitchell, Keith",874,Hamilton Golf & Country Club,sg_app,0.6683120993235603,2024-06-02,0.002318432581071703,534,Bellerive CC
-17365,"Mitchell, Keith",944,TPC Craig Ranch,sg_app,0.958390465520947,2026-05-24,0.001193381758050561,534,Bellerive CC
-17365,"Mitchell, Keith",618,Shinnecock Hills Golf Club,sg_app,0.9719022941461366,2026-06-21,-0.0001784674240226811,534,Bellerive CC
-17365,"Mitchell, Keith",6,Waialae Country Club,sg_app,4.342073562586026,2026-01-18,-0.005377222787662686,534,Bellerive CC
-17365,"Mitchell, Keith",231,Sea Island GC (Plantation),sg_app,0.24304710662623008,2018-11-18,-0.008116105328140697,534,Bellerive CC
-17365,"Mitchell, Keith",43,The Los Angeles Country Club (North Course),sg_app,0.5610192838421706,2023-06-18,-0.009497331372564548,534,Bellerive CC
-17365,"Mitchell, Keith",666,Pebble Beach Golf Links,sg_app,0.26995500014600815,2019-06-16,-0.010929650310310613,534,Bellerive CC
-17365,"Mitchell, Keith",908,Oakdale Golf & Country Club,sg_app,0.5590591485863915,2023-06-11,-0.011721045151473248,534,Bellerive CC
-17365,"Mitchell, Keith",23,Muirfield Village Golf Club,sg_app,1.842606036220126,2023-06-04,-0.01446000398887049,534,Bellerive CC
-17365,"Mitchell, Keith",12,Harbour Town Golf Links,sg_app,1.349157730858472,2023-04-16,-0.03215617534417896,534,Bellerive CC
-17365,"Mitchell, Keith",886,Liberty National Golf Club,sg_arg,0.6799435693669023,2021-08-22,0.014297237399815964,534,Bellerive CC
-17365,"Mitchell, Keith",714,TPC Louisiana,sg_arg,2.278403797911581,2026-04-26,0.012266037247986836,534,Bellerive CC
-17365,"Mitchell, Keith",668,St. Andrews Links (Old Course),sg_arg,0.4742598029280199,2022-07-17,0.011972445233476663,534,Bellerive CC
-17365,"Mitchell, Keith",874,Hamilton Golf & Country Club,sg_arg,0.6683120993235603,2024-06-02,0.008483390307267467,534,Bellerive CC
-17365,"Mitchell, Keith",899,The Summit Club,sg_arg,0.4137472495194873,2021-10-17,0.0061555134606451544,534,Bellerive CC
-17365,"Mitchell, Keith",921,TPC Craig Ranch,sg_arg,0.6590209199441207,2024-05-05,0.004368364169730689,534,Bellerive CC
-17365,"Mitchell, Keith",882,Caves Valley Golf Club,sg_arg,0.4037336098774634,2021-08-29,-0.0008588024516966906,534,Bellerive CC
-17365,"Mitchell, Keith",873,Ridgewood CC,sg_arg,0.23305052579947047,2018-08-26,-0.003524274110698911,534,Bellerive CC
-17365,"Mitchell, Keith",611,Southern Hills Country Club,sg_arg,0.4611647152086584,2022-05-22,-0.00407448565264104,534,Bellerive CC
-17365,"Mitchell, Keith",978,Vidanta Vallarta,sg_arg,0.636354169725087,2024-02-25,-0.0071580151724962415,534,Bellerive CC
-17365,"Mitchell, Keith",237,TPC Potomac at Avenel Farm,sg_arg,0.684563454584861,2022-05-08,-0.007254046867049108,534,Bellerive CC
-17365,"Mitchell, Keith",12,Harbour Town Golf Links,sg_arg,1.349157730858472,2023-04-16,-0.010593100344574675,534,Bellerive CC
-17365,"Mitchell, Keith",233,Nicklaus Tournament Course,sg_ott,0.9030295516688768,2026-01-25,0.05384269164396868,534,Bellerive CC
-17365,"Mitchell, Keith",671,Valhalla Golf Club,sg_ott,0.6636502501363193,2024-05-19,0.022392822274198906,534,Bellerive CC
-17365,"Mitchell, Keith",243,Trinity Forest Golf Club,sg_ott,0.48717819735501044,2019-05-12,0.005847392559104262,534,Bellerive CC
-17365,"Mitchell, Keith",901,Wilmington Country Club,sg_ott,0.48263239599412705,2022-08-21,0.005140273170909523,534,Bellerive CC
-17365,"Mitchell, Keith",895,TPC Harding Park,sg_ott,0.33303756085574976,2020-08-09,0.00511285660365799,534,Bellerive CC
-17365,"Mitchell, Keith",921,TPC Craig Ranch,sg_ott,0.6590209199441207,2024-05-05,0.00481644624471409,534,Bellerive CC
-17365,"Mitchell, Keith",379,The Philadelphia Cricket Club (Wissahickon Course),sg_ott,0.7933426955031242,2025-05-11,0.004132507872766066,534,Bellerive CC
-17365,"Mitchell, Keith",729,Golf Club of Houston,sg_ott,0.21653566731600704,2018-04-01,0.0014615632307244573,534,Bellerive CC
-17365,"Mitchell, Keith",931,Tahoe Mountain Club (Old Greenwood),sg_ott,0.6848879710550762,2024-07-21,0.0001633755427004236,534,Bellerive CC
-17365,"Mitchell, Keith",23,Muirfield Village Golf Club,sg_ott,1.842606036220126,2023-06-04,-0.002037270836506909,534,Bellerive CC
-17365,"Mitchell, Keith",893,Muirfield Village Golf Club,sg_ott,0.32840752090714825,2020-07-12,-0.002988517009353943,534,Bellerive CC
-17365,"Mitchell, Keith",348,Medinah Country Club (No. 3),sg_ott,0.27859393149960326,2019-08-18,-0.005516420238931567,534,Bellerive CC
-17365,"Mitchell, Keith",618,Shinnecock Hills Golf Club,sg_putt,0.9719022941461366,2026-06-21,0.03321148644715323,534,Bellerive CC
-17365,"Mitchell, Keith",926,Silverado Resort (North Course),sg_putt,1.5492670971641225,2025-09-14,0.008755938875516601,534,Bellerive CC
-17365,"Mitchell, Keith",5,Pebble Beach Golf Links,sg_putt,2.8130388628971996,2026-02-15,0.006692721546195053,534,Bellerive CC
-17365,"Mitchell, Keith",241,Quail Hollow-PGA Championship,sg_putt,0.7961242598354537,2025-05-18,0.0054139152736788635,534,Bellerive CC
-17365,"Mitchell, Keith",772,St. George's G&CC,sg_putt,0.4660324556332957,2022-06-12,0.005410506386388533,534,Bellerive CC
-17365,"Mitchell, Keith",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,0.7933426955031242,2025-05-11,0.004729995130242917,534,Bellerive CC
-17365,"Mitchell, Keith",237,TPC Potomac at Avenel Farm,sg_putt,0.684563454584861,2022-05-08,0.0034670580366877846,534,Bellerive CC
-17365,"Mitchell, Keith",6,Waialae Country Club,sg_putt,4.342073562586026,2026-01-18,0.003084792221956392,534,Bellerive CC
-17365,"Mitchell, Keith",666,Pebble Beach Golf Links,sg_putt,0.26995500014600815,2019-06-16,0.0012994802489324881,534,Bellerive CC
-17365,"Mitchell, Keith",500,The Riviera Country Club,sg_putt,0.7829734978741919,2023-02-19,0.0009451207927093712,534,Bellerive CC
-17365,"Mitchell, Keith",4,Torrey Pines Golf Course (South Course),sg_putt,1.636337297949952,2024-01-27,-0.0017249079608452587,534,Bellerive CC
-17365,"Mitchell, Keith",895,TPC Harding Park,sg_putt,0.33303756085574976,2020-08-09,-0.0033804771002724113,534,Bellerive CC
-17365,"Mitchell, Keith",908,Oakdale Golf & Country Club,sg_putt,0.5590591485863915,2023-06-11,-0.004435847594069269,534,Bellerive CC
-17365,"Mitchell, Keith",880,Bethpage Black,sg_putt,0.2662019627054592,2019-05-19,-0.0048777186962340735,534,Bellerive CC
-17365,"Mitchell, Keith",873,Ridgewood CC,sg_putt,0.23305052579947047,2018-08-26,-0.005003023285431621,534,Bellerive CC
-17365,"Mitchell, Keith",901,Wilmington Country Club,sg_putt,0.48263239599412705,2022-08-21,-0.0064669976390964575,534,Bellerive CC
-17365,"Mitchell, Keith",668,St. Andrews Links (Old Course),sg_putt,0.4742598029280199,2022-07-17,-0.017538070108366832,534,Bellerive CC
 22085,"Morikawa, Collin",5,Pebble Beach Golf Links,sg_app,2.297674667705843,2026-02-15,0.035074845371107964,534,Bellerive CC
 22085,"Morikawa, Collin",23,Muirfield Village Golf Club,sg_app,3.2105689441132195,2025-06-01,0.03222089869283873,534,Bellerive CC
 22085,"Morikawa, Collin",608,Oakmont Country Club,sg_app,0.8073483850226815,2025-06-15,0.028546435822655168,534,Bellerive CC
@@ -2328,29 +1775,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 21554,"Poston, J.T.",4,Torrey Pines Golf Course (South Course),sg_putt,0.6364326301918821,2019-01-27,-0.007792345574425276,534,Bellerive CC
 21554,"Poston, J.T.",891,Winged Foot GC,sg_putt,0.340105301169467,2020-09-20,-0.008744744329769247,534,Bellerive CC
 21554,"Poston, J.T.",885,Royal Portrush Golf Club,sg_putt,0.8216013312952537,2025-07-20,-0.04266617761380473,534,Bellerive CC
-27900,"Potgieter, Aldrich",500,The Riviera Country Club,sg_app,0.9157608767233256,2026-02-22,0.031770230825985915,534,Bellerive CC
-27900,"Potgieter, Aldrich",43,The Los Angeles Country Club (North Course),sg_app,0.5610192838421706,2023-06-18,0.011251867243168958,534,Bellerive CC
-27900,"Potgieter, Aldrich",12,Harbour Town Golf Links,sg_app,0.9417645335842487,2026-04-19,0.0036570589371661727,534,Bellerive CC
-27900,"Potgieter, Aldrich",23,Muirfield Village Golf Club,sg_app,0.5571058618121739,2023-06-04,0.0011230261424651838,534,Bellerive CC
-27900,"Potgieter, Aldrich",513,TPC Southwind,sg_app,0.8302735949819326,2025-08-10,-0.006093831112220835,534,Bellerive CC
-27900,"Potgieter, Aldrich",925,Dunes Golf and Beach Club,sg_app,0.7933426955031242,2025-05-11,-0.01791879034876787,534,Bellerive CC
-27900,"Potgieter, Aldrich",6,Waialae Country Club,sg_app,0.747515678018091,2025-01-12,-0.020738107232733838,534,Bellerive CC
-27900,"Potgieter, Aldrich",5,Pebble Beach Golf Links,sg_app,0.9125613161520112,2026-02-15,-0.05367705205373513,534,Bellerive CC
-27900,"Potgieter, Aldrich",978,Vidanta Vallarta,sg_arg,0.7633794943368531,2025-02-23,0.006830574215800732,534,Bellerive CC
-27900,"Potgieter, Aldrich",12,Harbour Town Golf Links,sg_arg,0.9417645335842487,2026-04-19,0.005486920647124303,534,Bellerive CC
-27900,"Potgieter, Aldrich",668,St. Andrews Links (Old Course),sg_arg,0.4742598029280199,2022-07-17,-0.0036071388474014157,534,Bellerive CC
-27900,"Potgieter, Aldrich",921,TPC Craig Ranch,sg_arg,0.7905708496287356,2025-05-04,-0.006174651006916557,534,Bellerive CC
-27900,"Potgieter, Aldrich",233,Nicklaus Tournament Course,sg_ott,1.6531661184398585,2026-01-25,0.10324220830524049,534,Bellerive CC
-27900,"Potgieter, Aldrich",23,Muirfield Village Golf Club,sg_ott,0.5571058618121739,2023-06-04,0.01135904463335838,534,Bellerive CC
-27900,"Potgieter, Aldrich",921,TPC Craig Ranch,sg_ott,0.7905708496287356,2025-05-04,0.011252835346408786,534,Bellerive CC
-27900,"Potgieter, Aldrich",925,Dunes Golf and Beach Club,sg_ott,0.7933426955031242,2025-05-11,-0.0070752299100633265,534,Bellerive CC
-27900,"Potgieter, Aldrich",500,The Riviera Country Club,sg_putt,0.9157608767233256,2026-02-22,0.024130063988876443,534,Bellerive CC
-27900,"Potgieter, Aldrich",4,Torrey Pines Golf Course (South Course),sg_putt,1.6585860480782637,2026-02-01,0.01647304127148693,534,Bellerive CC
-27900,"Potgieter, Aldrich",5,Pebble Beach Golf Links,sg_putt,0.9125613161520112,2026-02-15,0.01376888082621872,534,Bellerive CC
-27900,"Potgieter, Aldrich",6,Waialae Country Club,sg_putt,0.747515678018091,2025-01-12,0.00496644126751145,534,Bellerive CC
-27900,"Potgieter, Aldrich",885,Royal Portrush Golf Club,sg_putt,0.8216013312952537,2025-07-20,0.0019694847747697454,534,Bellerive CC
-27900,"Potgieter, Aldrich",668,St. Andrews Links (Old Course),sg_putt,0.4742598029280199,2022-07-17,-0.020417005192994015,534,Bellerive CC
-27900,"Potgieter, Aldrich",90,TPC Colorado,sg_total,0.6824950532053901,2024-07-14,-0.0004080519777118413,534,Bellerive CC
 18554,"Rai, Aaron",513,TPC Southwind,sg_app,3.2579139608372643,2025-08-10,0.08061103317289459,534,Bellerive CC
 18554,"Rai, Aaron",908,Oakdale Golf & Country Club,sg_app,0.5590591485863915,2023-06-11,0.028403107755701686,534,Bellerive CC
 18554,"Rai, Aaron",500,The Riviera Country Club,sg_app,1.8850251063857089,2026-02-22,0.012746340566147088,534,Bellerive CC
@@ -2418,57 +1842,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 21407,"Reitan, Kristoffer",3795,international,sg_total,0.2825216766033636,2019-09-15,-0.002888381108391022,534,Bellerive CC
 21407,"Reitan, Kristoffer",4076,zebula golf estate  spa,sg_total,0.7933314660408779,2022-03-27,-0.011712938879890724,534,Bellerive CC
 21407,"Reitan, Kristoffer",3947,bernardus golf,sg_total,0.4079951466966801,2021-09-19,-0.016887658645188486,534,Bellerive CC
-16283,"Rodgers, Patrick",500,The Riviera Country Club,sg_app,3.9821114753930855,2026-02-22,0.05244697275040945,534,Bellerive CC
-16283,"Rodgers, Patrick",513,TPC Southwind,sg_app,2.89954606129063,2025-08-10,0.02956558392672725,534,Bellerive CC
-16283,"Rodgers, Patrick",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,0.7933426955031242,2025-05-11,0.024098406117511392,534,Bellerive CC
-16283,"Rodgers, Patrick",704,Pete Dye Stadium Course,sg_app,0.7967470554184066,2022-01-23,0.02398185667118884,534,Bellerive CC
-16283,"Rodgers, Patrick",6,Waialae Country Club,sg_app,3.2023552630841063,2026-01-18,0.01791746982335552,534,Bellerive CC
-16283,"Rodgers, Patrick",12,Harbour Town Golf Links,sg_app,3.627603054337367,2026-04-19,0.01540971507899211,534,Bellerive CC
-16283,"Rodgers, Patrick",5,Pebble Beach Golf Links,sg_app,0.7416473242001951,2022-02-06,0.0069529051158551194,534,Bellerive CC
-16283,"Rodgers, Patrick",944,TPC Craig Ranch,sg_app,0.958390465520947,2026-05-24,0.006680342303957859,534,Bellerive CC
-16283,"Rodgers, Patrick",231,Sea Island GC (Plantation),sg_app,0.38383511594118297,2018-11-18,0.005290426666989581,534,Bellerive CC
-16283,"Rodgers, Patrick",744,Torrey Pines (South),sg_app,0.38984736042289797,2021-06-20,0.004322314111188597,534,Bellerive CC
-16283,"Rodgers, Patrick",24,Congressional CC (Blue),sg_app,0.26596742153857317,2016-06-26,-0.0014235317652284676,534,Bellerive CC
-16283,"Rodgers, Patrick",43,The Los Angeles Country Club (North Course),sg_app,0.5610192838421706,2023-06-18,-0.002473428401804732,534,Bellerive CC
-16283,"Rodgers, Patrick",939,Torrey Pines Golf Course (South Course),sg_app,0.7607123363558641,2025-02-16,-0.0033808994672200584,534,Bellerive CC
-16283,"Rodgers, Patrick",618,Shinnecock Hills Golf Club,sg_app,1.1969371441197791,2026-06-21,-0.007533694745856949,534,Bellerive CC
-16283,"Rodgers, Patrick",875,ACCORDIA GOLF Narashino Country Club,sg_app,0.7192832851790882,2024-10-27,-0.01233085319098993,534,Bellerive CC
-16283,"Rodgers, Patrick",23,Muirfield Village Golf Club,sg_app,4.068449748044402,2026-06-07,-0.03750782690825178,534,Bellerive CC
-16283,"Rodgers, Patrick",921,TPC Craig Ranch,sg_arg,0.7905708496287356,2025-05-04,0.009528254617993434,534,Bellerive CC
-16283,"Rodgers, Patrick",235,Eagle Point Golf Club,sg_arg,0.1836910515959608,2017-05-07,0.0013935987447410046,534,Bellerive CC
-16283,"Rodgers, Patrick",654,The Country Club,sg_arg,0.46766642700990924,2022-06-19,0.00035500523844701667,534,Bellerive CC
-16283,"Rodgers, Patrick",237,TPC Potomac at Avenel Farm,sg_arg,0.41552270489243837,2018-07-01,-3.264773228126434e-05,534,Bellerive CC
-16283,"Rodgers, Patrick",616,Robert Trent Jones GC,sg_arg,0.1331205726713896,2015-08-02,-0.0006319902467003275,534,Bellerive CC
-16283,"Rodgers, Patrick",12,Harbour Town Golf Links,sg_arg,3.627603054337367,2026-04-19,-0.0013290692645735757,534,Bellerive CC
-16283,"Rodgers, Patrick",886,Liberty National Golf Club,sg_arg,0.27762055713814,2019-08-11,-0.003973156913165374,534,Bellerive CC
-16283,"Rodgers, Patrick",978,Vidanta Vallarta,sg_arg,2.4035228033347886,2025-02-23,-0.007499008678474296,534,Bellerive CC
-16283,"Rodgers, Patrick",744,Torrey Pines (South),sg_arg,0.38984736042289797,2021-06-20,-0.011276925209255337,534,Bellerive CC
-16283,"Rodgers, Patrick",931,Tahoe Mountain Club (Old Greenwood),sg_ott,0.6848879710550762,2024-07-21,0.018934807551436655,534,Bellerive CC
-16283,"Rodgers, Patrick",893,Muirfield Village Golf Club,sg_ott,0.32840752090714825,2020-07-12,0.013203959623235275,534,Bellerive CC
-16283,"Rodgers, Patrick",822,Las Colinas Country Club,sg_ott,0.1289926310365194,2015-05-31,0.010737273240865295,534,Bellerive CC
-16283,"Rodgers, Patrick",243,Trinity Forest Golf Club,sg_ott,0.22190631293257038,2018-05-20,0.008931726461995105,534,Bellerive CC
-16283,"Rodgers, Patrick",698,Quail Hollow Club,sg_ott,0.2812179424103009,2016-05-08,0.0051034649897591594,534,Bellerive CC
-16283,"Rodgers, Patrick",921,TPC Craig Ranch,sg_ott,0.7905708496287356,2025-05-04,0.005009087953444935,534,Bellerive CC
-16283,"Rodgers, Patrick",642,Newport Beach Country Club,sg_ott,0.11058177350426224,2014-07-27,0.0032396843436365203,534,Bellerive CC
-16283,"Rodgers, Patrick",379,The Philadelphia Cricket Club (Wissahickon Course),sg_ott,0.7933426955031242,2025-05-11,-0.003650352432559342,534,Bellerive CC
-16283,"Rodgers, Patrick",689,El Bosque CC,sg_ott,0.16194475830825758,2016-08-28,-0.0059177382041452715,534,Bellerive CC
-16283,"Rodgers, Patrick",729,Golf Club of Houston,sg_ott,0.6535091927418708,2019-10-13,-0.006585674677779367,534,Bellerive CC
-16283,"Rodgers, Patrick",233,Nicklaus Tournament Course,sg_ott,0.30089316824720935,2020-01-19,-0.007383862240617678,534,Bellerive CC
-16283,"Rodgers, Patrick",23,Muirfield Village Golf Club,sg_ott,4.068449748044402,2026-06-07,-0.030023845977985127,534,Bellerive CC
-16283,"Rodgers, Patrick",671,Valhalla Golf Club,sg_ott,0.6636502501363193,2024-05-19,-0.042502097475951454,534,Bellerive CC
-16283,"Rodgers, Patrick",654,The Country Club,sg_putt,0.46766642700990924,2022-06-19,0.01119901905195438,534,Bellerive CC
-16283,"Rodgers, Patrick",772,St. George's G&CC,sg_putt,0.4660324556332957,2022-06-12,0.00967728396404295,534,Bellerive CC
-16283,"Rodgers, Patrick",237,TPC Potomac at Avenel Farm,sg_putt,0.41552270489243837,2018-07-01,0.008645794191973435,534,Bellerive CC
-16283,"Rodgers, Patrick",5,Pebble Beach Golf Links,sg_putt,0.7416473242001951,2022-02-06,0.005377322645343146,534,Bellerive CC
-16283,"Rodgers, Patrick",24,Congressional CC (Blue),sg_putt,0.26596742153857317,2016-06-26,0.0015677148368092246,534,Bellerive CC
-16283,"Rodgers, Patrick",660,Montreux Golf & Country Club,sg_putt,0.27568399909891583,2019-07-28,0.000904210744201225,534,Bellerive CC
-16283,"Rodgers, Patrick",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,0.7933426955031242,2025-05-11,-0.0014258452944235715,534,Bellerive CC
-16283,"Rodgers, Patrick",500,The Riviera Country Club,sg_putt,3.9821114753930855,2026-02-22,-0.002442718941473457,534,Bellerive CC
-16283,"Rodgers, Patrick",926,Silverado Resort (North Course),sg_putt,0.7043358337451862,2024-09-15,-0.003892681500348534,534,Bellerive CC
-16283,"Rodgers, Patrick",618,Shinnecock Hills Golf Club,sg_putt,1.1969371441197791,2026-06-21,-0.005569835549246957,534,Bellerive CC
-16283,"Rodgers, Patrick",6,Waialae Country Club,sg_putt,3.2023552630841063,2026-01-18,-0.008156484640753957,534,Bellerive CC
-16283,"Rodgers, Patrick",241,Quail Hollow-PGA Championship,sg_putt,0.9890403404703683,2025-05-18,-0.016132975310122696,534,Bellerive CC
-16283,"Rodgers, Patrick",4,Torrey Pines Golf Course (South Course),sg_putt,2.012999244119608,2025-01-25,-0.04008284262483015,534,Bellerive CC
 6093,"Rose, Justin",513,TPC Southwind,sg_app,3.2579139608372643,2025-08-10,0.030036975415751864,534,Bellerive CC
 6093,"Rose, Justin",618,Shinnecock Hills Golf Club,sg_app,1.1969371441197791,2026-06-21,0.02459193303290937,534,Bellerive CC
 6093,"Rose, Justin",908,Oakdale Golf & Country Club,sg_app,0.5590591485863915,2023-06-11,0.01064038231779633,534,Bellerive CC
@@ -2682,42 +2055,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 18417,"Scheffler, Scottie",528,Pinehurst Resort & Country Club (Course No. 2),sg_putt,0.6730066959373864,2024-06-16,-0.013795309031630875,534,Bellerive CC
 18417,"Scheffler, Scottie",4,Torrey Pines Golf Course (South Course),sg_putt,0.665439409023702,2021-01-31,-0.022937648384801255,534,Bellerive CC
 18417,"Scheffler, Scottie",688,East Lake Golf Club,sg_putt,2.644484034878647,2025-08-24,-0.037315206551204544,534,Bellerive CC
-20722,"Schmid, Matthias",744,Torrey Pines (South),sg_app,0.38984736042289797,2021-06-20,-0.030337746191205543,534,Bellerive CC
-20722,"Schmid, Matthias",714,TPC Louisiana,sg_arg,0.5455286251592933,2023-04-23,0.007447525432255719,534,Bellerive CC
-20722,"Schmid, Matthias",744,Torrey Pines (South),sg_arg,0.38984736042289797,2021-06-20,0.0035632845343108385,534,Bellerive CC
-20722,"Schmid, Matthias",921,TPC Craig Ranch,sg_arg,0.6590209199441207,2024-05-05,0.0033521271661490675,534,Bellerive CC
-20722,"Schmid, Matthias",250,Le Golf National,sg_arg,0.6896990058291281,2024-08-04,0.0008015191611871079,534,Bellerive CC
-20722,"Schmid, Matthias",921,TPC Craig Ranch,sg_ott,0.6590209199441207,2024-05-05,-0.024158571347898113,534,Bellerive CC
-20722,"Schmid, Matthias",3947,bernardus golf,sg_total,0.4079951466966801,2021-09-19,0.0330931423253352,534,Bellerive CC
-20722,"Schmid, Matthias",3994,green eagle golf courses,sg_total,0.46440419316009157,2022-06-05,0.006692576097630633,534,Bellerive CC
-20722,"Schmid, Matti",704,Pete Dye Stadium Course,sg_app,1.146578142658981,2024-01-21,0.100047903481535,534,Bellerive CC
-20722,"Schmid, Matti",513,TPC Southwind,sg_app,0.8302735949819326,2025-08-10,0.05857447800323265,534,Bellerive CC
-20722,"Schmid, Matti",944,TPC Craig Ranch,sg_app,0.958390465520947,2026-05-24,0.022526673610005418,534,Bellerive CC
-20722,"Schmid, Matti",908,Oakdale Golf & Country Club,sg_app,0.5590591485863915,2023-06-11,0.018880940479787722,534,Bellerive CC
-20722,"Schmid, Matti",23,Muirfield Village Golf Club,sg_app,0.8017166802901953,2025-06-01,0.017834251538452226,534,Bellerive CC
-20722,"Schmid, Matti",618,Shinnecock Hills Golf Club,sg_app,0.9719022941461366,2026-06-21,0.017518705493352677,534,Bellerive CC
-20722,"Schmid, Matti",874,Hamilton Golf & Country Club,sg_app,0.6683120993235603,2024-06-02,-0.011085994227528742,534,Bellerive CC
-20722,"Schmid, Matti",925,Dunes Golf and Beach Club,sg_app,2.4063793880200235,2026-05-10,-0.011088873235606988,534,Bellerive CC
-20722,"Schmid, Matti",5,Pebble Beach Golf Links,sg_app,0.9125613161520112,2026-02-15,-0.032957849601494504,534,Bellerive CC
-20722,"Schmid, Matti",6,Waialae Country Club,sg_app,2.7899622846295804,2026-01-18,-0.03709105890868327,534,Bellerive CC
-20722,"Schmid, Matti",500,The Riviera Country Club,sg_app,0.9157608767233256,2026-02-22,-0.043621906572376586,534,Bellerive CC
-20722,"Schmid, Matti",714,TPC Louisiana,sg_arg,0.9450664844951467,2026-04-26,0.01013236293553907,534,Bellerive CC
-20722,"Schmid, Matti",921,TPC Craig Ranch,sg_arg,1.3418577031474626,2025-05-04,-0.011696763586813843,534,Bellerive CC
-20722,"Schmid, Matti",874,Hamilton Golf & Country Club,sg_arg,0.6683120993235603,2024-06-02,-0.013421373153816524,534,Bellerive CC
-20722,"Schmid, Matti",978,Vidanta Vallarta,sg_arg,1.94717498467379,2025-02-23,-0.02552404071977812,534,Bellerive CC
-20722,"Schmid, Matti",23,Muirfield Village Golf Club,sg_ott,0.8017166802901953,2025-06-01,0.04611924065170792,534,Bellerive CC
-20722,"Schmid, Matti",931,Tahoe Mountain Club (Old Greenwood),sg_ott,0.6848879710550762,2024-07-21,0.016143305533008027,534,Bellerive CC
-20722,"Schmid, Matti",925,Dunes Golf and Beach Club,sg_ott,2.4063793880200235,2026-05-10,0.011499382525879774,534,Bellerive CC
-20722,"Schmid, Matti",233,Nicklaus Tournament Course,sg_ott,0.7501365667709818,2025-01-19,0.009926734914062166,534,Bellerive CC
-20722,"Schmid, Matti",921,TPC Craig Ranch,sg_ott,1.3418577031474626,2025-05-04,-0.02053922679348204,534,Bellerive CC
-20722,"Schmid, Matti",4,Torrey Pines Golf Course (South Course),sg_putt,1.6585860480782637,2026-02-01,0.021968279509562077,534,Bellerive CC
-20722,"Schmid, Matti",6,Waialae Country Club,sg_putt,2.7899622846295804,2026-01-18,0.008146744126616869,534,Bellerive CC
-20722,"Schmid, Matti",500,The Riviera Country Club,sg_putt,0.9157608767233256,2026-02-22,0.004390559690762377,534,Bellerive CC
-20722,"Schmid, Matti",908,Oakdale Golf & Country Club,sg_putt,0.5590591485863915,2023-06-11,0.004021866339942015,534,Bellerive CC
-20722,"Schmid, Matti",5,Pebble Beach Golf Links,sg_putt,0.9125613161520112,2026-02-15,-0.005578649557561031,534,Bellerive CC
-20722,"Schmid, Matti",926,Silverado Resort (North Course),sg_putt,1.2914711288580079,2024-09-15,-0.016852819790167648,534,Bellerive CC
-20722,"Schmid, Matti",618,Shinnecock Hills Golf Club,sg_putt,0.9719022941461366,2026-06-21,-0.040719237219254516,534,Bellerive CC
-20722,"Schmid, Matti",885,Royal Portrush Golf Club,sg_putt,0.8216013312952537,2025-07-20,-0.05742892011969114,534,Bellerive CC
 6430,"Scott, Adam",23,Muirfield Village Golf Club,sg_app,4.271184405007808,2026-06-07,0.029764290096131796,534,Bellerive CC
 6430,"Scott, Adam",5,Pebble Beach Golf Links,sg_app,1.3851133515538319,2025-02-02,0.027135815300239993,534,Bellerive CC
 6430,"Scott, Adam",608,Oakmont Country Club,sg_app,0.8073483850226815,2025-06-15,0.016284637863199895,534,Bellerive CC
@@ -2829,39 +2166,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 18474,"Smalley, Alex",6,Waialae Country Club,sg_putt,3.222969884270458,2026-01-18,-0.029559377877340285,534,Bellerive CC
 18474,"Smalley, Alex",926,Silverado Resort (North Course),sg_putt,1.5492670971641225,2025-09-14,-0.031704704036766326,534,Bellerive CC
 18474,"Smalley, Alex",4,Torrey Pines Golf Course (South Course),sg_putt,2.28577965690892,2026-02-01,-0.034061442558615415,534,Bellerive CC
-18586,"Smith, Jordan",43,The Los Angeles Country Club (North Course),sg_app,0.5610192838421706,2023-06-18,0.029604221869031628,534,Bellerive CC
-18586,"Smith, Jordan",704,Pete Dye Stadium Course,sg_app,0.9030295516688768,2026-01-25,0.020880831305308302,534,Bellerive CC
-18586,"Smith, Jordan",944,TPC Craig Ranch,sg_app,0.958390465520947,2026-05-24,0.005164571931295181,534,Bellerive CC
-18586,"Smith, Jordan",6,Waialae Country Club,sg_app,0.8998744728467833,2026-01-18,0.0021821167775716473,534,Bellerive CC
-18586,"Smith, Jordan",12,Harbour Town Golf Links,sg_app,0.9417645335842487,2026-04-19,0.0019701177436377247,534,Bellerive CC
-18586,"Smith, Jordan",724,Royal Liverpool,sg_app,0.5709235307061248,2023-07-23,-0.0025709954176789934,534,Bellerive CC
-18586,"Smith, Jordan",608,Oakmont Country Club,sg_app,0.8073483850226815,2025-06-15,-0.023998745120325633,534,Bellerive CC
-18586,"Smith, Jordan",714,TPC Louisiana,sg_arg,1.732875172752288,2026-04-26,0.008702905426217294,534,Bellerive CC
-18586,"Smith, Jordan",12,Harbour Town Golf Links,sg_arg,0.9417645335842487,2026-04-19,-0.002804385130623941,534,Bellerive CC
-18586,"Smith, Jordan",709,Royal Troon,sg_arg,0.6848879710550762,2024-07-21,-0.00778374510715695,534,Bellerive CC
-18586,"Smith, Jordan",671,Valhalla Golf Club,sg_ott,0.6636502501363193,2024-05-19,0.01035698595752233,534,Bellerive CC
-18586,"Smith, Jordan",724,Royal Liverpool,sg_ott,0.5709235307061248,2023-07-23,-0.0010408895738601817,534,Bellerive CC
-18586,"Smith, Jordan",885,Royal Portrush Golf Club,sg_putt,0.8216013312952537,2025-07-20,0.008541130018082913,534,Bellerive CC
-18586,"Smith, Jordan",6,Waialae Country Club,sg_putt,0.8998744728467833,2026-01-18,-0.008424649932852961,534,Bellerive CC
-18586,"Smith, Jordan",4416,dubai creek resort,sg_total,0.6231300711776578,2024-01-14,0.02575900088667677,534,Bellerive CC
-18586,"Smith, Jordan",4574,rinkven international gc,sg_total,0.7989155766999219,2025-05-25,0.011775083254619153,534,Bellerive CC
-18586,"Smith, Jordan",3871,galgorm castle golf club,sg_total,0.39812072123654696,2021-08-01,0.008670484874501092,534,Bellerive CC
-18586,"Smith, Jordan",3994,green eagle golf courses,sg_total,0.46440419316009157,2022-06-05,0.007564486595529304,534,Bellerive CC
-18586,"Smith, Jordan",3906,al mouj golf,sg_total,0.30727873860113125,2020-03-01,0.00560769754681597,534,Bellerive CC
-18586,"Smith, Jordan",3518,dlf g&cc player course,sg_total,0.1786190416573999,2017-03-12,0.004285387860638426,534,Bellerive CC
-18586,"Smith, Jordan",3656,gullane gc,sg_total,0.22820749456572564,2018-07-15,0.0032408145274532797,534,Bellerive CC
-18586,"Smith, Jordan",3671,carnoustie,sg_total,0.23799633609214008,2018-10-07,0.0022714706190988788,534,Bellerive CC
-18586,"Smith, Jordan",4383,green eagle golf courses,sg_total,0.6683120993235603,2024-06-02,-0.0029769257453582843,534,Bellerive CC
-18586,"Smith, Jordan",4236,jumeirah golf estates,sg_total,0.6059244322171875,2023-11-19,-0.01900802289163254,534,Bellerive CC
-18586,"Smith, Jordan L",534,Bellerive CC,sg_app,0.23142486855731673,2018-08-12,-0.00864250089555242,534,Bellerive CC
-18586,"Smith, Jordan L",744,Torrey Pines (South),sg_app,0.38984736042289797,2021-06-20,-0.014541086524102135,534,Bellerive CC
-18586,"Smith, Jordan L",744,Torrey Pines (South),sg_arg,0.38984736042289797,2021-06-20,0.006496417754544771,534,Bellerive CC
-18586,"Smith, Jordan L",534,Bellerive CC,sg_arg,0.23142486855731673,2018-08-12,0.0013954517891577147,534,Bellerive CC
-18586,"Smith, Jordan L",668,St. Andrews Links (Old Course),sg_arg,0.4742598029280199,2022-07-17,-0.0009498323821769721,534,Bellerive CC
-18586,"Smith, Jordan L",534,Bellerive CC,sg_ott,0.23142486855731673,2018-08-12,-0.01804701901559747,534,Bellerive CC
-18586,"Smith, Jordan L",241,Quail Hollow-PGA Championship,sg_putt,0.1929160806349146,2017-08-13,0.0019845049572100285,534,Bellerive CC
-18586,"Smith, Jordan L",668,St. Andrews Links (Old Course),sg_putt,0.4742598029280199,2022-07-17,-0.018221842878744437,534,Bellerive CC
-18586,"Smith, Jordan L",534,Bellerive CC,sg_putt,0.23142486855731673,2018-08-12,-0.019380635288967434,534,Bellerive CC
 17536,"Spaun, J.J.",513,TPC Southwind,sg_app,1.8881695406481973,2025-08-10,0.03847819125132602,534,Bellerive CC
 17536,"Spaun, J.J.",23,Muirfield Village Golf Club,sg_app,2.8154822965050412,2026-06-07,0.02270896947957279,534,Bellerive CC
 17536,"Spaun, J.J.",939,Torrey Pines Golf Course (South Course),sg_app,0.7607123363558641,2025-02-16,0.0169429068617811,534,Bellerive CC
@@ -2920,121 +2224,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 17536,"Spaun, J.J.",6,Waialae Country Club,sg_putt,4.26581204521734,2026-01-18,-0.01841956486420952,534,Bellerive CC
 17536,"Spaun, J.J.",500,The Riviera Country Club,sg_putt,3.4380300860032524,2026-02-22,-0.04379184682851358,534,Bellerive CC
 17536,"Spaun, J.J.",4,Torrey Pines Golf Course (South Course),sg_putt,4.244364305862629,2026-02-01,-0.04445161373378127,534,Bellerive CC
-14636,"Spieth, Jordan",12,Harbour Town Golf Links,sg_app,4.284889154276187,2026-04-19,0.028329506281913306,534,Bellerive CC
-14636,"Spieth, Jordan",608,Oakmont Country Club,sg_app,0.8073483850226815,2025-06-15,0.02771933028864666,534,Bellerive CC
-14636,"Spieth, Jordan",744,Torrey Pines (South),sg_app,0.38984736042289797,2021-06-20,0.013184495991763464,534,Bellerive CC
-14636,"Spieth, Jordan",500,The Riviera Country Club,sg_app,4.277863565657041,2026-02-22,0.011413431393215403,534,Bellerive CC
-14636,"Spieth, Jordan",24,Congressional CC (Blue),sg_app,0.27571799006854614,2014-06-29,0.0064237552290766315,534,Bellerive CC
-14636,"Spieth, Jordan",724,Royal Liverpool,sg_app,0.5709235307061248,2023-07-23,0.0054099544905411336,534,Bellerive CC
-14636,"Spieth, Jordan",944,TPC Craig Ranch,sg_app,0.958390465520947,2026-05-24,0.0018354073031134292,534,Bellerive CC
-14636,"Spieth, Jordan",5,Pebble Beach Golf Links,sg_app,2.841765335645197,2026-02-15,0.0007059389346794889,534,Bellerive CC
-14636,"Spieth, Jordan",895,TPC Harding Park,sg_app,0.33303756085574976,2020-08-09,-9.607327172635511e-05,534,Bellerive CC
-14636,"Spieth, Jordan",534,Bellerive CC,sg_app,0.23142486855731673,2018-08-12,-0.00025142186993751167,534,Bellerive CC
-14636,"Spieth, Jordan",666,Pebble Beach Golf Links,sg_app,0.26995500014600815,2019-06-16,-0.0007536653705202313,534,Bellerive CC
-14636,"Spieth, Jordan",745,iberostar real club de golf novo sancti petri,sg_app,0.11214080609735771,2014-08-24,-0.0014077020660734053,534,Bellerive CC
-14636,"Spieth, Jordan",6,Waialae Country Club,sg_app,2.1515685372174627,2026-01-18,-0.0021838469175024413,534,Bellerive CC
-14636,"Spieth, Jordan",618,Shinnecock Hills Golf Club,sg_app,1.1969371441197791,2026-06-21,-0.00348725656161208,534,Bellerive CC
-14636,"Spieth, Jordan",43,The Los Angeles Country Club (North Course),sg_app,0.5610192838421706,2023-06-18,-0.016515388125316915,534,Bellerive CC
-14636,"Spieth, Jordan",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,0.7933426955031242,2025-05-11,-0.02489738264528858,534,Bellerive CC
-14636,"Spieth, Jordan",939,Torrey Pines Golf Course (South Course),sg_app,0.7607123363558641,2025-02-16,-0.03216411346423345,534,Bellerive CC
-14636,"Spieth, Jordan",513,TPC Southwind,sg_app,3.641892634124501,2025-08-10,-0.054180639566557096,534,Bellerive CC
-14636,"Spieth, Jordan",23,Muirfield Village Golf Club,sg_app,5.3354026156014225,2026-06-07,-0.054305442793250856,534,Bellerive CC
-14636,"Spieth, Jordan",709,Royal Troon,sg_arg,0.6848879710550762,2024-07-21,0.01711977934953396,534,Bellerive CC
-14636,"Spieth, Jordan",697,Ocean Course at Kiawah Island,sg_arg,0.3844275247503785,2021-05-23,0.008593416332602157,534,Bellerive CC
-14636,"Spieth, Jordan",706,Whistling Straits,sg_arg,0.13405568575751547,2015-08-16,0.0028975722065960846,534,Bellerive CC
-14636,"Spieth, Jordan",886,Liberty National Golf Club,sg_arg,0.6799435693669023,2021-08-22,0.002644781591395917,534,Bellerive CC
-14636,"Spieth, Jordan",899,The Summit Club,sg_arg,0.4137472495194873,2021-10-17,0.0013722846975474017,534,Bellerive CC
-14636,"Spieth, Jordan",668,St. Andrews Links (Old Course),sg_arg,0.4742598029280199,2022-07-17,0.0009934134288591572,534,Bellerive CC
-14636,"Spieth, Jordan",611,Southern Hills Country Club,sg_arg,0.4611647152086584,2022-05-22,0.00016358302910616436,534,Bellerive CC
-14636,"Spieth, Jordan",873,Ridgewood CC,sg_arg,0.23305052579947047,2018-08-26,-0.00013215193452624884,534,Bellerive CC
-14636,"Spieth, Jordan",36,Le Triomphe G&CC,sg_arg,0.8248883497792614,2018-08-05,-0.0007232757537457397,534,Bellerive CC
-14636,"Spieth, Jordan",921,TPC Craig Ranch,sg_arg,1.4495917695728564,2025-05-04,-0.0011148066785723989,534,Bellerive CC
-14636,"Spieth, Jordan",882,Caves Valley Golf Club,sg_arg,0.4037336098774634,2021-08-29,-0.0012341671774682799,534,Bellerive CC
-14636,"Spieth, Jordan",654,The Country Club,sg_arg,0.46766642700990924,2022-06-19,-0.0016923353797645962,534,Bellerive CC
-14636,"Spieth, Jordan",744,Torrey Pines (South),sg_arg,0.38984736042289797,2021-06-20,-0.003949162076760825,534,Bellerive CC
-14636,"Spieth, Jordan",534,Bellerive CC,sg_arg,0.23142486855731673,2018-08-12,-0.004400015514988073,534,Bellerive CC
-14636,"Spieth, Jordan",12,Harbour Town Golf Links,sg_arg,4.284889154276187,2026-04-19,-0.007381443953654264,534,Bellerive CC
-14636,"Spieth, Jordan",891,Winged Foot GC,sg_arg,0.340105301169467,2020-09-20,-0.013202898191425593,534,Bellerive CC
-14636,"Spieth, Jordan",23,Muirfield Village Golf Club,sg_ott,5.3354026156014225,2026-06-07,0.08203643559597268,534,Bellerive CC
-14636,"Spieth, Jordan",921,TPC Craig Ranch,sg_ott,1.4495917695728564,2025-05-04,0.017009145883757456,534,Bellerive CC
-14636,"Spieth, Jordan",724,Royal Liverpool,sg_ott,0.5709235307061248,2023-07-23,0.009400199065616122,534,Bellerive CC
-14636,"Spieth, Jordan",893,Muirfield Village Golf Club,sg_ott,0.32840752090714825,2020-07-12,0.009110177351641855,534,Bellerive CC
-14636,"Spieth, Jordan",822,Las Colinas Country Club,sg_ott,0.1289926310365194,2015-05-31,0.00443568704209294,534,Bellerive CC
-14636,"Spieth, Jordan",348,Medinah Country Club (No. 3),sg_ott,0.27859393149960326,2019-08-18,0.001873396740022971,534,Bellerive CC
-14636,"Spieth, Jordan",698,Quail Hollow Club,sg_ott,0.08838968514736206,2013-05-05,0.0007694324232871568,534,Bellerive CC
-14636,"Spieth, Jordan",689,El Bosque CC,sg_ott,0.16194475830825758,2016-08-28,0.00036171535895850493,534,Bellerive CC
-14636,"Spieth, Jordan",901,Wilmington Country Club,sg_ott,0.48263239599412705,2022-08-21,8.467085028461487e-05,534,Bellerive CC
-14636,"Spieth, Jordan",895,TPC Harding Park,sg_ott,0.33303756085574976,2020-08-09,-0.00034005502195341697,534,Bellerive CC
-14636,"Spieth, Jordan",243,Trinity Forest Golf Club,sg_ott,0.48717819735501044,2019-05-12,-0.0034054923693970585,534,Bellerive CC
-14636,"Spieth, Jordan",379,The Philadelphia Cricket Club (Wissahickon Course),sg_ott,0.7933426955031242,2025-05-11,-0.0037321469323429416,534,Bellerive CC
-14636,"Spieth, Jordan",729,Golf Club of Houston,sg_ott,0.8643554685113517,2018-04-01,-0.00512649839786045,534,Bellerive CC
-14636,"Spieth, Jordan",671,Valhalla Golf Club,sg_ott,0.7750088116412319,2024-05-19,-0.005457036725161979,534,Bellerive CC
-14636,"Spieth, Jordan",534,Bellerive CC,sg_ott,0.23142486855731673,2018-08-12,-0.008267527215979589,534,Bellerive CC
-14636,"Spieth, Jordan",240,Club de Golf Chapultepec,sg_ott,0.9529784180354048,2020-02-23,-0.014654983493379263,534,Bellerive CC
-14636,"Spieth, Jordan",232,Albany GC,sg_ott,1.4913549326341953,2025-12-07,-0.01612804283511439,534,Bellerive CC
-14636,"Spieth, Jordan",5,Pebble Beach Golf Links,sg_putt,2.841765335645197,2026-02-15,0.019892268338761475,534,Bellerive CC
-14636,"Spieth, Jordan",534,Bellerive CC,sg_putt,0.23142486855731673,2018-08-12,0.01760313719926319,534,Bellerive CC
-14636,"Spieth, Jordan",880,Bethpage Black,sg_putt,0.2662019627054592,2019-05-19,0.013217585734034603,534,Bellerive CC
-14636,"Spieth, Jordan",6,Waialae Country Club,sg_putt,2.1515685372174627,2026-01-18,0.006313399543562882,534,Bellerive CC
-14636,"Spieth, Jordan",885,Royal Portrush Golf Club,sg_putt,0.8216013312952537,2025-07-20,0.006302949054309975,534,Bellerive CC
-14636,"Spieth, Jordan",500,The Riviera Country Club,sg_putt,4.277863565657041,2026-02-22,0.00535175303427145,534,Bellerive CC
-14636,"Spieth, Jordan",36,Le Triomphe G&CC,sg_putt,0.8248883497792614,2018-08-05,0.004670768578279095,534,Bellerive CC
-14636,"Spieth, Jordan",2000,Sherwood Country Club,sg_putt,0.3461095276899044,2020-10-25,0.0042960031592219755,534,Bellerive CC
-14636,"Spieth, Jordan",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,0.7933426955031242,2025-05-11,0.004046864384029836,534,Bellerive CC
-14636,"Spieth, Jordan",688,East Lake Golf Club,sg_putt,2.1767382059987206,2023-08-27,0.0031456801587585424,534,Bellerive CC
-14636,"Spieth, Jordan",505,Cherry Hills CC,sg_putt,0.11292854561173918,2014-09-07,0.003114204756276141,534,Bellerive CC
-14636,"Spieth, Jordan",668,St. Andrews Links (Old Course),sg_putt,0.4742598029280199,2022-07-17,0.002438909494175636,534,Bellerive CC
-14636,"Spieth, Jordan",873,Ridgewood CC,sg_putt,0.23305052579947047,2018-08-26,0.0010554438145640875,534,Bellerive CC
-14636,"Spieth, Jordan",901,Wilmington Country Club,sg_putt,0.48263239599412705,2022-08-21,-0.00046044822439340817,534,Bellerive CC
-14636,"Spieth, Jordan",654,The Country Club,sg_putt,0.46766642700990924,2022-06-19,-0.0006967816522576886,534,Bellerive CC
-14636,"Spieth, Jordan",24,Congressional CC (Blue),sg_putt,0.27571799006854614,2014-06-29,-0.001956831882192267,534,Bellerive CC
-14636,"Spieth, Jordan",241,Quail Hollow-PGA Championship,sg_putt,0.9890403404703683,2025-05-18,-0.0022392988401188293,534,Bellerive CC
-14636,"Spieth, Jordan",666,Pebble Beach Golf Links,sg_putt,0.26995500014600815,2019-06-16,-0.003123737750264757,534,Bellerive CC
-14636,"Spieth, Jordan",891,Winged Foot GC,sg_putt,0.340105301169467,2020-09-20,-0.005157606171747612,534,Bellerive CC
-14636,"Spieth, Jordan",895,TPC Harding Park,sg_putt,0.33303756085574976,2020-08-09,-0.007885285035074595,534,Bellerive CC
-14636,"Spieth, Jordan",4,Torrey Pines Golf Course (South Course),sg_putt,0.4239157203452445,2020-01-26,-0.008053331598686127,534,Bellerive CC
-14636,"Spieth, Jordan",618,Shinnecock Hills Golf Club,sg_putt,1.1969371441197791,2026-06-21,-0.011160548170023857,534,Bellerive CC
-14636,"Spieth, Jordan",528,Pinehurst Resort & Country Club (Course No. 2),sg_putt,0.6730066959373864,2024-06-16,-0.012496422900621734,534,Bellerive CC
-25569,"Stevens, Sam",618,Shinnecock Hills Golf Club,sg_app,0.9719022941461366,2026-06-21,0.047534622049482535,534,Bellerive CC
-25569,"Stevens, Sam",6,Waialae Country Club,sg_app,2.7899622846295804,2026-01-18,0.037604844377230794,534,Bellerive CC
-25569,"Stevens, Sam",5,Pebble Beach Golf Links,sg_app,1.6679672601942328,2026-02-15,0.021582855375588617,534,Bellerive CC
-25569,"Stevens, Sam",12,Harbour Town Golf Links,sg_app,2.2704433235752948,2026-04-19,0.015670312580204203,534,Bellerive CC
-25569,"Stevens, Sam",500,The Riviera Country Club,sg_app,0.9157608767233256,2026-02-22,0.01482028646967657,534,Bellerive CC
-25569,"Stevens, Sam",939,Torrey Pines Golf Course (South Course),sg_app,0.7607123363558641,2025-02-16,0.013496509336800072,534,Bellerive CC
-25569,"Stevens, Sam",875,ACCORDIA GOLF Narashino Country Club,sg_app,0.7192832851790882,2024-10-27,0.012649322089768529,534,Bellerive CC
-25569,"Stevens, Sam",704,Pete Dye Stadium Course,sg_app,0.7501365667709818,2025-01-19,0.009910526295564739,534,Bellerive CC
-25569,"Stevens, Sam",874,Hamilton Golf & Country Club,sg_app,0.6683120993235603,2024-06-02,0.008186111642624658,534,Bellerive CC
-25569,"Stevens, Sam",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,0.7933426955031242,2025-05-11,0.0040731668549054256,534,Bellerive CC
-25569,"Stevens, Sam",23,Muirfield Village Golf Club,sg_app,2.3239452763323696,2026-06-07,-0.0009803240197402657,534,Bellerive CC
-25569,"Stevens, Sam",925,Dunes Golf and Beach Club,sg_app,0.6613315343804369,2024-05-12,-0.004986092613118395,534,Bellerive CC
-25569,"Stevens, Sam",608,Oakmont Country Club,sg_app,0.8073483850226815,2025-06-15,-0.006506945466394176,534,Bellerive CC
-25569,"Stevens, Sam",513,TPC Southwind,sg_app,1.4072234053624193,2025-08-10,-0.04066412979882967,534,Bellerive CC
-25569,"Stevens, Sam",874,Hamilton Golf & Country Club,sg_arg,0.6683120993235603,2024-06-02,0.004558662586385937,534,Bellerive CC
-25569,"Stevens, Sam",921,TPC Craig Ranch,sg_arg,1.3418577031474626,2025-05-04,0.001795245119635894,534,Bellerive CC
-25569,"Stevens, Sam",714,TPC Louisiana,sg_arg,1.732875172752288,2026-04-26,-0.003731263782241656,534,Bellerive CC
-25569,"Stevens, Sam",654,The Country Club,sg_arg,0.46766642700990924,2022-06-19,-0.0055120584739491475,534,Bellerive CC
-25569,"Stevens, Sam",12,Harbour Town Golf Links,sg_arg,2.2704433235752948,2026-04-19,-0.006284862224950441,534,Bellerive CC
-25569,"Stevens, Sam",882,Caves Valley Golf Club,sg_arg,0.8331846439283305,2025-08-17,-0.007724422645268593,534,Bellerive CC
-25569,"Stevens, Sam",978,Vidanta Vallarta,sg_arg,1.39973366406194,2025-02-23,-0.01925713224769364,534,Bellerive CC
-25569,"Stevens, Sam",233,Nicklaus Tournament Course,sg_ott,0.9030295516688768,2026-01-25,0.030889081051476506,534,Bellerive CC
-25569,"Stevens, Sam",925,Dunes Golf and Beach Club,sg_ott,0.6613315343804369,2024-05-12,0.02529618362672012,534,Bellerive CC
-25569,"Stevens, Sam",23,Muirfield Village Golf Club,sg_ott,2.3239452763323696,2026-06-07,0.019866349422749344,534,Bellerive CC
-25569,"Stevens, Sam",921,TPC Craig Ranch,sg_ott,1.3418577031474626,2025-05-04,0.006556696683410789,534,Bellerive CC
-25569,"Stevens, Sam",931,Tahoe Mountain Club (Old Greenwood),sg_ott,0.6848879710550762,2024-07-21,0.004855187284473622,534,Bellerive CC
-25569,"Stevens, Sam",379,The Philadelphia Cricket Club (Wissahickon Course),sg_ott,0.7933426955031242,2025-05-11,0.0036172703934722514,534,Bellerive CC
-25569,"Stevens, Sam",4,Torrey Pines Golf Course (South Course),sg_putt,1.1500230418520734,2024-01-27,0.024551837515841033,534,Bellerive CC
-25569,"Stevens, Sam",500,The Riviera Country Club,sg_putt,0.9157608767233256,2026-02-22,0.018339694219380965,534,Bellerive CC
-25569,"Stevens, Sam",618,Shinnecock Hills Golf Club,sg_putt,0.9719022941461366,2026-06-21,0.013573111065105932,534,Bellerive CC
-25569,"Stevens, Sam",241,Quail Hollow-PGA Championship,sg_putt,0.7961242598354537,2025-05-18,0.008101485537274786,534,Bellerive CC
-25569,"Stevens, Sam",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,0.7933426955031242,2025-05-11,0.004735350855791325,534,Bellerive CC
-25569,"Stevens, Sam",926,Silverado Resort (North Course),sg_putt,1.2914711288580079,2024-09-15,0.003901687488170317,534,Bellerive CC
-25569,"Stevens, Sam",6,Waialae Country Club,sg_putt,2.7899622846295804,2026-01-18,-0.004460532914696523,534,Bellerive CC
-25569,"Stevens, Sam",654,The Country Club,sg_putt,0.46766642700990924,2022-06-19,-0.006818442180077238,534,Bellerive CC
-25569,"Stevens, Sam",5,Pebble Beach Golf Links,sg_putt,1.6679672601942328,2026-02-15,-0.016136828613376588,534,Bellerive CC
-25569,"Stevens, Samuel",43,The Los Angeles Country Club (North Course),sg_app,0.5610192838421706,2023-06-18,-0.003462371295776979,534,Bellerive CC
-25569,"Stevens, Samuel",714,TPC Louisiana,sg_arg,0.5455286251592933,2023-04-23,0.008650090725236018,534,Bellerive CC
-25569,"Stevens, Samuel",921,TPC Craig Ranch,sg_arg,0.6590209199441207,2024-05-05,0.007409174340392383,534,Bellerive CC
-25569,"Stevens, Samuel",921,TPC Craig Ranch,sg_ott,0.6590209199441207,2024-05-05,-0.009520781201212655,534,Bellerive CC
 17511,"Straka, Sepp",704,Pete Dye Stadium Course,sg_app,2.639410016567957,2026-01-25,0.07684595270378103,534,Bellerive CC
 17511,"Straka, Sepp",12,Harbour Town Golf Links,sg_app,4.080767592747002,2026-04-19,0.05293190684714579,534,Bellerive CC
 17511,"Straka, Sepp",724,Royal Liverpool,sg_app,0.5709235307061248,2023-07-23,0.030648910861281086,534,Bellerive CC
@@ -3092,75 +2281,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 17511,"Straka, Sepp",500,The Riviera Country Club,sg_putt,3.19161926353456,2026-02-22,-0.01564943892455165,534,Bellerive CC
 17511,"Straka, Sepp",885,Royal Portrush Golf Club,sg_putt,0.8216013312952537,2025-07-20,-0.02803893086799023,534,Bellerive CC
 17511,"Straka, Sepp",4236,jumeirah golf estates,sg_total,0.6059244322171875,2023-11-19,0.003643520920471545,534,Bellerive CC
-13126,"Taylor, Nick",704,Pete Dye Stadium Course,sg_app,1.5722708022274046,2025-01-19,0.04870611749341961,534,Bellerive CC
-13126,"Taylor, Nick",6,Waialae Country Club,sg_app,4.1398749593209265,2026-01-18,0.040963885376625694,534,Bellerive CC
-13126,"Taylor, Nick",5,Pebble Beach Golf Links,sg_app,2.4675799675580623,2025-02-02,0.024510841247582786,534,Bellerive CC
-13126,"Taylor, Nick",939,Torrey Pines Golf Course (South Course),sg_app,0.7607123363558641,2025-02-16,0.02266924123020039,534,Bellerive CC
-13126,"Taylor, Nick",908,Oakdale Golf & Country Club,sg_app,0.5590591485863915,2023-06-11,0.021354458156640766,534,Bellerive CC
-13126,"Taylor, Nick",43,The Los Angeles Country Club (North Course),sg_app,0.5610192838421706,2023-06-18,0.010681811082764229,534,Bellerive CC
-13126,"Taylor, Nick",379,The Philadelphia Cricket Club (Wissahickon Course),sg_app,0.7933426955031242,2025-05-11,0.009369829224734075,534,Bellerive CC
-13126,"Taylor, Nick",875,ACCORDIA GOLF Narashino Country Club,sg_app,0.7192832851790882,2024-10-27,0.008566040848578692,534,Bellerive CC
-13126,"Taylor, Nick",618,Shinnecock Hills Golf Club,sg_app,0.9719022941461366,2026-06-21,0.006344107852606796,534,Bellerive CC
-13126,"Taylor, Nick",666,Pebble Beach Golf Links,sg_app,0.26995500014600815,2019-06-16,0.005283289550286885,534,Bellerive CC
-13126,"Taylor, Nick",823,Keene Trace Golf Club,sg_app,0.2290076201997705,2018-07-22,0.0028415777120777553,534,Bellerive CC
-13126,"Taylor, Nick",24,Congressional CC (Blue),sg_app,0.1569230062457882,2016-06-26,0.0013854261913232814,534,Bellerive CC
-13126,"Taylor, Nick",608,Oakmont Country Club,sg_app,0.8073483850226815,2025-06-15,6.59522094855162e-05,534,Bellerive CC
-13126,"Taylor, Nick",716,Shaughnessy G&CC,sg_app,0.06383204129779542,2011-07-24,-0.00020519101607625347,534,Bellerive CC
-13126,"Taylor, Nick",500,The Riviera Country Club,sg_app,3.6642838991398348,2026-02-22,-0.0009395965979221123,534,Bellerive CC
-13126,"Taylor, Nick",694,Hamilton G&CC,sg_app,0.07684230070716673,2012-07-29,-0.0009472989958166931,534,Bellerive CC
-13126,"Taylor, Nick",23,Muirfield Village Golf Club,sg_app,3.469907331962789,2026-06-07,-0.001291210446508096,534,Bellerive CC
-13126,"Taylor, Nick",724,Royal Liverpool,sg_app,0.5709235307061248,2023-07-23,-0.0020435166510727357,534,Bellerive CC
-13126,"Taylor, Nick",231,Sea Island GC (Plantation),sg_app,0.20260439386779155,2017-11-19,-0.005261276329165148,534,Bellerive CC
-13126,"Taylor, Nick",513,TPC Southwind,sg_app,3.138835948241261,2025-08-10,-0.007813055332792883,534,Bellerive CC
-13126,"Taylor, Nick",874,Hamilton Golf & Country Club,sg_app,0.9373239085160667,2024-06-02,-0.009667113902399284,534,Bellerive CC
-13126,"Taylor, Nick",895,TPC Harding Park,sg_app,0.33303756085574976,2020-08-09,-0.01818711943880124,534,Bellerive CC
-13126,"Taylor, Nick",12,Harbour Town Golf Links,sg_app,4.695958268296521,2026-04-19,-0.03446729544777011,534,Bellerive CC
-13126,"Taylor, Nick",874,Hamilton Golf & Country Club,sg_arg,0.9373239085160667,2024-06-02,0.02789349909379624,534,Bellerive CC
-13126,"Taylor, Nick",709,Royal Troon,sg_arg,0.6848879710550762,2024-07-21,0.010789734546879278,534,Bellerive CC
-13126,"Taylor, Nick",978,Vidanta Vallarta,sg_arg,0.4563478186609985,2022-05-01,0.008122796995593512,534,Bellerive CC
-13126,"Taylor, Nick",873,Ridgewood CC,sg_arg,0.23305052579947047,2018-08-26,0.006403783230245161,534,Bellerive CC
-13126,"Taylor, Nick",237,TPC Potomac at Avenel Farm,sg_arg,0.8734705393129805,2022-05-08,0.0024825140159277833,534,Bellerive CC
-13126,"Taylor, Nick",616,Robert Trent Jones GC,sg_arg,0.1331205726713896,2015-08-02,0.002128796940106605,534,Bellerive CC
-13126,"Taylor, Nick",235,Eagle Point Golf Club,sg_arg,0.1836910515959608,2017-05-07,0.0010507480265648124,534,Bellerive CC
-13126,"Taylor, Nick",654,The Country Club,sg_arg,0.46766642700990924,2022-06-19,0.0008172186803230842,534,Bellerive CC
-13126,"Taylor, Nick",716,Shaughnessy G&CC,sg_arg,0.06383204129779542,2011-07-24,0.00031292779743820326,534,Bellerive CC
-13126,"Taylor, Nick",706,Whistling Straits,sg_arg,0.13405568575751547,2015-08-16,0.00017119144164093667,534,Bellerive CC
-13126,"Taylor, Nick",882,Caves Valley Golf Club,sg_arg,0.8331846439283305,2025-08-17,-0.0004492173301263212,534,Bellerive CC
-13126,"Taylor, Nick",250,Le Golf National,sg_arg,0.6896990058291281,2024-08-04,-0.0010496206646687122,534,Bellerive CC
-13126,"Taylor, Nick",886,Liberty National Golf Club,sg_arg,0.27762055713814,2019-08-11,-0.0021147817344865484,534,Bellerive CC
-13126,"Taylor, Nick",714,TPC Louisiana,sg_arg,1.3333373134164344,2025-04-27,-0.003528380832786928,534,Bellerive CC
-13126,"Taylor, Nick",12,Harbour Town Golf Links,sg_arg,4.695958268296521,2026-04-19,-0.008473636179416728,534,Bellerive CC
-13126,"Taylor, Nick",23,Muirfield Village Golf Club,sg_ott,3.469907331962789,2026-06-07,0.027990461465717896,534,Bellerive CC
-13126,"Taylor, Nick",671,Valhalla Golf Club,sg_ott,0.6636502501363193,2024-05-19,0.008305146406373429,534,Bellerive CC
-13126,"Taylor, Nick",893,Muirfield Village Golf Club,sg_ott,0.32840752090714825,2020-07-12,0.004720972323231501,534,Bellerive CC
-13126,"Taylor, Nick",823,Keene Trace Golf Club,sg_ott,0.2290076201997705,2018-07-22,0.003758544454078665,534,Bellerive CC
-13126,"Taylor, Nick",233,Nicklaus Tournament Course,sg_ott,1.581103924167059,2024-01-21,0.0010835041274861084,534,Bellerive CC
-13126,"Taylor, Nick",698,Quail Hollow Club,sg_ott,0.2812179424103009,2016-05-08,-0.0009284855302586652,534,Bellerive CC
-13126,"Taylor, Nick",724,Royal Liverpool,sg_ott,0.5709235307061248,2023-07-23,-0.0011077569662804258,534,Bellerive CC
-13126,"Taylor, Nick",379,The Philadelphia Cricket Club (Wissahickon Course),sg_ott,0.7933426955031242,2025-05-11,-0.003490206789739149,534,Bellerive CC
-13126,"Taylor, Nick",729,Golf Club of Houston,sg_ott,0.6729397522271168,2018-04-01,-0.00459854119125609,534,Bellerive CC
-13126,"Taylor, Nick",243,Trinity Forest Golf Club,sg_ott,0.48717819735501044,2019-05-12,-0.0129268175566683,534,Bellerive CC
-13126,"Taylor, Nick",895,TPC Harding Park,sg_ott,0.33303756085574976,2020-08-09,-0.014290824193227435,534,Bellerive CC
-13126,"Taylor, Nick",5,Pebble Beach Golf Links,sg_putt,2.4675799675580623,2025-02-02,0.04863762323922452,534,Bellerive CC
-13126,"Taylor, Nick",6,Waialae Country Club,sg_putt,4.1398749593209265,2026-01-18,0.03888422857476823,534,Bellerive CC
-13126,"Taylor, Nick",908,Oakdale Golf & Country Club,sg_putt,0.5590591485863915,2023-06-11,0.012468113190436439,534,Bellerive CC
-13126,"Taylor, Nick",885,Royal Portrush Golf Club,sg_putt,0.8216013312952537,2025-07-20,0.008337762112402409,534,Bellerive CC
-13126,"Taylor, Nick",654,The Country Club,sg_putt,0.46766642700990924,2022-06-19,0.007466479546196118,534,Bellerive CC
-13126,"Taylor, Nick",379,The Philadelphia Cricket Club (Wissahickon Course),sg_putt,0.7933426955031242,2025-05-11,0.0055244715407159525,534,Bellerive CC
-13126,"Taylor, Nick",500,The Riviera Country Club,sg_putt,3.6642838991398348,2026-02-22,0.0041754224996836415,534,Bellerive CC
-13126,"Taylor, Nick",237,TPC Potomac at Avenel Farm,sg_putt,0.8734705393129805,2022-05-08,0.0032069756725085223,534,Bellerive CC
-13126,"Taylor, Nick",772,St. George's G&CC,sg_putt,0.5192429308206106,2022-06-12,0.002712849502096354,534,Bellerive CC
-13126,"Taylor, Nick",666,Pebble Beach Golf Links,sg_putt,0.26995500014600815,2019-06-16,0.0021168130692422625,534,Bellerive CC
-13126,"Taylor, Nick",2000,Sherwood Country Club,sg_putt,0.3461095276899044,2020-10-25,0.0016138400051594764,534,Bellerive CC
-13126,"Taylor, Nick",873,Ridgewood CC,sg_putt,0.23305052579947047,2018-08-26,9.264354462445444e-05,534,Bellerive CC
-13126,"Taylor, Nick",618,Shinnecock Hills Golf Club,sg_putt,0.9719022941461366,2026-06-21,-0.0008715776183199035,534,Bellerive CC
-13126,"Taylor, Nick",24,Congressional CC (Blue),sg_putt,0.1569230062457882,2016-06-26,-0.0011240861401226605,534,Bellerive CC
-13126,"Taylor, Nick",895,TPC Harding Park,sg_putt,0.33303756085574976,2020-08-09,-0.001835898497891565,534,Bellerive CC
-13126,"Taylor, Nick",4,Torrey Pines Golf Course (South Course),sg_putt,0.32070999023337854,2017-01-29,-0.0018487719727464961,534,Bellerive CC
-13126,"Taylor, Nick",528,Pinehurst Resort & Country Club (Course No. 2),sg_putt,0.6730066959373864,2024-06-16,-0.006413920147281055,534,Bellerive CC
-13126,"Taylor, Nick",926,Silverado Resort (North Course),sg_putt,0.7043358337451862,2024-09-15,-0.011198216729683881,534,Bellerive CC
-13126,"Taylor, Nick",688,East Lake Golf Club,sg_putt,1.4171085267606374,2025-08-24,-0.011233599795913105,534,Bellerive CC
-13126,"Taylor, Nick",241,Quail Hollow-PGA Championship,sg_putt,0.7961242598354537,2025-05-18,-0.013760964503889824,534,Bellerive CC
 23014,"Theegala, Sahith",23,Muirfield Village Golf Club,sg_app,3.846132717268031,2026-06-07,0.06581996451356902,534,Bellerive CC
 23014,"Theegala, Sahith",618,Shinnecock Hills Golf Club,sg_app,0.9719022941461366,2026-06-21,0.038386119927448115,534,Bellerive CC
 23014,"Theegala, Sahith",12,Harbour Town Golf Links,sg_app,3.3780317438937884,2026-04-19,0.032305878040100294,534,Bellerive CC
@@ -3387,20 +2507,6 @@ dg_id,player_name,course_num_b,course_name_b,skill,effective_events,last_played,
 12577,"Woodland, Gary",500,The Riviera Country Club,sg_putt,1.9561876278904173,2024-02-18,-0.02767503725288436,534,Bellerive CC
 12577,"Woodland, Gary",926,Silverado Resort (North Course),sg_putt,1.5492670971641225,2025-09-14,-0.030599555955650996,534,Bellerive CC
 12577,"Woodland, Gary",668,St. Andrews Links (Old Course),sg_putt,0.4742598029280199,2022-07-17,-0.04562418500333544,534,Bellerive CC
-29925,"Yellamaraju, Sudarshan",704,Pete Dye Stadium Course,sg_app,0.9030295516688768,2026-01-25,0.07728562014072989,534,Bellerive CC
-29925,"Yellamaraju, Sudarshan",6,Waialae Country Club,sg_app,0.8998744728467833,2026-01-18,0.021570711332747152,534,Bellerive CC
-29925,"Yellamaraju, Sudarshan",12,Harbour Town Golf Links,sg_app,0.9417645335842487,2026-04-19,0.006916698519114903,534,Bellerive CC
-29925,"Yellamaraju, Sudarshan",23,Muirfield Village Golf Club,sg_app,0.9651227342300005,2026-06-07,-0.021986553069786825,534,Bellerive CC
-29925,"Yellamaraju, Sudarshan",618,Shinnecock Hills Golf Club,sg_app,0.9719022941461366,2026-06-21,-0.05709383263643911,534,Bellerive CC
-29925,"Yellamaraju, Sudarshan",12,Harbour Town Golf Links,sg_arg,0.9417645335842487,2026-04-19,0.0025785699550646313,534,Bellerive CC
-29925,"Yellamaraju, Sudarshan",714,TPC Louisiana,sg_arg,0.9450664844951467,2026-04-26,-0.01771617240085781,534,Bellerive CC
-29925,"Yellamaraju, Sudarshan",23,Muirfield Village Golf Club,sg_ott,0.9651227342300005,2026-06-07,0.023324597996959708,534,Bellerive CC
-29925,"Yellamaraju, Sudarshan",6,Waialae Country Club,sg_putt,0.8998744728467833,2026-01-18,0.048017485312722014,534,Bellerive CC
-29925,"Yellamaraju, Sudarshan",4,Torrey Pines Golf Course (South Course),sg_putt,0.9061956926142708,2026-02-01,0.024601660550841013,534,Bellerive CC
-29925,"Yellamaraju, Sudarshan",618,Shinnecock Hills Golf Club,sg_putt,0.9719022941461366,2026-06-21,0.014800285916078324,534,Bellerive CC
-29925,"Yellamaraju, Sudarshan",927,Sawgrass Country Club,sg_total,1.3515904073362583,2024-12-15,0.06212039690422768,534,Bellerive CC
-29925,"Yellamaraju, Sudarshan",97,The Ocean Club Golf Course at Atlantis,sg_total,0.7486377929108912,2025-01-15,-0.0021607839160736487,534,Bellerive CC
-29925,"Yellamaraju, Sudarshan",90,TPC Colorado,sg_total,1.5012258062833719,2025-07-13,-0.013807272043609995,534,Bellerive CC
 26651,"Young, Cameron",500,The Riviera Country Club,sg_app,2.519155929642743,2026-02-22,0.06338911616595228,534,Bellerive CC
 26651,"Young, Cameron",724,Royal Liverpool,sg_app,0.5709235307061248,2023-07-23,0.03439541420667534,534,Bellerive CC
 26651,"Young, Cameron",704,Pete Dye Stadium Course,sg_app,0.9557890766119107,2023-01-22,0.02597593382522911,534,Bellerive CC

@@ -126,6 +126,68 @@ body {
 .page-nav-tab:hover { color: rgba(255,255,255,0.85); }
 .page-nav-tab.active { color: #fff; border-bottom-color: var(--gold); }
 
+/* ── UNDER-REPAIR BANNER ─────────────────────────────────────────────────────── */
+.repair-banner {
+  max-width: 1120px;
+  margin: 24px auto;
+  padding: 32px 36px;
+  background: var(--card);
+  border: 3px dashed var(--accent);
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+}
+.repair-banner-tag {
+  display: inline-block;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--accent);
+  padding: 5px 14px;
+  border-radius: 999px;
+  margin-bottom: 14px;
+}
+.repair-banner h2 {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.01em;
+  color: var(--text);
+  margin: 0 0 10px;
+}
+.repair-banner p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: 620px;
+  margin: 0 auto 18px;
+}
+.repair-banner .repair-cta {
+  display: inline-block;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #fff;
+  background: var(--accent);
+  padding: 11px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.15s, transform 0.15s;
+}
+.repair-banner .repair-cta:hover {
+  background: var(--accent-2);
+  transform: translateY(-1px);
+}
+@media (max-width: 640px) {
+  .repair-banner { margin: 16px; padding: 22px 20px; }
+  .repair-banner h2 { font-size: 24px; }
+  .repair-banner p  { font-size: 14px; }
+}
+
 /* ── INTRO CALLOUT ──────────────────────────────────────────────────────────── */
 .intro-callout {
   background: var(--surface);
@@ -388,12 +450,10 @@ select:hover, select:focus { border-color: var(--accent); }
 
 .player-name {
   font-family: 'Archivo Narrow', sans-serif;
-  font-size: 26px;
-  letter-spacing: 0.04em;
-  line-height: 1;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  font-size: 25px;
+  letter-spacing: 0.02em;
+  line-height: 1.04;
+  overflow-wrap: anywhere;   /* wrap long "Last, First" names to a 2nd line instead of clipping them */
 }
 
 .card-header-top {
